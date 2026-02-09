@@ -1,0 +1,15 @@
+llm:
+  provider: openai
+  base_url: https://ark-cn-beijing.bytedance.net/api/v3
+  model: ep-xxxxxxxxxxxxxxxxxxxxxxxx
+  api_key: YOUR_API_KEY
+
+embedding:
+  provider: ark_multimodal
+  base_url: https://ark-cn-beijing.bytedance.net/api/v3
+  model: ep-xxxxxxxxxxxxxxxxxxxxxxxx
+  api_key: YOUR_API_KEY
+  dim: 2048
+
+database:
+  url: postgresql://postgres:password@localhost:5432/simplememory

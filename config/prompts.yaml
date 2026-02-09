@@ -1,0 +1,254 @@
+# Prompt 模板配置
+# 三种推理范式适配器的提示模板
+
+single_turn:
+  synthesis: |
+    任务: {task}
+
+    记忆上下文:
+    {evidence_list}
+
+    指令: 仅基于上述上下文，直接回答任务。如果上下文信息不足，请明确说明。
+
+iterative:
+  decision: |
+    任务: {task}
+
+    已有上下文:
+    {context}
+
+    已尝试过的检索词:
+    {previous_queries}
+
+    你是一个严格基于检索证据回答问题的助手。
+
+    【重要规则】
+    1. 如果"已有上下文"为"暂无"或为空，你必须输出 SEARCH，禁止直接回答
+    2. 禁止使用你的内置知识回答，所有答案必须来自检索到的证据
+    3. 只有当上下文中明确包含可以回答任务的信息时，才输出 ANSWER
+    4. 禁止生成与"已尝试过的检索词"相同或高度相似的 query
+    5. 如果之前的检索未找到有用信息，尝试使用同义词或从不同角度切入
+
+    【Query 生成规范】
+    你的 query 会被直接送入向量检索系统（RAG），不是搜索引擎。
+    - 去语境化: query 必须自包含，不能用"他"、"它"、"该事件"等指代
+    - 关键词优先: 使用"实体名 + 属性"，避免完整问句
+    - 保留原文词汇: 任务中的专有名词、人名、地名应原样保留
+    - 长度适中: 5-15 词为宜
+
+    【示例】
+    任务: "What year did Morgan Paris first go to sea?"
+    - 错误 query: "他第一次出海是哪一年？" (有指代，是问句)
+    - 错误 query: "Morgan Paris" (太短，缺少属性)
+    - 正确 query: "Morgan Paris first voyage sea year"
+
+    任务: "In what country is Normandy located?"
+    - 错误 query: "这个地方在哪个国家？" (有指代)
+    - 正确 query: "Normandy country location"
+
+    判断当前状态，输出 JSON：
+    - 需要检索: {{"action": "SEARCH", "query": "检索词"}}
+    - 信息充足: {{"action": "ANSWER"}}
+
+    只输出 JSON，不要其他内容。
+
+  synthesis: |
+    任务: {task}
+
+    记忆上下文:
+    {evidence_list}
+
+    指令: 仅基于上述上下文回答任务。禁止使用任何内置知识，答案必须完全来自上下文。
+
+plan_and_act:
+  # Phase 1: 探索性规划 - 生成概览性的第一步
+  discovery: |
+    任务: {task}
+
+    你需要先进行探索性检索，了解任务涉及的基本信息结构。
+
+    【规则】
+    1. 生成一个探索性步骤，目标是概览/枚举/列出任务涉及的主要元素
+    2. 不要试图一次性获取所有细节
+    3. 步骤描述应该是"列出..."、"概览..."、"有哪些..."这类探索性问题
+
+    【Few-shot 示例】
+
+    示例1:
+    任务: "Summarize the life story of Morgan Paris, including key events and characters."
+    输出: {{"step": {{"description": "列出 Morgan Paris 经历的主要人生阶段或关键事件"}}}}
+
+    示例2:
+    任务: "Compare the differences between machine learning and deep learning."
+    输出: {{"step": {{"description": "列出 machine learning 的核心特点和定义"}}}}
+
+    示例3:
+    任务: "What were the main exports of the Normans?"
+    输出: {{"step": {{"description": "列出 Normans 的主要贸易商品或出口物品"}}}}
+
+    现在处理你的任务，输出 JSON:
+    {{"step": {{"description": "探索性步骤描述"}}}}
+
+    只输出 JSON，不要其他内容。
+
+  # Phase 2: 基于探索结果扩展细粒度计划
+  expansion: |
+    任务: {task}
+
+    探索阶段获得的信息:
+    {discovery_evidence}
+
+    基于探索结果，生成细粒度的执行计划。
+
+    【原子化规则 - 必须严格遵守】
+    1. 每个步骤必须是单一问题，禁止包含"及"、"和"、"以及"、","等并列结构
+    2. 禁止写"X的时间、地点、人物"，必须拆成3个独立步骤
+    3. 每个步骤只查询一个具体的信息点
+    4. 步骤数量: 简单任务 2-3 步，复杂任务 4-6 步
+
+    【Few-shot 示例】
+
+    示例1:
+    任务: "Summarize Morgan Paris's life story"
+    探索结果发现: 出海、被奴役、逃亡、返回英国
+
+    错误计划 (违反原子化):
+    {{"plan": [{{"step_id": 1, "description": "查找出海的时间、地点和原因"}}]}}
+
+    正确计划:
+    {{"plan": [
+      {{"step_id": 1, "description": "Morgan Paris 出海的时间"}},
+      {{"step_id": 2, "description": "Morgan Paris 出海的原因"}},
+      {{"step_id": 3, "description": "Morgan Paris 被奴役的经过"}},
+      {{"step_id": 4, "description": "Morgan Paris 逃亡的过程"}},
+      {{"step_id": 5, "description": "Morgan Paris 返回英国的时间"}}
+    ]}}
+
+    示例2:
+    任务: "What is the capital of Normandy?"
+    探索结果: Normandy is a region in France
+
+    正确计划 (简单任务，步骤少):
+    {{"plan": [
+      {{"step_id": 1, "description": "Normandy 的首府城市名称"}}
+    ]}}
+
+    现在基于你的探索结果生成计划，输出 JSON:
+    {{"plan": [{{"step_id": 1, "description": "..."}}, ...]}}
+
+    只输出 JSON，不要其他内容。
+
+  # 根据步骤描述 + 已有上下文动态生成 query
+  query_generation: |
+    任务: {task}
+    当前步骤目标: {step_description}
+
+    已有上下文:
+    {context}
+
+    根据当前步骤的目标，生成一个精准的检索词。
+
+    【Query 生成规范】
+    你的 query 会被直接送入向量检索系统（RAG），不是搜索引擎。
+
+    1. 去语境化: query 必须自包含，包含完整的实体名
+       - 错误: "他的出海时间"
+       - 正确: "Morgan Paris 出海时间"
+
+    2. 关键词组合: 使用"实体名 + 属性/动作"，避免完整问句
+       - 错误: "Morgan Paris 是在什么时候第一次出海的？"
+       - 正确: "Morgan Paris first sea voyage year"
+
+    3. 利用已有上下文: 如果上下文提到了具体名称，使用它
+       - 上下文提到 "the ship Doubloon"
+       - 好的 query: "Morgan Paris Doubloon voyage"
+
+    4. 保留原文语言: 如果任务是英文，query 也用英文
+
+    5. 长度: 3-10 词为宜
+
+    【Few-shot 示例】
+
+    示例1:
+    步骤目标: "Morgan Paris 出海的时间"
+    已有上下文: 暂无
+    输出: {{"query": "Morgan Paris first voyage sea year"}}
+
+    示例2:
+    步骤目标: "Morgan Paris 被奴役的经过"
+    已有上下文: [1] Morgan Paris was captured by pirates near Jamaica...
+    输出: {{"query": "Morgan Paris captured enslaved pirates Jamaica"}}
+
+    示例3:
+    步骤目标: "Normandy 的首府城市名称"
+    已有上下文: [1] Normandy is a region in northern France...
+    输出: {{"query": "Normandy capital city"}}
+
+    现在生成 query，输出 JSON:
+    {{"query": "检索词"}}
+
+    只输出 JSON，不要其他内容。
+
+  # 执行过程中的迭代检查（R2 式）
+  plan_check: |
+    任务: {task}
+
+    当前计划:
+    {current_plan}
+
+    已执行的步骤:
+    {executed_steps}
+
+    已收集的证据:
+    {evidence_list}
+
+    剩余未执行的步骤:
+    {remaining_steps}
+
+    你是一个严格基于检索证据回答问题的助手。
+
+    【判断规则】
+    1. 如果已收集的证据已经足够回答任务 → 输出 ANSWER（提前结束）
+    2. 如果还有剩余步骤且需要继续执行 → 输出 CONTINUE
+    3. 如果发现遗漏了重要信息（当前计划未覆盖），需要补充新步骤 → 输出 ADD_STEPS
+
+    【重要】
+    - 不要过早结束，除非证据确实充分
+    - 如果任务涉及多个方面，确保每个方面都有证据
+    - 补充步骤时遵循原子化原则（每步只查一个信息点）
+
+    【Few-shot 示例】
+
+    示例1: 信息足够
+    任务: "Normandy 在哪个国家？"
+    已收集证据: [1] Normandy is a region in northern France...
+    输出: {{"action": "ANSWER"}}
+
+    示例2: 继续执行
+    任务: "总结 Morgan Paris 的生平"
+    已执行: 步骤1 (出海时间)
+    剩余: 步骤2 (被奴役经过), 步骤3 (逃亡过程)
+    输出: {{"action": "CONTINUE"}}
+
+    示例3: 需要补充
+    任务: "Debbie 在哪里见到了她父亲？"
+    已收集证据只提到 Porch，但不确定是否正确
+    输出: {{"action": "ADD_STEPS", "new_steps": [{{"description": "Debbie 父亲出现的其他地点"}}]}}
+
+    现在判断，输出 JSON:
+    - {{"action": "ANSWER"}}
+    - {{"action": "CONTINUE"}}
+    - {{"action": "ADD_STEPS", "new_steps": [{{"description": "..."}}, ...]}}
+
+    只输出 JSON，不要其他内容。
+
+  synthesis: |
+    任务: {task}
+
+    执行计划:
+    {plan_summary}
+
+    收集到的证据:
+    {evidence_list}
+
+    指令: 仅基于收集到的证据回答任务。禁止使用任何内置知识。
