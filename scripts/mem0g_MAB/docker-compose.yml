@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: mem0g_qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./qdrant_storage:/qdrant/storage
+    environment:
+      - QDRANT__SERVICE__GRPC_PORT=6334
+    restart: always
+
+  neo4j:
+    image: neo4j:5.11.0
+    container_name: mem0g_neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - ./neo4j_data:/data
+      - ./neo4j_logs:/logs
+    environment:
+      - NEO4J_AUTH=neo4j/password123
+    restart: always
