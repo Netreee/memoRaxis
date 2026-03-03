@@ -1,5 +1,8 @@
 from typing import List, Dict, Any, Optional
 from src.memory_interface import BaseMemorySystem, Evidence
+from src.logger import get_logger
+
+_logger = get_logger()
 
 
 class Mem0(BaseMemorySystem):
@@ -62,6 +65,23 @@ class Mem0G(BaseMemorySystem):
             filters=self.filters
         )
 
+        # ---- Debug: 记录原始返回，验证图检索是否生效 ----
+        _logger.debug("[Mem0G.retrieve] raw search result keys: %s", list(results.keys()) if isinstance(results, dict) else type(results))
+        if isinstance(results, dict):
+            vector_hits = results.get("results", [])
+            graph_hits  = results.get("relations", [])
+            _logger.info(
+                "[Mem0G.retrieve] query=%r | vector_hits=%d | graph_relations=%d",
+                query[:60],
+                len(vector_hits),
+                len(graph_hits),
+            )
+            if graph_hits:
+                for i, rel in enumerate(graph_hits[:5]):
+                    _logger.info("  [graph #%d] %s", i, rel)
+            else:
+                _logger.warning("[Mem0G.retrieve] graph_relations 为空 — Neo4j 未返回任何关系！")
+
         evidences: List[Evidence] = []
 
         # ---- Defensive parse ----
@@ -112,8 +132,10 @@ class Mem0G(BaseMemorySystem):
 
             # Convert relation into readable text evidence
             source = rel.get("source", "")
-            relation = rel.get("relation", "")
-            target = rel.get("target", "")
+            # relation key might be 'relationship' or 'relation'
+            relation = rel.get("relation") or rel.get("relationship", "")
+            # target key might be 'destination' or 'target'
+            target = rel.get("target") or rel.get("destination", "")
 
             relation_text = f"{source} --[{relation}]--> {target}"
 

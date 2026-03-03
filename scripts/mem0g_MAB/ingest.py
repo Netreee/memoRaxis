@@ -8,9 +8,13 @@ from typing import List
 from mem0 import Memory
 from qdrant_client import QdrantClient
 try:
-    from neo4j import GraphDatabase
+    import neo4j
+    from neo4j import GraphDatabase, Session, Transaction
 except ImportError:
+    neo4j = None
     GraphDatabase = None
+    Session = None
+    Transaction = None
 
 # Add src to path
 sys.path.append(str(Path(__file__).resolve().parents[2]))
@@ -20,6 +24,55 @@ from src.mem0_utils import get_mem0_config
 from src.benchmark_utils import load_benchmark_data, chunk_context, parse_instance_indices
 
 logger = get_logger()
+
+# --- Patch for Neo4j Syntax Error with Hyphens ---
+def patch_neo4j_for_hyphens():
+    """
+    Monkey-patch neo4j.Session.run and neo4j.Transaction.run to quote relationship types 
+    that contain hyphens, avoiding 'Invalid input' syntax errors.
+    """
+    if not GraphDatabase or not Session or not Transaction:
+        return
+
+    # Only patch if not already patched
+    if getattr(Session, '_patched_for_hyphens', False):
+        return
+
+    original_session_run = Session.run
+    original_transaction_run = Transaction.run
+
+    def sanitize_query(query: str) -> str:
+        if not query: 
+            return query
+        # Regex to find unquoted relationship types with hyphens
+        # Pattern looks for: -[variable:Type-With-Hyphen]
+        # We capture variable (group 1) and Type (group 2)
+        # We ensure Type has at least one hyphen.
+        pattern = r"-\[\s*([a-zA-Z0-9_]*)\s*:\s*([a-zA-Z0-9_]*-[a-zA-Z0-9_\-]*)\s*\]"
+        
+        def replace(match):
+            var = match.group(1)
+            rel_type = match.group(2)
+            return f"-[{var}:`{rel_type}`]"
+        
+        # Apply replacement
+        return re.sub(pattern, replace, query)
+
+    def patched_session_run(self, query, parameters=None, **kwargs):
+        new_query = sanitize_query(query)
+        return original_session_run(self, new_query, parameters, **kwargs)
+
+    def patched_transaction_run(self, query, parameters=None, **kwargs):
+        new_query = sanitize_query(query)
+        return original_transaction_run(self, new_query, parameters, **kwargs)
+
+    Session.run = patched_session_run
+    Session._patched_for_hyphens = True
+    Transaction.run = patched_transaction_run
+    logger.info("Patched Neo4j driver to automatically backtick hyphenated relationship types.")
+
+# Apply the patch immediately
+patch_neo4j_for_hyphens()
 
 # --- Chunking Strategies ---
 

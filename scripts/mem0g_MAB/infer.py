@@ -37,10 +37,10 @@ def evaluate_adaptor(name: str, adaptor, questions: list, limit: int, template_n
     
     for i, q in enumerate(target_questions):
         logger.info(f"[{name}] Running Q{i+1}/{total}: {q}")
-        # if query_template:
-        #     formatted_q = query_template.format(question=q)
-        # else:
-        formatted_q = q
+        if query_template:
+            formatted_q = query_template.format(question=q)
+        else:
+            formatted_q = q
         try:
             res: AdaptorResult = adaptor.run(formatted_q)
             results.append({
