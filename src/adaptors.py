@@ -78,7 +78,7 @@ class SingleTurnAdaptor(BaseAdaptor):
     流程: run(task) → retrieve(task) → synthesize → answer
     """
 
-    def run(self, task: str, top_k: int = 5) -> AdaptorResult:
+    def run(self, task: str, top_k: int = 10) -> AdaptorResult:
         """执行单轮推理
 
         Args:
@@ -133,7 +133,7 @@ class IterativeAdaptor(BaseAdaptor):
         super().__init__(llm_client, memory_system)
         self._max_iterations = max_iterations
 
-    def run(self, task: str, top_k: int = 3) -> AdaptorResult:
+    def run(self, task: str, top_k: int = 10) -> AdaptorResult:
         """执行迭代推理
 
         Args:
@@ -223,7 +223,7 @@ class PlanAndActAdaptor(BaseAdaptor):
         self._max_additions = max_additions
         self._check_interval = check_interval
 
-    def run(self, task: str, top_k: int = 3) -> AdaptorResult:
+    def run(self, task: str, top_k: int = 10) -> AdaptorResult:
         """执行两阶段动态规划推理（带迭代检查）
 
         Args:

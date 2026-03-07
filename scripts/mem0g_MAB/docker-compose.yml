@@ -14,14 +14,14 @@ services:
     restart: always
 
   neo4j:
-    image: neo4j:5.11.0
+    image: neo4j:5.23.0
     container_name: mem0g_neo4j
     ports:
       - "7474:7474"
       - "7687:7687"
     volumes:
-      - ./neo4j_data:/data
-      - ./neo4j_logs:/logs
+      - ./neo4j_data2:/data
+      - ./neo4j_logs2:/logs
     environment:
       - NEO4J_AUTH=neo4j/password123
     restart: always

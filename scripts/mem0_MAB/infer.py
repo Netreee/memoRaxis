@@ -1,6 +1,7 @@
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 from typing import List, Optional
 from mem0 import Memory
@@ -20,27 +21,31 @@ logger = get_logger()
 
 # --- Shared Utilities ---
 
-def evaluate_adaptor(name: str, adaptor, questions: list, limit: int, template_name: str, template_type: str = 'query', agent_type: str = 'rag_agent') -> list:
+def evaluate_adaptor(name: str, adaptor, questions: list, limit: int, llm, template_name: str = None, template_type: str = 'query', agent_type: str = 'rag_agent') -> list:
     results = []
     target_questions = questions if limit == -1 else questions[:limit]
     total = len(target_questions)
-    
+
+    query_template = None
     if template_name:
         query_template = get_template(template_name, template_type, agent_type)
-    
+
     for i, q in enumerate(target_questions):
         logger.info(f"[{name}] Running Q{i+1}/{total}: {q}")
-        if template_name:
-            formatted_q = query_template.format(question=q)
-        else:
-            formatted_q = q
+        formatted_q = query_template.format(question=q) if query_template else q
         try:
+            llm.reset_stats()
+            t0 = time.time()
             res: AdaptorResult = adaptor.run(formatted_q)
+            latency = round(time.time() - t0, 2)
+            tokens = res.token_consumption
+            logger.info(f"[{name}] Q{i+1} done | latency={latency}s | tokens={tokens} | steps={res.steps_taken}")
             results.append({
                 "question": q,
                 "answer": res.answer,
                 "steps": res.steps_taken,
-                "tokens": res.token_consumption,
+                "tokens": tokens,
+                "latency_s": latency,
                 "replan": res.replan_count
             })
         except Exception as e:
@@ -156,7 +161,7 @@ def evaluate_one_instance(task: str, instance_idx: int, adaptors_to_run: List[st
             return
         collection_name = f"mem0_ttl_{instance_idx}"
         if instance_idx == 0:
-            template_name = "recsys_"
+            template_name = "recsys_redial"
         else:
             template_name = "icl_"
     
@@ -182,15 +187,15 @@ def evaluate_one_instance(task: str, instance_idx: int, adaptors_to_run: List[st
     task_short_name = task_short_map.get(task, task.lower())
 
     if "all" in adaptors_to_run or "R1" in adaptors_to_run:
-        res = evaluate_adaptor("R1", SingleTurnAdaptor(llm, memory), questions, limit, template_name)
+        res = evaluate_adaptor("R1", SingleTurnAdaptor(llm, memory), questions, limit, llm, template_name)
         results["R1"] = res
-        
+
     if "all" in adaptors_to_run or "R2" in adaptors_to_run:
-        res = evaluate_adaptor("R2", IterativeAdaptor(llm, memory), questions, limit, template_name)
+        res = evaluate_adaptor("R2", IterativeAdaptor(llm, memory), questions, limit, llm, template_name)
         results["R2"] = res
-        
+
     if "all" in adaptors_to_run or "R3" in adaptors_to_run:
-        res = evaluate_adaptor("R3", PlanAndActAdaptor(llm, memory), questions, limit, template_name)
+        res = evaluate_adaptor("R3", PlanAndActAdaptor(llm, memory), questions, limit, llm, template_name)
         results["R3"] = res
 
     final_report = {

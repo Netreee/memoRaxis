@@ -1,6 +1,7 @@
 import argparse
 import json
 import sys
+import time
 from pathlib import Path
 from typing import List
 
@@ -13,24 +14,36 @@ from src.benchmark_utils import load_benchmark_data, parse_instance_indices
 from src.llm_interface import OpenAIClient
 from src.adaptors import SingleTurnAdaptor, IterativeAdaptor, PlanAndActAdaptor, AdaptorResult
 from src.simple_memory import SimpleRAGMemory
+from MemoryAgentBench.utils.templates import get_template
 
 logger = get_logger()
 
-def evaluate_adaptor(name: str, adaptor, questions: list, limit: int) -> list:
+def evaluate_adaptor(name: str, adaptor, questions: list, limit: int, llm, template_name: str = None) -> list:
     results = []
     # limit -1 表示跑所有
     target_questions = questions if limit == -1 else questions[:limit]
     total = len(target_questions)
-    
+
+    query_template = None
+    if template_name:
+        query_template = get_template(template_name, 'query', 'rag_agent')
+
     for i, q in enumerate(target_questions):
         logger.info(f"[{name}] Running Q{i+1}/{total}: {q}")
+        formatted_q = query_template.format(question=q) if query_template else q
         try:
-            res: AdaptorResult = adaptor.run(q)
+            llm.reset_stats()
+            t0 = time.time()
+            res: AdaptorResult = adaptor.run(formatted_q)
+            latency = round(time.time() - t0, 2)
+            tokens = res.token_consumption
+            logger.info(f"[{name}] Q{i+1} done | latency={latency}s | tokens={tokens} | steps={res.steps_taken}")
             results.append({
                 "question": q,
                 "answer": res.answer,
                 "steps": res.steps_taken,
-                "tokens": res.token_consumption,
+                "tokens": tokens,
+                "latency_s": latency,
                 "replan": res.replan_count
             })
         except Exception as e:
@@ -65,11 +78,11 @@ def evaluate_one_instance(instance_idx: int, adaptors_to_run: List[str], limit: 
     results = {}
     
     if "all" in adaptors_to_run or "R1" in adaptors_to_run:
-        results["R1"] = evaluate_adaptor("R1", SingleTurnAdaptor(llm, memory), questions, limit)
+        results["R1"] = evaluate_adaptor("R1", SingleTurnAdaptor(llm, memory), questions, limit, llm, "ruler_qa")
     if "all" in adaptors_to_run or "R2" in adaptors_to_run:
-        results["R2"] = evaluate_adaptor("R2", IterativeAdaptor(llm, memory), questions, limit)
+        results["R2"] = evaluate_adaptor("R2", IterativeAdaptor(llm, memory), questions, limit, llm, "ruler_qa")
     if "all" in adaptors_to_run or "R3" in adaptors_to_run:
-        results["R3"] = evaluate_adaptor("R3", PlanAndActAdaptor(llm, memory), questions, limit)
+        results["R3"] = evaluate_adaptor("R3", PlanAndActAdaptor(llm, memory), questions, limit, llm, "ruler_qa")
 
     final_report = {
         "dataset": "Accurate_Retrieval",

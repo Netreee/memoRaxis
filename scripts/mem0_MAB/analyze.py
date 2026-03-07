@@ -147,7 +147,7 @@ def analyze_acc_ret(files: List[str], output_file: str = None):
                     count += 1
             scores[adaptor] = correct / count if count > 0 else 0.0
         
-        data[instance_idx] = scores
+        data.setdefault(instance_idx, {}).update(scores)
 
     _print_report("Accurate Retrieval", data, output_file)
 
@@ -189,7 +189,7 @@ def analyze_conflict(files: List[str], output_file: str = None):
                         correct += 1
                     count += 1
             scores[adaptor] = correct / count if count > 0 else 0.0
-        data[instance_idx] = scores
+        data.setdefault(instance_idx, {}).update(scores)
 
     _print_report("Conflict Resolution", data, output_file)
 
@@ -259,7 +259,7 @@ def analyze_ttl(files: List[str], output_file: str = None):
                 count += 1
             
             scores[adaptor] = correct / count if count > 0 else 0.0
-        data[instance_idx] = scores
+        data.setdefault(instance_idx, {}).update(scores)
 
     _print_report("Test Time Learning", data, output_file)
 
@@ -390,7 +390,7 @@ def analyze_lru(files: List[str], output_file: str = None):
             
             print(f"  [{adaptor}] F1: {metrics['f1']:.4f} (Rec: {metrics['recall']:.2f}, Prec: {metrics['precision']:.2f}, Flu: {metrics['fluency']})")
         
-        data[idx] = inst_scores
+        data.setdefault(idx, {}).update(inst_scores)
         print(f"Evaluated Instance {idx}")
 
     _print_report("Long Range Understanding", data, output_file)

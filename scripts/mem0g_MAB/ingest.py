@@ -3,6 +3,9 @@ import sys
 import os
 import re # Added for regex operations
 import json # Added for json operations
+import threading
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import List
 from mem0 import Memory
@@ -28,8 +31,10 @@ logger = get_logger()
 # --- Patch for Neo4j Syntax Error with Hyphens ---
 def patch_neo4j_for_hyphens():
     """
-    Monkey-patch neo4j.Session.run and neo4j.Transaction.run to quote relationship types 
-    that contain hyphens, avoiding 'Invalid input' syntax errors.
+    Monkey-patch neo4j.Session.run and neo4j.Transaction.run to backtick-quote
+    relationship types that are invalid Cypher identifiers:
+      - types containing hyphens (e.g. IS-A)
+      - types starting with a digit (e.g. 15th_busiest_airport_in)
     """
     if not GraphDatabase or not Session or not Transaction:
         return
@@ -42,20 +47,16 @@ def patch_neo4j_for_hyphens():
     original_transaction_run = Transaction.run
 
     def sanitize_query(query: str) -> str:
-        if not query: 
+        if not query:
             return query
-        # Regex to find unquoted relationship types with hyphens
-        # Pattern looks for: -[variable:Type-With-Hyphen]
-        # We capture variable (group 1) and Type (group 2)
-        # We ensure Type has at least one hyphen.
-        pattern = r"-\[\s*([a-zA-Z0-9_]*)\s*:\s*([a-zA-Z0-9_]*-[a-zA-Z0-9_\-]*)\s*\]"
-        
+
         def replace(match):
             var = match.group(1)
             rel_type = match.group(2)
             return f"-[{var}:`{rel_type}`]"
-        
-        # Apply replacement
+
+        # Match unquoted rel types that: (a) contain a hyphen, or (b) start with a digit
+        pattern = r"-\[\s*([a-zA-Z0-9_]*)\s*:\s*((?:[a-zA-Z0-9_]*-[a-zA-Z0-9_\-]*)|(?:\d[a-zA-Z0-9_]*))\s*\]"
         return re.sub(pattern, replace, query)
 
     def patched_session_run(self, query, parameters=None, **kwargs):
@@ -69,7 +70,7 @@ def patch_neo4j_for_hyphens():
     Session.run = patched_session_run
     Session._patched_for_hyphens = True
     Transaction.run = patched_transaction_run
-    logger.info("Patched Neo4j driver to automatically backtick hyphenated relationship types.")
+    logger.info("Patched Neo4j driver to backtick-quote invalid relationship type identifiers.")
 
 # Apply the patch immediately
 patch_neo4j_for_hyphens()
@@ -131,26 +132,26 @@ DATASETS = {
         "folder": None, # Uses parquet data loader
         "collection_prefix": "mem0g_acc_ret",
         "dataset_type": "acc_ret",
-        "default_chunk_size": 850
+        "default_chunk_size": 8000
     },
     "conflict_resolution": {
         "folder": "Conflict_Resolution",
         "collection_prefix": "mem0g_conflict",
         "dataset_type": "conflict_res",
-        "default_min_chars": 800
+        "default_min_chars": 8000
     },
     "long_range_understanding": {
         "folder": "Long_Range_Understanding",
         "collection_prefix": "mem0g_long_range",
         "dataset_type": "long_range",
-        "default_chunk_size": 1200,
-        "default_overlap": 100
+        "default_chunk_size": 24000,
+        "default_overlap": 1000
     },
     "test_time_learning": {
         "folder": "Test_Time_Learning",
         "collection_prefix": "mem0g_ttl",
         "dataset_type": "ttl",
-        "default_min_chars": 800
+        "default_min_chars": 12000
     }
 }
 
@@ -290,42 +291,82 @@ def ingest_one_instance(dataset: str, instance_idx: int, args):
         return
 
     # 4. Check Existing Data
-    user_id = "ingest_user"
+    user_id = f"instance_{instance_idx}"
+    existing_chunk_ids = set()
     if not args.force:
         try:
-            existing = memory.get_all(user_id=user_id, limit=1)
-            results = existing.get("results") if isinstance(existing, dict) else existing
+            # Retrieve all memories for this instance to see which chunks are already done
+            existing = memory.get_all(user_id=user_id, limit=2000)
+            mems = existing.get("results") if isinstance(existing, dict) else existing
+            for m in mems:
+                cid = m.get("metadata", {}).get("chunk_id")
+                if cid is not None:
+                    existing_chunk_ids.add(int(cid))
             
-            if results and len(results) > 0:
-                logger.info(f"Skipping Instance {instance_idx}: Collection {collection_name} already contains data. Use --force to overwrite.")
-                return
+            if existing_chunk_ids:
+                logger.info(f"Found {len(existing_chunk_ids)} chunks already ingested for Instance {instance_idx}. Resuming...")
         except Exception as e:
-            logger.debug(f"Pre-flight check failed (likely safe to proceed): {e}")
+            logger.debug(f"Pre-flight check failed (safe to proceed): {e}")
 
-    # 5. Ingest Loop
-    logger.info(f"Starting ingestion of {len(chunks)} chunks into Mem0G (Qdrant + Neo4j)...")
+    # 5. Optional: skip dedup (monkey-patch _search_graph_db → [] for fresh ingest)
+    if getattr(args, 'skip_dedup', False) and hasattr(memory, 'graph') and memory.graph is not None:
+        from mem0.memory.graph_memory import MemoryGraph
+        MemoryGraph._search_graph_db = lambda self, *a, **kw: []
+        logger.info("skip_dedup enabled: _search_graph_db patched to return []")
+
+    # 6. Ingest Loop (serial or parallel workers)
+    workers = getattr(args, 'workers', 1)
+    logger.info(f"Starting ingestion of {len(chunks)} chunks into Mem0G (workers={workers})...")
+
     success_count = 0
-    
-    for i, chunk in enumerate(chunks):
-        try:
-            metadata = {
-                "chunk_id": i,
-                "instance_idx": instance_idx,
-                "source": "MemoryAgentBench",
-                "ingest_type": "mem0g",
-                "dataset_type": config["dataset_type"]
-            }
-            # infer=False prevents automatic memory processing (summaries etc) if not needed, 
-            # but for Mem0G, adding often triggers graph extraction if include_graph=True.
-            memory.add(chunk, user_id=user_id, metadata=metadata, infer=False)
-            success_count += 1
-            
-            update_freq = 5
-            if (i + 1) % update_freq == 0:
-                logger.info(f"Progress: {i + 1}/{len(chunks)} chunks added")
-        except Exception as e:
-            logger.error(f"Failed to add chunk {i}: {e}")
-            
+    _lock = threading.Lock()
+
+    def _add_chunk(i: int, chunk: str) -> bool:
+        if i in existing_chunk_ids and not args.force:
+            logger.info(f"Skipping chunk {i}/{len(chunks)}: Already exists.")
+            return True
+        metadata = {
+            "chunk_id": i,
+            "instance_idx": instance_idx,
+            "source": "MemoryAgentBench",
+            "ingest_type": "mem0g",
+            "dataset_type": config["dataset_type"]
+        }
+        max_retries = 3
+        for attempt in range(max_retries + 1):
+            try:
+                memory.add(chunk, user_id=user_id, metadata=metadata, infer=False)
+                return True
+            except Exception as e:
+                err_str = str(e)
+                is_rate_limit = "429" in err_str or "RateLimitExceeded" in err_str
+                if is_rate_limit and attempt < max_retries:
+                    delay = 60 * (2 ** attempt)  # 60s, 120s, 240s
+                    logger.warning(f"Chunk {i}: 429 rate limit, retry {attempt+1}/{max_retries} in {delay}s")
+                    time.sleep(delay)
+                    continue
+                logger.error(f"Failed to add chunk {i}: {e}")
+                return False
+        return False
+
+    if workers <= 1:
+        for i, chunk in enumerate(chunks):
+            ok = _add_chunk(i, chunk)
+            if ok:
+                success_count += 1
+                logger.info(f"Progress: {success_count}/{len(chunks)} chunks added")
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            future_to_idx = {executor.submit(_add_chunk, i, chunk): i for i, chunk in enumerate(chunks)}
+            for future in as_completed(future_to_idx):
+                ok = future.result()
+                with _lock:
+                    if ok:
+                        success_count += 1
+                    done = success_count
+                if ok:
+                    logger.info(f"Progress: {done}/{len(chunks)} chunks added")
+
     logger.info(f"Instance {instance_idx} complete: {success_count}/{len(chunks)} chunks ingested.")
 
 def main():
@@ -350,8 +391,45 @@ def main():
         default=None,
         help="Neo4j database name override. Default follows collection name per instance.",
     )
+    # --neo4j_instance 用于大规模并行入库：启动 3 个独立的 Docker Neo4j CE 容器，
+    # 每个容器对应一个端口（7687 / 7688 / 7689），每对进程挂同一个容器，彼此完全隔离。
+    # 这样可以消除多进程共享单个 Neo4j 实例时的写锁竞争，将 mem0g 并行效率从 44% 提升到 ~80%。
+    # 端口映射：1 → bolt://localhost:7687  2 → bolt://localhost:7688  3 → bolt://localhost:7689
+    parser.add_argument(
+        "--neo4j_instance",
+        type=int,
+        default=1,
+        choices=[1, 2, 3],
+        help=(
+            "Docker Neo4j CE instance to connect to (1/2/3). "
+            "Maps to bolt://localhost:7687/7688/7689. "
+            "Use different instances for parallel ingest workers to avoid write-lock contention."
+        ),
+    )
+    parser.add_argument(
+        "--skip_dedup",
+        action="store_true",
+        help=(
+            "Skip graph dedup step (_search_graph_db → []) for fresh ingest. "
+            "Removes LLM#3 + N embedding calls per chunk, ~30-40%% speedup."
+        ),
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Number of parallel chunk-ingest workers (default: 1). Each worker uses ~1 concurrent LLM call.",
+    )
 
     args = parser.parse_args()
+
+    # 根据 --neo4j_instance 设置 NEO4J_URL 环境变量，供 src/mem0_utils.py 读取。
+    # 只在未被外部显式设置时覆盖，允许直接用 NEO4J_URL=... 启动进程绕过此逻辑。
+    neo4j_port_map = {1: 7687, 2: 7688, 3: 7689}
+    if not os.getenv("NEO4J_URL"):
+        port = neo4j_port_map[args.neo4j_instance]
+        os.environ["NEO4J_URL"] = f"bolt://localhost:{port}"
+        logger.info(f"Neo4j instance {args.neo4j_instance} → bolt://localhost:{port}")
 
     indices = parse_instance_indices(args.instance_idx)
     logger.info(f"Target Dataset: {args.dataset}")

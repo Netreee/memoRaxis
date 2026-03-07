@@ -6,6 +6,7 @@
 """
 
 import logging
+import os
 import sys
 import shlex
 from datetime import datetime
@@ -24,9 +25,9 @@ def _init_logger() -> logging.Logger:
     log_dir = Path(__file__).parent.parent / "log"
     log_dir.mkdir(exist_ok=True)
 
-    # 生成日志文件名
+    # 生成日志文件名，加入 PID 避免并发子进程（如 dispatcher 批量启动时）写入同一文件
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    _log_file_path = log_dir / f"{timestamp}.log"
+    _log_file_path = log_dir / f"{timestamp}-{os.getpid()}.log"
 
     # 创建 logger
     logger = logging.getLogger("memoRaxis")

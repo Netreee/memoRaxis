@@ -48,28 +48,46 @@ def chunk_context(context: str, chunk_size: int = 850, overlap: int = 50) -> Lis
     """
     将长 Context 切分为文档片段。
     策略：
-    1. 优先尝试 "Document N:" 标记切分。
-    2. 如果没有标记，使用固定长度滑动窗口切分。
+    1. 优先尝试 "Document N:" 标记切分，然后按 chunk_size 合并碎片。
+       - chunk_size 小 → 每个 Document 单独一个 chunk
+       - chunk_size 大 → 多个 Document 合并进一个 chunk
+    2. 如果没有标记，使用固定长度滑动窗口切分（overlap 仅此模式生效）。
     """
     regex_chunks = re.split(r"Document \d+:\n", context)
     valid_regex_chunks = [c.strip() for c in regex_chunks if len(c.strip()) > 10]
-    
+
     if len(valid_regex_chunks) > 1:
-        logger.info(f"Chunking Strategy: Regex split ('Document N:'). Result: {len(valid_regex_chunks)} chunks.")
-        return valid_regex_chunks
-    
+        # 按 chunk_size 合并：累积 Document 片段直到超过目标大小
+        merged = []
+        buf = []
+        buf_len = 0
+        for doc in valid_regex_chunks:
+            if buf and buf_len + len(doc) > chunk_size:
+                merged.append("\n\n".join(buf))
+                buf = []
+                buf_len = 0
+            buf.append(doc)
+            buf_len += len(doc)
+        if buf:
+            merged.append("\n\n".join(buf))
+        logger.info(
+            f"Chunking Strategy: Regex split ('Document N:') + merge. "
+            f"Result: {len(merged)} chunks (chunk_size={chunk_size}, "
+            f"raw_docs={len(valid_regex_chunks)})."
+        )
+        return merged
+
     logger.info("Chunking Strategy: Fallback to Fixed-size Sliding Window.")
     chunks = []
     start = 0
     text_len = len(context)
-    
+
     while start < text_len:
         end = min(start + chunk_size, text_len)
-        chunk = context[start:end]
-        chunks.append(chunk)
+        chunks.append(context[start:end])
         if end == text_len:
             break
         start += chunk_size - overlap
-        
+
     logger.info(f"Result: {len(chunks)} chunks (size={chunk_size}, overlap={overlap}).")
     return chunks
