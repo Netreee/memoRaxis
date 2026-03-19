@@ -81,23 +81,23 @@ DATASETS = {
     "accurate_retrieval": {
         "folder": None, # Uses parquet data loader
         "user_prefix": "mirix_acc_ret",
-        "default_chunk_size": 850
+        "default_chunk_size": 8000       # 对齐 mem0, ~2400 tokens/chunk
     },
     "conflict_resolution": {
         "folder": "Conflict_Resolution",
         "user_prefix": "mirix_conf_res",
-        "default_min_chars": 800
+        "default_min_chars": 8000        # 对齐 mem0
     },
     "long_range_understanding": {
         "folder": "Long_Range_Understanding",
         "user_prefix": "mirix_long_range",
-        "default_chunk_size": 1200,
-        "default_overlap": 100
+        "default_chunk_size": 24000,     # 对齐 mem0
+        "default_overlap": 300
     },
     "test_time_learning": {
         "folder": "Test_Time_Learning",
         "user_prefix": "mirix_ttl",
-        "default_min_chars": 800
+        "default_min_chars": 12000       # 对齐 mem0; 对话模式按 Dialogue N: 切割, 不受此参数影响
     }
 }
 
@@ -201,8 +201,9 @@ def ingest_one_instance(dataset: str, instance_idx: int, args):
 
     # 4. Ingest Loop
     logger.info(f"Starting ingestion of {len(chunks)} chunks into MIRIX...")
+    ingest_start = time.time()
     success_count = 0
-    
+
     for i, chunk in enumerate(chunks):
         if args.max_chunks is not None and i >= args.max_chunks:
             logger.info(f"Reached max_chunks limit ({args.max_chunks}); exiting early.")
@@ -215,18 +216,21 @@ def ingest_one_instance(dataset: str, instance_idx: int, args):
                 "dataset": dataset,
                 "source": "MemoryAgentBench"
             }
-            
+
+            chunk_t0 = time.time()
             memory_system.add_memory(chunk, metadata=metadata)
-            
+            last_chunk_latency = round(time.time() - chunk_t0, 2)
+
             update_freq = 50 if len(chunks) > 50 else 10
             if (i + 1) % update_freq == 0:
-                logger.info(f"Progress: {i + 1}/{len(chunks)} chunks queued")
+                logger.info(f"Progress: {i + 1}/{len(chunks)} chunks queued | last_chunk_latency={last_chunk_latency}s")
             success_count += 1
-                             
+
         except Exception as e:
             logger.error(f"Failed to add chunk {i}: {e}")
-            
-    logger.info(f"Instance {instance_idx} complete: {success_count} chunks ingested.")
+
+    total_time = round(time.time() - ingest_start, 2)
+    logger.info(f"Instance {instance_idx} complete: {success_count} chunks ingested in {total_time}s (token tracking N/A — MIRIX internal LLM calls)")
 
 def main():
     parser = argparse.ArgumentParser(description="Ingest MemoryAgentBench data into MIRIX (Unified)")

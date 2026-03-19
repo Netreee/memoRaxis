@@ -177,6 +177,7 @@ class IterativeAdaptor(BaseAdaptor):
             self._logger.info("[Iterative] 迭代 %d: 决策=SEARCH, query='%s'", iteration + 1, query)
             new_evidences = self._memory.retrieve(query, top_k=top_k)
             all_evidences.extend(new_evidences)
+            all_evidences = all_evidences[-30:]  # 防止超窗口：只保留最近 30 条
             self._log_evidences(new_evidences, f"[Iterative] 迭代 {iteration + 1}")
 
         # 综合生成
@@ -283,6 +284,7 @@ class PlanAndActAdaptor(BaseAdaptor):
             # 执行检索
             evidences = self._memory.retrieve(query, top_k=top_k)
             all_evidences.extend(evidences)
+            all_evidences = all_evidences[-30:]  # 防止超窗口：只保留最近 30 条
             self._log_evidences(evidences, f"[PlanAndAct] 步骤 {step_index + 1}")
 
             # 记录已执行步骤

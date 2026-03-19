@@ -143,6 +143,12 @@ def save_results(final_report: dict, task_name: str, instance_idx: int, output_s
     output_file = output_dir / filename
     
     try:
+        # 合并已有结果，避免覆盖其他 adaptor 的数据
+        if output_file.exists():
+            existing = json.load(open(output_file, encoding="utf-8"))
+            for a, v in existing.get("results", {}).items():
+                if a not in final_report["results"]:
+                    final_report["results"][a] = v
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(final_report, f, indent=2, ensure_ascii=False)
         logger.info(f"Instance {instance_idx} Finished. Results saved to {output_file}")
@@ -277,7 +283,7 @@ def main():
                         help="The task/dataset to evaluate")
                         
     parser.add_argument("--adaptor", nargs='+', default=["all"], choices=["R1", "R2", "R3", "all"], help="Adaptors to run")
-    parser.add_argument("--limit", type=int, default=5, help="Number of questions to run (-1 for all)")
+    parser.add_argument("--limit", type=int, default=-1, help="Number of questions to run (-1 for all)")
     parser.add_argument("--instance_idx", type=str, default="0", help="Index range (e.g., '0-5', '1,3')")
     parser.add_argument("--output_suffix", type=str, default="", help="Suffix for output filename")
     parser.add_argument(

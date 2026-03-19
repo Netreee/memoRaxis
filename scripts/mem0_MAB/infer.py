@@ -216,7 +216,7 @@ def main():
                         help="The task/dataset to evaluate")
                         
     parser.add_argument("--adaptor", nargs='+', default=["all"], choices=["R1", "R2", "R3", "all"], help="Adaptors to run")
-    parser.add_argument("--limit", type=int, default=5, help="Number of questions to run (-1 for all)")
+    parser.add_argument("--limit", type=int, default=-1, help="Number of questions to run (-1 for all)")
     parser.add_argument("--instance_idx", type=str, default="0", help="Index range (e.g., '0-5', '1,3')")
     parser.add_argument("--output_suffix", type=str, default="", help="Suffix for output filename")
     

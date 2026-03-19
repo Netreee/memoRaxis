@@ -1,0 +1,3256 @@
+{
+  "dataset": "Test_Time_Learning",
+  "instance_idx": 5,
+  "results": {
+    "R1": [
+      {
+        "question": "What is the population of Venezuela ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 1,
+        "tokens": 2880,
+        "latency_s": 3.95,
+        "replan": 0
+      },
+      {
+        "question": "What does target heart rate mean ?",
+        "answer": "上下文信息不足，无法确定该问题对应的标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2996,
+        "latency_s": 9.11,
+        "replan": 0
+      },
+      {
+        "question": "What currency does Luxembourg use ?",
+        "answer": "{32}",
+        "ground_truth": [
+          "32"
+        ],
+        "steps": 1,
+        "tokens": 2896,
+        "latency_s": 5.44,
+        "replan": 0
+      },
+      {
+        "question": "How long did Rip Van Winkle sleep ?",
+        "answer": "上下文信息不足",
+        "ground_truth": [
+          "18"
+        ],
+        "steps": 1,
+        "tokens": 3017,
+        "latency_s": 7.84,
+        "replan": 0
+      },
+      {
+        "question": "Material called linen is made from what plant ?",
+        "answer": "{17}",
+        "ground_truth": [
+          "17"
+        ],
+        "steps": 1,
+        "tokens": 3046,
+        "latency_s": 9.57,
+        "replan": 0
+      },
+      {
+        "question": "What is phenylalanine ?",
+        "answer": "上下文信息不足，无法为该问题分配标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3036,
+        "latency_s": 5.81,
+        "replan": 0
+      },
+      {
+        "question": "What is a group of turkeys called ?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 3028,
+        "latency_s": 8.29,
+        "replan": 0
+      },
+      {
+        "question": "What are enzymes ?",
+        "answer": "上下文信息不足，无法为问题“What are enzymes ?”分配标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3027,
+        "latency_s": 7.72,
+        "replan": 0
+      },
+      {
+        "question": "Why is the sun yellow ?",
+        "answer": "上下文信息不足",
+        "ground_truth": [
+          "43"
+        ],
+        "steps": 1,
+        "tokens": 2965,
+        "latency_s": 5.73,
+        "replan": 0
+      },
+      {
+        "question": "What state is the geographic center of the lower 48 states ?",
+        "answer": "上下文信息不足，无法确定该问题对应的标签。",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 1,
+        "tokens": 2974,
+        "latency_s": 8.3,
+        "replan": 0
+      },
+      {
+        "question": "What is foot and mouth disease ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "7"
+        ],
+        "steps": 1,
+        "tokens": 2824,
+        "latency_s": 3.95,
+        "replan": 0
+      },
+      {
+        "question": "What is sonar ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2800,
+        "latency_s": 3.17,
+        "replan": 0
+      },
+      {
+        "question": "When was Thomas Jefferson born ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 2951,
+        "latency_s": 4.4,
+        "replan": 0
+      },
+      {
+        "question": "What is the Ohio state bird ?",
+        "answer": "16",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 2873,
+        "latency_s": 6.53,
+        "replan": 0
+      },
+      {
+        "question": "What are the colors of the German flag ?",
+        "answer": "{3}",
+        "ground_truth": [
+          "3"
+        ],
+        "steps": 1,
+        "tokens": 2939,
+        "latency_s": 5.8,
+        "replan": 0
+      },
+      {
+        "question": "Who won Ms. American in 1989 ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 2843,
+        "latency_s": 3.77,
+        "replan": 0
+      },
+      {
+        "question": "Where on the body is a mortarboard worn ?",
+        "answer": "{13}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 3025,
+        "latency_s": 6.66,
+        "replan": 0
+      },
+      {
+        "question": "What is the width of a football field ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 2980,
+        "latency_s": 6.25,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Canada ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 2752,
+        "latency_s": 6.63,
+        "replan": 0
+      },
+      {
+        "question": "What is the conversion rate between dollars and pounds ?",
+        "answer": "{34}",
+        "ground_truth": [
+          "34"
+        ],
+        "steps": 1,
+        "tokens": 2942,
+        "latency_s": 4.05,
+        "replan": 0
+      },
+      {
+        "question": "What is fibromyalgia ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2799,
+        "latency_s": 2.71,
+        "replan": 0
+      },
+      {
+        "question": "What are the spots on dominoes called ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 1,
+        "tokens": 2885,
+        "latency_s": 4.29,
+        "replan": 0
+      },
+      {
+        "question": "What city is also known as `` The Gateway to the West '' ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 1,
+        "tokens": 2838,
+        "latency_s": 9.26,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered x-rays ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 2948,
+        "latency_s": 5.86,
+        "replan": 0
+      },
+      {
+        "question": "How much does water weigh ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "39"
+        ],
+        "steps": 1,
+        "tokens": 2964,
+        "latency_s": 6.7,
+        "replan": 0
+      },
+      {
+        "question": "Mercury , what year was it discovered ?",
+        "answer": "上下文信息不足，无法确定该问题对应的标签。",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 2906,
+        "latency_s": 5.83,
+        "replan": 0
+      },
+      {
+        "question": "Where do apple snails live ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 3016,
+        "latency_s": 6.63,
+        "replan": 0
+      },
+      {
+        "question": "What is the rainiest place on Earth ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2738,
+        "latency_s": 5.72,
+        "replan": 0
+      },
+      {
+        "question": "Who invented the hula hoop ?",
+        "answer": "{28}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 3612,
+        "latency_s": 23.07,
+        "replan": 0
+      },
+      {
+        "question": "What is the longest suspension bridge in the U.S. ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2886,
+        "latency_s": 4.76,
+        "replan": 0
+      },
+      {
+        "question": "What is plastic made of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 2912,
+        "latency_s": 4.79,
+        "replan": 0
+      },
+      {
+        "question": "How far is it from Denver to Aspen ?",
+        "answer": "9",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 2991,
+        "latency_s": 8.43,
+        "replan": 0
+      },
+      {
+        "question": "What is the criterion for being legally blind ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 1,
+        "tokens": 3011,
+        "latency_s": 6.25,
+        "replan": 0
+      },
+      {
+        "question": "Who invented the instant Polaroid camera ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 3084,
+        "latency_s": 8.78,
+        "replan": 0
+      },
+      {
+        "question": "What is the distance in miles from the earth to the sun ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 2855,
+        "latency_s": 2.63,
+        "replan": 0
+      },
+      {
+        "question": "In which state would you find the Catskill Mountains ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 1,
+        "tokens": 3180,
+        "latency_s": 10.82,
+        "replan": 0
+      },
+      {
+        "question": "What is a prism ?",
+        "answer": "上下文信息不足",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2825,
+        "latency_s": 3.95,
+        "replan": 0
+      },
+      {
+        "question": "How fast is sound ?",
+        "answer": "15",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 1,
+        "tokens": 3149,
+        "latency_s": 12.0,
+        "replan": 0
+      },
+      {
+        "question": "What does cc in engines mean ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3004,
+        "latency_s": 5.62,
+        "replan": 0
+      },
+      {
+        "question": "What is an ulcer ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3446,
+        "latency_s": 21.65,
+        "replan": 0
+      },
+      {
+        "question": "What is compounded interest ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2879,
+        "latency_s": 3.19,
+        "replan": 0
+      },
+      {
+        "question": "What does CPR stand for ?",
+        "answer": "{37}",
+        "ground_truth": [
+          "37"
+        ],
+        "steps": 1,
+        "tokens": 2852,
+        "latency_s": 4.72,
+        "replan": 0
+      },
+      {
+        "question": "What is hybridization ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2919,
+        "latency_s": 7.5,
+        "replan": 0
+      },
+      {
+        "question": "How fast is alcohol absorbed ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 1,
+        "tokens": 2940,
+        "latency_s": 5.64,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first American to walk in space ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 3107,
+        "latency_s": 8.41,
+        "replan": 0
+      },
+      {
+        "question": "What are pediatricians ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3260,
+        "latency_s": 15.66,
+        "replan": 0
+      },
+      {
+        "question": "What is the sales tax rate in New York ?",
+        "answer": "上下文信息不足",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 1,
+        "tokens": 2866,
+        "latency_s": 5.53,
+        "replan": 0
+      },
+      {
+        "question": "What is the money they use in Zambia ?",
+        "answer": "{32}",
+        "ground_truth": [
+          "32"
+        ],
+        "steps": 1,
+        "tokens": 2908,
+        "latency_s": 6.64,
+        "replan": 0
+      },
+      {
+        "question": "What is acetic acid ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2940,
+        "latency_s": 6.25,
+        "replan": 0
+      },
+      {
+        "question": "When was Lyndon B. Johnson born ?",
+        "answer": "上下文信息不足，无法为该问题分配标签。",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 2928,
+        "latency_s": 5.35,
+        "replan": 0
+      },
+      {
+        "question": "In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?",
+        "answer": "上下文信息不足，无法分配标签。",
+        "ground_truth": [
+          "44"
+        ],
+        "steps": 1,
+        "tokens": 2820,
+        "latency_s": 3.38,
+        "replan": 0
+      },
+      {
+        "question": "How cold should a refrigerator be ?",
+        "answer": "上下文信息不足，无法为该问题分配标签。",
+        "ground_truth": [
+          "2"
+        ],
+        "steps": 1,
+        "tokens": 3207,
+        "latency_s": 14.56,
+        "replan": 0
+      },
+      {
+        "question": "What is another astronomic term for the Northern Lights ?",
+        "answer": "{27}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 1,
+        "tokens": 3063,
+        "latency_s": 10.25,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Shawnee National Forest ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2778,
+        "latency_s": 2.78,
+        "replan": 0
+      },
+      {
+        "question": "How much of an apple is water ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "9"
+        ],
+        "steps": 1,
+        "tokens": 3085,
+        "latency_s": 9.37,
+        "replan": 0
+      },
+      {
+        "question": "What is strep throat ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3012,
+        "latency_s": 6.34,
+        "replan": 0
+      },
+      {
+        "question": "What is poliomyelitis ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2915,
+        "latency_s": 6.88,
+        "replan": 0
+      },
+      {
+        "question": "What is the temperature at the center of the earth ?",
+        "answer": "{2}",
+        "ground_truth": [
+          "2"
+        ],
+        "steps": 1,
+        "tokens": 3025,
+        "latency_s": 8.08,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Lourve ?",
+        "answer": "{5}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2777,
+        "latency_s": 6.61,
+        "replan": 0
+      },
+      {
+        "question": "What is the longest bone in the human body ?",
+        "answer": "上下文信息不足，无法确定该问题对应的标签。",
+        "ground_truth": [
+          "13"
+        ],
+        "steps": 1,
+        "tokens": 3207,
+        "latency_s": 12.08,
+        "replan": 0
+      },
+      {
+        "question": "What state has the least amount of rain per year ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 1,
+        "tokens": 2820,
+        "latency_s": 5.52,
+        "replan": 0
+      },
+      {
+        "question": "What is neurology ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3299,
+        "latency_s": 16.34,
+        "replan": 0
+      },
+      {
+        "question": "What is the statue of liberty made of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 2956,
+        "latency_s": 5.82,
+        "replan": 0
+      },
+      {
+        "question": "What was W.C. Fields ' real name ?",
+        "answer": "上下文信息不足，无法为该问题分配标签。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 3041,
+        "latency_s": 6.03,
+        "replan": 0
+      },
+      {
+        "question": "What is solar wind ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2797,
+        "latency_s": 2.95,
+        "replan": 0
+      },
+      {
+        "question": "What position did Willie Davis play in baseball ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 1,
+        "tokens": 2959,
+        "latency_s": 6.45,
+        "replan": 0
+      },
+      {
+        "question": "Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 2896,
+        "latency_s": 3.05,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first woman governor in the U.S. ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 3001,
+        "latency_s": 9.11,
+        "replan": 0
+      },
+      {
+        "question": "What are solar cells ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3324,
+        "latency_s": 16.89,
+        "replan": 0
+      },
+      {
+        "question": "When was the telephone invented ?",
+        "answer": "The context information is insufficient.",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 2918,
+        "latency_s": 4.11,
+        "replan": 0
+      },
+      {
+        "question": "What is another name for vitamin B1 ?",
+        "answer": "上下文信息不足",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 1,
+        "tokens": 3380,
+        "latency_s": 18.61,
+        "replan": 0
+      },
+      {
+        "question": "What is the major fault line near Kentucky ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 1,
+        "tokens": 2916,
+        "latency_s": 6.67,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Savannah River ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2836,
+        "latency_s": 2.94,
+        "replan": 0
+      },
+      {
+        "question": "What city 's newspaper is called `` The Star '' ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 1,
+        "tokens": 2712,
+        "latency_s": 5.88,
+        "replan": 0
+      },
+      {
+        "question": "What planet has the strongest magnetic field of all the planets ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 3583,
+        "latency_s": 22.34,
+        "replan": 0
+      },
+      {
+        "question": "What is severance pay ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2844,
+        "latency_s": 2.6,
+        "replan": 0
+      },
+      {
+        "question": "What breed of hunting dog did the Beverly Hillbillies own ?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 2946,
+        "latency_s": 5.01,
+        "replan": 0
+      },
+      {
+        "question": "What is the population of China ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 1,
+        "tokens": 2925,
+        "latency_s": 5.21,
+        "replan": 0
+      },
+      {
+        "question": "What are semiconductors ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3015,
+        "latency_s": 7.66,
+        "replan": 0
+      },
+      {
+        "question": "What body of water are the Canary Islands in ?",
+        "answer": "上下文信息不足，无法确定该问题对应的label。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2877,
+        "latency_s": 5.28,
+        "replan": 0
+      },
+      {
+        "question": "What does the word fortnight mean ?",
+        "answer": "{22}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2980,
+        "latency_s": 7.64,
+        "replan": 0
+      },
+      {
+        "question": "What monastery was raided by Vikings in the late eighth century ?",
+        "answer": "上下文信息不足，无法分配标签。",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 1,
+        "tokens": 3662,
+        "latency_s": 26.28,
+        "replan": 0
+      },
+      {
+        "question": "What did Edward Binney and Howard Smith invent in 1903 ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 1,
+        "tokens": 3008,
+        "latency_s": 9.71,
+        "replan": 0
+      },
+      {
+        "question": "When was President Kennedy shot ?",
+        "answer": "The context does not provide information about when President Kennedy was shot.",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 3001,
+        "latency_s": 5.77,
+        "replan": 0
+      },
+      {
+        "question": "What is a thermometer ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2979,
+        "latency_s": 7.36,
+        "replan": 0
+      },
+      {
+        "question": "What is the earth 's diameter ?",
+        "answer": "{49}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 3005,
+        "latency_s": 5.56,
+        "replan": 0
+      },
+      {
+        "question": "What is mold ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3434,
+        "latency_s": 18.19,
+        "replan": 0
+      },
+      {
+        "question": "What does `` Sitting Shiva '' mean ?",
+        "answer": "信息不足",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2802,
+        "latency_s": 2.71,
+        "replan": 0
+      },
+      {
+        "question": "What is desktop publishing ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3333,
+        "latency_s": 23.29,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered radium ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 2917,
+        "latency_s": 5.0,
+        "replan": 0
+      },
+      {
+        "question": "What is mad cow disease ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 2956,
+        "latency_s": 4.4,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of Lake Champlain ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2821,
+        "latency_s": 3.43,
+        "replan": 0
+      },
+      {
+        "question": "What is the proper name for a female walrus ?",
+        "answer": "16",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 3088,
+        "latency_s": 10.57,
+        "replan": 0
+      },
+      {
+        "question": "When was Rosa Parks born ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 2924,
+        "latency_s": 3.68,
+        "replan": 0
+      },
+      {
+        "question": "When were William Shakespeare 's twins born ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 2941,
+        "latency_s": 5.89,
+        "replan": 0
+      },
+      {
+        "question": "What is natural gas composed of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 3110,
+        "latency_s": 11.01,
+        "replan": 0
+      },
+      {
+        "question": "How tall is the Gateway Arch in St. Louis , MO ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 3033,
+        "latency_s": 9.07,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first governor of Alaska ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 2862,
+        "latency_s": 6.16,
+        "replan": 0
+      },
+      {
+        "question": "When was the first Wal-Mart store opened ?",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 2826,
+        "latency_s": 3.78,
+        "replan": 0
+      },
+      {
+        "question": "What New York City structure is also known as the Twin Towers ?",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 2861,
+        "latency_s": 4.26,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "What is the population of Venezuela ?",
+        "answer": "33",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 2,
+        "tokens": 7564,
+        "latency_s": 32.13,
+        "replan": 0
+      },
+      {
+        "question": "What does target heart rate mean ?",
+        "answer": "{33}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 7688,
+        "latency_s": 39.35,
+        "replan": 0
+      },
+      {
+        "question": "What currency does Luxembourg use ?",
+        "answer": "{32}",
+        "ground_truth": [
+          "32"
+        ],
+        "steps": 3,
+        "tokens": 16764,
+        "latency_s": 55.92,
+        "replan": 0
+      },
+      {
+        "question": "How long did Rip Van Winkle sleep ?",
+        "answer": "{18}",
+        "ground_truth": [
+          "18"
+        ],
+        "steps": 5,
+        "tokens": 46890,
+        "latency_s": 99.03,
+        "replan": 0
+      },
+      {
+        "question": "Material called linen is made from what plant ?",
+        "answer": "{17}",
+        "ground_truth": [
+          "17"
+        ],
+        "steps": 2,
+        "tokens": 7818,
+        "latency_s": 37.49,
+        "replan": 0
+      },
+      {
+        "question": "What is phenylalanine ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 47156,
+        "latency_s": 107.45,
+        "replan": 0
+      },
+      {
+        "question": "What is a group of turkeys called ?",
+        "answer": "{22}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 5,
+        "tokens": 46545,
+        "latency_s": 95.74,
+        "replan": 0
+      },
+      {
+        "question": "What are enzymes ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 47288,
+        "latency_s": 126.79,
+        "replan": 0
+      },
+      {
+        "question": "Why is the sun yellow ?",
+        "answer": "{43}",
+        "ground_truth": [
+          "43"
+        ],
+        "steps": 5,
+        "tokens": 48062,
+        "latency_s": 129.22,
+        "replan": 0
+      },
+      {
+        "question": "What state is the geographic center of the lower 48 states ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 5,
+        "tokens": 44266,
+        "latency_s": 72.08,
+        "replan": 0
+      },
+      {
+        "question": "What is foot and mouth disease ?",
+        "answer": "7",
+        "ground_truth": [
+          "7"
+        ],
+        "steps": 5,
+        "tokens": 44868,
+        "latency_s": 132.36,
+        "replan": 0
+      },
+      {
+        "question": "What is sonar ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45679,
+        "latency_s": 99.87,
+        "replan": 0
+      },
+      {
+        "question": "When was Thomas Jefferson born ?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "What is the Ohio state bird ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 5,
+        "tokens": 46757,
+        "latency_s": 130.61,
+        "replan": 0
+      },
+      {
+        "question": "What are the colors of the German flag ?",
+        "answer": "{3}",
+        "ground_truth": [
+          "3"
+        ],
+        "steps": 2,
+        "tokens": 7227,
+        "latency_s": 23.43,
+        "replan": 0
+      },
+      {
+        "question": "Who won Ms. American in 1989 ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 43853,
+        "latency_s": 126.64,
+        "replan": 0
+      },
+      {
+        "question": "Where on the body is a mortarboard worn ?",
+        "answer": "{13}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 3,
+        "tokens": 16485,
+        "latency_s": 45.84,
+        "replan": 0
+      },
+      {
+        "question": "What is the width of a football field ?",
+        "answer": "{49}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 5,
+        "tokens": 47120,
+        "latency_s": 135.64,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Canada ?",
+        "answer": "{no label}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 29377,
+        "latency_s": 117.69,
+        "replan": 0
+      },
+      {
+        "question": "What is the conversion rate between dollars and pounds ?",
+        "answer": "{34}",
+        "ground_truth": [
+          "34"
+        ],
+        "steps": 2,
+        "tokens": 7115,
+        "latency_s": 17.66,
+        "replan": 0
+      },
+      {
+        "question": "What is fibromyalgia ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 4,
+        "tokens": 30065,
+        "latency_s": 126.39,
+        "replan": 0
+      },
+      {
+        "question": "What are the spots on dominoes called ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 5,
+        "tokens": 45706,
+        "latency_s": 94.24,
+        "replan": 0
+      },
+      {
+        "question": "What city is also known as `` The Gateway to the West '' ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 2,
+        "tokens": 6935,
+        "latency_s": 23.54,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered x-rays ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 46370,
+        "latency_s": 110.46,
+        "replan": 0
+      },
+      {
+        "question": "How much does water weigh ?",
+        "answer": "{39}",
+        "ground_truth": [
+          "39"
+        ],
+        "steps": 4,
+        "tokens": 28475,
+        "latency_s": 67.03,
+        "replan": 0
+      },
+      {
+        "question": "Mercury , what year was it discovered ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 5,
+        "tokens": 45663,
+        "latency_s": 89.14,
+        "replan": 0
+      },
+      {
+        "question": "Where do apple snails live ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 4,
+        "tokens": 28141,
+        "latency_s": 52.82,
+        "replan": 0
+      },
+      {
+        "question": "What is the rainiest place on Earth ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 5,
+        "tokens": 43172,
+        "latency_s": 112.29,
+        "replan": 0
+      },
+      {
+        "question": "Who invented the hula hoop ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 46934,
+        "latency_s": 116.73,
+        "replan": 0
+      },
+      {
+        "question": "What is the longest suspension bridge in the U.S. ?",
+        "answer": "{ }",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 5,
+        "tokens": 46404,
+        "latency_s": 143.08,
+        "replan": 0
+      },
+      {
+        "question": "What is plastic made of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 2,
+        "tokens": 7479,
+        "latency_s": 39.65,
+        "replan": 0
+      },
+      {
+        "question": "How far is it from Denver to Aspen ?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "What is the criterion for being legally blind ?",
+        "answer": "{3}",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 5,
+        "tokens": 46274,
+        "latency_s": 95.96,
+        "replan": 0
+      },
+      {
+        "question": "Who invented the instant Polaroid camera ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 46736,
+        "latency_s": 113.15,
+        "replan": 0
+      },
+      {
+        "question": "What is the distance in miles from the earth to the sun ?",
+        "answer": "{10}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 5,
+        "tokens": 47024,
+        "latency_s": 109.91,
+        "replan": 0
+      },
+      {
+        "question": "In which state would you find the Catskill Mountains ?",
+        "answer": "{}",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 4,
+        "tokens": 29834,
+        "latency_s": 111.82,
+        "replan": 0
+      },
+      {
+        "question": "What is a prism ?",
+        "answer": "{39}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 46707,
+        "latency_s": 117.45,
+        "replan": 0
+      },
+      {
+        "question": "How fast is sound ?",
+        "answer": "{15}",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 2,
+        "tokens": 7920,
+        "latency_s": 43.32,
+        "replan": 0
+      },
+      {
+        "question": "What does cc in engines mean ?",
+        "answer": "{23}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45638,
+        "latency_s": 82.23,
+        "replan": 0
+      },
+      {
+        "question": "What is an ulcer ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 46724,
+        "latency_s": 124.99,
+        "replan": 0
+      },
+      {
+        "question": "What is compounded interest ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 43390,
+        "latency_s": 97.03,
+        "replan": 0
+      },
+      {
+        "question": "What does CPR stand for ?",
+        "answer": "{37}",
+        "ground_truth": [
+          "37"
+        ],
+        "steps": 2,
+        "tokens": 7104,
+        "latency_s": 21.78,
+        "replan": 0
+      },
+      {
+        "question": "What is hybridization ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 44746,
+        "latency_s": 80.87,
+        "replan": 0
+      },
+      {
+        "question": "How fast is alcohol absorbed ?",
+        "answer": "{15}",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 2,
+        "tokens": 7496,
+        "latency_s": 35.68,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first American to walk in space ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 46663,
+        "latency_s": 116.1,
+        "replan": 0
+      },
+      {
+        "question": "What are pediatricians ?",
+        "answer": "{14}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 44931,
+        "latency_s": 84.93,
+        "replan": 0
+      },
+      {
+        "question": "What is the sales tax rate in New York ?",
+        "answer": "{26}",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 2,
+        "tokens": 7311,
+        "latency_s": 41.81,
+        "replan": 0
+      },
+      {
+        "question": "What is the money they use in Zambia ?",
+        "answer": "{32}",
+        "ground_truth": [
+          "32"
+        ],
+        "steps": 2,
+        "tokens": 7235,
+        "latency_s": 24.96,
+        "replan": 0
+      },
+      {
+        "question": "What is acetic acid ?",
+        "answer": "{9}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45522,
+        "latency_s": 88.88,
+        "replan": 0
+      },
+      {
+        "question": "When was Lyndon B. Johnson born ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 2,
+        "tokens": 7779,
+        "latency_s": 40.18,
+        "replan": 0
+      },
+      {
+        "question": "In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?",
+        "answer": "{27}",
+        "ground_truth": [
+          "44"
+        ],
+        "steps": 5,
+        "tokens": 46948,
+        "latency_s": 147.24,
+        "replan": 0
+      },
+      {
+        "question": "How cold should a refrigerator be ?",
+        "answer": "{2}",
+        "ground_truth": [
+          "2"
+        ],
+        "steps": 5,
+        "tokens": 43475,
+        "latency_s": 117.17,
+        "replan": 0
+      },
+      {
+        "question": "What is another astronomic term for the Northern Lights ?",
+        "answer": "{27}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 5,
+        "tokens": 46029,
+        "latency_s": 108.12,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Shawnee National Forest ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 2,
+        "tokens": 7193,
+        "latency_s": 29.93,
+        "replan": 0
+      },
+      {
+        "question": "How much of an apple is water ?",
+        "answer": "{26}",
+        "ground_truth": [
+          "9"
+        ],
+        "steps": 5,
+        "tokens": 44576,
+        "latency_s": 114.57,
+        "replan": 0
+      },
+      {
+        "question": "What is strep throat ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 47352,
+        "latency_s": 219.89,
+        "replan": 0
+      },
+      {
+        "question": "What is poliomyelitis ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 3,
+        "tokens": 16691,
+        "latency_s": 65.36,
+        "replan": 0
+      },
+      {
+        "question": "What is the temperature at the center of the earth ?",
+        "answer": "{2}",
+        "ground_truth": [
+          "2"
+        ],
+        "steps": 2,
+        "tokens": 7298,
+        "latency_s": 26.93,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Lourve ?",
+        "answer": "{24}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 5,
+        "tokens": 42966,
+        "latency_s": 100.55,
+        "replan": 0
+      },
+      {
+        "question": "What is the longest bone in the human body ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "13"
+        ],
+        "steps": 5,
+        "tokens": 47276,
+        "latency_s": 120.76,
+        "replan": 0
+      },
+      {
+        "question": "What state has the least amount of rain per year ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 2,
+        "tokens": 7286,
+        "latency_s": 25.89,
+        "replan": 0
+      },
+      {
+        "question": "What is neurology ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 4,
+        "tokens": 28704,
+        "latency_s": 149.45,
+        "replan": 0
+      },
+      {
+        "question": "What is the statue of liberty made of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 2,
+        "tokens": 7837,
+        "latency_s": 53.78,
+        "replan": 0
+      },
+      {
+        "question": "What was W.C. Fields ' real name ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 45840,
+        "latency_s": 69.56,
+        "replan": 0
+      },
+      {
+        "question": "What is solar wind ?",
+        "answer": "{6}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45064,
+        "latency_s": 155.71,
+        "replan": 0
+      },
+      {
+        "question": "What position did Willie Davis play in baseball ?",
+        "answer": "{29}",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 5,
+        "tokens": 45828,
+        "latency_s": 118.54,
+        "replan": 0
+      },
+      {
+        "question": "Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 2,
+        "tokens": 11711,
+        "latency_s": 132.9,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first woman governor in the U.S. ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 47059,
+        "latency_s": 164.8,
+        "replan": 0
+      },
+      {
+        "question": "What are solar cells ?",
+        "answer": "{23}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45244,
+        "latency_s": 124.64,
+        "replan": 0
+      },
+      {
+        "question": "When was the telephone invented ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 5,
+        "tokens": 46810,
+        "latency_s": 99.97,
+        "replan": 0
+      },
+      {
+        "question": "What is another name for vitamin B1 ?",
+        "answer": "{19}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 5,
+        "tokens": 44723,
+        "latency_s": 78.13,
+        "replan": 0
+      },
+      {
+        "question": "What is the major fault line near Kentucky ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 5,
+        "tokens": 45541,
+        "latency_s": 106.43,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Savannah River ?",
+        "error": "Connection error."
+      },
+      {
+        "question": "What city 's newspaper is called `` The Star '' ?",
+        "error": "Connection error."
+      },
+      {
+        "question": "What planet has the strongest magnetic field of all the planets ?",
+        "answer": "{}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 5,
+        "tokens": 46599,
+        "latency_s": 179.83,
+        "replan": 0
+      },
+      {
+        "question": "What is severance pay ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 47816,
+        "latency_s": 117.85,
+        "replan": 0
+      },
+      {
+        "question": "What breed of hunting dog did the Beverly Hillbillies own ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 5,
+        "tokens": 47014,
+        "latency_s": 109.49,
+        "replan": 0
+      },
+      {
+        "question": "What is the population of China ?",
+        "answer": "{33}",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 2,
+        "tokens": 7614,
+        "latency_s": 36.41,
+        "replan": 0
+      },
+      {
+        "question": "What are semiconductors ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45578,
+        "latency_s": 101.27,
+        "replan": 0
+      },
+      {
+        "question": "What body of water are the Canary Islands in ?",
+        "answer": "{24}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 5,
+        "tokens": 45400,
+        "latency_s": 100.03,
+        "replan": 0
+      },
+      {
+        "question": "What does the word fortnight mean ?",
+        "answer": "{37}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 43102,
+        "latency_s": 64.9,
+        "replan": 0
+      },
+      {
+        "question": "What monastery was raided by Vikings in the late eighth century ?",
+        "answer": "27",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 5,
+        "tokens": 46601,
+        "latency_s": 115.22,
+        "replan": 0
+      },
+      {
+        "question": "What did Edward Binney and Howard Smith invent in 1903 ?",
+        "answer": "{28}",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 5,
+        "tokens": 46210,
+        "latency_s": 97.76,
+        "replan": 0
+      },
+      {
+        "question": "When was President Kennedy shot ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 4,
+        "tokens": 28899,
+        "latency_s": 76.08,
+        "replan": 0
+      },
+      {
+        "question": "What is a thermometer ?",
+        "answer": "{2}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45172,
+        "latency_s": 85.75,
+        "replan": 0
+      },
+      {
+        "question": "What is the earth 's diameter ?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "What is mold ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 3,
+        "tokens": 17221,
+        "latency_s": 72.25,
+        "replan": 0
+      },
+      {
+        "question": "What does `` Sitting Shiva '' mean ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45703,
+        "latency_s": 93.8,
+        "replan": 0
+      },
+      {
+        "question": "What is desktop publishing ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 3,
+        "tokens": 16086,
+        "latency_s": 65.75,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered radium ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 45254,
+        "latency_s": 75.33,
+        "replan": 0
+      },
+      {
+        "question": "What is mad cow disease ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 5,
+        "tokens": 45977,
+        "latency_s": 93.03,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of Lake Champlain ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 5,
+        "tokens": 45076,
+        "latency_s": 77.14,
+        "replan": 0
+      },
+      {
+        "question": "What is the proper name for a female walrus ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 5,
+        "tokens": 45393,
+        "latency_s": 66.21,
+        "replan": 0
+      },
+      {
+        "question": "When was Rosa Parks born ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 5,
+        "tokens": 47458,
+        "latency_s": 125.02,
+        "replan": 0
+      },
+      {
+        "question": "When were William Shakespeare 's twins born ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 5,
+        "tokens": 46701,
+        "latency_s": 112.47,
+        "replan": 0
+      },
+      {
+        "question": "What is natural gas composed of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 3,
+        "tokens": 17244,
+        "latency_s": 76.35,
+        "replan": 0
+      },
+      {
+        "question": "How tall is the Gateway Arch in St. Louis , MO ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 5,
+        "tokens": 45352,
+        "latency_s": 85.91,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first governor of Alaska ?",
+        "answer": "{label}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 47491,
+        "latency_s": 142.32,
+        "replan": 0
+      },
+      {
+        "question": "When was the first Wal-Mart store opened ?",
+        "answer": "{label}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 5,
+        "tokens": 45955,
+        "latency_s": 93.59,
+        "replan": 0
+      },
+      {
+        "question": "What New York City structure is also known as the Twin Towers ?",
+        "answer": "{6}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 5,
+        "tokens": 45781,
+        "latency_s": 93.12,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "What is the population of Venezuela ?",
+        "answer": "{33}",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 2,
+        "tokens": 20694,
+        "latency_s": 58.24,
+        "replan": 0
+      },
+      {
+        "question": "What does target heart rate mean ?",
+        "answer": "{33}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 20886,
+        "latency_s": 74.15,
+        "replan": 0
+      },
+      {
+        "question": "What currency does Luxembourg use ?",
+        "answer": "{32}",
+        "ground_truth": [
+          "32"
+        ],
+        "steps": 1,
+        "tokens": 7997,
+        "latency_s": 47.34,
+        "replan": 0
+      },
+      {
+        "question": "How long did Rip Van Winkle sleep ?",
+        "answer": "{none}",
+        "ground_truth": [
+          "18"
+        ],
+        "steps": 1,
+        "tokens": 10444,
+        "latency_s": 97.99,
+        "replan": 0
+      },
+      {
+        "question": "Material called linen is made from what plant ?",
+        "answer": "{17}",
+        "ground_truth": [
+          "17"
+        ],
+        "steps": 1,
+        "tokens": 8127,
+        "latency_s": 40.3,
+        "replan": 0
+      },
+      {
+        "question": "What is phenylalanine ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 3,
+        "tokens": 38879,
+        "latency_s": 88.97,
+        "replan": 0
+      },
+      {
+        "question": "What is a group of turkeys called ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 3,
+        "tokens": 40675,
+        "latency_s": 121.07,
+        "replan": 0
+      },
+      {
+        "question": "What are enzymes ?",
+        "answer": "{13}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 9638,
+        "latency_s": 87.61,
+        "replan": 0
+      },
+      {
+        "question": "Why is the sun yellow ?",
+        "answer": "{18}",
+        "ground_truth": [
+          "43"
+        ],
+        "steps": 1,
+        "tokens": 8647,
+        "latency_s": 66.3,
+        "replan": 0
+      },
+      {
+        "question": "What state is the geographic center of the lower 48 states ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 3,
+        "tokens": 39175,
+        "latency_s": 139.05,
+        "replan": 0
+      },
+      {
+        "question": "What is foot and mouth disease ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "7"
+        ],
+        "steps": 1,
+        "tokens": 8486,
+        "latency_s": 55.87,
+        "replan": 0
+      },
+      {
+        "question": "What is sonar ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 20073,
+        "latency_s": 56.09,
+        "replan": 0
+      },
+      {
+        "question": "When was Thomas Jefferson born ?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "What is the Ohio state bird ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 4,
+        "tokens": 62129,
+        "latency_s": 141.01,
+        "replan": 1
+      },
+      {
+        "question": "What are the colors of the German flag ?",
+        "answer": "{3}",
+        "ground_truth": [
+          "3"
+        ],
+        "steps": 1,
+        "tokens": 7608,
+        "latency_s": 32.1,
+        "replan": 0
+      },
+      {
+        "question": "Who won Ms. American in 1989 ?",
+        "answer": "{label}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 58124,
+        "latency_s": 151.08,
+        "replan": 2
+      },
+      {
+        "question": "Where on the body is a mortarboard worn ?",
+        "answer": "{13}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 8303,
+        "latency_s": 44.48,
+        "replan": 0
+      },
+      {
+        "question": "What is the width of a football field ?",
+        "answer": "{49}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 8345,
+        "latency_s": 52.65,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Canada ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 61561,
+        "latency_s": 184.12,
+        "replan": 2
+      },
+      {
+        "question": "What is the conversion rate between dollars and pounds ?",
+        "answer": "{34}",
+        "ground_truth": [
+          "34"
+        ],
+        "steps": 2,
+        "tokens": 20539,
+        "latency_s": 91.38,
+        "replan": 0
+      },
+      {
+        "question": "What is fibromyalgia ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 22193,
+        "latency_s": 120.9,
+        "replan": 0
+      },
+      {
+        "question": "What are the spots on dominoes called ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 5,
+        "tokens": 92222,
+        "latency_s": 216.15,
+        "replan": 2
+      },
+      {
+        "question": "What city is also known as `` The Gateway to the West '' ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 3,
+        "tokens": 36488,
+        "latency_s": 57.69,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered x-rays ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 64533,
+        "latency_s": 199.39,
+        "replan": 0
+      },
+      {
+        "question": "How much does water weigh ?",
+        "answer": "{39}",
+        "ground_truth": [
+          "39"
+        ],
+        "steps": 2,
+        "tokens": 20633,
+        "latency_s": 86.84,
+        "replan": 0
+      },
+      {
+        "question": "Mercury , what year was it discovered ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 8342,
+        "latency_s": 49.13,
+        "replan": 0
+      },
+      {
+        "question": "Where do apple snails live ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 7853,
+        "latency_s": 44.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the rainiest place on Earth ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 2,
+        "tokens": 21521,
+        "latency_s": 102.75,
+        "replan": 0
+      },
+      {
+        "question": "Who invented the hula hoop ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 9776,
+        "latency_s": 84.87,
+        "replan": 0
+      },
+      {
+        "question": "What is the longest suspension bridge in the U.S. ?",
+        "answer": "{label}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 6,
+        "tokens": 120522,
+        "latency_s": 186.33,
+        "replan": 2
+      },
+      {
+        "question": "What is plastic made of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 7762,
+        "latency_s": 32.42,
+        "replan": 0
+      },
+      {
+        "question": "How far is it from Denver to Aspen ?",
+        "answer": "{10}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 2,
+        "tokens": 20354,
+        "latency_s": 67.6,
+        "replan": 0
+      },
+      {
+        "question": "What is the criterion for being legally blind ?",
+        "answer": "{6}",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 6,
+        "tokens": 127616,
+        "latency_s": 197.94,
+        "replan": 2
+      },
+      {
+        "question": "Who invented the instant Polaroid camera ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 5,
+        "tokens": 93548,
+        "latency_s": 175.46,
+        "replan": 2
+      },
+      {
+        "question": "What is the distance in miles from the earth to the sun ?",
+        "answer": "{10}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 4,
+        "tokens": 61655,
+        "latency_s": 123.8,
+        "replan": 1
+      },
+      {
+        "question": "In which state would you find the Catskill Mountains ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 1,
+        "tokens": 8503,
+        "latency_s": 54.09,
+        "replan": 0
+      },
+      {
+        "question": "What is a prism ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 9079,
+        "latency_s": 64.12,
+        "replan": 0
+      },
+      {
+        "question": "How fast is sound ?",
+        "answer": "{15}",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 2,
+        "tokens": 22462,
+        "latency_s": 118.2,
+        "replan": 0
+      },
+      {
+        "question": "What does cc in engines mean ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 21972,
+        "latency_s": 90.41,
+        "replan": 0
+      },
+      {
+        "question": "What is an ulcer ?",
+        "answer": "{13}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 4,
+        "tokens": 63822,
+        "latency_s": 173.23,
+        "replan": 2
+      },
+      {
+        "question": "What is compounded interest ?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "What does CPR stand for ?",
+        "answer": "{37}",
+        "ground_truth": [
+          "37"
+        ],
+        "steps": 1,
+        "tokens": 7512,
+        "latency_s": 23.91,
+        "replan": 0
+      },
+      {
+        "question": "What is hybridization ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 21425,
+        "latency_s": 89.78,
+        "replan": 0
+      },
+      {
+        "question": "How fast is alcohol absorbed ?",
+        "answer": "{15}",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 1,
+        "tokens": 8267,
+        "latency_s": 48.37,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first American to walk in space ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 2,
+        "tokens": 23354,
+        "latency_s": 131.86,
+        "replan": 0
+      },
+      {
+        "question": "What are pediatricians ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 22213,
+        "latency_s": 112.46,
+        "replan": 0
+      },
+      {
+        "question": "What is the sales tax rate in New York ?",
+        "answer": "{26}",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 2,
+        "tokens": 21806,
+        "latency_s": 113.04,
+        "replan": 0
+      },
+      {
+        "question": "What is the money they use in Zambia ?",
+        "answer": "{32}",
+        "ground_truth": [
+          "32"
+        ],
+        "steps": 1,
+        "tokens": 7891,
+        "latency_s": 35.28,
+        "replan": 0
+      },
+      {
+        "question": "What is acetic acid ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 8867,
+        "latency_s": 60.2,
+        "replan": 0
+      },
+      {
+        "question": "When was Lyndon B. Johnson born ?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?",
+        "answer": "{44}",
+        "ground_truth": [
+          "44"
+        ],
+        "steps": 4,
+        "tokens": 61738,
+        "latency_s": 119.61,
+        "replan": 2
+      },
+      {
+        "question": "How cold should a refrigerator be ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "2"
+        ],
+        "steps": 1,
+        "tokens": 9182,
+        "latency_s": 79.11,
+        "replan": 0
+      },
+      {
+        "question": "What is another astronomic term for the Northern Lights ?",
+        "answer": "{19}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 1,
+        "tokens": 9462,
+        "latency_s": 75.34,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Shawnee National Forest ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 2,
+        "tokens": 20792,
+        "latency_s": 83.17,
+        "replan": 0
+      },
+      {
+        "question": "How much of an apple is water ?",
+        "answer": "{10}",
+        "ground_truth": [
+          "9"
+        ],
+        "steps": 1,
+        "tokens": 11324,
+        "latency_s": 138.01,
+        "replan": 0
+      },
+      {
+        "question": "What is strep throat ?",
+        "answer": "{37}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 24013,
+        "latency_s": 150.39,
+        "replan": 0
+      },
+      {
+        "question": "What is poliomyelitis ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 4,
+        "tokens": 62409,
+        "latency_s": 147.32,
+        "replan": 1
+      },
+      {
+        "question": "What is the temperature at the center of the earth ?",
+        "answer": "{2}",
+        "ground_truth": [
+          "2"
+        ],
+        "steps": 1,
+        "tokens": 8050,
+        "latency_s": 40.02,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Lourve ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 4,
+        "tokens": 60354,
+        "latency_s": 183.87,
+        "replan": 1
+      },
+      {
+        "question": "What is the longest bone in the human body ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "13"
+        ],
+        "steps": 1,
+        "tokens": 10816,
+        "latency_s": 108.79,
+        "replan": 0
+      },
+      {
+        "question": "What state has the least amount of rain per year ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 2,
+        "tokens": 20522,
+        "latency_s": 69.81,
+        "replan": 0
+      },
+      {
+        "question": "What is neurology ?",
+        "answer": "{7}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 21788,
+        "latency_s": 103.44,
+        "replan": 0
+      },
+      {
+        "question": "What is the statue of liberty made of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 7626,
+        "latency_s": 28.05,
+        "replan": 0
+      },
+      {
+        "question": "What was W.C. Fields ' real name ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 8736,
+        "latency_s": 52.09,
+        "replan": 0
+      },
+      {
+        "question": "What is solar wind ?",
+        "answer": "{27}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 21837,
+        "latency_s": 93.84,
+        "replan": 0
+      },
+      {
+        "question": "What position did Willie Davis play in baseball ?",
+        "answer": "{29}",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 5,
+        "tokens": 91170,
+        "latency_s": 158.18,
+        "replan": 1
+      },
+      {
+        "question": "Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?",
+        "answer": "{40}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 62708,
+        "latency_s": 124.19,
+        "replan": 2
+      },
+      {
+        "question": "Who was the first woman governor in the U.S. ?",
+        "answer": "{12}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 62103,
+        "latency_s": 188.01,
+        "replan": 0
+      },
+      {
+        "question": "What are solar cells ?",
+        "answer": "{23}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 8771,
+        "latency_s": 72.54,
+        "replan": 0
+      },
+      {
+        "question": "When was the telephone invented ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 5,
+        "tokens": 91655,
+        "latency_s": 138.21,
+        "replan": 2
+      },
+      {
+        "question": "What is another name for vitamin B1 ?",
+        "answer": "{19}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 1,
+        "tokens": 9555,
+        "latency_s": 79.09,
+        "replan": 0
+      },
+      {
+        "question": "What is the major fault line near Kentucky ?",
+        "answer": "{5}",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 1,
+        "tokens": 8736,
+        "latency_s": 66.47,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Savannah River ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 8291,
+        "latency_s": 44.61,
+        "replan": 0
+      },
+      {
+        "question": "What city 's newspaper is called `` The Star '' ?",
+        "answer": "{36}",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 2,
+        "tokens": 20342,
+        "latency_s": 87.64,
+        "replan": 0
+      },
+      {
+        "question": "What planet has the strongest magnetic field of all the planets ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 4,
+        "tokens": 64001,
+        "latency_s": 160.05,
+        "replan": 2
+      },
+      {
+        "question": "What is severance pay ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 22977,
+        "latency_s": 117.2,
+        "replan": 0
+      },
+      {
+        "question": "What breed of hunting dog did the Beverly Hillbillies own ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 8384,
+        "latency_s": 44.52,
+        "replan": 0
+      },
+      {
+        "question": "What is the population of China ?",
+        "answer": "{33}",
+        "ground_truth": [
+          "33"
+        ],
+        "steps": 1,
+        "tokens": 8426,
+        "latency_s": 52.52,
+        "replan": 0
+      },
+      {
+        "question": "What are semiconductors ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 6,
+        "tokens": 124093,
+        "latency_s": 262.29,
+        "replan": 2
+      },
+      {
+        "question": "What body of water are the Canary Islands in ?",
+        "answer": "{24}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 2,
+        "tokens": 21213,
+        "latency_s": 265.58,
+        "replan": 0
+      },
+      {
+        "question": "What does the word fortnight mean ?",
+        "answer": "{37}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 3,
+        "tokens": 38874,
+        "latency_s": 138.62,
+        "replan": 0
+      },
+      {
+        "question": "What monastery was raided by Vikings in the late eighth century ?",
+        "answer": "{label}",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 5,
+        "tokens": 92247,
+        "latency_s": 209.22,
+        "replan": 2
+      },
+      {
+        "question": "What did Edward Binney and Howard Smith invent in 1903 ?",
+        "answer": "{ }",
+        "ground_truth": [
+          "6"
+        ],
+        "steps": 4,
+        "tokens": 64205,
+        "latency_s": 811.52,
+        "replan": 2
+      },
+      {
+        "question": "When was President Kennedy shot ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 8442,
+        "latency_s": 50.31,
+        "replan": 0
+      },
+      {
+        "question": "What is a thermometer ?",
+        "answer": "{2}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 21559,
+        "latency_s": 159.84,
+        "replan": 0
+      },
+      {
+        "question": "What is the earth 's diameter ?",
+        "answer": "{49}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 8384,
+        "latency_s": 47.59,
+        "replan": 0
+      },
+      {
+        "question": "What is mold ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 9192,
+        "latency_s": 70.23,
+        "replan": 0
+      },
+      {
+        "question": "What does `` Sitting Shiva '' mean ?",
+        "answer": "{46}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 3,
+        "tokens": 39714,
+        "latency_s": 126.8,
+        "replan": 0
+      },
+      {
+        "question": "What is desktop publishing ?",
+        "answer": "{48}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 22704,
+        "latency_s": 193.6,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered radium ?",
+        "answer": "{label}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 67455,
+        "latency_s": 256.71,
+        "replan": 1
+      },
+      {
+        "question": "What is mad cow disease ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 8460,
+        "latency_s": 70.37,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of Lake Champlain ?",
+        "answer": "{45}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 2,
+        "tokens": 20974,
+        "latency_s": 73.94,
+        "replan": 0
+      },
+      {
+        "question": "What is the proper name for a female walrus ?",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 7908,
+        "latency_s": 31.52,
+        "replan": 0
+      },
+      {
+        "question": "When was Rosa Parks born ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 2,
+        "tokens": 22351,
+        "latency_s": 113.21,
+        "replan": 0
+      },
+      {
+        "question": "When were William Shakespeare 's twins born ?",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 2,
+        "tokens": 21935,
+        "latency_s": 319.73,
+        "replan": 0
+      },
+      {
+        "question": "What is natural gas composed of ?",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 2,
+        "tokens": 19782,
+        "latency_s": 48.67,
+        "replan": 0
+      },
+      {
+        "question": "How tall is the Gateway Arch in St. Louis , MO ?",
+        "answer": "{10}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 3,
+        "tokens": 38799,
+        "latency_s": 142.18,
+        "replan": 1
+      },
+      {
+        "question": "Who was the first governor of Alaska ?",
+        "answer": "{label}",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 4,
+        "tokens": 63448,
+        "latency_s": 177.77,
+        "replan": 2
+      },
+      {
+        "question": "When was the first Wal-Mart store opened ?",
+        "answer": "{0}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 4,
+        "tokens": 63253,
+        "latency_s": 191.94,
+        "replan": 2
+      },
+      {
+        "question": "What New York City structure is also known as the Twin Towers ?",
+        "answer": "{6}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 6,
+        "tokens": 124694,
+        "latency_s": 185.23,
+        "replan": 2
+      }
+    ]
+  }
+}

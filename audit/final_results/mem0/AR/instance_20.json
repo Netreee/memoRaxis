@@ -1,0 +1,1233 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "backend": "mem0",
+  "instance_idx": 20,
+  "source_files": [
+    "results/mem0/AR/instance_20.json",
+    "out/mem0/mem0_acc_ret_results_20.json"
+  ],
+  "results": {
+    "R1": [
+      {
+        "question": "Current Date: 2022/04/04 (Mon) 01:38,\n\n Now Answer the Question: How many days ago did I attend a networking event?",
+        "answer": "26 days ago.",
+        "steps": 1,
+        "tokens": 615,
+        "latency_s": 6.64,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 01:55,\n\n Now Answer the Question: How many months ago did I book the Airbnb in San Francisco?",
+        "answer": "5 months ago.",
+        "steps": 1,
+        "tokens": 929,
+        "latency_s": 13.82,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 02:11,\n\n Now Answer the Question: I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+        "answer": "You can enjoy Denver's music scene by attending a concert at Red Rocks Amphitheater—arrive early to grab dinner at nearby BBQ places or other restaurants. Additionally, you may consider visiting the Modern Art Museum again as you planned.",
+        "steps": 1,
+        "tokens": 1024,
+        "latency_s": 14.21,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/01 (Mon) 03:56,\n\n Now Answer the Question: How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 780,
+        "latency_s": 7.15,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 15:36,\n\n Now Answer the Question: What percentage of packed shoes did I wear on my last trip?",
+        "answer": "40%",
+        "steps": 1,
+        "tokens": 1363,
+        "latency_s": 4.47,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 20:10,\n\n Now Answer the Question: Which grocery store did I spend the most money at in the past month?",
+        "answer": "Walmart (spent around $120)",
+        "steps": 1,
+        "tokens": 1082,
+        "latency_s": 16.18,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/27 (Mon) 15:58,\n\n Now Answer the Question: How many doctor's appointments did I go to in March?",
+        "answer": "1",
+        "steps": 1,
+        "tokens": 933,
+        "latency_s": 10.66,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 15:32,\n\n Now Answer the Question: I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+        "answer": "The information about the specific chess move after 27. Kg2 Bd5+ is not available in the provided context.",
+        "steps": 1,
+        "tokens": 628,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 13:21,\n\n Now Answer the Question: How much cashback did I earn at SaveMart last Thursday?",
+        "answer": "$0.75",
+        "steps": 1,
+        "tokens": 635,
+        "latency_s": 4.8,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/09 (Fri) 10:52,\n\n Now Answer the Question: How many of Emma's recipes have I tried out?",
+        "answer": "Three.",
+        "steps": 1,
+        "tokens": 508,
+        "latency_s": 3.8,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2021/08/20 (Fri) 19:01,\n\n Now Answer the Question: How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+        "answer": "7 years.",
+        "steps": 1,
+        "tokens": 1244,
+        "latency_s": 20.92,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/04/10 (Mon) 07:43,\n\n Now Answer the Question: How many days ago did I attend the Maundy Thursday service at the Episcopal Church?",
+        "answer": "4 days ago.",
+        "steps": 1,
+        "tokens": 690,
+        "latency_s": 5.6,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 12:23,\n\n Now Answer the Question: What is the total weight of the new feed I purchased in the past two months?",
+        "answer": "The information is insufficient. Only the weight of the organic scratch grains (20 pounds) is mentioned, but the weight of the layer feed purchased is not provided. Therefore, the total weight cannot be determined.",
+        "steps": 1,
+        "tokens": 851,
+        "latency_s": 9.06,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/07/12 (Wed) 04:11,\n\n Now Answer the Question: What day of the week do I take a cocktail-making class?",
+        "answer": "Friday",
+        "steps": 1,
+        "tokens": 621,
+        "latency_s": 3.27,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 10:59,\n\n Now Answer the Question: How long have I been working before I started my current job at Google?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 914,
+        "latency_s": 12.7,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 14:53,\n\n Now Answer the Question: How many sports have I played competitively in the past?",
+        "answer": "2",
+        "steps": 1,
+        "tokens": 567,
+        "latency_s": 4.1,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/02/03 (Fri) 23:24,\n\n Now Answer the Question: How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+        "answer": "14 days.",
+        "steps": 1,
+        "tokens": 1005,
+        "latency_s": 7.29,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 22:03,\n\n Now Answer the Question: Can you recommend some resources where I can learn more about video editing?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 695,
+        "latency_s": 7.04,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/04/26 (Wed) 20:52,\n\n Now Answer the Question: How many fun runs did I miss in March due to work commitments?",
+        "answer": "2",
+        "steps": 1,
+        "tokens": 636,
+        "latency_s": 3.58,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 09:58,\n\n Now Answer the Question: I wanted to follow up on our previous conversation about language learning apps. You mentioned a few options, and I was wondering if you could remind me of the one that uses mnemonics to help learners memorize words and phrases?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 680,
+        "latency_s": 3.56,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 08:42,\n\n Now Answer the Question: I remember you told me to dilute tea tree oil with a carrier oil before applying it to my skin. Can you remind me what the recommended ratio is?",
+        "answer": "The information about the recommended dilution ratio of tea tree oil with a carrier oil is not provided in the given context.",
+        "steps": 1,
+        "tokens": 624,
+        "latency_s": 5.25,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 17:00,\n\n Now Answer the Question: Who did I meet first, Mark and Sarah or Tom?",
+        "answer": "Tom",
+        "steps": 1,
+        "tokens": 561,
+        "latency_s": 4.56,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/25 (Sat) 08:30,\n\n Now Answer the Question: How many months have passed since I last visited a museum with a friend?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 1191,
+        "latency_s": 18.31,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/03 (Sat) 09:01,\n\n Now Answer the Question: How many followers do I have on Instagram now?",
+        "answer": "Close to 1300.",
+        "steps": 1,
+        "tokens": 704,
+        "latency_s": 3.44,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/02/26 (Sun) 22:36,\n\n Now Answer the Question: How much total money did I spend on attending workshops in the last four months?",
+        "answer": "$200",
+        "steps": 1,
+        "tokens": 1328,
+        "latency_s": 22.47,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/04/05 (Wed) 15:05,\n\n Now Answer the Question: What is the artist that I started to listen to last Friday?",
+        "answer": "The context does not provide information about the artist you started to listen to last Friday. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 1103,
+        "latency_s": 9.74,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 09:02,\n\n Now Answer the Question: What certification did I complete last month?",
+        "answer": "Data Science certification",
+        "steps": 1,
+        "tokens": 525,
+        "latency_s": 2.43,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 02:09,\n\n Now Answer the Question: I was thinking about our previous conversation about the Fifth Album, and I was wondering if you could remind me what song you said best exemplified the band's growth and development as artists?",
+        "answer": "'Evolution'",
+        "steps": 1,
+        "tokens": 767,
+        "latency_s": 4.24,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/21 (Sun) 13:44,\n\n Now Answer the Question: What color did I repaint my bedroom walls?",
+        "answer": "a lighter shade of gray",
+        "steps": 1,
+        "tokens": 584,
+        "latency_s": 2.9,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/20 (Tue) 11:24,\n\n Now Answer the Question: What company is Rachel, an old colleague from my previous company, currently working at?",
+        "answer": "TechCorp",
+        "steps": 1,
+        "tokens": 675,
+        "latency_s": 3.77,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/10 (Fri) 19:11,\n\n Now Answer the Question: What is the order of the six museums I visited from earliest to latest?",
+        "answer": "The context information is insufficient to answer the question as there are not six distinct museums mentioned as visited. Only four distinct museums (Modern Art Museum, Museum of Contemporary Art, Natural History Museum, Science Museum) with two visits to the Science Museum are referenced, totaling five visits, not six. Thus, the order of six museums cannot be determined.",
+        "steps": 1,
+        "tokens": 1879,
+        "latency_s": 39.8,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 20:45,\n\n Now Answer the Question: How many kitchen items did I replace or fix?",
+        "answer": "4",
+        "steps": 1,
+        "tokens": 802,
+        "latency_s": 7.88,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/22 (Mon) 13:04,\n\n Now Answer the Question: Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+        "answer": "Fixing the fence.",
+        "steps": 1,
+        "tokens": 608,
+        "latency_s": 4.37,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 05:51,\n\n Now Answer the Question: Can you suggest some activities that I can do in the evening?",
+        "answer": "You can consider the following evening activities:  \n1. Attend a live comedy open mic night at a local club or find live comedy events in your area.  \n2. Try a meditation session.  \n3. Explore a waterfront path (if available in your area).  \n4. Engage in volunteering (since you're available on weekdays evenings for it).  \n\n(Note: These suggestions are derived from your previous interests and plans mentioned in the context.)",
+        "steps": 1,
+        "tokens": 1109,
+        "latency_s": 17.68,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 08:13,\n\n Now Answer the Question: How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+        "answer": "2 months.",
+        "steps": 1,
+        "tokens": 978,
+        "latency_s": 10.81,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 18:12,\n\n Now Answer the Question: Can you recommend some interesting cultural events happening around me this weekend?",
+        "answer": "The provided context does not contain specific information about cultural events happening around you this weekend. You may try using websites or apps to locate language exchange events (especially those focused on French and Spanish conversational practice) or cultural festivals celebrating language diversity in your area, as you have expressed interest in such activities before. However, no concrete event details for this weekend are available in the given context.",
+        "steps": 1,
+        "tokens": 735,
+        "latency_s": 10.18,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 23:41,\n\n Now Answer the Question: How many plants did I initially plant for tomatoes and chili peppers?",
+        "answer": "The context only mentions that you initially planted 5 tomato plants, but there is no information about the number of chili pepper plants you initially planted. So the information is insufficient to answer the question completely. For tomatoes, the number is 5. For chili peppers, no relevant information is available.",
+        "steps": 1,
+        "tokens": 527,
+        "latency_s": 6.15,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 08:58,\n\n Now Answer the Question: How much time do I dedicate to practicing guitar every day?",
+        "answer": "At least 30 minutes daily, and about 40 to 60 minutes on average per practice day (since 4-5 hours per week over 5-6 days).",
+        "steps": 1,
+        "tokens": 1359,
+        "latency_s": 23.1,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 22:15,\n\n Now Answer the Question: What is the total amount I spent on gifts for my coworker and brother?",
+        "answer": "$200",
+        "steps": 1,
+        "tokens": 741,
+        "latency_s": 5.11,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/28 (Tue) 00:03,\n\n Now Answer the Question: What was the significant buisiness milestone I mentioned four weeks ago?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 926,
+        "latency_s": 12.02,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/08/18 (Fri) 04:17,\n\n Now Answer the Question: Do I go to the gym more frequently than I did previously?",
+        "answer": "The information is insufficient to answer the question, as there is no mention of the previous gym frequency for comparison.",
+        "steps": 1,
+        "tokens": 706,
+        "latency_s": 6.36,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 16:07,\n\n Now Answer the Question: What is the name of my cat?",
+        "answer": "Luna",
+        "steps": 1,
+        "tokens": 444,
+        "latency_s": 2.35,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 18:46,\n\n Now Answer the Question: How much did I save on the Jimmy Choo heels?",
+        "answer": "$300",
+        "steps": 1,
+        "tokens": 744,
+        "latency_s": 3.27,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/22 (Mon) 01:48,\n\n Now Answer the Question: I've got some free time tonight, any documentary recommendations?",
+        "answer": "You might enjoy Dynasties (a nature documentary series focusing on animal family dynasties), Chasing Coral (a documentary about coral reefs and their decline), and Cosmos (a space exploration series you learned a lot from before). Additionally, since you're interested in AI documentaries, though no specific ones are mentioned in the context, you could look for AI-related docs on Netflix or YouTube channels you like. But based on the given context, the top recommendations are Dynasties, Chasing Coral, and Cosmos.",
+        "steps": 1,
+        "tokens": 1257,
+        "latency_s": 23.28,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 04:31,\n\n Now Answer the Question: How much time do I dedicate to practicing violin every day?",
+        "answer": "The context does not provide information about the time dedicated to practicing violin every day.\nAnswer: Insufficient information.",
+        "steps": 1,
+        "tokens": 883,
+        "latency_s": 4.89,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/14 (Wed) 08:23,\n\n Now Answer the Question: How many short stories have I written since I started writing regularly?",
+        "answer": "Seven.",
+        "steps": 1,
+        "tokens": 731,
+        "latency_s": 4.36,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/23 (Fri) 16:42,\n\n Now Answer the Question: How much weight have I lost since I started going to the gym consistently?",
+        "answer": "10 pounds.",
+        "steps": 1,
+        "tokens": 629,
+        "latency_s": 4.1,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/14 (Wed) 10:15,\n\n Now Answer the Question: How many trips have I taken my Canon EOS 80D camera on?",
+        "answer": "Five.",
+        "steps": 1,
+        "tokens": 607,
+        "latency_s": 4.29,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 08:12,\n\n Now Answer the Question: How many fish are there in my 30-gallon tank?",
+        "answer": "There is no information about the number of fish in your 30-gallon tank in the provided context. The context mentions a 20-gallon tank with 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish, and a 10-gallon tank housing a betta fish named Bubbles, but no details about a 30-gallon tank.",
+        "steps": 1,
+        "tokens": 776,
+        "latency_s": 6.81,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 07:25,\n\n Now Answer the Question: I wanted to follow up on our previous conversation about front-end and back-end development. Can you remind me of the specific back-end programming languages you recommended I learn?",
+        "answer": "There is insufficient information in the provided context to answer your question about the specific back-end programming languages recommended.",
+        "steps": 1,
+        "tokens": 793,
+        "latency_s": 3.25,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/07/01 (Sat) 13:47,\n\n Now Answer the Question: What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+        "answer": "The context information is insufficient to determine the order of the three sports events you participated in during the past month.",
+        "steps": 1,
+        "tokens": 1479,
+        "latency_s": 24.65,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/04/02 (Sun) 20:31,\n\n Now Answer the Question: When did I volunteer at the local animal shelter's fundraising dinner?",
+        "answer": "信息不足，无法确定具体时间。",
+        "steps": 1,
+        "tokens": 830,
+        "latency_s": 11.73,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 23:52,\n\n Now Answer the Question: How many Marvel movies did I re-watch?",
+        "answer": "2",
+        "steps": 1,
+        "tokens": 574,
+        "latency_s": 5.01,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/08/15 (Tue) 16:25,\n\n Now Answer the Question: I am planning another theme park weekend; do you have any suggestions?",
+        "answer": "You can consider attending Halloween-themed events at the theme parks you've visited before, such as Halloween Horror Nights at Universal Studios Hollywood. It features elements you're interested in, like the VIP Experience with Gourmet Buffet and behind-the-scenes tour add-on. Additionally, look for other parks' Halloween events (e.g., Knott's Scary Farm at Knott's Berry Farm) for thrill rides, unique food experiences, and nighttime shows.",
+        "steps": 1,
+        "tokens": 1516,
+        "latency_s": 25.65,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 01:13,\n\n Now Answer the Question: Where did I redeem a $5 coupon on coffee creamer?",
+        "answer": "The context does not provide information about where you redeemed the $5 coupon on coffee creamer.\n\n（说明：根据记忆上下文，仅提到上周日兑换了5美元咖啡奶精的优惠券，但未提及兑换地点，因此信息不足。）",
+        "steps": 1,
+        "tokens": 617,
+        "latency_s": 6.99,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/07/23 (Sun) 03:18,\n\n Now Answer the Question: For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+        "answer": "The context does not provide information about whether you switched the coffee-to-water ratio in your French press to more or less water per tablespoon of coffee. The only relevant information is that you currently use 1 tablespoon of coffee per 5 ounces of water, but there is no mention of any change in this ratio. So the answer is: Information is insufficient to determine whether you switched to more or less water per tablespoon of coffee.\n</think_never_used_51bce0c785ca2f68081bfa7d91973934>\nInformation is insufficient to determine whether you switched to more or less water per tablespoon of coffee. The context only mentions the current ratio (1 tablespoon coffee per 5 ounces water) but no prior ratio or any change in it.\n",
+        "steps": 1,
+        "tokens": 797,
+        "latency_s": 7.65,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/21 (Sun) 09:52,\n\n Now Answer the Question: Where did I complete my Bachelor's degree in Computer Science?",
+        "answer": "University of California, Berkeley",
+        "steps": 1,
+        "tokens": 582,
+        "latency_s": 4.25,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 02:34,\n\n Now Answer the Question: How long had I been taking guitar lessons when I bought the new guitar amp?",
+        "answer": "Four weeks.",
+        "steps": 1,
+        "tokens": 861,
+        "latency_s": 11.67,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 17:55,\n\n Now Answer the Question: How many hours did I spend watching documentaries on Netflix last month?",
+        "answer": "Around 10 hours.",
+        "steps": 1,
+        "tokens": 498,
+        "latency_s": 2.96,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 17:24,\n\n Now Answer the Question: I remember you provided a list of 100 prompt parameters that I can specify to influence your output. Can you remind me what was the 27th parameter on that list?",
+        "answer": "The information about the 27th parameter in the list of 100 prompt parameters is not available in the provided context.",
+        "steps": 1,
+        "tokens": 716,
+        "latency_s": 5.52,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "Current Date: 2022/04/04 (Mon) 01:38,\n\n Now Answer the Question: How many days ago did I attend a networking event?",
+        "answer": "26",
+        "steps": 2,
+        "tokens": 3484,
+        "latency_s": 52.32,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 01:55,\n\n Now Answer the Question: How many months ago did I book the Airbnb in San Francisco?",
+        "answer": "5",
+        "steps": 2,
+        "tokens": 3903,
+        "latency_s": 62.42,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 02:11,\n\n Now Answer the Question: I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+        "answer": "You can enjoy Denver's music scene, such as attending a concert at Red Rocks Amphitheater. You may get to Red Rocks a bit earlier to grab dinner before the concert, and look for good BBQ places and other restaurants or food options within walking distance of Red Rocks Amphitheater.",
+        "steps": 2,
+        "tokens": 2940,
+        "latency_s": 35.6,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/01 (Mon) 03:56,\n\n Now Answer the Question: How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+        "answer": "The number of days taken to finish 'The Nightingale' by Kristin Hannah is not specified in the context.",
+        "steps": 5,
+        "tokens": 12541,
+        "latency_s": 141.55,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 15:36,\n\n Now Answer the Question: What percentage of packed shoes did I wear on my last trip?",
+        "answer": "40%",
+        "steps": 2,
+        "tokens": 3657,
+        "latency_s": 18.96,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 20:10,\n\n Now Answer the Question: Which grocery store did I spend the most money at in the past month?",
+        "answer": "Walmart",
+        "steps": 2,
+        "tokens": 4114,
+        "latency_s": 61.12,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/27 (Mon) 15:58,\n\n Now Answer the Question: How many doctor's appointments did I go to in March?",
+        "answer": "1",
+        "steps": 2,
+        "tokens": 2407,
+        "latency_s": 17.83,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 15:32,\n\n Now Answer the Question: I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+        "answer": "There is no information available about the specific move made after 27. Kg2 Bd5+ in the provided context.",
+        "steps": 5,
+        "tokens": 9519,
+        "latency_s": 65.56,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 13:21,\n\n Now Answer the Question: How much cashback did I earn at SaveMart last Thursday?",
+        "answer": "$0.75",
+        "steps": 2,
+        "tokens": 2275,
+        "latency_s": 14.53,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/09 (Fri) 10:52,\n\n Now Answer the Question: How many of Emma's recipes have I tried out?",
+        "answer": "Three.",
+        "steps": 2,
+        "tokens": 2240,
+        "latency_s": 17.63,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2021/08/20 (Fri) 19:01,\n\n Now Answer the Question: How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+        "answer": "7 years.",
+        "steps": 5,
+        "tokens": 11000,
+        "latency_s": 117.07,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/04/10 (Mon) 07:43,\n\n Now Answer the Question: How many days ago did I attend the Maundy Thursday service at the Episcopal Church?",
+        "answer": "4",
+        "steps": 2,
+        "tokens": 3157,
+        "latency_s": 42.05,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 12:23,\n\n Now Answer the Question: What is the total weight of the new feed I purchased in the past two months?",
+        "answer": "20 pounds.",
+        "steps": 3,
+        "tokens": 6084,
+        "latency_s": 72.5,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/07/12 (Wed) 04:11,\n\n Now Answer the Question: What day of the week do I take a cocktail-making class?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772679479648a4cbcde5a1b46df3d86209eafee97f1f8d2ad3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 10:59,\n\n Now Answer the Question: How long have I been working before I started my current job at Google?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772679511381a4cbcde5a1b46df3d86209eafee97f1fa63e31', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 14:53,\n\n Now Answer the Question: How many sports have I played competitively in the past?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772679513154a4cbcde5a1b46df3d86209eafee97f1f55a661', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/02/03 (Fri) 23:24,\n\n Now Answer the Question: How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+        "answer": "14 days.",
+        "steps": 2,
+        "tokens": 3541,
+        "latency_s": 48.21,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 22:03,\n\n Now Answer the Question: Can you recommend some resources where I can learn more about video editing?",
+        "answer": "No specific resources for learning video editing are mentioned in the provided context.",
+        "steps": 5,
+        "tokens": 11401,
+        "latency_s": 84.92,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/04/26 (Wed) 20:52,\n\n Now Answer the Question: How many fun runs did I miss in March due to work commitments?",
+        "answer": "2",
+        "steps": 2,
+        "tokens": 2274,
+        "latency_s": 14.04,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 09:58,\n\n Now Answer the Question: I wanted to follow up on our previous conversation about language learning apps. You mentioned a few options, and I was wondering if you could remind me of the one that uses mnemonics to help learners memorize words and phrases?",
+        "answer": "The context does not mention any language learning app that uses mnemonics to help learners memorize words and phrases.\n(Wait, wait—wait the instruction says only give the answer and no other words? Wait let me check again. The user's task says: Only give me the answer and do not output any other words. Oh, but if there's no info, what to do? Let me see: the context entries don't have any app using mnemonics, so the answer should be something like \"No relevant information is mentioned\" but wait let's confirm. Let's recheck all entries: none of them talk about mnemonics in apps. So the answer is that there's no such app mentioned. But how to phrase it concisely? Maybe \"No language learning app using mnemonics is mentioned in the context.\" But wait, the instruction says only give the answer, no other words. Alternatively, if there's no info, maybe just state that. Let me think: the user asked to remind of the one using mnemonics, but the context doesn't have that. So the answer should be that it's not mentioned. Let me make it short: \"No relevant language learning app using mnemonics is mentioned.\" Or maybe even shorter: \"No such app is mentioned.\" But let's see the instruction: only answer based on context, no other words. So the correct answer is that there's no mention of such an app. So I'll write that.)</think_never_used_51bce0c785ca2f68081bfa7d91973934>No language learning app that uses mnemonics to help memorize words and phrases is mentioned in the context.",
+        "steps": 5,
+        "tokens": 11831,
+        "latency_s": 92.23,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 08:42,\n\n Now Answer the Question: I remember you told me to dilute tea tree oil with a carrier oil before applying it to my skin. Can you remind me what the recommended ratio is?",
+        "answer": "The recommended dilution ratio of tea tree oil with carrier oil is not mentioned in the provided context.",
+        "steps": 5,
+        "tokens": 9754,
+        "latency_s": 62.8,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 17:00,\n\n Now Answer the Question: Who did I meet first, Mark and Sarah or Tom?",
+        "answer": "Tom",
+        "steps": 2,
+        "tokens": 3125,
+        "latency_s": 44.64,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/25 (Sat) 08:30,\n\n Now Answer the Question: How many months have passed since I last visited a museum with a friend?",
+        "answer": "Unknown",
+        "steps": 5,
+        "tokens": 11437,
+        "latency_s": 99.49,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/03 (Sat) 09:01,\n\n Now Answer the Question: How many followers do I have on Instagram now?",
+        "answer": "Close to 1300.",
+        "steps": 2,
+        "tokens": 2396,
+        "latency_s": 12.11,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/02/26 (Sun) 22:36,\n\n Now Answer the Question: How much total money did I spend on attending workshops in the last four months?",
+        "answer": "$200",
+        "steps": 4,
+        "tokens": 8574,
+        "latency_s": 106.36,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/04/05 (Wed) 15:05,\n\n Now Answer the Question: What is the artist that I started to listen to last Friday?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680137757a4cbcde5a1b46df3d86209eafee97f1fcd739f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 09:02,\n\n Now Answer the Question: What certification did I complete last month?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680139529a4cbcde5a1b46df3d86209eafee97f1f36020d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 02:09,\n\n Now Answer the Question: I was thinking about our previous conversation about the Fifth Album, and I was wondering if you could remind me what song you said best exemplified the band's growth and development as artists?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680141173a4cbcde5a1b46df3d86209eafee97f1ffc9688', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/21 (Sun) 13:44,\n\n Now Answer the Question: What color did I repaint my bedroom walls?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680142665a4cbcde5a1b46df3d86209eafee97f1f18c993', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/06/20 (Tue) 11:24,\n\n Now Answer the Question: What company is Rachel, an old colleague from my previous company, currently working at?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680175763a4cbcde5a1b46df3d86209eafee97f1f2efce5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/03/10 (Fri) 19:11,\n\n Now Answer the Question: What is the order of the six museums I visited from earliest to latest?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680177639a4cbcde5a1b46df3d86209eafee97f1f7dde8a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 20:45,\n\n Now Answer the Question: How many kitchen items did I replace or fix?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680179254a4cbcde5a1b46df3d86209eafee97f1fa25446', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/22 (Mon) 13:04,\n\n Now Answer the Question: Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680180711a4cbcde5a1b46df3d86209eafee97f1ffae51a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 05:51,\n\n Now Answer the Question: Can you suggest some activities that I can do in the evening?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680182688a4cbcde5a1b46df3d86209eafee97f1f25f3e5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 08:13,\n\n Now Answer the Question: How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680184187a4cbcde5a1b46df3d86209eafee97f1f89d5f0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 18:12,\n\n Now Answer the Question: Can you recommend some interesting cultural events happening around me this weekend?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680185618a4cbcde5a1b46df3d86209eafee97f1f632ea9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 23:41,\n\n Now Answer the Question: How many plants did I initially plant for tomatoes and chili peppers?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680187515a4cbcde5a1b46df3d86209eafee97f1f1bcb43', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 08:58,\n\n Now Answer the Question: How much time do I dedicate to practicing guitar every day?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680189099a4cbcde5a1b46df3d86209eafee97f1fc9153f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 22:15,\n\n Now Answer the Question: What is the total amount I spent on gifts for my coworker and brother?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680190509a4cbcde5a1b46df3d86209eafee97f1f58f40e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/03/28 (Tue) 00:03,\n\n Now Answer the Question: What was the significant buisiness milestone I mentioned four weeks ago?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680207260a4cbcde5a1b46df3d86209eafee97f1f2527c4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/08/18 (Fri) 04:17,\n\n Now Answer the Question: Do I go to the gym more frequently than I did previously?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680208897a4cbcde5a1b46df3d86209eafee97f1f6646af', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 16:07,\n\n Now Answer the Question: What is the name of my cat?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680210363a4cbcde5a1b46df3d86209eafee97f1ffd7dc0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 18:46,\n\n Now Answer the Question: How much did I save on the Jimmy Choo heels?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680212322a4cbcde5a1b46df3d86209eafee97f1f952127', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/22 (Mon) 01:48,\n\n Now Answer the Question: I've got some free time tonight, any documentary recommendations?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680213837a4cbcde5a1b46df3d86209eafee97f1f8ae9b1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 04:31,\n\n Now Answer the Question: How much time do I dedicate to practicing violin every day?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680215242a4cbcde5a1b46df3d86209eafee97f1fa0d41f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/06/14 (Wed) 08:23,\n\n Now Answer the Question: How many short stories have I written since I started writing regularly?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680217204a4cbcde5a1b46df3d86209eafee97f1fd81ee3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/06/23 (Fri) 16:42,\n\n Now Answer the Question: How much weight have I lost since I started going to the gym consistently?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680218862a4cbcde5a1b46df3d86209eafee97f1fa211e1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/06/14 (Wed) 10:15,\n\n Now Answer the Question: How many trips have I taken my Canon EOS 80D camera on?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680220394a4cbcde5a1b46df3d86209eafee97f1f1cb77e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 08:12,\n\n Now Answer the Question: How many fish are there in my 30-gallon tank?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680227923a4cbcde5a1b46df3d86209eafee97f1f9ab047', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 07:25,\n\n Now Answer the Question: I wanted to follow up on our previous conversation about front-end and back-end development. Can you remind me of the specific back-end programming languages you recommended I learn?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680229579a4cbcde5a1b46df3d86209eafee97f1fa67a6b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/07/01 (Sat) 13:47,\n\n Now Answer the Question: What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680231112a4cbcde5a1b46df3d86209eafee97f1fa9e5f0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/04/02 (Sun) 20:31,\n\n Now Answer the Question: When did I volunteer at the local animal shelter's fundraising dinner?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680232669a4cbcde5a1b46df3d86209eafee97f1fe7f2a6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 23:52,\n\n Now Answer the Question: How many Marvel movies did I re-watch?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680234524a4cbcde5a1b46df3d86209eafee97f1f198c12', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/08/15 (Tue) 16:25,\n\n Now Answer the Question: I am planning another theme park weekend; do you have any suggestions?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680236063a4cbcde5a1b46df3d86209eafee97f1fe1fa43', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 01:13,\n\n Now Answer the Question: Where did I redeem a $5 coupon on coffee creamer?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680237430a4cbcde5a1b46df3d86209eafee97f1ffc61fe', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/07/23 (Sun) 03:18,\n\n Now Answer the Question: For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680239004a4cbcde5a1b46df3d86209eafee97f1f22b4cb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/21 (Sun) 09:52,\n\n Now Answer the Question: Where did I complete my Bachelor's degree in Computer Science?",
+        "answer": "University of California, Berkeley",
+        "steps": 3,
+        "tokens": 5802,
+        "latency_s": 77.24,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 02:34,\n\n Now Answer the Question: How long had I been taking guitar lessons when I bought the new guitar amp?",
+        "answer": "Four weeks.",
+        "steps": 3,
+        "tokens": 6433,
+        "latency_s": 88.08,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 17:55,\n\n Now Answer the Question: How many hours did I spend watching documentaries on Netflix last month?",
+        "answer": "Around 10 hours.",
+        "steps": 2,
+        "tokens": 2410,
+        "latency_s": 19.44,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 17:24,\n\n Now Answer the Question: I remember you provided a list of 100 prompt parameters that I can specify to influence your output. Can you remind me what was the 27th parameter on that list?",
+        "answer": "The 27th parameter on the list of 100 prompt parameters is not mentioned in the provided context.",
+        "steps": 5,
+        "tokens": 10866,
+        "latency_s": 76.59,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "Current Date: 2022/04/04 (Mon) 01:38,\n\n Now Answer the Question: How many days ago did I attend a networking event?",
+        "answer": "26",
+        "steps": 3,
+        "tokens": 11140,
+        "latency_s": 104.18,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 01:55,\n\n Now Answer the Question: How many months ago did I book the Airbnb in San Francisco?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 02:11,\n\n Now Answer the Question: I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680670836a4cbcde5a1b46df3d86209eafee97f1f3b9a49', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/01 (Mon) 03:56,\n\n Now Answer the Question: How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680672283a4cbcde5a1b46df3d86209eafee97f1faab115', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 15:36,\n\n Now Answer the Question: What percentage of packed shoes did I wear on my last trip?",
+        "answer": "40%",
+        "steps": 2,
+        "tokens": 9970,
+        "latency_s": 51.43,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 20:10,\n\n Now Answer the Question: Which grocery store did I spend the most money at in the past month?",
+        "answer": "Trader Joe's",
+        "steps": 4,
+        "tokens": 17723,
+        "latency_s": 163.03,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/27 (Mon) 15:58,\n\n Now Answer the Question: How many doctor's appointments did I go to in March?",
+        "answer": "1",
+        "steps": 3,
+        "tokens": 11316,
+        "latency_s": 97.54,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 15:32,\n\n Now Answer the Question: I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+        "answer": "No relevant information about the move after 27. Kg2 Bd5+ in the previous chess game is available in the collected evidence.",
+        "steps": 5,
+        "tokens": 20667,
+        "latency_s": 147.56,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 13:21,\n\n Now Answer the Question: How much cashback did I earn at SaveMart last Thursday?",
+        "answer": "$0.75",
+        "steps": 2,
+        "tokens": 6728,
+        "latency_s": 69.29,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/09 (Fri) 10:52,\n\n Now Answer the Question: How many of Emma's recipes have I tried out?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681254241a4cbcde5a1b46df3d86209eafee97f1fe0506b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2021/08/20 (Fri) 19:01,\n\n Now Answer the Question: How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681255740a4cbcde5a1b46df3d86209eafee97f1f66a0f8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/04/10 (Mon) 07:43,\n\n Now Answer the Question: How many days ago did I attend the Maundy Thursday service at the Episcopal Church?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681257666a4cbcde5a1b46df3d86209eafee97f1fc092ec', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 12:23,\n\n Now Answer the Question: What is the total weight of the new feed I purchased in the past two months?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681259417a4cbcde5a1b46df3d86209eafee97f1f2e8fb8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/07/12 (Wed) 04:11,\n\n Now Answer the Question: What day of the week do I take a cocktail-making class?",
+        "answer": "Friday",
+        "steps": 2,
+        "tokens": 5961,
+        "latency_s": 40.76,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 10:59,\n\n Now Answer the Question: How long have I been working before I started my current job at Google?",
+        "answer": "No relevant information available",
+        "steps": 8,
+        "tokens": 50439,
+        "latency_s": 385.3,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 14:53,\n\n Now Answer the Question: How many sports have I played competitively in the past?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681841363a4cbcde5a1b46df3d86209eafee97f1fe2a135', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/02/03 (Fri) 23:24,\n\n Now Answer the Question: How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681843068a4cbcde5a1b46df3d86209eafee97f1fb3abd4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 22:03,\n\n Now Answer the Question: Can you recommend some resources where I can learn more about video editing?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681844657a4cbcde5a1b46df3d86209eafee97f1f881705', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/04/26 (Wed) 20:52,\n\n Now Answer the Question: How many fun runs did I miss in March due to work commitments?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681846430a4cbcde5a1b46df3d86209eafee97f1ff28c5a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 09:58,\n\n Now Answer the Question: I wanted to follow up on our previous conversation about language learning apps. You mentioned a few options, and I was wondering if you could remind me of the one that uses mnemonics to help learners memorize words and phrases?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681848118a4cbcde5a1b46df3d86209eafee97f1f238490', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 08:42,\n\n Now Answer the Question: I remember you told me to dilute tea tree oil with a carrier oil before applying it to my skin. Can you remind me what the recommended ratio is?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681849565a4cbcde5a1b46df3d86209eafee97f1f61c6b8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 17:00,\n\n Now Answer the Question: Who did I meet first, Mark and Sarah or Tom?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681851562a4cbcde5a1b46df3d86209eafee97f1f236cc5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/03/25 (Sat) 08:30,\n\n Now Answer the Question: How many months have passed since I last visited a museum with a friend?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681901296a4cbcde5a1b46df3d86209eafee97f1f17eb75', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/06/03 (Sat) 09:01,\n\n Now Answer the Question: How many followers do I have on Instagram now?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681902918a4cbcde5a1b46df3d86209eafee97f1f837237', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/02/26 (Sun) 22:36,\n\n Now Answer the Question: How much total money did I spend on attending workshops in the last four months?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681904692a4cbcde5a1b46df3d86209eafee97f1f62b33a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/04/05 (Wed) 15:05,\n\n Now Answer the Question: What is the artist that I started to listen to last Friday?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681906216a4cbcde5a1b46df3d86209eafee97f1fa28234', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 09:02,\n\n Now Answer the Question: What certification did I complete last month?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681907596a4cbcde5a1b46df3d86209eafee97f1f709c91', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 02:09,\n\n Now Answer the Question: I was thinking about our previous conversation about the Fifth Album, and I was wondering if you could remind me what song you said best exemplified the band's growth and development as artists?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681908933a4cbcde5a1b46df3d86209eafee97f1f490acd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/21 (Sun) 13:44,\n\n Now Answer the Question: What color did I repaint my bedroom walls?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681910542a4cbcde5a1b46df3d86209eafee97f1fc3cf08', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/06/20 (Tue) 11:24,\n\n Now Answer the Question: What company is Rachel, an old colleague from my previous company, currently working at?",
+        "answer": "TechCorp",
+        "steps": 2,
+        "tokens": 7688,
+        "latency_s": 67.62,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/10 (Fri) 19:11,\n\n Now Answer the Question: What is the order of the six museums I visited from earliest to latest?",
+        "answer": "Modern Art Museum → History Museum → Metropolitan Museum of Art → Natural History Museum (guided tour with dad) → Science Museum (Space Exploration exhibition with David) → Natural History Museum (dinosaur fossils exhibit with niece)",
+        "steps": 8,
+        "tokens": 52185,
+        "latency_s": 383.2,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 20:45,\n\n Now Answer the Question: How many kitchen items did I replace or fix?",
+        "answer": "4",
+        "steps": 2,
+        "tokens": 6808,
+        "latency_s": 55.13,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/22 (Mon) 13:04,\n\n Now Answer the Question: Which task did I complete first, fixing the fence or trimming the goats' hooves?",
+        "answer": "Fixing the fence.",
+        "steps": 2,
+        "tokens": 6942,
+        "latency_s": 62.64,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 05:51,\n\n Now Answer the Question: Can you suggest some activities that I can do in the evening?",
+        "answer": "You can try the following evening activities:  \n1. Meditation (you find it relaxing and plan to do it often)  \n2. Exploring outdoor paths like the waterfront path (you plan to do this after volleyball games)  \n3. Attending live comedy events or open mic nights (you enjoy these and want to find more in your area)  \n4. Reading (you want to fit this into your week)  \n5. Volunteering (you're available on weekdays evenings for this)  \n6. Spending time with friends or family  \n7. Watching TV shows (you mentioned these as activities to fit in)  \n\nAll these activities are compatible with your preference to wind down by 9:30 PM.",
+        "steps": 4,
+        "tokens": 16161,
+        "latency_s": 133.25,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 08:13,\n\n Now Answer the Question: How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+        "answer": "2 months.",
+        "steps": 1,
+        "tokens": 4546,
+        "latency_s": 58.35,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 18:12,\n\n Now Answer the Question: Can you recommend some interesting cultural events happening around me this weekend?",
+        "answer": "There is no specific information available about cultural events happening in zip code 92101 this weekend based on the provided evidence. However, you might want to explore language exchange events focusing on French/Spanish conversational practice, live comedy open mics, or art exhibitions at the Modern Art Museum in your area, as these align with your interests. You can use relevant websites or apps to locate such events.",
+        "steps": 10,
+        "tokens": 62565,
+        "latency_s": 270.86,
+        "replan": 1
+      },
+      {
+        "question": "Current Date: 2023/05/24 (Wed) 23:41,\n\n Now Answer the Question: How many plants did I initially plant for tomatoes and chili peppers?",
+        "answer": "You initially planted 5 tomato plants. There is no information about the number of initially planted chili pepper plants in the collected evidence.",
+        "steps": 5,
+        "tokens": 18350,
+        "latency_s": 132.9,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 08:58,\n\n Now Answer the Question: How much time do I dedicate to practicing guitar every day?",
+        "answer": "At least 30 minutes.",
+        "steps": 2,
+        "tokens": 7532,
+        "latency_s": 77.88,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 22:15,\n\n Now Answer the Question: What is the total amount I spent on gifts for my coworker and brother?",
+        "answer": "200",
+        "steps": 2,
+        "tokens": 7293,
+        "latency_s": 58.1,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/03/28 (Tue) 00:03,\n\n Now Answer the Question: What was the significant buisiness milestone I mentioned four weeks ago?",
+        "answer": "Signed a contract with the first freelance client.",
+        "steps": 6,
+        "tokens": 31903,
+        "latency_s": 220.71,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/08/18 (Fri) 04:17,\n\n Now Answer the Question: Do I go to the gym more frequently than I did previously?",
+        "answer": "Not enough information.",
+        "steps": 6,
+        "tokens": 29946,
+        "latency_s": 215.97,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 16:07,\n\n Now Answer the Question: What is the name of my cat?",
+        "answer": "Luna",
+        "steps": 2,
+        "tokens": 5649,
+        "latency_s": 48.66,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 18:46,\n\n Now Answer the Question: How much did I save on the Jimmy Choo heels?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772683697296a4cbcde5a1b46df3d86209eafee97f1f65c76e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Current Date: 2023/05/22 (Mon) 01:48,\n\n Now Answer the Question: I've got some free time tonight, any documentary recommendations?",
+        "answer": "Dynasties, Chasing Coral",
+        "steps": 10,
+        "tokens": 61161,
+        "latency_s": 298.02,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 04:31,\n\n Now Answer the Question: How much time do I dedicate to practicing violin every day?",
+        "answer": "There is no information available about the daily time dedicated to practicing violin in the collected evidence.",
+        "steps": 4,
+        "tokens": 15583,
+        "latency_s": 97.63,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/06/14 (Wed) 08:23,\n\n Now Answer the Question: How many short stories have I written since I started writing regularly?",
+        "answer": "Seven.",
+        "steps": 2,
+        "tokens": 7765,
+        "latency_s": 76.76,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/23 (Fri) 16:42,\n\n Now Answer the Question: How much weight have I lost since I started going to the gym consistently?",
+        "answer": "10 pounds.",
+        "steps": 2,
+        "tokens": 6007,
+        "latency_s": 49.66,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/06/14 (Wed) 10:15,\n\n Now Answer the Question: How many trips have I taken my Canon EOS 80D camera on?",
+        "answer": "5",
+        "steps": 2,
+        "tokens": 6512,
+        "latency_s": 58.88,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/28 (Sun) 08:12,\n\n Now Answer the Question: How many fish are there in my 30-gallon tank?",
+        "answer": "No information about the number of fish in the 30-gallon tank is provided in the collected evidence.",
+        "steps": 4,
+        "tokens": 18723,
+        "latency_s": 129.74,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 07:25,\n\n Now Answer the Question: I wanted to follow up on our previous conversation about front-end and back-end development. Can you remind me of the specific back-end programming languages you recommended I learn?",
+        "answer": "没有找到之前推荐的具体后端编程语言名称。",
+        "steps": 4,
+        "tokens": 15099,
+        "latency_s": 143.41,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/07/01 (Sat) 13:47,\n\n Now Answer the Question: What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+        "answer": "Spring Sprint Triathlon, Midsummer 5K Run, Company's annual charity soccer tournament.",
+        "steps": 10,
+        "tokens": 70495,
+        "latency_s": 452.33,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/04/02 (Sun) 20:31,\n\n Now Answer the Question: When did I volunteer at the local animal shelter's fundraising dinner?",
+        "answer": "Valentine's Day",
+        "steps": 5,
+        "tokens": 22833,
+        "latency_s": 177.11,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/26 (Fri) 23:52,\n\n Now Answer the Question: How many Marvel movies did I re-watch?",
+        "answer": "2",
+        "steps": 2,
+        "tokens": 6765,
+        "latency_s": 57.56,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/08/15 (Tue) 16:25,\n\n Now Answer the Question: I am planning another theme park weekend; do you have any suggestions?",
+        "answer": "No specific theme park recommendations are available based on the provided information.",
+        "steps": 10,
+        "tokens": 72082,
+        "latency_s": 319.26,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/30 (Tue) 01:13,\n\n Now Answer the Question: Where did I redeem a $5 coupon on coffee creamer?",
+        "answer": "The location where the $5 coupon on coffee creamer was redeemed is not specified in the provided evidence.",
+        "steps": 4,
+        "tokens": 14684,
+        "latency_s": 120.15,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/07/23 (Sun) 03:18,\n\n Now Answer the Question: For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+        "answer": "Insufficient information to determine, as no previous coffee-to-water ratio for your French press is mentioned in the evidence.",
+        "steps": 5,
+        "tokens": 20807,
+        "latency_s": 159.21,
+        "replan": 2
+      },
+      {
+        "question": "Current Date: 2023/05/21 (Sun) 09:52,\n\n Now Answer the Question: Where did I complete my Bachelor's degree in Computer Science?",
+        "answer": "University of California, Berkeley",
+        "steps": 2,
+        "tokens": 7090,
+        "latency_s": 67.87,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/27 (Sat) 02:34,\n\n Now Answer the Question: How long had I been taking guitar lessons when I bought the new guitar amp?",
+        "answer": "Four weeks.",
+        "steps": 2,
+        "tokens": 8154,
+        "latency_s": 86.83,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/23 (Tue) 17:55,\n\n Now Answer the Question: How many hours did I spend watching documentaries on Netflix last month?",
+        "answer": "Around 10 hours.",
+        "steps": 2,
+        "tokens": 6265,
+        "latency_s": 53.34,
+        "replan": 0
+      },
+      {
+        "question": "Current Date: 2023/05/29 (Mon) 17:24,\n\n Now Answer the Question: I remember you provided a list of 100 prompt parameters that I can specify to influence your output. Can you remind me what was the 27th parameter on that list?",
+        "answer": "The 27th parameter in the list of 100 prompt parameters is not specified in the collected evidence.",
+        "steps": 5,
+        "tokens": 20777,
+        "latency_s": 115.27,
+        "replan": 2
+      }
+    ]
+  }
+}

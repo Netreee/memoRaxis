@@ -1,0 +1,809 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "backend": "mem0",
+  "instance_idx": 1,
+  "results": {
+    "R1": [
+      {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1027,
+        "latency_s": 7.58,
+        "replan": 0
+      },
+      {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1236,
+        "latency_s": 8.39,
+        "replan": 0
+      },
+      {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 984,
+        "latency_s": 6.04,
+        "replan": 0
+      },
+      {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 679,
+        "latency_s": 3.52,
+        "replan": 0
+      },
+      {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 995,
+        "latency_s": 4.71,
+        "replan": 0
+      },
+      {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 999,
+        "latency_s": 5.47,
+        "replan": 0
+      },
+      {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1090,
+        "latency_s": 7.83,
+        "replan": 0
+      },
+      {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 971,
+        "latency_s": 7.41,
+        "replan": 0
+      },
+      {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 966,
+        "latency_s": 3.25,
+        "replan": 0
+      },
+      {
+        "question": "Are Local H and For Against both from the United States?",
+        "answer": "The context does not provide information about Local H and For Against, so it is impossible to determine whether they are both from the United States.",
+        "steps": 1,
+        "tokens": 849,
+        "latency_s": 4.16,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1037,
+        "latency_s": 5.94,
+        "replan": 0
+      },
+      {
+        "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1171,
+        "latency_s": 6.09,
+        "replan": 0
+      },
+      {
+        "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1066,
+        "latency_s": 11.7,
+        "replan": 0
+      },
+      {
+        "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 781,
+        "latency_s": 4.53,
+        "replan": 0
+      },
+      {
+        "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+        "answer": "The context does not provide information about the football manager who recruited David Beckham or the timeframe during which he managed Manchester United.\n\nWait, wait, wait—wait a second, let me double-check all the memory entries again to be sure. Let's list them: 1 is about baseball coach, 2 is Kasper Schmeichel (goalkeeper), 3 Mighty Mouse revival,4 traffic system,5 hypermarket chain,6 VCU basketball,7 Tobacco Factory in Bristol,8 Federal Music Project,9 T.Rex band,10 loan modification during recession. None of these have anything to do with David Beckham or his recruiter at Man Utd. So yes, the answer should be that the context lacks the necessary information.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The context does not contain relevant information to answer the question.",
+        "steps": 1,
+        "tokens": 1054,
+        "latency_s": 9.45,
+        "replan": 0
+      },
+      {
+        "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 829,
+        "latency_s": 3.8,
+        "replan": 0
+      },
+      {
+        "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 851,
+        "latency_s": 3.35,
+        "replan": 0
+      },
+      {
+        "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 822,
+        "latency_s": 5.46,
+        "replan": 0
+      },
+      {
+        "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 1067,
+        "latency_s": 3.02,
+        "replan": 0
+      },
+      {
+        "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 1363,
+        "latency_s": 16.96,
+        "replan": 0
+      },
+      {
+        "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 957,
+        "latency_s": 4.82,
+        "replan": 0
+      },
+      {
+        "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1003,
+        "latency_s": 5.09,
+        "replan": 0
+      },
+      {
+        "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 845,
+        "latency_s": 6.41,
+        "replan": 0
+      },
+      {
+        "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 852,
+        "latency_s": 4.62,
+        "replan": 0
+      },
+      {
+        "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+        "answer": "The context does not provide information about what Kasper Schmeichel's father (Peter Schmeichel) was voted to be by the IFFHS in 1992. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 918,
+        "latency_s": 6.99,
+        "replan": 0
+      },
+      {
+        "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1147,
+        "latency_s": 4.91,
+        "replan": 0
+      },
+      {
+        "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 936,
+        "latency_s": 5.95,
+        "replan": 0
+      },
+      {
+        "question": "Are both Dictyosperma, and Huernia described as a genus?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 949,
+        "latency_s": 4.03,
+        "replan": 0
+      },
+      {
+        "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+        "answer": "The provided context does not contain information about Kaiser Ventures corporation or the American industrialist known as the father of modern American shipbuilding. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 1074,
+        "latency_s": 4.5,
+        "replan": 0
+      },
+      {
+        "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 976,
+        "latency_s": 3.77,
+        "replan": 0
+      },
+      {
+        "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+        "answer": "The context does not provide the release date of Poison's album \"Shut Up, Make Love\".",
+        "steps": 1,
+        "tokens": 1054,
+        "latency_s": 5.91,
+        "replan": 0
+      },
+      {
+        "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+        "answer": "The information about where Buck-Tick hails from is not provided in the given context.",
+        "steps": 1,
+        "tokens": 987,
+        "latency_s": 3.61,
+        "replan": 0
+      },
+      {
+        "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1374,
+        "latency_s": 7.46,
+        "replan": 0
+      },
+      {
+        "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 828,
+        "latency_s": 3.97,
+        "replan": 0
+      },
+      {
+        "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+        "answer": "The provided context does not contain information about the number of members of Letters to Cleo or Screaming Trees, so it is impossible to answer this question.",
+        "steps": 1,
+        "tokens": 935,
+        "latency_s": 4.88,
+        "replan": 0
+      },
+      {
+        "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1088,
+        "latency_s": 5.46,
+        "replan": 0
+      },
+      {
+        "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1050,
+        "latency_s": 5.55,
+        "replan": 0
+      },
+      {
+        "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1066,
+        "latency_s": 7.3,
+        "replan": 0
+      },
+      {
+        "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 962,
+        "latency_s": 3.31,
+        "replan": 0
+      },
+      {
+        "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+        "answer": "The information about Ralph Hefferline is not present in the provided context.\n\n（Wait, wait, let me double-check again. The user's instruction says if the info is insufficient, state clearly. So the answer should be: The context does not provide information about Ralph Hefferline's university location. Or more concisely: No relevant information available. Let me make it precise as per the instruction: If context info is insufficient,明确说明. So the correct answer is: The information about the city where Ralph Hefferline worked as a psychology professor is not provided in the given context.）\n\nWait, but let's see the user's instruction says \"only give me the answer and do not output any other words\". So maybe just: No relevant information available. Or more accurately: The context does not contain information about Ralph Hefferline's university location. But let's think—since none of the entries mention Ralph Hefferline, the answer should be that the info is insufficient. So the answer is: No relevant information provided.</think_never_used_51bce0c785ca2f68081bfa7d91973934>No relevant information provided.",
+        "steps": 1,
+        "tokens": 1176,
+        "latency_s": 11.15,
+        "replan": 0
+      },
+      {
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 992,
+        "latency_s": 2.8,
+        "replan": 0
+      },
+      {
+        "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+        "answer": "The context does not provide information about Sachin Warrier or the company he worked for as a software engineer. Therefore, the answer cannot be determined based on the given content.",
+        "steps": 1,
+        "tokens": 947,
+        "latency_s": 5.08,
+        "replan": 0
+      },
+      {
+        "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 894,
+        "latency_s": 4.58,
+        "replan": 0
+      },
+      {
+        "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1016,
+        "latency_s": 9.22,
+        "replan": 0
+      },
+      {
+        "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 1206,
+        "latency_s": 6.29,
+        "replan": 0
+      },
+      {
+        "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 867,
+        "latency_s": 3.86,
+        "replan": 0
+      },
+      {
+        "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1158,
+        "latency_s": 5.51,
+        "replan": 0
+      },
+      {
+        "question": "What type of forum did a former Soviet statesman initiate?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 848,
+        "latency_s": 3.42,
+        "replan": 0
+      },
+      {
+        "question": "Are Ferocactus and Silene both types of plant?",
+        "answer": "The context does not provide information about Ferocactus and Silene, so it is impossible to determine whether they are both types of plant.\n\n（注：严格来说，根据指令，若信息不足应明确说明。原记忆上下文确实没有相关内容，所以给出此回答。）",
+        "steps": 1,
+        "tokens": 793,
+        "latency_s": 4.89,
+        "replan": 0
+      },
+      {
+        "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 982,
+        "latency_s": 7.27,
+        "replan": 0
+      },
+      {
+        "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1010,
+        "latency_s": 3.67,
+        "replan": 0
+      },
+      {
+        "question": "In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 970,
+        "latency_s": 6.43,
+        "replan": 0
+      },
+      {
+        "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 745,
+        "latency_s": 3.52,
+        "replan": 0
+      },
+      {
+        "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1203,
+        "latency_s": 7.09,
+        "replan": 0
+      },
+      {
+        "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+        "answer": "The provided context does not contain information about Ellie Goulding's third studio album Delirium or the writers she worked with on it. So I can't answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 919,
+        "latency_s": 4.8,
+        "replan": 0
+      },
+      {
+        "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 950,
+        "latency_s": 6.76,
+        "replan": 0
+      },
+      {
+        "question": "D1NZ is a series based on what oversteering technique?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 698,
+        "latency_s": 3.27,
+        "replan": 0
+      },
+      {
+        "question": "who is younger Keith Bostic or Jerry Glanville ?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 956,
+        "latency_s": 4.68,
+        "replan": 0
+      },
+      {
+        "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 996,
+        "latency_s": 7.59,
+        "replan": 0
+      },
+      {
+        "question": "Are both Cypress and Ajuga genera?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 926,
+        "latency_s": 3.61,
+        "replan": 0
+      },
+      {
+        "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 955,
+        "latency_s": 4.16,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1311,
+        "latency_s": 10.04,
+        "replan": 0
+      },
+      {
+        "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 794,
+        "latency_s": 3.34,
+        "replan": 0
+      },
+      {
+        "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 1139,
+        "latency_s": 4.53,
+        "replan": 0
+      },
+      {
+        "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 1051,
+        "latency_s": 6.48,
+        "replan": 0
+      },
+      {
+        "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 979,
+        "latency_s": 5.23,
+        "replan": 0
+      },
+      {
+        "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 863,
+        "latency_s": 3.86,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 1293,
+        "latency_s": 7.72,
+        "replan": 0
+      },
+      {
+        "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1159,
+        "latency_s": 6.62,
+        "replan": 0
+      },
+      {
+        "question": "The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+        "answer": "信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 910,
+        "latency_s": 3.49,
+        "replan": 0
+      },
+      {
+        "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1042,
+        "latency_s": 5.73,
+        "replan": 0
+      },
+      {
+        "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 968,
+        "latency_s": 4.99,
+        "replan": 0
+      },
+      {
+        "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 981,
+        "latency_s": 8.1,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1041,
+        "latency_s": 6.41,
+        "replan": 0
+      },
+      {
+        "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 860,
+        "latency_s": 4.36,
+        "replan": 0
+      },
+      {
+        "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1107,
+        "latency_s": 9.11,
+        "replan": 0
+      },
+      {
+        "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+        "answer": "The context does not provide enough information to answer the question.",
+        "steps": 1,
+        "tokens": 953,
+        "latency_s": 5.58,
+        "replan": 0
+      },
+      {
+        "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+        "answer": "The context does not provide information about Alvaro Mexia or his diplomatic mission with any indigenous tribe.",
+        "steps": 1,
+        "tokens": 722,
+        "latency_s": 4.66,
+        "replan": 0
+      },
+      {
+        "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+        "answer": "The information about the nationality of Alfred Gell and Edmund Leach is not provided in the given context.",
+        "steps": 1,
+        "tokens": 876,
+        "latency_s": 5.15,
+        "replan": 0
+      },
+      {
+        "question": "In which year was the King who made the 1925 Birthday Honours born?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1418,
+        "latency_s": 9.18,
+        "replan": 0
+      },
+      {
+        "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 975,
+        "latency_s": 4.0,
+        "replan": 0
+      },
+      {
+        "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 930,
+        "latency_s": 2.57,
+        "replan": 0
+      },
+      {
+        "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 892,
+        "latency_s": 4.75,
+        "replan": 0
+      },
+      {
+        "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1143,
+        "latency_s": 7.51,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 761,
+        "latency_s": 5.9,
+        "replan": 0
+      },
+      {
+        "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1288,
+        "latency_s": 8.8,
+        "replan": 0
+      },
+      {
+        "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1074,
+        "latency_s": 5.93,
+        "replan": 0
+      },
+      {
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "answer": "The information about the locations of Teide National Park and Garajonay National Park is not provided in the given context.",
+        "steps": 1,
+        "tokens": 825,
+        "latency_s": 3.1,
+        "replan": 0
+      },
+      {
+        "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 958,
+        "latency_s": 3.83,
+        "replan": 0
+      },
+      {
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1001,
+        "latency_s": 6.66,
+        "replan": 0
+      },
+      {
+        "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+        "answer": "The context does not provide information about Andrew Jaspan or the not-for-profit media outlet he co-founded.\n(Note: The user's instruction says if info is insufficient, state it clearly. So this is the correct response.)",
+        "steps": 1,
+        "tokens": 840,
+        "latency_s": 4.43,
+        "replan": 0
+      },
+      {
+        "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1252,
+        "latency_s": 8.79,
+        "replan": 0
+      },
+      {
+        "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 1342,
+        "latency_s": 6.07,
+        "replan": 0
+      },
+      {
+        "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1032,
+        "latency_s": 5.59,
+        "replan": 0
+      },
+      {
+        "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 1082,
+        "latency_s": 4.89,
+        "replan": 0
+      },
+      {
+        "question": "Tysons Galleria is located in what county?",
+        "answer": "The context does not provide information about the county where Tysons Galleria is located.",
+        "steps": 1,
+        "tokens": 827,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+        "answer": "上下文信息不足，无法回答该问题",
+        "steps": 1,
+        "tokens": 799,
+        "latency_s": 4.01,
+        "replan": 0
+      },
+      {
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "answer": "The context does not mention Lev Yilmaz or Pamela B. Green, so there is insufficient information to answer the question.",
+        "steps": 1,
+        "tokens": 1039,
+        "latency_s": 2.93,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?",
+        "answer": "The provided context does not contain information about the ambassador of the Rabat-Salé-Kénitra administrative region to China or their base location. Therefore, the answer cannot be determined from the given context.",
+        "steps": 1,
+        "tokens": 993,
+        "latency_s": 7.91,
+        "replan": 0
+      },
+      {
+        "question": "Are Yingkou and Fuding the same level of city?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 770,
+        "latency_s": 3.29,
+        "replan": 0
+      }
+    ]
+  }
+}

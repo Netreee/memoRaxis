@@ -13,3 +13,22 @@ embedding:
 
 database:
   url: postgresql://postgres:password@localhost:5432/simplememory
+
+mirix:
+  api_key: YOUR_MIRIX_API_KEY
+  base_url: http://localhost:8531
+
+# Fornax LLM backend (alternative to OpenAI-compatible Ark)
+# To use Fornax, set llm.provider: fornax and fill in the fields below.
+# fornax:
+#   llm:
+#     provider: fornax
+#     fornax_ak: YOUR_FORNAX_AK
+#     fornax_sk: YOUR_FORNAX_SK
+#     fornax_prompt_key: lark.memo.main
+
+amem:
+  chroma_base: out/amem/chroma
+  model_name: all-MiniLM-L6-v2
+  enable_evolution: true
+  evo_threshold: 100

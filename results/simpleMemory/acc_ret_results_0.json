@@ -1,0 +1,2113 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "instance_idx": 0,
+  "mAxis": "simpleMemory",
+  "results": {
+    "R1": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France. \n\nThe context clearly states in multiple places that Normandy is a region in France, such as: \n- \"[...] gave their name to Normandy, a region in France.\" (from [1])\n- \"The Duchy of Normandy... was a great fief of medieval France...\" (from [2])\n- \"The treaty offered Rollo and his men the French lands between the river Epte and the Atlantic coast...\" (from [3])\n- \"Early Norman kings of England, as Dukes of Normandy, owed homage to the King of France for their land on the continent.\" (from [4])\n\nAll these references confirm Normandy is located in France.",
+        "steps": 1,
+        "tokens": 1286,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "The Normans were in Normandy during the 10th and 11th centuries. Their distinct cultural and ethnic identity emerged initially in the first half of the 10th century, and they continued to be present in Normandy through the 11th century (as evidenced by events like Ethelred II's stay there from 1013 to 1016 and the context of the 1066 Norman activities).\n\n\nThe Normans were in Normandy during the 10th and 11th centuries. Their distinct cultural and ethnic identity emerged initially in the first half of the 10th century, and they remained in Normandy through the 11th century (evidenced by events such as Ethelred II's stay in Normandy from 1013 to 1016 and the context of Normandy exporting fighting horsemen by 1066).",
+        "steps": 1,
+        "tokens": 2573,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "The Norse originated from Denmark, Iceland and Norway. Additionally, there were possible connections to Sweden as some of Rollo's contingents might have included Swedes. (Based on context: [1] mentions Norse raiders from Denmark, Iceland and Norway; [3] notes Rollo's groups possibly included Swedes.) \n\nBut focusing on the core origin countries stated directly for the Norse: Denmark, Iceland and Norway. \n\nFinal answer: The Norse originated from Denmark, Iceland and Norway. There were also possible connections to Sweden as some of their related groups might have included Swedes. However, the main countries of origin mentioned are Denmark, Iceland and Norway. \n\nSimplified direct answer (per instruction): The Norse originated from Denmark, Iceland and Norway. Some related groups might have included Swedes as well.\nBut if to be precise based on explicit origin: Denmark, Iceland and Norway. \n\nOptimal direct answer: The Norse originated from Denmark, Iceland and Norway. (With possible connections to Sweden as some of their contingents included Swedes.) \n\nBut the most direct explicit ones are Denmark, Iceland and Norway. So:\n\nThe Norse originated from Denmark, Iceland and Norway. Some of their related groups might have included Swedes.\n</think_never_used_51bce0c785ca2f68081bfa7d91973934>The Norse originated from Denmark, Iceland and Norway. Some related groups (like those in Rollo's contingents) might have also included Swedes, but the main countries of origin explicitly mentioned are Denmark, Iceland and Norway.\n\nDirect core answer: Denmark, Iceland and Norway.",
+        "steps": 1,
+        "tokens": 3805,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo",
+        "steps": 1,
+        "tokens": 4770,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "The 10th century.\n\nAccording to the context [1], \"The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century\". Therefore, the Normans first gained their separate identity in the 10th century.",
+        "steps": 1,
+        "tokens": 5895,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "Duke William II of Normandy (also known as William the Conqueror).",
+        "steps": 1,
+        "tokens": 6951,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "The rulers of the Duchy of Normandy mentioned in the context include:\n1. Rollo: The Viking leader who established the Duchy of Normandy via the Treaty of Saint-Clair-sur-Epte with King Charles III of West Francia in 911.\n2. Richard I of Normandy: Who forged the duchy into a cohesive and formidable principality.\n3. Richard II of Normandy: The brother of Emma (wife of King Ethelred II of England).\n4. William II of Normandy (William the Conqueror): Who conquered England in 1066.\n\nThese are the specific rulers referenced in the provided context.\n\n\n**Answer:** The rulers of the Duchy of Normandy mentioned are Rollo, Richard I of Normandy, Richard II of Normandy, and William II of Normandy (William the Conqueror). Rollo established the duchy in 911; Richard I forged it into a cohesive principality; Richard II was the brother of Emma (wife of England's King Ethelred II); William II conquered England in 1066.",
+        "steps": 1,
+        "tokens": 8701,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "The Normans replaced the Norse religion with Catholicism (Christianity) and became exponents of the Catholic orthodoxy into which they assimilated. So their religion was Catholicism (a branch of Christianity).",
+        "steps": 1,
+        "tokens": 9769,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "The original meaning of the word Norman is \"Norseman\" or \"Viking\". It comes from Old Low Franconian \"Nortmann\" or Old Norse \"Norðmaðr\", which were Latinized as Nortmannus, Normannus, or Nordmannus in Medieval Latin to refer to Norsemen or Vikings. Additionally, it is stated that \"Norman comes from 'Norseman'\".",
+        "steps": 1,
+        "tokens": 10989,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "In the 9th century. (The Latin versions of the word Norman, such as Nortmannus, Normannus, or Nordmannus, were recorded in Medieval Latin in the 9th century.)",
+        "steps": 1,
+        "tokens": 12011,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "The Duchy of Normandy was founded in 911.",
+        "steps": 1,
+        "tokens": 13236,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia.",
+        "steps": 1,
+        "tokens": 14269,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The river Epte and the river Seine originally bounded the Duchy of Normandy. \n\nAccording to the context, the treaty of Saint-Clair-sur-Epte offered Rollo and his men lands between the river Epte and the Atlantic coast, and the area corresponded to the northern part of present-day Upper Normandy down to the river Seine. These two rivers formed the original boundaries of the Duchy.",
+        "steps": 1,
+        "tokens": 15837,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo.\n\nAccording to the context, earlier Viking settlers in the region were divided into separate colonies before Rollo's arrival. Rollo led a contingent of diverse Viking groups (Danes, Norwegians, Norse–Gaels, etc.) to settle Normandy, and under his leadership, the descendants of these Vikings gradually formed a distinct common identity as Normans through assimilation and cultural blending with local populations. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, linked to Rollo's settlement and influence.\n\n\n（注：根据上下文，Rollo的到来及其领导下的维京群体整合，使得原本分散的维京定居者逐渐形成了共同的身份认同——诺曼人。）",
+        "steps": 1,
+        "tokens": 17284,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "The Norman religion was Catholicism (Christianity). They replaced the Norse religion with Catholicism and became exponents of the Catholic orthodoxy into which they assimilated.",
+        "steps": 1,
+        "tokens": 18499,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The Normans were located in Normandy, a region in France. Specifically, the Duchy of Normandy where they settled was initially situated in the former Frankish kingdom of Neustria, between the river Epte and the Atlantic coast (corresponding to the northern part of present-day Upper Normandy down to the river Seine), and later extended west beyond the Seine, roughly equivalent to the old province of Rouen. It also reproduced the Roman administrative structure of Gallia Lugdunensis II.",
+        "steps": 1,
+        "tokens": 19941,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "Fighting horsemen.",
+        "steps": 1,
+        "tokens": 20999,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "The Normans' main enemies in Italy, the Byzantine Empire, and Armenia were the Byzantine Empire and the Seljuk Turks. \n\nIn Italy, the Byzantines were a key enemy—Norman mercenaries were initially encouraged by Lombards to act against Byzantines, and Robert Guiscard ultimately drove the Byzantines out of southern Italy. In the Byzantine Empire and Armenia, they fought especially against the Seljuk Turks (e.g., Robert Crispin led Normans against Turks in Edessa; Normans entering the Byzantine Empire and Armenia fought the Seljuk Turks prominently). Additionally, the Normans clashed with the Byzantine Empire itself in the Balkan peninsula during Robert Guiscard's campaigns.\n\n\n**Answer:** The Byzantine Empire and the Seljuk Turks.",
+        "steps": 1,
+        "tokens": 23561,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "In the 1050s.",
+        "steps": 1,
+        "tokens": 24629,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "In the 1060s.",
+        "steps": 1,
+        "tokens": 25824,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos.",
+        "steps": 1,
+        "tokens": 26739,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle and Dublin Castle.",
+        "steps": 1,
+        "tokens": 27889,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "Oursel.\n\nAccording to the context: \"A Norman named Oursel led a force of 'Franks' into the upper Euphrates valley in northern Syria.\" Therefore, the leader was Oursel.",
+        "steps": 1,
+        "tokens": 28951,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "The Normans teamed up with the following parties in Anatolia (Asia Minor):  \n1. Turkish forces (some joined them to aid in destroying Armenian vassal-states in far eastern Anatolia).  \n2. The Armenian state in Cilicia and the Taurus Mountains (many took up service with it).  \n3. Armenian general Philaretus Brachamius (8,000 Normans were part of his troops from 1073 to 1074).  \n4. Byzantine duke Isaac Komnenos (they were based at Malatya and Edessa under his command).  \n5. The local population of Asia Minor (supported Roussel de Bailleul's attempt to carve out an independent state).  \n\nAdditionally, they served in Byzantine service in some regions of Anatolia (e.g., under Isaac Komnenos).  \n\n(All information is derived from the provided context.)",
+        "steps": 1,
+        "tokens": 30646,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Raoulii family (likely referring to the Raoulii mentioned in the context) was of Norman mercenary origin during the period of the Comnenian Restoration in Byzantine Greece, and they were descended from an Italo-Norman named Raoul. \n\n(Note: The question mentions \"Raouliii\" which may be a typo for \"Raoulii\" as referenced in the context.)",
+        "steps": 1,
+        "tokens": 31801,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard",
+        "steps": 1,
+        "tokens": 32866,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "February 1082",
+        "steps": 1,
+        "tokens": 34235,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000 men.",
+        "steps": 1,
+        "tokens": 35464,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "The Normans and Byzantines signed the peace treaty in the city of Deabolis.",
+        "steps": 1,
+        "tokens": 36618,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "The context does not provide information about Robert's son. There are mentions of several Roberts, such as Robert de Grantmesnil, Robert Guiscard, and Robert the Bruce, but none of the given passages include details about their sons. Thus, the answer cannot be determined based on the provided context.\n\n信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 38052,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "The river Deabolis.",
+        "steps": 1,
+        "tokens": 39297,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "The Normans attacked Dyrrachium in 1081, 1107, and 1185. \n\n- In 1081, Robert Guiscard led an army to attack Dyrrachium from land and sea, and the city fell in February 1082.\n- In 1107, Bohemond (Robert's son) besieged Dyrrachium but failed.\n- In 1185, a large Norman army invaded Dyrrachium due to the betrayal of high Byzantine officials.",
+        "steps": 1,
+        "tokens": 40693,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "The naval bases mentioned in the context are Blount Island Command, Naval Submarine Base Kings Bay, and Dyrrachium. Blount Island Command and Naval Submarine Base Kings Bay are two U.S. Navy bases in Jacksonville, Florida; Dyrrachium was one of the most important naval bases of the Adriatic.",
+        "steps": 1,
+        "tokens": 42389,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "Based on the provided context, Dyrrachium was one of the most important naval bases of the Adriatic. It was located on the Adriatic coast, in the region where the Normans conducted campaigns after landing on the southern shores of Albania (as indicated by their capture of nearby Albanian cities like Valona, Butrint, and Kanina before attacking Dyrrachium from land and sea).\n\n\nDyrrachium was one of the most important naval bases of the Adriatic, located on the Adriatic coast in the region associated with southern Albania (as evidenced by the Norman campaigns that landed on the southern shores of Albania and attacked Dyrrachium from land and sea).",
+        "steps": 1,
+        "tokens": 44776,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England.",
+        "steps": 1,
+        "tokens": 45582,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "Duke Richard II of Normandy.",
+        "steps": 1,
+        "tokens": 46693,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy",
+        "steps": 1,
+        "tokens": 47454,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard.\n\nAccording to the context: \"Because of this, Ethelred fled to Normandy in 1013, when he was forced from his kingdom by Sweyn Forkbeard.\" So Sweyn Forkbeard kicked Ethelred out.",
+        "steps": 1,
+        "tokens": 48352,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 1,
+        "tokens": 49261,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "1041. According to the memory context [1], Edward the Confessor returned from his father's refuge in 1041 at the invitation of his half-brother Harthacnut.",
+        "steps": 1,
+        "tokens": 50198,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges.",
+        "steps": 1,
+        "tokens": 50941,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "At the Battle of Hastings.",
+        "steps": 1,
+        "tokens": 51930,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "Duke William II of Normandy (also known as William the Conqueror) killed Harold II at the Battle of Hastings in 1066.",
+        "steps": 1,
+        "tokens": 52930,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 1,
+        "tokens": 53973,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "The Anglo-Saxons.",
+        "steps": 1,
+        "tokens": 54851,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "The Anglo-Norman language was eventually absorbed into the Anglo-Saxon language (Old English) and influenced the development of Middle English, which in turn evolved into Modern English.",
+        "steps": 1,
+        "tokens": 56162,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 1,
+        "tokens": 57280,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland",
+        "steps": 1,
+        "tokens": 58444,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "Irish culture. \n\nAs stated in the context: Initially the Normans maintained a distinct culture and ethnicity in Ireland, yet with time they came to be subsumed into Irish culture, and both cultures intermixed, borrowing from each other's language, culture and outlook. They even became \"more Irish than the Irish themselves.\"\n\n\n答案：Irish culture.",
+        "steps": 1,
+        "tokens": 59790,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "Edgar Atheling.",
+        "steps": 1,
+        "tokens": 60722,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "King Malcolm III of Scotland.",
+        "steps": 1,
+        "tokens": 61663,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "1072",
+        "steps": 1,
+        "tokens": 62457,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "In the context, two hostages are mentioned:  \n1. Prince Wonjong, who was installed as the ruler of Korea by Kublai Khan in 1259.  \n2. Duncan, the son of King Malcolm III of Scotland, who was surrendered to William the Conqueror in 1072.",
+        "steps": 1,
+        "tokens": 63862,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Alexander I (elder brother of King David I of Scotland) married Sybilla of Normandy.",
+        "steps": 1,
+        "tokens": 64971,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Norman culture's arrival in Scotland is known as the \"Davidian Revolution\".",
+        "steps": 1,
+        "tokens": 66078,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Hereford. Both context [1] and [2] state that Edward the Confessor appointed Ralph as earl of Hereford. In context [1], it says \"set up the aforementioned Ralph as earl of Hereford\", and in context [2], it mentions \"made Ralph the Timid earl of Hereford\". So the answer is Hereford.",
+        "steps": 1,
+        "tokens": 66935,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "The Welsh.",
+        "steps": 1,
+        "tokens": 67871,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "Edward the Confessor made Ralph earl of Hereford. According to the context, Edward the Confessor set up Ralph as earl of Hereford (from [1]) and specifically made Ralph the Timid earl of Hereford (from [3]).\n\n\nEdward the Confessor.",
+        "steps": 1,
+        "tokens": 68853,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "Wales. \n\nAccording to the context, subsequent to the Norman Conquest of England, the Marches came under the dominance of William's most trusted Norman barons, and these Normans began a long period of slow conquest during which almost all of Wales was at some point subject to Norman interference. This indicates that Wales was under the control of Norman barons.",
+        "steps": 1,
+        "tokens": 70258,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 1,
+        "tokens": 71360,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil.",
+        "steps": 1,
+        "tokens": 72570,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "1097",
+        "steps": 1,
+        "tokens": 73537,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 1,
+        "tokens": 74422,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "Tancred was instrumental in the conquest of Jerusalem.",
+        "steps": 1,
+        "tokens": 75413,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "380 years.",
+        "steps": 1,
+        "tokens": 76372,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed Richard's fleet when he left Messina for Acre in April 1191. The boat carrying his sister, fiancée Berengaria, and the treasure ship was anchored on Cyprus' south coast with other wrecked ships, and survivors were taken prisoner by Cyprus' despot Isaac Komnenos. Richard then had to conquer Cyprus (completing it by June 1) before departing for Acre on June 5, which ruined his original plans to reach Acre directly.",
+        "steps": 1,
+        "tokens": 77537,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 1,
+        "tokens": 78568,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 1,
+        "tokens": 79813,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "In 1191, Cyprus was initially ruled by Isaac Komnenos. After Richard the Lion-hearted conquered the whole island by June 1, 1191, he appointed Richard de Camville and Robert de Thornham as governors of Cyprus before departing on June 5. Thus, Isaac Komnenos ruled Cyprus in the early part of 1191, and later Richard de Camville and Robert de Thornham governed the island.\n\n（注：根据上下文，1191年塞浦路斯的统治权发生了更迭，前期由Isaac Komnenos统治，后期由Richard de Camville和Robert de Thornham担任总督。）",
+        "steps": 1,
+        "tokens": 81162,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat.",
+        "steps": 1,
+        "tokens": 82256,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "Silver. According to the memory context [1], Isaac surrendered and was confined with silver chains because Richard had promised that he would not place him in irons.",
+        "steps": 1,
+        "tokens": 83452,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan.",
+        "steps": 1,
+        "tokens": 84265,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa\n\nThe Canarian Islands are off the Atlantic coast of Africa, as stated in the first context: \"Between 1402 and 1405, the expedition led by the Norman noble Jean de Bethencourt and the Poitevine Gadifer de la Salle conquered the Canarian islands of Lanzarote, Fuerteventura and El Hierro off the Atlantic coast of Africa.\"\n\n\nAfrica",
+        "steps": 1,
+        "tokens": 85397,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Jean de Bethencourt took the title of King of the Canary Islands, as vassal to Henry III of Castile.",
+        "steps": 1,
+        "tokens": 86345,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "The context mentions multiple instances of rights being bought:\n1. For the rights to the Canary Islands: Enrique Pérez de Guzmán, 2nd Count de Niebla bought them from Maciot de Bethencourt in 1418.\n2. For Premier League broadcast rights:\n   - BSkyB bought live rights in 1991;\n   - Setanta Sports was awarded two packages and Sky picked up four in 2006;\n   - Sky bid £4.2bn for a package of 120 games in 2015.\n\nSince the question does not specify which rights it refers to, the above are the relevant buyers based on the given context.",
+        "steps": 1,
+        "tokens": 88504,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "Maciot de Bethencourt sold the rights to the Canary Islands, and Archduke Sigismund of Austria sold the rights to the left banks of the Upper Rhine (Alsace) to Burgundy. Additionally, Telenet was sold to GTE, though the specific seller of Telenet is not explicitly stated.\n\n\n### 详细说明：\n1. **Canary Islands rights**: Jean's nephew Maciot de Bethencourt sold the rights to the islands to Enrique Pérez de Guzmán, 2nd Count de Niebla (from Context [1]).  \n2. **Alsace rights**: Archduke Sigismund of Austria sold the left banks of the Upper Rhine (Alsace) to Burgundy in 1469 (from Context [5]).  \n3. **Telenet sale**: Telenet was sold to GTE after going public in 1979, but the exact seller of Telenet is not specified in the context (from Context [4]).  \n\nThese are the only explicit instances of \"selling rights/ownership\" mentioned in the provided context. For the Premier League broadcast rights, the context focuses on bidding and ownership transfers but does not clearly state a specific seller of the rights (only that ITV was a holder and BSkyB won bids).\n\n\n**Final Answer**:  \nMaciot de Bethencourt sold the rights to the Canary Islands; Archduke Sigismund of Austria sold the rights to Alsace (left banks of Upper Rhine) to Burgundy. Telenet was sold to GTE, but its specific seller is not stated.  \n\nIf requiring concise key sellers:  \nMaciot de Bethencourt and Archduke Sigismund of Austria.  \n\nBut per exact context, the full answer includes the above details.  \n\n**Concise Answer**:  \nMaciot de Bethencourt and Archduke Sigismund of Austria sold relevant rights (to Canary Islands and Alsace respectively).  \n\n（如果需要最简洁的核心答案：）  \nMaciot de Bethencourt and Archduke Sigismund of Austria.",
+        "steps": 1,
+        "tokens": 90431,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "Jersey and Guernsey are in the Channel Islands.",
+        "steps": 1,
+        "tokens": 91486,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two.\n\nNorman customary law was transcribed in two customaries in Latin: the Très ancien coutumier (authored between 1200 and 1245) and the Grand coutumier de Normandie (authored between 1235 and 1245).\n",
+        "steps": 1,
+        "tokens": 92575,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "The Norman architecture idiom is a unique Romanesque style characterized by rounded arches (particularly over windows and doorways) and massive proportions. In southern Italy, the Normans incorporated elements of Islamic, Lombard, and Byzantine building techniques into their own, initiating a unique style known as Norman-Arab architecture within the Kingdom of Sicily.",
+        "steps": 1,
+        "tokens": 93671,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches, particularly over windows and doorways.",
+        "steps": 1,
+        "tokens": 94612,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic. \n\nAccording to the memory context [1], \"In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the Early Gothic.\" This clearly states that Early Gothic architecture came after Norman in England.",
+        "steps": 1,
+        "tokens": 95531,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon architecture.",
+        "steps": 1,
+        "tokens": 96218,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Kingdom of Sicily. (In southern Italy, the Normans incorporated elements of Islamic, Lombard, and Byzantine building techniques into their own, initiating a unique style known as Norman-Arab architecture within the Kingdom of Sicily.)",
+        "steps": 1,
+        "tokens": 97347,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "上下文提到了两次不同的教会改革相关事件：1. 诺曼公爵的教会改革开始于11世纪早期；2. 归正教会相关的改革活动（如Jacques Lefevre的工作）始于16世纪早期。由于问题未明确特指哪一次教会改革，因此信息不足，无法给出确切答案。",
+        "steps": 1,
+        "tokens": 99213,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The Norman dukes used the church to unify their disparate duchy.",
+        "steps": 1,
+        "tokens": 100338,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "The French Wars of Religion were fought intermittently from 1562 to 1598. Additionally, there were renewed religious warfare in the 1620s, including the Huguenot rebellions between 1621 and 1629. But the main Wars of Religion referred to in the context were from 1562 to 1598.\n\nWait, let me check again. The main series called Wars of Religion in [2] is 1562-1598. The 1620s ones are Huguenot rebellions or renewed warfare. So the answer should be: The French Wars of Religion were fought intermittently from 1562 to 1598. There were also renewed religious conflicts in the 1620s, such as the Huguenot rebellions between 1621 and 1629. But the primary period is 1562-1598.\n\nBut the task says direct answer. Let me make it concise: The French Wars of Religion were fought intermittently from 1562 to 1598, with renewed religious conflicts (including the Huguenot rebellions) occurring in the 1620s (1621-1629).</think_never_used_51bce0c785ca2f68081bfa7d91973934>The French Wars of Religion were fought intermittently from 1562 to 1598. There were also renewed religious conflicts in the 1620s, such as the Huguenot rebellions between 1621 and 1629. The main period of the Wars of Religion is 1562-1598.",
+        "steps": 1,
+        "tokens": 101616,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "Embroidery. The Bayeux Tapestry is not a tapestry but a work of embroidery.",
+        "steps": 1,
+        "tokens": 102639,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "The Bayeux Tapestry (which is actually a work of embroidery, not a tapestry) is by far the most famous work of Norman art. It was commissioned by Odo, the Bishop of Bayeux and first Earl of Kent, employing natives from Kent who were learned in the Nordic traditions imported by the Danish Vikings in the previous half century.",
+        "steps": 1,
+        "tokens": 103773,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 1,
+        "tokens": 104656,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Mosaics. \n\nThe context mentions in section [1] that \"Many churches preserve sculptured fonts, capitals, and more importantly mosaics, which were common in Norman Italy and drew heavily on the Greek heritage.\" This directly indicates mosaics are the most important type of Norman art preserved in churches.",
+        "steps": 1,
+        "tokens": 105693,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "The 11th century.\n\nThe context clearly states that Normandy was the site of several important developments in the history of classical music in the 11th century, such as the development of the system of denoting notes by letters and the staff at Fécamp Abbey, and La Trinité-du-Mont becoming a centre of musical composition during that period. Additionally, a singing tradition developed at Saint Evroul in Normandy around this time. All these point to the 11th century as the century when important classical music developments occurred in Normandy.",
+        "steps": 1,
+        "tokens": 106951,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna.",
+        "steps": 1,
+        "tokens": 107916,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "southern Italy",
+        "steps": 1,
+        "tokens": 109021,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia.",
+        "steps": 1,
+        "tokens": 109955,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Robert Guiscard.",
+        "steps": 1,
+        "tokens": 110957,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "A tradition of singing. At Saint-Evroul, a tradition of singing had developed and the choir achieved fame in Normandy, and the monks continued this tradition when they fled to southern Italy. Additionally, Saint-Evroul Abbey was a centre of musical production and education.",
+        "steps": 1,
+        "tokens": 112056,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory.",
+        "steps": 1,
+        "tokens": 112854,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Their inherent difficulty. According to the context, computational complexity theory focuses on classifying computational problems according to their inherent difficulty, which is formalized by quantifying the amount of resources (such as time and storage) needed to solve them regardless of the algorithm used.\n<answer>their inherent difficulty</answer>",
+        "steps": 1,
+        "tokens": 114042,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "computational problem",
+        "steps": 1,
+        "tokens": 114977,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "The amount of resources needed to solve the problem, such as time, storage, the amount of communication, the number of gates in a circuit, and the number of processors. These resources are quantified to broadly define the inherent difficulty of the solution to a computational problem.",
+        "steps": 1,
+        "tokens": 116342,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France\n\nThe first context clearly states: \"The Normans... gave their name to Normandy, a region in France.\" This directly indicates that Normandy is located in France.",
+        "steps": 2,
+        "tokens": 118719,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "The Normans were in Normandy in the 10th and 11th centuries. Their distinct cultural and ethnic identity emerged initially in the first half of the 10th century and continued to evolve over the succeeding centuries. They formed the Duchy of Normandy by treaty with the French crown, and under Richard I of Normandy, it was forged into a cohesive principality. Additionally, the Norman conquest of England led by William the Conqueror (a Norman duke) occurred in 1066, which was part of their activities during this period.",
+        "steps": 2,
+        "tokens": 121267,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "The Norse originated from Denmark, Iceland and Norway. This is directly stated in the context: \"They were descended from Norse ('Norman' comes from 'Norseman') raiders and pirates from Denmark, Iceland and Norway...\" (from [1]).\n\n\nDenmark, Iceland and Norway.",
+        "steps": 2,
+        "tokens": 123462,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo. According to the context, the Norse raiders and pirates from Denmark, Iceland and Norway agreed to swear fealty to King Charles III of West Francia under their leader Rollo, and the Duchy of Normandy was established by the treaty between King Charles III and the Viking ruler Rollo. Thus, Rollo was the Norse leader.",
+        "steps": 2,
+        "tokens": 125743,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "The 10th century.\n\nThe distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, as stated in the context.\n\n\n10th century",
+        "steps": 2,
+        "tokens": 127685,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "Duke William II of Normandy (also known as William the Conqueror). \n\nAccording to the context: \n- From [1]: \"In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings.\" \n- From [3]: \"an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066.\" \n\nBoth parts confirm that the duke in the Battle of Hastings was Duke William II of Normandy, who is also referred to as William the Conqueror.",
+        "steps": 2,
+        "tokens": 129959,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "Based on the provided context, the rulers of the Duchy of Normandy mentioned include:  \n1. **Rollo**: The leader of Norse raiders who agreed to swear fealty to King Charles III of West Francia, laying the foundation for the Duchy of Normandy.  \n2. **Richard I of Normandy**: Under his rule, the Duchy was forged into a cohesive and formidable principality.  \n3. **Duke William II of Normandy (William the Conqueror)**: A ruler of the Duchy who conquered England in 1066.  \n\nAdditionally, early Norman kings of England (such as William II) held the title of Duke of Normandy and owed homage to the King of France for the Duchy. The Duchy was part of the Norman dynasty's holdings.  \n\nThese are the specific rulers and related details about the Duchy of Normandy mentioned in the context.",
+        "steps": 2,
+        "tokens": 133275,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "The Normans replaced the Norse religion with Catholicism (Christianity) and became exponents of the Catholic orthodoxy into which they assimilated. So their religion was Catholicism (a branch of Christianity).",
+        "steps": 2,
+        "tokens": 135633,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "The original meaning of the word Norman is \"Norseman\" or \"Viking\". This is derived from Old Low Franconian \"Nortmann\" (\"Northman\") or Old Norse \"Norðmaðr\", which were Latinized to mean \"Norseman, Viking\" (as recorded in Medieval Latin), and it also comes from the fact that \"Norman\" is stated to come from \"Norseman\" referring to Norse raiders and pirates from Denmark, Iceland and Norway.",
+        "steps": 2,
+        "tokens": 138103,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "The Latin version of the word Norman was first recorded in the 9th century (in Medieval Latin). According to the context, the word was Latinized as Nortmannus, Normannus, or Nordmannus, which was recorded in Medieval Latin in the 9th century.\n\nAnswer: The 9th century.",
+        "steps": 2,
+        "tokens": 140262,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "The Duchy of Normandy was founded in 911.",
+        "steps": 2,
+        "tokens": 142859,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia.\n\nThe context [1] explicitly states that the treaty of Saint-Clair-sur-Epte was signed between King Charles III of West Francia and Rollo, and context [2] further confirms that Rollo swore fealty to King Charles III of West Francia, which aligns with the treaty agreement. Thus, the answer is King Charles III of West Francia.",
+        "steps": 2,
+        "tokens": 145519,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The river Epte and the river Seine. \n\nAccording to the context: The treaty of Saint-Clair-sur-Epte offered Rollo and his men the French lands between the river Epte and the Atlantic coast, and the area corresponded to the northern part of present-day Upper Normandy down to the river Seine (the Duchy eventually extended west beyond the Seine). Thus, these two rivers originally bounded the Duchy.",
+        "steps": 2,
+        "tokens": 148610,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo\n\nThe context indicates that before Rollo's arrival, earlier Viking settlers (from the 880s) were divided into separate colonies in the east and west, with no common identity. Rollo's contingents, consisting of diverse Viking groups (Danes, Norwegians, Norse–Gaels, etc.), settled Normandy. Under his leadership, their descendants blended with local Frankish and Roman-Gaulish populations, eventually forming a distinct \"Norman\" cultural and ethnic identity. Thus, Rollo was the one who, upon arriving, laid the foundation for a common identity among the Viking settlers that evolved into the Norman identity.",
+        "steps": 5,
+        "tokens": 165348,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "The Norman religion was Catholicism (Christianity). According to the context, the descendants of Rollo's Vikings replaced the Norse religion with Catholicism (Christianity) and later became exponents of the Catholic orthodoxy into which they assimilated.\n\n\nCatholicism (Christianity)",
+        "steps": 2,
+        "tokens": 167697,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The Normans were located in Normandy, a region in France. This is evident from the context stating that the Normans \"gave their name to Normandy, a region in France\" and that they formed the Duchy of Normandy there through a treaty with the French crown.\n\n\nNormandy, a region in France.",
+        "steps": 2,
+        "tokens": 170291,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "Fighting horsemen. \n\nThe context states: \"by 1066 Normandy had been exporting fighting horsemen for more than a generation.\" This directly identifies fighting horsemen as one of the Normans' major exports.",
+        "steps": 2,
+        "tokens": 172157,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "The Normans' main enemy in Italy was the Byzantine Empire (as Norman mercenaries were initially encouraged by Lombards to act against Byzantines, and Robert Guiscard ultimately drove Byzantines out of southern Italy). In the Byzantine Empire and Armenia, their main enemy was the Seljuk Turks (they fought against Pechenegs, Bulgars, and especially the Seljuk Turks in these regions, with multiple mentions of Norman forces engaging the Turks there).\n\n\n**Answer:** The Normans' main enemy in Italy was the Byzantine Empire, and their main enemy in the Byzantine Empire and Armenia was the Seljuk Turks.",
+        "steps": 2,
+        "tokens": 175748,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "Herve served as a Byzantine general in the 1050s.",
+        "steps": 2,
+        "tokens": 177596,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "In the 1060s.\n\nThe relevant context from [1] states: \"In the 1060s, Robert Crispin led the Normans of Edessa against the Turks.\" This directly provides the time when Robert Crispin went up against the Turks.",
+        "steps": 2,
+        "tokens": 179988,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos.\n\nAccording to the context [1], Roussel de Bailleul tried to carve out an independent state in Asia Minor but was stopped by the Byzantine general Alexius Komnenos. Therefore, Alexius Komnenos ruined his plans.",
+        "steps": 2,
+        "tokens": 182352,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle and Dublin Castle",
+        "steps": 2,
+        "tokens": 184822,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "Oursel.\n\nThe relevant context states: \"A Norman named Oursel led a force of 'Franks' into the upper Euphrates valley in northern Syria.\" This directly answers the question about the leader when the Franks entered the Euphrates valley.\n\n\nOursel",
+        "steps": 2,
+        "tokens": 187143,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "Some Normans teamed up with Turkish forces in Anatolia to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anatolia.",
+        "steps": 2,
+        "tokens": 189955,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Raoulii family were descended from an Italo-Norman named Raoul. They were among the families of Byzantine Greece that had Norman mercenary origins during the period of the Comnenian Restoration, when Byzantine emperors were seeking out western European warriors.",
+        "steps": 5,
+        "tokens": 202879,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard",
+        "steps": 2,
+        "tokens": 205274,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "February 1082 and 1185.\n\nExplanation: \n- From context 3: The city's garrison resisted until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there.\n- From context 1: In 1185, a large Norman army invaded Dyrrachium owing to the betrayal of high Byzantine officials; some time later, Dyrrachium fell again to Byzantine hands, implying it had fallen to the Normans during the 1185 invasion.\nThus, Dyrrachium fell to the Normans in February 1082 and 1185.",
+        "steps": 2,
+        "tokens": 209000,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000 men.\n\nThe relevant context states: \"in 1081 he led an army of 30,000 men in 300 ships landing on the southern shores of Albania\" (where \"he\" refers to Robert Guiscard, the Robert mentioned in the task). This directly provides the number of men in Robert's army.",
+        "steps": 2,
+        "tokens": 211586,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "The Normans and Byzantines signed the peace treaty in the city of Deabolis.",
+        "steps": 2,
+        "tokens": 213845,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "The provided context does not contain information about who Robert's son was. While Robert the Bruce is mentioned as a future king from Norman noble families in several entries, there is no mention of his son or any other Robert's son in the given context.\n\nAnswer: The context does not provide information about who Robert's son was.",
+        "steps": 5,
+        "tokens": 225083,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "The river Deabolis.\n\nAccording to the context [3], the Normans occupied Petrela, which is described as \"the citadel of Mili at the banks of the river Deabolis\". Thus, Petrela was located by the river Deabolis.",
+        "steps": 2,
+        "tokens": 227408,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "The Normans attacked Dyrrachium in 1081, 1107, and 1185. \n\n- In 1081, Robert Guiscard led a Norman army to attack Dyrrachium from land and sea (the city fell in February 1082 due to betrayal).  \n- In 1107, Bohemond (Robert's son) commanded the Normans to besiege Dyrrachium.  \n- In 1185, a large Norman army launched a third attack on Dyrrachium.  \n\nThese are all the attack times mentioned in the provided context.",
+        "steps": 2,
+        "tokens": 230624,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "The naval bases mentioned in the context are Blount Island Command, Naval Submarine Base Kings Bay, and Dyrrachium (one of the most important naval bases of the Adriatic). \n\n(Note: The context refers to multiple naval bases; these are all the ones explicitly named or identified as naval bases within the provided text.)",
+        "steps": 3,
+        "tokens": 236336,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "Dyrrachium was one of the most important naval bases of the Adriatic, and it was located on the coast where the Normans attacked it after landing on the southern shores of Albania (with the Venetian fleet securing a victory in the coast surrounding the city).",
+        "steps": 2,
+        "tokens": 240141,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England.\n\nThe context states: \"This relationship eventually produced closer ties of blood through the marriage of Emma, sister of Duke Richard II of Normandy, and King Ethelred II of England.\" So Emma married King Ethelred II of England.",
+        "steps": 2,
+        "tokens": 242054,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "Duke Richard II of Normandy. \n\nThe context [1] states: \"Emma, sister of Duke Richard II of Normandy\". This directly indicates that Emma's brother was Duke Richard II of Normandy.",
+        "steps": 2,
+        "tokens": 244944,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy. According to the context, Ethelred fled to Normandy in 1013 when he was forced from his kingdom by Sweyn Forkbeard. His stay there lasted until 1016. (From [1])",
+        "steps": 2,
+        "tokens": 247146,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard. According to the context, Ethelred fled to Normandy in 1013 when he was forced from his kingdom by Sweyn Forkbeard.",
+        "steps": 2,
+        "tokens": 249189,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 2,
+        "tokens": 250892,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "Edward returned in 1041. This is stated in the first context: \"When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of his half-brother Harthacnut...\"\n\nAnswer: 1041.",
+        "steps": 2,
+        "tokens": 252808,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges.",
+        "steps": 2,
+        "tokens": 254786,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "At the Battle of Hastings.",
+        "steps": 2,
+        "tokens": 256633,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "Duke William II of Normandy killed Harold II at the Battle of Hastings in 1066.",
+        "steps": 2,
+        "tokens": 258600,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "The Battle of Hastings was in 1066.",
+        "steps": 2,
+        "tokens": 260973,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "The Anglo-Saxons.\n\nAccording to the context [1], \"The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England.\" This directly indicates that the Anglo-Saxons were the ruling class before the Normans.",
+        "steps": 2,
+        "tokens": 262908,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "The Anglo-Norman language was eventually absorbed into the Anglo-Saxon language (Old English) of their subjects and influenced it, helping (along with the Norse language of the earlier Anglo-Norse settlers and the Latin used by the church) in the development of Middle English, which in turn evolved into Modern English.",
+        "steps": 2,
+        "tokens": 265526,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 2,
+        "tokens": 267702,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland\n\nThe relevant context states: \"The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169.\" This directly indicates the country invaded by the Normans in 1169 is Ireland.",
+        "steps": 2,
+        "tokens": 270280,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "The Normans combined with Irish culture in Ireland. As stated in the context, initially they maintained a distinct culture, but over time they were subsumed into Irish culture, with both cultures intermixing and borrowing from each other's language, culture and outlook.\n\n\nIrish culture",
+        "steps": 2,
+        "tokens": 272959,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "Edgar Atheling. \n\nThe context states: \"One of the claimants of the English throne opposing William the Conqueror, Edgar Atheling, eventually fled to Scotland. King Malcolm III of Scotland married Edgar's sister Margaret...\" This directly indicates that Edgar Atheling was Margaret's brother.",
+        "steps": 2,
+        "tokens": 275418,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "King Malcolm III of Scotland.\n\nThe context [1] states: \"King Malcolm III of Scotland married Edgar's sister Margaret...\" which directly indicates Margaret's husband is King Malcolm III of Scotland.",
+        "steps": 2,
+        "tokens": 277302,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "1072",
+        "steps": 2,
+        "tokens": 279354,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "Wonjong.\n\nThe relevant context states: \"Kublai secured the northeast border in 1259 by installing the hostage prince Wonjong as the ruler of Korea, making it a Mongol tributary state.\" This directly identifies Wonjong as the hostage.",
+        "steps": 2,
+        "tokens": 281717,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Alexander I married Sybilla of Normandy. This information is from the second memory context: \"King David I of Scotland, whose elder brother Alexander I had married Sybilla of Normandy...\"",
+        "steps": 2,
+        "tokens": 283863,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Norman culture's arrival in Scotland is known as the \"Davidian Revolution\". According to the context, King David I of Scotland was instrumental in introducing Normans and Norman culture to Scotland, which is part of the process some scholars call the \"Davidian Revolution\".\n\nAnswer: Norman culture",
+        "steps": 2,
+        "tokens": 285988,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Ralph was earl of Hereford. This is stated in both context [1] (\"Edward the Confessor had set up the aforementioned Ralph as earl of Hereford\") and context [2] (\"made Ralph the Timid earl of Hereford\").\n\nHereford",
+        "steps": 2,
+        "tokens": 288204,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "The Welsh.\n\nAccording to the first context: \"Edward the Confessor had set up the aforementioned Ralph as earl of Hereford and charged him with defending the Marches and warring with the Welsh.\" So Ralph was in charge of being at war with the Welsh.",
+        "steps": 2,
+        "tokens": 291347,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "Edward the Confessor.\n\nThe memory context [1] states: \"Edward the Confessor had set up the aforementioned Ralph as earl of Hereford and charged him with defending the Marches and warring with the Welsh.\" This directly indicates Edward the Confessor made Ralph an earl.",
+        "steps": 2,
+        "tokens": 293841,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "England and Wales. \n\nAccording to the context:  \n1. England: The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England (entries [2], [4]), and the nobility of England (including barons) were part of Norman culture.  \n2. Wales: The Marches (border areas related to Wales) came under the dominance of William's trusted Norman barons, and almost all of Wales was at some point subject to Norman interference (entry [1]).  \n\nThus, both England and Wales were under the control or influence of Norman barons as per the given context.  \n\n(Note: England is explicitly stated to be ruled by Norman nobility, while Wales was subject to Norman barons' dominance in key areas and general interference.)  \n\nFinal answer: England and Wales.",
+        "steps": 3,
+        "tokens": 300587,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 2,
+        "tokens": 302479,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil.",
+        "steps": 2,
+        "tokens": 304876,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "The Siege of Antioch took place in 1097. This is directly stated in the first context: \"After the successful Siege of Antioch in 1097, Bohemond began carving out an independent principality around that city.\"",
+        "steps": 2,
+        "tokens": 306604,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 2,
+        "tokens": 308460,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "Tancred was instrumental in the conquest of Jerusalem.",
+        "steps": 2,
+        "tokens": 310206,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "380 years.\n\nThe context [1] states that after the conquest of Cyprus by the Anglo-Norman forces of the Third Crusade, the island would be under Western European domination for the following 380 years. This is the only relevant information about the duration of Western Europe's control over Cyprus in the given context.\n\n\n380 years",
+        "steps": 2,
+        "tokens": 312164,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed Richard's fleet when he left Messina for Acre in April 1191. The boat carrying his sister, fiancée Berengaria, and the treasure ship wrecked on the south coast of Cyprus, and survivors were taken prisoner by the island's despot Isaac Komnenos. Richard then had to land his troops, take Limassol, and conquer the whole island of Cyprus (which lasted until June 1), which ruined his original plans to reach Acre directly.",
+        "steps": 2,
+        "tokens": 314992,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria.",
+        "steps": 2,
+        "tokens": 317143,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 2,
+        "tokens": 319220,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "In 1191, Cyprus was first ruled by Isaac Komnenos (the island's despot) until Richard the Lion-hearted conquered the whole island by June 1 of that year. After Richard's conquest, before he left for Acre on June 5, he appointed two Norman generals—Richard de Camville and Robert de Thornham—as governors of Cyprus, who then ruled the island for the remainder of 1191.\n\nThus, the rulers of Cyprus in 1191 were Isaac Komnenos (earlier in the year) and later Richard de Camville and Robert de Thornham (as governors appointed by Richard the Lion-hearted).",
+        "steps": 2,
+        "tokens": 322472,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat.",
+        "steps": 2,
+        "tokens": 324863,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "Silver.\n\nThe relevant context states: \"Isaac surrendered and was confined with silver chains, because Richard had promised that he would not place him in irons.\" (from memory [1]) Thus, Isaac's chains were made out of silver.",
+        "steps": 2,
+        "tokens": 327420,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan.",
+        "steps": 2,
+        "tokens": 329522,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa\n\nThe memory context [1] states that the Canarian islands (including Lanzarote, Fuerteventura and El Hierro) are off the Atlantic coast of Africa. Thus, the continent is Africa.",
+        "steps": 2,
+        "tokens": 331106,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Jean de Bethencourt (referred to as Bethencourt in the context) became the King of the Canary Islands, as he took the title of King of the Canary Islands as vassal to Henry III of Castile.\n\n（注：根据上下文第[1]条“Bethencourt took the title of King of the Canary Islands...”，结合第[2]条提到的“the expedition led by the Norman noble Jean de Bethencourt”，以及第[1]条后续提到“Jean's nephew Maciot de Bethencourt”，可确定此处的Bethencourt即Jean de Bethencourt。）",
+        "steps": 2,
+        "tokens": 333196,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "- For the Premier League rights (1992 season): BSkyB bought the rights to all live matches (paying £304m).\n- For the Premier League packages (2007–08 season onwards, awarded in May 2006): Setanta Sports was awarded two packages, and Sky picked up the remaining four.\n- For the Premier League games package (2016–2019 seasons): Sky bid £4.2bn for a package of 120 games.\n- For the rights to the Canary Islands (1418): Enrique Pérez de Guzmán, 2nd Count de Niebla bought the rights from Maciot de Bethencourt.",
+        "steps": 2,
+        "tokens": 337742,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "Based on the provided context, the following entities sold rights:\n1. Maciot de Bethencourt sold the rights to the Canary Islands to Enrique Pérez de Guzmán, 2nd Count de Niebla.\n2. The English FA sold Premier League broadcast rights (it offered six Premier League packages to broadcasters in May 2006).\n3. The Premier League was involved in selling its broadcast rights (e.g., it advised BSkyB to increase its counter bid during the 1991 talks for rights from the 1992 season).\n\nThese are all the sellers of rights mentioned in the given context.",
+        "steps": 2,
+        "tokens": 340795,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "Based on the context, Jersey and Guernsey are in the Channel Islands. This is indicated in memory entry [10], which states that the customary law of Normandy survives today through the legal systems of Jersey and Guernsey in the Channel Islands.\n\nAnswer: Jersey and Guernsey are in the Channel Islands.",
+        "steps": 5,
+        "tokens": 349917,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two.\n\nThe memory context [1] states that Norman customary law was transcribed in two customaries in Latin: the Très ancien coutumier and the Grand coutumier de Normandie. Thus, the number is two.",
+        "steps": 2,
+        "tokens": 351860,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "诺曼建筑风格是一种独特的罗马式风格，其特点为圆拱（尤其在窗户和门上方）以及厚重的比例。它在英格兰继盎格鲁-撒克逊建筑之后、早期哥特建筑之前出现；在南意大利的西西里王国，诺曼人将伊斯兰、伦巴第和拜占庭的建筑技术融入自身风格，形成了独特的诺曼-阿拉伯风格。",
+        "steps": 2,
+        "tokens": 354172,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Norman architecture is characterised by rounded arches, particularly over windows and doorways.",
+        "steps": 2,
+        "tokens": 355739,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic.\n\nThe context [1] states: \"In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the Early Gothic.\" This directly indicates that the architecture type coming after Norman in England is Early Gothic.",
+        "steps": 2,
+        "tokens": 358736,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon architecture.\n\nAccording to the context [1]: \"In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the Early Gothic.\" It clearly states that Norman architecture came right after the Anglo-Saxon period in England. So the architecture type before Norman in England is Anglo-Saxon.",
+        "steps": 2,
+        "tokens": 360340,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Kingdom of Sicily (in southern Italy).",
+        "steps": 2,
+        "tokens": 362264,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "Early 11th century.",
+        "steps": 2,
+        "tokens": 365284,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The dukes of Normandy.\n\nAccording to the context [1], it states that \"The church was utilised by the dukes as a unifying force for their disparate duchy\" in the early 11th century when the Norman dukes carried out church reforms. This refers to the dukes of Normandy using the church to unify their duchy.",
+        "steps": 2,
+        "tokens": 368437,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "The French wars of religion were fought intermittently from 1562 to 1598. (From context [1]: \"A series of religious conflicts followed, known as the Wars of Religion, fought intermittently from 1562 to 1598.\" Context [3] also confirms the warfare was definitively quelled in 1598.)",
+        "steps": 2,
+        "tokens": 370568,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "The Bayeux Tapestry is a work of embroidery. According to the context, it is stated that \"the Bayeux Tapestry, which is not a tapestry but a work of embroidery.\" So the needlework used in its creation is embroidery.",
+        "steps": 2,
+        "tokens": 372979,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "By far the most famous work of Norman art is the Bayeux Tapestry, which is not a tapestry but a work of embroidery. It was commissioned by Odo, the Bishop of Bayeux and first Earl of Kent, employing natives from Kent who were learned in the Nordic traditions imported in the previous half century by the Danish Vikings.",
+        "steps": 2,
+        "tokens": 374765,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 2,
+        "tokens": 376399,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Mosaics. \n\nThe context states: \"Many churches preserve sculptured fonts, capitals, and more importantly mosaics, which were common in Norman Italy and drew heavily on the Greek heritage.\" This directly identifies mosaics as the most important type of Norman art preserved in churches.",
+        "steps": 2,
+        "tokens": 378845,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "The 11th century.\n\nThe context clearly states: \"Normandy was the site of several important developments in the history of classical music in the 11th century.\" It further specifies that at Fécamp Abbey in the 11th century, the system of denoting notes by letters and the staff (around which neumes were oriented) were first developed and taught, and La Trinité-du-Mont became a centre of musical composition under the German abbot Isembard during this period. These are key classical music developments in Normandy occurring in the 11th century.",
+        "steps": 2,
+        "tokens": 381151,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna.",
+        "steps": 2,
+        "tokens": 383137,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "Southern Italy. According to the context, several monks of Saint-Evroul fled to southern Italy, where they were patronised by Robert Guiscard and established a Latin monastery at Sant'Eufemia.",
+        "steps": 2,
+        "tokens": 385044,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia",
+        "steps": 2,
+        "tokens": 386774,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Robert Guiscard.\n\nAccording to the context, several monks of Saint-Evroul fled to southern Italy and were patronised by Robert Guiscard there. (From memory [1]: \"...several monks of Saint-Evroul fled to southern Italy, where they were patronised by Robert Guiscard...\")",
+        "steps": 2,
+        "tokens": 388878,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "The Saint-Evroul monks were known for a tradition of singing, which had developed at Saint Evroul and made their choir famous in Normandy, and they continued this tradition after fleeing to southern Italy.\n（或者更简洁：A tradition of singing.）\n\n根据上下文[1]：\"At Saint Evroul, a tradition of singing had developed and the choir achieved fame in Normandy... There they continued the tradition of singing.\" 可知，Saint-Evroul的修道士以唱歌的传统闻名。",
+        "steps": 2,
+        "tokens": 390960,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory.\n\nThe first context states that computational complexity theory is a branch of theoretical computer science that focuses on classifying computational problems according to their inherent difficulty and relating those classes to each other, which exactly matches the description in the task.\n\n\nComputational complexity theory",
+        "steps": 2,
+        "tokens": 392666,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Their inherent difficulty.\n\nThe relevant context from [1] states: \"Computational complexity theory... focuses on classifying computational problems according to their inherent difficulty...\" This directly indicates the main attribute for classification is the inherent difficulty of computational problems.",
+        "steps": 2,
+        "tokens": 394361,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "computational problem",
+        "steps": 2,
+        "tokens": 396571,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "The measure that broadly defines the inherent difficulty of a computational problem's solution is the amount of resources needed to solve the problem (such as time, storage, communication, the number of gates in a circuit, or the number of processors), calculated as a function of the size of the instance (usually the size of the input in bits). This is because inherent difficulty is determined by significant resource requirements regardless of the algorithm used, and complexity theory quantifies these resources as functions of input size to measure how algorithms scale with increasing instance size.\n\n(Source: Context [2] and [3])",
+        "steps": 2,
+        "tokens": 399865,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France. \n\nEvidence [1] explicitly states that Normandy is \"a region in France\". Evidence [3] also mentions the Duchy of Normandy was established as \"French lands\" and situated in areas corresponding to parts of present-day Normandy in France. All collected evidence confirms Normandy is located in France.",
+        "steps": 1,
+        "tokens": 402208,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "Based on the collected evidence, the Normans were in Normandy starting from the first half of the 10th century (when their distinct cultural and ethnic identity initially emerged), and they were present there during the 10th and 11th centuries (as indicated by their naming of Normandy in these centuries and events like Ethelred II's stay in Normandy from 1013 to 1016). Their identity continued to evolve over the succeeding centuries after the 11th century.\n\n\n**Answer:** The Normans' distinct cultural and ethnic identity emerged initially in the first half of the 10th century in Normandy, and they were present there during the 10th and 11th centuries (with their presence continuing as their identity evolved over the succeeding centuries). Specifically, events like Ethelred II's stay in Normandy from 1013 to 1016 also reflect their presence in the early 11th century. \n\nIn short, the Normans were in Normandy starting from the first half of the 10th century, including the 10th and 11th centuries, and their identity evolved over subsequent centuries. \n\nBut to be concise based on direct evidence: The Normans were in Normandy from the first half of the 10th century onwards, including the 10th and 11th centuries, with their presence continuing as their identity evolved over succeeding centuries. \n\nThe most direct answer from evidence: The Normans were in Normandy during the 10th and 11th centuries (their distinct identity emerged in the first half of the 10th century and continued to evolve over succeeding centuries). \n\nFinal concise answer: The Normans were in Normandy starting from the first half of the 10th century, including the 10th and 11th centuries, with their presence and identity evolving over subsequent centuries. \n\nBut according to the task's need for a clear time range: \n\n**The Normans were in Normandy from the first half of the 10th century onwards, including the 10th and 11th centuries, and their identity continued to evolve over the succeeding centuries.**",
+        "steps": 1,
+        "tokens": 404627,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "Based on the collected evidence, the Norse originated from Denmark, Iceland and Norway (as explicitly stated in evidence [1] that Norse raiders and pirates came from these three countries). Additionally, evidence [3] mentions that Rollo's contingents (which included Norse-related groups) possibly included Swedes, suggesting Sweden might also be a country of origin for some Norse. \n\nThus, the countries are Denmark, Iceland, Norway, and possibly Sweden.",
+        "steps": 1,
+        "tokens": 406808,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Based on the collected evidence, the Norse leader was Rollo. Evidence [1] states that the Norse raiders and pirates from Denmark, Iceland and Norway agreed to swear fealty to King Charles III of West Francia under their leader Rollo, and Evidence [3] also mentions Rollo's contingents that raided and settled Normandy.\n\n\nRollo.",
+        "steps": 1,
+        "tokens": 408675,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "The 10th century. According to the evidence [1], \"The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century\".\n（说明：这里严格依据证据1的内容，提取出首次出现独立身份的世纪为10世纪。）",
+        "steps": 1,
+        "tokens": 410684,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "The duke in the Battle of Hastings was Duke William II of Normandy, also known as William the Conqueror. \n\nEvidence [1] states that \"Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings\" in 1066, and Evidence [2] mentions that \"an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066\", indicating these two refer to the same person.\n\n\n**Answer:** Duke William II of Normandy (also known as William the Conqueror).",
+        "steps": 1,
+        "tokens": 413023,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "Based on the collected evidence, the rulers of the Duchy of Normandy mentioned include:\n1. Rollo: The leader of Norse raiders who swore fealty to King Charles III of West Francia and settled in the region that became Normandy (Evidence [2]).\n2. Richard I of Normandy: Under his rule, the Duchy of Normandy was forged into a cohesive and formidable principality (Evidence [3]).\n3. Duke William II of Normandy (also known as William the Conqueror): He was the duke who led the Norman conquest of England in 1066 (Evidence [1], [3]).\n\nThese are the rulers explicitly referenced in the provided evidence.",
+        "steps": 1,
+        "tokens": 415523,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "The Normans were Catholic Christians. \n\nEvidence [1] states that the descendants of Rollo's Vikings replaced the Norse religion with Catholicism (Christianity) as they assimilated into Frankish culture. Evidence [3] further notes that the Normans became exponents of the Catholic orthodoxy into which they assimilated and were famed for their Christian piety. These points confirm their religious affiliation as Catholic Christianity.",
+        "steps": 1,
+        "tokens": 417687,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "The original meaning of the word Norman is \"Norseman\" or \"Viking\". \n\nAs evidenced: \n- From [1], the term derives from Old Low Franconian \"Nortmann\" (\"Northman\") or Old Norse \"Norðmaðr\", which were Latinized to mean \"Norseman, Viking\". \n- From [2], it is explicitly stated that \"Norman comes from 'Norseman'\". \n\nThese sources indicate the original meaning refers to the Norse raiders and pirates from Denmark, Iceland and Norway who later became the Normans.",
+        "steps": 1,
+        "tokens": 419942,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "The Latin version of the word Norman (Latinized as Nortmannus, Normannus, or Nordmannus) was first recorded in the 9th century (in Medieval Latin).",
+        "steps": 1,
+        "tokens": 421696,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "The Duchy of Normandy was founded in 911. This is directly stated in the evidence: \"The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo...\" (from [1]).\n\nAnswer: 911.",
+        "steps": 1,
+        "tokens": 424017,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia.\n\nEvidence [1] states that the treaty of Saint-Clair-sur-Epte was established between King Charles III of West Francia and the Viking ruler Rollo. Evidence [2] also mentions that Rollo agreed to swear fealty to King Charles III of West Francia, which aligns with the signing of the treaty. Thus, the signatory opposite Rollo was King Charles III of West Francia.",
+        "steps": 1,
+        "tokens": 426195,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The Duchy of Normandy was originally bounded by the river Epte and the river Seine. According to the evidence, the treaty of Saint-Clair-sur-Epte granted Rollo and his men the French lands between the river Epte and the Atlantic coast, and this area corresponded to the northern part of present-day Upper Normandy down to the river Seine (before the duchy eventually extended west beyond the Seine). Thus, the Epte and Seine rivers were the original river boundaries of the duchy.\n\n**Answer:** The river Epte and the river Seine originally bounded the Duchy of Normandy. (Or: The Epte and Seine rivers.)",
+        "steps": 1,
+        "tokens": 428850,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo. \n\nAccording to the collected evidence: Before Rollo's arrival, earlier Viking settlers in the region were divided between colonies in the east and west. Rollo led contingents including various groups like Danes, Norwegians, Norse–Gaels, etc., to settle Normandy. The distinct cultural and ethnic identity of the Normans (descended from Rollo's Vikings and local populations) emerged initially in the first half of the 10th century, and Rollo's influence contributed to the synthesis of a unique \"Norman\" culture that gave the original Viking settlers a common identity.\n\n\n（注：严格基于证据，证据显示Rollo的到来整合了之前分裂的维京定居者，并通过后续融合形成了共同的诺曼人身份，因此是Rollo。）",
+        "steps": 1,
+        "tokens": 431003,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "The Norman religion was Catholicism (a branch of Christianity).  \n\nAccording to the evidence:  \n1. The descendants of Rollo's Vikings replaced the Norse religion with Catholicism (Christianity) as they blended with Frankish heritage.  \n2. The Normans became exponents of the Catholic orthodoxy into which they assimilated, noted for their Christian piety.  \n\nThus, their religion was Catholicism.",
+        "steps": 1,
+        "tokens": 433300,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The Normans were located in Normandy, a region in France. This is evidenced by the fact that they gave their name to Normandy, as stated in the collected information.",
+        "steps": 1,
+        "tokens": 435471,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "One of the Norman's major exports was fighting horsemen. As stated in the evidence: \"by 1066 Normandy had been exporting fighting horsemen for more than a generation.\"",
+        "steps": 1,
+        "tokens": 437524,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "Based on the collected evidence, the Normans' main enemies in Italy, the Byzantine Empire, and Armenia included the Byzantine Empire and the Seljuk Turks:\n\n1. **In Italy**: The Byzantine Empire was a key enemy. Norman mercenaries were initially encouraged by the Lombards to act against the Byzantines in southern Italy, and later figures like Robert Guiscard drove the Byzantines out of southern Italy.  \n2. **In the Byzantine Empire**: The Byzantine Empire itself was a main enemy. Normans launched multiple invasions of Byzantine territories (e.g., Dyrrachium, Balkan peninsula regions like Albania and Thessaly) as seen in Robert Guiscard's campaigns and the 1185 attack on Dyrrachium.  \n3. **In Armenia**: The Seljuk Turks were a prominent enemy. When the Normans entered Armenia, they fought against the Pechenegs, Bulgars, and especially the Seljuk Turks.  \n\nThus, the main enemies were the Byzantine Empire (in Italy and Byzantine territories) and the Seljuk Turks (in Armenia).  \n\n**Answer**: The Byzantine Empire and the Seljuk Turks.",
+        "steps": 1,
+        "tokens": 441618,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "Herve served as a Byzantine general in the 1050s. This is directly stated in the evidence: \"One of the first Norman mercenaries to serve as a Byzantine general was Hervé in the 1050s.\" (from [1]).\n\nAnswer: In the 1050s.",
+        "steps": 1,
+        "tokens": 443438,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "In the 1060s.\n\nEvidence [1] states: \"In the 1060s, Robert Crispin led the Normans of Edessa against the Turks.\" This directly answers the question about when Robert Crispin went up against the Turks. Other evidences do not mention Robert Crispin, so the answer is based on this specific statement.",
+        "steps": 1,
+        "tokens": 445917,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos. \n\nAccording to the collected evidence [1], Roussel de Bailleul tried to carve out an independent state in Asia Minor but was stopped by the Byzantine general Alexius Komnenos.\n\n\nAlexius Komnenos",
+        "steps": 1,
+        "tokens": 447603,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle and Dublin Castle.",
+        "steps": 1,
+        "tokens": 449951,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "A Norman named Oursel led a force of \"Franks\" into the upper Euphrates valley in northern Syria. So the leader was Oursel.",
+        "steps": 1,
+        "tokens": 452010,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "Based on the collected evidence, the Normans teamed up with the following groups/entities in Anatolia:\n\n1. Turkish forces: Some Normans joined Turkish forces to aid in destroying the Armenian vassal-states of Sassoun and Taron in far eastern Anatolia.  \n2. Armenian state: Many Normans took up service with the Armenian state in Cilicia and the Taurus Mountains (southern Anatolia).  \n3. Armenian general Philaretus Brachamius: 8,000 of the 20,000 troops under this Armenian general were Normans from 1073 to 1074.  \n4. Byzantine Empire: Normans served under the Byzantine duke of Antioch, Isaac Komnenos, at locations like Malatya and Edessa (in Anatolia/Asia Minor).  \n5. Local population in Asia Minor (Anatolia): Roussel de Bailleul tried to carve out an independent state in Asia Minor with support from the local population.  \n\nThese alliances are directly supported by the evidence provided.",
+        "steps": 1,
+        "tokens": 455408,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Raouliii family (likely referring to the Raoulii mentioned in the evidence) originated from an Italo-Norman named Raoul. They were among the families of Byzantine Greece that had Norman mercenary origins during the period of the Comnenian Restoration, when Byzantine emperors were seeking western European warriors.",
+        "steps": 1,
+        "tokens": 457590,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard. According to the collected evidence [1], Robert Guiscard was elevated to the dignity of count of Apulia as a result of his military successes.",
+        "steps": 1,
+        "tokens": 459820,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "Dyrrachium fell to the Normans in February 1082, when it was betrayed to them by the Venetian and Amalfitan merchants settled there. (Source: [2])",
+        "steps": 1,
+        "tokens": 462208,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000 men. \n\nAccording to the evidence [1], Robert Guiscard led an army of 30,000 men in 300 ships landing on the southern shores of Albania in 1081. No other relevant information about the number of men in Robert's army is found in the collected evidence. So the answer is 30,000.",
+        "steps": 1,
+        "tokens": 464720,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "The Normans and Byzantines signed the peace treaty in the city of Deabolis. This is supported by the evidence that states Bohemond was forced to retreat and sign the treaty there after his campaign. (来源：[1])",
+        "steps": 1,
+        "tokens": 466532,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "The collected evidence does not mention who Robert's son was. None of the three pieces of evidence provides relevant information about the son of any Robert mentioned (e.g., Robert the Bruce, Robert de Grantmesnil, Robert Guiscard). Therefore, there is no answer available based on the given evidence.",
+        "steps": 1,
+        "tokens": 468570,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "Deabolis",
+        "steps": 1,
+        "tokens": 470766,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "The Normans attacked Dyrrachium in the following times:\n- In 1081, Robert Guiscard led an army to attack Dyrrachium from land and sea, and the city was betrayed to the Normans in February 1082.\n- In 1107, the Normans under the command of Bohemond besieged Dyrrachium but failed to capture it.\n- In 1185, a large Norman army invaded Dyrrachium as the third attack.",
+        "steps": 1,
+        "tokens": 473249,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "Based on the collected evidence, the naval bases mentioned are:  \n1. Blount Island Command  \n2. Naval Submarine Base Kings Bay  \n3. Dyrrachium (one of the most important naval bases of the Adriatic)  \n\nThese are all the named naval bases referenced in the provided evidence.  \n\nAnswer: Blount Island Command, Naval Submarine Base Kings Bay, and Dyrrachium.",
+        "steps": 1,
+        "tokens": 475490,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "Dyrrachium was located on the southern shores of Albania and was one of the most important naval bases of the Adriatic. \n\nEvidence basis: \n1. From [1], it is stated as \"one of the most important naval bases of the Adriatic\". \n2. From [2], Robert Guiscard led an army landing on the southern shores of Albania, capturing Valona, Kanina, etc., then attacked Dyrrachium from land and sea; later, Dyrrachium, Valona and Butrint (all associated with Albania's southern coastal area) were lost by the Normans in 1085. \n3. From [3], Bohemond landed in Valona (a location on Albania's southern coast) and besieged Dyrrachium, indicating their proximity in the same region. \n\nThese points collectively confirm its location on Albania's southern shores and its status as an Adriatic naval base.",
+        "steps": 1,
+        "tokens": 478376,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England.\n\nEvidence [1] states that \"the marriage of Emma, sister of Duke Richard II of Normandy, and King Ethelred II of England.\" This directly indicates Emma's spouse.\n\n\nKing Ethelred II of England.",
+        "steps": 1,
+        "tokens": 480232,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "Emma's brother was Duke Richard II of Normandy. This is stated in evidence [1], which mentions that Emma was \"sister of Duke Richard II of Normandy\".",
+        "steps": 1,
+        "tokens": 482226,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy. According to the evidence [1], Ethelred fled to Normandy in 1013 when he was forced from his kingdom by Sweyn Forkbeard. His stay there lasted until 1016.\n\n\nNormandy",
+        "steps": 1,
+        "tokens": 484068,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard. \n\nAccording to the evidence [1], Ethelred was forced from his kingdom by Sweyn Forkbeard in 1013, leading him to flee to Normandy.\n\n\n**Answer:** Sweyn Forkbeard",
+        "steps": 1,
+        "tokens": 485890,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Edward the Confessor's half-brother was Harthacnut. This is stated in evidence [1], which mentions that Edward returned from his father's refuge in 1041 at the invitation of his half-brother Harthacnut.",
+        "steps": 1,
+        "tokens": 487541,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "Edward the Confessor returned in 1041. According to evidence [1], \"When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of his half-brother Harthacnut...\"，the return time is 1041.\n\n\n1041",
+        "steps": 1,
+        "tokens": 489308,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges.\n\nEvidence [1] states: \"He appointed Robert of Jumièges archbishop of Canterbury and made Ralph the Timid earl of Hereford.\" This directly answers the question.",
+        "steps": 1,
+        "tokens": 490930,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "He died at the Battle of Hastings.",
+        "steps": 1,
+        "tokens": 492967,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "Duke William II of Normandy killed Harold II at the Battle of Hastings in 1066. This is directly stated in the collected evidence [1].\n\n\n**Answer:** Duke William II of Normandy.",
+        "steps": 1,
+        "tokens": 494742,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "The Battle of Hastings took place in 1066. This is confirmed by evidence [1] which states \"In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings\" and evidence [2] which mentions \"the Norman conquest of England at the Battle of Hastings in 1066\".\n\nAnswer: 1066.",
+        "steps": 1,
+        "tokens": 496832,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "Based on the collected evidence, the ruling class ahead of the Normans was the Anglo-Saxons. As stated in evidence [1], \"The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England\" after Duke William II of Normandy conquered England in 1066.\n（注：根据收集的证据，诺曼人之前的统治阶级是盎格鲁-撒克逊人。如证据[1]所述，1066年诺曼底公爵威廉二世征服英格兰后，\"入侵的诺曼人及其后代取代盎格鲁-撒克逊人成为英格兰的统治阶级\"。）",
+        "steps": 1,
+        "tokens": 498599,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "Based on the collected evidence, the Anglo-Norman language was eventually absorbed into the Anglo-Saxon language (Old English) of its subjects. It influenced Old English and, along with the Norse language and Latin, helped in the development of Middle English, which in turn evolved into Modern English. Thus, its final form is reflected in the subsequent English variants, particularly Middle English and eventually Modern English, through its absorption and influence.\n\nThe Anglo-Norman language was eventually absorbed into the Anglo-Saxon language (Old English) and influenced it, helping (along with the Norse language and Latin) in the development of Middle English, which then evolved into Modern English. So its elements became part of Middle English and further into Modern English.",
+        "steps": 1,
+        "tokens": 501206,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 1,
+        "tokens": 503648,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland\n\nThe evidence [3] clearly states that \"The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169.\" This directly indicates the country invaded by the Normans in 1169 is Ireland.",
+        "steps": 1,
+        "tokens": 506049,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "The Normans combined their own culture with Irish culture in Ireland. Evidence shows that initially they maintained a distinct culture, but over time intermixed with Irish culture—borrowing from each other's language, culture and outlook—and even became \"more Irish than the Irish themselves.\" Their descendants also carried surnames reflecting both Norman origins (like those starting with Fitz, or names such as Devereux, D'Arcy) and integration into Irish society.\n\n\n**Answer:** The Normans combined their own culture with Irish culture in Ireland.",
+        "steps": 1,
+        "tokens": 508710,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "Edgar Atheling. \n\nEvidence [1] states that \"King Malcolm III of Scotland married Edgar's sister Margaret\", indicating Edgar Atheling was Margaret's brother.",
+        "steps": 1,
+        "tokens": 510605,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "King Malcolm III of Scotland.\n\nEvidence [1] states that \"King Malcolm III of Scotland married Edgar's sister Margaret\", which directly indicates Margaret's husband is King Malcolm III of Scotland. Other evidences do not mention relevant information about Margaret's husband. Thus, based on the collected evidence, Margaret's husband was King Malcolm III of Scotland.",
+        "steps": 1,
+        "tokens": 512253,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "Scotland was invaded by William in 1072. This is directly stated in evidence [1], which mentions that \"William invaded Scotland in 1072, riding as far as Abernethy where he met up with his fleet of ships.\"\n\n\n1072",
+        "steps": 1,
+        "tokens": 514103,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "The hostage was prince Wonjong. According to evidence [1], Kublai Khan secured the northeast border in 1259 by installing the hostage prince Wonjong as the ruler of Korea, making it a Mongol tributary state. This directly indicates that Wonjong was the hostage. Other evidences do not mention any information about hostages. Therefore, the answer is prince Wonjong.",
+        "steps": 1,
+        "tokens": 516297,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Sybilla of Normandy.\n\nAccording to evidence [3], \"King David I of Scotland, whose elder brother Alexander I had married Sybilla of Normandy...\" This directly states Alexander I's spouse. Other pieces of evidence do not mention Alexander I's marriage, so the answer is based on this specific information.",
+        "steps": 1,
+        "tokens": 518242,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "The Norman culture's arrival in Scotland is known as the \"Davidian Revolution\". \n\nAs stated in the evidence: King David I of Scotland was instrumental in introducing Normans and Norman culture to Scotland, part of the process some scholars call the \"Davidian Revolution\". This involved the introduction of the Norman-derived feudal system, the building of castles, and the founding of noble families with Norman ancestry in Scotland.\n\n答案：Norman culture.",
+        "steps": 1,
+        "tokens": 520611,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Ralph was earl of Hereford. This is supported by evidence [1] which states Edward the Confessor set up Ralph as earl of Hereford, and evidence [2] which mentions making Ralph the Timid earl of Hereford.",
+        "steps": 1,
+        "tokens": 522325,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "The Welsh. \n\nAccording to the evidence [1], Edward the Confessor set up Ralph as earl of Hereford and charged him with defending the Marches and warring with the Welsh. This directly indicates that Ralph was in charge of being at war with the Welsh. Other evidence does not mention the object of Ralph's war. Therefore, the answer is the Welsh.",
+        "steps": 1,
+        "tokens": 524326,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "Edward the Confessor made Ralph earl of Hereford. This is supported by evidence [1] which states Edward the Confessor \"had set up the aforementioned Ralph as earl of Hereford\" and evidence [3] which mentions Edward the Confessor \"made Ralph the Timid earl of Hereford\".\n\n\nEdward the Confessor.",
+        "steps": 1,
+        "tokens": 525935,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "England and Wales.  \n\nAccording to the evidence:  \n1. For England: Evidence [3] states that Duke William II of Normandy conquered England in 1066, and the invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England, indicating England was under Norman control (including Norman barons as part of the ruling nobility).  \n2. For Wales: Evidence [1] mentions that after the Conquest, the Marches (border regions between England and Wales) came completely under the dominance of Norman barons, and almost all of Wales was at some point subject to Norman interference, showing significant control by Norman barons over parts or most of Wales.  \n\nThus, the countries under the control of Norman barons include England and Wales.  \n\n(Note: England is more explicitly stated as fully under Norman rule, while Wales had extensive Norman influence and control over key regions.)  \n\nFinal answer: England and Wales.  \n\nBut wait, let's check if the question expects a single answer. Looking again, the evidence for England is more direct. Let me confirm: The question says \"what country\". The most clear answer is England, as per evidence [3] which explicitly says England was conquered and ruled by Normans (including barons). So maybe the answer is England.  \n\nRevised final answer: England.",
+        "steps": 1,
+        "tokens": 528725,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 1,
+        "tokens": 530365,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil was in charge of the papal army in the War of Barbastro. This is supported by evidence [1], which states: \"In 1064, during the War of Barbastro, William of Montreuil led the papal army and took a huge booty.\"\n\nAnswer: William of Montreuil",
+        "steps": 1,
+        "tokens": 532701,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "The Siege of Antioch took place in 1097. This is supported by the evidence which states, \"After the successful Siege of Antioch in 1097, Bohemond began carving out an independent principality around that city.\" (from [1]).\n\nAnswer: 1097",
+        "steps": 1,
+        "tokens": 534539,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred.\n\nEvidence [1] states that Bohemond of Taranto was joined by his nephew Tancred with an army of Italo-Normans in 1096. This directly identifies Tancred as Bohemond's nephew. Other evidences do not mention Bohemond's nephew. Therefore, the answer is Tancred.",
+        "steps": 1,
+        "tokens": 536297,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "Tancred was instrumental in the conquest of Jerusalem. Additionally, he worked for the expansion of the Crusader kingdom in Transjordan and the region of Galilee. He also joined the Crusaders with his uncle Bohemond of Taranto (who led during the passage through Asia Minor and later carved out a principality around Antioch after its successful siege in 1097). However, his key major conquest contribution was in the conquest of Jerusalem.",
+        "steps": 1,
+        "tokens": 538367,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "Western Europe controlled Cyprus for 380 years. This is stated in the evidence: \"the conquest of Cyprus by the Anglo-Norman forces of the Third Crusade opened a new chapter in the history of the island, which would be under Western European domination for the following 380 years.\"\n\n\n380 years.",
+        "steps": 1,
+        "tokens": 540244,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed Richard's fleet when he left Messina for Acre in April 1191. The boat carrying his sister, fiancée Berengaria, and the treasure ship, along with several other ships, wrecked on the south coast of Cyprus, and the survivors were taken prisoner by Cyprus' despot Isaac Komnenos. Isaac refused to release the prisoners and treasure, so Richard landed his troops, conquered Limassol, then the whole island of Cyprus (completing the conquest by June 1). This series of events (the storm-induced fleet dispersion, the shipwrecks in Cyprus, the conflict with Isaac Komnenos, and the subsequent conquest of Cyprus) ruined his original plan to reach Acre directly.",
+        "steps": 1,
+        "tokens": 542844,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria.\n\nEvidence [1] states that \"the boat carrying his sister and his fiancée Berengaria was anchored on the south coast of Cyprus\", where \"his\" refers to Richard the Lion-hearted. Thus, Richard's fiancee was Berengaria.",
+        "steps": 1,
+        "tokens": 544777,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 1,
+        "tokens": 546766,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "In 1191, Cyprus was initially ruled by Isaac Komnenos. Later, after Richard the Lion-hearted conquered the entire island by June 1 of that year, he appointed Richard de Camville and Robert de Thornham as governors of Cyprus before departing for Acre.\n\n\n### 依据：\n- **Early 1191**: Evidence [3] states that Isaac Komnenos, the despot of Cyprus, had taken prisoners (including survivors of Richard's fleet) before Richard arrived in May 1191.  \n- **After conquest**: Evidence [2] notes that Richard conquered the whole island by June 1, 1191, and named Richard de Camville and Robert de Thornham as governors prior to his departure for Acre.  \n\nThus, the rule of Cyprus in 1191 transitioned from Isaac Komnenos to the two appointed governors.",
+        "steps": 1,
+        "tokens": 549175,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat. \n\nEvidence [1] states that various princes declared support for Guy de Lusignan provided Richard supported Guy against his rival Conrad of Montferrat. This directly identifies Conrad of Montferrat as Guy's rival. Other evidences mention Guyard de Moulin, which is a different individual and irrelevant to the task. Thus, the answer is based on this specific information from evidence [1].",
+        "steps": 1,
+        "tokens": 551514,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "Isaac's chains were made out of silver. This is stated in the evidence that \"Isaac surrendered and was confined with silver chains, because Richard had promised that he would not place him in irons.\"",
+        "steps": 1,
+        "tokens": 553457,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan led Richard's troops when Cyprus was conquered. This is stated in the evidence: \"Richard then proceeded to conquer the whole island, his troops being led by Guy de Lusignan.\"",
+        "steps": 1,
+        "tokens": 555277,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa. \n\nThe evidence [1] states that the Canarian islands of Lanzarote, Fuerteventura and El Hierro are off the Atlantic coast of Africa. This directly answers the task question. Other evidence does not provide relevant information about the continent the Canarian Islands are off the coast of.",
+        "steps": 1,
+        "tokens": 556870,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Bethencourt became the King of the Canary Islands, as vassal to Henry III of Castile.",
+        "steps": 1,
+        "tokens": 558397,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "Based on the collected evidence, the following entities bought the rights mentioned:\n1. For Premier League broadcast rights:\n   - BSkyB (paid £304m for the monopoly of all live matches from the 1992 season, in a joint bid with BBC which got highlights).\n   - Setanta Sports (awarded two of the six Premier League packages for the 2007–08 season onwards).\n   - Sky (picked up four Premier League packages for £1.3bn in 2006; bid £4.2bn for a package of 120 games across three seasons from 2016).\n2. For the rights to the Canary Islands:\n   - Enrique Pérez de Guzmán, 2nd Count de Niebla (bought the rights from Maciot de Bethencourt in 1418).\n\nThese are all the buyers identified from the provided evidence.",
+        "steps": 1,
+        "tokens": 561211,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "Maciot de Bethencourt sold the rights to the Canary Islands to Enrique Pérez de Guzmán, 2nd Count de Niebla in 1418. (Based on evidence [1])",
+        "steps": 1,
+        "tokens": 563424,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "Based on the collected evidence, Jersey and Guernsey are in the Channel Islands. This is indicated in evidence [1] which states that the customary law of Normandy survives today through the legal systems of Jersey and Guernsey in the Channel Islands. Evidence [3] also mentions the Channel Islands as one of the relocation destinations for Huguenot émigrés, but evidence [1] directly links Jersey and Guernsey to the Channel Islands.\n\nAnswer: Jersey and Guernsey are in the Channel Islands.",
+        "steps": 1,
+        "tokens": 565662,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two. According to the collected evidence [1], Norman customary law was transcribed in two customaries in Latin: the Très ancien coutumier and the Grand coutumier de Normandie.\n\n\nThe answer is two.",
+        "steps": 1,
+        "tokens": 567356,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "The Norman architecture idiom refers to its unique Romanesque style characterized by rounded arches (particularly over windows and doorways) and massive proportions. It was spread by the Normans to regions like England and Italy, where their encastellation of these areas with keeps in the north French style fundamentally altered the military landscape. In southern Italy, the Normans incorporated elements of Islamic, Lombard, and Byzantine building techniques into their own, initiating a unique style known as Norman-Arab architecture within the Kingdom of Sicily. This idiom stands as a distinct stage in the architectural history of the regions the Normans subdued.",
+        "steps": 1,
+        "tokens": 569579,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Norman architecture is characterised by rounded arches, particularly over windows and doorways.",
+        "steps": 1,
+        "tokens": 571705,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic.",
+        "steps": 1,
+        "tokens": 573517,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Based on the collected evidence, the architecture type that came before Norman in England is Anglo-Saxon architecture. As stated in evidence [1]: \"In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the Early Gothic.\" This clearly indicates that Anglo-Saxon architecture preceded Norman architecture in England.\n\nAnswer: Anglo-Saxon architecture.",
+        "steps": 1,
+        "tokens": 574990,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Kingdom of Sicily in southern Italy had the Norman Arab architectural style. According to the evidence, in southern Italy, the Normans incorporated elements of Islamic (Arab), Lombard, and Byzantine building techniques into their own, initiating the unique Norman-Arab architecture within the Kingdom of Sicily.",
+        "steps": 1,
+        "tokens": 576767,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "In the early 11th century.\n\nAccording to the collected evidence [1], \"in the early 11th century the dukes began a programme of church reform, encouraging the Cluniac reform of monasteries and patronising intellectual pursuits...\". This directly indicates the beginning time of the church reform mentioned.",
+        "steps": 1,
+        "tokens": 579312,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The dukes of Normandy used the church to unify themselves. According to the evidence [1], \"the dukes began a programme of church reform... The church was utilised by the dukes as a unifying force for their disparate duchy\" in the context of the Normans' efforts to consolidate their duchy.\n\n\n**Answer:** The dukes of Normandy.",
+        "steps": 1,
+        "tokens": 581553,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "The French Wars of Religion were fought intermittently from 1562 to 1598. This is supported by the evidence that states the wars occurred in this period and were definitively quelled in 1598 with the issuance of the Edict of Nantes. Additionally, the conflicts are noted to have taken place in the 16th century.\n\nAnswer: The French Wars of Religion were fought intermittently from 1562 to 1598.",
+        "steps": 1,
+        "tokens": 583319,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "The Bayeux Tapestry is not a tapestry but a work of embroidery. So the needlework used in its creation is embroidery.",
+        "steps": 1,
+        "tokens": 585434,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "By far the most famous work of Norman art is the Bayeux Tapestry, which is not a tapestry but a work of embroidery. It was commissioned by Odo, the Bishop of Bayeux and first Earl of Kent, employing natives from Kent who were learned in the Nordic traditions imported in the previous half century by the Danish Vikings.",
+        "steps": 1,
+        "tokens": 587107,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "The Bayeux Tapestry was commissioned by Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 1,
+        "tokens": 588896,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Based on the collected evidence, the most important type of Norman art preserved in churches is mosaics. Evidence [1] explicitly states that \"Many churches preserve sculptured fonts, capitals, and more importantly mosaics, which were common in Norman Italy and drew heavily on the Greek heritage.\" This directly identifies mosaics as the more important type among the Norman art forms preserved in churches.\n\n\nMosaics.",
+        "steps": 1,
+        "tokens": 590859,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "The important classical music developments in Normandy occurred in the 11th century. \n\nEvidence [1] clearly states that Normandy was the site of several important classical music developments in the 11th century, including the development and teaching of the system of denoting notes by letters and the staff (around which neumes were oriented) at Fécamp Abbey, and La Trinité-du-Mont becoming a centre of musical composition under abbot Isembard during this century. Additionally, Evidence [3] mentions a singing tradition at Saint Evroul, which aligns with the 11th-century context of musical activity noted in Evidence [1].\n\n\n11th century",
+        "steps": 1,
+        "tokens": 593068,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "The two abbots at Fécamp Abbey were William of Volpiano and John of Ravenna. According to the evidence, under these two Italian abbots, the system of denoting notes by letters was developed and taught at Fécamp Abbey. Additionally, the staff around which neumes were oriented was first developed and taught there in the 11th century.\n\n\n**Answer:** William of Volpiano and John of Ravenna.",
+        "steps": 1,
+        "tokens": 595009,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "Southern Italy. According to the evidence, several monks of Saint-Evroul fled to southern Italy, where they were patronised by Robert Guiscard and established a Latin monastery at Sant'Eufemia. (The other evidences are about Huguenots, not monks.)",
+        "steps": 1,
+        "tokens": 596848,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "The Saint-Evroul monks established a Latin monastery at Sant'Eufemia in southern Italy. This is supported by the evidence that states under the Norman abbot Robert de Grantmesnil, several monks of Saint-Evroul fled to southern Italy, were patronised by Robert Guiscard, and established the monastery at Sant'Eufemia.",
+        "steps": 1,
+        "tokens": 599126,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Based on the collected evidence, the monks who fled to southern Italy from Saint-Evroul were patronized by Robert Guiscard. \n\nSpecifically, evidence [1] states: \"Under the Norman abbot Robert de Grantmesnil, several monks of Saint-Evroul fled to southern Italy, where they were patronised by Robert Guiscard and established a Latin monastery at Sant'Eufemia.\" \n\nThus, the answer is Robert Guiscard.",
+        "steps": 1,
+        "tokens": 600822,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "The Saint-Evroul monks were known for a tradition of singing, which had developed at Saint Evroul and made their choir famous in Normandy. Later, when some of these monks fled to southern Italy and established a Latin monastery at Sant'Eufemia, they continued this tradition of singing.",
+        "steps": 1,
+        "tokens": 603001,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory is the branch of theoretical computer science that deals with broadly classifying computational problems by their inherent difficulty and relating those classes to each other. According to the evidence, it focuses on classifying computational problems according to their inherent difficulty and relating those classes to each other, which aligns exactly with the task's description.\n\n\nComputational complexity theory.",
+        "steps": 1,
+        "tokens": 604779,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Computational problems are classified by their inherent difficulty in computational complexity theory. This inherent difficulty is formalized by quantifying the amount of resources (such as time, storage, etc.) needed to solve them, which is calculated as a function of the input size.\n\n\n**答案：Their inherent difficulty, which is quantified by the amount of resources (like time, storage) required to solve them as a function of input size.**",
+        "steps": 1,
+        "tokens": 607463,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "The term for a task that generally lends itself to being solved by a computer is a computational problem. This is explicitly stated in the evidence: \"A computational problem is understood to be a task that is in principle amenable to being solved by a computer, which is equivalent to stating that the problem may be solved by mechanical application of mathematical steps, such as an algorithm.\" (from [1])\n\ncomputational problem",
+        "steps": 1,
+        "tokens": 609512,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "The complexity measures that quantify the amount of resources needed to solve a computational problem (regardless of the algorithm used) broadly define its inherent difficulty. These include measures such as the time required (time complexity), storage space needed (space complexity), amount of communication (communication complexity), number of gates in a circuit (circuit complexity), and number of processors (parallel computing resource measure). These measures are calculated as a function of the input size to reflect how the solution's resource requirements scale with larger instances of the problem.\n\n\n**Answer:** Complexity measures that quantify the amount of resources (e.g., time, storage, communication, number of circuit gates, number of processors) needed to solve the problem, calculated as a function of input size, broadly define the inherent difficulty of a computational problem's solution. These measures reflect the significant resources required regardless of the algorithm used.",
+        "steps": 1,
+        "tokens": 612427,
+        "replan": 0
+      }
+    ]
+  }
+}

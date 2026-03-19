@@ -1,0 +1,2137 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "backend": "mem0",
+  "instance_idx": 1,
+  "source_files": [
+    "results/mem0/AR/instance_1.json",
+    "out/mem0/mem0_acc_ret_results_1.json"
+  ],
+  "results": {
+    "R1": [
+      {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1027,
+        "latency_s": 7.58,
+        "replan": 0
+      },
+      {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1236,
+        "latency_s": 8.39,
+        "replan": 0
+      },
+      {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 984,
+        "latency_s": 6.04,
+        "replan": 0
+      },
+      {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 679,
+        "latency_s": 3.52,
+        "replan": 0
+      },
+      {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 995,
+        "latency_s": 4.71,
+        "replan": 0
+      },
+      {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 999,
+        "latency_s": 5.47,
+        "replan": 0
+      },
+      {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1090,
+        "latency_s": 7.83,
+        "replan": 0
+      },
+      {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 971,
+        "latency_s": 7.41,
+        "replan": 0
+      },
+      {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 966,
+        "latency_s": 3.25,
+        "replan": 0
+      },
+      {
+        "question": "Are Local H and For Against both from the United States?",
+        "answer": "The context does not provide information about Local H and For Against, so it is impossible to determine whether they are both from the United States.",
+        "steps": 1,
+        "tokens": 849,
+        "latency_s": 4.16,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1037,
+        "latency_s": 5.94,
+        "replan": 0
+      },
+      {
+        "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1171,
+        "latency_s": 6.09,
+        "replan": 0
+      },
+      {
+        "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1066,
+        "latency_s": 11.7,
+        "replan": 0
+      },
+      {
+        "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 781,
+        "latency_s": 4.53,
+        "replan": 0
+      },
+      {
+        "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+        "answer": "The context does not provide information about the football manager who recruited David Beckham or the timeframe during which he managed Manchester United.\n\nWait, wait, wait—wait a second, let me double-check all the memory entries again to be sure. Let's list them: 1 is about baseball coach, 2 is Kasper Schmeichel (goalkeeper), 3 Mighty Mouse revival,4 traffic system,5 hypermarket chain,6 VCU basketball,7 Tobacco Factory in Bristol,8 Federal Music Project,9 T.Rex band,10 loan modification during recession. None of these have anything to do with David Beckham or his recruiter at Man Utd. So yes, the answer should be that the context lacks the necessary information.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The context does not contain relevant information to answer the question.",
+        "steps": 1,
+        "tokens": 1054,
+        "latency_s": 9.45,
+        "replan": 0
+      },
+      {
+        "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 829,
+        "latency_s": 3.8,
+        "replan": 0
+      },
+      {
+        "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 851,
+        "latency_s": 3.35,
+        "replan": 0
+      },
+      {
+        "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 822,
+        "latency_s": 5.46,
+        "replan": 0
+      },
+      {
+        "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 1067,
+        "latency_s": 3.02,
+        "replan": 0
+      },
+      {
+        "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 1363,
+        "latency_s": 16.96,
+        "replan": 0
+      },
+      {
+        "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 957,
+        "latency_s": 4.82,
+        "replan": 0
+      },
+      {
+        "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1003,
+        "latency_s": 5.09,
+        "replan": 0
+      },
+      {
+        "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 845,
+        "latency_s": 6.41,
+        "replan": 0
+      },
+      {
+        "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 852,
+        "latency_s": 4.62,
+        "replan": 0
+      },
+      {
+        "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+        "answer": "The context does not provide information about what Kasper Schmeichel's father (Peter Schmeichel) was voted to be by the IFFHS in 1992. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 918,
+        "latency_s": 6.99,
+        "replan": 0
+      },
+      {
+        "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1147,
+        "latency_s": 4.91,
+        "replan": 0
+      },
+      {
+        "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 936,
+        "latency_s": 5.95,
+        "replan": 0
+      },
+      {
+        "question": "Are both Dictyosperma, and Huernia described as a genus?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 949,
+        "latency_s": 4.03,
+        "replan": 0
+      },
+      {
+        "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+        "answer": "The provided context does not contain information about Kaiser Ventures corporation or the American industrialist known as the father of modern American shipbuilding. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 1074,
+        "latency_s": 4.5,
+        "replan": 0
+      },
+      {
+        "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 976,
+        "latency_s": 3.77,
+        "replan": 0
+      },
+      {
+        "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+        "answer": "The context does not provide the release date of Poison's album \"Shut Up, Make Love\".",
+        "steps": 1,
+        "tokens": 1054,
+        "latency_s": 5.91,
+        "replan": 0
+      },
+      {
+        "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+        "answer": "The information about where Buck-Tick hails from is not provided in the given context.",
+        "steps": 1,
+        "tokens": 987,
+        "latency_s": 3.61,
+        "replan": 0
+      },
+      {
+        "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1374,
+        "latency_s": 7.46,
+        "replan": 0
+      },
+      {
+        "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 828,
+        "latency_s": 3.97,
+        "replan": 0
+      },
+      {
+        "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+        "answer": "The provided context does not contain information about the number of members of Letters to Cleo or Screaming Trees, so it is impossible to answer this question.",
+        "steps": 1,
+        "tokens": 935,
+        "latency_s": 4.88,
+        "replan": 0
+      },
+      {
+        "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1088,
+        "latency_s": 5.46,
+        "replan": 0
+      },
+      {
+        "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1050,
+        "latency_s": 5.55,
+        "replan": 0
+      },
+      {
+        "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1066,
+        "latency_s": 7.3,
+        "replan": 0
+      },
+      {
+        "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 962,
+        "latency_s": 3.31,
+        "replan": 0
+      },
+      {
+        "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+        "answer": "The information about Ralph Hefferline is not present in the provided context.\n\n（Wait, wait, let me double-check again. The user's instruction says if the info is insufficient, state clearly. So the answer should be: The context does not provide information about Ralph Hefferline's university location. Or more concisely: No relevant information available. Let me make it precise as per the instruction: If context info is insufficient,明确说明. So the correct answer is: The information about the city where Ralph Hefferline worked as a psychology professor is not provided in the given context.）\n\nWait, but let's see the user's instruction says \"only give me the answer and do not output any other words\". So maybe just: No relevant information available. Or more accurately: The context does not contain information about Ralph Hefferline's university location. But let's think—since none of the entries mention Ralph Hefferline, the answer should be that the info is insufficient. So the answer is: No relevant information provided.</think_never_used_51bce0c785ca2f68081bfa7d91973934>No relevant information provided.",
+        "steps": 1,
+        "tokens": 1176,
+        "latency_s": 11.15,
+        "replan": 0
+      },
+      {
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 992,
+        "latency_s": 2.8,
+        "replan": 0
+      },
+      {
+        "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+        "answer": "The context does not provide information about Sachin Warrier or the company he worked for as a software engineer. Therefore, the answer cannot be determined based on the given content.",
+        "steps": 1,
+        "tokens": 947,
+        "latency_s": 5.08,
+        "replan": 0
+      },
+      {
+        "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 894,
+        "latency_s": 4.58,
+        "replan": 0
+      },
+      {
+        "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1016,
+        "latency_s": 9.22,
+        "replan": 0
+      },
+      {
+        "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 1206,
+        "latency_s": 6.29,
+        "replan": 0
+      },
+      {
+        "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 867,
+        "latency_s": 3.86,
+        "replan": 0
+      },
+      {
+        "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1158,
+        "latency_s": 5.51,
+        "replan": 0
+      },
+      {
+        "question": "What type of forum did a former Soviet statesman initiate?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 848,
+        "latency_s": 3.42,
+        "replan": 0
+      },
+      {
+        "question": "Are Ferocactus and Silene both types of plant?",
+        "answer": "The context does not provide information about Ferocactus and Silene, so it is impossible to determine whether they are both types of plant.\n\n（注：严格来说，根据指令，若信息不足应明确说明。原记忆上下文确实没有相关内容，所以给出此回答。）",
+        "steps": 1,
+        "tokens": 793,
+        "latency_s": 4.89,
+        "replan": 0
+      },
+      {
+        "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 982,
+        "latency_s": 7.27,
+        "replan": 0
+      },
+      {
+        "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1010,
+        "latency_s": 3.67,
+        "replan": 0
+      },
+      {
+        "question": "In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 970,
+        "latency_s": 6.43,
+        "replan": 0
+      },
+      {
+        "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 745,
+        "latency_s": 3.52,
+        "replan": 0
+      },
+      {
+        "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1203,
+        "latency_s": 7.09,
+        "replan": 0
+      },
+      {
+        "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+        "answer": "The provided context does not contain information about Ellie Goulding's third studio album Delirium or the writers she worked with on it. So I can't answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 919,
+        "latency_s": 4.8,
+        "replan": 0
+      },
+      {
+        "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 950,
+        "latency_s": 6.76,
+        "replan": 0
+      },
+      {
+        "question": "D1NZ is a series based on what oversteering technique?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 698,
+        "latency_s": 3.27,
+        "replan": 0
+      },
+      {
+        "question": "who is younger Keith Bostic or Jerry Glanville ?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 956,
+        "latency_s": 4.68,
+        "replan": 0
+      },
+      {
+        "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 996,
+        "latency_s": 7.59,
+        "replan": 0
+      },
+      {
+        "question": "Are both Cypress and Ajuga genera?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 926,
+        "latency_s": 3.61,
+        "replan": 0
+      },
+      {
+        "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 955,
+        "latency_s": 4.16,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1311,
+        "latency_s": 10.04,
+        "replan": 0
+      },
+      {
+        "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 794,
+        "latency_s": 3.34,
+        "replan": 0
+      },
+      {
+        "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 1139,
+        "latency_s": 4.53,
+        "replan": 0
+      },
+      {
+        "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 1051,
+        "latency_s": 6.48,
+        "replan": 0
+      },
+      {
+        "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 979,
+        "latency_s": 5.23,
+        "replan": 0
+      },
+      {
+        "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 863,
+        "latency_s": 3.86,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 1293,
+        "latency_s": 7.72,
+        "replan": 0
+      },
+      {
+        "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1159,
+        "latency_s": 6.62,
+        "replan": 0
+      },
+      {
+        "question": "The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+        "answer": "信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 910,
+        "latency_s": 3.49,
+        "replan": 0
+      },
+      {
+        "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1042,
+        "latency_s": 5.73,
+        "replan": 0
+      },
+      {
+        "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 968,
+        "latency_s": 4.99,
+        "replan": 0
+      },
+      {
+        "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 981,
+        "latency_s": 8.1,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1041,
+        "latency_s": 6.41,
+        "replan": 0
+      },
+      {
+        "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 860,
+        "latency_s": 4.36,
+        "replan": 0
+      },
+      {
+        "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 1107,
+        "latency_s": 9.11,
+        "replan": 0
+      },
+      {
+        "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+        "answer": "The context does not provide enough information to answer the question.",
+        "steps": 1,
+        "tokens": 953,
+        "latency_s": 5.58,
+        "replan": 0
+      },
+      {
+        "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+        "answer": "The context does not provide information about Alvaro Mexia or his diplomatic mission with any indigenous tribe.",
+        "steps": 1,
+        "tokens": 722,
+        "latency_s": 4.66,
+        "replan": 0
+      },
+      {
+        "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+        "answer": "The information about the nationality of Alfred Gell and Edmund Leach is not provided in the given context.",
+        "steps": 1,
+        "tokens": 876,
+        "latency_s": 5.15,
+        "replan": 0
+      },
+      {
+        "question": "In which year was the King who made the 1925 Birthday Honours born?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1418,
+        "latency_s": 9.18,
+        "replan": 0
+      },
+      {
+        "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 975,
+        "latency_s": 4.0,
+        "replan": 0
+      },
+      {
+        "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 930,
+        "latency_s": 2.57,
+        "replan": 0
+      },
+      {
+        "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 892,
+        "latency_s": 4.75,
+        "replan": 0
+      },
+      {
+        "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1143,
+        "latency_s": 7.51,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 761,
+        "latency_s": 5.9,
+        "replan": 0
+      },
+      {
+        "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1288,
+        "latency_s": 8.8,
+        "replan": 0
+      },
+      {
+        "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1074,
+        "latency_s": 5.93,
+        "replan": 0
+      },
+      {
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "answer": "The information about the locations of Teide National Park and Garajonay National Park is not provided in the given context.",
+        "steps": 1,
+        "tokens": 825,
+        "latency_s": 3.1,
+        "replan": 0
+      },
+      {
+        "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 958,
+        "latency_s": 3.83,
+        "replan": 0
+      },
+      {
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 1001,
+        "latency_s": 6.66,
+        "replan": 0
+      },
+      {
+        "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+        "answer": "The context does not provide information about Andrew Jaspan or the not-for-profit media outlet he co-founded.\n(Note: The user's instruction says if info is insufficient, state it clearly. So this is the correct response.)",
+        "steps": 1,
+        "tokens": 840,
+        "latency_s": 4.43,
+        "replan": 0
+      },
+      {
+        "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1252,
+        "latency_s": 8.79,
+        "replan": 0
+      },
+      {
+        "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 1342,
+        "latency_s": 6.07,
+        "replan": 0
+      },
+      {
+        "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1032,
+        "latency_s": 5.59,
+        "replan": 0
+      },
+      {
+        "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 1082,
+        "latency_s": 4.89,
+        "replan": 0
+      },
+      {
+        "question": "Tysons Galleria is located in what county?",
+        "answer": "The context does not provide information about the county where Tysons Galleria is located.",
+        "steps": 1,
+        "tokens": 827,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+        "answer": "上下文信息不足，无法回答该问题",
+        "steps": 1,
+        "tokens": 799,
+        "latency_s": 4.01,
+        "replan": 0
+      },
+      {
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "answer": "The context does not mention Lev Yilmaz or Pamela B. Green, so there is insufficient information to answer the question.",
+        "steps": 1,
+        "tokens": 1039,
+        "latency_s": 2.93,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?",
+        "answer": "The provided context does not contain information about the ambassador of the Rabat-Salé-Kénitra administrative region to China or their base location. Therefore, the answer cannot be determined from the given context.",
+        "steps": 1,
+        "tokens": 993,
+        "latency_s": 7.91,
+        "replan": 0
+      },
+      {
+        "question": "Are Yingkou and Fuding the same level of city?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 770,
+        "latency_s": 3.29,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "answer": "Cannot be determined from the given context.",
+        "steps": 5,
+        "tokens": 12868,
+        "latency_s": 84.31,
+        "replan": 0
+      },
+      {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267885904910d0a5a24b569280b1f19b75cda1de37ee11c1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267886051310d0a5a24b569280b1f19b75cda1de37ee8128', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "answer": "No information is available in the provided context to determine whether the Laleli Mosque and Esma Sultan Mansion are located in the same neighborhood.",
+        "steps": 5,
+        "tokens": 11120,
+        "latency_s": 85.37,
+        "replan": 0
+      },
+      {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "answer": "No information available in the provided context.",
+        "steps": 5,
+        "tokens": 13111,
+        "latency_s": 62.62,
+        "replan": 0
+      },
+      {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "answer": "The context does not provide information about the South Korean boy group whose debut album is 2014 S/S or who formed it.",
+        "steps": 5,
+        "tokens": 14700,
+        "latency_s": 92.12,
+        "replan": 0
+      },
+      {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 12332,
+        "latency_s": 77.01,
+        "replan": 0
+      },
+      {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "answer": "No information available in the provided context",
+        "steps": 5,
+        "tokens": 11245,
+        "latency_s": 83.29,
+        "replan": 0
+      },
+      {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "answer": "There is no information about Annie Morton and Terry Richardson in the provided context.",
+        "steps": 5,
+        "tokens": 12532,
+        "latency_s": 88.33,
+        "replan": 0
+      },
+      {
+        "question": "Are Local H and For Against both from the United States?",
+        "answer": "Cannot be determined",
+        "steps": 5,
+        "tokens": 11935,
+        "latency_s": 85.21,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267950870510d0a5a24b569280b1f19b75cda1de3784814a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267951066110d0a5a24b569280b1f19b75cda1de379932d4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267951219210d0a5a24b569280b1f19b75cda1de37153336', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 12148,
+        "latency_s": 72.94,
+        "replan": 0
+      },
+      {
+        "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+        "answer": "No relevant information provided in the context.",
+        "steps": 5,
+        "tokens": 11778,
+        "latency_s": 76.19,
+        "replan": 0
+      },
+      {
+        "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+        "answer": "No relevant information available in the provided context.",
+        "steps": 5,
+        "tokens": 11621,
+        "latency_s": 103.4,
+        "replan": 0
+      },
+      {
+        "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+        "answer": "No relevant information available in the provided context.",
+        "steps": 5,
+        "tokens": 13846,
+        "latency_s": 87.0,
+        "replan": 0
+      },
+      {
+        "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+        "answer": "The provided context does not contain information about Giuseppe Verdi and Ambroise Thomas.",
+        "steps": 5,
+        "tokens": 12275,
+        "latency_s": 89.54,
+        "replan": 0
+      },
+      {
+        "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+        "answer": "The information about Roger O. Egeberg is not present in the provided context.",
+        "steps": 5,
+        "tokens": 13662,
+        "latency_s": 94.78,
+        "replan": 0
+      },
+      {
+        "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "answer": "Neither.",
+        "steps": 5,
+        "tokens": 13744,
+        "latency_s": 98.56,
+        "replan": 0
+      },
+      {
+        "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268013625910d0a5a24b569280b1f19b75cda1de37b31b34', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268013766910d0a5a24b569280b1f19b75cda1de37ba68cd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017301410d0a5a24b569280b1f19b75cda1de371f95a2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017437610d0a5a24b569280b1f19b75cda1de377dfacb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017597010d0a5a24b569280b1f19b75cda1de37257d5c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017761310d0a5a24b569280b1f19b75cda1de37a28b73', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017923510d0a5a24b569280b1f19b75cda1de37e3cc88', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are both Dictyosperma, and Huernia described as a genus?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268018076710d0a5a24b569280b1f19b75cda1de37c79104', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268018252910d0a5a24b569280b1f19b75cda1de37f03f76', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268019159810d0a5a24b569280b1f19b75cda1de37cdece6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020244910d0a5a24b569280b1f19b75cda1de37f4b4cd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020399010d0a5a24b569280b1f19b75cda1de37ee2959', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020545710d0a5a24b569280b1f19b75cda1de377ad319', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020728110d0a5a24b569280b1f19b75cda1de3798270e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020889810d0a5a24b569280b1f19b75cda1de37bb9f8e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021047310d0a5a24b569280b1f19b75cda1de37b8f787', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021227210d0a5a24b569280b1f19b75cda1de371acc93', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021383510d0a5a24b569280b1f19b75cda1de37e7a8f5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021529710d0a5a24b569280b1f19b75cda1de37bedddb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021768310d0a5a24b569280b1f19b75cda1de3734586e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021912710d0a5a24b569280b1f19b75cda1de3719c073', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022800910d0a5a24b569280b1f19b75cda1de3760b10e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022955710d0a5a24b569280b1f19b75cda1de37282216', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268023112210d0a5a24b569280b1f19b75cda1de3792d4dd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268023272910d0a5a24b569280b1f19b75cda1de37aa85a8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268023443510d0a5a24b569280b1f19b75cda1de3739b1ff', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268023604210d0a5a24b569280b1f19b75cda1de37d4af56', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What type of forum did a former Soviet statesman initiate?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268023757010d0a5a24b569280b1f19b75cda1de37e10d00', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are Ferocactus and Silene both types of plant?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268023958110d0a5a24b569280b1f19b75cda1de37f29cb3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+        "answer": "Not mentioned in the provided context.",
+        "steps": 5,
+        "tokens": 14245,
+        "latency_s": 94.55,
+        "replan": 0
+      },
+      {
+        "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+        "answer": "No relevant information in the provided context.",
+        "steps": 5,
+        "tokens": 13597,
+        "latency_s": 81.38,
+        "replan": 0
+      },
+      {
+        "question": "In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?",
+        "answer": "No relevant information",
+        "steps": 5,
+        "tokens": 13279,
+        "latency_s": 92.76,
+        "replan": 0
+      },
+      {
+        "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+        "answer": "No relevant information is provided in the given context.",
+        "steps": 5,
+        "tokens": 12017,
+        "latency_s": 65.22,
+        "replan": 0
+      },
+      {
+        "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+        "answer": "No relevant information available in the provided context.",
+        "steps": 5,
+        "tokens": 12947,
+        "latency_s": 88.46,
+        "replan": 0
+      },
+      {
+        "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066357910d0a5a24b569280b1f19b75cda1de373d6724', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066500610d0a5a24b569280b1f19b75cda1de37b11dd4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "D1NZ is a series based on what oversteering technique?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066683610d0a5a24b569280b1f19b75cda1de37d4ca94', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "who is younger Keith Bostic or Jerry Glanville ?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066839510d0a5a24b569280b1f19b75cda1de37a1a4b6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066987510d0a5a24b569280b1f19b75cda1de37434f49', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are both Cypress and Ajuga genera?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067166010d0a5a24b569280b1f19b75cda1de379ddd70', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067325410d0a5a24b569280b1f19b75cda1de3730e213', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067477610d0a5a24b569280b1f19b75cda1de373c232f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+        "answer": "The context does not provide information about the birth dates of Emma Bull or Virginia Woolf, so the answer cannot be determined.",
+        "steps": 5,
+        "tokens": 12167,
+        "latency_s": 82.63,
+        "replan": 0
+      },
+      {
+        "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+        "answer": "The information is not available in the provided context.",
+        "steps": 5,
+        "tokens": 11850,
+        "latency_s": 88.37,
+        "replan": 0
+      },
+      {
+        "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+        "answer": "No relevant information available in the provided context.",
+        "steps": 5,
+        "tokens": 12820,
+        "latency_s": 91.38,
+        "replan": 0
+      },
+      {
+        "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+        "answer": "The context does not provide information about Rose McGowan's WB supernatural drama series.",
+        "steps": 5,
+        "tokens": 14082,
+        "latency_s": 93.3,
+        "replan": 0
+      },
+      {
+        "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+        "answer": "No relevant information available in the provided context.",
+        "steps": 5,
+        "tokens": 12154,
+        "latency_s": 78.26,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+        "answer": "No relevant information in the given context.",
+        "steps": 5,
+        "tokens": 17084,
+        "latency_s": 74.42,
+        "replan": 0
+      },
+      {
+        "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+        "answer": "No relevant information available",
+        "steps": 5,
+        "tokens": 14727,
+        "latency_s": 73.02,
+        "replan": 0
+      },
+      {
+        "question": "The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268125827210d0a5a24b569280b1f19b75cda1de37342064', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+        "answer": "The provided context does not contain information about Tara Strong's major voice role in an animated series based on DC Comics' Teen Titans.",
+        "steps": 5,
+        "tokens": 12335,
+        "latency_s": 82.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+        "answer": "The provided context does not contain information about the 122nd SS-Standarte or the city where it was formed in 2014.",
+        "steps": 5,
+        "tokens": 11794,
+        "latency_s": 86.39,
+        "replan": 0
+      },
+      {
+        "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+        "answer": "The information about the color of clothing people in the Netherlands wear during Oranjegekte or Koningsdag is not available in the provided context.",
+        "steps": 5,
+        "tokens": 11079,
+        "latency_s": 78.92,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+        "answer": "Not mentioned in the provided context.",
+        "steps": 5,
+        "tokens": 12985,
+        "latency_s": 86.31,
+        "replan": 0
+      },
+      {
+        "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+        "answer": "Not mentioned in the context.",
+        "steps": 5,
+        "tokens": 11863,
+        "latency_s": 73.97,
+        "replan": 0
+      },
+      {
+        "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+        "answer": "No information available in the provided context.",
+        "steps": 5,
+        "tokens": 13030,
+        "latency_s": 69.97,
+        "replan": 0
+      },
+      {
+        "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 14341,
+        "latency_s": 87.95,
+        "replan": 0
+      },
+      {
+        "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 12208,
+        "latency_s": 94.02,
+        "replan": 0
+      },
+      {
+        "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 11824,
+        "latency_s": 76.75,
+        "replan": 0
+      },
+      {
+        "question": "In which year was the King who made the 1925 Birthday Honours born?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 11952,
+        "latency_s": 88.65,
+        "replan": 0
+      },
+      {
+        "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 12071,
+        "latency_s": 88.95,
+        "replan": 0
+      },
+      {
+        "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 13860,
+        "latency_s": 71.26,
+        "replan": 0
+      },
+      {
+        "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+        "answer": "The context does not provide information about Rostker v. Goldberg.",
+        "steps": 5,
+        "tokens": 10556,
+        "latency_s": 76.59,
+        "replan": 0
+      },
+      {
+        "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+        "answer": "The information about Handi-Snacks is not available in the provided context.",
+        "steps": 5,
+        "tokens": 13485,
+        "latency_s": 75.37,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+        "answer": "No relevant information found in the provided context.",
+        "steps": 5,
+        "tokens": 13116,
+        "latency_s": 94.2,
+        "replan": 0
+      },
+      {
+        "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+        "answer": "No relevant information provided in the context.",
+        "steps": 5,
+        "tokens": 15506,
+        "latency_s": 80.35,
+        "replan": 0
+      },
+      {
+        "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 13233,
+        "latency_s": 82.17,
+        "replan": 0
+      },
+      {
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "answer": "Not mentioned in the provided context.",
+        "steps": 5,
+        "tokens": 11669,
+        "latency_s": 85.93,
+        "replan": 0
+      },
+      {
+        "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+        "answer": "No relevant information in the context.",
+        "steps": 5,
+        "tokens": 11061,
+        "latency_s": 73.16,
+        "replan": 0
+      },
+      {
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "answer": "No information available about Chris Menges and Aram Avakian in the provided context.",
+        "steps": 5,
+        "tokens": 12180,
+        "latency_s": 71.03,
+        "replan": 0
+      },
+      {
+        "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+        "answer": "No information about Andrew Jaspan is available in the provided context.",
+        "steps": 5,
+        "tokens": 12000,
+        "latency_s": 70.33,
+        "replan": 0
+      },
+      {
+        "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+        "answer": "The information is not provided in the given context.",
+        "steps": 5,
+        "tokens": 15215,
+        "latency_s": 87.37,
+        "replan": 0
+      },
+      {
+        "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+        "answer": "No relevant information available in the provided context.",
+        "steps": 5,
+        "tokens": 13962,
+        "latency_s": 78.51,
+        "replan": 0
+      },
+      {
+        "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+        "answer": "Unknown",
+        "steps": 5,
+        "tokens": 11691,
+        "latency_s": 86.78,
+        "replan": 0
+      },
+      {
+        "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+        "answer": "No relevant information is provided in the context.",
+        "steps": 5,
+        "tokens": 14190,
+        "latency_s": 91.57,
+        "replan": 0
+      },
+      {
+        "question": "Tysons Galleria is located in what county?",
+        "answer": "The information about the county where Tysons Galleria is located is not present in the provided context.",
+        "steps": 5,
+        "tokens": 12550,
+        "latency_s": 110.31,
+        "replan": 0
+      },
+      {
+        "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 11209,
+        "latency_s": 63.64,
+        "replan": 0
+      },
+      {
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "answer": "No information about either Lev Yilmaz or Pamela B. Green being known for animation is provided in the context.",
+        "steps": 5,
+        "tokens": 12418,
+        "latency_s": 85.27,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?",
+        "answer": "The information is not provided in the given context.",
+        "steps": 5,
+        "tokens": 11349,
+        "latency_s": 82.33,
+        "replan": 0
+      },
+      {
+        "question": "Are Yingkou and Fuding the same level of city?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368602310d0a5a24b569280b1f19b75cda1de37c6f309', 'param': '', 'type': 'TooManyRequests'}}"
+      }
+    ],
+    "R3": [
+      {
+        "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368761310d0a5a24b569280b1f19b75cda1de37b59d15', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368936210d0a5a24b569280b1f19b75cda1de37c706d3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268369093310d0a5a24b569280b1f19b75cda1de3727455e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268369234110d0a5a24b569280b1f19b75cda1de37d923f8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+        "answer": "No information available in the collected evidence.",
+        "steps": 7,
+        "tokens": 50410,
+        "latency_s": 247.45,
+        "replan": 2
+      },
+      {
+        "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+        "answer": "No relevant evidence found",
+        "steps": 7,
+        "tokens": 47281,
+        "latency_s": 200.24,
+        "replan": 2
+      },
+      {
+        "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 7,
+        "tokens": 40997,
+        "latency_s": 220.94,
+        "replan": 2
+      },
+      {
+        "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+        "answer": "No information available",
+        "steps": 4,
+        "tokens": 19621,
+        "latency_s": 185.96,
+        "replan": 1
+      },
+      {
+        "question": "Who is older, Annie Morton or Terry Richardson?",
+        "answer": "Cannot be determined from the provided evidence.",
+        "steps": 7,
+        "tokens": 37520,
+        "latency_s": 113.02,
+        "replan": 2
+      },
+      {
+        "question": "Are Local H and For Against both from the United States?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471462810d0a5a24b569280b1f19b75cda1de37452517', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471594810d0a5a24b569280b1f19b75cda1de3737f4a2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471786710d0a5a24b569280b1f19b75cda1de372f8571', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471928110d0a5a24b569280b1f19b75cda1de37ee482c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472061910d0a5a24b569280b1f19b75cda1de37cf7ea4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472209910d0a5a24b569280b1f19b75cda1de37b384f8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472352610d0a5a24b569280b1f19b75cda1de3783ce69', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472499510d0a5a24b569280b1f19b75cda1de37e40d61', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268473659910d0a5a24b569280b1f19b75cda1de37110f53', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268473813410d0a5a24b569280b1f19b75cda1de376a832f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "answer": "Neither Henry Roth nor Robert Erskine Childers was from England based on the provided evidence. Robert Erskine Childers was an Irish nationalist, and there is no information about Henry Roth's nationality in the given documents.\n\nWait, but let me check again. The question asks which one was from England, but according to the evidence, Robert is Irish, and Henry's info isn't present. So the answer should be that neither is from England. But let's make it concise as per the task:\n\nNeither.\n\nBut wait, let's confirm: the task says only give the answer. So the answer is Neither. Because Robert is Irish (per evidence), Henry's nationality isn't mentioned, so we can't say he's from England, so neither is from England. So the answer is Neither.</think_never_used_51bce0c785ca2f68081bfa7d91973934>Neither.",
+        "steps": 5,
+        "tokens": 24717,
+        "latency_s": 129.01,
+        "replan": 2
+      },
+      {
+        "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+        "answer": "No relevant information available in the provided evidence.",
+        "steps": 7,
+        "tokens": 39539,
+        "latency_s": 193.9,
+        "replan": 2
+      },
+      {
+        "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+        "answer": "No relevant information available in the collected evidence.",
+        "steps": 6,
+        "tokens": 41576,
+        "latency_s": 167.07,
+        "replan": 2
+      },
+      {
+        "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+        "answer": "No relevant information available",
+        "steps": 6,
+        "tokens": 32527,
+        "latency_s": 235.37,
+        "replan": 2
+      },
+      {
+        "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+        "answer": "Insufficient evidence to determine.",
+        "steps": 10,
+        "tokens": 73757,
+        "latency_s": 239.86,
+        "replan": 2
+      },
+      {
+        "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+        "answer": "No relevant information found in the collected evidence.",
+        "steps": 5,
+        "tokens": 25297,
+        "latency_s": 180.82,
+        "replan": 2
+      },
+      {
+        "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 6,
+        "tokens": 37627,
+        "latency_s": 153.15,
+        "replan": 2
+      },
+      {
+        "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+        "answer": "No information available in the collected evidence.",
+        "steps": 4,
+        "tokens": 17458,
+        "latency_s": 89.63,
+        "replan": 2
+      },
+      {
+        "question": "Are both Dictyosperma, and Huernia described as a genus?",
+        "answer": "No",
+        "steps": 7,
+        "tokens": 35441,
+        "latency_s": 171.49,
+        "replan": 2
+      },
+      {
+        "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+        "answer": "No relevant information found.",
+        "steps": 7,
+        "tokens": 42986,
+        "latency_s": 240.04,
+        "replan": 2
+      },
+      {
+        "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+        "answer": "The information about the name of the adventure in \"Tunnels and Trolls\" designed by Ken St. Andre is not present in the provided evidence.",
+        "steps": 4,
+        "tokens": 19710,
+        "latency_s": 104.75,
+        "replan": 2
+      },
+      {
+        "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+        "answer": "The release date of Poison's album \"Shut Up, Make Love\" is not mentioned in the collected evidence.",
+        "steps": 4,
+        "tokens": 22307,
+        "latency_s": 79.62,
+        "replan": 2
+      },
+      {
+        "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+        "answer": "No relevant information about Buck-Tick's origin is found in the collected evidence.",
+        "steps": 7,
+        "tokens": 42063,
+        "latency_s": 167.28,
+        "replan": 2
+      },
+      {
+        "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 8,
+        "tokens": 60343,
+        "latency_s": 236.74,
+        "replan": 2
+      },
+      {
+        "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+        "answer": "Cannot be determined",
+        "steps": 7,
+        "tokens": 40247,
+        "latency_s": 162.47,
+        "replan": 2
+      },
+      {
+        "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+        "answer": "No relevant information is provided.",
+        "steps": 7,
+        "tokens": 37673,
+        "latency_s": 143.94,
+        "replan": 2
+      },
+      {
+        "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+        "answer": "No relevant information in the collected evidence.",
+        "steps": 6,
+        "tokens": 35721,
+        "latency_s": 182.89,
+        "replan": 2
+      },
+      {
+        "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+        "answer": "No relevant information in the provided evidence.",
+        "steps": 6,
+        "tokens": 34979,
+        "latency_s": 164.96,
+        "replan": 2
+      },
+      {
+        "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+        "answer": "No relevant information available in the collected evidence.",
+        "steps": 6,
+        "tokens": 31334,
+        "latency_s": 217.52,
+        "replan": 2
+      },
+      {
+        "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+        "answer": "No",
+        "steps": 7,
+        "tokens": 36563,
+        "latency_s": 124.8,
+        "replan": 2
+      },
+      {
+        "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+        "answer": "No information available in the collected evidence.",
+        "steps": 5,
+        "tokens": 24341,
+        "latency_s": 85.3,
+        "replan": 2
+      },
+      {
+        "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+        "answer": "No relevant evidence in the provided documents.",
+        "steps": 7,
+        "tokens": 37585,
+        "latency_s": 139.06,
+        "replan": 2
+      },
+      {
+        "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 5,
+        "tokens": 21746,
+        "latency_s": 92.57,
+        "replan": 2
+      },
+      {
+        "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 10,
+        "tokens": 73525,
+        "latency_s": 293.99,
+        "replan": 2
+      },
+      {
+        "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+        "answer": "There is no relevant information in the provided evidence to answer the question.",
+        "steps": 6,
+        "tokens": 33016,
+        "latency_s": 186.19,
+        "replan": 2
+      },
+      {
+        "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 5,
+        "tokens": 29416,
+        "latency_s": 198.73,
+        "replan": 2
+      },
+      {
+        "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+        "answer": "No relevant information available in the provided evidence.",
+        "steps": 6,
+        "tokens": 33946,
+        "latency_s": 190.37,
+        "replan": 2
+      },
+      {
+        "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+        "answer": "No relevant information in the collected evidence.",
+        "steps": 9,
+        "tokens": 73541,
+        "latency_s": 244.7,
+        "replan": 2
+      },
+      {
+        "question": "What type of forum did a former Soviet statesman initiate?",
+        "answer": "No relevant information available in the provided evidence.",
+        "steps": 6,
+        "tokens": 34550,
+        "latency_s": 199.19,
+        "replan": 2
+      },
+      {
+        "question": "Are Ferocactus and Silene both types of plant?",
+        "answer": "No information available",
+        "steps": 7,
+        "tokens": 39302,
+        "latency_s": 151.97,
+        "replan": 2
+      },
+      {
+        "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+        "answer": "No British first-generation jet-powered medium bomber used in the South West Pacific theatre of World War II is mentioned in the collected evidence.",
+        "steps": 6,
+        "tokens": 37318,
+        "latency_s": 146.37,
+        "replan": 2
+      },
+      {
+        "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+        "answer": "No relevant information available.",
+        "steps": 10,
+        "tokens": 82300,
+        "latency_s": 311.15,
+        "replan": 2
+      },
+      {
+        "question": "In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?",
+        "answer": "No relevant information available in the collected evidence.",
+        "steps": 6,
+        "tokens": 32536,
+        "latency_s": 168.26,
+        "replan": 2
+      },
+      {
+        "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+        "answer": "No relevant information available in the provided evidence.",
+        "steps": 8,
+        "tokens": 51891,
+        "latency_s": 247.23,
+        "replan": 2
+      },
+      {
+        "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+        "answer": "No relevant information in the provided evidence to answer the question.",
+        "steps": 8,
+        "tokens": 51746,
+        "latency_s": 230.89,
+        "replan": 2
+      },
+      {
+        "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+        "answer": "没有找到关于Ellie Goulding第三张专辑Delirium合作作家的相关信息。",
+        "steps": 2,
+        "tokens": 8900,
+        "latency_s": 83.51,
+        "replan": 0
+      },
+      {
+        "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+        "answer": "No relevant information available in the provided evidence.",
+        "steps": 8,
+        "tokens": 51438,
+        "latency_s": 258.02,
+        "replan": 2
+      },
+      {
+        "question": "D1NZ is a series based on what oversteering technique?",
+        "answer": "No relevant information available in the collected evidence to answer the question.",
+        "steps": 6,
+        "tokens": 29636,
+        "latency_s": 175.74,
+        "replan": 2
+      },
+      {
+        "question": "who is younger Keith Bostic or Jerry Glanville ?",
+        "answer": "The information about the birth dates of Keith Bostic and Jerry Glanville is not available in the provided evidence.",
+        "steps": 7,
+        "tokens": 40955,
+        "latency_s": 186.28,
+        "replan": 2
+      },
+      {
+        "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 5,
+        "tokens": 22922,
+        "latency_s": 131.08,
+        "replan": 2
+      },
+      {
+        "question": "Are both Cypress and Ajuga genera?",
+        "answer": "No",
+        "steps": 7,
+        "tokens": 36068,
+        "latency_s": 177.97,
+        "replan": 2
+      },
+      {
+        "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+        "answer": "No relevant information available in the provided evidence.",
+        "steps": 6,
+        "tokens": 39164,
+        "latency_s": 274.44,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?",
+        "answer": "Not mentioned in the provided evidence.",
+        "steps": 6,
+        "tokens": 33303,
+        "latency_s": 151.01,
+        "replan": 2
+      },
+      {
+        "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+        "answer": "No information about the birth dates of Emma Bull or Virginia Woolf is provided in the collected evidence.",
+        "steps": 7,
+        "tokens": 40576,
+        "latency_s": 166.25,
+        "replan": 2
+      },
+      {
+        "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+        "answer": "无法确定",
+        "steps": 6,
+        "tokens": 32622,
+        "latency_s": 198.96,
+        "replan": 2
+      },
+      {
+        "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+        "answer": "No relevant information found.",
+        "steps": 7,
+        "tokens": 42068,
+        "latency_s": 258.14,
+        "replan": 2
+      },
+      {
+        "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 7,
+        "tokens": 47773,
+        "latency_s": 189.04,
+        "replan": 2
+      },
+      {
+        "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 30633,
+        "latency_s": 198.97,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 10,
+        "tokens": 99149,
+        "latency_s": 405.62,
+        "replan": 2
+      },
+      {
+        "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+        "answer": "No relevant information found in the collected evidence.",
+        "steps": 5,
+        "tokens": 26614,
+        "latency_s": 160.96,
+        "replan": 2
+      },
+      {
+        "question": "The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269408679810d0a5a24b569280b1f19b75cda1de373c2d11', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269408888010d0a5a24b569280b1f19b75cda1de37d9ed9f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the inhabitant of the city where  122nd SS-Standarte was formed in2014",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269409045210d0a5a24b569280b1f19b75cda1de37279fd1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269409185310d0a5a24b569280b1f19b75cda1de3737a63f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What was the name of the 1996 loose adaptation of William Shakespeare's \"Romeo & Juliet\" written by James Gunn?",
+        "answer": "No relevant information in the provided evidence.",
+        "steps": 4,
+        "tokens": 17187,
+        "latency_s": 89.33,
+        "replan": 2
+      },
+      {
+        "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+        "answer": "No information available in the provided evidence.",
+        "steps": 8,
+        "tokens": 55663,
+        "latency_s": 261.6,
+        "replan": 2
+      },
+      {
+        "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+        "answer": "No information available in the provided evidence.",
+        "steps": 8,
+        "tokens": 56129,
+        "latency_s": 329.44,
+        "replan": 2
+      },
+      {
+        "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+        "answer": "The collected evidence does not contain information about the actress who plays Bobbi Bacha in Suburban Madness, so the answer cannot be determined.",
+        "steps": 5,
+        "tokens": 27109,
+        "latency_s": 136.95,
+        "replan": 2
+      },
+      {
+        "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 30349,
+        "latency_s": 143.86,
+        "replan": 2
+      },
+      {
+        "question": "What nationality were social anthropologists Alfred Gell and Edmund Leach?",
+        "answer": "Not found in the provided evidence.",
+        "steps": 3,
+        "tokens": 10410,
+        "latency_s": 63.81,
+        "replan": 0
+      },
+      {
+        "question": "In which year was the King who made the 1925 Birthday Honours born?",
+        "answer": "No information available in the collected evidence.",
+        "steps": 6,
+        "tokens": 28906,
+        "latency_s": 183.25,
+        "replan": 2
+      },
+      {
+        "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 31298,
+        "latency_s": 209.4,
+        "replan": 2
+      },
+      {
+        "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+        "answer": "未找到相关信息",
+        "steps": 4,
+        "tokens": 16641,
+        "latency_s": 89.5,
+        "replan": 2
+      },
+      {
+        "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+        "answer": "No relevant information in the provided evidence.",
+        "steps": 5,
+        "tokens": 22226,
+        "latency_s": 170.34,
+        "replan": 2
+      },
+      {
+        "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+        "answer": "No relevant evidence available",
+        "steps": 8,
+        "tokens": 56508,
+        "latency_s": 249.19,
+        "replan": 2
+      },
+      {
+        "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 6,
+        "tokens": 32938,
+        "latency_s": 193.37,
+        "replan": 2
+      },
+      {
+        "question": "When was the American lawyer, lobbyist and political consultant who was a senior member of the presidential campaign of Donald Trump born?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 5,
+        "tokens": 33551,
+        "latency_s": 209.8,
+        "replan": 2
+      },
+      {
+        "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+        "answer": "No information available in the provided evidence.",
+        "steps": 6,
+        "tokens": 33528,
+        "latency_s": 186.6,
+        "replan": 2
+      },
+      {
+        "question": "Where are Teide National Park and Garajonay National Park located?",
+        "answer": "The locations of Teide National Park and Garajonay National Park are not mentioned in the provided evidence.",
+        "steps": 7,
+        "tokens": 35807,
+        "latency_s": 162.44,
+        "replan": 2
+      },
+      {
+        "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 6,
+        "tokens": 30992,
+        "latency_s": 192.14,
+        "replan": 2
+      },
+      {
+        "question": "What occupation do Chris Menges and Aram Avakian share?",
+        "answer": "No information available about Chris Menges and Aram Avakian's occupations in the provided evidence.\nWait, but wait the user said only give the answer and no other words. Wait but if there's no info, what to do? Let me think again: the problem says to answer based on the collected evidence, which has no mention of either person, so the answer is that there is no shared occupation that can be determined from the given evidence. But maybe the correct way is to state that there's no information. Alternatively, maybe the user expects a blank? But no, let's see: the instructions say to answer based on the memorized documents, so if there's no data, the answer is that there's no information available. But let me make it concise: \"No information available\" is the answer.\nWait but let me check again: yes, none of the entries have Chris Menges or Aram Avakian, so we can't find their shared occupation. So the answer is \"No information available\".\nBut wait, let me confirm once more: all 80 entries are about other people, so no, no info on those two. So the answer is that there's no information. So I'll write that.</think_never_used_51bce0c785ca2f68081bfa7d91973934>No information available.",
+        "steps": 8,
+        "tokens": 54963,
+        "latency_s": 190.36,
+        "replan": 2
+      },
+      {
+        "question": "Andrew Jaspan was the co-founder of what not-for-profit media outlet?",
+        "answer": "Not found in the provided evidence",
+        "steps": 4,
+        "tokens": 16447,
+        "latency_s": 122.53,
+        "replan": 2
+      },
+      {
+        "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+        "answer": "The information about the host of the 18th Independent Spirit Awards in 2002 is not available in the provided evidence.",
+        "steps": 6,
+        "tokens": 39540,
+        "latency_s": 199.72,
+        "replan": 2
+      },
+      {
+        "question": "Where does the hotel and casino located in which Bill Cosby's third album was recorded?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269750194310d0a5a24b569280b1f19b75cda1de37a746a5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269750344610d0a5a24b569280b1f19b75cda1de37abbcc6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269753696110d0a5a24b569280b1f19b75cda1de3758a7d8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Tysons Galleria is located in what county?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269757119310d0a5a24b569280b1f19b75cda1de37b1942a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269757262210d0a5a24b569280b1f19b75cda1de376a4877', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which filmmaker was known for animation, Lev Yilmaz or Pamela B. Green?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269757472010d0a5a24b569280b1f19b75cda1de3793657a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269757644610d0a5a24b569280b1f19b75cda1de3710109e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Are Yingkou and Fuding the same level of city?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177269757783310d0a5a24b569280b1f19b75cda1de37da07f1', 'param': '', 'type': 'TooManyRequests'}}"
+      }
+    ]
+  }
+}

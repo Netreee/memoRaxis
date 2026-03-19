@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List
 
 # Add project root to sys.path to allow imports
-sys.path.append(str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 
 from src.logger import get_logger
 from src.config import get_config
@@ -99,15 +99,24 @@ def evaluate_one_instance(instance_idx: int, adaptors_to_run: List[str], limit: 
     filename += ".json"
     output_file = output_dir / filename
     
+    # 合并已有结果，避免覆盖其他 adaptor 数据
+    if output_file.exists():
+        try:
+            existing = json.load(open(output_file, encoding="utf-8"))
+            for a, v in existing.get("results", {}).items():
+                if a not in final_report["results"]:
+                    final_report["results"][a] = v
+        except Exception:
+            pass
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(final_report, f, indent=2, ensure_ascii=False)
-        
+
     logger.info(f"Instance {instance_idx} Finished. Results saved to {output_file}")
 
 def main():
     parser = argparse.ArgumentParser(description="Evaluate Adaptors on MemoryAgentBench")
     parser.add_argument("--adaptor", nargs='+', default=["all"], choices=["R1", "R2", "R3", "all"], help="Adaptors to run (e.g., R1 R2)")
-    parser.add_argument("--limit", type=int, default=5, help="Number of questions to run (-1 for all)")
+    parser.add_argument("--limit", type=int, default=-1, help="Number of questions to run (-1 for all)")
     parser.add_argument("--instance_idx", type=str, default="0", help="Index range (e.g., '0-5', '1,3')")
     parser.add_argument("--output_suffix", type=str, default="", help="Suffix for output filename (e.g., 'new_r3')")
     args = parser.parse_args()

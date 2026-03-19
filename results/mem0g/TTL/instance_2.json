@@ -1,0 +1,1611 @@
+{
+  "dataset": "Test_Time_Learning",
+  "backend": "mem0g",
+  "instance_idx": 2,
+  "results": {
+    "R1": [
+      {
+        "question": "what is the least i can pay towards my car bill",
+        "answer": "{19}",
+        "steps": 1,
+        "tokens": 41070,
+        "latency_s": 29.67,
+        "replan": 0
+      },
+      {
+        "question": "what's the minimum due for my electric bill",
+        "answer": "{19}",
+        "steps": 1,
+        "tokens": 40974,
+        "latency_s": 42.1,
+        "replan": 0
+      },
+      {
+        "question": "you can remove the brithday party from my calendar fpr january 15, 2019",
+        "answer": "57",
+        "steps": 1,
+        "tokens": 40725,
+        "latency_s": 31.17,
+        "replan": 0
+      },
+      {
+        "question": "everything needs ordered off my list",
+        "answer": "{129}",
+        "steps": 1,
+        "tokens": 40676,
+        "latency_s": 36.03,
+        "replan": 0
+      },
+      {
+        "question": "adjust the volume to level 4",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 40676,
+        "latency_s": 40.84,
+        "replan": 0
+      },
+      {
+        "question": "is there any danger going to brazil",
+        "answer": "{29}",
+        "steps": 1,
+        "tokens": 39524,
+        "latency_s": 13.25,
+        "replan": 0
+      },
+      {
+        "question": "can you play the beatles",
+        "answer": "{110}",
+        "steps": 1,
+        "tokens": 40790,
+        "latency_s": 24.44,
+        "replan": 0
+      },
+      {
+        "question": "how to spell doctor",
+        "answer": "{49}",
+        "steps": 1,
+        "tokens": 40948,
+        "latency_s": 24.42,
+        "replan": 0
+      },
+      {
+        "question": "can you share my credit score with me",
+        "answer": "{43}",
+        "steps": 1,
+        "tokens": 39575,
+        "latency_s": 27.86,
+        "replan": 0
+      },
+      {
+        "question": "no, that's wrong",
+        "answer": "{48}",
+        "steps": 1,
+        "tokens": 39667,
+        "latency_s": 42.49,
+        "replan": 0
+      },
+      {
+        "question": "have i added anything to my todo list",
+        "answer": "The chore_list includes flowers and grocery_shopping.",
+        "steps": 1,
+        "tokens": 40736,
+        "latency_s": 32.42,
+        "replan": 0
+      },
+      {
+        "question": "thanks for your help",
+        "answer": "{86}",
+        "steps": 1,
+        "tokens": 40775,
+        "latency_s": 44.74,
+        "replan": 0
+      },
+      {
+        "question": "i need to know my tax rate",
+        "answer": "上下文信息不足，无法为“i need to know my tax rate”分配对应的数值标签。",
+        "steps": 1,
+        "tokens": 41203,
+        "latency_s": 49.35,
+        "replan": 0
+      },
+      {
+        "question": "go ahead and talk faster now",
+        "answer": "{75}",
+        "steps": 1,
+        "tokens": 40692,
+        "latency_s": 28.74,
+        "replan": 0
+      },
+      {
+        "question": "what kind of fuel do i need to put in my car",
+        "answer": "138",
+        "steps": 1,
+        "tokens": 40916,
+        "latency_s": 36.38,
+        "replan": 0
+      },
+      {
+        "question": "i enrolled in an insurance plan, what one was it",
+        "answer": "{55}",
+        "steps": 1,
+        "tokens": 39641,
+        "latency_s": 27.14,
+        "replan": 0
+      },
+      {
+        "question": "what kind of oil do i need for my ford truck and how can i change it",
+        "answer": "{66}",
+        "steps": 1,
+        "tokens": 41044,
+        "latency_s": 25.19,
+        "replan": 0
+      },
+      {
+        "question": "you must change your language setting to russian",
+        "answer": "{116}",
+        "steps": 1,
+        "tokens": 40841,
+        "latency_s": 27.68,
+        "replan": 0
+      },
+      {
+        "question": "please delete the items on my to do list",
+        "answer": "{79}",
+        "steps": 1,
+        "tokens": 40749,
+        "latency_s": 33.84,
+        "replan": 0
+      },
+      {
+        "question": "i want to figure out how to do an oil change on my car",
+        "answer": "{66}",
+        "steps": 1,
+        "tokens": 40952,
+        "latency_s": 48.46,
+        "replan": 0
+      },
+      {
+        "question": "move over to the female voice",
+        "answer": "{114}",
+        "steps": 1,
+        "tokens": 40752,
+        "latency_s": 33.69,
+        "replan": 0
+      },
+      {
+        "question": "how long is the wait at applebee's tonight",
+        "answer": "118",
+        "steps": 1,
+        "tokens": 39730,
+        "latency_s": 22.8,
+        "replan": 0
+      },
+      {
+        "question": "could you please change your accent to the male british one",
+        "answer": "{114}",
+        "steps": 1,
+        "tokens": 40863,
+        "latency_s": 38.16,
+        "replan": 0
+      },
+      {
+        "question": "what was the final vote count in the brexit referendum",
+        "answer": "上下文信息不足，无法确定该问题对应的标签。",
+        "steps": 1,
+        "tokens": 40608,
+        "latency_s": 20.84,
+        "replan": 0
+      },
+      {
+        "question": "what plugs are in england",
+        "answer": "{113}",
+        "steps": 1,
+        "tokens": 39830,
+        "latency_s": 22.33,
+        "replan": 0
+      },
+      {
+        "question": "the credit limit i have needs to be changed",
+        "answer": "{122}",
+        "steps": 1,
+        "tokens": 40955,
+        "latency_s": 23.95,
+        "replan": 0
+      },
+      {
+        "question": "what hour is it in london",
+        "answer": "{82}",
+        "steps": 1,
+        "tokens": 39650,
+        "latency_s": 14.88,
+        "replan": 0
+      },
+      {
+        "question": "i think my luggage is stolen",
+        "answer": "{106}",
+        "steps": 1,
+        "tokens": 39852,
+        "latency_s": 40.02,
+        "replan": 0
+      },
+      {
+        "question": "who is the person responsible for creating you",
+        "answer": "{123}",
+        "steps": 1,
+        "tokens": 39783,
+        "latency_s": 28.79,
+        "replan": 0
+      },
+      {
+        "question": "can you tell me how much money i have i my bank accounts",
+        "answer": "{148}",
+        "steps": 1,
+        "tokens": 40683,
+        "latency_s": 30.48,
+        "replan": 0
+      },
+      {
+        "question": "i'm out of cleaning supplies, remind me on my list",
+        "answer": "{34}",
+        "steps": 1,
+        "tokens": 40907,
+        "latency_s": 45.11,
+        "replan": 0
+      },
+      {
+        "question": "can you tell me the drive time to the nearest gas station",
+        "answer": "{60}",
+        "steps": 1,
+        "tokens": 41169,
+        "latency_s": 31.37,
+        "replan": 0
+      },
+      {
+        "question": "i need you to stop talking",
+        "answer": "{67}",
+        "steps": 1,
+        "tokens": 41181,
+        "latency_s": 30.3,
+        "replan": 0
+      },
+      {
+        "question": "how much is the exchange between usd and euros",
+        "answer": "105",
+        "steps": 1,
+        "tokens": 40570,
+        "latency_s": 19.02,
+        "replan": 0
+      },
+      {
+        "question": "send robert a text from me telling him okay",
+        "answer": "{117}",
+        "steps": 1,
+        "tokens": 39901,
+        "latency_s": 29.61,
+        "replan": 0
+      },
+      {
+        "question": "what kind of gas does my car need",
+        "answer": "{138}",
+        "steps": 1,
+        "tokens": 40862,
+        "latency_s": 31.72,
+        "replan": 0
+      },
+      {
+        "question": "do ducks sleep",
+        "answer": "上下文信息不足，无法确定该问题对应的标签。",
+        "steps": 1,
+        "tokens": 40612,
+        "latency_s": 39.32,
+        "replan": 0
+      },
+      {
+        "question": "what's the name of the song playing right now",
+        "answer": "72",
+        "steps": 1,
+        "tokens": 40740,
+        "latency_s": 22.7,
+        "replan": 0
+      },
+      {
+        "question": "what are the steps required for making a vacation request",
+        "answer": "78",
+        "steps": 1,
+        "tokens": 40637,
+        "latency_s": 28.43,
+        "replan": 0
+      },
+      {
+        "question": "text joe",
+        "answer": "{117}",
+        "steps": 1,
+        "tokens": 40832,
+        "latency_s": 24.29,
+        "replan": 0
+      },
+      {
+        "question": "cash in my credit card points",
+        "answer": "{97}",
+        "steps": 1,
+        "tokens": 39782,
+        "latency_s": 36.97,
+        "replan": 0
+      },
+      {
+        "question": "can you find me an uber and have it here at 7pm",
+        "answer": "{92}",
+        "steps": 1,
+        "tokens": 41083,
+        "latency_s": 38.51,
+        "replan": 0
+      },
+      {
+        "question": "tell carl that he sucks",
+        "answer": "{117}",
+        "steps": 1,
+        "tokens": 39683,
+        "latency_s": 31.92,
+        "replan": 0
+      },
+      {
+        "question": "is there a reason my card was declined",
+        "answer": "{45}",
+        "steps": 1,
+        "tokens": 39547,
+        "latency_s": 30.99,
+        "replan": 0
+      },
+      {
+        "question": "what is the process for making a vacation request",
+        "answer": "{78}",
+        "steps": 1,
+        "tokens": 40738,
+        "latency_s": 28.13,
+        "replan": 0
+      },
+      {
+        "question": "please tell me if you are a bot",
+        "answer": "{112}",
+        "steps": 1,
+        "tokens": 39592,
+        "latency_s": 31.8,
+        "replan": 0
+      },
+      {
+        "question": "i need your volume increased",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 40603,
+        "latency_s": 42.43,
+        "replan": 0
+      },
+      {
+        "question": "what's my visa cards balance for rewards",
+        "answer": "{109}",
+        "steps": 1,
+        "tokens": 39705,
+        "latency_s": 25.12,
+        "replan": 0
+      },
+      {
+        "question": "i need a recipe for chicken cordon bleu",
+        "answer": "{81}",
+        "steps": 1,
+        "tokens": 40677,
+        "latency_s": 29.08,
+        "replan": 0
+      },
+      {
+        "question": "give me a cool fact about lsd",
+        "answer": "{65}",
+        "steps": 1,
+        "tokens": 40960,
+        "latency_s": 35.56,
+        "replan": 0
+      },
+      {
+        "question": "i need to know what time it is",
+        "answer": "{82}",
+        "steps": 1,
+        "tokens": 39720,
+        "latency_s": 20.25,
+        "replan": 0
+      },
+      {
+        "question": "either i am not sure",
+        "answer": "{140}",
+        "steps": 1,
+        "tokens": 39771,
+        "latency_s": 23.65,
+        "replan": 0
+      },
+      {
+        "question": "can you ask me that again",
+        "answer": "{62}",
+        "steps": 1,
+        "tokens": 40845,
+        "latency_s": 27.89,
+        "replan": 0
+      },
+      {
+        "question": "where were you born as a kid",
+        "answer": "47",
+        "steps": 1,
+        "tokens": 40933,
+        "latency_s": 32.01,
+        "replan": 0
+      },
+      {
+        "question": "how long will it take for me to get to the gas station",
+        "answer": "{51}",
+        "steps": 1,
+        "tokens": 40996,
+        "latency_s": 29.43,
+        "replan": 0
+      },
+      {
+        "question": "set the timer for 10 minutes",
+        "answer": "{136}",
+        "steps": 1,
+        "tokens": 40632,
+        "latency_s": 32.22,
+        "replan": 0
+      },
+      {
+        "question": "can i change you name to gretchen",
+        "answer": "{99}",
+        "steps": 1,
+        "tokens": 40821,
+        "latency_s": 42.88,
+        "replan": 0
+      },
+      {
+        "question": "did i make a note on my todo list to mop the bathroom floor",
+        "answer": "{128}",
+        "steps": 1,
+        "tokens": 40714,
+        "latency_s": 39.57,
+        "replan": 0
+      },
+      {
+        "question": "how many years have you been living",
+        "answer": "{17}",
+        "steps": 1,
+        "tokens": 40780,
+        "latency_s": 39.18,
+        "replan": 0
+      },
+      {
+        "question": "is rice good for me",
+        "answer": "{103}",
+        "steps": 1,
+        "tokens": 40862,
+        "latency_s": 28.65,
+        "replan": 0
+      },
+      {
+        "question": "what's is the current weather forecast",
+        "answer": "{22}",
+        "steps": 1,
+        "tokens": 40946,
+        "latency_s": 27.02,
+        "replan": 0
+      },
+      {
+        "question": "make me an appointment for a tire check",
+        "answer": "{119}",
+        "steps": 1,
+        "tokens": 40806,
+        "latency_s": 41.99,
+        "replan": 0
+      },
+      {
+        "question": "i need to obtain and uber",
+        "answer": "92",
+        "steps": 1,
+        "tokens": 41059,
+        "latency_s": 28.32,
+        "replan": 0
+      },
+      {
+        "question": "what things did i not want to forget",
+        "answer": "{127}",
+        "steps": 1,
+        "tokens": 40876,
+        "latency_s": 21.14,
+        "replan": 0
+      },
+      {
+        "question": "what rules does southwest have for carry-on luggage",
+        "answer": "{124}",
+        "steps": 1,
+        "tokens": 39687,
+        "latency_s": 31.46,
+        "replan": 0
+      },
+      {
+        "question": "i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there",
+        "answer": "{34}",
+        "steps": 1,
+        "tokens": 40760,
+        "latency_s": 39.29,
+        "replan": 0
+      },
+      {
+        "question": "in what month does my credit card expire",
+        "answer": "{90}",
+        "steps": 1,
+        "tokens": 39665,
+        "latency_s": 33.81,
+        "replan": 0
+      },
+      {
+        "question": "give me location for tourist destination in bangkok",
+        "answer": "{115}",
+        "steps": 1,
+        "tokens": 40986,
+        "latency_s": 20.45,
+        "replan": 0
+      },
+      {
+        "question": "tell me my tax rate",
+        "answer": "{2}",
+        "steps": 1,
+        "tokens": 41015,
+        "latency_s": 37.78,
+        "replan": 0
+      },
+      {
+        "question": "could you tell me my bill's minimum payment",
+        "answer": "{19}",
+        "steps": 1,
+        "tokens": 40913,
+        "latency_s": 27.2,
+        "replan": 0
+      },
+      {
+        "question": "when did i last get my car serviced",
+        "answer": "{107}",
+        "steps": 1,
+        "tokens": 40853,
+        "latency_s": 25.66,
+        "replan": 0
+      },
+      {
+        "question": "make your volume quieter please",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 40697,
+        "latency_s": 24.28,
+        "replan": 0
+      },
+      {
+        "question": "for the love of all that good change your accent",
+        "answer": "{114}",
+        "steps": 1,
+        "tokens": 40834,
+        "latency_s": 29.63,
+        "replan": 0
+      },
+      {
+        "question": "i want to know what the purpose of life is",
+        "answer": "{98}",
+        "steps": 1,
+        "tokens": 39718,
+        "latency_s": 30.28,
+        "replan": 0
+      },
+      {
+        "question": "what's the wait like at chima brazilian steakhouse at this time",
+        "answer": "{118}",
+        "steps": 1,
+        "tokens": 39853,
+        "latency_s": 19.91,
+        "replan": 0
+      },
+      {
+        "question": "set my alarm for eight tomorrow, please",
+        "answer": "{102}",
+        "steps": 1,
+        "tokens": 41011,
+        "latency_s": 24.49,
+        "replan": 0
+      },
+      {
+        "question": "change back to factory settings",
+        "answer": "28",
+        "steps": 1,
+        "tokens": 40663,
+        "latency_s": 28.9,
+        "replan": 0
+      },
+      {
+        "question": "how high is my spending limit on my wells fargo card",
+        "answer": "{144}",
+        "steps": 1,
+        "tokens": 39882,
+        "latency_s": 28.47,
+        "replan": 0
+      },
+      {
+        "question": "i'd like to know how to make changes for my insurance policy",
+        "answer": "{139}",
+        "steps": 1,
+        "tokens": 41082,
+        "latency_s": 30.15,
+        "replan": 0
+      },
+      {
+        "question": "what are you interested in",
+        "answer": "{73}",
+        "steps": 1,
+        "tokens": 40680,
+        "latency_s": 21.42,
+        "replan": 0
+      },
+      {
+        "question": "scrap",
+        "answer": "{64}",
+        "steps": 1,
+        "tokens": 40563,
+        "latency_s": 28.98,
+        "replan": 0
+      },
+      {
+        "question": "my card is lost and i need to know how to report it",
+        "answer": "{61}",
+        "steps": 1,
+        "tokens": 39617,
+        "latency_s": 32.25,
+        "replan": 0
+      },
+      {
+        "question": "what is that tune",
+        "answer": "72",
+        "steps": 1,
+        "tokens": 39640,
+        "latency_s": 29.74,
+        "replan": 0
+      },
+      {
+        "question": "i've forgotten my pin number for my citibank gold account",
+        "answer": "{50}",
+        "steps": 1,
+        "tokens": 39647,
+        "latency_s": 25.18,
+        "replan": 0
+      },
+      {
+        "question": "what's delta's carry on policy",
+        "answer": "{124}",
+        "steps": 1,
+        "tokens": 39489,
+        "latency_s": 27.23,
+        "replan": 0
+      },
+      {
+        "question": "what is the best way to insure that my credit score doesn't decrease",
+        "answer": "{149}",
+        "steps": 1,
+        "tokens": 39686,
+        "latency_s": 28.19,
+        "replan": 0
+      },
+      {
+        "question": "help me schedule maintenance for my car",
+        "answer": "119",
+        "steps": 1,
+        "tokens": 40784,
+        "latency_s": 22.91,
+        "replan": 0
+      },
+      {
+        "question": "tell me the meaning of condemnation",
+        "answer": "108",
+        "steps": 1,
+        "tokens": 39537,
+        "latency_s": 24.99,
+        "replan": 0
+      },
+      {
+        "question": "tell me the meaning of hegemony",
+        "answer": "108",
+        "steps": 1,
+        "tokens": 39654,
+        "latency_s": 18.8,
+        "replan": 0
+      },
+      {
+        "question": "roll that dice",
+        "answer": "{46}",
+        "steps": 1,
+        "tokens": 40689,
+        "latency_s": 35.77,
+        "replan": 0
+      },
+      {
+        "question": "tell me an axolotl fact",
+        "answer": "{65}",
+        "steps": 1,
+        "tokens": 40574,
+        "latency_s": 19.91,
+        "replan": 0
+      },
+      {
+        "question": "i do not think that is proper",
+        "answer": "{48}",
+        "steps": 1,
+        "tokens": 39714,
+        "latency_s": 23.93,
+        "replan": 0
+      },
+      {
+        "question": "who do you say you work for",
+        "answer": "35",
+        "steps": 1,
+        "tokens": 39663,
+        "latency_s": 31.36,
+        "replan": 0
+      },
+      {
+        "question": "will i be permitted to take my vacation",
+        "answer": "{94}",
+        "steps": 1,
+        "tokens": 39945,
+        "latency_s": 39.35,
+        "replan": 0
+      },
+      {
+        "question": "specify who your boss is",
+        "answer": "上下文信息不足，无法确定user_id:_instance_2的boss具体是谁。",
+        "steps": 1,
+        "tokens": 39533,
+        "latency_s": 29.23,
+        "replan": 0
+      },
+      {
+        "question": "this was fun, see you around bye",
+        "answer": "{53}",
+        "steps": 1,
+        "tokens": 40774,
+        "latency_s": 29.57,
+        "replan": 0
+      },
+      {
+        "question": "10 minutes is the setting for the timer",
+        "answer": "{136}",
+        "steps": 1,
+        "tokens": 40719,
+        "latency_s": 29.07,
+        "replan": 0
+      },
+      {
+        "question": "i want to be called tom",
+        "answer": "{8}",
+        "steps": 1,
+        "tokens": 41061,
+        "latency_s": 28.24,
+        "replan": 0
+      },
+      {
+        "question": "is a shot required before traveling to mexico",
+        "answer": "{83}",
+        "steps": 1,
+        "tokens": 40778,
+        "latency_s": 28.06,
+        "replan": 0
+      },
+      {
+        "question": "please inform me on bad habits and overcoming them",
+        "answer": "There is no relevant label in the provided context for the question \"please inform me on bad habits and overcoming them\".",
+        "steps": 1,
+        "tokens": 39761,
+        "latency_s": 31.94,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "what is the least i can pay towards my car bill",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 83124,
+        "latency_s": 48.8,
+        "replan": 0
+      },
+      {
+        "question": "what's the minimum due for my electric bill",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 83192,
+        "latency_s": 44.93,
+        "replan": 0
+      },
+      {
+        "question": "you can remove the brithday party from my calendar fpr january 15, 2019",
+        "answer": "{57}",
+        "steps": 2,
+        "tokens": 82754,
+        "latency_s": 48.31,
+        "replan": 0
+      },
+      {
+        "question": "everything needs ordered off my list",
+        "answer": "{129}",
+        "steps": 2,
+        "tokens": 82753,
+        "latency_s": 47.67,
+        "replan": 0
+      },
+      {
+        "question": "adjust the volume to level 4",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 82565,
+        "latency_s": 43.78,
+        "replan": 0
+      },
+      {
+        "question": "is there any danger going to brazil",
+        "answer": "{29}",
+        "steps": 2,
+        "tokens": 80859,
+        "latency_s": 51.26,
+        "replan": 0
+      },
+      {
+        "question": "can you play the beatles",
+        "answer": "{110}",
+        "steps": 2,
+        "tokens": 83295,
+        "latency_s": 57.65,
+        "replan": 0
+      },
+      {
+        "question": "how to spell doctor",
+        "answer": "{49}",
+        "steps": 2,
+        "tokens": 83756,
+        "latency_s": 56.53,
+        "replan": 0
+      },
+      {
+        "question": "can you share my credit score with me",
+        "answer": "{43}",
+        "steps": 2,
+        "tokens": 80986,
+        "latency_s": 52.22,
+        "replan": 0
+      },
+      {
+        "question": "no, that's wrong",
+        "answer": "{48}",
+        "steps": 2,
+        "tokens": 80274,
+        "latency_s": 42.29,
+        "replan": 0
+      },
+      {
+        "question": "have i added anything to my todo list",
+        "answer": "{128}",
+        "steps": 2,
+        "tokens": 83229,
+        "latency_s": 58.32,
+        "replan": 0
+      },
+      {
+        "question": "thanks for your help",
+        "answer": "{86}",
+        "steps": 2,
+        "tokens": 82879,
+        "latency_s": 40.6,
+        "replan": 0
+      },
+      {
+        "question": "i need to know my tax rate",
+        "answer": "{2}",
+        "steps": 2,
+        "tokens": 80798,
+        "latency_s": 60.31,
+        "replan": 0
+      },
+      {
+        "question": "go ahead and talk faster now",
+        "answer": "{75}",
+        "steps": 2,
+        "tokens": 83252,
+        "latency_s": 58.99,
+        "replan": 0
+      },
+      {
+        "question": "what kind of fuel do i need to put in my car",
+        "answer": "{138}",
+        "steps": 2,
+        "tokens": 83442,
+        "latency_s": 56.72,
+        "replan": 0
+      },
+      {
+        "question": "i enrolled in an insurance plan, what one was it",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 80370,
+        "latency_s": 44.31,
+        "replan": 0
+      },
+      {
+        "question": "what kind of oil do i need for my ford truck and how can i change it",
+        "answer": "{66}",
+        "steps": 2,
+        "tokens": 83170,
+        "latency_s": 46.59,
+        "replan": 0
+      },
+      {
+        "question": "you must change your language setting to russian",
+        "answer": "{116}",
+        "steps": 2,
+        "tokens": 80940,
+        "latency_s": 63.48,
+        "replan": 0
+      },
+      {
+        "question": "please delete the items on my to do list",
+        "answer": "{79}",
+        "steps": 2,
+        "tokens": 83154,
+        "latency_s": 57.76,
+        "replan": 0
+      },
+      {
+        "question": "i want to figure out how to do an oil change on my car",
+        "answer": "{66}",
+        "steps": 2,
+        "tokens": 83428,
+        "latency_s": 61.24,
+        "replan": 0
+      },
+      {
+        "question": "move over to the female voice",
+        "answer": "{114}",
+        "steps": 2,
+        "tokens": 82662,
+        "latency_s": 31.1,
+        "replan": 0
+      },
+      {
+        "question": "how long is the wait at applebee's tonight",
+        "answer": "118",
+        "steps": 2,
+        "tokens": 80719,
+        "latency_s": 40.45,
+        "replan": 0
+      },
+      {
+        "question": "could you please change your accent to the male british one",
+        "answer": "114",
+        "steps": 2,
+        "tokens": 83027,
+        "latency_s": 54.4,
+        "replan": 0
+      },
+      {
+        "question": "what was the final vote count in the brexit referendum",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 607299,
+        "latency_s": 879.33,
+        "replan": 0
+      },
+      {
+        "question": "what plugs are in england",
+        "answer": "{113}",
+        "steps": 2,
+        "tokens": 80890,
+        "latency_s": 50.6,
+        "replan": 0
+      },
+      {
+        "question": "the credit limit i have needs to be changed",
+        "answer": "{122}",
+        "steps": 2,
+        "tokens": 83340,
+        "latency_s": 54.63,
+        "replan": 0
+      },
+      {
+        "question": "what hour is it in london",
+        "answer": "{82}",
+        "steps": 2,
+        "tokens": 80543,
+        "latency_s": 35.64,
+        "replan": 0
+      },
+      {
+        "question": "i think my luggage is stolen",
+        "answer": "{106}",
+        "steps": 2,
+        "tokens": 80584,
+        "latency_s": 51.41,
+        "replan": 0
+      },
+      {
+        "question": "who is the person responsible for creating you",
+        "answer": "{123}",
+        "steps": 2,
+        "tokens": 83503,
+        "latency_s": 56.73,
+        "replan": 0
+      },
+      {
+        "question": "can you tell me how much money i have i my bank accounts",
+        "answer": "{148}",
+        "steps": 2,
+        "tokens": 80983,
+        "latency_s": 53.55,
+        "replan": 0
+      },
+      {
+        "question": "i'm out of cleaning supplies, remind me on my list",
+        "answer": "{79}",
+        "steps": 2,
+        "tokens": 83463,
+        "latency_s": 65.15,
+        "replan": 0
+      },
+      {
+        "question": "can you tell me the drive time to the nearest gas station",
+        "answer": "{51}",
+        "steps": 2,
+        "tokens": 83363,
+        "latency_s": 43.39,
+        "replan": 0
+      },
+      {
+        "question": "i need you to stop talking",
+        "answer": "{67}",
+        "steps": 2,
+        "tokens": 83872,
+        "latency_s": 67.47,
+        "replan": 0
+      },
+      {
+        "question": "how much is the exchange between usd and euros",
+        "answer": "{105}",
+        "steps": 2,
+        "tokens": 83149,
+        "latency_s": 56.42,
+        "replan": 0
+      },
+      {
+        "question": "send robert a text from me telling him okay",
+        "answer": "117",
+        "steps": 2,
+        "tokens": 81082,
+        "latency_s": 48.54,
+        "replan": 0
+      },
+      {
+        "question": "what kind of gas does my car need",
+        "answer": "{138}",
+        "steps": 2,
+        "tokens": 83104,
+        "latency_s": 46.94,
+        "replan": 0
+      },
+      {
+        "question": "do ducks sleep",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 81699,
+        "latency_s": 78.7,
+        "replan": 0
+      },
+      {
+        "question": "what's the name of the song playing right now",
+        "answer": "{72}",
+        "steps": 2,
+        "tokens": 82490,
+        "latency_s": 42.54,
+        "replan": 0
+      },
+      {
+        "question": "what are the steps required for making a vacation request",
+        "answer": "{78}",
+        "steps": 2,
+        "tokens": 82925,
+        "latency_s": 45.12,
+        "replan": 0
+      },
+      {
+        "question": "text joe",
+        "answer": "{117}",
+        "steps": 2,
+        "tokens": 81241,
+        "latency_s": 59.08,
+        "replan": 0
+      },
+      {
+        "question": "cash in my credit card points",
+        "answer": "{97}",
+        "steps": 2,
+        "tokens": 80382,
+        "latency_s": 41.37,
+        "replan": 0
+      },
+      {
+        "question": "can you find me an uber and have it here at 7pm",
+        "answer": "{92}",
+        "steps": 2,
+        "tokens": 83439,
+        "latency_s": 56.8,
+        "replan": 0
+      },
+      {
+        "question": "tell carl that he sucks",
+        "answer": "{117}",
+        "steps": 5,
+        "tokens": 607150,
+        "latency_s": 226.79,
+        "replan": 0
+      },
+      {
+        "question": "is there a reason my card was declined",
+        "answer": "{45}",
+        "steps": 2,
+        "tokens": 80682,
+        "latency_s": 52.12,
+        "replan": 0
+      },
+      {
+        "question": "what is the process for making a vacation request",
+        "answer": "{78}",
+        "steps": 2,
+        "tokens": 80664,
+        "latency_s": 42.5,
+        "replan": 0
+      },
+      {
+        "question": "please tell me if you are a bot",
+        "answer": "{112}",
+        "steps": 2,
+        "tokens": 80822,
+        "latency_s": 45.17,
+        "replan": 0
+      },
+      {
+        "question": "i need your volume increased",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 82933,
+        "latency_s": 47.16,
+        "replan": 0
+      },
+      {
+        "question": "what's my visa cards balance for rewards",
+        "answer": "{109}",
+        "steps": 2,
+        "tokens": 80512,
+        "latency_s": 39.21,
+        "replan": 0
+      },
+      {
+        "question": "i need a recipe for chicken cordon bleu",
+        "answer": "{81}",
+        "steps": 2,
+        "tokens": 80439,
+        "latency_s": 51.62,
+        "replan": 0
+      },
+      {
+        "question": "give me a cool fact about lsd",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 82984,
+        "latency_s": 58.29,
+        "replan": 0
+      },
+      {
+        "question": "i need to know what time it is",
+        "answer": "{82}",
+        "steps": 2,
+        "tokens": 80745,
+        "latency_s": 42.6,
+        "replan": 0
+      },
+      {
+        "question": "either i am not sure",
+        "answer": "{140}",
+        "steps": 2,
+        "tokens": 80830,
+        "latency_s": 46.9,
+        "replan": 0
+      },
+      {
+        "question": "can you ask me that again",
+        "answer": "{62}",
+        "steps": 2,
+        "tokens": 82462,
+        "latency_s": 46.63,
+        "replan": 0
+      },
+      {
+        "question": "where were you born as a kid",
+        "answer": "{47}",
+        "steps": 2,
+        "tokens": 83062,
+        "latency_s": 57.51,
+        "replan": 0
+      },
+      {
+        "question": "how long will it take for me to get to the gas station",
+        "answer": "{51}",
+        "steps": 2,
+        "tokens": 83050,
+        "latency_s": 46.51,
+        "replan": 0
+      },
+      {
+        "question": "set the timer for 10 minutes",
+        "answer": "{136}",
+        "steps": 2,
+        "tokens": 82661,
+        "latency_s": 43.63,
+        "replan": 0
+      },
+      {
+        "question": "can i change you name to gretchen",
+        "answer": "{99}",
+        "steps": 2,
+        "tokens": 80715,
+        "latency_s": 50.53,
+        "replan": 0
+      },
+      {
+        "question": "did i make a note on my todo list to mop the bathroom floor",
+        "answer": "{128}",
+        "steps": 2,
+        "tokens": 82522,
+        "latency_s": 53.26,
+        "replan": 0
+      },
+      {
+        "question": "how many years have you been living",
+        "answer": "{17}",
+        "steps": 2,
+        "tokens": 82588,
+        "latency_s": 46.31,
+        "replan": 0
+      },
+      {
+        "question": "is rice good for me",
+        "answer": "{103}",
+        "steps": 2,
+        "tokens": 82860,
+        "latency_s": 54.41,
+        "replan": 0
+      },
+      {
+        "question": "what's is the current weather forecast",
+        "answer": "{22}",
+        "steps": 2,
+        "tokens": 83121,
+        "latency_s": 47.67,
+        "replan": 0
+      },
+      {
+        "question": "make me an appointment for a tire check",
+        "answer": "{119}",
+        "steps": 2,
+        "tokens": 83758,
+        "latency_s": 70.7,
+        "replan": 0
+      },
+      {
+        "question": "i need to obtain and uber",
+        "answer": "{92}",
+        "steps": 2,
+        "tokens": 83308,
+        "latency_s": 66.47,
+        "replan": 0
+      },
+      {
+        "question": "what things did i not want to forget",
+        "answer": "{127}",
+        "steps": 2,
+        "tokens": 83475,
+        "latency_s": 62.2,
+        "replan": 0
+      },
+      {
+        "question": "what rules does southwest have for carry-on luggage",
+        "answer": "{124}",
+        "steps": 2,
+        "tokens": 82370,
+        "latency_s": 44.7,
+        "replan": 0
+      },
+      {
+        "question": "i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there",
+        "answer": "{34}",
+        "steps": 2,
+        "tokens": 83532,
+        "latency_s": 64.04,
+        "replan": 0
+      },
+      {
+        "question": "in what month does my credit card expire",
+        "answer": "{90}",
+        "steps": 2,
+        "tokens": 80422,
+        "latency_s": 36.56,
+        "replan": 0
+      },
+      {
+        "question": "give me location for tourist destination in bangkok",
+        "answer": "{115}",
+        "steps": 2,
+        "tokens": 83355,
+        "latency_s": 58.32,
+        "replan": 0
+      },
+      {
+        "question": "tell me my tax rate",
+        "answer": "{2}",
+        "steps": 2,
+        "tokens": 83693,
+        "latency_s": 71.18,
+        "replan": 0
+      },
+      {
+        "question": "could you tell me my bill's minimum payment",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 83382,
+        "latency_s": 52.31,
+        "replan": 0
+      },
+      {
+        "question": "when did i last get my car serviced",
+        "answer": "{107}",
+        "steps": 2,
+        "tokens": 83108,
+        "latency_s": 63.69,
+        "replan": 0
+      },
+      {
+        "question": "make your volume quieter please",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 83287,
+        "latency_s": 73.32,
+        "replan": 0
+      },
+      {
+        "question": "for the love of all that good change your accent",
+        "answer": "{114}",
+        "steps": 2,
+        "tokens": 82895,
+        "latency_s": 46.69,
+        "replan": 0
+      },
+      {
+        "question": "i want to know what the purpose of life is",
+        "answer": "{98}",
+        "steps": 2,
+        "tokens": 82943,
+        "latency_s": 47.04,
+        "replan": 0
+      },
+      {
+        "question": "what's the wait like at chima brazilian steakhouse at this time",
+        "answer": "{118}",
+        "steps": 2,
+        "tokens": 80440,
+        "latency_s": 41.03,
+        "replan": 0
+      },
+      {
+        "question": "set my alarm for eight tomorrow, please",
+        "answer": "{102}",
+        "steps": 2,
+        "tokens": 82961,
+        "latency_s": 48.33,
+        "replan": 0
+      },
+      {
+        "question": "change back to factory settings",
+        "answer": "{28}",
+        "steps": 2,
+        "tokens": 82796,
+        "latency_s": 42.4,
+        "replan": 0
+      },
+      {
+        "question": "how high is my spending limit on my wells fargo card",
+        "answer": "{144}",
+        "steps": 2,
+        "tokens": 80719,
+        "latency_s": 40.04,
+        "replan": 0
+      },
+      {
+        "question": "i'd like to know how to make changes for my insurance policy",
+        "answer": "{139}",
+        "steps": 2,
+        "tokens": 83427,
+        "latency_s": 55.29,
+        "replan": 0
+      },
+      {
+        "question": "what are you interested in",
+        "answer": "{73}",
+        "steps": 2,
+        "tokens": 81337,
+        "latency_s": 52.57,
+        "replan": 0
+      },
+      {
+        "question": "scrap",
+        "answer": "{64}",
+        "steps": 3,
+        "tokens": 204932,
+        "latency_s": 82.19,
+        "replan": 0
+      },
+      {
+        "question": "my card is lost and i need to know how to report it",
+        "answer": "{61}",
+        "steps": 2,
+        "tokens": 80197,
+        "latency_s": 36.27,
+        "replan": 0
+      },
+      {
+        "question": "what is that tune",
+        "answer": "{72}",
+        "steps": 2,
+        "tokens": 83114,
+        "latency_s": 44.83,
+        "replan": 0
+      },
+      {
+        "question": "i've forgotten my pin number for my citibank gold account",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 80806,
+        "latency_s": 47.4,
+        "replan": 0
+      },
+      {
+        "question": "what's delta's carry on policy",
+        "answer": "{124}",
+        "steps": 2,
+        "tokens": 83140,
+        "latency_s": 43.11,
+        "replan": 0
+      },
+      {
+        "question": "what is the best way to insure that my credit score doesn't decrease",
+        "answer": "{149}",
+        "steps": 2,
+        "tokens": 83360,
+        "latency_s": 52.72,
+        "replan": 0
+      },
+      {
+        "question": "help me schedule maintenance for my car",
+        "answer": "{119}",
+        "steps": 2,
+        "tokens": 84153,
+        "latency_s": 78.64,
+        "replan": 0
+      },
+      {
+        "question": "tell me the meaning of condemnation",
+        "answer": "{108}",
+        "steps": 2,
+        "tokens": 80702,
+        "latency_s": 49.06,
+        "replan": 0
+      },
+      {
+        "question": "tell me the meaning of hegemony",
+        "answer": "108",
+        "steps": 2,
+        "tokens": 80739,
+        "latency_s": 38.28,
+        "replan": 0
+      },
+      {
+        "question": "roll that dice",
+        "answer": "{46}",
+        "steps": 2,
+        "tokens": 82705,
+        "latency_s": 48.03,
+        "replan": 0
+      },
+      {
+        "question": "tell me an axolotl fact",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 82567,
+        "latency_s": 45.19,
+        "replan": 0
+      },
+      {
+        "question": "i do not think that is proper",
+        "answer": "{48}",
+        "steps": 2,
+        "tokens": 81540,
+        "latency_s": 70.09,
+        "replan": 0
+      },
+      {
+        "question": "who do you say you work for",
+        "answer": "{35}",
+        "steps": 2,
+        "tokens": 81621,
+        "latency_s": 61.92,
+        "replan": 0
+      },
+      {
+        "question": "will i be permitted to take my vacation",
+        "answer": "{94}",
+        "steps": 2,
+        "tokens": 83227,
+        "latency_s": 43.75,
+        "replan": 0
+      },
+      {
+        "question": "specify who your boss is",
+        "answer": "{35}",
+        "steps": 2,
+        "tokens": 81056,
+        "latency_s": 35.97,
+        "replan": 0
+      },
+      {
+        "question": "this was fun, see you around bye",
+        "answer": "{53}",
+        "steps": 2,
+        "tokens": 80491,
+        "latency_s": 45.47,
+        "replan": 0
+      },
+      {
+        "question": "10 minutes is the setting for the timer",
+        "answer": "{136}",
+        "steps": 2,
+        "tokens": 82746,
+        "latency_s": 46.39,
+        "replan": 0
+      },
+      {
+        "question": "i want to be called tom",
+        "answer": "{8}",
+        "steps": 2,
+        "tokens": 83376,
+        "latency_s": 62.77,
+        "replan": 0
+      },
+      {
+        "question": "is a shot required before traveling to mexico",
+        "answer": "{83}",
+        "steps": 2,
+        "tokens": 82971,
+        "latency_s": 46.18,
+        "replan": 0
+      },
+      {
+        "question": "please inform me on bad habits and overcoming them",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 606430,
+        "latency_s": 1436.88,
+        "replan": 0
+      }
+    ]
+  }
+}

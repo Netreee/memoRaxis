@@ -25,3 +25,31 @@ nuoxi/
 q2DataBase/
 daijun/
 gaoang/
+
+# 运行时产物
+logs/
+*.log
+nohup.out
+nohup_*.out
+SHUTDOWN_STATE.md
+RAPTOR_SESSION_KNOWLEDGE.md
+=0.5.1
+
+# 数据库/索引文件
+out/raptor/trees/
+out/raptor/logs/
+scripts/mem0_MAB/qdrant_storage/
+scripts/mem0g_MAB/neo4j_data*/
+scripts/mem0g_MAB/qdrant_storage/
+scripts/mem0g_MAB/neo4j_logs*/
+
+# 外部仓库
+external/
+
+# Claude内部
+.claude/
+
+# 临时文件
+checkpoints/
+test_patch.py
+patch_errors.py

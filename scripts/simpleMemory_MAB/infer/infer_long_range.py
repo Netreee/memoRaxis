@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List, Optional
 
 # Add project root to sys.path
-sys.path.append(str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 
 from src.logger import get_logger
 from src.config import get_config
@@ -110,6 +110,15 @@ def evaluate_instance(instance_idx: int, adaptors_to_run: List[str], limit: int 
     filename += ".json"
     out_file = output_dir / filename
 
+    # 合并已有结果，避免覆盖其他 adaptor 数据
+    if out_file.exists():
+        try:
+            existing = json.load(open(out_file, encoding="utf-8"))
+            for a, v in existing.get("results", {}).items():
+                if a not in final_report["results"]:
+                    final_report["results"][a] = v
+        except Exception:
+            pass
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(final_report, f, indent=2, ensure_ascii=False)
 

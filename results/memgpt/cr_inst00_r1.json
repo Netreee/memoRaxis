@@ -1,0 +1,1008 @@
+{
+  "dataset": "Conflict_Resolution",
+  "instance_idx": 0,
+  "results": {
+    "R1": [
+      {
+        "question": "What is the country of citizenship of the spouse of the author of Our Mutual Friend?",
+        "answer": "The context information is insufficient. \n\nReasoning: \n1. The author of *Our Mutual Friend* is conflictingly stated as Charles Dickens ([1]107) and Charles Darwin ([2]146) in the context. \n2. Even if we take Charles Dickens (as [4]131 mentions his spouse Catherine Dickens), there is no information in the provided context about Catherine Dickens' country of citizenship. \n\nThus, the required information is not available.\n```\nThe context information is insufficient.\n```",
+        "ground_truth": [
+          "Belgium"
+        ],
+        "steps": 1,
+        "tokens": 1923,
+        "replan": 0
+      },
+      {
+        "question": "In which location did the spouse of Igor of Kiev pass away?",
+        "answer": "There are conflicting records in the context: Olga of Kiev (spouse of Igor of Kiev) is stated to have died in Kyiv ([2] fact 125) and Rodez ([3] fact 450). Therefore, the location where she passed away cannot be determined uniquely based on the given information.\n\nAnswer: There are conflicting records indicating Olga of Kiev died in Kyiv and Rodez, so the exact location cannot be confirmed.",
+        "ground_truth": [
+          "Rodez"
+        ],
+        "steps": 1,
+        "tokens": 3949,
+        "replan": 0
+      },
+      {
+        "question": "Which country is the birthplace of the sport associated with Steve Sax?",
+        "answer": "United States of America\n\n### Explanation:\n1. **Identify the sport associated with Steve Sax**: From context [1] (line 35), Steve Sax is associated with baseball.  \n2. **Find the birthplace of baseball**: From context [4] (line 160), baseball was created in the United States of America.  \n\n(Note: Context [5] (line 417) mentions Steve Sax being associated with association football, but there is no information in the provided context about the birthplace of association football. Thus, we rely on the sport with both association and birthplace data.)\n\n\nUnited States of America",
+        "ground_truth": [
+          "Italy"
+        ],
+        "steps": 1,
+        "tokens": 5779,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin for the sport of the Tunisia national football team?",
+        "answer": "The context information is insufficient. \n\nReason: We know from entry 235 that the Tunisia national football team is associated with association football, but there is no information in the provided context about the country of origin of association football, so we cannot determine the capital of that country.\n\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Russellville"
+        ],
+        "steps": 1,
+        "tokens": 7559,
+        "replan": 0
+      },
+      {
+        "question": "What is the sport that Blair Walsh plays in which he is known for his position on the team?",
+        "answer": "The context provides conflicting information about the sport associated with the position of placekicker: entry 78 states placekicker is associated with American football, while entry 321 states it is associated with rugby. Since Blair Walsh plays the position of placekicker (entry419), there is no clear answer based on the given context.\n\nAnswer: The context has conflicting information about the sport associated with Blair Walsh's position (placekicker), so it is impossible to determine the exact sport he plays.",
+        "ground_truth": [
+          "rugby"
+        ],
+        "steps": 1,
+        "tokens": 9768,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the educational institution where the partner of Nicolae Ceaușescu was educated?",
+        "answer": "University of Bucharest.",
+        "ground_truth": [
+          "Baldwin Wallace University"
+        ],
+        "steps": 1,
+        "tokens": 11314,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the current CEO of Twitter hold citizenship of?",
+        "answer": "The context provides conflicting information about the current CEO of Twitter: it mentions both Jack Dorsey and Bernard Arnault as the CEO. While Jack Dorsey's citizenship (United States of America) is specified, there is no citizenship information for Bernard Arnault, and there is no indication of which of the two is the current CEO. Thus, the context information is insufficient to determine the citizenship of the current CEO of Twitter.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "France"
+        ],
+        "steps": 1,
+        "tokens": 13576,
+        "replan": 0
+      },
+      {
+        "question": "On which continent was the place of birth of Thomas Arne located?",
+        "answer": "Europe\n\nFirst, from context [1] (fact 342), we know Thomas Arne was born in London. Then, context [4] (fact 211) states that England is located in Europe. Since London is a city in England, the continent where his place of birth is located is Europe.\n\n\nEurope",
+        "ground_truth": [
+          "Oceania"
+        ],
+        "steps": 1,
+        "tokens": 15056,
+        "replan": 0
+      },
+      {
+        "question": "To which continent does the country of citizenship of Colin Irwin pertain?",
+        "answer": "The context provides conflicting information about Colin Irwin's country of citizenship: he is stated to be a citizen of Israel (from [1] 441) and also of the United Kingdom (from [2] 55). While Israel is mentioned to be located in North America (from [4] 127), there is no information about the continent of the United Kingdom in the given context. Thus, it is impossible to determine the exact continent of his country of citizenship based on the provided information.\n\nAnswer: The context has conflicting information about Colin Irwin's country of citizenship (Israel or United Kingdom), and there is no sufficient information to determine the exact continent. Therefore, the answer cannot be confirmed.",
+        "ground_truth": [
+          "North America"
+        ],
+        "steps": 1,
+        "tokens": 18002,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of work of the founder of the religion to which John Walsh belongs?",
+        "answer": "First, we need to determine John Walsh's religious affiliation and then find the work location of that religion's founder.  \n\nFrom the context:  \n- John Walsh is affiliated with the Catholic Church (entry 282 in [2]).  \n- The founder of the Catholic Church is generally recognized as Jesus Christ, and entry 307 in [3] states that Jesus Christ worked in the city of Galilee.  \n\nAlthough there is a conflicting entry (entry 361 in [1] says John Walsh is affiliated with Methodism), the context provides no information about the founder of Methodism or their work location. Thus, the only valid answer from the given context is based on the Catholic Church affiliation.  \n\nAnswer: Galilee.",
+        "ground_truth": [
+          "Berlin"
+        ],
+        "steps": 1,
+        "tokens": 20106,
+        "replan": 0
+      },
+      {
+        "question": "What is the religious affiliation of the person who founded the Transcendental Meditation movement?",
+        "answer": "Hinduism\n\nThe context states in [2] 154 that the Transcendental Meditation movement was founded by Maharishi Mahesh Yogi, and in [4] 331 that Maharishi Mahesh Yogi is affiliated with the religion of Hinduism. This forms a consistent pair of information in the given context, so the religious affiliation is Hinduism.\n\n\n（注：虽然上下文对创始人存在冲突信息（Adalbert of Prague vs Maharishi Mahesh Yogi），但Maharishi Mahesh Yogi的宗教归属在上下文里有明确且无冲突的记载（Hinduism），且该创始人与宗教归属的信息配对一致，因此基于此配对得出答案。）",
+        "ground_truth": [
+          "atheism"
+        ],
+        "steps": 1,
+        "tokens": 22783,
+        "replan": 0
+      },
+      {
+        "question": "What was the religion of the person with the citizenship of the country to which Edmund Burke belonged?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Zoroastrianism"
+        ],
+        "steps": 1,
+        "tokens": 24643,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country where the sport associated with John Harkes has its origin?",
+        "answer": "The context does not provide information about the country where association football (the sport associated with John Harkes) originated, so the answer cannot be determined based on the given content.\n\nAnswer: Information is insufficient.",
+        "ground_truth": [
+          "Duluth"
+        ],
+        "steps": 1,
+        "tokens": 26573,
+        "replan": 0
+      },
+      {
+        "question": "Which faith is the partner of Laura Bush associated with?",
+        "answer": "上下文信息不足，无法回答Laura Bush的伴侣所关联的信仰。",
+        "ground_truth": [
+          "Anglicanism"
+        ],
+        "steps": 1,
+        "tokens": 28128,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the head of state in the country where Andrew Carnegie was a citizen?",
+        "answer": "Elizabeth II\n\nExplanation: According to the context, Andrew Carnegie is a citizen of the United Kingdom (entry 367 in section [4]). Among the entries about the head of state of the United Kingdom, entry 79 in section [2] states that the current head of state is Elizabeth II (the conflicting entry 249 in section [5] is likely an error, and Elizabeth II is the correct answer based on the more reasonable entry in the context).\n\n\n**Answer:** Elizabeth II",
+        "ground_truth": [
+          "Emmerson Mnangagwa"
+        ],
+        "steps": 1,
+        "tokens": 30505,
+        "replan": 0
+      },
+      {
+        "question": "From which capital city did the Surrey Senior Cup, a sports competition, originate?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Russellville"
+        ],
+        "steps": 1,
+        "tokens": 32007,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the sport, with which Carlos Gómez is associated, come from?",
+        "answer": "United States of America\n\nFirst, from the context: [1] 81 states Carlos Gómez is associated with baseball, and [2] 160 states baseball was created in the United States of America. Even though [5] 405 mentions he is associated with basketball, [3] 216 also states basketball was created in the United States of America. Thus, regardless of the sport (baseball or basketball) Carlos Gómez is associated with, the country of origin is the United States of America.\n\n\nUnited States of America",
+        "ground_truth": [
+          "Soviet Union"
+        ],
+        "steps": 1,
+        "tokens": 33629,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country where Madame du Barry held a citizenship?",
+        "answer": "The context provides conflicting information about Madame du Barry's citizenship: she is stated to be a citizen of France ([1] line 29) and Great Britain ([5] line 123). For France, there are also conflicting capital city records (Paris in [3] line 163 vs. Harare in [3] line 171), while the capital of Great Britain is consistently London ([1] line33, [4] line377). Due to these conflicts, the answer cannot be determined based on the given context.\n\nAnswer: The context contains conflicting information about Madame du Barry's citizenship (France and Great Britain), so the answer cannot be determined.",
+        "ground_truth": [
+          "London"
+        ],
+        "steps": 1,
+        "tokens": 36047,
+        "replan": 0
+      },
+      {
+        "question": "What is the job title of the chairperson of the political organization Fatah?",
+        "answer": "chairperson\n\nThe context directly refers to the position of the leader of Fatah as \"chairperson\" (e.g., \"The chairperson of Fatah is Mahmoud Abbas\" in [1] fact 1 and \"The chairperson of Fatah is Moshe Kahlon\" in [4] fact 232). No other job title for this position is mentioned in the provided context. Thus, the job title of the chairperson of Fatah is chairperson.",
+        "ground_truth": [
+          "soldier"
+        ],
+        "steps": 1,
+        "tokens": 38057,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the performer of \"Free as a Bird\"'s director/manager comes from?",
+        "answer": "The context information is insufficient. \n\nStep-by-step reasoning:  \n1. The performer of \"Free as a Bird\" is The Beatles (from [2] 350).  \n2. The director/manager of The Beatles is mentioned as Joe Hockey ([3]443) or Brian Epstein ([4]236), but there is no information in the context about the country where either Joe Hockey or Brian Epstein comes from.  \n3. Without knowing the country of the director/manager, we cannot determine its capital.  \n\nThus, the required information is not available in the given context.  \n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Duluth"
+        ],
+        "steps": 1,
+        "tokens": 39905,
+        "replan": 0
+      },
+      {
+        "question": "What is the language of the work that was created by the individual who created Rand al'Thor?",
+        "answer": "The context provides conflicting information about who created Rand al'Thor (Ferdowsi in entry 326 vs. Robert Jordan in entry 66). Additionally, there is no information in the context about the language of the specific work that contains Rand al'Thor for either creator. Thus, the context information is insufficient to answer the task.\n\nAnswer: The context information is insufficient to answer the question.",
+        "ground_truth": [
+          "Persian"
+        ],
+        "steps": 1,
+        "tokens": 42103,
+        "replan": 0
+      },
+      {
+        "question": "What is the work location of the person who founded the religion Karen Armstrong belongs to?",
+        "answer": "The context information is insufficient to answer the question. \n\nReason: \n1. Karen Armstrong is affiliated with two conflicting religions in the context: Catholic Church (entry 266) and Church of Scotland (entry 412). \n2. The context does not explicitly state who founded either the Catholic Church or the Church of Scotland. \n3. While the context mentions Jesus Christ worked in Galilee (entry 307) and John Knox worked in Edinburgh (entry 312), there is no direct link in the context between these individuals and the founding of the religions Karen Armstrong is affiliated with. \n\nThus, we cannot determine the work location of the founder of Karen Armstrong's religion based on the given context.\n\nAnswer: The context information is insufficient to answer the question.",
+        "ground_truth": [
+          "Edinburgh"
+        ],
+        "steps": 1,
+        "tokens": 44813,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the child category of \"Categories\" created by the author?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "George Alexander Kohut"
+        ],
+        "steps": 1,
+        "tokens": 46311,
+        "replan": 0
+      },
+      {
+        "question": "Where is the country of origin of FC Vorskla Poltava?",
+        "answer": "上下文信息不足，无法回答FC Vorskla Poltava的国家起源。",
+        "ground_truth": [
+          "Soviet Union"
+        ],
+        "steps": 1,
+        "tokens": 47774,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the CEO of the developer of SteamOS holds a citizenship?",
+        "answer": "上下文信息不足。\n\n步骤解析：\n1. 关于SteamOS的开发者，上下文存在冲突：[1]238提到由Valve Corporation开发，[4]277提到由ABB Group开发，但未明确哪一个正确。\n2. 即使确定开发者，上下文也未提供Valve Corporation或ABB Group的CEO信息，无法进一步获取该CEO的国籍及对应国家的首都。因此信息不足。",
+        "ground_truth": [
+          "Harare"
+        ],
+        "steps": 1,
+        "tokens": 49637,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who is the chief executive officer of the developer of F-22 Raptor?",
+        "answer": "The context provides conflicting information about the developer of the F-22 Raptor: entry 384 in [1] states it was developed by Boeing, while entry 274 in [2] says it was developed by Lockheed Martin. The CEO of Boeing is Dennis Muilenburg (entry 136 in [5]) and the CEO of Lockheed Martin is Marillyn Hewson (entry 379 in [1]). Due to the conflicting developer information, the exact CEO cannot be determined based on the given context.\n\nAnswer: The context has conflicting information about the developer of F-22 Raptor (Boeing vs Lockheed Martin), so the exact chief executive officer cannot be determined.",
+        "ground_truth": [
+          "Adel al-Jubeir"
+        ],
+        "steps": 1,
+        "tokens": 51614,
+        "replan": 0
+      },
+      {
+        "question": "Who holds the position of chairperson in the organization where Joseph Story was employed?",
+        "answer": "The context provides two conflicting pieces of information about the chairperson of Harvard University (where Joseph Story was employed):  \n- One source states the chairperson is Peter Diamandis.  \n- Another source states the chairperson is Lawrence S. Bacow.  \n\nThere is no further context to determine which one is correct.  \n\nSo the answer is: There are two conflicting statements in the context: Peter Diamandis and Lawrence S. Bacow are both mentioned as the chairperson of Harvard University where Joseph Story was employed. No clear conclusion can be drawn.",
+        "ground_truth": [
+          "Peter Diamandis"
+        ],
+        "steps": 1,
+        "tokens": 53581,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the capital of the country where the performer who is the spouse of Derek Shepherd holds citizenship?",
+        "answer": "上下文信息不足，无法回答该问题。因为虽然已知Derek Shepherd的配偶是Meredith Grey，但没有关于Meredith Grey是否为表演者以及其国籍的相关信息。",
+        "ground_truth": [
+          "Harrisville"
+        ],
+        "steps": 1,
+        "tokens": 55205,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the city that serves as the capital of the country to which Sable belongs?",
+        "answer": "Washington, D.C.\n\n### Explanation:\n1. **Identify Sable's citizenship**: The context has conflicting statements (Czech Republic in [1] vs. United States of America in [2]).  \n2. **Check capital info**: For the United States of America, [2] explicitly states its capital is Washington, D.C. No capital info for Czech Republic is provided in the context.  \n3. **Conclusion**: Since only the USA's capital is available in the context, the answer is Washington, D.C.\n\n\nWashington, D.C.",
+        "ground_truth": [
+          "Prague"
+        ],
+        "steps": 1,
+        "tokens": 57131,
+        "replan": 0
+      },
+      {
+        "question": "In which city serves as the capital of the country of citizenship of Country Joe McDonald?",
+        "answer": "The context provides conflicting information about Country Joe McDonald's citizenship: entry 165 states he is a citizen of the United States of America, while entry 250 states he is a citizen of Romania. Therefore, it is impossible to determine the capital of his country of citizenship based on the given context.\n\nAnswer: The context has conflicting information about Country Joe McDonald's citizenship, so the capital cannot be determined.",
+        "ground_truth": [
+          "Rajanpur"
+        ],
+        "steps": 1,
+        "tokens": 58948,
+        "replan": 0
+      },
+      {
+        "question": "What city or town is the headquarters of the educational institution, where the performer of the album \"Blood on the Tracks\" received education, located in?",
+        "answer": "上下文信息不足，无法回答该问题。\n\n解析：任务需要确定《Blood on the Tracks》表演者所就读教育机构的总部所在城市，但存在以下缺失：  \n1. 《Blood on the Tracks》的表演者存在冲突信息（[2]181说是Lou Reed，[4]52说是Bob Dylan）；  \n2. 即使确定表演者，其就读机构的总部位置在上下文中均未提及（如Bob Dylan的University of Minnesota、Lou Reed的Syracuse University或Fordham University的总部位置均未在上下文出现）。  \n\n因此，无法根据现有信息得出答案。",
+        "ground_truth": [
+          "New York City"
+        ],
+        "steps": 1,
+        "tokens": 60984,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief executive of the country where the sport associated with Bo Ryan was first developed?",
+        "answer": "The context information is insufficient to answer the task. There are conflicting records about the sport associated with Bo Ryan (association football in entry 346 vs. basketball in entry 194). Even if we assume one sport, the origin country of that sport either has conflicting records (basketball: Soviet Union in entry 348 vs. United States in entry 216) or no record (association football's origin country is not mentioned). Additionally, there is no clear mention of the chief executive (distinct from head of state) of any relevant country in the provided context.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Giuseppe Conte"
+        ],
+        "steps": 1,
+        "tokens": 63399,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent of origin of the chief executive officer for the developer of Windows Phone?",
+        "answer": "The context information is insufficient. \n\nExplanation:  \n1. From context [1] entry 221: Windows Phone was developed by Microsoft.  \n2. From context [3] entry 188: The chief executive officer of Microsoft is Steve Jobs.  \n3. However, there is no information in the provided context about Steve Jobs' continent of origin.  \n\nThus, we cannot determine the continent of origin of the CEO based on the given context.  \n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "North America"
+        ],
+        "steps": 1,
+        "tokens": 65283,
+        "replan": 0
+      },
+      {
+        "question": "Which continent does the country where the sport played by the Slovakia national football team originated come from?",
+        "answer": "The context information is insufficient. \n\nReasoning:  \n1. The Slovakia national football team is associated with both association football (context [1] point 18) and cricket (context [2] point 279), leading to ambiguity about the sport in question.  \n2. Even if we assume the sport is association football (originating from England per context [2] point 272), the context does not explicitly state which continent England (or the United Kingdom) belongs to. No entries in the provided context mention the continent of England/UK.  \n\nThus, there is not enough information to determine the continent.  \n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "South America"
+        ],
+        "steps": 1,
+        "tokens": 68092,
+        "replan": 0
+      },
+      {
+        "question": "Which religion was the partner of Ferdinand Marcos associated with?",
+        "answer": "There are conflicting records in the context regarding the religion associated with Imelda Marcos (Ferdinand Marcos's partner):  \n- Entry 248 states she is affiliated with Catholicism.  \n- Entry 374 states she is affiliated with atheism.  \n\nThus, the context provides two different answers.  \n\nAnswer: There are conflicting records: Catholicism and atheism.",
+        "ground_truth": [
+          "atheism"
+        ],
+        "steps": 1,
+        "tokens": 69971,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the significant creation associated with the creator of Vito Corleone?",
+        "answer": "The Fairly OddParents\n\nExplanation: According to the context, there are conflicting statements about who created Vito Corleone: Mario Puzo (section [1] line 256) and Nobuhiro Watsuki (section [2] line 390). Among these, Nobuhiro Watsuki is explicitly stated to be famous for The Fairly OddParents (section [1] line 259), which is a significant creation associated with him. Thus, based on the given context, the answer is The Fairly OddParents.\n\n\nThe Fairly OddParents",
+        "ground_truth": [
+          "The Fairly OddParents"
+        ],
+        "steps": 1,
+        "tokens": 72416,
+        "replan": 0
+      },
+      {
+        "question": "To which country does the performer who goes by the name Rocket Man hold citizenship?",
+        "answer": "United Kingdom\n\nExplanation: From the context, [1] line 71 states \"Rocket Man was performed by Elton John\", and [4] line 381 indicates \"Elton John is a citizen of United Kingdom\". Although [2] line 229 mentions Ayumi Hamasaki also performed Rocket Man, there is no information about her citizenship in the provided context. Thus, the only performer associated with Rocket Man for whom citizenship details are available is Elton John, who is a citizen of the United Kingdom.\n\n\nUnited Kingdom",
+        "ground_truth": [
+          "Japan"
+        ],
+        "steps": 1,
+        "tokens": 74377,
+        "replan": 0
+      },
+      {
+        "question": "Which language does the performer of Hermione Granger know how to speak, write or sign?",
+        "answer": "English\n\nThe performer of Hermione Granger includes Emma Watson (from context [1] entry 413). Context [2] entry 402 states that Emma Watson speaks the language of English. Therefore, the language the performer knows is English. (Note: Another performer Kylie Minogue is mentioned, but no language info about her is provided.)\n\n\nEnglish",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 76038,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the musical genre Michael Mantler is associated with come from?",
+        "answer": "United Kingdom\n\nThe reasoning:  \n1. Michael Mantler is associated with post-punk (context [1], entry 298).  \n2. Post-punk was created in the United Kingdom (context [2], entry 161).  \n\nThus, the country of origin for the musical genre Michael Mantler is associated with (post-punk) is the United Kingdom.\n\n\nAnswer: United Kingdom",
+        "ground_truth": [
+          "Canada"
+        ],
+        "steps": 1,
+        "tokens": 77794,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is associated with the position played by Robert Parish on a team or his specialty?",
+        "answer": "basketball\n\nFirst, from the context:  \n- Robert Parish plays the position of center (entry 330 in memory block [1]).  \n- The position \"center\" is associated with the sport of basketball (entry 168 in memory block [2]).  \n\nAlthough there is conflicting info about his position (entry 334 says quarterback, but no sport is linked to quarterback in the context), the position with a clear sport association is center → basketball. Thus, the answer is basketball.",
+        "ground_truth": [
+          "Muay Thai"
+        ],
+        "steps": 1,
+        "tokens": 79504,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who founded the organization that Benjamin Mazar was part of?",
+        "answer": "信息不足，无法回答。",
+        "ground_truth": [
+          "Philippe, Duke of Orléans"
+        ],
+        "steps": 1,
+        "tokens": 80951,
+        "replan": 0
+      },
+      {
+        "question": "Which language is recognized as the official language of the place where Gennady Rozhdestvensky took his last breath?",
+        "answer": "Russian\n\n### Explanation:\n1. **Find where Gennady Rozhdestvensky died**:  \n   - Entry 292 in context [2] states: \"Gennady Rozhdestvensky died in the city of Moscow.\"  \n   - Entry 451 in context [1] incorrectly refers to \"city of United States of America\" (USA is a country, not a city), so it is unreliable.  \n\n2. **Official language of Moscow**:  \n   - Entry 89 in context [3] says: \"The official language of Moscow is Russian.\"  \n\nThus, the official language of the place where he took his last breath is Russian.\n\n\nRussian",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 83019,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the author of \"The Marriage of Figaro\"?",
+        "answer": "London\n\nExplanation: The context provides conflicting information about the author of \"The Marriage of Figaro\"—Section [1] states it is Thomas Kyd, while Section [2] mentions Pierre Beaumarchais. However, only Thomas Kyd's birthplace is specified in the context: Section [4] fact 0 notes that Thomas Kyd was born in London. Thus, based on the available information, the birthplace is London.\n\n\nLondon",
+        "ground_truth": [
+          "Leeds"
+        ],
+        "steps": 1,
+        "tokens": 84962,
+        "replan": 0
+      },
+      {
+        "question": "In which country was Darryl Strawberry's sport developed, and who is the head of government in that nation?",
+        "answer": "The country where Darryl Strawberry's sport (baseball) was developed is the United States of America, and the head of government in that nation is Donald Trump.\n\nExplanation: \n1. Darryl Strawberry is associated with baseball (from context [1] line 213). \n2. Baseball was created in the United States of America (from context [2] line 160; though context [4] line 382 mentions Japan, only the US has a head of government specified in the context). \n3. The current head of the United States of America government is Donald Trump (from context [5] line 432).\n\n\nThe country is the United States of America, and the head of government is Donald Trump.",
+        "ground_truth": [
+          "Shinzō Abe"
+        ],
+        "steps": 1,
+        "tokens": 87135,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the sport that Mike D'Antoni specialized in hails from?",
+        "answer": "The context information is insufficient. \n\nReasoning:  \n1. From context [1] line 110: Mike D'Antoni plays the position of point guard.  \n2. From context [2] line 168: center is associated with basketball, implying point guard (a common basketball position) is part of basketball.  \n3. However, the context does not explicitly state the country where basketball originated. Thus, we cannot determine the capital of that country based on the given information.  \n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "London"
+        ],
+        "steps": 1,
+        "tokens": 89147,
+        "replan": 0
+      },
+      {
+        "question": "At what location did the author of \"Sketches by Boz\" breathe his last?",
+        "answer": "The context does not provide information about the location where Charles Dickens (the author of \"Sketches by Boz\") breathed his last. Thus, the answer cannot be determined based on the given context.",
+        "ground_truth": [
+          "London"
+        ],
+        "steps": 1,
+        "tokens": 90916,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country from which the sport of Daniele De Rossi originated?",
+        "answer": "The context information is insufficient to answer the question.\n\nReasoning: To determine the capital city of the country from which Daniele De Rossi's sport originated, we need three key pieces of information:  \n1. The sport Daniele De Rossi plays (he is a midfielder, but the context does not explicitly link the \"midfielder\" position to any specific sport).  \n2. The country where that sport originated (no entry in the context provides the origin country of the sport associated with the midfielder position).  \n3. The capital of that country (cannot be determined without knowing the sport and its origin country).  \n\nSince the context lacks the necessary links between the midfielder position and a specific sport, we cannot proceed further to answer the question.\n\n\nThe context information is insufficient to answer the question.",
+        "ground_truth": [
+          "Tokyo"
+        ],
+        "steps": 1,
+        "tokens": 93154,
+        "replan": 0
+      },
+      {
+        "question": "To which continent is the country of citizenship of Ferdinand von Richthofen located?",
+        "answer": "Europe\n\nFirst, we find Ferdinand von Richthofen's citizenship: there are two conflicting entries ([1] says Canada, [3] says Germany). However, the context provides continent information only for Germany ([4] states Germany is located in Europe). Since Canada's continent is not mentioned in the given context, we rely on the citizenship country with available continent data. Thus, the continent is Europe.",
+        "ground_truth": [
+          "Asia"
+        ],
+        "steps": 1,
+        "tokens": 95023,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country where the sport played by Galwegians RFC was originated?",
+        "answer": "上下文信息不足。因为上下文对rugby union的起源国家存在冲突描述（[1]100称起源于英格兰，[5]186称起源于印度），无法确定该运动的起源国家，进而无法确定其首都所在城市。",
+        "ground_truth": [
+          "Grosseto"
+        ],
+        "steps": 1,
+        "tokens": 97869,
+        "replan": 0
+      },
+      {
+        "question": "What languages are spoken, written or signed by the founder of Shingon Buddhism?",
+        "answer": "Japanese.",
+        "ground_truth": [
+          "Latin"
+        ],
+        "steps": 1,
+        "tokens": 99360,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the partner of the head of government of the Council of People's Commissars?",
+        "answer": "The context does not provide information about the place of death of Cherie Blair (the partner of Tony Blair, who is the head of government of the Council of People's Commissars as per the given context). Therefore, the answer cannot be determined based on the provided information.\n\nAnswer: The context information is insufficient to answer the question.",
+        "ground_truth": [
+          "Mansourah, Algeria"
+        ],
+        "steps": 1,
+        "tokens": 101052,
+        "replan": 0
+      },
+      {
+        "question": "What is the professional role of the chairperson of the Congolese Party of Labour?",
+        "answer": "上下文仅提及刚果劳动党的主席是Denis Sassou-Nguesso（条目54）和Stephen McNeil（条目445），但未提供关于该职位的专业角色的相关信息，因此无法回答。",
+        "ground_truth": [
+          "journalist"
+        ],
+        "steps": 1,
+        "tokens": 102622,
+        "replan": 0
+      },
+      {
+        "question": "Where did the religion associated with the Bagratuni Dynasty come into existence?",
+        "answer": "Jerusalem\n\nThe Bagratuni Dynasty is affiliated with Christianity (from entry 172 in context [2]). Christianity was founded in Jerusalem (from entry 40 in context [3]). Although entry 43 in context [3] mentions Taipei, entry 40 is the more consistent reference related to the origin of Christianity in the context provided.\n\n\n答案：Jerusalem",
+        "ground_truth": [
+          "Taipei"
+        ],
+        "steps": 1,
+        "tokens": 104690,
+        "replan": 0
+      },
+      {
+        "question": "What country does the genre of music associated with the spouse of Roy Rogers originate from?",
+        "answer": "United States of America\n\n### Step-by-Step Explanation:\n1. **Identify Roy Rogers' spouse(s)**: From context [1], Roy Rogers is married to Dale Evans (entry 447) and John McVie (entry 452).  \n2. **Find music genres associated with these spouses**:  \n   - Dale Evans plays country music (context [2], entry 83).  \n   - John McVie plays rock music (context [2], entry 90).  \n3. **Determine origin of the genre**:  \n   - Country music originated in the United States of America (context [3], entry 162).  \n   - No information about the origin of rock music is provided in the context.  \n\nThus, the country associated with the genre of music of Roy Rogers' spouse (Dale Evans) is the United States of America.  \n\nAnswer: United States of America",
+        "ground_truth": [
+          "Russian Empire"
+        ],
+        "steps": 1,
+        "tokens": 106607,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital located of the country where the director/producer of \"666 Park Avenue\" is a citizen?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Beaumont"
+        ],
+        "steps": 1,
+        "tokens": 108371,
+        "replan": 0
+      },
+      {
+        "question": "In what place was the organization that Ron Dennis works for, first established?",
+        "answer": "Woking.\n\nExplanation: According to the context, Ron Dennis is employed by McLaren Automotive (from [2] 47), and McLaren Automotive was founded in the city of Woking (from [5] 143). Therefore, the organization Ron Dennis works for was first established in Woking.",
+        "ground_truth": [
+          "Sweden"
+        ],
+        "steps": 1,
+        "tokens": 110022,
+        "replan": 0
+      },
+      {
+        "question": "On which continent was Le Petit Parisien originally made?",
+        "answer": "Europe\n\nExplanation: According to the context, there are two conflicting entries about the country where Le Petit Parisien was created: [1] says Germany, [2] says France. However, both countries are located in Europe per the context ([1] entry 429: France in Europe; [5] entry41: Germany in Europe). Thus, regardless of the conflicting country info, the continent is Europe.\n\n\nEurope",
+        "ground_truth": [
+          "Africa"
+        ],
+        "steps": 1,
+        "tokens": 111907,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital city of the country where the sport played by the partner of Victoria Beckham originated?",
+        "answer": "The context information is insufficient to answer the task. \n\nReason: The context mentions Victoria Beckham's partner is David Beckham (fact 8 in section [3]), but there is no information in the provided context about the sport David Beckham plays. Without knowing the sport, we cannot determine the country where it originated and its capital city.\n\n\n**Answer:** The context information is insufficient to answer the task.",
+        "ground_truth": [
+          "Oderzo"
+        ],
+        "steps": 1,
+        "tokens": 113844,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the political entity that was established from the successor of the Sasanian Empire?",
+        "answer": "The context information is insufficient to answer the question.",
+        "ground_truth": [
+          "Charles Frederick, Duke of Holstein-Gottorp"
+        ],
+        "steps": 1,
+        "tokens": 115376,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country that FC Irtysh Omsk originates from located?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Duluth"
+        ],
+        "steps": 1,
+        "tokens": 116919,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the performer of the song collection \"Back to Black\"?",
+        "answer": "The context provides conflicting information about the performer of \"Back to Black\": it is stated to be Amy Winehouse (section [1] line 288) and Frank Zappa (section [3] line 318). Among them, Frank Zappa's place of death is mentioned as Berlin (section [2] line 51), while Amy Winehouse's place of death is not provided in the context. \n\nBased on the available information, the place of death of the performer (Frank Zappa) is Berlin.\n\nAnswer: Berlin",
+        "ground_truth": [
+          "Berlin"
+        ],
+        "steps": 1,
+        "tokens": 119515,
+        "replan": 0
+      },
+      {
+        "question": "What was the sport that Hines Ward competed in professionally?",
+        "answer": "American football\n\n### 推理过程：\n1. 上下文提到Hines Ward的位置：[1]中提到他是wide receiver，[2]中提到他是cornerback；  \n2. [5]中明确说明cornerback（角卫）与American football（美式橄榄球）相关；  \n3. 结合位置与运动的关联，可知Hines Ward从事的职业运动是美式橄榄球。\n\n\n答案：American football",
+        "ground_truth": [
+          "field hockey"
+        ],
+        "steps": 1,
+        "tokens": 121086,
+        "replan": 0
+      },
+      {
+        "question": "In which position did the person related to the original broadcaster of \"The Brady Bunch\" serve?",
+        "answer": "Director.\n\nStep-by-step reasoning:\n1. From memory [1] entry 404: The original broadcaster of \"The Brady Bunch\" is American Broadcasting Company (ABC).\n2. From memory [3] entry 64: The director of American Broadcasting Company is Bob Iger.\n3. Thus, the person related to the original broadcaster (ABC) is Bob Iger, who served as director.\n\nAnswer: Director.",
+        "ground_truth": [
+          "Ernst Heinkel"
+        ],
+        "steps": 1,
+        "tokens": 122755,
+        "replan": 0
+      },
+      {
+        "question": "In what location did the person who founded Chanel pass away?",
+        "answer": "The context provides conflicting information about who founded Chanel (Andy Warhol in line 34 of [1] and Coco Chanel in line16 of [2]). For Andy Warhol, his death location is New York City (line121 of [3]), but for Coco Chanel, there is no information about her death location in the context. Since the question does not specify which founder to refer to and the context lacks clear and consistent information to determine the exact founder and their death location, the context information is insufficient to answer the task.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Montmélian"
+        ],
+        "steps": 1,
+        "tokens": 125067,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of the author of \"Starship Troopers\"?",
+        "answer": "上下文仅提到《Starship Troopers》的作者是Daphne du Maurier，但未提及该作者的国籍信息，因此无法回答。",
+        "ground_truth": [
+          "United Kingdom"
+        ],
+        "steps": 1,
+        "tokens": 126522,
+        "replan": 0
+      },
+      {
+        "question": "Which individual holds the position of director/manager at the company that employs Dave Filoni?",
+        "answer": "Narendra Modi\n\nExplanation: According to the context, Dave Filoni is employed by British Broadcasting Corporation (BBC) (from [1] 226), and the director of BBC is Narendra Modi (from [5] 428). Although there is another entry stating Dave Filoni is employed by Lucasfilm ([2]38), no director/manager information for Lucasfilm is provided in the context. Thus, the only valid answer based on the given context is Narendra Modi.",
+        "ground_truth": [
+          "Narendra Modi"
+        ],
+        "steps": 1,
+        "tokens": 128522,
+        "replan": 0
+      },
+      {
+        "question": "In what language is the notable work associated with Hugh Hefner written?",
+        "answer": "English\n\nThe context shows:  \n1. Hugh Hefner is famous for Playboy (from [2] 145).  \n2. Playboy was written in the language of English (from [3] 297).  \n\nThus, the language is English.",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 130090,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country that gave rise to the sport played by Rogério Ceni?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "New Delhi"
+        ],
+        "steps": 1,
+        "tokens": 131949,
+        "replan": 0
+      },
+      {
+        "question": "From which educational institution did the author of 'Sidereus Nuncius' receive their education?",
+        "answer": "University of Pisa\n\nThe author of 'Sidereus Nuncius' is Galileo Galilei (from context [3] line 124), and the university where Galileo Galilei was educated is University of Pisa (from context [1] line 15). Thus, the educational institution is University of Pisa.",
+        "ground_truth": [
+          "University of Southern California"
+        ],
+        "steps": 1,
+        "tokens": 133536,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the author of Endymion?",
+        "answer": "The context does not provide information about the place of death of John Keats (the author of Endymion). Therefore, the answer cannot be determined based on the given context.",
+        "ground_truth": [
+          "Leipzig"
+        ],
+        "steps": 1,
+        "tokens": 135160,
+        "replan": 0
+      },
+      {
+        "question": "In which city can the headquarters of the educational institution attended by the spouse of Sophia Hawthorne be found?",
+        "answer": "The context information is insufficient. The context only mentions that Sophia Hawthorne is married to Joan Didion (from fact 420 in section 3), but there is no information about the educational institution Joan Didion attended, so we cannot determine the city where the headquarters of that institution is located.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Botevgrad"
+        ],
+        "steps": 1,
+        "tokens": 136794,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the country where Leo Stein holds citizenship?",
+        "answer": "Donald Trump",
+        "ground_truth": [
+          "Connachta"
+        ],
+        "steps": 1,
+        "tokens": 138252,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the country that Hal Needham belongs to?",
+        "answer": "Donald Trump\n\n### Explanation:\n1. From context [1] line 73: Hal Needham is a citizen of the United States of America.  \n2. From context [4] line 115: The current head of state of the United States of America is Donald Trump.  \n\nThus, the chief of state of Hal Needham's country is Donald Trump.\n\n\nDonald Trump",
+        "ground_truth": [
+          "Connachta"
+        ],
+        "steps": 1,
+        "tokens": 139814,
+        "replan": 0
+      },
+      {
+        "question": "Who serves as the head of government in the location where the AP1000 was made by its manufacturer?",
+        "answer": "The context information is insufficient. \n\nReasoning: \n1. The context provides conflicting information about the manufacturer of AP1000: Westinghouse Electric (from [1]196) and Canadair (from [2]356). \n2. For Westinghouse Electric, it was founded in Pittsburgh (US, [3]111), but the context only mentions Donald Trump as the head of state of the US ([3]115), not explicitly the head of government. \n3. For Canadair, it was founded in Montreal (Canada, [5]237), but there is no information about the head of government of Canada in the context. \n\nThus, the context lacks explicit information about the head of government in the relevant location(s).\n答案：The context information is insufficient.",
+        "ground_truth": [
+          "Jonathan Rothschild"
+        ],
+        "steps": 1,
+        "tokens": 142241,
+        "replan": 0
+      },
+      {
+        "question": "In what place did the author of \"A Wizard of Earthsea\" breathe his last?",
+        "answer": "Castel Gandolfo\n\nThe reasoning is as follows:\n1. The question refers to the author of \"A Wizard of Earthsea\" with the pronoun \"his\", indicating the author is male.\n2. Among the conflicting statements about the author (context [1] line 301 says Pius XII; context [3] line10 says Ursula K. Le Guin), Pius XII is male.\n3. Context [2] line117 states that Pius XII died in the city of Castel Gandolfo.\n\nThus, the place where the author breathed his last is Castel Gandolfo.",
+        "ground_truth": [
+          "Wolverhampton"
+        ],
+        "steps": 1,
+        "tokens": 144564,
+        "replan": 0
+      },
+      {
+        "question": "Which religion does the partner of the performer of \"Aladdin Sane\" follow?",
+        "answer": "The context provides conflicting information about the performer of \"Aladdin Sane\" (Yves Montand in [1] and David Bowie in [3]). For Yves Montand, his spouse Simone Signoret's religion is not mentioned. For David Bowie, there is no information about his partner or their religion in the given context. Thus, the information is insufficient to answer the question.\n\nInsufficient information.",
+        "ground_truth": [
+          "interdenominational organization"
+        ],
+        "steps": 1,
+        "tokens": 146232,
+        "replan": 0
+      },
+      {
+        "question": "At which location does the Prime Minister of Sweden spend most of their work hours?",
+        "answer": "Washington, D.C.\n\nAccording to the context:  \n- Fact 276 in section [1] states that the Prime Minister of Sweden is Pedro Pierluisi.  \n- Fact 5 in section [2] mentions that Pedro Pierluisi worked in the city of Washington, D.C.  \n\nThis is the only relevant information about the work location of the Prime Minister of Sweden provided in the context. Thus, based on the given facts, the Prime Minister of Sweden spends most of their work hours in Washington, D.C.",
+        "ground_truth": [
+          "Washington, D.C."
+        ],
+        "steps": 1,
+        "tokens": 148229,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country whose citizenship is held by the CEO of the developer of AppleScript?",
+        "answer": "The context information is insufficient. We know AppleScript was developed by Apple Inc., and the CEO of Apple Inc. is Vijay Mallya, but there is no information in the provided context about Vijay Mallya's citizenship country, so we cannot determine the capital city of that country.",
+        "ground_truth": [
+          "Rome"
+        ],
+        "steps": 1,
+        "tokens": 150011,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the country of origin for Gala RFC located in?",
+        "answer": "上下文信息不足，无法确定Gala RFC的起源国家所在的大陆。",
+        "ground_truth": [
+          "Africa"
+        ],
+        "steps": 1,
+        "tokens": 151851,
+        "replan": 0
+      },
+      {
+        "question": "What sport is associated with the position played by Irving Fryar on a team/specialty?",
+        "answer": "American football\n\nExplanation: From context [2] entry 227, Irving Fryar plays the position of wide receiver. From context [3] entry 46, wide receiver is associated with the sport of American football. Thus, the sport associated with Irving Fryar's position is American football.",
+        "ground_truth": [
+          "rugby"
+        ],
+        "steps": 1,
+        "tokens": 153384,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the country to which Cédric Klapisch holds citizenship located?",
+        "answer": "Europe\n\nFirst, we find conflicting statements about Cédric Klapisch's citizenship: [1] says Malaysia, [2] says France. Since [2] is a later section (following [1]), we prioritize the later entry: Cédric Klapisch is a citizen of France ([2] line 210). Then, [3] line 429 states France is located in Europe. Thus, the continent is Europe.\n\n\nEurope",
+        "ground_truth": [
+          "Antarctica"
+        ],
+        "steps": 1,
+        "tokens": 155520,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of the headquarters of the company where Leonte Răutu worked?",
+        "answer": "信息不足。",
+        "ground_truth": [
+          "Ankara"
+        ],
+        "steps": 1,
+        "tokens": 157025,
+        "replan": 0
+      },
+      {
+        "question": "To whom does the head of government of the country of origin of Club Nouveau report to?",
+        "answer": "The context does not provide sufficient information to answer the question. \n\nFirst, there are conflicting records about the country of origin of Club Nouveau (Soviet Union in [1] 353 vs. United States of America in [2] 102). Even if we take either country, the context lacks information about to whom the head of government of that country reports. For example, while [4] 432 mentions Donald Trump as the head of government of the USA, there is no data on who he reports to; similarly, [1] 351 refers to Tony Blair as the head of the Soviet Union's government but no details on his reporting line. Thus, the required information is missing.",
+        "ground_truth": [
+          "Elizabeth II"
+        ],
+        "steps": 1,
+        "tokens": 158967,
+        "replan": 0
+      },
+      {
+        "question": "Which individual is responsible for founding the organization that has its headquarters in the same location where Bill Frisell received his education?",
+        "answer": "The context information is insufficient to answer the question. \n\nReason: Although there are two conflicting entries about Bill Frisell's education (Berklee College of Music and The University of the Arts), the context does not provide the location of either institution. Without knowing the location of Bill Frisell's educational institution, we cannot identify an organization with headquarters there, nor the individual who founded it.\n\n\nInsufficient information.",
+        "ground_truth": [
+          "William Penn"
+        ],
+        "steps": 1,
+        "tokens": 160874,
+        "replan": 0
+      },
+      {
+        "question": "In which city of the country where Charles Messier held citizenship is the capital located?",
+        "answer": "The context contains conflicting information about Charles Messier's citizenship (entries 343 mention Iran and 204 mention France) and conflicting information about the capital of France (entries 163 mention Paris and 171 mention Harare). Additionally, there is no information about the capital of Iran in the context. Thus, the context information is insufficient to answer the task.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Tehran"
+        ],
+        "steps": 1,
+        "tokens": 163409,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the sportsperson who specializes in Lisa Leslie's position originally come from?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Philippines"
+        ],
+        "steps": 1,
+        "tokens": 165430,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the capital city of the country where the founder of the manufacturer of Ford F-Series hailed from?",
+        "answer": "Washington, D.C.",
+        "ground_truth": [
+          "New Delhi"
+        ],
+        "steps": 1,
+        "tokens": 167215,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the sport that Sandy Alderson is associated with originated?",
+        "answer": "上下文信息不足。\n\n步骤分析：\n1. **确定Sandy Alderson关联的运动**：上下文存在冲突，条目215称其关联棒球，条目340称其关联足球，但未明确哪一个正确。\n2. **运动起源地**：若关联棒球，条目160指出棒球起源于美国；若关联足球，上下文未提及足球的起源国家。\n3. **起源国的首都**：即使假设关联棒球（起源美国），上下文也未提供美国首都的信息。\n\n因此，无法基于现有上下文得出答案。",
+        "ground_truth": [
+          "Duluth"
+        ],
+        "steps": 1,
+        "tokens": 169669,
+        "replan": 0
+      },
+      {
+        "question": "Which language is the official language of the country whose citizenship is held by the director/manager of \"Past Masters\"?",
+        "answer": "The context information is insufficient. \n\nStep-by-step reasoning:  \n1. From [1] entry 251: Past Masters was performed by The Beatles.  \n2. From [4] entry 236: The director of The Beatles is Brian Epstein.  \n3. From [1] entry 245: Brian Epstein is a citizen of the United Kingdom.  \n4. However, none of the provided context entries state the official language of the United Kingdom.  \n\nThus, the required information is not available in the given context.  \n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Arabic"
+        ],
+        "steps": 1,
+        "tokens": 171607,
+        "replan": 0
+      },
+      {
+        "question": "Which nation is the birthplace of the sport that features the split-finger fastball?",
+        "answer": "The context provides conflicting information about the sport associated with the split-finger fastball (it is linked to both cricket and baseball). Additionally, there are conflicting records about the birthplace of cricket (England vs. Australia) in the context. Therefore, the birthplace nation of the sport featuring the split-finger fastball cannot be determined based on the given information.",
+        "ground_truth": [
+          "Australia"
+        ],
+        "steps": 1,
+        "tokens": 173887,
+        "replan": 0
+      },
+      {
+        "question": "In which languages can the author of \"The Witcher\" write, speak, or sign?",
+        "answer": "Polish.\n\nThe author of \"The Witcher\" is Andrzej Sapkowski (from context [2] line 32), and Andrzej Sapkowski speaks Polish (from context [1] line 88). No other languages are mentioned in the provided context.\n```",
+        "ground_truth": [
+          "French"
+        ],
+        "steps": 1,
+        "tokens": 175450,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country, where the book \"The Birth of Tragedy\" first came from, located?",
+        "answer": "The context information is insufficient to answer the question. Although we know from the context that Friedrich Nietzsche is the author of \"The Birth of Tragedy\", there is no mention of Nietzsche's country of origin in the provided context, so we cannot determine the capital of that country.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Duluth"
+        ],
+        "steps": 1,
+        "tokens": 177400,
+        "replan": 0
+      },
+      {
+        "question": "In what language are communications in the headquarters location of the manufacturer of Il-2 Shturmovik conducted officially?",
+        "answer": "The context information is insufficient. The manufacturer of Il-2 Shturmovik is Ilyushin (from line 92), but there is no mention of the location of Ilyushin's headquarters in the provided context, so we cannot determine the official language of that location.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 179172,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the spouse of the performer of \"Viva Las Vegas\" is a citizen?",
+        "answer": "上下文信息不足，无法回答该问题。因为提供的上下文中未提及“Viva Las Vegas”的表演者是谁，所以无法进一步确定其配偶的国籍及对应国家的首都。",
+        "ground_truth": [
+          "Harare"
+        ],
+        "steps": 1,
+        "tokens": 180942,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport that the New Firm is related to?",
+        "answer": "The context provides conflicting information about the sport associated with the New Firm (association football in [2] line 296 and baseball in [4] line 376). Additionally, there is no clear origin information for association football in the context, and the origin of baseball is conflicting (United States of America in [3] line 160 and Japan in [4] line 382). Thus, the context information is insufficient to answer the task.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Japan"
+        ],
+        "steps": 1,
+        "tokens": 182814,
+        "replan": 0
+      },
+      {
+        "question": "Which religious leader is responsible for founding the religion to which Sarit Thanarat belongs?",
+        "answer": "Mekere Morauta\n\nExplanation: According to the context, Sarit Thanarat is affiliated with Buddhism (from [1] 119). And [2] 370 states that Buddhism was founded by Mekere Morauta. Thus, the religious leader responsible for founding the religion Sarit Thanarat belongs to is Mekere Morauta.",
+        "ground_truth": [
+          "Mekere Morauta"
+        ],
+        "steps": 1,
+        "tokens": 184453,
+        "replan": 0
+      },
+      {
+        "question": "At which place did the creator of \"Lady Windermere's Fan\" breathe their last?",
+        "answer": "There are conflicting records in the context. Oscar Wilde, the creator of \"Lady Windermere's Fan\", is stated to have died in Guangzhou (entry 270) and Paris (entry 128).\n\n（注：根据上下文，《温德米尔夫人的扇子》的作者是奥斯卡·王尔德，而关于他的逝世地点存在两处矛盾记载：一处称在广州（条目270），另一处称在巴黎（条目128）。）",
+        "ground_truth": [
+          "Guangzhou"
+        ],
+        "steps": 1,
+        "tokens": 186861,
+        "replan": 0
+      },
+      {
+        "question": "what kind of music does \"Born in the U.S.A.\" fall under according to its performer?",
+        "answer": "rock music\n\nFirst, from context [2] entry 65, we know \"Born in the U.S.A.\" was performed by Bruce Springsteen. Then, from context [1] entry 355, we learn that the type of music Bruce Springsteen plays is rock music. So the answer is rock music.",
+        "ground_truth": [
+          "Australian hip hop"
+        ],
+        "steps": 1,
+        "tokens": 188346,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country where the founder of the manufacturer of Ford Transit Connect holds citizenship?",
+        "answer": "Washington, D.C.\n\nStep-by-step reasoning based on context:\n1. The manufacturer of Ford Transit Connect is Ford Motor Company (context [1] entry 253).\n2. Ford Motor Company was founded by Henry Ford (context [2] entry132).\n3. Henry Ford is a citizen of the United States of America (context [1] entry254).\n4. The capital of the United States of America is Washington, D.C. (context [1] entry247; though context [5] entry396 gives a conflicting answer, the earlier and more consistent reference points to Washington, D.C.).\n\nThus, the answer is Washington, D.C.",
+        "ground_truth": [
+          "Paris"
+        ],
+        "steps": 1,
+        "tokens": 190871,
+        "replan": 0
+      },
+      {
+        "question": "In what language are the official documents of the country where Alta IF originates written?",
+        "answer": "上下文信息不足，无法确定Alta IF起源的国家，因此无法回答其官方文件所用的语言。",
+        "ground_truth": [
+          "Swedish"
+        ],
+        "steps": 1,
+        "tokens": 192289,
+        "replan": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1463 @@
+{
+  "dataset": "Test_Time_Learning",
+  "backend": "mem0g",
+  "instance_idx": 3,
+  "source_files": [
+    "results/mem0g/TTL/instance_3.json",
+    "out/mem0g/mem0g_ttl_results_3.json"
+  ],
+  "results": {
+    "R1": [
+      {
+        "question": "fight me in street fighter",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177273308250377b7e892e9721221f8ca1a94f85371e5134bd1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i have to tell you about my day",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177273308408877b7e892e9721221f8ca1a94f85371e5578a95', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "is meryl streep an actress or singer",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177273308564477b7e892e9721221f8ca1a94f85371e57dbbaf', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "did i get any replies from jan",
+        "answer": "{14}",
+        "steps": 1,
+        "tokens": 40739,
+        "latency_s": 28.04,
+        "replan": 0
+      },
+      {
+        "question": "cancel the meeting next week Thursday at two pm",
+        "answer": "{15}",
+        "steps": 1,
+        "tokens": 39464,
+        "latency_s": 31.43,
+        "replan": 0
+      },
+      {
+        "question": "tweet at macy's two weeks after purchase and the hems have all come loose",
+        "answer": "{46}",
+        "steps": 1,
+        "tokens": 40666,
+        "latency_s": 31.33,
+        "replan": 0
+      },
+      {
+        "question": "tell my family this in an email",
+        "answer": "{50}",
+        "steps": 1,
+        "tokens": 39371,
+        "latency_s": 21.5,
+        "replan": 0
+      },
+      {
+        "question": "do not mind to choose any one.",
+        "answer": "{0}",
+        "steps": 1,
+        "tokens": 39186,
+        "latency_s": 30.49,
+        "replan": 0
+      },
+      {
+        "question": "see you",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 39100,
+        "latency_s": 26.11,
+        "replan": 0
+      },
+      {
+        "question": "confirm alarm for tomorrow morning",
+        "answer": "{62}",
+        "steps": 1,
+        "tokens": 40696,
+        "latency_s": 34.93,
+        "replan": 0
+      },
+      {
+        "question": "what do you want to do today",
+        "answer": "信息不足，无法确定该问题对应的数值标签。",
+        "steps": 1,
+        "tokens": 39181,
+        "latency_s": 24.49,
+        "replan": 0
+      },
+      {
+        "question": "open calendar",
+        "answer": "上下文信息不足，无法为“open calendar”分配数值标签。",
+        "steps": 1,
+        "tokens": 39337,
+        "latency_s": 27.41,
+        "replan": 0
+      },
+      {
+        "question": "where is stonehenge",
+        "answer": "{5}",
+        "steps": 1,
+        "tokens": 40971,
+        "latency_s": 35.26,
+        "replan": 0
+      },
+      {
+        "question": "how many mega pixel is listed in the description of the canon",
+        "answer": "信息不足，无法确定该问题对应的数值标签。",
+        "steps": 1,
+        "tokens": 40821,
+        "latency_s": 20.11,
+        "replan": 0
+      },
+      {
+        "question": "how tall is lebron james",
+        "answer": "{5}",
+        "steps": 1,
+        "tokens": 40580,
+        "latency_s": 17.37,
+        "replan": 0
+      },
+      {
+        "question": "give me the time",
+        "answer": "{18}",
+        "steps": 1,
+        "tokens": 40986,
+        "latency_s": 34.95,
+        "replan": 0
+      },
+      {
+        "question": "delete list for groceries",
+        "answer": "{19}",
+        "steps": 1,
+        "tokens": 39441,
+        "latency_s": 23.62,
+        "replan": 0
+      },
+      {
+        "question": "did i get any emails from jack",
+        "answer": "{14}",
+        "steps": 1,
+        "tokens": 39872,
+        "latency_s": 35.85,
+        "replan": 0
+      },
+      {
+        "question": "confirm last thing said please.",
+        "answer": "{12}",
+        "steps": 1,
+        "tokens": 40587,
+        "latency_s": 33.2,
+        "replan": 0
+      },
+      {
+        "question": "olly set my alarm to go off in an hour",
+        "answer": "{42}",
+        "steps": 1,
+        "tokens": 40433,
+        "latency_s": 38.34,
+        "replan": 0
+      },
+      {
+        "question": "what are the bbc poll predictions for the upcoming us elections",
+        "answer": "上下文信息不足，无法确定该问题对应的数值标签。",
+        "steps": 1,
+        "tokens": 40854,
+        "latency_s": 25.15,
+        "replan": 0
+      },
+      {
+        "question": "please remind me to go to the post office",
+        "answer": "38",
+        "steps": 1,
+        "tokens": 39928,
+        "latency_s": 37.24,
+        "replan": 0
+      },
+      {
+        "question": "new emails",
+        "answer": "{14}",
+        "steps": 1,
+        "tokens": 39456,
+        "latency_s": 26.42,
+        "replan": 0
+      },
+      {
+        "question": "is it noon in paris",
+        "answer": "18",
+        "steps": 1,
+        "tokens": 40911,
+        "latency_s": 20.38,
+        "replan": 0
+      },
+      {
+        "question": "what food is good",
+        "answer": "{39}",
+        "steps": 1,
+        "tokens": 40506,
+        "latency_s": 18.12,
+        "replan": 0
+      },
+      {
+        "question": "what is the exchange rate for eleven british pounds in us dollars",
+        "answer": "{55}",
+        "steps": 1,
+        "tokens": 41064,
+        "latency_s": 29.8,
+        "replan": 0
+      },
+      {
+        "question": "how many dollars are in a euro",
+        "answer": "{55}",
+        "steps": 1,
+        "tokens": 40898,
+        "latency_s": 32.66,
+        "replan": 0
+      },
+      {
+        "question": "one am set",
+        "answer": "{42}",
+        "steps": 1,
+        "tokens": 39280,
+        "latency_s": 25.0,
+        "replan": 0
+      },
+      {
+        "question": "let me know when i am three days out from this event in my calendar",
+        "answer": "{38}",
+        "steps": 1,
+        "tokens": 39628,
+        "latency_s": 31.45,
+        "replan": 0
+      },
+      {
+        "question": "how many runs did cheteshwar pujara scored yesterday",
+        "answer": "上下文信息不足，无法确定该问题对应的数值标签。",
+        "steps": 1,
+        "tokens": 40730,
+        "latency_s": 22.65,
+        "replan": 0
+      },
+      {
+        "question": "add eggs to my grocery list",
+        "answer": "{57}",
+        "steps": 1,
+        "tokens": 40690,
+        "latency_s": 18.5,
+        "replan": 0
+      },
+      {
+        "question": "hey i feel good",
+        "answer": "上下文信息不足，无法确定该文本对应的标签。",
+        "steps": 1,
+        "tokens": 39397,
+        "latency_s": 27.65,
+        "replan": 0
+      },
+      {
+        "question": "you've done your understanding correcly.",
+        "answer": "{21}",
+        "steps": 1,
+        "tokens": 39132,
+        "latency_s": 30.05,
+        "replan": 0
+      },
+      {
+        "question": "please confirm details.",
+        "answer": "{12}",
+        "steps": 1,
+        "tokens": 40627,
+        "latency_s": 37.02,
+        "replan": 0
+      },
+      {
+        "question": "describe the list contents",
+        "answer": "{29}",
+        "steps": 1,
+        "tokens": 40727,
+        "latency_s": 31.74,
+        "replan": 0
+      },
+      {
+        "question": "that is all, cancel it.",
+        "answer": "{56}",
+        "steps": 1,
+        "tokens": 39378,
+        "latency_s": 24.44,
+        "replan": 0
+      },
+      {
+        "question": "shutoff light in the kitchen",
+        "answer": "{26}",
+        "steps": 1,
+        "tokens": 40650,
+        "latency_s": 29.83,
+        "replan": 0
+      },
+      {
+        "question": "it should spices",
+        "answer": "信息不足，无法确定该文本对应的标签。",
+        "steps": 1,
+        "tokens": 40337,
+        "latency_s": 25.71,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate it, that's amazing.",
+        "answer": "{64}",
+        "steps": 1,
+        "tokens": 39417,
+        "latency_s": 29.49,
+        "replan": 0
+      },
+      {
+        "question": "would you please clarify me about the last sentence again.",
+        "answer": "{11}",
+        "steps": 1,
+        "tokens": 40796,
+        "latency_s": 33.54,
+        "replan": 0
+      },
+      {
+        "question": "send an email to emma",
+        "answer": "{50}",
+        "steps": 1,
+        "tokens": 39430,
+        "latency_s": 17.78,
+        "replan": 0
+      },
+      {
+        "question": "yesterday at noontime in times square what was the protest about",
+        "answer": "{51}",
+        "steps": 1,
+        "tokens": 40735,
+        "latency_s": 30.5,
+        "replan": 0
+      },
+      {
+        "question": "thanks but i think you are wrong.",
+        "answer": "{23}",
+        "steps": 1,
+        "tokens": 40818,
+        "latency_s": 22.63,
+        "replan": 0
+      },
+      {
+        "question": "turn on my playlist and play third song in the queue",
+        "answer": "17",
+        "steps": 1,
+        "tokens": 39364,
+        "latency_s": 39.83,
+        "replan": 0
+      },
+      {
+        "question": "hey tell me a knock knock joke",
+        "answer": "{41}",
+        "steps": 1,
+        "tokens": 39464,
+        "latency_s": 32.32,
+        "replan": 0
+      },
+      {
+        "question": "delete all lists",
+        "answer": "{19}",
+        "steps": 1,
+        "tokens": 39678,
+        "latency_s": 40.18,
+        "replan": 0
+      },
+      {
+        "question": "how far away is seattle",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177273432167831edffe5894cf4edd820b8db875d15b8d2e348', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "did ashwin joined party yesterday",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177273432320131edffe5894cf4edd820b8db875d15b84e7132', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what is the my upcoming events",
+        "answer": "instance_3 inquires about current_events, wants information on gravity, biographical_dictionary, and italian_food, and wants to add eggs.",
+        "steps": 1,
+        "tokens": 39513,
+        "latency_s": 30.27,
+        "replan": 0
+      },
+      {
+        "question": "call yellow cab",
+        "answer": "{24}",
+        "steps": 1,
+        "tokens": 40928,
+        "latency_s": 35.09,
+        "replan": 0
+      },
+      {
+        "question": "s2, i couldn't get what you have said.",
+        "answer": "{16}",
+        "steps": 1,
+        "tokens": 40714,
+        "latency_s": 27.75,
+        "replan": 0
+      },
+      {
+        "question": "would you say that one more time again please.",
+        "answer": "{11}",
+        "steps": 1,
+        "tokens": 39448,
+        "latency_s": 44.64,
+        "replan": 0
+      },
+      {
+        "question": "answer the equation eight times seven",
+        "answer": "{61}",
+        "steps": 1,
+        "tokens": 40937,
+        "latency_s": 28.44,
+        "replan": 0
+      },
+      {
+        "question": "give me the opening stock price of intel today",
+        "answer": "{4}",
+        "steps": 1,
+        "tokens": 40729,
+        "latency_s": 23.28,
+        "replan": 0
+      },
+      {
+        "question": "please set a meeting to discuss terrorism with fred on the next available meeting day",
+        "answer": "38",
+        "steps": 1,
+        "tokens": 39417,
+        "latency_s": 37.07,
+        "replan": 0
+      },
+      {
+        "question": "how long does it take to get from here to chicago by train",
+        "answer": "{44}",
+        "steps": 1,
+        "tokens": 41008,
+        "latency_s": 48.94,
+        "replan": 0
+      },
+      {
+        "question": "have i gotten any mail recently",
+        "answer": "{14}",
+        "steps": 1,
+        "tokens": 40704,
+        "latency_s": 19.46,
+        "replan": 0
+      },
+      {
+        "question": "if it's five am in berlin what time is it here",
+        "answer": "{20}",
+        "steps": 1,
+        "tokens": 40966,
+        "latency_s": 34.48,
+        "replan": 0
+      },
+      {
+        "question": "make a status stating i got the promotion",
+        "answer": "{66}",
+        "steps": 1,
+        "tokens": 39292,
+        "latency_s": 51.02,
+        "replan": 0
+      },
+      {
+        "question": "can you retry what i've said please.",
+        "answer": "{11}",
+        "steps": 1,
+        "tokens": 40861,
+        "latency_s": 35.53,
+        "replan": 0
+      },
+      {
+        "question": "turn on talk radio",
+        "answer": "{27}",
+        "steps": 1,
+        "tokens": 40658,
+        "latency_s": 26.28,
+        "replan": 0
+      },
+      {
+        "question": "uh no, that isn't what i requested.",
+        "answer": "{23}",
+        "steps": 1,
+        "tokens": 40703,
+        "latency_s": 40.8,
+        "replan": 0
+      },
+      {
+        "question": "remove the board meeting and reschedule for next wednesday",
+        "answer": "{15}",
+        "steps": 1,
+        "tokens": 39559,
+        "latency_s": 25.52,
+        "replan": 0
+      },
+      {
+        "question": "local show",
+        "answer": "37",
+        "steps": 1,
+        "tokens": 40627,
+        "latency_s": 33.33,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate helping.",
+        "answer": "{64}",
+        "steps": 1,
+        "tokens": 39406,
+        "latency_s": 32.9,
+        "replan": 0
+      },
+      {
+        "question": "i think it's not the correct command.",
+        "answer": "{23}",
+        "steps": 1,
+        "tokens": 40767,
+        "latency_s": 23.18,
+        "replan": 0
+      },
+      {
+        "question": "what are my tasks",
+        "answer": "上下文信息不足，无法确定“what are my tasks”对应的数值标签。",
+        "steps": 1,
+        "tokens": 39309,
+        "latency_s": 21.78,
+        "replan": 0
+      },
+      {
+        "question": "hwood",
+        "answer": "上下文信息不足，无法确定“hwood”对应的标签。",
+        "steps": 1,
+        "tokens": 40591,
+        "latency_s": 24.88,
+        "replan": 0
+      },
+      {
+        "question": "list saturday night events near current location",
+        "answer": "{51}",
+        "steps": 1,
+        "tokens": 39112,
+        "latency_s": 26.32,
+        "replan": 0
+      },
+      {
+        "question": "turn the lights on",
+        "answer": "{13}",
+        "steps": 1,
+        "tokens": 40646,
+        "latency_s": 25.29,
+        "replan": 0
+      },
+      {
+        "question": "wake me up on Friday at five in the morning i need to catch the train",
+        "answer": "{42}",
+        "steps": 1,
+        "tokens": 40644,
+        "latency_s": 22.63,
+        "replan": 0
+      },
+      {
+        "question": "show me music by that artist",
+        "answer": "{17}",
+        "steps": 1,
+        "tokens": 41784,
+        "latency_s": 51.2,
+        "replan": 0
+      },
+      {
+        "question": "i need to change the color of this light",
+        "answer": "{40}",
+        "steps": 1,
+        "tokens": 40631,
+        "latency_s": 22.64,
+        "replan": 0
+      },
+      {
+        "question": "i want to send an email to my family do you help me",
+        "answer": "{50}",
+        "steps": 1,
+        "tokens": 39257,
+        "latency_s": 24.85,
+        "replan": 0
+      },
+      {
+        "question": "please can you say the last comment one more time.",
+        "answer": "{11}",
+        "steps": 1,
+        "tokens": 40902,
+        "latency_s": 41.5,
+        "replan": 0
+      },
+      {
+        "question": "please open chess game i would like to play with you",
+        "answer": "{43}",
+        "steps": 1,
+        "tokens": 39230,
+        "latency_s": 18.84,
+        "replan": 0
+      },
+      {
+        "question": "awesome work, you did well, olly.",
+        "answer": "{64}",
+        "steps": 1,
+        "tokens": 39236,
+        "latency_s": 20.17,
+        "replan": 0
+      },
+      {
+        "question": "what is the customer service feedback",
+        "answer": "{46}",
+        "steps": 1,
+        "tokens": 40593,
+        "latency_s": 26.34,
+        "replan": 0
+      },
+      {
+        "question": "what are my plans for today",
+        "answer": "{29}",
+        "steps": 1,
+        "tokens": 39459,
+        "latency_s": 33.89,
+        "replan": 0
+      },
+      {
+        "question": "set up each day an alarm at ten time for my meal",
+        "answer": "{42}",
+        "steps": 1,
+        "tokens": 40741,
+        "latency_s": 24.43,
+        "replan": 0
+      },
+      {
+        "question": "start audiobook the time traveller",
+        "answer": "{54}",
+        "steps": 1,
+        "tokens": 39255,
+        "latency_s": 39.14,
+        "replan": 0
+      },
+      {
+        "question": "can i mine for gold on any public land",
+        "answer": "上下文信息不足，无法确定该问题的标签。",
+        "steps": 1,
+        "tokens": 40502,
+        "latency_s": 29.35,
+        "replan": 0
+      },
+      {
+        "question": "i need to set up a recurring event in my calendar please",
+        "answer": "38",
+        "steps": 1,
+        "tokens": 39475,
+        "latency_s": 25.84,
+        "replan": 0
+      },
+      {
+        "question": "director who direct an act",
+        "answer": "信息不足，无法确定该内容对应的标签。",
+        "steps": 1,
+        "tokens": 39052,
+        "latency_s": 23.86,
+        "replan": 0
+      },
+      {
+        "question": "tag you're it",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 39034,
+        "latency_s": 43.72,
+        "replan": 0
+      },
+      {
+        "question": "how many emails do i have from work today",
+        "answer": "{14}",
+        "steps": 1,
+        "tokens": 39533,
+        "latency_s": 27.89,
+        "replan": 0
+      },
+      {
+        "question": "can you locate some gospel music for me",
+        "answer": "17",
+        "steps": 1,
+        "tokens": 40893,
+        "latency_s": 20.76,
+        "replan": 0
+      },
+      {
+        "question": "mute",
+        "answer": "{10}",
+        "steps": 1,
+        "tokens": 40858,
+        "latency_s": 31.32,
+        "replan": 0
+      },
+      {
+        "question": "do not wake me up on weekends",
+        "answer": "{2}",
+        "steps": 1,
+        "tokens": 39523,
+        "latency_s": 24.35,
+        "replan": 0
+      },
+      {
+        "question": "run radio programme",
+        "answer": "27",
+        "steps": 1,
+        "tokens": 39365,
+        "latency_s": 35.82,
+        "replan": 0
+      },
+      {
+        "question": "headlines from dhaka tribune",
+        "answer": "上下文信息不足，未明确具体任务问题。",
+        "steps": 1,
+        "tokens": 40799,
+        "latency_s": 24.21,
+        "replan": 0
+      },
+      {
+        "question": "place event in my calendar every tuesday",
+        "answer": "{38}",
+        "steps": 1,
+        "tokens": 39304,
+        "latency_s": 24.78,
+        "replan": 0
+      },
+      {
+        "question": "select shuffle all",
+        "answer": "{52}",
+        "steps": 1,
+        "tokens": 40415,
+        "latency_s": 41.44,
+        "replan": 0
+      },
+      {
+        "question": "if my vacuum cleaner is not activated please activate it",
+        "answer": "{7}",
+        "steps": 1,
+        "tokens": 39308,
+        "latency_s": 23.07,
+        "replan": 0
+      },
+      {
+        "question": "repeat all",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 40492,
+        "latency_s": 20.89,
+        "replan": 0
+      },
+      {
+        "question": "i want to hear the last one you said again.",
+        "answer": "{11}",
+        "steps": 1,
+        "tokens": 40781,
+        "latency_s": 25.87,
+        "replan": 0
+      },
+      {
+        "question": "start the vacuum cleaner",
+        "answer": "{7}",
+        "steps": 1,
+        "tokens": 39180,
+        "latency_s": 38.87,
+        "replan": 0
+      },
+      {
+        "question": "s2, that is not so clear to me.",
+        "answer": "{16}",
+        "steps": 1,
+        "tokens": 40750,
+        "latency_s": 26.6,
+        "replan": 0
+      },
+      {
+        "question": "can you check and confirm detail.",
+        "answer": "{12}",
+        "steps": 1,
+        "tokens": 40640,
+        "latency_s": 32.15,
+        "replan": 0
+      },
+      {
+        "question": "hi how are you",
+        "answer": "{58}",
+        "steps": 1,
+        "tokens": 39307,
+        "latency_s": 30.31,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "fight me in street fighter",
+        "answer": "{43}",
+        "steps": 2,
+        "tokens": 82467,
+        "latency_s": 42.49,
+        "replan": 0
+      },
+      {
+        "question": "i have to tell you about my day",
+        "answer": "{66}",
+        "steps": 2,
+        "tokens": 80296,
+        "latency_s": 47.94,
+        "replan": 0
+      },
+      {
+        "question": "is meryl streep an actress or singer",
+        "answer": "{5}",
+        "steps": 5,
+        "tokens": 594009,
+        "latency_s": 837.82,
+        "replan": 0
+      },
+      {
+        "question": "did i get any replies from jan",
+        "answer": "14",
+        "steps": 2,
+        "tokens": 80067,
+        "latency_s": 47.66,
+        "replan": 0
+      },
+      {
+        "question": "cancel the meeting next week Thursday at two pm",
+        "answer": "{15}",
+        "steps": 2,
+        "tokens": 80071,
+        "latency_s": 41.37,
+        "replan": 0
+      },
+      {
+        "question": "tweet at macy's two weeks after purchase and the hems have all come loose",
+        "answer": "{46}",
+        "steps": 2,
+        "tokens": 82667,
+        "latency_s": 51.56,
+        "replan": 0
+      },
+      {
+        "question": "tell my family this in an email",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 80581,
+        "latency_s": 57.65,
+        "replan": 0
+      },
+      {
+        "question": "do not mind to choose any one.",
+        "answer": "{0}",
+        "steps": 2,
+        "tokens": 80046,
+        "latency_s": 47.53,
+        "replan": 0
+      },
+      {
+        "question": "see you",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727377505463f557f99638b5e18fc2ec2d6c4abb5d227045f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "confirm alarm for tomorrow morning",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727377520653f557f99638b5e18fc2ec2d6c4abb5d280a383', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what do you want to do today",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727377533973f557f99638b5e18fc2ec2d6c4abb5d253c465', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "open calendar",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727377548583f557f99638b5e18fc2ec2d6c4abb5d24544b2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "where is stonehenge",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727377564133f557f99638b5e18fc2ec2d6c4abb5d27d0c49', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "how many mega pixel is listed in the description of the canon",
+        "answer": "{0}",
+        "steps": 2,
+        "tokens": 83085,
+        "latency_s": 41.98,
+        "replan": 0
+      },
+      {
+        "question": "how tall is lebron james",
+        "answer": "{5}",
+        "steps": 2,
+        "tokens": 82532,
+        "latency_s": 34.72,
+        "replan": 0
+      },
+      {
+        "question": "give me the time",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 80010,
+        "latency_s": 45.24,
+        "replan": 0
+      },
+      {
+        "question": "delete list for groceries",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 80362,
+        "latency_s": 44.09,
+        "replan": 0
+      },
+      {
+        "question": "did i get any emails from jack",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 80075,
+        "latency_s": 46.45,
+        "replan": 0
+      },
+      {
+        "question": "confirm last thing said please.",
+        "answer": "{12}",
+        "steps": 2,
+        "tokens": 80180,
+        "latency_s": 50.08,
+        "replan": 0
+      },
+      {
+        "question": "olly set my alarm to go off in an hour",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 83261,
+        "latency_s": 69.32,
+        "replan": 0
+      },
+      {
+        "question": "what are the bbc poll predictions for the upcoming us elections",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "please remind me to go to the post office",
+        "answer": "38",
+        "steps": 2,
+        "tokens": 80118,
+        "latency_s": 54.47,
+        "replan": 0
+      },
+      {
+        "question": "new emails",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 82365,
+        "latency_s": 44.44,
+        "replan": 0
+      },
+      {
+        "question": "is it noon in paris",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 80337,
+        "latency_s": 49.37,
+        "replan": 0
+      },
+      {
+        "question": "what food is good",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 84330,
+        "latency_s": 90.41,
+        "replan": 0
+      },
+      {
+        "question": "what is the exchange rate for eleven british pounds in us dollars",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 83616,
+        "latency_s": 60.89,
+        "replan": 0
+      },
+      {
+        "question": "how many dollars are in a euro",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 83454,
+        "latency_s": 53.29,
+        "replan": 0
+      },
+      {
+        "question": "one am set",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 80405,
+        "latency_s": 57.77,
+        "replan": 0
+      },
+      {
+        "question": "let me know when i am three days out from this event in my calendar",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 80518,
+        "latency_s": 76.48,
+        "replan": 0
+      },
+      {
+        "question": "how many runs did cheteshwar pujara scored yesterday",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727387589086fdba12e18648ff4577e64dddd76d2e72c7612', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "add eggs to my grocery list",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177273876040666d4fff57f472cc97f9dc7178d7aa526750910', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "hey i feel good",
+        "answer": "{58}",
+        "steps": 5,
+        "tokens": 591888,
+        "latency_s": 299.98,
+        "replan": 0
+      },
+      {
+        "question": "you've done your understanding correcly.",
+        "answer": "{21}",
+        "steps": 2,
+        "tokens": 82929,
+        "latency_s": 59.78,
+        "replan": 0
+      },
+      {
+        "question": "please confirm details.",
+        "answer": "{12}",
+        "steps": 2,
+        "tokens": 82569,
+        "latency_s": 37.4,
+        "replan": 0
+      },
+      {
+        "question": "describe the list contents",
+        "answer": "{29}",
+        "steps": 2,
+        "tokens": 80006,
+        "latency_s": 38.89,
+        "replan": 0
+      },
+      {
+        "question": "that is all, cancel it.",
+        "answer": "{56}",
+        "steps": 2,
+        "tokens": 80065,
+        "latency_s": 44.66,
+        "replan": 0
+      },
+      {
+        "question": "shutoff light in the kitchen",
+        "answer": "{26}",
+        "steps": 2,
+        "tokens": 82603,
+        "latency_s": 35.43,
+        "replan": 0
+      },
+      {
+        "question": "it should spices",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772739351617d4d4e90e61a92df7a6484f03dcba35d960dafb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i appreciate it, that's amazing.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772739353342d4d4e90e61a92df7a6484f03dcba35d92c8959', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "would you please clarify me about the last sentence again.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772739354842d4d4e90e61a92df7a6484f03dcba35d9e9c271', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "send an email to emma",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727393849852a9fb38b620c73fa572da26e86a1db91c2201c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "yesterday at noontime in times square what was the protest about",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727393863682a9fb38b620c73fa572da26e86a1db918d4f7c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "thanks but i think you are wrong.",
+        "answer": "{23}",
+        "steps": 2,
+        "tokens": 83334,
+        "latency_s": 57.52,
+        "replan": 0
+      },
+      {
+        "question": "turn on my playlist and play third song in the queue",
+        "answer": "{17}",
+        "steps": 2,
+        "tokens": 83280,
+        "latency_s": 60.19,
+        "replan": 0
+      },
+      {
+        "question": "hey tell me a knock knock joke",
+        "answer": "{41}",
+        "steps": 2,
+        "tokens": 79553,
+        "latency_s": 42.49,
+        "replan": 0
+      },
+      {
+        "question": "delete all lists",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 80709,
+        "latency_s": 55.88,
+        "replan": 0
+      },
+      {
+        "question": "how far away is seattle",
+        "answer": "{44}",
+        "steps": 2,
+        "tokens": 82937,
+        "latency_s": 120.18,
+        "replan": 0
+      },
+      {
+        "question": "did ashwin joined party yesterday",
+        "answer": "{6}",
+        "steps": 2,
+        "tokens": 82134,
+        "latency_s": 101.25,
+        "replan": 0
+      },
+      {
+        "question": "what is the my upcoming events",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "call yellow cab",
+        "answer": "{24}",
+        "steps": 2,
+        "tokens": 83270,
+        "latency_s": 56.29,
+        "replan": 0
+      },
+      {
+        "question": "s2, i couldn't get what you have said.",
+        "answer": "{16}",
+        "steps": 2,
+        "tokens": 79870,
+        "latency_s": 40.47,
+        "replan": 0
+      },
+      {
+        "question": "would you say that one more time again please.",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 83088,
+        "latency_s": 58.37,
+        "replan": 0
+      },
+      {
+        "question": "answer the equation eight times seven",
+        "answer": "{61}",
+        "steps": 2,
+        "tokens": 83228,
+        "latency_s": 52.12,
+        "replan": 0
+      },
+      {
+        "question": "give me the opening stock price of intel today",
+        "answer": "{4}",
+        "steps": 2,
+        "tokens": 82899,
+        "latency_s": 45.57,
+        "replan": 0
+      },
+      {
+        "question": "please set a meeting to discuss terrorism with fred on the next available meeting day",
+        "answer": "38",
+        "steps": 2,
+        "tokens": 83104,
+        "latency_s": 58.51,
+        "replan": 0
+      },
+      {
+        "question": "how long does it take to get from here to chicago by train",
+        "answer": "{44}",
+        "steps": 2,
+        "tokens": 83152,
+        "latency_s": 54.84,
+        "replan": 0
+      },
+      {
+        "question": "have i gotten any mail recently",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 82637,
+        "latency_s": 41.22,
+        "replan": 0
+      },
+      {
+        "question": "if it's five am in berlin what time is it here",
+        "answer": "{20}",
+        "steps": 2,
+        "tokens": 83615,
+        "latency_s": 64.66,
+        "replan": 0
+      },
+      {
+        "question": "make a status stating i got the promotion",
+        "answer": "{66}",
+        "steps": 2,
+        "tokens": 80192,
+        "latency_s": 56.73,
+        "replan": 0
+      },
+      {
+        "question": "can you retry what i've said please.",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 83277,
+        "latency_s": 63.69,
+        "replan": 0
+      },
+      {
+        "question": "turn on talk radio",
+        "answer": "{27}",
+        "steps": 2,
+        "tokens": 83044,
+        "latency_s": 47.56,
+        "replan": 0
+      },
+      {
+        "question": "uh no, that isn't what i requested.",
+        "answer": "{23}",
+        "steps": 2,
+        "tokens": 82577,
+        "latency_s": 57.11,
+        "replan": 0
+      },
+      {
+        "question": "remove the board meeting and reschedule for next wednesday",
+        "answer": "{15}",
+        "steps": 2,
+        "tokens": 80508,
+        "latency_s": 57.23,
+        "replan": 0
+      },
+      {
+        "question": "local show",
+        "answer": "{37}",
+        "steps": 4,
+        "tokens": 366398,
+        "latency_s": 141.42,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate helping.",
+        "answer": "{64}",
+        "steps": 2,
+        "tokens": 80174,
+        "latency_s": 48.33,
+        "replan": 0
+      },
+      {
+        "question": "i think it's not the correct command.",
+        "answer": "{23}",
+        "steps": 2,
+        "tokens": 82522,
+        "latency_s": 45.26,
+        "replan": 0
+      },
+      {
+        "question": "what are my tasks",
+        "answer": "{29}",
+        "steps": 5,
+        "tokens": 591168,
+        "latency_s": 247.98,
+        "replan": 0
+      },
+      {
+        "question": "hwood",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274112503936e5ad32e3806a7503d1b9484cfb9294d5c91d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "list saturday night events near current location",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274112650536e5ad32e3806a7503d1b9484cfb9294687bcd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "turn the lights on",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274112800536e5ad32e3806a7503d1b9484cfb9294adeb8e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "wake me up on Friday at five in the morning i need to catch the train",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274112940236e5ad32e3806a7503d1b9484cfb9294ea1f9d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "show me music by that artist",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772741151296c57e78ec35a4c62cb30347d58d08558f4fb4d6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i need to change the color of this light",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274115269236e5ad32e3806a7503d1b9484cfb92943cc91c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i want to send an email to my family do you help me",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274115407036e5ad32e3806a7503d1b9484cfb92948959b7', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "please can you say the last comment one more time.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274115548436e5ad32e3806a7503d1b9484cfb9294794769', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "please open chess game i would like to play with you",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274115691636e5ad32e3806a7503d1b9484cfb9294758479', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "awesome work, you did well, olly.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274115848436e5ad32e3806a7503d1b9484cfb9294efe26b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what is the customer service feedback",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274115997836e5ad32e3806a7503d1b9484cfb929486f132', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what are my plans for today",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274116141636e5ad32e3806a7503d1b9484cfb92942a56f5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "set up each day an alarm at ten time for my meal",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274116297036e5ad32e3806a7503d1b9484cfb92947641e2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "start audiobook the time traveller",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274116454136e5ad32e3806a7503d1b9484cfb9294f1c4cc', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "can i mine for gold on any public land",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274116586936e5ad32e3806a7503d1b9484cfb92944277ed', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i need to set up a recurring event in my calendar please",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274116726636e5ad32e3806a7503d1b9484cfb92949630de', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "director who direct an act",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274116872436e5ad32e3806a7503d1b9484cfb9294ada702', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "tag you're it",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274117017636e5ad32e3806a7503d1b9484cfb929462dcc0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "how many emails do i have from work today",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177274117174236e5ad32e3806a7503d1b9484cfb9294d47a59', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "can you locate some gospel music for me",
+        "answer": "{27}",
+        "steps": 2,
+        "tokens": 83541,
+        "latency_s": 54.92,
+        "replan": 0
+      },
+      {
+        "question": "mute",
+        "answer": "{10}",
+        "steps": 2,
+        "tokens": 82596,
+        "latency_s": 39.73,
+        "replan": 0
+      },
+      {
+        "question": "do not wake me up on weekends",
+        "answer": "{2}",
+        "steps": 2,
+        "tokens": 80233,
+        "latency_s": 58.78,
+        "replan": 0
+      },
+      {
+        "question": "run radio programme",
+        "answer": "{27}",
+        "steps": 2,
+        "tokens": 82920,
+        "latency_s": 55.44,
+        "replan": 0
+      },
+      {
+        "question": "headlines from dhaka tribune",
+        "answer": "{36}",
+        "steps": 2,
+        "tokens": 83437,
+        "latency_s": 72.16,
+        "replan": 0
+      },
+      {
+        "question": "place event in my calendar every tuesday",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 80247,
+        "latency_s": 50.35,
+        "replan": 0
+      },
+      {
+        "question": "select shuffle all",
+        "answer": "{52}",
+        "steps": 2,
+        "tokens": 82323,
+        "latency_s": 38.01,
+        "replan": 0
+      },
+      {
+        "question": "if my vacuum cleaner is not activated please activate it",
+        "answer": "{7}",
+        "steps": 2,
+        "tokens": 80351,
+        "latency_s": 63.4,
+        "replan": 0
+      },
+      {
+        "question": "repeat all",
+        "answer": "{52}",
+        "steps": 2,
+        "tokens": 82164,
+        "latency_s": 38.85,
+        "replan": 0
+      },
+      {
+        "question": "i want to hear the last one you said again.",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 83146,
+        "latency_s": 63.55,
+        "replan": 0
+      },
+      {
+        "question": "start the vacuum cleaner",
+        "answer": "{7}",
+        "steps": 2,
+        "tokens": 79729,
+        "latency_s": 38.41,
+        "replan": 0
+      },
+      {
+        "question": "s2, that is not so clear to me.",
+        "answer": "{16}",
+        "steps": 2,
+        "tokens": 82985,
+        "latency_s": 60.81,
+        "replan": 0
+      },
+      {
+        "question": "can you check and confirm detail.",
+        "answer": "{12}",
+        "steps": 2,
+        "tokens": 80733,
+        "latency_s": 63.54,
+        "replan": 0
+      },
+      {
+        "question": "hi how are you",
+        "answer": "{58}",
+        "steps": 2,
+        "tokens": 80140,
+        "latency_s": 49.2,
+        "replan": 0
+      }
+    ]
+  }
+}

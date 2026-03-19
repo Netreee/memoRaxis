@@ -1,0 +1,812 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "backend": "mem0",
+  "instance_idx": 16,
+  "source_files": [
+    "out/mem0/mem0_acc_ret_results_16.json"
+  ],
+  "results": {
+    "R1": [
+      {
+        "question": "These are the events that have already occurred:\n\n1. Edie Arkadyevitch woke up on the sofa in his study.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch resolved to tackle his to-do list by organizing his desk meticulously.', 'Edie Arkadyevitch started his morning ritual by brewing a cup of strong black coffee.', 'Edie Arkadyevitch chose to lift his spirits by donning his favorite blue beanie.', 'Edie Arkadyevitch prepared to face the day by putting on his gray dressing-gown.', 'Edie Arkadyevitch decided to brighten his mood by playing his favorite jazz record.', 'Edie Arkadyevitch imagined an adventure by flipping through a well-worn travel book.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch prepared to face the day by putting on his gray dressing-gown.",
+        "steps": 1,
+        "tokens": 1138,
+        "latency_s": 14.91,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Edie Arkadyevitch woke up on the sofa in his study.\n2. Edie Arkadyevitch prepared to face the day by putting on his gray dressing-gown.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Edie Arkadyevitch studied a book with Matvey's support.\", \"Edie Arkadyevitch organized her schedule with Matvey's help.\", \"Edie Arkadyevitch dressed for the day with Matvey's assistance.\", \"Edie Arkadyevitch prepared a meal with Matvey's guidance.\", \"Edie Arkadyevitch planned her afternoon with Matvey's input.\", \"Edie Arkadyevitch selected a new outfit with Matvey's advice.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch dressed for the day with Matvey's assistance.",
+        "steps": 1,
+        "tokens": 1119,
+        "latency_s": 15.03,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Edie Arkadyevitch woke up on the sofa in his study.\n2. Edie Arkadyevitch prepared to face the day by putting on his gray dressing-gown.\n3. Edie Arkadyevitch dressed for the day with Matvey's assistance.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch remembered the sound of rain tapping against the windowpane.', 'Edie Arkadyevitch recalled the laughter of his friends from the old days.', 'Edie Arkadyevitch recognized the voices of his children outside the door.', 'Edie Arkadyevitch noticed the flicker of candlelight across the room.', 'Edie Arkadyevitch sensed the calm of the evening enveloping the quiet house.', 'Edie Arkadyevitch noted the scent of fresh bread wafting in from the kitchen.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch recognized the voices of his children outside the door.",
+        "steps": 1,
+        "tokens": 975,
+        "latency_s": 9.01,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Edie Arkadyevitch woke up on the sofa in his study.\n2. Edie Arkadyevitch prepared to face the day by putting on his gray dressing-gown.\n3. Edie Arkadyevitch dressed for the day with Matvey's assistance.\n4. Edie Arkadyevitch recognized the voices of his children outside the door.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Edie Arkadyevitch painted a mural for his daughter's room.\", \"Edie Arkadyevitch bought flowers for his daughter's recital.\", 'Edie Arkadyevitch read a story to his daughter at bedtime.', \"Edie Arkadyevitch baked a cake for his daughter's birthday.\", 'Edie Arkadyevitch gave sweets to his daughter.', 'Edie Arkadyevitch taught his daughter how to ride a bicycle.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch gave sweets to his daughter.",
+        "steps": 1,
+        "tokens": 834,
+        "latency_s": 6.1,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Edie Arkadyevitch woke up on the sofa in his study.\n2. Edie Arkadyevitch prepared to face the day by putting on his gray dressing-gown.\n3. Edie Arkadyevitch dressed for the day with Matvey's assistance.\n4. Edie Arkadyevitch recognized the voices of his children outside the door.\n5. Edie Arkadyevitch gave sweets to his daughter.\n\n\nBelow is a list of possible subsequent events:\n\n['Shary Jayden focused on cleaning her garage to make space for her new bicycle.', 'Shary Jayden decided to organize her closet, preparing outfits for an upcoming trip.', 'Shary Jayden started to gather recipe books to prepare for a culinary competition.', 'Shary Jayden made plans to redecorate her living room in anticipation of a family gathering.', 'Shary Jayden began to compile documents for her application to a prestigious university.', \"Shary Jayden attempted to sort out belongings to take to her mother's.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shary Jayden attempted to sort out belongings to take to her mother's.",
+        "steps": 1,
+        "tokens": 916,
+        "latency_s": 6.89,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n2. Edie Arkadyevitch prepared to face the day by putting on his gray dressing-gown.\n3. Edie Arkadyevitch dressed for the day with Matvey's assistance.\n4. Edie Arkadyevitch recognized the voices of his children outside the door.\n5. Edie Arkadyevitch gave sweets to his daughter.\n6. Shary Jayden attempted to sort out belongings to take to her mother's.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Edie Arkadyevitch succumbed to despair when she beheld Shary's forlorn expression.\", \"Edie Arkadyevitch felt sorrow upon seeing Charissa's suffering face.\", \"Edie Arkadyevitch was overcome with grief at the sight of Shary's troubled eyes.\", \"Edie Arkadyevitch experienced a pang of regret as she witnessed Shary's tear-streaked cheeks.\", \"Edie Arkadyevitch was filled with dread as she caught a glimpse of Shary's anguished gaze.\", \"Edie Arkadyevitch felt a heavy weight in her chest upon noticing Shary's downcast demeanor.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Context information is insufficient to determine the exact subsequent event.",
+        "steps": 1,
+        "tokens": 1263,
+        "latency_s": 13.83,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n3. Edie Arkadyevitch dressed for the day with Matvey's assistance.\n4. Edie Arkadyevitch recognized the voices of his children outside the door.\n5. Edie Arkadyevitch gave sweets to his daughter.\n6. Shary Jayden attempted to sort out belongings to take to her mother's.\n7. Edie Arkadyevitch felt sorrow upon seeing Charissa's suffering face.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch entered the stadium, guided by a security official.', 'Edie Arkadyevitch appeared at the theater, escorted by a stage manager.', 'Edie Arkadyevitch made her way to the conference room, led by a receptionist.', 'Edie Arkadyevitch arrived at the gala, accompanied by her personal assistant.', 'Edie Arkadyevitch stepped into the arena, accompanied by a press liaison.', 'Edie Arkadyevitch reached the offices of the board, escorted by a porter.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Context information is insufficient to determine which event happens next.",
+        "steps": 1,
+        "tokens": 1122,
+        "latency_s": 11.1,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n4. Edie Arkadyevitch recognized the voices of his children outside the door.\n5. Edie Arkadyevitch gave sweets to his daughter.\n6. Shary Jayden attempted to sort out belongings to take to her mother's.\n7. Edie Arkadyevitch felt sorrow upon seeing Charissa's suffering face.\n8. Edie Arkadyevitch reached the offices of the board, escorted by a porter.\n\n\nBelow is a list of possible subsequent events:\n\n['A courier delivered a package to Edie Arkadyevitch at the office.', 'A colleague presented a proposal to Edie Arkadyevitch during the meeting.', 'An assistant handed a document to Edie Arkadyevitch before the conference.', 'A reporter interviewed Edie Arkadyevitch about the upcoming exhibition.', 'A client called Edie Arkadyevitch to discuss the latest project updates.', 'A secretary approached Edie Arkadyevitch with papers.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1394,
+        "latency_s": 17.43,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n5. Edie Arkadyevitch gave sweets to his daughter.\n6. Shary Jayden attempted to sort out belongings to take to her mother's.\n7. Edie Arkadyevitch felt sorrow upon seeing Charissa's suffering face.\n8. Edie Arkadyevitch reached the offices of the board, escorted by a porter.\n9. A secretary approached Edie Arkadyevitch with papers.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch smiled warmly at Ladonna as they shared a secret moment.', 'Edie Arkadyevitch waved at Ladonna before stepping onto the stage.', 'Edie Arkadyevitch handed Ladonna a bouquet of flowers during the ceremony.', 'Edie Arkadyevitch complimented Ladonna on her stunning dress at the gala.', 'Edie Arkadyevitch kissed Ladonna upon greeting him.', 'Edie Arkadyevitch embraced Ladonna tightly after the performance concluded.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1475,
+        "latency_s": 22.06,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n6. Shary Jayden attempted to sort out belongings to take to her mother's.\n7. Edie Arkadyevitch felt sorrow upon seeing Charissa's suffering face.\n8. Edie Arkadyevitch reached the offices of the board, escorted by a porter.\n9. A secretary approached Edie Arkadyevitch with papers.\n10. Edie Arkadyevitch kissed Ladonna upon greeting him.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna expressed a desire to ask Edie Arkadyevitch a question.', 'Ladonna mentioned a plan to propose an idea to Edie Arkadyevitch soon.', 'Ladonna indicated an interest in seeking advice from Edie Arkadyevitch during their next meeting.', 'Ladonna conveyed a wish to invite Edie Arkadyevitch for a discussion.', 'Ladonna articulated a hope to collaborate with Edie Arkadyevitch on a project.', 'Ladonna revealed an intention to share an opinion with Edie Arkadyevitch next week.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna mentioned a plan to propose an idea to Edie Arkadyevitch soon.",
+        "steps": 1,
+        "tokens": 1803,
+        "latency_s": 30.79,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n7. Edie Arkadyevitch felt sorrow upon seeing Charissa's suffering face.\n8. Edie Arkadyevitch reached the offices of the board, escorted by a porter.\n9. A secretary approached Edie Arkadyevitch with papers.\n10. Edie Arkadyevitch kissed Ladonna upon greeting him.\n11. Ladonna expressed a desire to ask Edie Arkadyevitch a question.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Ladonna entered Edie Arkadyevitch's workshop.\", \"Ladonna exited Edie Arkadyevitch's studio.\", \"Ladonna departed from Edie Arkadyevitch's office.\", \"Ladonna walked away from Edie Arkadyevitch's lecture.\", \"Ladonna arrived at Edie Arkadyevitch's gallery.\", \"Ladonna left Edie Arkadyevitch's residence.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 1600,
+        "latency_s": 27.84,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n8. Edie Arkadyevitch reached the offices of the board, escorted by a porter.\n9. A secretary approached Edie Arkadyevitch with papers.\n10. Edie Arkadyevitch kissed Ladonna upon greeting him.\n11. Ladonna expressed a desire to ask Edie Arkadyevitch a question.\n12. Ladonna departed from Edie Arkadyevitch's office.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna stumbled upon an intense debate between Sergey Ivanovitch and the renowned author.', 'Ladonna became interested in the philosophical discussion between Sergey Ivanovitch and the professor.', 'Ladonna witnessed a lively exchange of ideas between Sergey Ivanovitch and the local historian.', 'Ladonna was captivated by a spirited dialogue between Sergey Ivanovitch and the visiting scientist.', 'Ladonna became intrigued by the animated conversation between Sergey Ivanovitch and the cultural commentator.', 'Ladonna found herself engrossed in the heated argument between Sergey Ivanovitch and the art critic.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna became interested in the philosophical discussion between Sergey Ivanovitch and the professor.",
+        "steps": 1,
+        "tokens": 1165,
+        "latency_s": 13.65,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n9. A secretary approached Edie Arkadyevitch with papers.\n10. Edie Arkadyevitch kissed Ladonna upon greeting him.\n11. Ladonna expressed a desire to ask Edie Arkadyevitch a question.\n12. Ladonna departed from Edie Arkadyevitch's office.\n13. Ladonna became interested in the philosophical discussion between Sergey Ivanovitch and the professor.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna agreed to participate in the charity run with Sergey Ivanovitch despite her doctor’s recommendations.', \"Ladonna decided to visit his brother Nikolay despite his brother's warning.\", \"Ladonna chose to attend the gala at the art museum despite her friends' concerns.\", 'Ladonna resolved to adopt a stray dog with Sergey Ivanovitch despite her landlord’s strict pet policy.', \"Ladonna planned to take a road trip with Sergey Ivanovitch despite his family's advice against it.\", 'Ladonna opted to stay overnight in the haunted house with Sergey Ivanovitch despite the local legends warning her.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna decided to visit his brother Nikolay despite his brother's warning.",
+        "steps": 1,
+        "tokens": 1751,
+        "latency_s": 28.55,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n10. Edie Arkadyevitch kissed Ladonna upon greeting him.\n11. Ladonna expressed a desire to ask Edie Arkadyevitch a question.\n12. Ladonna departed from Edie Arkadyevitch's office.\n13. Ladonna became interested in the philosophical discussion between Sergey Ivanovitch and the professor.\n14. Ladonna decided to visit his brother Nikolay despite his brother's warning.\n\n\nBelow is a list of possible subsequent events:\n\n['Alain strolled over to Ladonna and waved at her.', 'Alain skated towards Ladonna and smiled at him.', 'Alain jogged past Ladonna and grinned widely at her.', 'Alain walked up to Ladonna and nodded warmly at her.', 'Alain danced close to Ladonna and chuckled softly at him.', 'Alain cycled toward Ladonna and shouted joyfully at him.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Alain skated towards Ladonna and smiled at him.",
+        "steps": 1,
+        "tokens": 964,
+        "latency_s": 8.86,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n11. Ladonna expressed a desire to ask Edie Arkadyevitch a question.\n12. Ladonna departed from Edie Arkadyevitch's office.\n13. Ladonna became interested in the philosophical discussion between Sergey Ivanovitch and the professor.\n14. Ladonna decided to visit his brother Nikolay despite his brother's warning.\n15. Alain skated towards Ladonna and smiled at him.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna played in the golden sunshine.', 'Ladonna danced in the vibrant twilight.', 'Ladonna sang beneath the bright stars.', 'Ladonna skated on the smooth ice.', 'Ladonna hiked through the tranquil forest.', 'Ladonna painted on the blank canvas.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna skated on the smooth ice.",
+        "steps": 1,
+        "tokens": 874,
+        "latency_s": 7.3,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n12. Ladonna departed from Edie Arkadyevitch's office.\n13. Ladonna became interested in the philosophical discussion between Sergey Ivanovitch and the professor.\n14. Ladonna decided to visit his brother Nikolay despite his brother's warning.\n15. Alain skated towards Ladonna and smiled at him.\n16. Ladonna skated on the smooth ice.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna joined a workshop led by Mr. Boucher to explore creative writing techniques.', 'Ladonna attended a meeting with Dr. Marceau regarding the research proposal.', 'Ladonna visited Mr. Fontaine to discuss the upcoming festival.', 'Ladonna engaged with Prof. Rioux about the recent scientific breakthrough.', 'Ladonna went to dinner with Ms. Duval to brainstorm new project ideas.', 'Ladonna went to speak to Mlle. Linon.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna went to speak to Mlle. Linon.",
+        "steps": 1,
+        "tokens": 947,
+        "latency_s": 8.55,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n13. Ladonna became interested in the philosophical discussion between Sergey Ivanovitch and the professor.\n14. Ladonna decided to visit his brother Nikolay despite his brother's warning.\n15. Alain skated towards Ladonna and smiled at him.\n16. Ladonna skated on the smooth ice.\n17. Ladonna went to speak to Mlle. Linon.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna was introduced to Edie Arkadyevitch and Ajay Shtcherbatskaya during a conference.', 'Ladonna met Edie Arkadyevitch and Ajay Shtcherbatskaya.', 'Ladonna encountered Edie Arkadyevitch and Ajay Shtcherbatskaya at a gala.', 'Ladonna discussed ideas with Edie Arkadyevitch and Ajay Shtcherbatskaya over dinner.', 'Ladonna joined forces with Edie Arkadyevitch and Ajay Shtcherbatskaya for a project.', 'Ladonna collaborated with Edie Arkadyevitch and Ajay Shtcherbatskaya.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna met Edie Arkadyevitch and Ajay Shtcherbatskaya.",
+        "steps": 1,
+        "tokens": 1112,
+        "latency_s": 13.72,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n14. Ladonna decided to visit his brother Nikolay despite his brother's warning.\n15. Alain skated towards Ladonna and smiled at him.\n16. Ladonna skated on the smooth ice.\n17. Ladonna went to speak to Mlle. Linon.\n18. Ladonna met Edie Arkadyevitch and Ajay Shtcherbatskaya.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch adopted a rescue dog from the local shelter.', 'Edie Arkadyevitch ordered oysters for dinner.', 'Edie Arkadyevitch purchased a rare painting at the auction.', 'Edie Arkadyevitch finished writing her long-awaited memoir this evening.', 'Edie Arkadyevitch hosted a secretive dinner party in her garden.', 'Edie Arkadyevitch signed a deal for a new luxury car.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 1088,
+        "latency_s": 13.61,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n15. Alain skated towards Ladonna and smiled at him.\n16. Ladonna skated on the smooth ice.\n17. Ladonna went to speak to Mlle. Linon.\n18. Ladonna met Edie Arkadyevitch and Ajay Shtcherbatskaya.\n19. Edie Arkadyevitch ordered oysters for dinner.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Edie Arkadyevitch mentioned his wife's ability to foresee events.\", \"Edie Arkadyevitch stated that his wife's dreams frequently foretold important developments in their lives.\", \"Edie Arkadyevitch asserted that his wife's intuition guided their family decisions with remarkable precision.\", \"Edie Arkadyevitch claimed that his wife's predictions often came true with uncanny accuracy.\", \"Edie Arkadyevitch noted that his wife's insights into the future influenced their social engagements significantly.\", \"Edie Arkadyevitch revealed that his wife's foresight had saved them from numerous financial pitfalls.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch mentioned his wife's ability to foresee events.",
+        "steps": 1,
+        "tokens": 1582,
+        "latency_s": 21.71,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n16. Ladonna skated on the smooth ice.\n17. Ladonna went to speak to Mlle. Linon.\n18. Ladonna met Edie Arkadyevitch and Ajay Shtcherbatskaya.\n19. Edie Arkadyevitch ordered oysters for dinner.\n20. Edie Arkadyevitch mentioned his wife's ability to foresee events.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna examined the dynamics of social media and public perception.', 'Edie Arkadyevitch reflected on the nuances of art and creative expression.', 'Edie Arkadyevitch analyzed the challenges of friendship and loyalty.', 'Ladonna explored the intricacies of fashion and personal style.', 'Edie Arkadyevitch discussed the complexities of love and relationships.', 'Edie Arkadyevitch unveiled the secrets of culinary arts and gastronomy.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch discussed the complexities of love and relationships.",
+        "steps": 1,
+        "tokens": 1180,
+        "latency_s": 13.64,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n17. Ladonna went to speak to Mlle. Linon.\n18. Ladonna met Edie Arkadyevitch and Ajay Shtcherbatskaya.\n19. Edie Arkadyevitch ordered oysters for dinner.\n20. Edie Arkadyevitch mentioned his wife's ability to foresee events.\n21. Edie Arkadyevitch discussed the complexities of love and relationships.\n\n\nBelow is a list of possible subsequent events:\n\n['The matriarch shared her doubts about her granddaughter’s happiness with Alain and Charissa.', 'The duke revealed his fears regarding his niece’s prospects with Alain and Charissa.', 'The guardian raised alarms over her charge’s destiny tied to Alain and Charissa.', 'The queen voiced her concern about her son’s future with Alain and Charissa.', \"The princess expressed anxiety over her daughter's fate with Alain and Clarisse.\", \"The empress lamented her worries about her best friend's daughter and Alain's bond with Charissa.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The princess expressed anxiety over her daughter's fate with Alain and Clarisse.",
+        "steps": 1,
+        "tokens": 1507,
+        "latency_s": 23.32,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n18. Ladonna met Edie Arkadyevitch and Ajay Shtcherbatskaya.\n19. Edie Arkadyevitch ordered oysters for dinner.\n20. Edie Arkadyevitch mentioned his wife's ability to foresee events.\n21. Edie Arkadyevitch discussed the complexities of love and relationships.\n22. The princess expressed anxiety over her daughter's fate with Alain and Clarisse.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna intended to propose to Alain but hesitated.', 'Ladonna wanted to celebrate her anniversary with Alain in a special way but felt overwhelmed.', 'Ladonna considered confessing her true feelings to Alain but struggled with uncertainty.', 'Ladonna planned to surprise Alain with a heartfelt letter but second-guessed herself.', 'Ladonna aimed to showcase her artistic talent to Alain but doubted her abilities beforehand.', 'Ladonna meant to take Alain on a romantic getaway but got cold feet at the last minute.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna intended to propose to Alain but hesitated.",
+        "steps": 1,
+        "tokens": 1326,
+        "latency_s": 16.65,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n19. Edie Arkadyevitch ordered oysters for dinner.\n20. Edie Arkadyevitch mentioned his wife's ability to foresee events.\n21. Edie Arkadyevitch discussed the complexities of love and relationships.\n22. The princess expressed anxiety over her daughter's fate with Alain and Clarisse.\n23. Ladonna intended to propose to Alain but hesitated.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Ladonna couldn't help but notice Alain's heart race as he approached Clarisse.\", \"Ladonna watched Alain's expression change dramatically at the mention of Clarisse.\", \"Ladonna sensed Alain's laughter echo when they reminisced about Clarisse.\", \"Ladonna noticed Alain's smile widen as he caught sight of Clarisse.\", \"Ladonna observed Alain's eyes light up when she saw Clarisse.\", 'Ladonna felt a rush of excitement when Alain waved at Clarisse.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna observed Alain's eyes light up when she saw Clarisse.",
+        "steps": 1,
+        "tokens": 2311,
+        "latency_s": 48.08,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n20. Edie Arkadyevitch mentioned his wife's ability to foresee events.\n21. Edie Arkadyevitch discussed the complexities of love and relationships.\n22. The princess expressed anxiety over her daughter's fate with Alain and Clarisse.\n23. Ladonna intended to propose to Alain but hesitated.\n24. Ladonna observed Alain's eyes light up when she saw Clarisse.\n\n\nBelow is a list of possible subsequent events:\n\n['Meadow Nordston challenged Ladonna to a competitive cupcake decorating contest.', 'Meadow Nordston asked Ladonna to co-host a meditation workshop at the local community center.', 'Meadow Nordston suggested that Ladonna audition for a new reality show about urban gardening.', 'Meadow Nordston persuaded Ladonna to join her in a weekend retreat focused on digital detox.', 'Meadow Nordston encouraged Ladonna to collaborate on an art installation for the upcoming festival.', 'Meadow Nordston invited Ladonna to participate in a table-turning experiment.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Meadow Nordston invited Ladonna to participate in a table-turning experiment.",
+        "steps": 1,
+        "tokens": 1110,
+        "latency_s": 10.9,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n21. Edie Arkadyevitch discussed the complexities of love and relationships.\n22. The princess expressed anxiety over her daughter's fate with Alain and Clarisse.\n23. Ladonna intended to propose to Alain but hesitated.\n24. Ladonna observed Alain's eyes light up when she saw Clarisse.\n25. Meadow Nordston invited Ladonna to participate in a table-turning experiment.\n\n\nBelow is a list of possible subsequent events:\n\n['Alain pondered her attachment to Ladonna and the companion she had embraced.', 'Alain considered her sentiments toward Ladonna and the choice she had made.', 'Alain mused over her emotions regarding Ladonna and the individual she had pursued.', 'Alain examined her affections for Ladonna and the man she had invited into her life.', 'Alain contemplated her thoughts about Ladonna and the partner she had selected.', 'Alain reflected on her feelings for Ladonna and the man she had chosen.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Alain reflected on her feelings for Ladonna and the man she had chosen.",
+        "steps": 1,
+        "tokens": 1265,
+        "latency_s": 14.08,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n22. The princess expressed anxiety over her daughter's fate with Alain and Clarisse.\n23. Ladonna intended to propose to Alain but hesitated.\n24. Ladonna observed Alain's eyes light up when she saw Clarisse.\n25. Meadow Nordston invited Ladonna to participate in a table-turning experiment.\n26. Alain reflected on her feelings for Ladonna and the man she had chosen.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse inquired with a bakery clerk whether the fresh pastries would be out soon.', 'Clarisse questioned a store manager if the new shipment of books would arrive shortly.', 'Clarisse requested information from a parking attendant about when the next shuttle bus would leave.', 'Clarisse sought clarification from a barista on whether the coffee blend would be ready by noon.', 'Clarisse approached a gardener to ask if the flowers would bloom this week.', 'Clarisse asked a railway official if the train would soon be in.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定后续事件。",
+        "steps": 1,
+        "tokens": 1425,
+        "latency_s": 19.14,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n23. Ladonna intended to propose to Alain but hesitated.\n24. Ladonna observed Alain's eyes light up when she saw Clarisse.\n25. Meadow Nordston invited Ladonna to participate in a table-turning experiment.\n26. Alain reflected on her feelings for Ladonna and the man she had chosen.\n27. Clarisse asked a railway official if the train would soon be in.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse arrived at the theater after the audience took their seats.', 'Clarisse walked into the café after a couple finished their meal.', 'Clarisse joined the meeting after the presenter wrapped up his talk.', 'Clarisse slipped into the library after a student closed her book.', 'Clarisse stepped into the carriage after a lady got out.', 'Clarisse entered the gallery after the artist finished his painting.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse stepped into the carriage after a lady got out.",
+        "steps": 1,
+        "tokens": 1221,
+        "latency_s": 11.95,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n24. Ladonna observed Alain's eyes light up when she saw Clarisse.\n25. Meadow Nordston invited Ladonna to participate in a table-turning experiment.\n26. Alain reflected on her feelings for Ladonna and the man she had chosen.\n27. Clarisse asked a railway official if the train would soon be in.\n28. Clarisse stepped into the carriage after a lady got out.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch expressed his hopes for Clarisse to marry Alain.', 'Edie Arkadyevitch announced his disapproval of Clarisse dating Alain.', \"Edie Arkadyevitch celebrated his confidence in Clarisse's choice of Alain.\", 'Edie Arkadyevitch revealed his ambitions for Clarisse to explore a romance with Alain.', \"Edie Arkadyevitch confided his doubts regarding Clarisse's affection for Alain.\", \"Edie Arkadyevitch voiced his concerns about Clarisse's relationship with Alain.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch expressed his hopes for Clarisse to marry Alain.",
+        "steps": 1,
+        "tokens": 944,
+        "latency_s": 5.53,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n25. Meadow Nordston invited Ladonna to participate in a table-turning experiment.\n26. Alain reflected on her feelings for Ladonna and the man she had chosen.\n27. Clarisse asked a railway official if the train would soon be in.\n28. Clarisse stepped into the carriage after a lady got out.\n29. Edie Arkadyevitch expressed his hopes for Clarisse to marry Alain.\n\n\nBelow is a list of possible subsequent events:\n\n['Madame Dakota confided her suspicions about the theft of secret documents to Edie Arkadyevitch.', \"Madame Dakota expressed her distress about the guard's death to Edie Arkadyevitch.\", 'Madame Dakota shared her outrage over the unfair trial of a local leader with Edie Arkadyevitch.', 'Madame Dakota lamented the sudden disappearance of the ancient artifact to Edie Arkadyevitch.', 'Madame Dakota detailed her concerns about the approaching storm that threatened the festivities to Edie Arkadyevitch.', 'Madame Dakota revealed her fears regarding the strange illness afflicting the village to Edie Arkadyevitch.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1162,
+        "latency_s": 13.13,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n26. Alain reflected on her feelings for Ladonna and the man she had chosen.\n27. Clarisse asked a railway official if the train would soon be in.\n28. Clarisse stepped into the carriage after a lady got out.\n29. Edie Arkadyevitch expressed his hopes for Clarisse to marry Alain.\n30. Madame Dakota expressed her distress about the guard's death to Edie Arkadyevitch.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Charissa expressed envy about Karissa's health and happiness.\", \"Charissa lamented her desire for Karissa's vibrant friendships and joyful experiences.\", \"Charissa disclosed her frustration over Karissa's seemingly effortless charm and social ease.\", \"Charissa voiced her longing for Karissa's adventurous spirit and spontaneous lifestyle.\", \"Charissa revealed her jealousy for Karissa's successful career and radiant confidence.\", \"Charissa admitted her admiration for Karissa's artistic talents and creative pursuits.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定Charissa接下来会表达哪种具体的感受。",
+        "steps": 1,
+        "tokens": 1305,
+        "latency_s": 19.39,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n27. Clarisse asked a railway official if the train would soon be in.\n28. Clarisse stepped into the carriage after a lady got out.\n29. Edie Arkadyevitch expressed his hopes for Clarisse to marry Alain.\n30. Madame Dakota expressed her distress about the guard's death to Edie Arkadyevitch.\n31. Charissa expressed envy about Karissa's health and happiness.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa motivated Charissa to evaluate her responses to the trials she was facing.', 'Karissa prompted Charissa to contemplate her options in light of her tough predicament.', 'Karissa advised Charissa to analyze how to cope with her pressing difficulties.', 'Karissa suggested Charissa to reflect on her approach to navigating her challenging situation.', 'Karissa urged Charissa to consider strategies for managing her overwhelming circumstances.', 'Karissa encouraged Charissa to think about how to act in her difficult position.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 1495,
+        "latency_s": 24.24,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n28. Clarisse stepped into the carriage after a lady got out.\n29. Edie Arkadyevitch expressed his hopes for Clarisse to marry Alain.\n30. Madame Dakota expressed her distress about the guard's death to Edie Arkadyevitch.\n31. Charissa expressed envy about Karissa's health and happiness.\n32. Karissa encouraged Charissa to think about how to act in her difficult position.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa admitted her reluctance to trust her colleague after repeated betrayals in the workplace.', \"Charissa revealed her struggle to accept her sister's decision regarding their family's inheritance.\", \"Karissa conveyed her frustration over her neighbor's incessant loud parties that disrupted her peaceful evenings.\", 'Charissa shared her disappointment in not being able to support her child’s aspirations due to financial constraints.', \"Charissa disclosed her difficulty in understanding her friend's choice to leave their hometown.\", 'Charissa expressed her inability to forgive her husband for his actions.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Charissa expressed her inability to forgive her husband for his actions.",
+        "steps": 1,
+        "tokens": 1193,
+        "latency_s": 13.0,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n29. Edie Arkadyevitch expressed his hopes for Clarisse to marry Alain.\n30. Madame Dakota expressed her distress about the guard's death to Edie Arkadyevitch.\n31. Charissa expressed envy about Karissa's health and happiness.\n32. Karissa encouraged Charissa to think about how to act in her difficult position.\n33. Charissa expressed her inability to forgive her husband for his actions.\n\n\nBelow is a list of possible subsequent events:\n\n['Charissa offered to move Karissa to a room downstairs for convenience.', 'Charissa encouraged Karissa to transition to a quieter area of the building for increased peace.', 'Charissa suggested relocating Karissa to a more spacious apartment nearby for comfort.', 'Charissa arranged for Karissa to be shifted to a unit with better amenities for a more enjoyable stay.', 'Charissa proposed transferring Karissa to a different floor to enhance her accessibility.', 'Charissa invited Karissa to switch to a room with a stunning view to elevate her experience.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1547,
+        "latency_s": 21.48,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n30. Madame Dakota expressed her distress about the guard's death to Edie Arkadyevitch.\n31. Charissa expressed envy about Karissa's health and happiness.\n32. Karissa encouraged Charissa to think about how to act in her difficult position.\n33. Charissa expressed her inability to forgive her husband for his actions.\n34. Charissa offered to move Karissa to a room downstairs for convenience.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Karissa discovered a dusty book on her shelf, sparking memories of her grandmother's storytelling.\", 'Karissa admired the vibrant colors of autumn leaves, reflecting on family gatherings from years past.', \"Karissa felt a longing to look at her son's photograph and think of him.\", 'Karissa found solace in the melody of her old piano, reminiscing about her childhood dreams.', 'Karissa cherished the scent of fresh rain, reminding her of lazy afternoons spent in the garden.', 'Karissa savored the taste of mint chocolate, evoking laughter shared with her closest friends.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa felt a longing to look at her son's photograph and think of him.",
+        "steps": 1,
+        "tokens": 1335,
+        "latency_s": 16.55,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n31. Charissa expressed envy about Karissa's health and happiness.\n32. Karissa encouraged Charissa to think about how to act in her difficult position.\n33. Charissa expressed her inability to forgive her husband for his actions.\n34. Charissa offered to move Karissa to a room downstairs for convenience.\n35. Karissa felt a longing to look at her son's photograph and think of him.\n\n\nBelow is a list of possible subsequent events:\n\n['Alain regarded Clarisse and felt dismay at the animosity rising between her and Karissa.', 'Alain gazed at Clarisse and felt unease regarding the competition simmering between her and Karissa.', 'Alain watched Clarisse and sensed dread as the tension unfolded between her and Karissa.', 'Alain observed Clarisse and experienced fear in reaction to the rivalry developing between her and Karissa.', 'Alain noticed Clarisse and felt anguish over the conflict brewing between her and Karissa.', 'Alain looked at Clarisse and felt terror over the emotions displayed between her and Karissa.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1607,
+        "latency_s": 24.97,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n32. Karissa encouraged Charissa to think about how to act in her difficult position.\n33. Charissa expressed her inability to forgive her husband for his actions.\n34. Charissa offered to move Karissa to a room downstairs for convenience.\n35. Karissa felt a longing to look at her son's photograph and think of him.\n36. Alain looked at Clarisse and felt terror over the emotions displayed between her and Karissa.\n\n\nBelow is a list of possible subsequent events:\n\n['Meadow Nordston caught up with Korsunsky and encouraged him to persuade Alain to join her for a lively foxtrot on the dance floor.', 'Meadow Nordston approached Korsunsky and urged him to challenge Alain to a spirited tango at the gala.', 'Meadow Nordston discovered Korsunsky and mentioned that he should propose to Alain to perform a traditional polka.', 'Meadow Nordston found Korsunsky and told him to ask Alain to dance the mazurka.', 'Meadow Nordston spotted Korsunsky and instructed him to invite Alain for a waltz under the moonlight.', 'Meadow Nordston ran into Korsunsky and suggested that he rally Alain for a lively jive at the festival.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Meadow Nordston found Korsunsky and told him to ask Alain to dance the mazurka.",
+        "steps": 1,
+        "tokens": 1021,
+        "latency_s": 8.74,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n33. Charissa expressed her inability to forgive her husband for his actions.\n34. Charissa offered to move Karissa to a room downstairs for convenience.\n35. Karissa felt a longing to look at her son's photograph and think of him.\n36. Alain looked at Clarisse and felt terror over the emotions displayed between her and Karissa.\n37. Meadow Nordston found Korsunsky and told him to ask Alain to dance the mazurka.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa resolved against joining the toast and stepped outside for fresh air.', 'Karissa elected to forgo the after-party in pursuit of a quiet evening.', 'Karissa opted to leave the party early to catch the sunset.', 'Karissa decided not to stay for supper at the ball.', 'Karissa chose to skip the dance floor and read by the window.', 'Karissa made the choice to bypass dessert in favor of a midnight stroll.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa decided not to stay for supper at the ball.",
+        "steps": 1,
+        "tokens": 1028,
+        "latency_s": 6.6,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n34. Charissa offered to move Karissa to a room downstairs for convenience.\n35. Karissa felt a longing to look at her son's photograph and think of him.\n36. Alain looked at Clarisse and felt terror over the emotions displayed between her and Karissa.\n37. Meadow Nordston found Korsunsky and told him to ask Alain to dance the mazurka.\n38. Karissa decided not to stay for supper at the ball.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Ladonna flagged down a bicycle to arrive at his parent's picnic site.\", \"Ladonna called a sledge to go to his brother's address.\", \"Ladonna summoned a rideshare to drop him off at his friend's gathering.\", \"Ladonna booked a bus to travel to his cousin's housewarming party.\", \"Ladonna hired a boat to reach his uncle's seaside cottage.\", \"Ladonna arranged a taxi to visit his sister's apartment.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足，无法确定。",
+        "steps": 1,
+        "tokens": 1301,
+        "latency_s": 16.71,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n35. Karissa felt a longing to look at her son's photograph and think of him.\n36. Alain looked at Clarisse and felt terror over the emotions displayed between her and Karissa.\n37. Meadow Nordston found Korsunsky and told him to ask Alain to dance the mazurka.\n38. Karissa decided not to stay for supper at the ball.\n39. Ladonna called a sledge to go to his brother's address.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna tossed a paper airplane across the room while Nikolay pretended to be deep in thought.', 'Ladonna laughed and twirled her hair as Nikolay glanced at the clock.', 'Ladonna raised an eyebrow and smirked at Nikolay while he scribbled in his notebook.', 'Ladonna smiled and winked at Nikolay after Kritsky left.', 'Ladonna clapped her hands excitedly as Nikolay scrolled through his phone.', 'Ladonna flipped a coin in the air, and Nikolay caught it with a grin.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1193,
+        "latency_s": 11.39,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n36. Alain looked at Clarisse and felt terror over the emotions displayed between her and Karissa.\n37. Meadow Nordston found Korsunsky and told him to ask Alain to dance the mazurka.\n38. Karissa decided not to stay for supper at the ball.\n39. Ladonna called a sledge to go to his brother's address.\n40. Ladonna smiled and winked at Nikolay after Kritsky left.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Agafea Mihalovna invited Ladonna to share stories by the fireplace during winter's chill.\", \"Ladonna taught Agafea Mihalovna how to dance at the village's annual celebration.\", 'Agafea Mihalovna surprised Ladonna with a freshly baked pie upon his arrival.', 'Agafea Mihalovna greeted Ladonna when he returned home.', 'Ladonna assisted Agafea Mihalovna in tending to her garden on a sunny afternoon.', 'Ladonna consoled Agafea Mihalovna after a long day at the market.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1175,
+        "latency_s": 12.53,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n37. Meadow Nordston found Korsunsky and told him to ask Alain to dance the mazurka.\n38. Karissa decided not to stay for supper at the ball.\n39. Ladonna called a sledge to go to his brother's address.\n40. Ladonna smiled and winked at Nikolay after Kritsky left.\n41. Agafea Mihalovna greeted Ladonna when he returned home.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna pondered the significance of friendship and the commitments he made to his closest companions.', 'Ladonna contemplated the meaning of success and the aspirations he nurtured throughout his career.', 'Ladonna debated the concept of happiness and the dreams he sought to fulfill in his personal journey.', 'Ladonna analyzed the nature of trust and the principles he deemed essential in his relationships.', 'Ladonna reflected on his life and the ideals he held for marriage.', 'Ladonna mused over the essence of family and the values he cherished in his upbringing.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna reflected on his life and the ideals he held for marriage.",
+        "steps": 1,
+        "tokens": 1361,
+        "latency_s": 13.51,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n38. Karissa decided not to stay for supper at the ball.\n39. Ladonna called a sledge to go to his brother's address.\n40. Ladonna smiled and winked at Nikolay after Kritsky left.\n41. Agafea Mihalovna greeted Ladonna when he returned home.\n42. Ladonna reflected on his life and the ideals he held for marriage.\n\n\nBelow is a list of possible subsequent events:\n\n['Charissa attended a yoga class with Karissa and their enthusiastic friends.', \"Charissa played board games with Karissa and the neighbors' kids.\", 'Charissa chatted quietly with Karissa while sipping coffee at the café.', 'Charissa watched a movie with Karissa and their relatives at home.', 'Charissa dined alone with Karissa and the children.', 'Charissa strolled through the park alongside Karissa and the puppies.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定后续发生的事件。",
+        "steps": 1,
+        "tokens": 1052,
+        "latency_s": 9.89,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n39. Ladonna called a sledge to go to his brother's address.\n40. Ladonna smiled and winked at Nikolay after Kritsky left.\n41. Agafea Mihalovna greeted Ladonna when he returned home.\n42. Ladonna reflected on his life and the ideals he held for marriage.\n43. Charissa dined alone with Karissa and the children.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa told Charissa that Alain was unhappy with her recent success.', 'Karissa confided in Charissa that Alain had been spreading rumors about her.', 'Karissa mentioned to Charissa that Alain had a secret crush on her.', 'Karissa disclosed to Charissa that Alain was upset about her new friendship.', 'Karissa revealed to Charissa that Alain was jealous of her.', 'Karissa shared with Charissa that Alain felt overshadowed by her talents.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1092,
+        "latency_s": 14.83,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n40. Ladonna smiled and winked at Nikolay after Kritsky left.\n41. Agafea Mihalovna greeted Ladonna when he returned home.\n42. Ladonna reflected on his life and the ideals he held for marriage.\n43. Charissa dined alone with Karissa and the children.\n44. Karissa revealed to Charissa that Alain was jealous of her.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa requested Annushka to fetch a blanket as she organized her travel gear.', 'Karissa instructed Annushka to grab a suitcase while she planned the itinerary for their trip.', 'Karissa asked Annushka to find her sunscreen while she sorted through her clothes for the weekend getaway.', 'Karissa urged Annushka to locate her travel pillow as she arranged the documents for their excursion.', 'Karissa asked Annushka to get a lamp while she prepared for her journey.', 'Karissa told Annushka to bring a snack as she packed her backpack for the adventure.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1031,
+        "latency_s": 8.76,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n41. Agafea Mihalovna greeted Ladonna when he returned home.\n42. Ladonna reflected on his life and the ideals he held for marriage.\n43. Charissa dined alone with Karissa and the children.\n44. Karissa revealed to Charissa that Alain was jealous of her.\n45. Karissa asked Annushka to get a lamp while she prepared for her journey.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa sat in the park, considering her lively debate with a fellow jogger.', 'Karissa rested on the staircase, thinking about her intense dialogue with a neighbor.', 'Karissa stopped at the bus stop, pondering over her unexpected encounter with a stranger.', 'Karissa paused in the corridor, reflecting on her recent conversation.', 'Karissa lingered in the café, contemplating her intriguing exchange with an old friend.', 'Karissa hesitated at the library entrance, mulling over her detailed discussion with a professor.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa paused in the corridor, reflecting on her recent conversation.",
+        "steps": 1,
+        "tokens": 1165,
+        "latency_s": 9.77,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n42. Ladonna reflected on his life and the ideals he held for marriage.\n43. Charissa dined alone with Karissa and the children.\n44. Karissa revealed to Charissa that Alain was jealous of her.\n45. Karissa asked Annushka to get a lamp while she prepared for her journey.\n46. Karissa paused in the corridor, reflecting on her recent conversation.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa noticed her husband as soon as she got out of the train.', 'Karissa found Alexey Alexandrovitch just as she emerged from the subway station.', 'Karissa recognized her husband the moment she stepped off the bus.', 'Karissa spotted Alexey Alexandrovitch immediately after she exited the café.', 'Karissa glimpsed Alexey Alexandrovitch the instant she arrived at the airport.', 'Karissa saw her husband right after she walked out of the bookstore.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa noticed her husband as soon as she got out of the train.",
+        "steps": 1,
+        "tokens": 1067,
+        "latency_s": 9.77,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n43. Charissa dined alone with Karissa and the children.\n44. Karissa revealed to Charissa that Alain was jealous of her.\n45. Karissa asked Annushka to get a lamp while she prepared for her journey.\n46. Karissa paused in the corridor, reflecting on her recent conversation.\n47. Karissa noticed her husband as soon as she got out of the train.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse strolled through the plaza in Nostovia to acquire artisanal cheese.', 'Clarisse entered the boutique in Talsar to browse elegant silk scarves.', 'Clarisse visited the market in Eldoria to purchase freshly baked bread.', 'Clarisse wandered into the tavern in Mervalia to enjoy a cup of spiced cider.', 'Clarisse stopped by the botanical gardens in Verenthia to collect exotic seeds.', 'Clarisse got out of the carriage at Bologova to buy seltzer water.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定后续事件。",
+        "steps": 1,
+        "tokens": 1066,
+        "latency_s": 9.43,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n44. Karissa revealed to Charissa that Alain was jealous of her.\n45. Karissa asked Annushka to get a lamp while she prepared for her journey.\n46. Karissa paused in the corridor, reflecting on her recent conversation.\n47. Karissa noticed her husband as soon as she got out of the train.\n48. Clarisse got out of the carriage at Bologova to buy seltzer water.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa baked cookies with her daughter while reminiscing about old times.', 'Karissa spent time with her son upon returning home.', 'Karissa organized a game night with her siblings after a week away.', 'Karissa took a stroll in the park with her partner after arriving from the airport.', 'Karissa enjoyed a quiet evening with her family after a long trip.', 'Karissa hosted a small gathering for friends after settling back into her routine.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa spent time with her son upon returning home.",
+        "steps": 1,
+        "tokens": 1199,
+        "latency_s": 11.7,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n45. Karissa asked Annushka to get a lamp while she prepared for her journey.\n46. Karissa paused in the corridor, reflecting on her recent conversation.\n47. Karissa noticed her husband as soon as she got out of the train.\n48. Clarisse got out of the carriage at Bologova to buy seltzer water.\n49. Karissa spent time with her son upon returning home.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa sensed she was perceiving Meadow Lidia Trace in an unexpected light.', 'Karissa realized she was seeing Meadow Lidia Trace with new awareness.', 'Karissa perceived she was recognizing Meadow Lidia Trace with a renewed clarity.', 'Karissa noted she was observing Meadow Lidia Trace with a transformed interpretation.', 'Karissa discovered she was understanding Meadow Lidia Trace from a fresh perspective.', 'Karissa acknowledged she was viewing Meadow Lidia Trace through a different lens.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1275,
+        "latency_s": 16.26,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n46. Karissa paused in the corridor, reflecting on her recent conversation.\n47. Karissa noticed her husband as soon as she got out of the train.\n48. Clarisse got out of the carriage at Bologova to buy seltzer water.\n49. Karissa spent time with her son upon returning home.\n50. Karissa realized she was seeing Meadow Lidia Trace with new awareness.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa handed her husband a freshly baked pie when he entered the house.', 'Karissa greeted her husband when he arrived home.', 'Karissa smiled at her husband as he stepped into the warm living room.', 'Karissa hugged her husband tightly as he walked in through the door.', 'Karissa surprised her husband with a candlelit dinner upon his return.', 'Karissa waited eagerly for her husband, as he checked his messages before coming inside.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa greeted her husband when he arrived home.",
+        "steps": 1,
+        "tokens": 1350,
+        "latency_s": 14.72,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n47. Karissa noticed her husband as soon as she got out of the train.\n48. Clarisse got out of the carriage at Bologova to buy seltzer water.\n49. Karissa spent time with her son upon returning home.\n50. Karissa realized she was seeing Meadow Lidia Trace with new awareness.\n51. Karissa greeted her husband when he arrived home.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Karissa remarked on Alexey Alexandrovitch's impressive collection of vintage coins.\", \"Karissa chuckled at Alexey Alexandrovitch's knack for storytelling.\", \"Karissa noted Alexey Alexandrovitch's preference for late-night adventures.\", \"Karissa smiled at Alexey Alexandrovitch's reading habit.\", \"Karissa expressed admiration for Alexey Alexandrovitch's culinary skills.\", \"Karissa marveled at Alexey Alexandrovitch's unusual taste in music.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1134,
+        "latency_s": 10.55,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n48. Clarisse got out of the carriage at Bologova to buy seltzer water.\n49. Karissa spent time with her son upon returning home.\n50. Karissa realized she was seeing Meadow Lidia Trace with new awareness.\n51. Karissa greeted her husband when he arrived home.\n52. Karissa smiled at Alexey Alexandrovitch's reading habit.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse invited the baroness to a private tea party at her estate.', 'Clarisse greeted the baroness and expressed familiarity.', 'Clarisse complimented the baroness on her exquisite taste in jewelry.', \"Clarisse remarked on the baroness's adventurous spirit during their evening stroll.\", 'Clarisse shared a secret recipe with the baroness during their lunch meeting.', 'Clarisse introduced the baroness to her esteemed circle of friends at a gala.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定后续事件。",
+        "steps": 1,
+        "tokens": 1186,
+        "latency_s": 11.52,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n49. Karissa spent time with her son upon returning home.\n50. Karissa realized she was seeing Meadow Lidia Trace with new awareness.\n51. Karissa greeted her husband when he arrived home.\n52. Karissa smiled at Alexey Alexandrovitch's reading habit.\n53. Clarisse greeted the baroness and expressed familiarity.\n\n\nBelow is a list of possible subsequent events:\n\n['The celebrated doctor examined Alain and discussed her condition.', 'The celebrated doctor monitored Alain and analyzed her response to medication.', 'The celebrated doctor treated Alain and evaluated his progress.', 'The celebrated doctor diagnosed Alain and prescribed a new treatment plan.', 'The celebrated doctor advised Alain and outlined potential recovery steps.', 'The celebrated doctor consulted with Alain and recommended further tests.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The celebrated doctor advised Alain and outlined potential recovery steps.",
+        "steps": 1,
+        "tokens": 1972,
+        "latency_s": 30.39,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n50. Karissa realized she was seeing Meadow Lidia Trace with new awareness.\n51. Karissa greeted her husband when he arrived home.\n52. Karissa smiled at Alexey Alexandrovitch's reading habit.\n53. Clarisse greeted the baroness and expressed familiarity.\n54. The celebrated doctor examined Alain and discussed her condition.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Charissa walked in prepared for a meeting focused on Julia's progress with her art exhibition.\", \"Charissa took her seat knowing there would be a debate about Oliver's performance in the latest play.\", \"Charissa entered the room fully aware that the topic would revolve around Linda's upcoming wedding plans.\", \"Charissa stepped in with the expectation of discussing Pierre's recent career choices.\", \"Charissa showed up anticipating a conversation concerning Nathan's recent travel experiences.\", \"Charissa arrived knowing there was to be a consultation about Alain's health.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Charissa arrived knowing there was to be a consultation about Alain's health.",
+        "steps": 1,
+        "tokens": 1176,
+        "latency_s": 9.16,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n51. Karissa greeted her husband when he arrived home.\n52. Karissa smiled at Alexey Alexandrovitch's reading habit.\n53. Clarisse greeted the baroness and expressed familiarity.\n54. The celebrated doctor examined Alain and discussed her condition.\n55. Charissa arrived knowing there was to be a consultation about Alain's health.\n\n\nBelow is a list of possible subsequent events:\n\n['Charissa reached out to Alain with an understanding smile, hoping to ease the tension that lingered between them.', 'Charissa decided to surprise Alain with a heartfelt gift to lighten his mood after their recent argument.', 'Charissa took a moment to reflect before she approached Alain, who seemed lost in thought by the window.', 'Charissa planned a special dinner to uplift Alain after he expressed feelings of disappointment during their last conversation.', 'Charissa hesitated for a second before she stepped forward to comfort Alain, who was sitting quietly on the couch.', 'Charissa prepared to console Alain after she left the room in tears.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Charissa prepared to console Alain after she left the room in tears.",
+        "steps": 1,
+        "tokens": 1171,
+        "latency_s": 10.02,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n52. Karissa smiled at Alexey Alexandrovitch's reading habit.\n53. Clarisse greeted the baroness and expressed familiarity.\n54. The celebrated doctor examined Alain and discussed her condition.\n55. Charissa arrived knowing there was to be a consultation about Alain's health.\n56. Charissa prepared to console Alain after she left the room in tears.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa collaborated with a well-known chef, curating a culinary event that drew food critics and celebrity chefs from rival restaurants.', 'Karissa navigated her relationships in the highest Petersburg society, recognizing her connections to three different social circles.', 'Karissa attended an exclusive retreat, where she established ties with multiple key players in the emerging tech startup community.', 'Karissa organized a charity gala that brought together influential figures from both the local art scene and international fashion industry.', 'Karissa launched a book club that inadvertently attracted members from elite political circles and prominent literary critics.', 'Karissa hosted a dinner party in her penthouse, merging guests from the philanthropic world with top executives from the entertainment sector.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa navigated her relationships in the highest Petersburg society, recognizing her connections to three different social circles.",
+        "steps": 1,
+        "tokens": 1484,
+        "latency_s": 20.58,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n53. Clarisse greeted the baroness and expressed familiarity.\n54. The celebrated doctor examined Alain and discussed her condition.\n55. Charissa arrived knowing there was to be a consultation about Alain's health.\n56. Charissa prepared to console Alain after she left the room in tears.\n57. Karissa navigated her relationships in the highest Petersburg society, recognizing her connections to three different social circles.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa felt a quickened life at the sight of Clarisse, despite initially believing she was displeased with him.', 'Karissa sensed a rush of excitement when she laid eyes on Clarisse, despite her earlier conclusion that he was upset with her.', 'Karissa was filled with an unexpected warmth at the appearance of Clarisse, despite her prior belief that he held resentment towards her.', 'Karissa was overwhelmed with joy at the glimpse of Clarisse, even though she had originally presumed he was irritated by her presence.', 'Karissa recognized a newfound thrill at the sight of Clarisse, even though she had initially felt he was displeased with her.', 'Karissa experienced a surge of energy upon encountering Clarisse, even though she first thought he was annoyed with her.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa was overwhelmed with joy at the glimpse of Clarisse, even though she had originally presumed he was irritated by her presence.",
+        "steps": 1,
+        "tokens": 1964,
+        "latency_s": 34.83,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n54. The celebrated doctor examined Alain and discussed her condition.\n55. Charissa arrived knowing there was to be a consultation about Alain's health.\n56. Charissa prepared to console Alain after she left the room in tears.\n57. Karissa navigated her relationships in the highest Petersburg society, recognizing her connections to three different social circles.\n58. Karissa felt a quickened life at the sight of Clarisse, despite initially believing she was displeased with him.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse joined a cooking class to learn traditional recipes from the acclaimed chef in her neighborhood.', \"Clarisse attended the local gallery opening to discuss art restoration with the city's mayor.\", \"Clarisse participated in a charity run to support children's education with her childhood friend from high school.\", 'Clarisse explored the science museum to present her research on renewable energy to the visiting scientists.', 'Clarisse went to the French theater to meet the colonel of his regiment.', 'Clarisse visited the botanical garden to give a lecture on rare plant species to the university students.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse went to the French theater to meet the colonel of his regiment.",
+        "steps": 1,
+        "tokens": 1045,
+        "latency_s": 6.65,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n55. Charissa arrived knowing there was to be a consultation about Alain's health.\n56. Charissa prepared to console Alain after she left the room in tears.\n57. Karissa navigated her relationships in the highest Petersburg society, recognizing her connections to three different social circles.\n58. Karissa felt a quickened life at the sight of Clarisse, despite initially believing she was displeased with him.\n59. Clarisse went to the French theater to meet the colonel of his regiment.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa entered the bustling café and greeted the barista with a warm smile.', 'Karissa walked into the lecture hall and nodded at the professor standing by the podium.', 'Karissa made her way to the banquet hall and embraced the event organizer with excitement.', 'Karissa arrived at the drawing-room and shook hands with the hostess.', 'Karissa strolled into the art gallery and exchanged pleasantries with the curator.', 'Karissa stepped onto the stage and acknowledged the audience with a playful wave.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa made her way to the banquet hall and embraced the event organizer with excitement.",
+        "steps": 1,
+        "tokens": 1912,
+        "latency_s": 29.56,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n56. Charissa prepared to console Alain after she left the room in tears.\n57. Karissa navigated her relationships in the highest Petersburg society, recognizing her connections to three different social circles.\n58. Karissa felt a quickened life at the sight of Clarisse, despite initially believing she was displeased with him.\n59. Clarisse went to the French theater to meet the colonel of his regiment.\n60. Karissa arrived at the drawing-room and shook hands with the hostess.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Karissa urged Clarisse to journey to Berlin and express her regrets to Alain regarding last summer's disagreement.\", \"Karissa encouraged Clarisse to travel to Tokyo and seek out Alain's approval for their new project.\", 'Karissa requested Clarisse to head to Rome and deliver a heartfelt message to Alain about their past differences.', 'Karissa convinced Clarisse to visit Paris and present Alain with an apology for their recent misunderstanding.', \"Karissa instructed Clarisse to fly to London and retrieve Alain's consent for their upcoming collaboration.\", \"Karissa asked Clarisse to go to Moscow and ask for Alain's forgiveness.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa asked Clarisse to go to Moscow and ask for Alain's forgiveness.",
+        "steps": 1,
+        "tokens": 971,
+        "latency_s": 4.54,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n57. Karissa navigated her relationships in the highest Petersburg society, recognizing her connections to three different social circles.\n58. Karissa felt a quickened life at the sight of Clarisse, despite initially believing she was displeased with him.\n59. Clarisse went to the French theater to meet the colonel of his regiment.\n60. Karissa arrived at the drawing-room and shook hands with the hostess.\n61. Karissa asked Clarisse to go to Moscow and ask for Alain's forgiveness.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse escorted Karissa down and expressed his feelings of love.', 'Clarisse organized a picnic for Karissa and confessed her deep emotions.', 'Clarisse surprised Karissa with a heartfelt poem and revealed her hidden admiration.', 'Clarisse invited Karissa to a gallery and disclosed her unspoken love.', 'Clarisse took Karissa on a stargazing trip and shared her secret longing.', 'Clarisse accompanied Karissa to the café and admitted her long-standing affection.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1542,
+        "latency_s": 19.72,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n58. Karissa felt a quickened life at the sight of Clarisse, despite initially believing she was displeased with him.\n59. Clarisse went to the French theater to meet the colonel of his regiment.\n60. Karissa arrived at the drawing-room and shook hands with the hostess.\n61. Karissa asked Clarisse to go to Moscow and ask for Alain's forgiveness.\n62. Clarisse escorted Karissa down and expressed his feelings of love.\n\n\nBelow is a list of possible subsequent events:\n\n['Alexey Alexandrovitch visited the library and organized shelves until he found an intriguing manuscript.', 'Alexey Alexandrovitch entered the gallery and admired the paintings until he lost track of time.', 'Alexey Alexandrovitch strolled through the park and observed the children playing until he heard the bells chime.', 'Alexey Alexandrovitch went to the garden and tended to the flowers until the sun set.', 'Alexey Alexandrovitch retired to the balcony and sipped tea while contemplating life until dusk.', \"Alexey Alexandrovitch went to his study and read a book until one o'clock.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Alexey Alexandrovitch went to his study and read a book until one o'clock.",
+        "steps": 1,
+        "tokens": 1046,
+        "latency_s": 6.29,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n59. Clarisse went to the French theater to meet the colonel of his regiment.\n60. Karissa arrived at the drawing-room and shook hands with the hostess.\n61. Karissa asked Clarisse to go to Moscow and ask for Alain's forgiveness.\n62. Clarisse escorted Karissa down and expressed his feelings of love.\n63. Alexey Alexandrovitch went to his study and read a book until one o'clock.\n\n\nBelow is a list of possible subsequent events:\n\n['Alexey Alexandrovitch warned Karissa about her animated conversation with Count Clarisse.', 'Alexey Alexandrovitch discussed with Karissa her vivacious banter with Marquise Clarisse.', 'Alexey Alexandrovitch urged Karissa to reconsider her engaging talk with Prince Clarisse.', 'Alexey Alexandrovitch cautioned Karissa regarding her enthusiastic exchange with Baron Clarisse.', 'Alexey Alexandrovitch advised Karissa about her lively dialogue with Duke Clarisse.', 'Alexey Alexandrovitch alerted Karissa concerning her spirited discussion with Viscount Clarisse.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Alexey Alexandrovitch warned Karissa about her animated conversation with Count Clarisse.",
+        "steps": 1,
+        "tokens": 988,
+        "latency_s": 7.18,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n60. Karissa arrived at the drawing-room and shook hands with the hostess.\n61. Karissa asked Clarisse to go to Moscow and ask for Alain's forgiveness.\n62. Clarisse escorted Karissa down and expressed his feelings of love.\n63. Alexey Alexandrovitch went to his study and read a book until one o'clock.\n64. Alexey Alexandrovitch warned Karissa about her animated conversation with Count Clarisse.\n\n\nBelow is a list of possible subsequent events:\n\n['Alexey Alexandrovitch quietly tiptoed around the garden after their discussion.', 'Alexey Alexandrovitch silently snored in bed after their conversation.', 'Alexey Alexandrovitch softly hummed a tune in the kitchen after their debate.', 'Alexey Alexandrovitch slowly sipped his tea on the balcony after their chat.', 'Alexey Alexandrovitch swiftly typed away on his laptop following their meeting.', 'Alexey Alexandrovitch gently folded his clothes in the living room after their argument.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1235,
+        "latency_s": 14.73,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n61. Karissa asked Clarisse to go to Moscow and ask for Alain's forgiveness.\n62. Clarisse escorted Karissa down and expressed his feelings of love.\n63. Alexey Alexandrovitch went to his study and read a book until one o'clock.\n64. Alexey Alexandrovitch warned Karissa about her animated conversation with Count Clarisse.\n65. Alexey Alexandrovitch silently snored in bed after their conversation.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Karissa knelt gracefully and whispered her secrets from the edge of the bed to Alexey Alexandrovitch's attentive ears.\", \"Karissa reclined slowly and lowered herself from the armchair to the rug in front of Alexey Alexandrovitch's gaze.\", \"Karissa leaned forward and slipped from the chair to the carpet beside Alexey Alexandrovitch's shoes.\", \"Karissa sank gently and collapsed from the stool to the ground at Alexey Alexandrovitch's side.\", \"Karissa bowed down and sank from the sofa to the floor at Alexey Alexandrovitch's feet.\", \"Karissa fell softly and tumbled from the table to the ground near Alexey Alexandrovitch's outstretched hand.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1464,
+        "latency_s": 17.7,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n62. Clarisse escorted Karissa down and expressed his feelings of love.\n63. Alexey Alexandrovitch went to his study and read a book until one o'clock.\n64. Alexey Alexandrovitch warned Karissa about her animated conversation with Count Clarisse.\n65. Alexey Alexandrovitch silently snored in bed after their conversation.\n66. Karissa bowed down and sank from the sofa to the floor at Alexey Alexandrovitch's feet.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna laced up his old trainers and a leather jacket, and made his way to supervise his crops.', 'Ladonna pulled on his rubber boots and a flannel shirt, and walked out to inspect his orchard.', 'Ladonna donned his sturdy sandals and a raincoat, and ventured forth to check on his livestock.', 'Ladonna put on his big boots and a cloth jacket, and went out to look after his farm.', 'Ladonna slipped into his worn sneakers and a denim vest, and stepped outside to tend to his garden.', 'Ladonna wore his heavy-duty shoes and a canvas shirt, and headed out to care for his greenhouse.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna put on his big boots and a cloth jacket, and went out to look after his farm.",
+        "steps": 1,
+        "tokens": 1627,
+        "latency_s": 22.09,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n63. Alexey Alexandrovitch went to his study and read a book until one o'clock.\n64. Alexey Alexandrovitch warned Karissa about her animated conversation with Count Clarisse.\n65. Alexey Alexandrovitch silently snored in bed after their conversation.\n66. Karissa bowed down and sank from the sofa to the floor at Alexey Alexandrovitch's feet.\n67. Ladonna put on his big boots and a cloth jacket, and went out to look after his farm.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna analyzed weather forecasts and irrigation plans for the fields with the bailiff.', 'Ladonna reviewed the winter harvest results and upcoming crop strategies with the bailiff.', 'Ladonna inspected equipment maintenance schedules and field layouts for the season with the bailiff.', 'Ladonna discussed spring operations and plans for the farm with the bailiff.', 'Ladonna negotiated supply contracts and labor requirements for planting season with the bailiff.', 'Ladonna evaluated soil conditions and pest management strategies for the orchard with the bailiff.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna discussed spring operations and plans for the farm with the bailiff.",
+        "steps": 1,
+        "tokens": 1363,
+        "latency_s": 15.52,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n64. Alexey Alexandrovitch warned Karissa about her animated conversation with Count Clarisse.\n65. Alexey Alexandrovitch silently snored in bed after their conversation.\n66. Karissa bowed down and sank from the sofa to the floor at Alexey Alexandrovitch's feet.\n67. Ladonna put on his big boots and a cloth jacket, and went out to look after his farm.\n68. Ladonna discussed spring operations and plans for the farm with the bailiff.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna raced on her bicycle, Maxine, across the meadow to the sunlit hills.', 'Ladonna sailed on her boat, Blue Dream, along the river to the tranquil lake.', 'Ladonna rode on his horse, Kolpik, through the farmyard to the open country.', 'Ladonna drove in her car, Ruby Red, along the coastline to the bustling town.', 'Ladonna hiked with her dog, Sparky, through the woods to the hidden waterfall.', 'Ladonna skated on her board, Nitro, down the sidewalk to the vibrant park.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna rode on his horse, Kolpik, through the farmyard to the open country.",
+        "steps": 1,
+        "tokens": 1206,
+        "latency_s": 9.4,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n65. Alexey Alexandrovitch silently snored in bed after their conversation.\n66. Karissa bowed down and sank from the sofa to the floor at Alexey Alexandrovitch's feet.\n67. Ladonna put on his big boots and a cloth jacket, and went out to look after his farm.\n68. Ladonna discussed spring operations and plans for the farm with the bailiff.\n69. Ladonna rode on his horse, Kolpik, through the farmyard to the open country.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Ladonna commanded Vassily to stack the boxes neatly and keep track of Dmitri's movements.\", \"Ladonna directed Vassily to sweep the floor thoroughly and oversee Katya's painting.\", \"Ladonna urged Vassily to arrange the tiles carefully and watch over Anton's work.\", \"Ladonna requested Vassily to water the plants gently and evaluate Nina's performance.\", \"Ladonna advised Vassily to scatter the seeds evenly and monitor Tatyana's progress.\", 'Ladonna instructed Vassily to crumble up the clods and keep an eye on Mishka.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna instructed Vassily to crumble up the clods and keep an eye on Mishka.",
+        "steps": 1,
+        "tokens": 1180,
+        "latency_s": 14.65,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n66. Karissa bowed down and sank from the sofa to the floor at Alexey Alexandrovitch's feet.\n67. Ladonna put on his big boots and a cloth jacket, and went out to look after his farm.\n68. Ladonna discussed spring operations and plans for the farm with the bailiff.\n69. Ladonna rode on his horse, Kolpik, through the farmyard to the open country.\n70. Ladonna instructed Vassily to crumble up the clods and keep an eye on Mishka.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna negotiated grazing and grass with the bailiff over dessert.', 'Ladonna chatted about cultivating and corn with the bailiff during breakfast.', 'Ladonna debated lambasting and loam with the bailiff after lunch.', 'Ladonna examined harvesting and hay with the bailiff prior to supper.', 'Ladonna conversed regarding tilling and thyme with the bailiff around noon.', 'Ladonna discussed ploughing and clover with the bailiff before dinner.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Ladonna discussed ploughing and clover with the bailiff before dinner.",
+        "steps": 1,
+        "tokens": 1193,
+        "latency_s": 11.01,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n67. Ladonna put on his big boots and a cloth jacket, and went out to look after his farm.\n68. Ladonna discussed spring operations and plans for the farm with the bailiff.\n69. Ladonna rode on his horse, Kolpik, through the farmyard to the open country.\n70. Ladonna instructed Vassily to crumble up the clods and keep an eye on Mishka.\n71. Ladonna discussed ploughing and clover with the bailiff before dinner.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna led Tristen to a corner of a glade for stand-shooting.', 'Ladonna steered Tristen to a quiet area by the river for clay shooting.', 'Ladonna brought Tristen to a secluded spot in the woods for target shooting.', 'Ladonna directed Tristen to an open field for rifle training.', 'Ladonna escorted Tristen to a hidden grove for bow and arrow exercises.', 'Ladonna guided Tristen to a nearby clearing for archery practice.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1074,
+        "latency_s": 12.5,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n68. Ladonna discussed spring operations and plans for the farm with the bailiff.\n69. Ladonna rode on his horse, Kolpik, through the farmyard to the open country.\n70. Ladonna instructed Vassily to crumble up the clods and keep an eye on Mishka.\n71. Ladonna discussed ploughing and clover with the bailiff before dinner.\n72. Ladonna led Tristen to a corner of a glade for stand-shooting.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch lamented over potentially losing his chance.', 'Edie Arkadyevitch bemoaned about likely dropping his moment to shine.', 'Edie Arkadyevitch worried about seemingly missing his big moment.', 'Edie Arkadyevitch fretted over perhaps skipping his opportunity.', 'Edie Arkadyevitch shouted about possibly missing his shot.', 'Edie Arkadyevitch expressed concern regarding possibly forfeiting his break.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch shouted about possibly missing his shot.",
+        "steps": 1,
+        "tokens": 1478,
+        "latency_s": 23.22,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n69. Ladonna rode on his horse, Kolpik, through the farmyard to the open country.\n70. Ladonna instructed Vassily to crumble up the clods and keep an eye on Mishka.\n71. Ladonna discussed ploughing and clover with the bailiff before dinner.\n72. Ladonna led Tristen to a corner of a glade for stand-shooting.\n73. Edie Arkadyevitch shouted about possibly missing his shot.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Ladonna articulated her confusion upon learning about her neighbor's bizarre hobby.\", \"Ladonna expressed surprise at the news of his sister-in-law's illness.\", \"Ladonna voiced her astonishment regarding the recent discovery of her aunt's hidden talent.\", \"Ladonna revealed her shock when informed about her friend's sudden move to another country.\", \"Ladonna admitted her astonishment at the announcement of her brother's unplanned career change.\", \"Ladonna shared her disbelief upon hearing about her cousin's unexpected engagement.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1209,
+        "latency_s": 16.73,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n70. Ladonna instructed Vassily to crumble up the clods and keep an eye on Mishka.\n71. Ladonna discussed ploughing and clover with the bailiff before dinner.\n72. Ladonna led Tristen to a corner of a glade for stand-shooting.\n73. Edie Arkadyevitch shouted about possibly missing his shot.\n74. Ladonna expressed surprise at the news of his sister-in-law's illness.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Edie Arkadyevitch chuckled when he noticed Ladonna's unexpected sigh of relief.\", \"Edie Arkadyevitch frowned at Ladonna's sudden outburst of laughter.\", \"Edie Arkadyevitch nodded knowingly at Ladonna's swift change in expression.\", \"Edie Arkadyevitch shrugged as he observed Ladonna's shift in perspective.\", \"Edie Arkadyevitch raised an eyebrow at Ladonna's abrupt display of determination.\", \"Edie Arkadyevitch smiled in response to Ladonna's change in mood.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 1001,
+        "latency_s": 9.8,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n71. Ladonna discussed ploughing and clover with the bailiff before dinner.\n72. Ladonna led Tristen to a corner of a glade for stand-shooting.\n73. Edie Arkadyevitch shouted about possibly missing his shot.\n74. Ladonna expressed surprise at the news of his sister-in-law's illness.\n75. Edie Arkadyevitch smiled in response to Ladonna's change in mood.\n\n\nBelow is a list of possible subsequent events:\n\n['Ladonna slammed the door while leaving the room.', 'Ladonna flicked the light switch off with a forceful gesture.', 'Ladonna closed the window abruptly, sending a vase teetering.', 'Ladonna shouted her frustrations as she stomped down the hallway.', 'Ladonna tossed her keys onto the table with a loud clatter.', 'Ladonna dropped her bag onto the floor with a heavy thud.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1451,
+        "latency_s": 22.87,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n72. Ladonna led Tristen to a corner of a glade for stand-shooting.\n73. Edie Arkadyevitch shouted about possibly missing his shot.\n74. Ladonna expressed surprise at the news of his sister-in-law's illness.\n75. Edie Arkadyevitch smiled in response to Ladonna's change in mood.\n76. Ladonna slammed the door while leaving the room.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch nodded at Ladonna, admitting his own reckless behavior.', 'Edie Arkadyevitch sighed at Ladonna, understanding her overwhelming frustration.', 'Edie Arkadyevitch smiled at Ladonna, acknowledging his bad temper.', 'Edie Arkadyevitch frowned at Ladonna, sensing her growing impatience.', 'Edie Arkadyevitch confided in Ladonna, revealing his lingering doubts.', 'Edie Arkadyevitch chuckled softly at Ladonna, recognizing her stubborn determination.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch sighed at Ladonna, understanding her overwhelming frustration.",
+        "steps": 1,
+        "tokens": 1134,
+        "latency_s": 13.15,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n73. Edie Arkadyevitch shouted about possibly missing his shot.\n74. Ladonna expressed surprise at the news of his sister-in-law's illness.\n75. Edie Arkadyevitch smiled in response to Ladonna's change in mood.\n76. Ladonna slammed the door while leaving the room.\n77. Edie Arkadyevitch smiled at Ladonna, acknowledging his bad temper.\n\n\nBelow is a list of possible subsequent events:\n\n['Edie Arkadyevitch conveyed to Ladonna that Juliette was visiting Novgorod.', 'Edie Arkadyevitch announced to Ladonna that Tatiana was staying in Tver.', 'Edie Arkadyevitch revealed to Ladonna that Marcellus had arrived in Moscow.', 'Edie Arkadyevitch notified Ladonna that Dmitri had traveled to Nizhny Novgorod.', 'Edie Arkadyevitch shared with Ladonna that Konstantin was in Kazan.', 'Edie Arkadyevitch informed Ladonna that Clarisse was in Petersburg.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Edie Arkadyevitch informed Ladonna that Clarisse was in Petersburg.",
+        "steps": 1,
+        "tokens": 1146,
+        "latency_s": 14.71,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n74. Ladonna expressed surprise at the news of his sister-in-law's illness.\n75. Edie Arkadyevitch smiled in response to Ladonna's change in mood.\n76. Ladonna slammed the door while leaving the room.\n77. Edie Arkadyevitch smiled at Ladonna, acknowledging his bad temper.\n78. Edie Arkadyevitch informed Ladonna that Clarisse was in Petersburg.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse gathered ingredients to bake a chocolate cake in the shared kitchen.', 'Clarisse set out to whip up a batch of pancakes in the breakfast nook.', 'Clarisse prepared to eat beefsteak in the common messroom.', 'Clarisse decided to brew a pot of herbal tea in the cozy lounge area.', 'Clarisse organized a picnic with sandwiches and fruit in the communal garden.', 'Clarisse planned to grill vegetables on the rooftop terrace.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse planned to grill vegetables on the rooftop terrace.",
+        "steps": 1,
+        "tokens": 1303,
+        "latency_s": 15.05,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n75. Edie Arkadyevitch smiled in response to Ladonna's change in mood.\n76. Ladonna slammed the door while leaving the room.\n77. Edie Arkadyevitch smiled at Ladonna, acknowledging his bad temper.\n78. Edie Arkadyevitch informed Ladonna that Clarisse was in Petersburg.\n79. Clarisse prepared to eat beefsteak in the common messroom.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse questioned Shawn regarding his strategy for the next match.', 'Clarisse challenged Shawn on his approach to managing team dynamics.', 'Clarisse reminded Shawn about the deadline for submitting his scorecards.', 'Clarisse inquired Shawn about the changes in his training regimen lately.', 'Clarisse informed Shawn about the upcoming tournament they were discussing.', 'Clarisse asked Shawn about his winnings from the previous day.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1206,
+        "latency_s": 13.34,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n76. Ladonna slammed the door while leaving the room.\n77. Edie Arkadyevitch smiled at Ladonna, acknowledging his bad temper.\n78. Edie Arkadyevitch informed Ladonna that Clarisse was in Petersburg.\n79. Clarisse prepared to eat beefsteak in the common messroom.\n80. Clarisse asked Shawn about his winnings from the previous day.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse evaluated the health of his gelding with the farrier.', 'Clarisse reviewed the breeding prospects of his pony with the breeder.', 'Clarisse discussed the condition of his mare with the trainer.', 'Clarisse examined the diet of his filly with the nutritionist.', 'Clarisse considered the training regimen of his colt with the jockey.', 'Clarisse debated the performance of his stallion with the vet.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse considered the training regimen of his colt with the jockey.",
+        "steps": 1,
+        "tokens": 1589,
+        "latency_s": 21.65,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n77. Edie Arkadyevitch smiled at Ladonna, acknowledging his bad temper.\n78. Edie Arkadyevitch informed Ladonna that Clarisse was in Petersburg.\n79. Clarisse prepared to eat beefsteak in the common messroom.\n80. Clarisse asked Shawn about his winnings from the previous day.\n81. Clarisse discussed the condition of his mare with the trainer.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse displayed resentment towards her neighbors for their involvement in her community project.', 'Clarisse experienced frustration with her friends for their meddling in her career choices.', 'Clarisse felt anger towards his family for their interference in his love life.', 'Clarisse harbored bitterness towards her siblings for their disruption of her academic pursuits.', 'Clarisse expressed disappointment in her coworkers for their intrusion into her personal affairs.', 'Clarisse sensed irritation with her parents for their encroachment on her travel plans.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse felt anger towards his family for their interference in his love life.",
+        "steps": 1,
+        "tokens": 938,
+        "latency_s": 7.82,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n78. Edie Arkadyevitch informed Ladonna that Clarisse was in Petersburg.\n79. Clarisse prepared to eat beefsteak in the common messroom.\n80. Clarisse asked Shawn about his winnings from the previous day.\n81. Clarisse discussed the condition of his mare with the trainer.\n82. Clarisse felt anger towards his family for their interference in his love life.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse wondered aloud to a painter if the gallery would open soon.', 'Clarisse inquired with a neighbor whether the party had started yet.', 'Clarisse questioned a shopkeeper if the dress was on sale this week.', 'Clarisse questioned a baker if the croissants were fresh today.', 'Clarisse asked a librarian whether the book was still available for borrowing.', 'Clarisse asked a gardener if the mistress was at home.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse asked a gardener if the mistress was at home.",
+        "steps": 1,
+        "tokens": 1293,
+        "latency_s": 11.6,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n79. Clarisse prepared to eat beefsteak in the common messroom.\n80. Clarisse asked Shawn about his winnings from the previous day.\n81. Clarisse discussed the condition of his mare with the trainer.\n82. Clarisse felt anger towards his family for their interference in his love life.\n83. Clarisse asked a gardener if the mistress was at home.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa shared with Clarisse that she was planning to run a marathon.', 'Karissa disclosed to Clarisse that she had adopted a puppy.', 'Karissa informed Clarisse that she was moving to a new city.', 'Karissa revealed to Clarisse that she was with child.', 'Karissa confessed to Clarisse that she had lost her job.', 'Karissa announced to Clarisse that she had started a new business.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa revealed to Clarisse that she was with child.",
+        "steps": 1,
+        "tokens": 1172,
+        "latency_s": 11.32,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n80. Clarisse asked Shawn about his winnings from the previous day.\n81. Clarisse discussed the condition of his mare with the trainer.\n82. Clarisse felt anger towards his family for their interference in his love life.\n83. Clarisse asked a gardener if the mistress was at home.\n84. Karissa revealed to Clarisse that she was with child.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa expressed fear of her husband’s reaction if she told him the truth.', 'Karissa felt a pang of anxiety at the thought of admitting her doubts about her job to her colleagues, fearing their judgment.', 'Karissa was filled with apprehension about sharing her past mistakes with her sister, concerned it might change their bond.', 'Karissa dreaded the possibility of confessing her secret to her best friend, worried it might ruin their friendship.', 'Karissa struggled with the idea of telling her children the truth about their family situation, afraid of how they would react.', 'Karissa hesitated to reveal her financial struggles to her parents, fearing their disappointment.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa expressed fear of her husband’s reaction if she told him the truth.",
+        "steps": 1,
+        "tokens": 1058,
+        "latency_s": 8.59,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n81. Clarisse discussed the condition of his mare with the trainer.\n82. Clarisse felt anger towards his family for their interference in his love life.\n83. Clarisse asked a gardener if the mistress was at home.\n84. Karissa revealed to Clarisse that she was with child.\n85. Karissa expressed fear of her husband’s reaction if she told him the truth.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse acknowledged the deadline was approaching when he checked the time on his laptop.', 'Clarisse realized he was late after checking his watch.', 'Clarisse noticed the meeting was starting without him after seeing the notifications on his phone.', 'Clarisse understood he missed the bus when he saw the time on the station clock.', 'Clarisse remembered his appointment was today after glancing at his calendar.', 'Clarisse discovered he had forgotten his presentation after reviewing his notes in the lobby.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse realized he was late after checking his watch.",
+        "steps": 1,
+        "tokens": 1537,
+        "latency_s": 20.09,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n82. Clarisse felt anger towards his family for their interference in his love life.\n83. Clarisse asked a gardener if the mistress was at home.\n84. Karissa revealed to Clarisse that she was with child.\n85. Karissa expressed fear of her husband’s reaction if she told him the truth.\n86. Clarisse realized he was late after checking his watch.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse inquired of the baker what time the pastries would be ready.', 'Clarisse wondered aloud why the gardener had pruned the roses.', 'Clarisse cautioned the painter about mixing too many colors in his palette.', 'Clarisse requested the librarian to help her find a rare book on the shelves.', 'Clarisse challenged the musician to play her favorite song on the spot.', 'Clarisse asked the stable-boy where Cord was.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse asked the stable-boy where Cord was.",
+        "steps": 1,
+        "tokens": 1318,
+        "latency_s": 16.23,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n83. Clarisse asked a gardener if the mistress was at home.\n84. Karissa revealed to Clarisse that she was with child.\n85. Karissa expressed fear of her husband’s reaction if she told him the truth.\n86. Clarisse realized he was late after checking his watch.\n87. Clarisse asked the stable-boy where Cord was.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse discovered a forgotten diary from her friend delivered through Brent.', 'Clarisse found a cherished trinket from her aunt transmitted by Brent.', 'Clarisse obtained a mysterious invitation from her neighbor sent through Brent.', 'Clarisse received a letter from his mother through Brent.', 'Clarisse unearthed an old photograph from her uncle carried by Brent.', 'Clarisse encountered an unexpected package from her sister via Brent.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse received a letter from his mother through Brent.",
+        "steps": 1,
+        "tokens": 1162,
+        "latency_s": 11.05,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n84. Karissa revealed to Clarisse that she was with child.\n85. Karissa expressed fear of her husband’s reaction if she told him the truth.\n86. Clarisse realized he was late after checking his watch.\n87. Clarisse asked the stable-boy where Cord was.\n88. Clarisse received a letter from his mother through Brent.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse scaled the mountain and discovered the hidden cave.', 'Clarisse cleared the stream and regained control of Frou-Frou.', 'Clarisse surveyed the marketplace and traded the rare gemstone.', 'Clarisse navigated the forest and retrieved the golden compass.', 'Clarisse crossed the desert and captured the elusive falcon.', 'Clarisse explored the ruins and unearthed the ancient relic.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse cleared the stream and regained control of Frou-Frou.",
+        "steps": 1,
+        "tokens": 1187,
+        "latency_s": 15.91,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n85. Karissa expressed fear of her husband’s reaction if she told him the truth.\n86. Clarisse realized he was late after checking his watch.\n87. Clarisse asked the stable-boy where Cord was.\n88. Clarisse received a letter from his mother through Brent.\n89. Clarisse cleared the stream and regained control of Frou-Frou.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse lifted the whip as Frou-Frou quickened her pace toward the obstacle.', 'Clarisse flicked the reins as Frou-Frou dashed toward the waiting crowd.', 'Clarisse raised her hand as Frou-Frou galloped toward the finish line.', 'Clarisse tightened her grip as Frou-Frou leaped over the barrier.', 'Clarisse positioned the flag as Frou-Frou charged ahead toward victory.', 'Clarisse swung the rope as Frou-Frou darted through the daring course.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse tightened her grip as Frou-Frou leaped over the barrier.",
+        "steps": 1,
+        "tokens": 1161,
+        "latency_s": 12.0,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n86. Clarisse realized he was late after checking his watch.\n87. Clarisse asked the stable-boy where Cord was.\n88. Clarisse received a letter from his mother through Brent.\n89. Clarisse cleared the stream and regained control of Frou-Frou.\n90. Clarisse lifted the whip as Frou-Frou quickened her pace toward the obstacle.\n\n\nBelow is a list of possible subsequent events:\n\n['Clarisse stumbled over the uneven ground while carrying her heavy backpack.', 'Clarisse hurriedly scribbled notes as she tried to interview the mysterious stranger.', 'Clarisse shouted for help as she searched frantically for her lost cat.', \"Clarisse tugged at Frou-Frou's reins in desperation after she fell.\", 'Clarisse gasped in shock when she discovered the hidden treasure chest in the forest.', \"Clarisse waved her hands wildly to get the crowd's attention during the parade.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Clarisse tugged at Frou-Frou's reins in desperation after she fell.",
+        "steps": 1,
+        "tokens": 1080,
+        "latency_s": 12.27,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n87. Clarisse asked the stable-boy where Cord was.\n88. Clarisse received a letter from his mother through Brent.\n89. Clarisse cleared the stream and regained control of Frou-Frou.\n90. Clarisse lifted the whip as Frou-Frou quickened her pace toward the obstacle.\n91. Clarisse tugged at Frou-Frou's reins in desperation after she fell.\n\n\nBelow is a list of possible subsequent events:\n\n['Alexey Alexandrovitch questioned Karissa about her past relationships and romantic interests.', 'Alexey Alexandrovitch repeatedly chastised Karissa for her late-night outings with friends.', \"Alexey Alexandrovitch expressed his admiration for Karissa's independence and adventurous spirit.\", 'Alexey Alexandrovitch confided his fears and insecurities to Karissa during their late-night conversations.', 'Alexey Alexandrovitch did not speak to Karissa about his suspicions and jealousies.', \"Alexey Alexandrovitch ardently praised Karissa's achievements and encouraged her to pursue her dreams.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法从给定选项中确定后续事件。",
+        "steps": 1,
+        "tokens": 1789,
+        "latency_s": 26.45,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n88. Clarisse received a letter from his mother through Brent.\n89. Clarisse cleared the stream and regained control of Frou-Frou.\n90. Clarisse lifted the whip as Frou-Frou quickened her pace toward the obstacle.\n91. Clarisse tugged at Frou-Frou's reins in desperation after she fell.\n92. Alexey Alexandrovitch did not speak to Karissa about his suspicions and jealousies.\n\n\nBelow is a list of possible subsequent events:\n\n['Karissa smiled warmly at Alexey Alexandrovitch although her heart raced with anxiety.', 'Karissa approached Alexey Alexandrovitch with enthusiasm, masking her deep-seated doubts.', 'Karissa greeted Alexey Alexandrovitch with a bright face despite her inner turmoil.', 'Karissa waved eagerly to Alexey Alexandrovitch, concealing her bittersweet feelings beneath a cheerful exterior.', 'Karissa laughed softly with Alexey Alexandrovitch, hiding her apprehension behind a facade of joy.', 'Karissa complimented Alexey Alexandrovitch with enthusiasm, all while battling her overwhelming insecurities.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa smiled warmly at Alexey Alexandrovitch although her heart raced with anxiety.",
+        "steps": 1,
+        "tokens": 1574,
+        "latency_s": 23.02,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n89. Clarisse cleared the stream and regained control of Frou-Frou.\n90. Clarisse lifted the whip as Frou-Frou quickened her pace toward the obstacle.\n91. Clarisse tugged at Frou-Frou's reins in desperation after she fell.\n92. Alexey Alexandrovitch did not speak to Karissa about his suspicions and jealousies.\n93. Karissa greeted Alexey Alexandrovitch with a bright face despite her inner turmoil.\n\n\nBelow is a list of possible subsequent events:\n\n['Alexey Alexandrovitch offered advice to Karissa, which she considered before responding thoughtfully.', 'Alexey Alexandrovitch proposed a plan to Karissa, which she mulled over before giving her opinion.', 'Alexey Alexandrovitch brought money for Karissa, which she accepted after some hesitation.', 'Alexey Alexandrovitch gifted flowers to Karissa, which she admired despite her initial reluctance.', 'Alexey Alexandrovitch invited Karissa for dinner, which she contemplated before ultimately agreeing.', \"Alexey Alexandrovitch shared a secret with Karissa, which she absorbed after a moment's reflection.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Alexey Alexandrovitch brought money for Karissa, which she accepted after some hesitation.",
+        "steps": 1,
+        "tokens": 1167,
+        "latency_s": 9.78,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n90. Clarisse lifted the whip as Frou-Frou quickened her pace toward the obstacle.\n91. Clarisse tugged at Frou-Frou's reins in desperation after she fell.\n92. Alexey Alexandrovitch did not speak to Karissa about his suspicions and jealousies.\n93. Karissa greeted Alexey Alexandrovitch with a bright face despite her inner turmoil.\n94. Alexey Alexandrovitch brought money for Karissa, which she accepted after some hesitation.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Karissa was outraged by Alexey Alexandrovitch's conduct at the music festival.\", \"Karissa was shocked by Alexey Alexandrovitch's attitude at the art exhibition.\", \"Karissa was appalled by Alexey Alexandrovitch's behavior at the charity gala.\", \"Karissa found herself irritated by Alexey Alexandrovitch's remarks during the dinner party.\", \"Karissa could hardly conceal her disdain for Alexey Alexandrovitch's antics at the sports bar.\", \"Karissa felt disgusted by Alexey Alexandrovitch's demeanor at the race-course.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Karissa felt disgusted by Alexey Alexandrovitch's demeanor at the race-course.",
+        "steps": 1,
+        "tokens": 1286,
+        "latency_s": 13.32,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n91. Clarisse tugged at Frou-Frou's reins in desperation after she fell.\n92. Alexey Alexandrovitch did not speak to Karissa about his suspicions and jealousies.\n93. Karissa greeted Alexey Alexandrovitch with a bright face despite her inner turmoil.\n94. Alexey Alexandrovitch brought money for Karissa, which she accepted after some hesitation.\n95. Karissa felt disgusted by Alexey Alexandrovitch's demeanor at the race-course.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Alexey Alexandrovitch caught Karissa's gaze and touched her shoulder reassuringly in silence.\", \"Alexey Alexandrovitch observed Karissa's tears and offered her his arm again.\", \"Alexey Alexandrovitch sensed Karissa's overwhelm and guided her to a quiet corner, offering her a moment of peace.\", \"Alexey Alexandrovitch felt Karissa's sorrow and intertwined his fingers with hers to provide solace.\", \"Alexey Alexandrovitch recognized Karissa's sorrow and instinctively drew closer, whispering words of comfort.\", \"Alexey Alexandrovitch noticed Karissa's distress and handed her a handkerchief with a gentle smile.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1901,
+        "latency_s": 32.8,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n92. Alexey Alexandrovitch did not speak to Karissa about his suspicions and jealousies.\n93. Karissa greeted Alexey Alexandrovitch with a bright face despite her inner turmoil.\n94. Alexey Alexandrovitch brought money for Karissa, which she accepted after some hesitation.\n95. Karissa felt disgusted by Alexey Alexandrovitch's demeanor at the race-course.\n96. Alexey Alexandrovitch observed Karissa's tears and offered her his arm again.\n\n\nBelow is a list of possible subsequent events:\n\n['Alain expressed a desire to speak to Lucian.', 'Alain showed interest in meeting with Lucian.', 'Alain sought an opportunity to confer with Lucian.', 'Alain indicated a need to consult with Lucian.', 'Alain requested permission to dialogue with Lucian.', 'Alain mentioned a wish to connect with Lucian.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1526,
+        "latency_s": 21.07,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n93. Karissa greeted Alexey Alexandrovitch with a bright face despite her inner turmoil.\n94. Alexey Alexandrovitch brought money for Karissa, which she accepted after some hesitation.\n95. Karissa felt disgusted by Alexey Alexandrovitch's demeanor at the race-course.\n96. Alexey Alexandrovitch observed Karissa's tears and offered her his arm again.\n97. Alain expressed a desire to speak to Lucian.\n\n\nBelow is a list of possible subsequent events:\n\n['Lucian sang at the piano while Alain accompanied her.', 'Lucian designed the costume while Alain arranged the lighting.', 'Lucian danced on stage while Alain played the guitar.', 'Lucian painted the mural while Alain directed the installation.', 'Lucian read the poem while Alain projected the visuals.', 'Lucian cooked the dinner while Alain served the guests.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Lucian sang at the piano while Alain accompanied her.",
+        "steps": 1,
+        "tokens": 832,
+        "latency_s": 6.64,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n94. Alexey Alexandrovitch brought money for Karissa, which she accepted after some hesitation.\n95. Karissa felt disgusted by Alexey Alexandrovitch's demeanor at the race-course.\n96. Alexey Alexandrovitch observed Karissa's tears and offered her his arm again.\n97. Alain expressed a desire to speak to Lucian.\n98. Lucian sang at the piano while Alain accompanied her.\n\n\nBelow is a list of possible subsequent events:\n\n['Alain wondered if Lucian had memories tied to the painting.', 'Alain asked Lucian if she had reminiscences connected with the song.', 'Alain inquired whether Lucian remembered moments associated with the book.', 'Alain questioned Lucian about any reflections related to the poem.', 'Alain speculated if Lucian held experiences linked to the photograph.', 'Alain probed if Lucian had insights connected to the dance.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Alain asked Lucian if she had reminiscences connected with the song.",
+        "steps": 1,
+        "tokens": 883,
+        "latency_s": 5.78,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n95. Karissa felt disgusted by Alexey Alexandrovitch's demeanor at the race-course.\n96. Alexey Alexandrovitch observed Karissa's tears and offered her his arm again.\n97. Alain expressed a desire to speak to Lucian.\n98. Lucian sang at the piano while Alain accompanied her.\n99. Alain asked Lucian if she had reminiscences connected with the song.\n\n\nBelow is a list of possible subsequent events:\n\n['Lucian challenged Alain to redefine her personal goals.', 'Lucian motivated Alain to express her true feelings.', 'Lucian urged Alain to embrace her unique style.', 'Lucian encouraged Alain to be herself.', 'Lucian supported Alain in sharing her creative vision.', 'Lucian inspired Alain to pursue her wildest dreams.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 1644,
+        "latency_s": 26.66,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n96. Alexey Alexandrovitch observed Karissa's tears and offered her his arm again.\n97. Alain expressed a desire to speak to Lucian.\n98. Lucian sang at the piano while Alain accompanied her.\n99. Alain asked Lucian if she had reminiscences connected with the song.\n100. Lucian encouraged Alain to be herself.\n\n\nBelow is a list of possible subsequent events:\n\n['Alain revealed her disdain for a colleague who undermined her confidence.', 'Alain confessed her dislike for a teacher who belittled her efforts.', 'Alain disclosed her aversion to a former partner who broke her heart.', 'Alain articulated her anger directed at a neighbor who disrupted her peace.', 'Alain shared her resentment towards a friend who betrayed her trust.', 'Alain expressed her hatred towards a man who caused her pain.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Alain expressed her hatred towards a man who caused her pain.",
+        "steps": 1,
+        "tokens": 988,
+        "latency_s": 7.87,
+        "replan": 0
+      }
+    ]
+  }
+}

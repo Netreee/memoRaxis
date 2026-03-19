@@ -1,0 +1,1220 @@
+{
+  "dataset": "Test_Time_Learning",
+  "instance_idx": 3,
+  "results": {
+    "R1": [
+      {
+        "question": "fight me in street fighter",
+        "answer": "{43}",
+        "ground_truth": [
+          "43"
+        ],
+        "steps": 1,
+        "tokens": 3172,
+        "latency_s": 6.48,
+        "replan": 0
+      },
+      {
+        "question": "i have to tell you about my day",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 1,
+        "tokens": 3120,
+        "latency_s": 5.12,
+        "replan": 0
+      },
+      {
+        "question": "is meryl streep an actress or singer",
+        "answer": "5",
+        "ground_truth": [
+          "5"
+        ],
+        "steps": 1,
+        "tokens": 3011,
+        "latency_s": 4.82,
+        "replan": 0
+      },
+      {
+        "question": "did i get any replies from jan",
+        "answer": "{14}",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 1,
+        "tokens": 3150,
+        "latency_s": 8.14,
+        "replan": 0
+      },
+      {
+        "question": "cancel the meeting next week Thursday at two pm",
+        "answer": "{15}",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 1,
+        "tokens": 3248,
+        "latency_s": 10.0,
+        "replan": 0
+      },
+      {
+        "question": "tweet at macy's two weeks after purchase and the hems have all come loose",
+        "answer": "{46}",
+        "ground_truth": [
+          "46"
+        ],
+        "steps": 1,
+        "tokens": 3290,
+        "latency_s": 9.32,
+        "replan": 0
+      },
+      {
+        "question": "tell my family this in an email",
+        "answer": "{50}",
+        "ground_truth": [
+          "50"
+        ],
+        "steps": 1,
+        "tokens": 3124,
+        "latency_s": 8.11,
+        "replan": 0
+      },
+      {
+        "question": "do not mind to choose any one.",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 1,
+        "tokens": 3082,
+        "latency_s": 5.81,
+        "replan": 0
+      },
+      {
+        "question": "see you",
+        "answer": "上下文信息不足，无法确定\"see you\"对应的标签。",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 1,
+        "tokens": 3063,
+        "latency_s": 5.8,
+        "replan": 0
+      },
+      {
+        "question": "confirm alarm for tomorrow morning",
+        "answer": "{62}",
+        "ground_truth": [
+          "62"
+        ],
+        "steps": 1,
+        "tokens": 3140,
+        "latency_s": 5.77,
+        "replan": 0
+      },
+      {
+        "question": "what do you want to do today",
+        "answer": "上下文信息不足，无法确定对应的数值标签。",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 1,
+        "tokens": 3163,
+        "latency_s": 5.98,
+        "replan": 0
+      },
+      {
+        "question": "open calendar",
+        "answer": "上下文信息不足",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 3294,
+        "latency_s": 12.4,
+        "replan": 0
+      },
+      {
+        "question": "where is stonehenge",
+        "answer": "{5}",
+        "ground_truth": [
+          "5"
+        ],
+        "steps": 1,
+        "tokens": 3526,
+        "latency_s": 20.33,
+        "replan": 0
+      },
+      {
+        "question": "how many mega pixel is listed in the description of the canon",
+        "answer": "上下文信息不足",
+        "ground_truth": [
+          "5"
+        ],
+        "steps": 1,
+        "tokens": 3454,
+        "latency_s": 15.14,
+        "replan": 0
+      },
+      {
+        "question": "how tall is lebron james",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "5"
+        ],
+        "steps": 1,
+        "tokens": 3358,
+        "latency_s": 13.47,
+        "replan": 0
+      },
+      {
+        "question": "give me the time",
+        "answer": "{18}",
+        "ground_truth": [
+          "18"
+        ],
+        "steps": 1,
+        "tokens": 3212,
+        "latency_s": 8.22,
+        "replan": 0
+      },
+      {
+        "question": "delete list for groceries",
+        "answer": "{19}",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 1,
+        "tokens": 3217,
+        "latency_s": 9.0,
+        "replan": 0
+      },
+      {
+        "question": "did i get any emails from jack",
+        "answer": "{14}",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 1,
+        "tokens": 3195,
+        "latency_s": 10.14,
+        "replan": 0
+      },
+      {
+        "question": "confirm last thing said please.",
+        "answer": "{12}",
+        "ground_truth": [
+          "12"
+        ],
+        "steps": 1,
+        "tokens": 3085,
+        "latency_s": 6.02,
+        "replan": 0
+      },
+      {
+        "question": "olly set my alarm to go off in an hour",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 3278,
+        "latency_s": 7.79,
+        "replan": 0
+      },
+      {
+        "question": "what are the bbc poll predictions for the upcoming us elections",
+        "answer": "{36}",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 1,
+        "tokens": 3294,
+        "latency_s": 10.73,
+        "replan": 0
+      },
+      {
+        "question": "please remind me to go to the post office",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 3172,
+        "latency_s": 9.34,
+        "replan": 0
+      },
+      {
+        "question": "new emails",
+        "answer": "14",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 1,
+        "tokens": 3114,
+        "latency_s": 6.87,
+        "replan": 0
+      },
+      {
+        "question": "is it noon in paris",
+        "answer": "18",
+        "ground_truth": [
+          "18"
+        ],
+        "steps": 1,
+        "tokens": 3452,
+        "latency_s": 16.74,
+        "replan": 0
+      },
+      {
+        "question": "what food is good",
+        "answer": "66",
+        "ground_truth": [
+          "65"
+        ],
+        "steps": 1,
+        "tokens": 3044,
+        "latency_s": 4.22,
+        "replan": 0
+      },
+      {
+        "question": "what is the exchange rate for eleven british pounds in us dollars",
+        "answer": "{55}",
+        "ground_truth": [
+          "55"
+        ],
+        "steps": 1,
+        "tokens": 3223,
+        "latency_s": 8.68,
+        "replan": 0
+      },
+      {
+        "question": "how many dollars are in a euro",
+        "answer": "{55}",
+        "ground_truth": [
+          "55"
+        ],
+        "steps": 1,
+        "tokens": 3093,
+        "latency_s": 5.72,
+        "replan": 0
+      },
+      {
+        "question": "one am set",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 3045,
+        "latency_s": 5.15,
+        "replan": 0
+      },
+      {
+        "question": "let me know when i am three days out from this event in my calendar",
+        "answer": "38",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 3204,
+        "latency_s": 9.65,
+        "replan": 0
+      },
+      {
+        "question": "how many runs did cheteshwar pujara scored yesterday",
+        "answer": "上下文信息不足，无法为该问题分配标签。",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 1,
+        "tokens": 3046,
+        "latency_s": 4.91,
+        "replan": 0
+      },
+      {
+        "question": "add eggs to my grocery list",
+        "answer": "{57}",
+        "ground_truth": [
+          "57"
+        ],
+        "steps": 1,
+        "tokens": 3174,
+        "latency_s": 5.67,
+        "replan": 0
+      },
+      {
+        "question": "hey i feel good",
+        "answer": "上下文信息不足，无法确定该输入对应的标签。",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 1,
+        "tokens": 3266,
+        "latency_s": 8.69,
+        "replan": 0
+      },
+      {
+        "question": "you've done your understanding correcly.",
+        "answer": "{21}",
+        "ground_truth": [
+          "21"
+        ],
+        "steps": 1,
+        "tokens": 3096,
+        "latency_s": 6.08,
+        "replan": 0
+      },
+      {
+        "question": "please confirm details.",
+        "answer": "{12}",
+        "ground_truth": [
+          "12"
+        ],
+        "steps": 1,
+        "tokens": 3077,
+        "latency_s": 5.32,
+        "replan": 0
+      },
+      {
+        "question": "describe the list contents",
+        "answer": "29",
+        "ground_truth": [
+          "29"
+        ],
+        "steps": 1,
+        "tokens": 3255,
+        "latency_s": 6.5,
+        "replan": 0
+      },
+      {
+        "question": "that is all, cancel it.",
+        "answer": "{56}",
+        "ground_truth": [
+          "56"
+        ],
+        "steps": 1,
+        "tokens": 3017,
+        "latency_s": 5.64,
+        "replan": 0
+      },
+      {
+        "question": "shutoff light in the kitchen",
+        "answer": "{26}",
+        "ground_truth": [
+          "26"
+        ],
+        "steps": 1,
+        "tokens": 3040,
+        "latency_s": 3.76,
+        "replan": 0
+      },
+      {
+        "question": "it should spices",
+        "answer": "{65}",
+        "ground_truth": [
+          "65"
+        ],
+        "steps": 1,
+        "tokens": 3285,
+        "latency_s": 8.92,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate it, that's amazing.",
+        "answer": "{64}",
+        "ground_truth": [
+          "64"
+        ],
+        "steps": 1,
+        "tokens": 3176,
+        "latency_s": 6.39,
+        "replan": 0
+      },
+      {
+        "question": "would you please clarify me about the last sentence again.",
+        "answer": "16",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 3123,
+        "latency_s": 4.78,
+        "replan": 0
+      },
+      {
+        "question": "send an email to emma",
+        "answer": "{50}",
+        "ground_truth": [
+          "50"
+        ],
+        "steps": 1,
+        "tokens": 3122,
+        "latency_s": 6.64,
+        "replan": 0
+      },
+      {
+        "question": "yesterday at noontime in times square what was the protest about",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 1,
+        "tokens": 3062,
+        "latency_s": 4.88,
+        "replan": 0
+      },
+      {
+        "question": "thanks but i think you are wrong.",
+        "answer": "23",
+        "ground_truth": [
+          "23"
+        ],
+        "steps": 1,
+        "tokens": 3241,
+        "latency_s": 8.56,
+        "replan": 0
+      },
+      {
+        "question": "turn on my playlist and play third song in the queue",
+        "answer": "{17}",
+        "ground_truth": [
+          "17"
+        ],
+        "steps": 1,
+        "tokens": 3196,
+        "latency_s": 7.84,
+        "replan": 0
+      },
+      {
+        "question": "hey tell me a knock knock joke",
+        "answer": "{41}",
+        "ground_truth": [
+          "41"
+        ],
+        "steps": 1,
+        "tokens": 3238,
+        "latency_s": 8.56,
+        "replan": 0
+      },
+      {
+        "question": "delete all lists",
+        "answer": "19",
+        "ground_truth": [
+          "19"
+        ],
+        "steps": 1,
+        "tokens": 3170,
+        "latency_s": 7.03,
+        "replan": 0
+      },
+      {
+        "question": "how far away is seattle",
+        "answer": "信息不足",
+        "ground_truth": [
+          "5"
+        ],
+        "steps": 1,
+        "tokens": 3011,
+        "latency_s": 5.12,
+        "replan": 0
+      },
+      {
+        "question": "did ashwin joined party yesterday",
+        "answer": "{5}",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 1,
+        "tokens": 3358,
+        "latency_s": 13.64,
+        "replan": 0
+      },
+      {
+        "question": "what is the my upcoming events",
+        "answer": "{67}",
+        "ground_truth": [
+          "67"
+        ],
+        "steps": 1,
+        "tokens": 3098,
+        "latency_s": 7.38,
+        "replan": 0
+      },
+      {
+        "question": "call yellow cab",
+        "answer": "{24}",
+        "ground_truth": [
+          "24"
+        ],
+        "steps": 1,
+        "tokens": 3004,
+        "latency_s": 4.42,
+        "replan": 0
+      },
+      {
+        "question": "s2, i couldn't get what you have said.",
+        "answer": "16",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 3153,
+        "latency_s": 7.73,
+        "replan": 0
+      },
+      {
+        "question": "would you say that one more time again please.",
+        "answer": "{11}",
+        "ground_truth": [
+          "11"
+        ],
+        "steps": 1,
+        "tokens": 3104,
+        "latency_s": 5.96,
+        "replan": 0
+      },
+      {
+        "question": "answer the equation eight times seven",
+        "answer": "61",
+        "ground_truth": [
+          "61"
+        ],
+        "steps": 1,
+        "tokens": 3191,
+        "latency_s": 6.22,
+        "replan": 0
+      },
+      {
+        "question": "give me the opening stock price of intel today",
+        "answer": "{4}",
+        "ground_truth": [
+          "4"
+        ],
+        "steps": 1,
+        "tokens": 3232,
+        "latency_s": 6.84,
+        "replan": 0
+      },
+      {
+        "question": "please set a meeting to discuss terrorism with fred on the next available meeting day",
+        "answer": "{38}",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 3097,
+        "latency_s": 8.43,
+        "replan": 0
+      },
+      {
+        "question": "how long does it take to get from here to chicago by train",
+        "answer": "32",
+        "ground_truth": [
+          "44"
+        ],
+        "steps": 1,
+        "tokens": 3407,
+        "latency_s": 14.55,
+        "replan": 0
+      },
+      {
+        "question": "have i gotten any mail recently",
+        "answer": "{14}",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 1,
+        "tokens": 3174,
+        "latency_s": 6.64,
+        "replan": 0
+      },
+      {
+        "question": "if it's five am in berlin what time is it here",
+        "answer": "{20}",
+        "ground_truth": [
+          "20"
+        ],
+        "steps": 1,
+        "tokens": 3348,
+        "latency_s": 10.88,
+        "replan": 0
+      },
+      {
+        "question": "make a status stating i got the promotion",
+        "answer": "{46}",
+        "ground_truth": [
+          "46"
+        ],
+        "steps": 1,
+        "tokens": 3272,
+        "latency_s": 9.03,
+        "replan": 0
+      },
+      {
+        "question": "can you retry what i've said please.",
+        "answer": "{11}",
+        "ground_truth": [
+          "11"
+        ],
+        "steps": 1,
+        "tokens": 3174,
+        "latency_s": 5.29,
+        "replan": 0
+      },
+      {
+        "question": "turn on talk radio",
+        "answer": "{27}",
+        "ground_truth": [
+          "27"
+        ],
+        "steps": 1,
+        "tokens": 3156,
+        "latency_s": 9.35,
+        "replan": 0
+      },
+      {
+        "question": "uh no, that isn't what i requested.",
+        "answer": "23",
+        "ground_truth": [
+          "23"
+        ],
+        "steps": 1,
+        "tokens": 3147,
+        "latency_s": 5.59,
+        "replan": 0
+      },
+      {
+        "question": "remove the board meeting and reschedule for next wednesday",
+        "answer": "{15}",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 1,
+        "tokens": 3176,
+        "latency_s": 8.14,
+        "replan": 0
+      },
+      {
+        "question": "local show",
+        "answer": "信息不足",
+        "ground_truth": [
+          "51"
+        ],
+        "steps": 1,
+        "tokens": 3215,
+        "latency_s": 9.62,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate helping.",
+        "answer": "64",
+        "ground_truth": [
+          "64"
+        ],
+        "steps": 1,
+        "tokens": 3211,
+        "latency_s": 7.53,
+        "replan": 0
+      },
+      {
+        "question": "i think it's not the correct command.",
+        "answer": "{23}",
+        "ground_truth": [
+          "23"
+        ],
+        "steps": 1,
+        "tokens": 3150,
+        "latency_s": 6.8,
+        "replan": 0
+      },
+      {
+        "question": "what are my tasks",
+        "answer": "{29}",
+        "ground_truth": [
+          "29"
+        ],
+        "steps": 1,
+        "tokens": 3080,
+        "latency_s": 6.48,
+        "replan": 0
+      },
+      {
+        "question": "hwood",
+        "answer": "上下文信息不足，无法确定“hwood”对应的标签。",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 1,
+        "tokens": 3040,
+        "latency_s": 4.2,
+        "replan": 0
+      },
+      {
+        "question": "list saturday night events near current location",
+        "answer": "{51}",
+        "ground_truth": [
+          "51"
+        ],
+        "steps": 1,
+        "tokens": 3219,
+        "latency_s": 7.94,
+        "replan": 0
+      },
+      {
+        "question": "turn the lights on",
+        "answer": "13",
+        "ground_truth": [
+          "13"
+        ],
+        "steps": 1,
+        "tokens": 3552,
+        "latency_s": 17.27,
+        "replan": 0
+      },
+      {
+        "question": "wake me up on Friday at five in the morning i need to catch the train",
+        "answer": "{42}",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 3192,
+        "latency_s": 7.81,
+        "replan": 0
+      },
+      {
+        "question": "show me music by that artist",
+        "answer": "17",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 3466,
+        "latency_s": 16.92,
+        "replan": 0
+      },
+      {
+        "question": "i need to change the color of this light",
+        "answer": "{40}",
+        "ground_truth": [
+          "40"
+        ],
+        "steps": 1,
+        "tokens": 3231,
+        "latency_s": 7.93,
+        "replan": 0
+      },
+      {
+        "question": "i want to send an email to my family do you help me",
+        "answer": "50",
+        "ground_truth": [
+          "50"
+        ],
+        "steps": 1,
+        "tokens": 3105,
+        "latency_s": 6.97,
+        "replan": 0
+      },
+      {
+        "question": "please can you say the last comment one more time.",
+        "answer": "11",
+        "ground_truth": [
+          "11"
+        ],
+        "steps": 1,
+        "tokens": 3051,
+        "latency_s": 4.83,
+        "replan": 0
+      },
+      {
+        "question": "please open chess game i would like to play with you",
+        "answer": "{43}",
+        "ground_truth": [
+          "43"
+        ],
+        "steps": 1,
+        "tokens": 3134,
+        "latency_s": 5.34,
+        "replan": 0
+      },
+      {
+        "question": "awesome work, you did well, olly.",
+        "answer": "{64}",
+        "ground_truth": [
+          "64"
+        ],
+        "steps": 1,
+        "tokens": 3262,
+        "latency_s": 7.79,
+        "replan": 0
+      },
+      {
+        "question": "what is the customer service feedback",
+        "answer": "上下文信息不足，无法确定该查询对应的标签。",
+        "ground_truth": [
+          "46"
+        ],
+        "steps": 1,
+        "tokens": 3245,
+        "latency_s": 11.4,
+        "replan": 0
+      },
+      {
+        "question": "what are my plans for today",
+        "answer": "67",
+        "ground_truth": [
+          "67"
+        ],
+        "steps": 1,
+        "tokens": 3095,
+        "latency_s": 6.19,
+        "replan": 0
+      },
+      {
+        "question": "set up each day an alarm at ten time for my meal",
+        "answer": "42",
+        "ground_truth": [
+          "42"
+        ],
+        "steps": 1,
+        "tokens": 3145,
+        "latency_s": 5.53,
+        "replan": 0
+      },
+      {
+        "question": "start audiobook the time traveller",
+        "answer": "{54}",
+        "ground_truth": [
+          "54"
+        ],
+        "steps": 1,
+        "tokens": 3036,
+        "latency_s": 4.75,
+        "replan": 0
+      },
+      {
+        "question": "can i mine for gold on any public land",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 1,
+        "tokens": 3014,
+        "latency_s": 5.33,
+        "replan": 0
+      },
+      {
+        "question": "i need to set up a recurring event in my calendar please",
+        "answer": "38",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 3200,
+        "latency_s": 10.03,
+        "replan": 0
+      },
+      {
+        "question": "director who direct an act",
+        "answer": "上下文信息不足。",
+        "ground_truth": [
+          "45"
+        ],
+        "steps": 1,
+        "tokens": 3021,
+        "latency_s": 2.94,
+        "replan": 0
+      },
+      {
+        "question": "tag you're it",
+        "answer": "上下文信息不足，无法确定“tag you're it”对应的数值标签。",
+        "ground_truth": [
+          "43"
+        ],
+        "steps": 1,
+        "tokens": 3305,
+        "latency_s": 11.24,
+        "replan": 0
+      },
+      {
+        "question": "how many emails do i have from work today",
+        "answer": "14",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 1,
+        "tokens": 3277,
+        "latency_s": 12.16,
+        "replan": 0
+      },
+      {
+        "question": "can you locate some gospel music for me",
+        "answer": "17",
+        "ground_truth": [
+          "48"
+        ],
+        "steps": 1,
+        "tokens": 3696,
+        "latency_s": 24.63,
+        "replan": 0
+      },
+      {
+        "question": "mute",
+        "answer": "{10}",
+        "ground_truth": [
+          "10"
+        ],
+        "steps": 1,
+        "tokens": 3371,
+        "latency_s": 11.84,
+        "replan": 0
+      },
+      {
+        "question": "do not wake me up on weekends",
+        "answer": "{2}",
+        "ground_truth": [
+          "2"
+        ],
+        "steps": 1,
+        "tokens": 3266,
+        "latency_s": 9.32,
+        "replan": 0
+      },
+      {
+        "question": "run radio programme",
+        "answer": "{27}",
+        "ground_truth": [
+          "27"
+        ],
+        "steps": 1,
+        "tokens": 3158,
+        "latency_s": 7.72,
+        "replan": 0
+      },
+      {
+        "question": "headlines from dhaka tribune",
+        "answer": "{36}",
+        "ground_truth": [
+          "36"
+        ],
+        "steps": 1,
+        "tokens": 3218,
+        "latency_s": 7.85,
+        "replan": 0
+      },
+      {
+        "question": "place event in my calendar every tuesday",
+        "answer": "38",
+        "ground_truth": [
+          "38"
+        ],
+        "steps": 1,
+        "tokens": 3174,
+        "latency_s": 9.58,
+        "replan": 0
+      },
+      {
+        "question": "select shuffle all",
+        "answer": "{52}",
+        "ground_truth": [
+          "52"
+        ],
+        "steps": 1,
+        "tokens": 3176,
+        "latency_s": 7.87,
+        "replan": 0
+      },
+      {
+        "question": "if my vacuum cleaner is not activated please activate it",
+        "answer": "{7}",
+        "ground_truth": [
+          "7"
+        ],
+        "steps": 1,
+        "tokens": 3252,
+        "latency_s": 8.5,
+        "replan": 0
+      },
+      {
+        "question": "repeat all",
+        "answer": "{52}",
+        "ground_truth": [
+          "52"
+        ],
+        "steps": 1,
+        "tokens": 3179,
+        "latency_s": 7.85,
+        "replan": 0
+      },
+      {
+        "question": "i want to hear the last one you said again.",
+        "answer": "{11}",
+        "ground_truth": [
+          "11"
+        ],
+        "steps": 1,
+        "tokens": 3152,
+        "latency_s": 5.83,
+        "replan": 0
+      },
+      {
+        "question": "start the vacuum cleaner",
+        "answer": "7",
+        "ground_truth": [
+          "7"
+        ],
+        "steps": 1,
+        "tokens": 3206,
+        "latency_s": 7.74,
+        "replan": 0
+      },
+      {
+        "question": "s2, that is not so clear to me.",
+        "answer": "{16}",
+        "ground_truth": [
+          "16"
+        ],
+        "steps": 1,
+        "tokens": 3177,
+        "latency_s": 7.55,
+        "replan": 0
+      },
+      {
+        "question": "can you check and confirm detail.",
+        "answer": "{12}",
+        "ground_truth": [
+          "12"
+        ],
+        "steps": 1,
+        "tokens": 3102,
+        "latency_s": 7.33,
+        "replan": 0
+      },
+      {
+        "question": "hi how are you",
+        "answer": "58",
+        "ground_truth": [
+          "58"
+        ],
+        "steps": 1,
+        "tokens": 3203,
+        "latency_s": 7.59,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "fight me in street fighter",
+        "answer": "{43}",
+        "ground_truth": [
+          "43"
+        ],
+        "steps": 2,
+        "tokens": 8572,
+        "latency_s": 49.03,
+        "replan": 0
+      },
+      {
+        "question": "i have to tell you about my day",
+        "answer": "{66}",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 5,
+        "tokens": 50965,
+        "latency_s": 116.39,
+        "replan": 0
+      },
+      {
+        "question": "is meryl streep an actress or singer",
+        "answer": "{5}",
+        "ground_truth": [
+          "5"
+        ],
+        "steps": 2,
+        "tokens": 7452,
+        "latency_s": 24.79,
+        "replan": 0
+      },
+      {
+        "question": "did i get any replies from jan",
+        "answer": "{14}",
+        "ground_truth": [
+          "14"
+        ],
+        "steps": 2,
+        "tokens": 8157,
+        "latency_s": 40.06,
+        "replan": 0
+      },
+      {
+        "question": "cancel the meeting next week Thursday at two pm",
+        "answer": "{15}",
+        "ground_truth": [
+          "15"
+        ],
+        "steps": 2,
+        "tokens": 8117,
+        "latency_s": 38.2,
+        "replan": 0
+      },
+      {
+        "question": "tweet at macy's two weeks after purchase and the hems have all come loose",
+        "answer": "{46}",
+        "ground_truth": [
+          "46"
+        ],
+        "steps": 2,
+        "tokens": 8071,
+        "latency_s": 39.51,
+        "replan": 0
+      },
+      {
+        "question": "tell my family this in an email",
+        "answer": "{50}",
+        "ground_truth": [
+          "50"
+        ],
+        "steps": 2,
+        "tokens": 8701,
+        "latency_s": 56.87,
+        "replan": 0
+      },
+      {
+        "question": "do not mind to choose any one.",
+        "answer": "{0}",
+        "ground_truth": [
+          "0"
+        ],
+        "steps": 2,
+        "tokens": 7976,
+        "latency_s": 33.95,
+        "replan": 0
+      },
+      {
+        "question": "see you",
+        "answer": "{58}",
+        "ground_truth": [
+          "66"
+        ],
+        "steps": 5,
+        "tokens": 49764,
+        "latency_s": 115.98,
+        "replan": 0
+      },
+      {
+        "question": "confirm alarm for tomorrow morning",
+        "answer": "{62}",
+        "ground_truth": [
+          "62"
+        ],
+        "steps": 2,
+        "tokens": 7849,
+        "latency_s": 33.35,
+        "replan": 0
+      }
+    ]
+  }
+}

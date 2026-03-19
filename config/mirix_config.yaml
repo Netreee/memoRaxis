@@ -1,0 +1,24 @@
+llm_config:
+  model: ep-20251113195357-4gftp
+  model_endpoint_type: openai
+  model_endpoint: https://ark-cn-beijing.bytedance.net/api/v3
+  context_window: 64000
+
+build_embeddings_for_memory: true
+
+embedding_config:
+  embedding_model: ep-20260111190334-rst5s
+  embedding_endpoint: https://ark-cn-beijing.bytedance.net/api/v3
+  embedding_endpoint_type: openai
+  embedding_dim: 2048
+
+meta_agent_config:
+  agents:
+    - core_memory_agent
+    - resource_memory_agent
+    - semantic_memory_agent
+    - episodic_memory_agent
+    - procedural_memory_agent
+    - knowledge_memory_agent
+    - reflexion_agent
+    - background_agent

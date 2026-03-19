@@ -1,0 +1,1008 @@
+{
+  "dataset": "Conflict_Resolution",
+  "instance_idx": 2,
+  "results": {
+    "R1": [
+      {
+        "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+        "answer": "Swedish",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 1473,
+        "replan": 0
+      },
+      {
+        "question": "Which sport was Dennis Erickson associated with due to his position on a team?",
+        "answer": "信息不足。上下文仅提到Dennis Erickson的位置是quarterback（四分卫），但未明确说明该位置关联的具体运动。",
+        "ground_truth": [
+          "Muay Thai"
+        ],
+        "steps": 1,
+        "tokens": 3094,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the director / manager who worked with the performer of Anthology 1 belong to?",
+        "answer": "信息不足。上下文仅提到Anthology 2的表演者是Madonna，未提及Anthology 1的表演者，也无法找到该表演者合作过的导演/经理及其国籍所属的大陆相关信息。",
+        "ground_truth": [
+          "South America"
+        ],
+        "steps": 1,
+        "tokens": 4661,
+        "replan": 0
+      },
+      {
+        "question": "What genre of music is associated with the spouse of Blake Shelton?",
+        "answer": "The context information is insufficient to answer the question. The provided content does not mention Blake Shelton or his spouse at all.\n\nAnswer: 上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "hip hop music"
+        ],
+        "steps": 1,
+        "tokens": 6304,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current chairperson of the institution where Harry Markowitz received his education?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Zeki Öztürk"
+        ],
+        "steps": 1,
+        "tokens": 7745,
+        "replan": 0
+      },
+      {
+        "question": "In which location did the person who established the religion that Henri Grégoire followed work?",
+        "answer": "The context information is insufficient. \n\nExplanation: From the context, we know Henri Grégoire is affiliated with Christianity (entry 1668 in [1]). However, there is no information in the provided context about who established Christianity or the location where that person worked. Thus, we cannot answer the question based on the given content.",
+        "ground_truth": [
+          "London"
+        ],
+        "steps": 1,
+        "tokens": 9428,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the creator of Ju 87 come from?",
+        "answer": "The context information is insufficient to answer the question. \n\nExplanation: The context mentions that Ju 87 was developed by Junkers (entry 1033), but there is no information provided about the country of citizenship of the creator (or the origin country of the Junkers entity) within the given context. Thus, we cannot determine the continent from which the relevant country comes.\n\n\nInsufficient context information.",
+        "ground_truth": [
+          "South America"
+        ],
+        "steps": 1,
+        "tokens": 11391,
+        "replan": 0
+      },
+      {
+        "question": "In which sport does Giovani dos Santos play the position he is known for?",
+        "answer": "The context information is insufficient. The context mentions that Giovani dos Santos plays the position of midfielder, but there is no explicit information linking the position of midfielder to a specific sport.\n\n\n**Answer:** The context information is insufficient.",
+        "ground_truth": [
+          "pesäpallo"
+        ],
+        "steps": 1,
+        "tokens": 14325,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of the performer of the song \"God Bless the Child\"?",
+        "answer": "上下文信息不足，无法确定歌曲\"God Bless the Child\"的表演者的国籍。",
+        "ground_truth": [
+          "United Kingdom"
+        ],
+        "steps": 1,
+        "tokens": 15978,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of the country where the sport played by the Washington Wizards was first developed?",
+        "answer": "The context information is insufficient. The given context does not mention the Washington Wizards, so it is impossible to determine the sport they play, and thus cannot further find the capital of the country where that sport was first developed.",
+        "ground_truth": [
+          "Russellville"
+        ],
+        "steps": 1,
+        "tokens": 18036,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country that Dino Meneghin holds citizenship in?",
+        "answer": "上下文信息不足，无法确定Dino Meneghin持有公民身份的国家的首都。",
+        "ground_truth": [
+          "Duluth"
+        ],
+        "steps": 1,
+        "tokens": 19660,
+        "replan": 0
+      },
+      {
+        "question": "What is the religious affiliation of the author of The Divine Comedy?",
+        "answer": "Catholic Church",
+        "ground_truth": [
+          "Catholic Church"
+        ],
+        "steps": 1,
+        "tokens": 21099,
+        "replan": 0
+      },
+      {
+        "question": "What country did the sport associated with FNB Stadium originate in?",
+        "answer": "The context information is insufficient.\n\nExplanation: From entry 737, we know FNB Stadium is associated with baseball. However, none of the provided entries mention the country where baseball originated. Thus, we cannot determine the answer based on the given context.",
+        "ground_truth": [
+          "Japan"
+        ],
+        "steps": 1,
+        "tokens": 22881,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the country whose citizenship was held by Erich Koch situated?",
+        "answer": "The context information is insufficient. Although it is stated that Erich Koch is a citizen of Canada, there is no information in the provided context about which continent Canada is situated in. Therefore, we cannot determine the answer based on the given context.",
+        "ground_truth": [
+          "Asia"
+        ],
+        "steps": 1,
+        "tokens": 24592,
+        "replan": 0
+      },
+      {
+        "question": "What language did the author of \"A Passage to India\" speak, write or sign in?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Spanish"
+        ],
+        "steps": 1,
+        "tokens": 26174,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the significant creation associated with the creator of Vito Corleone?",
+        "answer": "The context information is insufficient. \n\nExplanation: The context provides conflicting claims about who created Vito Corleone (Nobuhiro Watsuki in [1] 3283 and Mario Puzo in [2]781). Additionally, no significant creation associated with either creator is mentioned in the given context except Vito Corleone itself, which does not meet the requirement of a \"significant creation associated with the creator\" beyond Vito Corleone. Thus, there is not enough information to answer the question.",
+        "ground_truth": [
+          "The Fairly OddParents"
+        ],
+        "steps": 1,
+        "tokens": 28464,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the sport associated with the founder of Pakistan Tehreek-e-Insaf originates from?",
+        "answer": "The context does not provide information about the country where the sport of cricket (associated with Imran Khan, founder of Pakistan Tehreek-e-Insaf) originates from. Thus, the answer cannot be determined based on the given context.",
+        "ground_truth": [
+          "Duluth"
+        ],
+        "steps": 1,
+        "tokens": 30171,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the home country of the director/manager who worked with the performer of \"Tomorrow Never Knows\"?",
+        "answer": "The context does not provide information about the director/manager who worked with The Beatles (the performer of \"Tomorrow Never Knows\"), so it is impossible to determine the capital city of the home country of that director/manager.\n\nAnswer: Information is insufficient.",
+        "ground_truth": [
+          "Oderzo"
+        ],
+        "steps": 1,
+        "tokens": 31858,
+        "replan": 0
+      },
+      {
+        "question": "What is the sport that Rich Harden was associated with based on the position he played on a team?",
+        "answer": "Baseball\n\nReasoning: The context states Rich Harden plays the position of starting pitcher (line 195). Additionally, relief pitcher is associated with the sport of baseball (line 303), and starting pitcher is a position in baseball, so Rich Harden is associated with baseball.\n\n\nBaseball",
+        "ground_truth": [
+          "field hockey"
+        ],
+        "steps": 1,
+        "tokens": 33494,
+        "replan": 0
+      },
+      {
+        "question": "In which country does the head of government that governs Paddy Keenan's nationality reside?",
+        "answer": "上下文未提及Paddy Keenan的国籍相关信息，无法回答该问题。",
+        "ground_truth": [
+          "Ole Johan Vierdal"
+        ],
+        "steps": 1,
+        "tokens": 34987,
+        "replan": 0
+      },
+      {
+        "question": "What language is recognized as the official language in the country where Dale Bumpers holds citizenship?",
+        "answer": "The context information is insufficient. \n\nExplanation: We know from entry 4185 in section [3] that Dale Bumpers is a citizen of the United States of America. However, none of the provided context entries explicitly state the official language of the United States of America, so we cannot determine the answer based on the given information.",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 37023,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who founded the organization that Benjamin Mazar was part of?",
+        "answer": "The context does not provide information about the organization that Benjamin Mazar was part of, nor the founder of such an organization. Thus, the answer cannot be determined based on the given content.",
+        "ground_truth": [
+          "Philippe, Duke of Orléans"
+        ],
+        "steps": 1,
+        "tokens": 38533,
+        "replan": 0
+      },
+      {
+        "question": "From which city of the country of origin of the musical genre of \"All Shook Up\" does the genre trace its roots?",
+        "answer": "The context information is insufficient to answer the question. \n\nReasoning: \n1. The musical genre of \"All Shook Up\" is stated as country music in entry 3464 (context [2]). \n2. The country of origin of country music is the United States of America (entry 4016, context [5]). \n3. However, none of the provided context entries mention the specific city in the United States where country music traces its roots. Thus, there is no information to determine the answer.\n\nAnswer: 上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Harrisville"
+        ],
+        "steps": 1,
+        "tokens": 40407,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country to which Travis Tritt holds citizenship?",
+        "answer": "The context information is insufficient.",
+        "ground_truth": [
+          "Hanoi"
+        ],
+        "steps": 1,
+        "tokens": 41889,
+        "replan": 0
+      },
+      {
+        "question": "Where is the headquarters location of the institution where Louis Zamperini received his education?",
+        "answer": "The context information is insufficient.\n\nExplanation: We know from entry 3009 in context [5] that Louis Zamperini was educated at the University of Southern California, but there is no information in the provided context about the headquarters location of this institution. Thus, we cannot determine the answer based on the given content.",
+        "ground_truth": [
+          "Dublin"
+        ],
+        "steps": 1,
+        "tokens": 43554,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the headquarters of the educational institution attended by Siim Kallas?",
+        "answer": "The context information is insufficient.\n\nWe know from entry 3063 that Siim Kallas was educated at the University of Tartu, but there is no information in the provided context about the city where the headquarters of the University of Tartu is located. Thus, we cannot determine the answer based on the given content.",
+        "ground_truth": [
+          "Mexico City"
+        ],
+        "steps": 1,
+        "tokens": 45197,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport in which Darren Fletcher participated?",
+        "answer": "上下文信息不足。\n\n步骤解析：  \n1. 从上下文找到Darren Fletcher的信息：条目3967提到他的位置是cornerback（角卫）。  \n2. 检查上下文是否有关于“cornerback属于哪个运动项目”的关联信息：上下文仅明确提到flanker（侧翼卫）与rugby（橄榄球）、point guard（控球后卫）与cricket（板球）、safety（安全卫）与field hockey（曲棍球）的关联，但未提及cornerback对应的运动项目。  \n3. 由于无法确定cornerback所属的运动，因此无法进一步查找该运动的起源国家。  \n\n结论：上下文信息不足，无法回答。",
+        "ground_truth": [
+          "Philippines"
+        ],
+        "steps": 1,
+        "tokens": 47422,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the location of formation of the Master of Puppets performer?",
+        "answer": "The context information is insufficient to answer the question. \n\nReasoning: The task asks for the continent where the performer of \"Master of Puppets\" was formed. The context has conflicting claims about who performs the song (Metallica in [1] 433 vs. The Beatles in [4] 4438). However, neither entry provides information about the formation location (country or continent) of either Metallica or The Beatles, so we cannot determine the answer based on the given context.\n\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Europe"
+        ],
+        "steps": 1,
+        "tokens": 49245,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who created the country that Fyodor Ushakov is a citizen?",
+        "answer": "The context information is insufficient to answer the question. \n\nExplanation: The context mentions Fyodor Ushakov is a citizen of the Russian Empire (from entry 2477 in section [2]), but there is no information provided about who created the Russian Empire. Thus, we cannot determine the answer based on the given context.",
+        "ground_truth": [
+          "K. B. Hedgewar"
+        ],
+        "steps": 1,
+        "tokens": 51082,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the CEO of the developer of Windows Update located in?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Eurasia"
+        ],
+        "steps": 1,
+        "tokens": 52575,
+        "replan": 0
+      },
+      {
+        "question": "What is the religion of the officeholder commonly known as the pope?",
+        "answer": "Catholic Church",
+        "ground_truth": [
+          "Ethiopian Orthodox Tewahedo Church"
+        ],
+        "steps": 1,
+        "tokens": 54061,
+        "replan": 0
+      },
+      {
+        "question": "In which sport did Vinny Testaverde play the position associated with the term \"position played on team / speciality\"?",
+        "answer": "The context states that Vinny Testaverde plays the position of quarterback, but there is no information in the provided context linking the position of quarterback to a specific sport. Thus, the information is insufficient to answer the task.\n\nAnswer: Information is insufficient.",
+        "ground_truth": [
+          "sumo"
+        ],
+        "steps": 1,
+        "tokens": 55987,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the city that is the capital of the country where the sport Hope Solo played was developed?",
+        "answer": "The context information is insufficient. \n\nReasoning:  \n1. From entry 111, we know Hope Solo plays the position of goalkeeper, but the context does not explicitly state which sport this position belongs to (though it may imply association football, there is no direct confirmation).  \n2. Even if we assume the sport is association football, the context does not mention the country where this sport was developed, so we cannot determine the capital city of that country.  \n\nThus, the required information is not present in the given context.\n\n\nThe context information is insufficient.",
+        "ground_truth": [
+          "Oderzo"
+        ],
+        "steps": 1,
+        "tokens": 58062,
+        "replan": 0
+      },
+      {
+        "question": "To which continent is the country where \"The Phenomenology of Spirit\" originated belongs?",
+        "answer": "The context provides conflicting information about the country where \"The Phenomenology of Spirit\" originated: entry 3047 states it was created in India, while entry 3038 says it was created in Germany. Although entry 3467 mentions Germany is located in Europe, there is no information about the continent of India in the given context. Due to the conflicting origin countries, it is impossible to determine the exact continent based on the provided context.\n\nAnswer: The context has conflicting information about the country of origin of \"The Phenomenology of Spirit\", so the continent cannot be determined.",
+        "ground_truth": [
+          "Africa"
+        ],
+        "steps": 1,
+        "tokens": 60861,
+        "replan": 0
+      },
+      {
+        "question": "In which language do people communicate officially in the country where Louis Henri Loison holds his citizenship?",
+        "answer": "上下文信息不足，无法确定墨西哥的官方语言。",
+        "ground_truth": [
+          "Spanish"
+        ],
+        "steps": 1,
+        "tokens": 62385,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the individual who established the 2nd Ukrainian Front?",
+        "answer": "The context information is insufficient.\n\nFirst, we find from the memory context that the 2nd Ukrainian Front was founded by Ivan Konev (entry 2996 in [1]). However, none of the provided memory entries mention the place of death of Ivan Konev, so we cannot determine the answer based on the given context.",
+        "ground_truth": [
+          "New York City"
+        ],
+        "steps": 1,
+        "tokens": 64144,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the government of the country of origin of the sport played by Matt Harrison located?",
+        "answer": "The context information is insufficient. \n\nReasoning: To answer the question, we need to know:  \n1. The sport Matt Harrison plays (he is a shooting guard, but no entry in the context links \"shooting guard\" to a specific sport).  \n2. The country of origin of that sport.  \n3. The city where the government of that country is located.  \n\nSince the context does not provide the sport associated with the position \"shooting guard\", we cannot proceed further. Thus, the information is insufficient.",
+        "ground_truth": [
+          "Russellville"
+        ],
+        "steps": 1,
+        "tokens": 66296,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the creator of Kinsey Millhone belong to?",
+        "answer": "The context information is insufficient.",
+        "ground_truth": [
+          "Ukraine"
+        ],
+        "steps": 1,
+        "tokens": 67866,
+        "replan": 0
+      },
+      {
+        "question": "What continent does the country of origin of the sport represented by the Israel Football Association belong to?",
+        "answer": "The context information is insufficient.",
+        "ground_truth": [
+          "Oceania"
+        ],
+        "steps": 1,
+        "tokens": 69777,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital located, where the spouse of the author of \"Tender Is the Night\" holds citizenship?",
+        "answer": "上下文信息不足，无法回答该问题。因为所给上下文中未提及《夜色温柔》（\"Tender Is the Night\"）的作者是谁，因此无法进一步确定其配偶的国籍及该国籍所属国家的首都城市。",
+        "ground_truth": [
+          "London"
+        ],
+        "steps": 1,
+        "tokens": 71562,
+        "replan": 0
+      },
+      {
+        "question": "In which city did the individual who established Blériot pass away?",
+        "answer": "Paris\n\nThe individual who established Blériot is Louis Blériot (from context [4] entry 2163: \"Blériot was founded by Louis Blériot\"), and he died in Paris (from context [1] entry 1957: \"Louis Blériot died in the city of Paris\"). Thus, the answer is Paris.",
+        "ground_truth": [
+          "Pune"
+        ],
+        "steps": 1,
+        "tokens": 73190,
+        "replan": 0
+      },
+      {
+        "question": "What language was used to write the notable work of Luís de Camões?",
+        "answer": "Portuguese\n\nExplanation: From the context, entry 3254 indicates that Luís de Camões is the author of Os Lusíadas. Entry 2615 states that Os Lusíadas was written in Portuguese, which is the language of his notable work. (Note: There is a conflicting entry 2829 claiming it was written in English, but 2615 aligns with the actual historical fact and is considered the correct information here.)",
+        "ground_truth": [
+          "English"
+        ],
+        "steps": 1,
+        "tokens": 75694,
+        "replan": 0
+      },
+      {
+        "question": "Which continent does Monty Norman's birthplace belong to?",
+        "answer": "The context information is insufficient. \n\nExplanation: The context mentions Monty Norman was born in London (entry 3322), but there is no explicit information in the provided context about which continent London (or the United Kingdom, where London is located) belongs to. Thus, we cannot determine the continent based solely on the given context.",
+        "ground_truth": [
+          "Eurasia"
+        ],
+        "steps": 1,
+        "tokens": 77889,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent of origin of the chief executive officer for the developer of Windows Phone?",
+        "answer": "上下文信息不足，无法确定Windows Phone开发者（Microsoft）的首席执行官的原籍大陆。",
+        "ground_truth": [
+          "North America"
+        ],
+        "steps": 1,
+        "tokens": 79479,
+        "replan": 0
+      },
+      {
+        "question": "In which language do people from the country of origin of the music genre associated with Cleo Laine conduct official business?",
+        "answer": "The context information is insufficient to answer the question. \n\nWe know from entry 3172 that Cleo Laine plays jazz, but none of the provided entries mention the country of origin of the jazz genre, so we cannot determine the official language of that country.\n\n\nInsufficient information.",
+        "ground_truth": [
+          "Spanish"
+        ],
+        "steps": 1,
+        "tokens": 81246,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin for the sport of the Tunisia national football team?",
+        "answer": "上下文信息不足，无法回答。",
+        "ground_truth": [
+          "Russellville"
+        ],
+        "steps": 1,
+        "tokens": 82924,
+        "replan": 0
+      },
+      {
+        "question": "Which political leader holds the title of head of state of the country where Santiago Morning, the sports organization started?",
+        "answer": "根据提供的上下文信息，没有提到Santiago Morning这个体育组织的相关内容，无法确定其所在国家，因此无法回答该国家的国家元首是谁。信息不足。",
+        "ground_truth": [
+          "Sergio Mattarella"
+        ],
+        "steps": 1,
+        "tokens": 84491,
+        "replan": 0
+      },
+      {
+        "question": "Who founded the religious movement that Lakhdar Brahimi is affiliated with?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Mekere Morauta"
+        ],
+        "steps": 1,
+        "tokens": 85965,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the country where the Scottish Cup originated?",
+        "answer": "The context information is insufficient. The Scottish Cup originated in Scotland, which is part of the United Kingdom, but the provided context does not mention the continent where the United Kingdom is located. Thus, we cannot determine the answer based on the given information.",
+        "ground_truth": [
+          "Oceania"
+        ],
+        "steps": 1,
+        "tokens": 87748,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the capital city of the country from which the head coach of Germany national football team hails?",
+        "answer": "The context does not provide information about the head coach of Germany national football team, so it is impossible to determine the name of the capital city of the country from which he hails.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Rome"
+        ],
+        "steps": 1,
+        "tokens": 89385,
+        "replan": 0
+      },
+      {
+        "question": "What was the place of work of the individual who founded the religion of Henri Breuil?",
+        "answer": "The context information is insufficient to answer the question. \n\nFirst, there are conflicting entries about Henri Breuil's affiliated religion (Catholic Church in [1] and Methodism in [2]). Second, the context does not mention the founder of either religion, nor does it provide any information about the place of work of the founder of any religion associated with Henri Breuil. Thus, we cannot determine the required answer based on the given context.",
+        "ground_truth": [
+          "Washington, D.C."
+        ],
+        "steps": 1,
+        "tokens": 91172,
+        "replan": 0
+      },
+      {
+        "question": "From which city in the country of citizenship of the manufacturer of Colt Single Action Army does the company hail?",
+        "answer": "The context information is insufficient to answer the task. The relevant context mentions Colt's Manufacturing Company as the producer of Colt Single Action Army, but there is no information provided about the city or country of origin of Colt's Manufacturing Company, nor about the country of citizenship related to the company. Thus, we cannot determine the required city.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Krong Kep"
+        ],
+        "steps": 1,
+        "tokens": 93258,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Ian Kennedy associated with based on the position he plays on the team?",
+        "answer": "rugby\n\n### 分析过程：\n1. 从上下文[1]的1468条可知，Ian Kennedy的位置是**wide receiver**（外接手）；\n2. 从上下文[2]的998条可知，**wide receiver**关联的运动是**rugby**（橄榄球）；\n3. 因此，Ian Kennedy基于其位置关联的运动是rugby。\n\n答案：rugby",
+        "ground_truth": [
+          "rugby"
+        ],
+        "steps": 1,
+        "tokens": 94816,
+        "replan": 0
+      },
+      {
+        "question": "Who is the person responsible for the founding of the Bahawalpur State?",
+        "answer": "The context only mentions that Bahawalpur State is affiliated with the religion of Catholic Church, but there is no information about the person responsible for its founding. Therefore, the answer cannot be determined based on the given context.",
+        "ground_truth": [
+          "Gérard Blitz"
+        ],
+        "steps": 1,
+        "tokens": 96359,
+        "replan": 0
+      },
+      {
+        "question": "What continent does the country from which 1. FK Příbram originated belong to?",
+        "answer": "上下文信息不足，无法确定FK Příbram起源的国家所属的大陆。",
+        "ground_truth": [
+          "Oceania"
+        ],
+        "steps": 1,
+        "tokens": 97984,
+        "replan": 0
+      },
+      {
+        "question": "What is the language used by the manager/director, who is a citizen of a country where \"Free as a Bird\" performer holds citizenship?",
+        "answer": "The context does not provide information about the country of citizenship of The Beatles (the performer of \"Free as a Bird\"), so it is impossible to determine the language used by the manager/director who is a citizen of that country. \n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Italian"
+        ],
+        "steps": 1,
+        "tokens": 100037,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the genre performed by Billy Walker originated from?",
+        "answer": "The context indicates that Billy Walker performs country music (entry 1247 in section [4]). However, there is no information in the provided context about the country where country music originated. Therefore, it is impossible to determine the capital of that country based on the given context.\n\nAnswer: The context does not provide information about the country where the genre (country music) performed by Billy Walker originated, so the answer cannot be determined.",
+        "ground_truth": [
+          "Rupnagar"
+        ],
+        "steps": 1,
+        "tokens": 102016,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is associated with the position played by Rajon Rondo on his team?",
+        "answer": "basketball",
+        "ground_truth": [
+          "roller derby"
+        ],
+        "steps": 1,
+        "tokens": 103500,
+        "replan": 0
+      },
+      {
+        "question": "From which country did the sport, in which Mel Daniels participates, originate?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Philippines"
+        ],
+        "steps": 1,
+        "tokens": 105581,
+        "replan": 0
+      },
+      {
+        "question": "From what location did the original broadcaster of \"The Monkees\" operate from during the formation of the band?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "San Diego"
+        ],
+        "steps": 1,
+        "tokens": 107118,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the office of the company that developed Crysis 2 situated?",
+        "answer": "The context provides conflicting information about the developer of Crysis 2 (Sony Interactive Entertainment in [1] and Crytek in [2]), and neither entry mentions the city where the office of either company is situated. Thus, the information is insufficient to answer the task.\n\nAnswer: The information is insufficient.",
+        "ground_truth": [
+          "San Jose"
+        ],
+        "steps": 1,
+        "tokens": 108800,
+        "replan": 0
+      },
+      {
+        "question": "Which individual is credited with creating the language which is the official language of the HQ location of Housemarque?",
+        "answer": "The context does not provide any information about the headquarters location of Housemarque, so it is impossible to determine the relevant language and the individual credited with creating it. Thus, the information is insufficient.",
+        "ground_truth": [
+          "L. L. Zamenhof"
+        ],
+        "steps": 1,
+        "tokens": 110464,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion that influenced Giordano Bruno?",
+        "answer": "The context information is insufficient to answer the question. The provided content does not mention Giordano Bruno, the religion that influenced him, or the birthplace of the founder of that religion.",
+        "ground_truth": [
+          "Beacon"
+        ],
+        "steps": 1,
+        "tokens": 112037,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the seat of government of the country of citizenship of Parambrata Chatterjee?",
+        "answer": "The context does not provide any information about Parambrata Chatterjee's country of citizenship, so it is impossible to determine the seat of government of that country.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Grosseto"
+        ],
+        "steps": 1,
+        "tokens": 113581,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the company that founded the manufacturer of Jaguar Mark 2?",
+        "answer": "The context does not provide information about the company that founded Jaguar Cars (the manufacturer of Jaguar Mark 2). Therefore, the answer cannot be determined based on the given content.",
+        "ground_truth": [
+          "Eugène Schneider"
+        ],
+        "steps": 1,
+        "tokens": 115168,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the nation of which Tomáš Berdych is a citizen?",
+        "answer": "Miloš Zeman",
+        "ground_truth": [
+          "Connachta"
+        ],
+        "steps": 1,
+        "tokens": 116802,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of origin of the notable work that features Troilus and Criseyde belong?",
+        "answer": "The context information is insufficient to answer the question. \n\nReasoning: The context mentions Geoffrey Chaucer as the author of Troilus and Criseyde, but it does not explicitly state Chaucer's country of origin or the continent where that country is located. There are no entries linking Chaucer's nationality to a specific country, nor any entries that connect the relevant country (e.g., the UK, where Chaucer is historically from) to a continent within the provided context. Thus, we cannot determine the continent based on the given information.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Asia"
+        ],
+        "steps": 1,
+        "tokens": 119228,
+        "replan": 0
+      },
+      {
+        "question": "Which music genre is associated with João Gilberto's notable work?",
+        "answer": "上下文信息不足，无法确定João Gilberto的著名作品所关联的音乐流派。",
+        "ground_truth": [
+          "rock music"
+        ],
+        "steps": 1,
+        "tokens": 120682,
+        "replan": 0
+      },
+      {
+        "question": "In which languages can the author of \"The Witcher\" write, speak, or sign?",
+        "answer": "The context mentions that the author of \"The Witcher\" is T. S. Eliot, but there is no information provided about the languages T. S. Eliot can write, speak, or sign. Therefore, the information is insufficient to answer the task.",
+        "ground_truth": [
+          "French"
+        ],
+        "steps": 1,
+        "tokens": 122263,
+        "replan": 0
+      },
+      {
+        "question": "What language does the spouse of Maksim Chmerkovskiy speak, write or use to communicate?",
+        "answer": "The context information is insufficient to answer the question. Although there are conflicting records about Maksim Chmerkovskiy's spouse (Peta Murgatroyd in [1] and Johann Adolph Hasse in [2]), neither of these spouses' spoken languages are mentioned in the provided context. Therefore, we cannot determine the language the spouse uses to communicate.",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 123959,
+        "replan": 0
+      },
+      {
+        "question": "At which place did the creator of \"Lady Windermere's Fan\" breathe their last?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Guangzhou"
+        ],
+        "steps": 1,
+        "tokens": 125478,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the CEO of the developer of the iPad Pro?",
+        "answer": "The context information is insufficient. \n\nReasoning steps:  \n1. The context states (entry 870) that the iPad Pro was developed by Google.  \n2. However, there is no information in the provided context about the CEO of Google.  \n3. Without knowing the CEO of Google, we cannot determine their country of citizenship, and thus cannot find the capital of that country.  \n\nThus, the required information is missing.  \n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Sipirok"
+        ],
+        "steps": 1,
+        "tokens": 127375,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country that originated the sport coached by the head coach of Sydney FC belong?",
+        "answer": "The context information is insufficient to answer the task. There is no mention of the head coach of Sydney FC in the provided context.",
+        "ground_truth": [
+          "Africa"
+        ],
+        "steps": 1,
+        "tokens": 129010,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport represented by Liga Profesional de Baloncesto?",
+        "answer": "上下文信息不足，无法确定Liga Profesional de Baloncesto所代表的运动（篮球）的起源国家。",
+        "ground_truth": [
+          "Soviet Union"
+        ],
+        "steps": 1,
+        "tokens": 130478,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country where Home United FC originated belong to?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Oceania"
+        ],
+        "steps": 1,
+        "tokens": 132339,
+        "replan": 0
+      },
+      {
+        "question": "To which continent does the country where Steve Lamacq holds his citizenship belong?",
+        "answer": "Europe\n\nFirst, from the context:  \n- [1] 690 states Steve Lamacq is a citizen of the United Kingdom.  \n- [3] 4133 mentions Steve Lamacq is a citizen of the Kingdom of England.  \n- [2] 3053 indicates England is located in the continent of Europe.  \n\nBoth the United Kingdom and the Kingdom of England are associated with Europe, so the continent is Europe.  \n\nAnswer: Europe",
+        "ground_truth": [
+          "North America"
+        ],
+        "steps": 1,
+        "tokens": 134003,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the headquarters location of Gazeta Wyborcza situated?",
+        "answer": "上下文信息不足，无法回答Gazeta Wyborcza总部所在的大陆。",
+        "ground_truth": [
+          "North America"
+        ],
+        "steps": 1,
+        "tokens": 135415,
+        "replan": 0
+      },
+      {
+        "question": "What is the educational institution that the founder of Dravida Munnetra Kazhagam was associated with?",
+        "answer": "The context information is insufficient to answer the question.",
+        "ground_truth": [
+          "University of South Carolina"
+        ],
+        "steps": 1,
+        "tokens": 136924,
+        "replan": 0
+      },
+      {
+        "question": "From which language did the country of citizenship of the spouse of the creator of WWE Main Event borrow its official language?",
+        "answer": "上下文信息不足，无法回答该问题。原因如下：  \n1. 关于WWE Main Event的创作者存在矛盾信息（[1]称是Vince McMahon，[3]称是Nick Cannon）；  \n2. 上下文未提及Vince McMahon或Nick Cannon的配偶信息，因此无法确定配偶的国籍及该国官方语言的来源。  \n\n因此，无法完成任务。",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 138691,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent where the headquarters of the institution where Rodney Peete received education is located?",
+        "answer": "The context information is insufficient. \n\nExplanation: The context mentions two universities where Rodney Peete was educated: University of Southern California (from entry 980) and Paris Dauphine University (from entry 2261). However, there is no information in the provided context about the continent where the headquarters of either university is located (the context does not explicitly state the continent of the United States or France, where these universities are situated). Thus, we cannot determine the answer based on the given context.\n\n\nInsufficient context information.",
+        "ground_truth": [
+          "Antarctica"
+        ],
+        "steps": 1,
+        "tokens": 140834,
+        "replan": 0
+      },
+      {
+        "question": "What continent is the country of citizenship of the director/manager of the developer of Gran Turismo 5 associated with?",
+        "answer": "The context information is insufficient to answer the task. The developer of Gran Turismo 5 is Polyphony Digital, and its director is Kazunori Yamauchi, but there is no information about Kazunori Yamauchi's country of citizenship in the provided context. Therefore, we cannot determine the associated continent.",
+        "ground_truth": [
+          "Europe"
+        ],
+        "steps": 1,
+        "tokens": 142509,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport that the Libya national football team plays?",
+        "answer": "The context information is insufficient. \n\nFirst, there is a conflict in the context regarding the sport associated with the Libya national football team: entry 2510 states it is association football, while entry 3652 claims it is baseball. Second, even if we ignore the conflict, the context does not provide the country of origin for either association football or baseball. Thus, we cannot determine the answer based on the given information.",
+        "ground_truth": [
+          "Japan"
+        ],
+        "steps": 1,
+        "tokens": 144296,
+        "replan": 0
+      },
+      {
+        "question": "Which language is the official language of the country where the partner of the author of Executive Order 6102 is a citizen?",
+        "answer": "The context information is insufficient to answer the task. \n\nReasoning: \n1. There are conflicting entries about the author of Executive Order 6102 (entry 3015 says George Bernard Shaw, entry 171 says Franklin Delano Roosevelt). \n2. The context provides no information about the partner of either author, nor the citizenship of such a partner, nor the official language of the country where that partner is a citizen. \n\nThus, we cannot determine the required language based on the given context.",
+        "ground_truth": [
+          "Swedish"
+        ],
+        "steps": 1,
+        "tokens": 146288,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country that Michael Feinstein is a citizen of?",
+        "answer": "Washington, D.C.",
+        "ground_truth": [
+          "Berlin"
+        ],
+        "steps": 1,
+        "tokens": 147772,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion associated with Maria Christina of Austria?",
+        "answer": "The context does not provide sufficient information to answer the question. \n\nFirst, there are conflicting entries about Maria Christina of Austria's affiliated religion (Methodism in entry 3338 and Catholic Church in entry 1914). Second, even if either religion is considered, the context does not mention the birthplace of the founder of Methodism (John Wesley, not referenced) or the founder of the Catholic Church (Jesus Christ, whose birthplace is not stated in the given entries). Thus, the required information is missing.\n\nAnswer: The context information is insufficient to answer the question.",
+        "ground_truth": [
+          "Epworth"
+        ],
+        "steps": 1,
+        "tokens": 150110,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the sport of the position played on team / speciality of Dele Alli originate?",
+        "answer": "The context does not provide sufficient information to answer the question. Although Dele Alli's position is mentioned as midfielder (2236) or goalkeeper (2281), there is no explicit link between these positions and a specific sport in the given context, nor is there information about the origin country of the sport associated with these positions. Thus, it is impossible to determine the answer based on the provided content.",
+        "ground_truth": [
+          "India"
+        ],
+        "steps": 1,
+        "tokens": 152310,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the creator of Eddard Stark's partner?",
+        "answer": "上下文信息不足，无法回答该问题。因为文中未提及Eddard Stark的伴侣Catelyn Stark的创作者是谁，所以无法进一步确定其国籍及该国首都。",
+        "ground_truth": [
+          "Bondi Junction"
+        ],
+        "steps": 1,
+        "tokens": 154019,
+        "replan": 0
+      },
+      {
+        "question": "From which university did the partner of Harald V of Norway receive their education?",
+        "answer": "University of Oslo\n\nFirst, from context [2] entry 972, we know Harald V of Norway is married to Queen Sonja of Norway. Then, from context [3] entry 1777, we find that Queen Sonja of Norway was educated at the University of Oslo. Thus, the answer is University of Oslo.",
+        "ground_truth": [
+          "Azusa Pacific University"
+        ],
+        "steps": 1,
+        "tokens": 155432,
+        "replan": 0
+      },
+      {
+        "question": "What language is used as the official language of the country where the genre that Archie Shepp is associated with originally came from?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 157085,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the capital of the country where the spouse of Jude Law holds citizenship?",
+        "answer": "The context information is insufficient. There is no mention of Jude Law or his spouse in the provided memory sections, so we cannot determine the capital of the country where Jude Law's spouse holds citizenship.",
+        "ground_truth": [
+          "Rupnagar"
+        ],
+        "steps": 1,
+        "tokens": 158755,
+        "replan": 0
+      },
+      {
+        "question": "On which continent is the country associated with the citizenship of Maurice Strong located?",
+        "answer": "Asia\n\nFirst, from the context [1] line 952, we know Maurice Strong is a citizen of Canada. Then, from context [2] line 3851, Canada is located in the continent of Asia. Thus, the continent associated with Maurice Strong's citizenship country (Canada) is Asia.",
+        "ground_truth": [
+          "Asia"
+        ],
+        "steps": 1,
+        "tokens": 160403,
+        "replan": 0
+      },
+      {
+        "question": "What were the languages spoken, written or signed by the creator of Blandings Castle?",
+        "answer": "The context provided does not contain any information about the creator of Blandings Castle or the languages spoken, written, or signed by that creator. Therefore, I cannot answer this question based on the given context.\n\n答案：The context information is insufficient to answer the question.",
+        "ground_truth": [
+          "German"
+        ],
+        "steps": 1,
+        "tokens": 162073,
+        "replan": 0
+      },
+      {
+        "question": "With which sport is the position played by Sebastian Janikowski on a team associated?",
+        "answer": "American football\n\n### Explanation:\n1. From context [3] entry 1474: Sebastian Janikowski plays the position of placekicker.  \n2. From context [5] entry 358: placekicker is associated with the sport of American football.  \n\nCombining these two pieces of information, the sport associated with Sebastian Janikowski's position is American football.",
+        "ground_truth": [
+          "rugby"
+        ],
+        "steps": 1,
+        "tokens": 163630,
+        "replan": 0
+      },
+      {
+        "question": "In which city did the author of \"The Cask of Amontillado\" breathe his last?",
+        "answer": "Baltimore\n\nThe author of \"The Cask of Amontillado\" is Edgar Allan Poe, and according to the context (item 2269 in memory block [3]), Edgar Allan Poe died in the city of Baltimore. So the answer is Baltimore.",
+        "ground_truth": [
+          "Louisville"
+        ],
+        "steps": 1,
+        "tokens": 165145,
+        "replan": 0
+      },
+      {
+        "question": "In what genre would you categorize The Who's Tommy?",
+        "answer": "上下文信息不足，无法确定The Who's Tommy的流派。虽然上下文提到Pete Townshend（The Who成员）演奏的音乐类型是摇滚音乐，但未直接提及《Tommy》的具体流派。",
+        "ground_truth": [
+          "alternative country"
+        ],
+        "steps": 1,
+        "tokens": 166964,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country where the director/manager of \"The Rookies\" is a citizen?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "ground_truth": [
+          "Oderzo"
+        ],
+        "steps": 1,
+        "tokens": 168481,
+        "replan": 0
+      },
+      {
+        "question": "Which individual holds the position of director/manager at the company that employs Dave Filoni?",
+        "answer": "上下文信息不足，无法确定雇佣Dave Filoni的公司中担任director/manager职位的具体个人。",
+        "ground_truth": [
+          "Narendra Modi"
+        ],
+        "steps": 1,
+        "tokens": 170059,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of the headquarters of the employer of the creator of Jabberwocky?",
+        "answer": "The context information is insufficient to answer the question. The given memory entries do not mention the creator of Jabberwocky, so we cannot proceed to find the employer of that creator and the location of the employer's headquarters.\n\nAnswer: The context information is insufficient.",
+        "ground_truth": [
+          "Wil"
+        ],
+        "steps": 1,
+        "tokens": 171798,
+        "replan": 0
+      },
+      {
+        "question": "Who holds the position of the head of state of the country that Jessi Colter is a citizen of?",
+        "answer": "上下文关于Jessi Colter的国籍存在矛盾信息（分别提到她是美国公民和希腊公民），且希腊的国家元首信息未在上下文中提及，因此无法确定答案。",
+        "ground_truth": [
+          "Prokopis Pavlopoulos"
+        ],
+        "steps": 1,
+        "tokens": 173960,
+        "replan": 0
+      },
+      {
+        "question": "The capital city of which country is the birthplace of the sport that Timofey Mozgov specialized in?",
+        "answer": "The context information is insufficient. \n\nReasoning:  \n1. From entry 3719, Timofey Mozgov plays the position of goalkeeper, which is associated with association football (supported by entries like 3728, 4418, etc., linking clubs to association football).  \n2. However, none of the provided entries mention the birthplace (country or city) of association football. Thus, we cannot determine the capital city of the country where this sport originated based on the given context.  \n\nAnswer: 上下文信息不足。",
+        "ground_truth": [
+          "Grosseto"
+        ],
+        "steps": 1,
+        "tokens": 176236,
+        "replan": 0
+      }
+    ]
+  }
+}

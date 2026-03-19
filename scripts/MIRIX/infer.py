@@ -2,6 +2,7 @@ import argparse
 import json
 import sys
 import os
+import time
 from pathlib import Path
 from typing import List, Optional
 
@@ -29,27 +30,31 @@ logger = get_logger()
 
 # --- Shared Utilities ---
 
-def evaluate_adaptor(name: str, adaptor, questions: list, limit: int, template_name: str, template_type: str = 'query', agent_type: str = 'Agentic_memory') -> list:
+def evaluate_adaptor(name: str, adaptor, questions: list, limit: int, llm, template_name: str = None, template_type: str = 'query', agent_type: str = 'Agentic_memory') -> list:
     results = []
     target_questions = questions if limit == -1 else questions[:limit]
     total = len(target_questions)
-    
+
+    query_template = None
     if template_name:
         query_template = get_template(template_name, template_type, agent_type)
-    
+
     for i, q in enumerate(target_questions):
         logger.info(f"[{name}] Running Q{i+1}/{total}: {q}")
-        if template_name:
-            formatted_q = query_template.format(question=q)
-        else:
-            formatted_q = q
+        formatted_q = query_template.format(question=q) if query_template else q
         try:
+            llm.reset_stats()
+            t0 = time.time()
             res: AdaptorResult = adaptor.run(formatted_q)
+            latency = round(time.time() - t0, 2)
+            tokens = res.token_consumption
+            logger.info(f"[{name}] Q{i+1} done | latency={latency}s | tokens={tokens} | steps={res.steps_taken}")
             results.append({
                 "question": q,
                 "answer": res.answer,
                 "steps": res.steps_taken,
-                "tokens": res.token_consumption,
+                "tokens": tokens,
+                "latency_s": latency,
                 "replan": res.replan_count
             })
         except Exception as e:
@@ -76,9 +81,13 @@ def setup_mirix_and_llm(user_id: str, api_key: str, base_url: str):
     
     conf = get_config()
     llm = OpenAIClient(
-        api_key=conf.llm.get("api_key"),
-        base_url=conf.llm.get("base_url"),
-        model=conf.llm.get("model")
+        api_key=conf.llm.get("api_key", ""),
+        base_url=conf.llm.get("base_url", ""),
+        model=conf.llm.get("model", ""),
+        provider=conf.llm.get("provider", "openai"),
+        fornax_ak=conf.llm.get("fornax_ak", ""),
+        fornax_sk=conf.llm.get("fornax_sk", ""),
+        fornax_prompt_key=conf.llm.get("fornax_prompt_key", ""),
     )
     return memory, llm
 
@@ -193,15 +202,15 @@ def evaluate_one_instance(task: str, instance_idx: int, adaptors_to_run: List[st
     task_short_name = task_short_map.get(task, task.lower())
 
     if "all" in adaptors_to_run or "R1" in adaptors_to_run:
-        res = evaluate_adaptor("R1", SingleTurnAdaptor(llm, memory), questions, limit, template_name)
+        res = evaluate_adaptor("R1", SingleTurnAdaptor(llm, memory), questions, limit, llm, template_name)
         results["R1"] = res
-        
+
     if "all" in adaptors_to_run or "R2" in adaptors_to_run:
-        res = evaluate_adaptor("R2", IterativeAdaptor(llm, memory), questions, limit, template_name)
+        res = evaluate_adaptor("R2", IterativeAdaptor(llm, memory), questions, limit, llm, template_name)
         results["R2"] = res
-        
+
     if "all" in adaptors_to_run or "R3" in adaptors_to_run:
-        res = evaluate_adaptor("R3", PlanAndActAdaptor(llm, memory), questions, limit, template_name)
+        res = evaluate_adaptor("R3", PlanAndActAdaptor(llm, memory), questions, limit, llm, template_name)
         results["R3"] = res
 
     final_report = {
@@ -222,7 +231,7 @@ def main():
                         help="The task/dataset to evaluate")
                         
     parser.add_argument("--adaptor", nargs='+', default=["all"], choices=["R1", "R2", "R3", "all"], help="Adaptors to run")
-    parser.add_argument("--limit", type=int, default=1, help="Number of questions to run (-1 for all)")
+    parser.add_argument("--limit", type=int, default=-1, help="Number of questions to run (-1 for all)")
     parser.add_argument("--instance_idx", type=str, default="0", help="Index range (e.g., '0-5', '1,3')")
     parser.add_argument("--output_suffix", type=str, default="", help="Suffix for output filename")
     

@@ -52,49 +52,34 @@ class Mirix(BaseMemorySystem):
     def retrieve(self, query: str, top_k: int = 5, user_id: Optional[str] = None) -> List[Evidence]:
         """
         Retrieve evidence from Mirix based on a query.
-        Uses retrieve_with_conversation to get relevant memories.
+        Uses embedding search (semantic similarity) for better retrieval quality.
         Supports optional user_id argument to override default user_id.
         """
         target_user_id = user_id if user_id is not None else self.user_id
 
-        messages = [
-            {"role": "user", "content": [{"type": "text", "text": query}]}
-        ]
-        
-        # Call client
-        # Returns a Dict with 'memories', 'topics', etc.
-        results = self.client.retrieve_with_conversation(
-            user_id=target_user_id, 
-            messages=messages, 
-            limit=top_k
+        results = self.client.search(
+            user_id=target_user_id,
+            query=query,
+            memory_type="all",
+            search_field="null",
+            search_method="embedding",
+            limit=top_k,
         )
-        
+
         evidences = []
-        if isinstance(results, dict):
-            # The 'memories' key contains the retrieved items organized by type
-            # e.g. {"episodic": [...], "semantic": [...]}
-            memories = results.get("memories", {})
-            
-            if isinstance(memories, dict):
-                for memory_type, items in memories.items():
-                    if isinstance(items, list):
-                        for item in items:
-                            content = ""
-                            meta = {"source": "mirix", "memory_type": memory_type}
-                            
-                            if isinstance(item, str):
-                                content = item
-                            elif isinstance(item, dict):
-                                # Extract content from common fields
-                                content = item.get("text") or item.get("content") or item.get("memory") or ""
-                                # Copy other fields to metadata
-                                for k, v in item.items():
-                                    if k not in ["text", "content", "memory"]:
-                                        meta[k] = v
-                            
-                            if content:
-                                evidences.append(Evidence(content=content, metadata=meta))
-        
+        for item in results.get("results", []):
+            if not isinstance(item, dict):
+                continue
+            content = (item.get("summary") or item.get("details") or
+                       item.get("content") or item.get("text") or "")
+            if item.get("details") and item.get("summary"):
+                content = f"{item['summary']}\n{item['details']}"
+            if content:
+                meta = {k: v for k, v in item.items()
+                        if k not in ("summary", "details", "content", "text")}
+                meta["source"] = "mirix"
+                evidences.append(Evidence(content=content, metadata=meta))
+
         return evidences
 
     def reset(self) -> None:

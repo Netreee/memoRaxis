@@ -6,6 +6,7 @@
 
 import json
 import re
+import time
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 
@@ -13,6 +14,11 @@ try:
     from openai import OpenAI
 except ImportError:
     OpenAI = None
+
+try:
+    from fornax.fornax_openai import FornaxOpenAI
+except ImportError:
+    FornaxOpenAI = None
 
 from .logger import get_logger
 
@@ -48,25 +54,80 @@ class BaseLLMClient(ABC):
 
 
 class OpenAIClient(BaseLLMClient):
-    """OpenAI 兼容接口客户端"""
+    """OpenAI 兼容接口客户端，支持 openai / fornax 两种 provider"""
 
     def __init__(
         self,
-        api_key: str,
-        base_url: str,
-        model: str,
+        api_key: str = "",
+        base_url: str = "",
+        model: str = "",
         temperature: float = 0.7,
         max_tokens: int = 2000,
+        provider: str = "",
+        fornax_ak: str = "",
+        fornax_sk: str = "",
+        fornax_prompt_key: str = "",
     ):
-        if OpenAI is None:
-            raise ImportError("请先安装 openai 库: pip install openai")
-
         self._logger = get_logger()
-        self._client = OpenAI(api_key=api_key, base_url=base_url)
-        self._model = model
         self._temperature = temperature
         self._max_tokens = max_tokens
         self._total_tokens = 0
+
+        # 如果没有显式传 provider，从 config.yaml 自动检测
+        if not provider:
+            try:
+                from .config import get_config
+                _conf = get_config().llm
+                provider = _conf.get("provider", "openai")
+                if provider == "fornax" and not fornax_ak:
+                    fornax_ak = _conf.get("fornax_ak", "")
+                    fornax_sk = _conf.get("fornax_sk", "")
+                    fornax_prompt_key = _conf.get("fornax_prompt_key", "")
+            except Exception:
+                provider = "openai"
+
+        self._provider = provider.lower()
+
+        if self._provider == "fornax":
+            if FornaxOpenAI is None:
+                raise ImportError("请先安装 fornax: pip install bytedance-fornax -i https://bytedpypi.byted.org/simple/")
+            import os
+            os.environ.setdefault("SERVICE_ENV", "boe")
+            os.environ.setdefault("RUNTIME_IDC_NAME", "boe")
+            os.environ.setdefault("FORNAX_CUSTOM_REGION", "CN")
+            os.environ.setdefault("CONSUL_HTTP_HOST", "10.225.68.72")
+            os.environ.setdefault("CONSUL_HTTP_PORT", "2280")
+            self._client = FornaxOpenAI(
+                ak=fornax_ak or api_key,
+                sk=fornax_sk,
+                prompt_key=fornax_prompt_key or model,
+                allow_custom_model_config=False,
+                env={
+                    "SERVICE_ENV": os.environ["SERVICE_ENV"],
+                    "RUNTIME_IDC_NAME": os.environ["RUNTIME_IDC_NAME"],
+                    "FORNAX_CUSTOM_REGION": os.environ["FORNAX_CUSTOM_REGION"],
+                    "CONSUL_HTTP_HOST": os.environ["CONSUL_HTTP_HOST"],
+                    "CONSUL_HTTP_PORT": os.environ["CONSUL_HTTP_PORT"],
+                },
+                read_timeout=120,
+            )
+            self._model = fornax_prompt_key or model
+            self._logger.info("LLM provider: Fornax (prompt_key=%s)", self._model)
+        else:
+            if OpenAI is None:
+                raise ImportError("请先安装 openai 库: pip install openai")
+            # 确保内网域名绕过 HTTP 代理
+            import os
+            if base_url and "bytedance" in base_url:
+                from urllib.parse import urlparse
+                host = urlparse(base_url).hostname or ""
+                for var in ("NO_PROXY", "no_proxy"):
+                    existing = os.environ.get(var, "")
+                    if host not in existing:
+                        os.environ[var] = f"{existing},{host}" if existing else host
+            self._client = OpenAI(api_key=api_key, base_url=base_url)
+            self._model = model
+            self._logger.info("LLM provider: OpenAI-compatible (model=%s)", self._model)
 
     @property
     def total_tokens(self) -> int:
@@ -78,25 +139,38 @@ class OpenAIClient(BaseLLMClient):
         self._total_tokens = 0
 
     def generate(self, prompt: str, **kwargs) -> str:
-        """调用 OpenAI 生成文本"""
+        """调用 OpenAI 生成文本，429 时指数退避重试"""
         self._logger.debug("OpenAI generate 调用")
-        try:
-            response = self._client.chat.completions.create(
-                model=self._model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=kwargs.get("temperature", self._temperature),
-                max_tokens=kwargs.get("max_tokens", self._max_tokens),
-            )
-            
-            content = response.choices[0].message.content
-            
-            if response.usage:
-                self._total_tokens += response.usage.total_tokens
-                
-            return content
-        except Exception as e:
-            self._logger.error("OpenAI 调用失败: %s", e)
-            raise
+        max_retries = 8
+        wait = 30
+        for attempt in range(max_retries):
+            try:
+                response = self._client.chat.completions.create(
+                    model=self._model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=kwargs.get("temperature", self._temperature),
+                    max_tokens=kwargs.get("max_tokens", self._max_tokens),
+                )
+                content = response.choices[0].message.content
+                if response.usage:
+                    self._total_tokens += response.usage.total_tokens
+                return content
+            except Exception as e:
+                err_str = str(e)
+                is_rate_limit = (
+                    "429" in err_str
+                    or "RateLimit" in err_str
+                    or "rate_limit" in err_str.lower()
+                    or "TPM" in err_str  # Fornax TPM 限流
+                    or "超过模型" in err_str  # Fornax 中文错误
+                )
+                if is_rate_limit and attempt < max_retries - 1:
+                    self._logger.warning("TPM限制，等待 %ds 后重试 (attempt %d/%d)", wait, attempt+1, max_retries)
+                    time.sleep(wait)
+                    wait = min(wait * 2, 300)
+                    continue
+                self._logger.error("LLM 调用失败: %s", e)
+                raise
 
     def generate_json(self, prompt: str, **kwargs) -> Dict[str, Any]:
         """调用 OpenAI 生成 JSON"""

@@ -1,0 +1,2223 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0",
+  "instance_idx": 5,
+  "source_files": [
+    "results/mem0/CR/instance_5.json",
+    "out/mem0/mem0_conflict_results_5_r3.json",
+    "out/mem0/mem0_conflict_results_5.json",
+    "out/mem0/mem0_conflict_results_5_r2.json"
+  ],
+  "results": {
+    "R1": [
+      {
+        "question": "Which sport is Salem-Keizer Volcanoes associated with?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 5.01,
+        "replan": 0
+      },
+      {
+        "question": "What position does Nick Rimando play?",
+        "answer": "There is no relevant information about Nick Rimando's position in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 554,
+        "latency_s": 4.56,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is power forward associated with?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 520,
+        "latency_s": 2.67,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Morris Iemma affiliated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 560,
+        "latency_s": 4.14,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is FC Slutsk associated with?",
+        "answer": "The information about FC Slutsk is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 551,
+        "latency_s": 3.63,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of United Kingdom?",
+        "answer": "London",
+        "steps": 1,
+        "tokens": 539,
+        "latency_s": 4.16,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Dan Christensen?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 492,
+        "latency_s": 2.89,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Montanism?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 542,
+        "latency_s": 3.93,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Noel Pemberton Billing work in?",
+        "answer": "The provided knowledge pool does not contain information about which city Noel Pemberton Billing worked in. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 528,
+        "latency_s": 3.54,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Papal States?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 493,
+        "latency_s": 3.03,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Edmund Burke?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 491,
+        "latency_s": 3.22,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Colin Irwin?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 537,
+        "latency_s": 4.36,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Apple DOS?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 572,
+        "latency_s": 5.3,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Gary SouthShore RailCats associated with?",
+        "answer": "The information about Gary SouthShore RailCats is not present in the provided knowledge pool.\n\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 559,
+        "latency_s": 3.34,
+        "replan": 0
+      },
+      {
+        "question": "Which city was Bachir Gemayel born in?",
+        "answer": "The information about which city Bachir Gemayel was born in is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 542,
+        "latency_s": 3.73,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Rick Remender?",
+        "answer": "The information about the country of citizenship of Rick Remender is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 590,
+        "latency_s": 5.73,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Jeff Hornacek associated with?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 541,
+        "latency_s": 3.72,
+        "replan": 0
+      },
+      {
+        "question": "Who is Charles Darwin married to?",
+        "answer": "The information about who Charles Darwin is married to is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 504,
+        "latency_s": 3.63,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of David Copperfield?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 498,
+        "latency_s": 4.21,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Maria Amalia of Naples and Sicily affiliated with?",
+        "answer": "信息不足，知识池中未提及Maria Amalia of Naples and Sicily的宗教信仰相关内容。",
+        "steps": 1,
+        "tokens": 529,
+        "latency_s": 3.81,
+        "replan": 0
+      },
+      {
+        "question": "What position does Tony Parker play?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 537,
+        "latency_s": 4.36,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is flanker associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 492,
+        "latency_s": 3.79,
+        "replan": 0
+      },
+      {
+        "question": "What language does Federico García Lorca speak?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 625,
+        "latency_s": 6.83,
+        "replan": 0
+      },
+      {
+        "question": "What is Stephen Crane famous for?",
+        "answer": "信息不足，知识池中未提及Stephen Crane相关内容。",
+        "steps": 1,
+        "tokens": 504,
+        "latency_s": 2.68,
+        "replan": 0
+      },
+      {
+        "question": "Who is Igor of Kiev married to?",
+        "answer": "The provided knowledge pool does not contain information about who Igor of Kiev is married to. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 535,
+        "latency_s": 4.28,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Robert Wisdom?",
+        "answer": "信息不足，知识池中未提及Robert Wisdom的国籍相关内容。",
+        "steps": 1,
+        "tokens": 506,
+        "latency_s": 2.5,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Renaud Lavillenie?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 498,
+        "latency_s": 2.66,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is midfielder associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 606,
+        "latency_s": 5.96,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of James Badge Dale?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 2.73,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Darryl Strawberry associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 494,
+        "latency_s": 2.38,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Apple TV produced by?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 601,
+        "latency_s": 4.49,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Microsoft located in?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 656,
+        "latency_s": 6.46,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Catholic bishop affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 578,
+        "latency_s": 4.98,
+        "replan": 0
+      },
+      {
+        "question": "Which city did William Holman Hunt die in?",
+        "answer": "The information about which city William Holman Hunt died in is not provided in the given knowledge pool.",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 3.75,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Travis Barker?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 503,
+        "latency_s": 2.73,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Burleigh Grimes associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 491,
+        "latency_s": 2.83,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Hrishikesh Mukherjee educated at?",
+        "answer": "The provided knowledge pool does not contain information about which university Hrishikesh Mukherjee was educated at. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 563,
+        "latency_s": 4.11,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Parenthood?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 490,
+        "latency_s": 2.53,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lisa Leslie play?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 496,
+        "latency_s": 2.6,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Iran?",
+        "answer": "The information about the capital of Iran is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 604,
+        "latency_s": 5.19,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of The Drew Carey Show?",
+        "answer": "The information about the original broadcaster of The Drew Carey Show is not provided in the given knowledge pool.\n\n（或者更简洁点：信息不足。但按照示例和要求，可能需要明确说明。）\n\n根据提供的上下文，没有关于《The Drew Carey Show》原始广播公司的信息。",
+        "steps": 1,
+        "tokens": 691,
+        "latency_s": 9.11,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Apple Inc.?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 533,
+        "latency_s": 2.57,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does Sabbatai Zevi do?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 525,
+        "latency_s": 4.65,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lionel Richie?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 499,
+        "latency_s": 2.01,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Tom Cruise affiliated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 508,
+        "latency_s": 2.27,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Ford F-Series produced by?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 667,
+        "latency_s": 7.37,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Inuyasha?",
+        "answer": "The information about the author of Inuyasha is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 569,
+        "latency_s": 4.22,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is San Francisco located in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 631,
+        "latency_s": 5.83,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Terry Collins associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 488,
+        "latency_s": 2.66,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2009 Six Nations Championship associated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 617,
+        "latency_s": 4.84,
+        "replan": 0
+      },
+      {
+        "question": "What position does Vernon Davis play?",
+        "answer": "The context does not provide information about the position Vernon Davis plays.",
+        "steps": 1,
+        "tokens": 662,
+        "latency_s": 8.33,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in Ireland?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 561,
+        "latency_s": 3.68,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Past Masters?",
+        "answer": "Information not available in the knowledge pool.",
+        "steps": 1,
+        "tokens": 577,
+        "latency_s": 5.63,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Imran Khan associated with?",
+        "answer": "上下文信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 599,
+        "latency_s": 5.21,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Tomoyasu Hotei?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 522,
+        "latency_s": 4.02,
+        "replan": 0
+      },
+      {
+        "question": "What language does Matti Vanhanen speak?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 621,
+        "latency_s": 6.38,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Transcendental Meditation movement?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 613,
+        "latency_s": 6.7,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in United States of America?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 598,
+        "latency_s": 4.47,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleScript?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 508,
+        "latency_s": 2.58,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Philippines located in?",
+        "answer": "The information about which continent the Philippines is located in is not provided in the given knowledge pool.",
+        "steps": 1,
+        "tokens": 501,
+        "latency_s": 2.75,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Great Movies?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 492,
+        "latency_s": 2.44,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Chicago Boys educated at?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 664,
+        "latency_s": 6.58,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Andrew Carnegie?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 603,
+        "latency_s": 5.17,
+        "replan": 0
+      },
+      {
+        "question": "Who is Kristen Bell married to?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 562,
+        "latency_s": 6.26,
+        "replan": 0
+      },
+      {
+        "question": "What is William Gibson famous for?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 522,
+        "latency_s": 3.56,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Bahawalpur State affiliated with?",
+        "answer": "The information about the religion Bahawalpur State is affiliated with is not available in the provided knowledge pool.\n\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 626,
+        "latency_s": 7.49,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Advanced Micro Devices?",
+        "answer": "Sundar Pichai",
+        "steps": 1,
+        "tokens": 669,
+        "latency_s": 6.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Sue Grafton?",
+        "answer": "信息不足，未在提供的知识池中找到关于Sue Grafton国籍的相关事实。",
+        "steps": 1,
+        "tokens": 526,
+        "latency_s": 3.54,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Internet Explorer 5?",
+        "answer": "The provided knowledge pool does not contain information about the developer of Internet Explorer 5. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 533,
+        "latency_s": 4.64,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Marriage of Figaro?",
+        "answer": "The provided knowledge pool does not contain information about the author of The Marriage of Figaro. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 529,
+        "latency_s": 3.26,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Age of Reason?",
+        "answer": "Thomas Paine",
+        "steps": 1,
+        "tokens": 521,
+        "latency_s": 3.12,
+        "replan": 0
+      },
+      {
+        "question": "What language does Daphne du Maurier speak?",
+        "answer": "信息不足，知识池中未提及Daphne du Maurier相关的语言信息。",
+        "steps": 1,
+        "tokens": 511,
+        "latency_s": 3.76,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of MTV located in?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 3.79,
+        "replan": 0
+      },
+      {
+        "question": "Who was Malvolio created by?",
+        "answer": "The information about who created Malvolio is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 626,
+        "latency_s": 6.03,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Nat King Cole play?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 528,
+        "latency_s": 3.24,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Unreal Tournament 2004?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 602,
+        "latency_s": 5.66,
+        "replan": 0
+      },
+      {
+        "question": "Which country was heartland rock created in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 636,
+        "latency_s": 5.71,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Cédric Klapisch?",
+        "answer": "France",
+        "steps": 1,
+        "tokens": 505,
+        "latency_s": 2.88,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Jaguar Cars?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 520,
+        "latency_s": 3.69,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Sports Interactive associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 496,
+        "latency_s": 2.54,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "The information about which country Sigur Rós was created in is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 601,
+        "latency_s": 5.7,
+        "replan": 0
+      },
+      {
+        "question": "Which country was pesäpallo created in?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 583,
+        "latency_s": 7.38,
+        "replan": 0
+      },
+      {
+        "question": "Who was Kinsey Millhone created by?",
+        "answer": "信息不足，知识池中未提及Kinsey Millhone相关内容。",
+        "steps": 1,
+        "tokens": 510,
+        "latency_s": 3.86,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Madame du Barry?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 640,
+        "latency_s": 6.21,
+        "replan": 0
+      },
+      {
+        "question": "Which language was The Thorn Birds written in?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 509,
+        "latency_s": 2.99,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of Los Angeles FC?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 500,
+        "latency_s": 3.43,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Buick Regal produced by?",
+        "answer": "General Motors",
+        "steps": 1,
+        "tokens": 535,
+        "latency_s": 4.06,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Natalie Portman affiliated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 511,
+        "latency_s": 2.82,
+        "replan": 0
+      },
+      {
+        "question": "Who was Finnish created by?",
+        "answer": "Information insufficient",
+        "steps": 1,
+        "tokens": 565,
+        "latency_s": 4.47,
+        "replan": 0
+      },
+      {
+        "question": "What position does Artur Boruc play?",
+        "answer": "There is no relevant information about Artur Boruc's position in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 655,
+        "latency_s": 7.43,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Ada Wong?",
+        "answer": "信息不足，知识池中未提及Ada Wong的国籍相关内容。",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 4.08,
+        "replan": 0
+      },
+      {
+        "question": "Who is Lalu Prasad Yadav married to?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 559,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Ford S-Max produced by?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 622,
+        "latency_s": 5.65,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Orkneyinga saga created in?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 517,
+        "latency_s": 3.85,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is shooting guard associated with?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 609,
+        "latency_s": 5.25,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Henri Grégoire?",
+        "answer": "The context does not provide information about the country of citizenship of Henri Grégoire.",
+        "steps": 1,
+        "tokens": 626,
+        "latency_s": 6.53,
+        "replan": 0
+      },
+      {
+        "question": "Which city was Constantine VII born in?",
+        "answer": "The context does not provide information about where Constantine VII was born. The knowledge pool does not contain any facts related to Constantine VII's birthplace. Therefore, the answer is: No relevant information in the knowledge pool.",
+        "steps": 1,
+        "tokens": 553,
+        "latency_s": 4.36,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Wilhelm von Humboldt?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 534,
+        "latency_s": 3.75,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the South Korea government?",
+        "answer": "信息不足，知识池中未提及韩国现任政府首脑的名字。",
+        "steps": 1,
+        "tokens": 528,
+        "latency_s": 2.96,
+        "replan": 0
+      },
+      {
+        "question": "What position does David Seaman play?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 527,
+        "latency_s": 3.57,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "Which sport is Salem-Keizer Volcanoes associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8869,
+        "latency_s": 60.75,
+        "replan": 0
+      },
+      {
+        "question": "What position does Nick Rimando play?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8577,
+        "latency_s": 57.89,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is power forward associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8922,
+        "latency_s": 62.95,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Morris Iemma affiliated with?",
+        "answer": "No information about Morris Iemma's religion is provided in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8766,
+        "latency_s": 56.47,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is FC Slutsk associated with?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 9160,
+        "latency_s": 69.5,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of United Kingdom?",
+        "answer": "London",
+        "steps": 2,
+        "tokens": 2445,
+        "latency_s": 19.14,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Dan Christensen?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8649,
+        "latency_s": 60.99,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Montanism?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9489,
+        "latency_s": 81.03,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Noel Pemberton Billing work in?",
+        "answer": "No relevant information about Noel Pemberton Billing's working city is provided in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8583,
+        "latency_s": 53.57,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Papal States?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9266,
+        "latency_s": 72.6,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Edmund Burke?",
+        "answer": "Not mentioned in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8930,
+        "latency_s": 59.03,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Colin Irwin?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9262,
+        "latency_s": 74.02,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Apple DOS?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 8731,
+        "latency_s": 61.63,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Gary SouthShore RailCats associated with?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 8699,
+        "latency_s": 55.3,
+        "replan": 0
+      },
+      {
+        "question": "Which city was Bachir Gemayel born in?",
+        "answer": "No relevant information is available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9284,
+        "latency_s": 64.6,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Rick Remender?",
+        "answer": "No information about Rick Remender's country of citizenship is provided in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8739,
+        "latency_s": 61.55,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Jeff Hornacek associated with?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8683,
+        "latency_s": 55.03,
+        "replan": 0
+      },
+      {
+        "question": "Who is Charles Darwin married to?",
+        "answer": "No relevant information available",
+        "steps": 5,
+        "tokens": 8989,
+        "latency_s": 69.96,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of David Copperfield?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8608,
+        "latency_s": 55.21,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Maria Amalia of Naples and Sicily affiliated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8667,
+        "latency_s": 49.48,
+        "replan": 0
+      },
+      {
+        "question": "What position does Tony Parker play?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 10455,
+        "latency_s": 111.03,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is flanker associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9122,
+        "latency_s": 64.97,
+        "replan": 0
+      },
+      {
+        "question": "What language does Federico García Lorca speak?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8830,
+        "latency_s": 67.22,
+        "replan": 0
+      },
+      {
+        "question": "What is Stephen Crane famous for?",
+        "answer": "Not found in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8886,
+        "latency_s": 60.39,
+        "replan": 0
+      },
+      {
+        "question": "Who is Igor of Kiev married to?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9407,
+        "latency_s": 72.44,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Robert Wisdom?",
+        "answer": "No information about Robert Wisdom's country of citizenship is available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8742,
+        "latency_s": 50.59,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Renaud Lavillenie?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9095,
+        "latency_s": 68.35,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is midfielder associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 10733,
+        "latency_s": 102.83,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of James Badge Dale?",
+        "answer": "No relevant information about James Badge Dale is found in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8752,
+        "latency_s": 49.92,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Darryl Strawberry associated with?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 8614,
+        "latency_s": 47.98,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Apple TV produced by?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8812,
+        "latency_s": 53.54,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Microsoft located in?",
+        "answer": "未找到相关信息",
+        "steps": 5,
+        "tokens": 10097,
+        "latency_s": 84.55,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Catholic bishop affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 5,
+        "tokens": 9742,
+        "latency_s": 78.65,
+        "replan": 0
+      },
+      {
+        "question": "Which city did William Holman Hunt die in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9347,
+        "latency_s": 75.24,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Travis Barker?",
+        "answer": "No relevant information about Travis Barker's country of citizenship in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9042,
+        "latency_s": 61.87,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Burleigh Grimes associated with?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 9141,
+        "latency_s": 67.8,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Hrishikesh Mukherjee educated at?",
+        "answer": "未提及",
+        "steps": 5,
+        "tokens": 8780,
+        "latency_s": 52.76,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Parenthood?",
+        "answer": "No relevant information about the original broadcaster of Parenthood is found in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8606,
+        "latency_s": 48.72,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lisa Leslie play?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8728,
+        "latency_s": 58.42,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Iran?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9168,
+        "latency_s": 71.99,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of The Drew Carey Show?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8753,
+        "latency_s": 60.26,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Apple Inc.?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9335,
+        "latency_s": 62.57,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does Sabbatai Zevi do?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 8775,
+        "latency_s": 59.62,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lionel Richie?",
+        "answer": "No information about Lionel Richie's country of citizenship in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9209,
+        "latency_s": 66.07,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Tom Cruise affiliated with?",
+        "answer": "Not mentioned in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8615,
+        "latency_s": 52.91,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Ford F-Series produced by?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9563,
+        "latency_s": 81.49,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Inuyasha?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9651,
+        "latency_s": 84.12,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is San Francisco located in?",
+        "answer": "No relevant information about San Francisco's continent is available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9704,
+        "latency_s": 84.93,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Terry Collins associated with?",
+        "answer": "No information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8637,
+        "latency_s": 59.73,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2009 Six Nations Championship associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9756,
+        "latency_s": 81.33,
+        "replan": 0
+      },
+      {
+        "question": "What position does Vernon Davis play?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8944,
+        "latency_s": 65.91,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in Ireland?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 10516,
+        "latency_s": 97.21,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Past Masters?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8914,
+        "latency_s": 67.55,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Imran Khan associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9292,
+        "latency_s": 70.2,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Tomoyasu Hotei?",
+        "answer": "No relevant information about Tomoyasu Hotei's citizenship in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9111,
+        "latency_s": 65.7,
+        "replan": 0
+      },
+      {
+        "question": "What language does Matti Vanhanen speak?",
+        "answer": "No relevant information",
+        "steps": 5,
+        "tokens": 9500,
+        "latency_s": 84.6,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Transcendental Meditation movement?",
+        "answer": "No relevant information found in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9598,
+        "latency_s": 79.56,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in United States of America?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 10038,
+        "latency_s": 86.54,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleScript?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 8193,
+        "latency_s": 49.56,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Philippines located in?",
+        "answer": "No information available about the continent of the Philippines in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9954,
+        "latency_s": 92.6,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Great Movies?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 9469,
+        "latency_s": 82.77,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Chicago Boys educated at?",
+        "answer": "Not mentioned in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9074,
+        "latency_s": 62.49,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Andrew Carnegie?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9616,
+        "latency_s": 83.31,
+        "replan": 0
+      },
+      {
+        "question": "Who is Kristen Bell married to?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8924,
+        "latency_s": 65.72,
+        "replan": 0
+      },
+      {
+        "question": "What is William Gibson famous for?",
+        "answer": "No information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8581,
+        "latency_s": 54.26,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Bahawalpur State affiliated with?",
+        "answer": "Not mentioned in the knowledge pool",
+        "steps": 5,
+        "tokens": 8727,
+        "latency_s": 54.47,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Advanced Micro Devices?",
+        "answer": "Sundar Pichai",
+        "steps": 2,
+        "tokens": 3111,
+        "latency_s": 31.83,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Sue Grafton?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9267,
+        "latency_s": 70.33,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Internet Explorer 5?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 9468,
+        "latency_s": 81.5,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Marriage of Figaro?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 9089,
+        "latency_s": 66.84,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Age of Reason?",
+        "answer": "Thomas Paine",
+        "steps": 2,
+        "tokens": 2236,
+        "latency_s": 10.5,
+        "replan": 0
+      },
+      {
+        "question": "What language does Daphne du Maurier speak?",
+        "answer": "No relevant information about Daphne du Maurier's language is provided in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8945,
+        "latency_s": 63.34,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of MTV located in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9191,
+        "latency_s": 60.15,
+        "replan": 0
+      },
+      {
+        "question": "Who was Malvolio created by?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9291,
+        "latency_s": 77.8,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Nat King Cole play?",
+        "answer": "没有相关信息",
+        "steps": 5,
+        "tokens": 9162,
+        "latency_s": 75.69,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Unreal Tournament 2004?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 8663,
+        "latency_s": 54.29,
+        "replan": 0
+      },
+      {
+        "question": "Which country was heartland rock created in?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 9361,
+        "latency_s": 79.06,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Cédric Klapisch?",
+        "answer": "France",
+        "steps": 2,
+        "tokens": 2258,
+        "latency_s": 11.66,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Jaguar Cars?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9515,
+        "latency_s": 89.33,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Sports Interactive associated with?",
+        "answer": "No information available\n\n(Note: The knowledge pool provided does not contain any fact about Sports Interactive, so there is no relevant information to answer the question.)",
+        "steps": 5,
+        "tokens": 8632,
+        "latency_s": 57.98,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "No relevant information",
+        "steps": 5,
+        "tokens": 8896,
+        "latency_s": 62.1,
+        "replan": 0
+      },
+      {
+        "question": "Which country was pesäpallo created in?",
+        "answer": "No information about pesäpallo is available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8976,
+        "latency_s": 67.79,
+        "replan": 0
+      },
+      {
+        "question": "Who was Kinsey Millhone created by?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9329,
+        "latency_s": 81.19,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Madame du Barry?",
+        "answer": "No information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9354,
+        "latency_s": 77.83,
+        "replan": 0
+      },
+      {
+        "question": "Which language was The Thorn Birds written in?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 9412,
+        "latency_s": 86.53,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of Los Angeles FC?",
+        "answer": "There is no information available about the head coach of Los Angeles FC in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8750,
+        "latency_s": 59.59,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Buick Regal produced by?",
+        "answer": "General Motors",
+        "steps": 2,
+        "tokens": 3069,
+        "latency_s": 32.88,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Natalie Portman affiliated with?",
+        "answer": "No relevant information about Natalie Portman's religion is provided in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9013,
+        "latency_s": 64.09,
+        "replan": 0
+      },
+      {
+        "question": "Who was Finnish created by?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 8735,
+        "latency_s": 63.18,
+        "replan": 0
+      },
+      {
+        "question": "What position does Artur Boruc play?",
+        "answer": "No information about Artur Boruc's position is available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8800,
+        "latency_s": 61.75,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Ada Wong?",
+        "answer": "未找到相关信息",
+        "steps": 5,
+        "tokens": 8742,
+        "latency_s": 59.06,
+        "replan": 0
+      },
+      {
+        "question": "Who is Lalu Prasad Yadav married to?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 9271,
+        "latency_s": 71.53,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Ford S-Max produced by?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9063,
+        "latency_s": 70.16,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Orkneyinga saga created in?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8900,
+        "latency_s": 67.87,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is shooting guard associated with?",
+        "answer": "No relevant fact about shooting guard is found in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9513,
+        "latency_s": 81.24,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Henri Grégoire?",
+        "answer": "No information about Henri Grégoire's country of citizenship is available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 8677,
+        "latency_s": 51.22,
+        "replan": 0
+      },
+      {
+        "question": "Which city was Constantine VII born in?",
+        "answer": "没有相关信息",
+        "steps": 5,
+        "tokens": 8416,
+        "latency_s": 49.11,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Wilhelm von Humboldt?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 8867,
+        "latency_s": 57.44,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the South Korea government?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 9365,
+        "latency_s": 66.82,
+        "replan": 0
+      },
+      {
+        "question": "What position does David Seaman play?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 8711,
+        "latency_s": 57.65,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "Which sport is Salem-Keizer Volcanoes associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 14496,
+        "latency_s": 130.65,
+        "replan": 2
+      },
+      {
+        "question": "What position does Nick Rimando play?",
+        "answer": "No information available",
+        "steps": 3,
+        "tokens": 12669,
+        "latency_s": 176.44,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is power forward associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13023,
+        "latency_s": 88.11,
+        "replan": 2
+      },
+      {
+        "question": "Which religion is Morris Iemma affiliated with?",
+        "answer": "Not mentioned in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13187,
+        "latency_s": 98.57,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is FC Slutsk associated with?",
+        "answer": "No information available about FC Slutsk in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13496,
+        "latency_s": 98.44,
+        "replan": 2
+      },
+      {
+        "question": "What is the capital of United Kingdom?",
+        "answer": "London",
+        "steps": 3,
+        "tokens": 10586,
+        "latency_s": 108.24,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Dan Christensen?",
+        "answer": "No information about Dan Christensen's country of citizenship is found in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13126,
+        "latency_s": 100.6,
+        "replan": 2
+      },
+      {
+        "question": "Who founded Montanism?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 18336,
+        "latency_s": 137.86,
+        "replan": 2
+      },
+      {
+        "question": "Which city did Noel Pemberton Billing work in?",
+        "answer": "No information about the city where Noel Pemberton Billing worked is provided in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14465,
+        "latency_s": 132.43,
+        "replan": 2
+      },
+      {
+        "question": "What is the capital of Papal States?",
+        "answer": "No relevant information about the capital of Papal States is found in the knowledge pool.",
+        "steps": 4,
+        "tokens": 12772,
+        "latency_s": 85.46,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Edmund Burke?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267950967378719fd88a0633b32464ea8545b38a795b37e7', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Colin Irwin?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267951108378719fd88a0633b32464ea8545b38a79c45ef5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the developer of Apple DOS?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177267951265778719fd88a0633b32464ea8545b38a795cb9c8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is Gary SouthShore RailCats associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13235,
+        "latency_s": 91.33,
+        "replan": 2
+      },
+      {
+        "question": "Which city was Bachir Gemayel born in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14737,
+        "latency_s": 131.55,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Rick Remender?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 15419,
+        "latency_s": 172.67,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Jeff Hornacek associated with?",
+        "answer": "No information about Jeff Hornacek is available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 19009,
+        "latency_s": 169.87,
+        "replan": 2
+      },
+      {
+        "question": "Who is Charles Darwin married to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268013058878719fd88a0633b32464ea8545b38a79c8af03', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the author of David Copperfield?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268013221778719fd88a0633b32464ea8545b38a7916c172', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which religion is Maria Amalia of Naples and Sicily affiliated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268013376778719fd88a0633b32464ea8545b38a795bf0e1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What position does Tony Parker play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268013527778719fd88a0633b32464ea8545b38a79112964', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is flanker associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268019988178719fd88a0633b32464ea8545b38a7930bdfb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What language does Federico García Lorca speak?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020141578719fd88a0633b32464ea8545b38a79461d65', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is Stephen Crane famous for?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020297078719fd88a0633b32464ea8545b38a79702f4a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is Igor of Kiev married to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020489278719fd88a0633b32464ea8545b38a79f6255d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Robert Wisdom?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020645778719fd88a0633b32464ea8545b38a79529e68', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Renaud Lavillenie?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020782278719fd88a0633b32464ea8545b38a799e41ff', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is midfielder associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020989878719fd88a0633b32464ea8545b38a79dd32c4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of James Badge Dale?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021141278719fd88a0633b32464ea8545b38a79fb0486', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is Darryl Strawberry associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021290178719fd88a0633b32464ea8545b38a798a71eb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which company is Apple TV produced by?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021483278719fd88a0633b32464ea8545b38a79e874da', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city is the headquarter of Microsoft located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021631078719fd88a0633b32464ea8545b38a792d009b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which religion is Catholic bishop affiliated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021788278719fd88a0633b32464ea8545b38a7938267e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city did William Holman Hunt die in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021972378719fd88a0633b32464ea8545b38a79306967', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Travis Barker?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022127378719fd88a0633b32464ea8545b38a79cbf59d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is Burleigh Grimes associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022269378719fd88a0633b32464ea8545b38a79999dba', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which university was Hrishikesh Mukherjee educated at?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022465578719fd88a0633b32464ea8545b38a79162e71', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the original broadcaster of Parenthood?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022620178719fd88a0633b32464ea8545b38a7939ef63', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What position does Lisa Leslie play?",
+        "answer": "No information",
+        "steps": 4,
+        "tokens": 16834,
+        "latency_s": 206.73,
+        "replan": 1
+      },
+      {
+        "question": "What is the capital of Iran?",
+        "answer": "No relevant fact in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13603,
+        "latency_s": 119.3,
+        "replan": 2
+      },
+      {
+        "question": "Who is the original broadcaster of The Drew Carey Show?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13646,
+        "latency_s": 109.18,
+        "replan": 2
+      },
+      {
+        "question": "Who is the chief executive officer of Apple Inc.?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066998478719fd88a0633b32464ea8545b38a79ef676a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What kind of work does Sabbatai Zevi do?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067172878719fd88a0633b32464ea8545b38a79a14ad9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Lionel Richie?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067326178719fd88a0633b32464ea8545b38a79275ed2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which religion is Tom Cruise affiliated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067478778719fd88a0633b32464ea8545b38a79d8d6f7', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which company is Ford F-Series produced by?",
+        "answer": "Not mentioned",
+        "steps": 4,
+        "tokens": 15894,
+        "latency_s": 171.82,
+        "replan": 2
+      },
+      {
+        "question": "Who is the author of Inuyasha?",
+        "answer": "Not mentioned in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 14060,
+        "latency_s": 113.09,
+        "replan": 2
+      },
+      {
+        "question": "Which continent is San Francisco located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268122801778719fd88a0633b32464ea8545b38a794d9d4c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is Terry Collins associated with?",
+        "answer": "No information available about Terry Collins in the knowledge pool.",
+        "steps": 2,
+        "tokens": 9131,
+        "latency_s": 132.75,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2009 Six Nations Championship associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13600,
+        "latency_s": 93.29,
+        "replan": 2
+      },
+      {
+        "question": "What position does Vernon Davis play?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13588,
+        "latency_s": 106.58,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the current head of state in Ireland?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14684,
+        "latency_s": 129.25,
+        "replan": 2
+      },
+      {
+        "question": "Who performed Past Masters?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13571,
+        "latency_s": 116.85,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Imran Khan associated with?",
+        "answer": "No information available based on the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13572,
+        "latency_s": 101.1,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Tomoyasu Hotei?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268190972578719fd88a0633b32464ea8545b38a79430ce0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What language does Matti Vanhanen speak?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268191116178719fd88a0633b32464ea8545b38a793dc797', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who founded Transcendental Meditation movement?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268191284078719fd88a0633b32464ea8545b38a79c8a20a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the current head of state in United States of America?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268191445778719fd88a0633b32464ea8545b38a797e2134', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the developer of AppleScript?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13080,
+        "latency_s": 91.91,
+        "replan": 2
+      },
+      {
+        "question": "Which continent is Philippines located in?",
+        "answer": "No relevant information about the continent where the Philippines is located exists in the provided knowledge pool.",
+        "steps": 2,
+        "tokens": 9087,
+        "latency_s": 134.05,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Great Movies?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13017,
+        "latency_s": 84.23,
+        "replan": 2
+      },
+      {
+        "question": "Which university was Chicago Boys educated at?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 21323,
+        "latency_s": 212.21,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Andrew Carnegie?",
+        "answer": "No relevant information about Andrew Carnegie's country of citizenship is found in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 12849,
+        "latency_s": 80.09,
+        "replan": 2
+      },
+      {
+        "question": "Who is Kristen Bell married to?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13964,
+        "latency_s": 111.17,
+        "replan": 2
+      },
+      {
+        "question": "What is William Gibson famous for?",
+        "answer": "No relevant information about William Gibson is found in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 20768,
+        "latency_s": 200.36,
+        "replan": 2
+      },
+      {
+        "question": "Which religion is Bahawalpur State affiliated with?",
+        "answer": "No relevant information about Bahawalpur State's affiliated religion is present in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13708,
+        "latency_s": 96.25,
+        "replan": 2
+      },
+      {
+        "question": "Who is the chief executive officer of Advanced Micro Devices?",
+        "answer": "Sundar Pichai",
+        "steps": 2,
+        "tokens": 6844,
+        "latency_s": 67.76,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Sue Grafton?",
+        "answer": "No relevant information about Sue Grafton's country of citizenship in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13589,
+        "latency_s": 98.98,
+        "replan": 2
+      },
+      {
+        "question": "Who is the developer of Internet Explorer 5?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 18477,
+        "latency_s": 140.51,
+        "replan": 2
+      },
+      {
+        "question": "Who is the author of The Marriage of Figaro?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15882,
+        "latency_s": 163.86,
+        "replan": 2
+      },
+      {
+        "question": "Who is the author of The Age of Reason?",
+        "answer": "Thomas Paine",
+        "steps": 2,
+        "tokens": 6549,
+        "latency_s": 64.87,
+        "replan": 0
+      },
+      {
+        "question": "What language does Daphne du Maurier speak?",
+        "answer": "No relevant information about Daphne du Maurier's language is provided in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20846,
+        "latency_s": 200.61,
+        "replan": 2
+      },
+      {
+        "question": "Which city is the headquarter of MTV located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268369488678719fd88a0633b32464ea8545b38a7980adb3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who was Malvolio created by?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 20877,
+        "latency_s": 208.62,
+        "replan": 2
+      },
+      {
+        "question": "What type of music does Nat King Cole play?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 16600,
+        "latency_s": 192.64,
+        "replan": 2
+      },
+      {
+        "question": "Who is the developer of Unreal Tournament 2004?",
+        "answer": "No relevant information about the developer of Unreal Tournament 2004 is provided in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14149,
+        "latency_s": 105.19,
+        "replan": 2
+      },
+      {
+        "question": "Which country was heartland rock created in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13910,
+        "latency_s": 105.98,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Cédric Klapisch?",
+        "answer": "France",
+        "steps": 2,
+        "tokens": 6706,
+        "latency_s": 59.76,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Jaguar Cars?",
+        "answer": "No relevant information available in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13930,
+        "latency_s": 117.41,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Sports Interactive associated with?",
+        "answer": "No relevant information",
+        "steps": 4,
+        "tokens": 13453,
+        "latency_s": 92.43,
+        "replan": 2
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13157,
+        "latency_s": 85.39,
+        "replan": 2
+      },
+      {
+        "question": "Which country was pesäpallo created in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471247878719fd88a0633b32464ea8545b38a79f8df3b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who was Kinsey Millhone created by?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471400278719fd88a0633b32464ea8545b38a798d6920', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Madame du Barry?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471557778719fd88a0633b32464ea8545b38a79fd048a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which language was The Thorn Birds written in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471697478719fd88a0633b32464ea8545b38a79940892', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the head coach of Los Angeles FC?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268471864978719fd88a0633b32464ea8545b38a7975d93f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which company is Buick Regal produced by?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472025778719fd88a0633b32464ea8545b38a798be468', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which religion is Natalie Portman affiliated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472177178719fd88a0633b32464ea8545b38a796fd965', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who was Finnish created by?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472330378719fd88a0633b32464ea8545b38a792ac704', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What position does Artur Boruc play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472490078719fd88a0633b32464ea8545b38a79a0cc4d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Ada Wong?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472641578719fd88a0633b32464ea8545b38a79a26ebe', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is Lalu Prasad Yadav married to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472801778719fd88a0633b32464ea8545b38a79b1870c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which company is Ford S-Max produced by?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268472961078719fd88a0633b32464ea8545b38a798098c4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which country was Orkneyinga saga created in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268473128278719fd88a0633b32464ea8545b38a79ff8441', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is shooting guard associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268473290678719fd88a0633b32464ea8545b38a793b5ef8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Henri Grégoire?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268473444278719fd88a0633b32464ea8545b38a79d0858f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city was Constantine VII born in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 12987,
+        "latency_s": 79.75,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Wilhelm von Humboldt?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13387,
+        "latency_s": 87.91,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the current head of the South Korea government?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14456,
+        "latency_s": 109.91,
+        "replan": 2
+      },
+      {
+        "question": "What position does David Seaman play?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 7,
+        "tokens": 29509,
+        "latency_s": 200.32,
+        "replan": 2
+      }
+    ]
+  }
+}

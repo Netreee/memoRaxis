@@ -1,0 +1,2373 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0g",
+  "instance_idx": 2,
+  "results": {
+    "R1": [
+      {
+        "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+        "answer": "German\n\n### Explanation:\n1. **Nate \"Tiny\" Archibald's citizenship**: The latest fact with a serial number about his citizenship is fact 1154 (serial number > 793), stating he is a citizen of Sweden.  \n2. **Official language of Sweden**: The only fact about Sweden's official language is fact 2377, which says it is German.  \n\nThus, the language of official documents in his country of citizenship (Sweden) is German.  \n\nAnswer: German",
+        "steps": 1,
+        "tokens": 25563,
+        "latency_s": 64.71,
+        "replan": 0
+      },
+      {
+        "question": "Which sport was Dennis Erickson associated with due to his position on a team?",
+        "answer": "American football",
+        "steps": 1,
+        "tokens": 24431,
+        "latency_s": 41.82,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the director / manager who worked with the performer of Anthology 1 belong to?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 23823,
+        "latency_s": 59.99,
+        "replan": 0
+      },
+      {
+        "question": "What genre of music is associated with the spouse of Blake Shelton?",
+        "answer": "The context does not provide information about the music genre associated with the spouse of Blake Shelton.\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 23544,
+        "latency_s": 42.28,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current chairperson of the institution where Harry Markowitz received his education?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24540,
+        "latency_s": 38.01,
+        "replan": 0
+      },
+      {
+        "question": "In which location did the person who established the religion that Henri Grégoire followed work?",
+        "answer": "The context information is insufficient. There is no record of the religion that Henri Grégoire followed in the provided knowledge pool, so it is impossible to determine the location where the founder of that religion worked.",
+        "steps": 1,
+        "tokens": 24613,
+        "latency_s": 46.14,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the creator of Ju 87 come from?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 25570,
+        "latency_s": 94.46,
+        "replan": 0
+      },
+      {
+        "question": "In which sport does Giovani dos Santos play the position he is known for?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24340,
+        "latency_s": 36.37,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of the performer of the song \"God Bless the Child\"?",
+        "answer": "信息不足，无法确定“God Bless the Child”表演者的国籍。",
+        "steps": 1,
+        "tokens": 23070,
+        "latency_s": 26.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of the country where the sport played by the Washington Wizards was first developed?",
+        "answer": "Harrisville",
+        "steps": 1,
+        "tokens": 25250,
+        "latency_s": 65.43,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country that Dino Meneghin holds citizenship in?",
+        "answer": "Duluth",
+        "steps": 1,
+        "tokens": 24632,
+        "latency_s": 60.68,
+        "replan": 0
+      },
+      {
+        "question": "What is the religious affiliation of the author of The Divine Comedy?",
+        "answer": "Catholicism",
+        "steps": 1,
+        "tokens": 23214,
+        "latency_s": 37.8,
+        "replan": 0
+      },
+      {
+        "question": "What country did the sport associated with FNB Stadium originate in?",
+        "answer": "Japan",
+        "steps": 1,
+        "tokens": 24763,
+        "latency_s": 36.32,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the country whose citizenship was held by Erich Koch situated?",
+        "answer": "Asia",
+        "steps": 1,
+        "tokens": 23869,
+        "latency_s": 44.65,
+        "replan": 0
+      },
+      {
+        "question": "What language did the author of \"A Passage to India\" speak, write or sign in?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24379,
+        "latency_s": 44.56,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the significant creation associated with the creator of Vito Corleone?",
+        "answer": "The Godfather",
+        "steps": 1,
+        "tokens": 23439,
+        "latency_s": 65.1,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the sport associated with the founder of Pakistan Tehreek-e-Insaf originates from?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 26994,
+        "latency_s": 122.97,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the home country of the director/manager who worked with the performer of \"Tomorrow Never Knows\"?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 26705,
+        "latency_s": 106.62,
+        "replan": 0
+      },
+      {
+        "question": "What is the sport that Rich Harden was associated with based on the position he played on a team?",
+        "answer": "American football",
+        "steps": 1,
+        "tokens": 24308,
+        "latency_s": 42.41,
+        "replan": 0
+      },
+      {
+        "question": "In which country does the head of government that governs Paddy Keenan's nationality reside?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 25268,
+        "latency_s": 91.06,
+        "replan": 0
+      },
+      {
+        "question": "What language is recognized as the official language in the country where Dale Bumpers holds citizenship?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24292,
+        "latency_s": 36.52,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who founded the organization that Benjamin Mazar was part of?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 24262,
+        "latency_s": 34.99,
+        "replan": 0
+      },
+      {
+        "question": "From which city of the country of origin of the musical genre of \"All Shook Up\" does the genre trace its roots?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 23451,
+        "latency_s": 65.99,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country to which Travis Tritt holds citizenship?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 23323,
+        "latency_s": 25.48,
+        "replan": 0
+      },
+      {
+        "question": "Where is the headquarters location of the institution where Louis Zamperini received his education?",
+        "answer": "The information about the headquarters location of University of Lisbon (where Louis Zamperini received his education) is not provided in the given context.\n\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 23292,
+        "latency_s": 35.91,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the headquarters of the educational institution attended by Siim Kallas?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24877,
+        "latency_s": 48.67,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport in which Darren Fletcher participated?",
+        "answer": "Australia",
+        "steps": 1,
+        "tokens": 25128,
+        "latency_s": 54.22,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the location of formation of the Master of Puppets performer?",
+        "answer": "",
+        "steps": 1,
+        "tokens": 32494,
+        "latency_s": 246.84,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who created the country that Fyodor Ushakov is a citizen?",
+        "answer": "There is no information about Fyodor Ushakov in the provided knowledge pool, so it is impossible to answer this question.",
+        "steps": 1,
+        "tokens": 24708,
+        "latency_s": 28.88,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the CEO of the developer of Windows Update located in?",
+        "answer": "Asia\n\n### Explanation:\n1. **Developer of Windows Update**: Fact 590 (section [3]) states Windows Update was developed by Microsoft.  \n2. **CEO of Microsoft**: Fact 3921 (section [6]) says the CEO of Microsoft is Satya Nadella.  \n3. **Birthplace of Satya Nadella**: Fact 816 (section [9]) mentions Satya Nadella was born in Hyderabad.  \n4. **Continent of Hyderabad**: Fact 631 (section [3]) notes Bengaluru (an Indian city) is in Asia; Hyderabad is also an Indian city, so it is in Asia.  \n\nThus, the answer is Asia.",
+        "steps": 1,
+        "tokens": 23650,
+        "latency_s": 55.27,
+        "replan": 0
+      },
+      {
+        "question": "What is the religion of the officeholder commonly known as the pope?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 24011,
+        "latency_s": 40.11,
+        "replan": 0
+      },
+      {
+        "question": "In which sport did Vinny Testaverde play the position associated with the term \"position played on team / speciality\"?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 24922,
+        "latency_s": 59.21,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the city that is the capital of the country where the sport Hope Solo played was developed?",
+        "answer": "Information insufficient.",
+        "steps": 1,
+        "tokens": 26250,
+        "latency_s": 116.35,
+        "replan": 0
+      },
+      {
+        "question": "To which continent is the country where \"The Phenomenology of Spirit\" originated belongs?",
+        "answer": "Asia",
+        "steps": 1,
+        "tokens": 24564,
+        "latency_s": 32.38,
+        "replan": 0
+      },
+      {
+        "question": "In which language do people communicate officially in the country where Louis Henri Loison holds his citizenship?",
+        "answer": "Hebrew",
+        "steps": 1,
+        "tokens": 24038,
+        "latency_s": 60.33,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the individual who established the 2nd Ukrainian Front?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 24855,
+        "latency_s": 43.82,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the government of the country of origin of the sport played by Matt Harrison located?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 25302,
+        "latency_s": 62.9,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the creator of Kinsey Millhone belong to?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 23050,
+        "latency_s": 32.02,
+        "replan": 0
+      },
+      {
+        "question": "What continent does the country of origin of the sport represented by the Israel Football Association belong to?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 24877,
+        "latency_s": 45.38,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital located, where the spouse of the author of \"Tender Is the Night\" holds citizenship?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 24964,
+        "latency_s": 68.47,
+        "replan": 0
+      },
+      {
+        "question": "In which city did the individual who established Blériot pass away?",
+        "answer": "Pune",
+        "steps": 1,
+        "tokens": 24824,
+        "latency_s": 39.14,
+        "replan": 0
+      },
+      {
+        "question": "What language was used to write the notable work of Luís de Camões?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 24612,
+        "latency_s": 40.98,
+        "replan": 0
+      },
+      {
+        "question": "Which continent does Monty Norman's birthplace belong to?",
+        "answer": "The context indicates Monty Norman was born in London, but there is no information in the provided context about which continent London belongs to. Thus, the information is insufficient.\n\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 24184,
+        "latency_s": 57.28,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent of origin of the chief executive officer for the developer of Windows Phone?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 23564,
+        "latency_s": 64.51,
+        "replan": 0
+      },
+      {
+        "question": "In which language do people from the country of origin of the music genre associated with Cleo Laine conduct official business?",
+        "answer": "The information about the music genre associated with Cleo Laine is not provided in the given context, so it's impossible to answer the question.\n\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 24927,
+        "latency_s": 56.6,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin for the sport of the Tunisia national football team?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 25158,
+        "latency_s": 51.71,
+        "replan": 0
+      },
+      {
+        "question": "Which political leader holds the title of head of state of the country where Santiago Morning, the sports organization started?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 25109,
+        "latency_s": 55.81,
+        "replan": 0
+      },
+      {
+        "question": "Who founded the religious movement that Lakhdar Brahimi is affiliated with?",
+        "answer": "The context does not provide information about who founded the religious movement that Lakhdar Brahimi is affiliated with.\n\nWait wait, wait—wait let's double-check: Entry [11] says Lakhdar Brahimi is affiliated with Hinduism, but do any entries mention the founder of Hinduism? Let me confirm again: No, none of the entries in the context mention who founded Hinduism. So the answer is that the information is insufficient. \n\nBut wait, let me make sure: Are there any entries about Hinduism's founder? Let's see: All entries about founders are for other religions (Islam, Latter Day Saint, Montanism, etc.), but not Hinduism. So yes, the info is missing. \n\nFinal answer: The context does not provide sufficient information to answer the question.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The context does not provide sufficient information to answer the question.",
+        "steps": 1,
+        "tokens": 25575,
+        "latency_s": 75.42,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the country where the Scottish Cup originated?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 23469,
+        "latency_s": 38.3,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the capital city of the country from which the head coach of Germany national football team hails?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24809,
+        "latency_s": 41.43,
+        "replan": 0
+      },
+      {
+        "question": "What was the place of work of the individual who founded the religion of Henri Breuil?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 23143,
+        "latency_s": 39.47,
+        "replan": 0
+      },
+      {
+        "question": "From which city in the country of citizenship of the manufacturer of Colt Single Action Army does the company hail?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 23628,
+        "latency_s": 61.2,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Ian Kennedy associated with based on the position he plays on the team?",
+        "answer": "rugby",
+        "steps": 1,
+        "tokens": 24281,
+        "latency_s": 39.83,
+        "replan": 0
+      },
+      {
+        "question": "Who is the person responsible for the founding of the Bahawalpur State?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 23212,
+        "latency_s": 29.36,
+        "replan": 0
+      },
+      {
+        "question": "What continent does the country from which 1. FK Příbram originated belong to?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24662,
+        "latency_s": 33.04,
+        "replan": 0
+      },
+      {
+        "question": "What is the language used by the manager/director, who is a citizen of a country where \"Free as a Bird\" performer holds citizenship?",
+        "answer": "Information insufficient.",
+        "steps": 1,
+        "tokens": 24676,
+        "latency_s": 64.07,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the genre performed by Billy Walker originated from?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 23987,
+        "latency_s": 64.93,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is associated with the position played by Rajon Rondo on his team?",
+        "answer": "The context information is insufficient to determine which sport is associated with the position of defenceman played by Rajon Rondo.",
+        "steps": 1,
+        "tokens": 25028,
+        "latency_s": 51.83,
+        "replan": 0
+      },
+      {
+        "question": "From which country did the sport, in which Mel Daniels participates, originate?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 24963,
+        "latency_s": 49.2,
+        "replan": 0
+      },
+      {
+        "question": "From what location did the original broadcaster of \"The Monkees\" operate from during the formation of the band?",
+        "answer": "The context does not provide information about the original broadcaster of \"The Monkees\" and its operating location during the formation of the band. So I can't answer this question.",
+        "steps": 1,
+        "tokens": 24405,
+        "latency_s": 35.09,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the office of the company that developed Crysis 2 situated?",
+        "answer": "Frankfurt",
+        "steps": 1,
+        "tokens": 24602,
+        "latency_s": 53.32,
+        "replan": 0
+      },
+      {
+        "question": "Which individual is credited with creating the language which is the official language of the HQ location of Housemarque?",
+        "answer": "The context does not explicitly state the official language of Helsinki (the HQ location of Housemarque), so the information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 25747,
+        "latency_s": 82.36,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion that influenced Giordano Bruno?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 24723,
+        "latency_s": 43.03,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the seat of government of the country of citizenship of Parambrata Chatterjee?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 23933,
+        "latency_s": 57.38,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the company that founded the manufacturer of Jaguar Mark 2?",
+        "answer": "Colin Chapman",
+        "steps": 1,
+        "tokens": 24455,
+        "latency_s": 37.17,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the nation of which Tomáš Berdych is a citizen?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 23531,
+        "latency_s": 46.93,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of origin of the notable work that features Troilus and Criseyde belong?",
+        "answer": "Europe\n\nThe reasoning steps are:\n1. From entry 1504: The author of Troilus and Criseyde is Geoffrey Chaucer.\n2. Geoffrey Chaucer is associated with England (implied by his works being part of English literature, and no conflicting info about his origin in the context).\n3. From entry 3053 (newer than entry1413): England is located in the continent of Europe.\n\nThus, the continent is Europe.",
+        "steps": 1,
+        "tokens": 24979,
+        "latency_s": 58.04,
+        "replan": 0
+      },
+      {
+        "question": "Which music genre is associated with João Gilberto's notable work?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 24644,
+        "latency_s": 46.06,
+        "replan": 0
+      },
+      {
+        "question": "In which languages can the author of \"The Witcher\" write, speak, or sign?",
+        "answer": "Polish",
+        "steps": 1,
+        "tokens": 24443,
+        "latency_s": 34.87,
+        "replan": 0
+      },
+      {
+        "question": "What language does the spouse of Maksim Chmerkovskiy speak, write or use to communicate?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24835,
+        "latency_s": 50.33,
+        "replan": 0
+      },
+      {
+        "question": "At which place did the creator of \"Lady Windermere's Fan\" breathe their last?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 23210,
+        "latency_s": 40.02,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the CEO of the developer of the iPad Pro?",
+        "answer": "The context information is insufficient to answer the question. We know from the newest fact (serial number 870) that iPad Pro was developed by Google, but there is no information about the CEO of Google in the provided knowledge pool. Thus, we cannot determine the city that is the capital of the country of citizenship of the CEO of Google.\n\nAnswer: The context information is insufficient.",
+        "steps": 1,
+        "tokens": 26785,
+        "latency_s": 113.62,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country that originated the sport coached by the head coach of Sydney FC belong?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 25420,
+        "latency_s": 75.11,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport represented by Liga Profesional de Baloncesto?",
+        "answer": "Soviet Union",
+        "steps": 1,
+        "tokens": 24726,
+        "latency_s": 42.85,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country where Home United FC originated belong to?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24783,
+        "latency_s": 41.97,
+        "replan": 0
+      },
+      {
+        "question": "To which continent does the country where Steve Lamacq holds his citizenship belong?",
+        "answer": "Europe\n\n### Explanation:\n1. **Find Steve Lamacq's citizenship**: From context [10], fact 4133 states Steve Lamacq is a citizen of the Kingdom of England.  \n2. **Find the continent of England**: From context [8], fact 3053 states England is located in the continent of Europe.  \n\nThus, the answer is Europe.",
+        "steps": 1,
+        "tokens": 23697,
+        "latency_s": 43.76,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the headquarters location of Gazeta Wyborcza situated?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 24526,
+        "latency_s": 49.98,
+        "replan": 0
+      },
+      {
+        "question": "What is the educational institution that the founder of Dravida Munnetra Kazhagam was associated with?",
+        "answer": "University of Madras",
+        "steps": 1,
+        "tokens": 23288,
+        "latency_s": 62.9,
+        "replan": 0
+      },
+      {
+        "question": "From which language did the country of citizenship of the spouse of the creator of WWE Main Event borrow its official language?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 24755,
+        "latency_s": 58.5,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent where the headquarters of the institution where Rodney Peete received education is located?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 24616,
+        "latency_s": 43.46,
+        "replan": 0
+      },
+      {
+        "question": "What continent is the country of citizenship of the director/manager of the developer of Gran Turismo 5 associated with?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 23927,
+        "latency_s": 67.32,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport that the Libya national football team plays?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 25815,
+        "latency_s": 89.86,
+        "replan": 0
+      },
+      {
+        "question": "Which language is the official language of the country where the partner of the author of Executive Order 6102 is a citizen?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24520,
+        "latency_s": 39.1,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country that Michael Feinstein is a citizen of?",
+        "answer": "Berlin",
+        "steps": 1,
+        "tokens": 23732,
+        "latency_s": 53.1,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion associated with Maria Christina of Austria?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 24826,
+        "latency_s": 66.85,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the sport of the position played on team / speciality of Dele Alli originate?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 25521,
+        "latency_s": 74.31,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the creator of Eddard Stark's partner?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 24445,
+        "latency_s": 44.38,
+        "replan": 0
+      },
+      {
+        "question": "From which university did the partner of Harald V of Norway receive their education?",
+        "answer": "Azusa Pacific University",
+        "steps": 1,
+        "tokens": 24383,
+        "latency_s": 52.89,
+        "replan": 0
+      },
+      {
+        "question": "What language is used as the official language of the country where the genre that Archie Shepp is associated with originally came from?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 24103,
+        "latency_s": 61.74,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the capital of the country where the spouse of Jude Law holds citizenship?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24490,
+        "latency_s": 35.97,
+        "replan": 0
+      },
+      {
+        "question": "On which continent is the country associated with the citizenship of Maurice Strong located?",
+        "answer": "Asia\n\n### Explanation:\n1. From entry [10] (line 952), Maurice Strong is a citizen of Canada.  \n2. From entry [1] (line 3851), Canada is located in the continent of Asia (this is the only fact about Canada's continent in the context, so it's the latest).  \n\nThus, the country associated with Maurice Strong's citizenship (Canada) is in Asia.  \n\nAnswer: Asia",
+        "steps": 1,
+        "tokens": 23881,
+        "latency_s": 44.57,
+        "replan": 0
+      },
+      {
+        "question": "What were the languages spoken, written or signed by the creator of Blandings Castle?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 24558,
+        "latency_s": 42.25,
+        "replan": 0
+      },
+      {
+        "question": "With which sport is the position played by Sebastian Janikowski on a team associated?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 25563,
+        "latency_s": 82.04,
+        "replan": 0
+      },
+      {
+        "question": "In which city did the author of \"The Cask of Amontillado\" breathe his last?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 22969,
+        "latency_s": 40.28,
+        "replan": 0
+      },
+      {
+        "question": "In what genre would you categorize The Who's Tommy?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24499,
+        "latency_s": 40.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country where the director/manager of \"The Rookies\" is a citizen?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24375,
+        "latency_s": 43.27,
+        "replan": 0
+      },
+      {
+        "question": "Which individual holds the position of director/manager at the company that employs Dave Filoni?",
+        "answer": "Bob Iger",
+        "steps": 1,
+        "tokens": 24476,
+        "latency_s": 32.7,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of the headquarters of the employer of the creator of Jabberwocky?",
+        "answer": "Plovdiv\n\n### Explanation:\n1. **Creator of Jabberwocky**: Fact 4546 (section [5]) states Jabberwocky was created by Larry Page.  \n2. **Employer of Larry Page**: Fact 1251 (section [4]) says Larry Page is employed by Google.  \n3. **Headquarters of Google**: The newest fact about Google's headquarters is fact 3036 (section [3]), which locates it in Plovdiv (serial number 3036 > 1664, so it takes precedence).  \n\nThus, the answer is Plovdiv.",
+        "steps": 1,
+        "tokens": 23915,
+        "latency_s": 59.74,
+        "replan": 0
+      },
+      {
+        "question": "Who holds the position of the head of state of the country that Jessi Colter is a citizen of?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 23809,
+        "latency_s": 63.24,
+        "replan": 0
+      },
+      {
+        "question": "The capital city of which country is the birthplace of the sport that Timofey Mozgov specialized in?",
+        "answer": "The context information is insufficient to answer the question. Although we can infer the sport Timofey Mozgov specialized in (Gaelic football based on his position as goalkeeper and relevant associations) and the country where the sport was created (India), there is no information in the context about the capital city of India. Thus, we cannot determine the answer.",
+        "steps": 1,
+        "tokens": 25868,
+        "latency_s": 82.34,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+        "answer": "German\n\nFirst, we determine Nate \"Tiny\" Archibald's country of citizenship:  \n- Serial 1154 states he is a citizen of Sweden (newer than serial 793 which says USA, as 1154 >793).  \n\nNext, find the official language of Sweden:  \n- Serial 2377 (the latest relevant fact) states the official language of Sweden is German.  \n\nThus, the answer is German.",
+        "steps": 2,
+        "tokens": 49399,
+        "latency_s": 86.57,
+        "replan": 0
+      },
+      {
+        "question": "Which sport was Dennis Erickson associated with due to his position on a team?",
+        "answer": "American football",
+        "steps": 2,
+        "tokens": 50757,
+        "latency_s": 49.84,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the director / manager who worked with the performer of Anthology 1 belong to?",
+        "answer": "Oceania",
+        "steps": 5,
+        "tokens": 365617,
+        "latency_s": 293.39,
+        "replan": 0
+      },
+      {
+        "question": "What genre of music is associated with the spouse of Blake Shelton?",
+        "answer": "hip hop music",
+        "steps": 3,
+        "tokens": 116718,
+        "latency_s": 76.57,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current chairperson of the institution where Harry Markowitz received his education?",
+        "answer": "zeki_öztürk",
+        "steps": 3,
+        "tokens": 118481,
+        "latency_s": 92.41,
+        "replan": 0
+      },
+      {
+        "question": "In which location did the person who established the religion that Henri Grégoire followed work?",
+        "answer": "London",
+        "steps": 5,
+        "tokens": 351289,
+        "latency_s": 279.68,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the creator of Ju 87 come from?",
+        "answer": "Europe",
+        "steps": 4,
+        "tokens": 220610,
+        "latency_s": 170.51,
+        "replan": 0
+      },
+      {
+        "question": "In which sport does Giovani dos Santos play the position he is known for?",
+        "answer": "association football",
+        "steps": 2,
+        "tokens": 50441,
+        "latency_s": 45.02,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of the performer of the song \"God Bless the Child\"?",
+        "answer": "Australia",
+        "steps": 3,
+        "tokens": 118280,
+        "latency_s": 100.14,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of the country where the sport played by the Washington Wizards was first developed?",
+        "answer": "Russellville",
+        "steps": 2,
+        "tokens": 50481,
+        "latency_s": 53.91,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country that Dino Meneghin holds citizenship in?",
+        "answer": "Duluth",
+        "steps": 2,
+        "tokens": 50778,
+        "latency_s": 67.77,
+        "replan": 0
+      },
+      {
+        "question": "What is the religious affiliation of the author of The Divine Comedy?",
+        "answer": "Catholicism",
+        "steps": 2,
+        "tokens": 50084,
+        "latency_s": 45.76,
+        "replan": 0
+      },
+      {
+        "question": "What country did the sport associated with FNB Stadium originate in?",
+        "answer": "Japan",
+        "steps": 4,
+        "tokens": 221306,
+        "latency_s": 130.28,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the country whose citizenship was held by Erich Koch situated?",
+        "answer": "Africa\n\nFirst, find Erich Koch's citizenship: Fact 4081 states Erich Koch is a citizen of Germany.  \nThen, find the latest fact about Germany's continent: Fact 4323 (higher serial number than any other related fact) says Germany is located in the continent of Africa.  \n\nThus, the answer is Africa.",
+        "steps": 2,
+        "tokens": 49635,
+        "latency_s": 91.16,
+        "replan": 0
+      },
+      {
+        "question": "What language did the author of \"A Passage to India\" speak, write or sign in?",
+        "answer": "Spanish",
+        "steps": 3,
+        "tokens": 124364,
+        "latency_s": 122.48,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the significant creation associated with the creator of Vito Corleone?",
+        "answer": "Naruto",
+        "steps": 2,
+        "tokens": 51581,
+        "latency_s": 80.05,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the sport associated with the founder of Pakistan Tehreek-e-Insaf originates from?",
+        "answer": "Oderzo",
+        "steps": 5,
+        "tokens": 346266,
+        "latency_s": 242.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the home country of the director/manager who worked with the performer of \"Tomorrow Never Knows\"?",
+        "answer": "Canberra",
+        "steps": 5,
+        "tokens": 363737,
+        "latency_s": 234.42,
+        "replan": 0
+      },
+      {
+        "question": "What is the sport that Rich Harden was associated with based on the position he played on a team?",
+        "answer": "field hockey",
+        "steps": 2,
+        "tokens": 49581,
+        "latency_s": 51.47,
+        "replan": 0
+      },
+      {
+        "question": "In which country does the head of government that governs Paddy Keenan's nationality reside?",
+        "answer": "United States of America",
+        "steps": 5,
+        "tokens": 366083,
+        "latency_s": 367.87,
+        "replan": 0
+      },
+      {
+        "question": "What language is recognized as the official language in the country where Dale Bumpers holds citizenship?",
+        "answer": "No information available about Dale Bumpers in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 348800,
+        "latency_s": 194.99,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who founded the organization that Benjamin Mazar was part of?",
+        "answer": "Menachem Begin",
+        "steps": 5,
+        "tokens": 363458,
+        "latency_s": 184.89,
+        "replan": 0
+      },
+      {
+        "question": "From which city of the country of origin of the musical genre of \"All Shook Up\" does the genre trace its roots?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 364067,
+        "latency_s": 322.71,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country to which Travis Tritt holds citizenship?",
+        "answer": "Not mentioned in the provided context.",
+        "steps": 5,
+        "tokens": 349974,
+        "latency_s": 191.69,
+        "replan": 0
+      },
+      {
+        "question": "Where is the headquarters location of the institution where Louis Zamperini received his education?",
+        "answer": "Oxford",
+        "steps": 4,
+        "tokens": 219654,
+        "latency_s": 194.87,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the headquarters of the educational institution attended by Siim Kallas?",
+        "answer": "Mexico City",
+        "steps": 3,
+        "tokens": 123925,
+        "latency_s": 84.53,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport in which Darren Fletcher participated?",
+        "answer": "Australia",
+        "steps": 2,
+        "tokens": 51431,
+        "latency_s": 68.11,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the location of formation of the Master of Puppets performer?",
+        "answer": "North America",
+        "steps": 3,
+        "tokens": 121436,
+        "latency_s": 163.42,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who created the country that Fyodor Ushakov is a citizen?",
+        "answer": "Peter the Great",
+        "steps": 3,
+        "tokens": 120705,
+        "latency_s": 74.02,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the CEO of the developer of Windows Update located in?",
+        "answer": "Asia",
+        "steps": 5,
+        "tokens": 353718,
+        "latency_s": 313.01,
+        "replan": 0
+      },
+      {
+        "question": "What is the religion of the officeholder commonly known as the pope?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 49981,
+        "latency_s": 45.62,
+        "replan": 0
+      },
+      {
+        "question": "In which sport did Vinny Testaverde play the position associated with the term \"position played on team / speciality\"?",
+        "answer": "American football",
+        "steps": 3,
+        "tokens": 123747,
+        "latency_s": 125.85,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the city that is the capital of the country where the sport Hope Solo played was developed?",
+        "answer": "Amposta",
+        "steps": 3,
+        "tokens": 127116,
+        "latency_s": 224.06,
+        "replan": 0
+      },
+      {
+        "question": "To which continent is the country where \"The Phenomenology of Spirit\" originated belongs?",
+        "answer": "Asia\n\nFirst, we find the newest fact about where \"The Phenomenology of Spirit\" originated: entry 3047 states it was created in India (since 3047 > 3038). Then, we find the continent of India: entry 3006 says India is in Asia (no later conflicting facts about India's continent exist). Thus, the answer is Asia.",
+        "steps": 2,
+        "tokens": 51466,
+        "latency_s": 63.17,
+        "replan": 0
+      },
+      {
+        "question": "In which language do people communicate officially in the country where Louis Henri Loison holds his citizenship?",
+        "answer": "Spanish",
+        "steps": 5,
+        "tokens": 366559,
+        "latency_s": 306.78,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the individual who established the 2nd Ukrainian Front?",
+        "answer": "New York City",
+        "steps": 2,
+        "tokens": 51578,
+        "latency_s": 62.4,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the government of the country of origin of the sport played by Matt Harrison located?",
+        "answer": "Washington, D.C.",
+        "steps": 2,
+        "tokens": 49656,
+        "latency_s": 42.91,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the creator of Kinsey Millhone belong to?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 47825,
+        "latency_s": 44.59,
+        "replan": 0
+      },
+      {
+        "question": "What continent does the country of origin of the sport represented by the Israel Football Association belong to?",
+        "answer": "Europe",
+        "steps": 4,
+        "tokens": 222154,
+        "latency_s": 168.35,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital located, where the spouse of the author of \"Tender Is the Night\" holds citizenship?",
+        "answer": "London",
+        "steps": 4,
+        "tokens": 221069,
+        "latency_s": 203.85,
+        "replan": 0
+      },
+      {
+        "question": "In which city did the individual who established Blériot pass away?",
+        "answer": "Pune",
+        "steps": 2,
+        "tokens": 51762,
+        "latency_s": 75.44,
+        "replan": 0
+      },
+      {
+        "question": "What language was used to write the notable work of Luís de Camões?",
+        "answer": "English",
+        "steps": 3,
+        "tokens": 123285,
+        "latency_s": 54.45,
+        "replan": 0
+      },
+      {
+        "question": "Which continent does Monty Norman's birthplace belong to?",
+        "answer": "Europe",
+        "steps": 3,
+        "tokens": 120825,
+        "latency_s": 81.55,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent of origin of the chief executive officer for the developer of Windows Phone?",
+        "answer": "Europe\n\n### Explanation:\n1. **Identify the developer of Windows Phone**: From fact 4040 (section [3]), Windows Phone was developed by Microsoft.  \n2. **Find the CEO of Microsoft**: Although the context does not explicitly state the CEO of Microsoft, it mentions Satya Nadella was born in London (fact 3095, section [45]). London is in Europe, and Satya Nadella is widely known as the CEO of Microsoft (implied by common knowledge, but since the context mentions his birthplace in Europe, this is the intended link).  \n\nThus, the continent of origin of the CEO of Microsoft (developer of Windows Phone) is Europe.",
+        "steps": 5,
+        "tokens": 354226,
+        "latency_s": 289.89,
+        "replan": 0
+      },
+      {
+        "question": "In which language do people from the country of origin of the music genre associated with Cleo Laine conduct official business?",
+        "answer": "Spain",
+        "steps": 4,
+        "tokens": 216415,
+        "latency_s": 96.47,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin for the sport of the Tunisia national football team?",
+        "answer": "Russellville",
+        "steps": 2,
+        "tokens": 52087,
+        "latency_s": 84.47,
+        "replan": 0
+      },
+      {
+        "question": "Which political leader holds the title of head of state of the country where Santiago Morning, the sports organization started?",
+        "answer": "Faure Essozimna Gnassingbé Eyadéma",
+        "steps": 5,
+        "tokens": 364898,
+        "latency_s": 298.55,
+        "replan": 0
+      },
+      {
+        "question": "Who founded the religious movement that Lakhdar Brahimi is affiliated with?",
+        "answer": "Muhammad",
+        "steps": 3,
+        "tokens": 124910,
+        "latency_s": 132.01,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the country where the Scottish Cup originated?",
+        "answer": "Europe",
+        "steps": 3,
+        "tokens": 120628,
+        "latency_s": 136.91,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the capital city of the country from which the head coach of Germany national football team hails?",
+        "answer": "Berlin",
+        "steps": 5,
+        "tokens": 363077,
+        "latency_s": 255.44,
+        "replan": 0
+      },
+      {
+        "question": "What was the place of work of the individual who founded the religion of Henri Breuil?",
+        "answer": "Berlin",
+        "steps": 3,
+        "tokens": 117190,
+        "latency_s": 90.18,
+        "replan": 0
+      },
+      {
+        "question": "From which city in the country of citizenship of the manufacturer of Colt Single Action Army does the company hail?",
+        "answer": "Warsaw",
+        "steps": 5,
+        "tokens": 353166,
+        "latency_s": 360.32,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Ian Kennedy associated with based on the position he plays on the team?",
+        "answer": "rugby",
+        "steps": 2,
+        "tokens": 50545,
+        "latency_s": 68.6,
+        "replan": 0
+      },
+      {
+        "question": "Who is the person responsible for the founding of the Bahawalpur State?",
+        "answer": "Not mentioned in the knowledge pool.",
+        "steps": 5,
+        "tokens": 358952,
+        "latency_s": 186.45,
+        "replan": 0
+      },
+      {
+        "question": "What continent does the country from which 1. FK Příbram originated belong to?",
+        "answer": "Europe",
+        "steps": 5,
+        "tokens": 370178,
+        "latency_s": 189.13,
+        "replan": 0
+      },
+      {
+        "question": "What is the language used by the manager/director, who is a citizen of a country where \"Free as a Bird\" performer holds citizenship?",
+        "answer": "English\n\n### Explanation:\n1. **Identify the performer of \"Free as a Bird\":** Entry 4554 states \"Free as a Bird was performed by The Beatles.\"  \n2. **Determine the country of citizenship for The Beatles:** The Beatles were founded in Liverpool (entry 368), and Liverpool is in the United Kingdom. Entry 2436 confirms the official language of the United Kingdom is English.  \n3. **Find a manager/director who is a citizen of the UK:** For example, Brian Epstein (entry 1249) is a citizen of the United Kingdom (though his role as a manager isn't explicitly stated, the link to the UK's official language applies).  \n4. **Language used:** The official language of the UK is English (entry 2436), so the language used by such a manager/director is English.  \n\nAnswer: English",
+        "steps": 2,
+        "tokens": 50996,
+        "latency_s": 131.2,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the genre performed by Billy Walker originated from?",
+        "answer": "Washington, D.C.",
+        "steps": 3,
+        "tokens": 119718,
+        "latency_s": 133.48,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is associated with the position played by Rajon Rondo on his team?",
+        "answer": "field hockey",
+        "steps": 3,
+        "tokens": 124121,
+        "latency_s": 97.19,
+        "replan": 0
+      },
+      {
+        "question": "From which country did the sport, in which Mel Daniels participates, originate?",
+        "answer": "Finland",
+        "steps": 3,
+        "tokens": 126375,
+        "latency_s": 168.85,
+        "replan": 0
+      },
+      {
+        "question": "From what location did the original broadcaster of \"The Monkees\" operate from during the formation of the band?",
+        "answer": "CBS",
+        "steps": 2,
+        "tokens": 50417,
+        "latency_s": 36.03,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the office of the company that developed Crysis 2 situated?",
+        "answer": "Frankfurt",
+        "steps": 2,
+        "tokens": 52039,
+        "latency_s": 62.72,
+        "replan": 0
+      },
+      {
+        "question": "Which individual is credited with creating the language which is the official language of the HQ location of Housemarque?",
+        "answer": "Stirling Silliphanta",
+        "steps": 3,
+        "tokens": 125463,
+        "latency_s": 113.96,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion that influenced Giordano Bruno?",
+        "answer": "Bethlehem",
+        "steps": 5,
+        "tokens": 368487,
+        "latency_s": 274.65,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the seat of government of the country of citizenship of Parambrata Chatterjee?",
+        "answer": "New Delhi",
+        "steps": 3,
+        "tokens": 121218,
+        "latency_s": 103.18,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the company that founded the manufacturer of Jaguar Mark 2?",
+        "answer": "Colin Chapman",
+        "steps": 4,
+        "tokens": 219424,
+        "latency_s": 291.54,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the nation of which Tomáš Berdych is a citizen?",
+        "answer": "Donald Trump",
+        "steps": 4,
+        "tokens": 217631,
+        "latency_s": 177.79,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of origin of the notable work that features Troilus and Criseyde belong?",
+        "answer": "Asia",
+        "steps": 3,
+        "tokens": 123219,
+        "latency_s": 104.84,
+        "replan": 0
+      },
+      {
+        "question": "Which music genre is associated with João Gilberto's notable work?",
+        "answer": "bossa nova",
+        "steps": 3,
+        "tokens": 123418,
+        "latency_s": 65.74,
+        "replan": 0
+      },
+      {
+        "question": "In which languages can the author of \"The Witcher\" write, speak, or sign?",
+        "answer": "English, French",
+        "steps": 3,
+        "tokens": 123983,
+        "latency_s": 81.02,
+        "replan": 0
+      },
+      {
+        "question": "What language does the spouse of Maksim Chmerkovskiy speak, write or use to communicate?",
+        "answer": "German",
+        "steps": 2,
+        "tokens": 52210,
+        "latency_s": 94.98,
+        "replan": 0
+      },
+      {
+        "question": "At which place did the creator of \"Lady Windermere's Fan\" breathe their last?",
+        "answer": "Guangzhou",
+        "steps": 5,
+        "tokens": 339966,
+        "latency_s": 202.75,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the CEO of the developer of the iPad Pro?",
+        "answer": "New Delhi",
+        "steps": 5,
+        "tokens": 362093,
+        "latency_s": 300.19,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country that originated the sport coached by the head coach of Sydney FC belong?",
+        "answer": "Europe",
+        "steps": 3,
+        "tokens": 127105,
+        "latency_s": 164.45,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport represented by Liga Profesional de Baloncesto?",
+        "answer": "Soviet Union",
+        "steps": 3,
+        "tokens": 124508,
+        "latency_s": 107.36,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country where Home United FC originated belong to?",
+        "answer": "Asia",
+        "steps": 5,
+        "tokens": 369033,
+        "latency_s": 165.78,
+        "replan": 0
+      },
+      {
+        "question": "To which continent does the country where Steve Lamacq holds his citizenship belong?",
+        "answer": "North America",
+        "steps": 3,
+        "tokens": 120138,
+        "latency_s": 120.17,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the headquarters location of Gazeta Wyborcza situated?",
+        "answer": "South America",
+        "steps": 3,
+        "tokens": 124900,
+        "latency_s": 91.75,
+        "replan": 0
+      },
+      {
+        "question": "What is the educational institution that the founder of Dravida Munnetra Kazhagam was associated with?",
+        "answer": "University of Madras",
+        "steps": 2,
+        "tokens": 47972,
+        "latency_s": 42.31,
+        "replan": 0
+      },
+      {
+        "question": "From which language did the country of citizenship of the spouse of the creator of WWE Main Event borrow its official language?",
+        "answer": "German\n\n### Explanation:\n1. **Creator of WWE Main Event**: Fact 2014 states WWE Main Event was created by Vince McMahon.  \n2. **Spouse of Vince McMahon**: Fact 699 says Vince McMahon is married to Linda McMahon.  \n3. **Country of citizenship of Linda McMahon**: Fact 160 confirms Linda McMahon is a citizen of the United States of America.  \n4. **Official language of the United States**: Fact 3703 specifies the official language of the United States of America is German.  \n\nThe question asks from which language the country (USA) borrowed its official language. Since the official language is German (per context), the answer is German.  \n\nAnswer: German",
+        "steps": 4,
+        "tokens": 217558,
+        "latency_s": 174.03,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent where the headquarters of the institution where Rodney Peete received education is located?",
+        "answer": "Europe",
+        "steps": 4,
+        "tokens": 222243,
+        "latency_s": 158.31,
+        "replan": 0
+      },
+      {
+        "question": "What continent is the country of citizenship of the director/manager of the developer of Gran Turismo 5 associated with?",
+        "answer": "Asia",
+        "steps": 5,
+        "tokens": 334101,
+        "latency_s": 197.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport that the Libya national football team plays?",
+        "answer": "Japan",
+        "steps": 3,
+        "tokens": 124551,
+        "latency_s": 98.51,
+        "replan": 0
+      },
+      {
+        "question": "Which language is the official language of the country where the partner of the author of Executive Order 6102 is a citizen?",
+        "answer": "German",
+        "steps": 5,
+        "tokens": 356288,
+        "latency_s": 240.87,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country that Michael Feinstein is a citizen of?",
+        "answer": "Berlin",
+        "steps": 2,
+        "tokens": 48634,
+        "latency_s": 47.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion associated with Maria Christina of Austria?",
+        "answer": "Germany",
+        "steps": 5,
+        "tokens": 370210,
+        "latency_s": 255.49,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the sport of the position played on team / speciality of Dele Alli originate?",
+        "answer": "Ireland",
+        "steps": 2,
+        "tokens": 51404,
+        "latency_s": 64.21,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the creator of Eddard Stark's partner?",
+        "answer": "Tokyo",
+        "steps": 5,
+        "tokens": 357035,
+        "latency_s": 264.93,
+        "replan": 0
+      },
+      {
+        "question": "From which university did the partner of Harald V of Norway receive their education?",
+        "answer": "University of Oslo",
+        "steps": 3,
+        "tokens": 124256,
+        "latency_s": 59.31,
+        "replan": 0
+      },
+      {
+        "question": "What language is used as the official language of the country where the genre that Archie Shepp is associated with originally came from?",
+        "answer": "Swedish",
+        "steps": 3,
+        "tokens": 121956,
+        "latency_s": 114.23,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the capital of the country where the spouse of Jude Law holds citizenship?",
+        "answer": "Washington, D.C.",
+        "steps": 4,
+        "tokens": 218653,
+        "latency_s": 117.46,
+        "replan": 0
+      },
+      {
+        "question": "On which continent is the country associated with the citizenship of Maurice Strong located?",
+        "answer": "Asia\n\nFirst, determine Maurice Strong's citizenship: The latest entry about his citizenship is \"maurice_strong --[citizen_of]--> argentina\" (and entry 1682 in section [5] also states this, which is newer than the earlier entry 952 in section [3] that said Canada). \n\nNext, find the continent of Argentina: The latest fact about Argentina's continent is entry 4004 in section [8], which says \"Argentina is located in the continent of Asia\". \n\nThus, the answer is Asia.",
+        "steps": 2,
+        "tokens": 49283,
+        "latency_s": 59.28,
+        "replan": 0
+      },
+      {
+        "question": "What were the languages spoken, written or signed by the creator of Blandings Castle?",
+        "answer": "English",
+        "steps": 3,
+        "tokens": 125026,
+        "latency_s": 126.27,
+        "replan": 0
+      },
+      {
+        "question": "With which sport is the position played by Sebastian Janikowski on a team associated?",
+        "answer": "basketball",
+        "steps": 2,
+        "tokens": 51246,
+        "latency_s": 72.66,
+        "replan": 0
+      },
+      {
+        "question": "In which city did the author of \"The Cask of Amontillado\" breathe his last?",
+        "answer": "Louisville",
+        "steps": 3,
+        "tokens": 123854,
+        "latency_s": 85.12,
+        "replan": 0
+      },
+      {
+        "question": "In what genre would you categorize The Who's Tommy?",
+        "answer": "alternative rock",
+        "steps": 5,
+        "tokens": 358225,
+        "latency_s": 168.89,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country where the director/manager of \"The Rookies\" is a citizen?",
+        "answer": "Washington, D.C.",
+        "steps": 5,
+        "tokens": 367736,
+        "latency_s": 214.84,
+        "replan": 0
+      },
+      {
+        "question": "Which individual holds the position of director/manager at the company that employs Dave Filoni?",
+        "answer": "Bob Iger",
+        "steps": 2,
+        "tokens": 51164,
+        "latency_s": 75.23,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of the headquarters of the employer of the creator of Jabberwocky?",
+        "answer": "Mountain View",
+        "steps": 2,
+        "tokens": 48657,
+        "latency_s": 51.85,
+        "replan": 0
+      },
+      {
+        "question": "Who holds the position of the head of state of the country that Jessi Colter is a citizen of?",
+        "answer": "Prokopis Pavlopoulos",
+        "steps": 3,
+        "tokens": 122278,
+        "latency_s": 78.56,
+        "replan": 0
+      },
+      {
+        "question": "The capital city of which country is the birthplace of the sport that Timofey Mozgov specialized in?",
+        "answer": "Great Britain\n\n### Explanation:\n1. **Timofey Mozgov's sport**: Entries [4] 3719 and [12] state Timofey Mozgov plays the position of goalkeeper. Goalkeeper is a position in association football (evidenced by entries linking goalkeepers like Hugo Lloris to association football teams).  \n2. **Birthplace of association football**: While direct creation country for association football isn't explicitly stated, the capital city of Great Britain (London, per entry [3] 3729) is widely associated with the origin of association football in the context of common sports knowledge (and no conflicting info exists in the context).  \n3. **Country**: The capital city London belongs to Great Britain, so the answer is Great Britain.  \n\nAnswer: Great Britain",
+        "steps": 2,
+        "tokens": 54602,
+        "latency_s": 154.34,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+        "answer": "German",
+        "steps": 2,
+        "tokens": 144699,
+        "latency_s": 96.7,
+        "replan": 0
+      },
+      {
+        "question": "Which sport was Dennis Erickson associated with due to his position on a team?",
+        "answer": "American football",
+        "steps": 3,
+        "tokens": 294677,
+        "latency_s": 140.61,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the director / manager who worked with the performer of Anthology 1 belong to?",
+        "answer": "Oceania",
+        "steps": 7,
+        "tokens": 1347713,
+        "latency_s": 540.16,
+        "replan": 2
+      },
+      {
+        "question": "What genre of music is associated with the spouse of Blake Shelton?",
+        "answer": "country music",
+        "steps": 5,
+        "tokens": 696007,
+        "latency_s": 348.77,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the current chairperson of the institution where Harry Markowitz received his education?",
+        "answer": "zeki_öztürk",
+        "steps": 3,
+        "tokens": 294805,
+        "latency_s": 174.08,
+        "replan": 0
+      },
+      {
+        "question": "In which location did the person who established the religion that Henri Grégoire followed work?",
+        "answer": "London",
+        "steps": 2,
+        "tokens": 142634,
+        "latency_s": 84.37,
+        "replan": 0
+      },
+      {
+        "question": "From which continent does the country of citizenship of the creator of Ju 87 come from?",
+        "answer": "Asia",
+        "steps": 5,
+        "tokens": 734303,
+        "latency_s": 357.16,
+        "replan": 2
+      },
+      {
+        "question": "In which sport does Giovani dos Santos play the position he is known for?",
+        "answer": "association football",
+        "steps": 2,
+        "tokens": 149072,
+        "latency_s": 88.59,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of the performer of the song \"God Bless the Child\"?",
+        "answer": "Australia",
+        "steps": 3,
+        "tokens": 286830,
+        "latency_s": 183.94,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of the country where the sport played by the Washington Wizards was first developed?",
+        "answer": "Moscow",
+        "steps": 3,
+        "tokens": 294482,
+        "latency_s": 144.83,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country that Dino Meneghin holds citizenship in?",
+        "answer": "Duluth",
+        "steps": 2,
+        "tokens": 149284,
+        "latency_s": 98.16,
+        "replan": 0
+      },
+      {
+        "question": "What is the religious affiliation of the author of The Divine Comedy?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 143930,
+        "latency_s": 75.72,
+        "replan": 0
+      },
+      {
+        "question": "What country did the sport associated with FNB Stadium originate in?",
+        "answer": "Japan",
+        "steps": 2,
+        "tokens": 149053,
+        "latency_s": 76.51,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the country whose citizenship was held by Erich Koch situated?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727361124805c847dce3dfef19d8a8a6e4aeb40e68be1debe', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What language did the author of \"A Passage to India\" speak, write or sign in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772736145799ad763c189b5457592bb6380e30137774465c7f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the significant creation associated with the creator of Vito Corleone?",
+        "answer": "Rurouni Kenshin",
+        "steps": 2,
+        "tokens": 150785,
+        "latency_s": 130.92,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the sport associated with the founder of Pakistan Tehreek-e-Insaf originates from?",
+        "answer": "Oderzo",
+        "steps": 7,
+        "tokens": 1367567,
+        "latency_s": 543.98,
+        "replan": 2
+      },
+      {
+        "question": "What is the capital city of the home country of the director/manager who worked with the performer of \"Tomorrow Never Knows\"?",
+        "answer": "Canberra",
+        "steps": 7,
+        "tokens": 1361789,
+        "latency_s": 590.29,
+        "replan": 2
+      },
+      {
+        "question": "What is the sport that Rich Harden was associated with based on the position he played on a team?",
+        "answer": "American football",
+        "steps": 2,
+        "tokens": 146746,
+        "latency_s": 84.08,
+        "replan": 0
+      },
+      {
+        "question": "In which country does the head of government that governs Paddy Keenan's nationality reside?",
+        "answer": "United States of America",
+        "steps": 5,
+        "tokens": 725375,
+        "latency_s": 273.58,
+        "replan": 1
+      },
+      {
+        "question": "What language is recognized as the official language in the country where Dale Bumpers holds citizenship?",
+        "answer": "German",
+        "steps": 5,
+        "tokens": 704591,
+        "latency_s": 287.07,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the person who founded the organization that Benjamin Mazar was part of?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 729279,
+        "latency_s": 318.56,
+        "replan": 2
+      },
+      {
+        "question": "From which city of the country of origin of the musical genre of \"All Shook Up\" does the genre trace its roots?",
+        "answer": "The evidence does not provide the specific city in the United States of America where the musical genre horror punk (to which \"All Shook Up\" belongs) traces its roots. Therefore, based on the collected evidence, the answer cannot be determined. However, if forced to provide an answer based on the available information, there is no relevant city mentioned. \n\nBut according to the task requirements, since the evidence does not contain the specific city, the answer is: No relevant city information found.\n\nWait, but the task says to give a very concise answer. Maybe I should state that there's no information. But let me check again. Oh, maybe I missed something. No, the evidence only says horror punk was created in the US, no city. So the answer is: No specific city mentioned. But the task says to give a concise answer. Maybe: No relevant city.\n\nBut the task says \"answer the question based on this rule. You should give a very concise answer without saying other words\". So if no info, maybe: None.\n\nBut let's follow the task. Since there's no city info, the answer is: None.\n\nWait, but maybe I'm wrong. Let me confirm again. All evidence about horror punk: created in US, no city. So yes, no city mentioned. So answer is: None.",
+        "steps": 6,
+        "tokens": 982147,
+        "latency_s": 473.09,
+        "replan": 2
+      },
+      {
+        "question": "What is the capital city of the country to which Travis Tritt holds citizenship?",
+        "answer": "Washington, D.C.",
+        "steps": 5,
+        "tokens": 699018,
+        "latency_s": 288.48,
+        "replan": 2
+      },
+      {
+        "question": "Where is the headquarters location of the institution where Louis Zamperini received his education?",
+        "answer": "London",
+        "steps": 5,
+        "tokens": 703240,
+        "latency_s": 313.02,
+        "replan": 2
+      },
+      {
+        "question": "What city serves as the headquarters of the educational institution attended by Siim Kallas?",
+        "answer": "Mexico City",
+        "steps": 3,
+        "tokens": 295551,
+        "latency_s": 133.97,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport in which Darren Fletcher participated?",
+        "answer": "Italy",
+        "steps": 5,
+        "tokens": 732476,
+        "latency_s": 304.96,
+        "replan": 2
+      },
+      {
+        "question": "Which continent is the location of formation of the Master of Puppets performer?",
+        "answer": "Europe",
+        "steps": 5,
+        "tokens": 706658,
+        "latency_s": 354.34,
+        "replan": 1
+      },
+      {
+        "question": "What is the name of the person who created the country that Fyodor Ushakov is a citizen?",
+        "answer": "Peter the Great",
+        "steps": 2,
+        "tokens": 149455,
+        "latency_s": 73.36,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the CEO of the developer of Windows Update located in?",
+        "answer": "Eurasia",
+        "steps": 4,
+        "tokens": 486829,
+        "latency_s": 221.51,
+        "replan": 1
+      },
+      {
+        "question": "What is the religion of the officeholder commonly known as the pope?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 148324,
+        "latency_s": 105.8,
+        "replan": 0
+      },
+      {
+        "question": "In which sport did Vinny Testaverde play the position associated with the term \"position played on team / speciality\"?",
+        "answer": "association football",
+        "steps": 3,
+        "tokens": 297857,
+        "latency_s": 256.63,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the city that is the capital of the country where the sport Hope Solo played was developed?",
+        "answer": "London",
+        "steps": 5,
+        "tokens": 726594,
+        "latency_s": 278.96,
+        "replan": 1
+      },
+      {
+        "question": "To which continent is the country where \"The Phenomenology of Spirit\" originated belongs?",
+        "answer": "Asia",
+        "steps": 2,
+        "tokens": 150798,
+        "latency_s": 91.8,
+        "replan": 0
+      },
+      {
+        "question": "In which language do people communicate officially in the country where Louis Henri Loison holds his citizenship?",
+        "answer": "Spanish",
+        "steps": 5,
+        "tokens": 707999,
+        "latency_s": 369.98,
+        "replan": 2
+      },
+      {
+        "question": "What is the place of death of the individual who established the 2nd Ukrainian Front?",
+        "answer": "New York City",
+        "steps": 3,
+        "tokens": 296353,
+        "latency_s": 160.5,
+        "replan": 1
+      },
+      {
+        "question": "In which city is the government of the country of origin of the sport played by Matt Harrison located?",
+        "answer": "Washington, D.C.",
+        "steps": 2,
+        "tokens": 150328,
+        "latency_s": 149.25,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the creator of Kinsey Millhone belong to?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 141171,
+        "latency_s": 85.15,
+        "replan": 0
+      },
+      {
+        "question": "What continent does the country of origin of the sport represented by the Israel Football Association belong to?",
+        "answer": "Europe",
+        "steps": 2,
+        "tokens": 149589,
+        "latency_s": 103.94,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital located, where the spouse of the author of \"Tender Is the Night\" holds citizenship?",
+        "answer": "London",
+        "steps": 7,
+        "tokens": 1347118,
+        "latency_s": 599.56,
+        "replan": 2
+      },
+      {
+        "question": "In which city did the individual who established Blériot pass away?",
+        "answer": "Pune",
+        "steps": 2,
+        "tokens": 151762,
+        "latency_s": 142.09,
+        "replan": 0
+      },
+      {
+        "question": "What language was used to write the notable work of Luís de Camões?",
+        "answer": "English",
+        "steps": 3,
+        "tokens": 295231,
+        "latency_s": 163.14,
+        "replan": 1
+      },
+      {
+        "question": "Which continent does Monty Norman's birthplace belong to?",
+        "answer": "South America",
+        "steps": 3,
+        "tokens": 293222,
+        "latency_s": 140.3,
+        "replan": 1
+      },
+      {
+        "question": "What is the continent of origin of the chief executive officer for the developer of Windows Phone?",
+        "answer": "Europe",
+        "steps": 6,
+        "tokens": 1010721,
+        "latency_s": 459.52,
+        "replan": 2
+      },
+      {
+        "question": "In which language do people from the country of origin of the music genre associated with Cleo Laine conduct official business?",
+        "answer": "Spanish",
+        "steps": 4,
+        "tokens": 472831,
+        "latency_s": 189.39,
+        "replan": 1
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin for the sport of the Tunisia national football team?",
+        "answer": "Russellville",
+        "steps": 2,
+        "tokens": 150035,
+        "latency_s": 100.1,
+        "replan": 0
+      },
+      {
+        "question": "Which political leader holds the title of head of state of the country where Santiago Morning, the sports organization started?",
+        "answer": "Sebastian Piñera",
+        "steps": 5,
+        "tokens": 732220,
+        "latency_s": 372.81,
+        "replan": 1
+      },
+      {
+        "question": "Who founded the religious movement that Lakhdar Brahimi is affiliated with?",
+        "answer": "Mekere Morauta",
+        "steps": 2,
+        "tokens": 145263,
+        "latency_s": 107.99,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the birthplace of the country where the Scottish Cup originated?",
+        "answer": "Asia",
+        "steps": 3,
+        "tokens": 285303,
+        "latency_s": 137.95,
+        "replan": 1
+      },
+      {
+        "question": "What is the name of the capital city of the country from which the head coach of Germany national football team hails?",
+        "answer": "Berlin",
+        "steps": 6,
+        "tokens": 1031178,
+        "latency_s": 465.32,
+        "replan": 2
+      },
+      {
+        "question": "What was the place of work of the individual who founded the religion of Henri Breuil?",
+        "answer": "Epworth",
+        "steps": 6,
+        "tokens": 1012042,
+        "latency_s": 439.19,
+        "replan": 2
+      },
+      {
+        "question": "From which city in the country of citizenship of the manufacturer of Colt Single Action Army does the company hail?",
+        "answer": "Hartford",
+        "steps": 8,
+        "tokens": 1677002,
+        "latency_s": 771.23,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Ian Kennedy associated with based on the position he plays on the team?",
+        "answer": "rugby",
+        "steps": 2,
+        "tokens": 148237,
+        "latency_s": 103.35,
+        "replan": 0
+      },
+      {
+        "question": "Who is the person responsible for the founding of the Bahawalpur State?",
+        "answer": "无相关信息",
+        "steps": 4,
+        "tokens": 489949,
+        "latency_s": 209.74,
+        "replan": 2
+      },
+      {
+        "question": "What continent does the country from which 1. FK Příbram originated belong to?",
+        "answer": "Europe",
+        "steps": 5,
+        "tokens": 737764,
+        "latency_s": 256.21,
+        "replan": 2
+      },
+      {
+        "question": "What is the language used by the manager/director, who is a citizen of a country where \"Free as a Bird\" performer holds citizenship?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772747019210d430806939ec4fc386a4443c159a32554755bd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city serves as the capital of the country where the genre performed by Billy Walker originated from?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727470207578f2bceb731b8edfa7b9ded3d81aaad9d9d5f9f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is associated with the position played by Rajon Rondo on his team?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727470220868f2bceb731b8edfa7b9ded3d81aaad9df1440a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "From which country did the sport, in which Mel Daniels participates, originate?",
+        "answer": "Finland",
+        "steps": 2,
+        "tokens": 149700,
+        "latency_s": 130.49,
+        "replan": 0
+      },
+      {
+        "question": "From what location did the original broadcaster of \"The Monkees\" operate from during the formation of the band?",
+        "answer": "New York City",
+        "steps": 2,
+        "tokens": 149942,
+        "latency_s": 107.33,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the office of the company that developed Crysis 2 situated?",
+        "answer": "San Jose",
+        "steps": 2,
+        "tokens": 149737,
+        "latency_s": 90.28,
+        "replan": 0
+      },
+      {
+        "question": "Which individual is credited with creating the language which is the official language of the HQ location of Housemarque?",
+        "answer": "Mikael Agricola",
+        "steps": 3,
+        "tokens": 298324,
+        "latency_s": 164.79,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion that influenced Giordano Bruno?",
+        "answer": "Bethlehem",
+        "steps": 5,
+        "tokens": 733125,
+        "latency_s": 406.06,
+        "replan": 1
+      },
+      {
+        "question": "In which city is the seat of government of the country of citizenship of Parambrata Chatterjee?",
+        "answer": "New Delhi",
+        "steps": 3,
+        "tokens": 284292,
+        "latency_s": 164.35,
+        "replan": 1
+      },
+      {
+        "question": "What is the name of the company that founded the manufacturer of Jaguar Mark 2?",
+        "answer": "Eugène Schneider",
+        "steps": 2,
+        "tokens": 145641,
+        "latency_s": 181.57,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the nation of which Tomáš Berdych is a citizen?",
+        "answer": "Donald Trump",
+        "steps": 5,
+        "tokens": 721350,
+        "latency_s": 323.34,
+        "replan": 2
+      },
+      {
+        "question": "From which continent does the country of origin of the notable work that features Troilus and Criseyde belong?",
+        "answer": "Asia",
+        "steps": 5,
+        "tokens": 738452,
+        "latency_s": 354.42,
+        "replan": 1
+      },
+      {
+        "question": "Which music genre is associated with João Gilberto's notable work?",
+        "answer": "bossa nova and rock music",
+        "steps": 3,
+        "tokens": 295164,
+        "latency_s": 138.03,
+        "replan": 0
+      },
+      {
+        "question": "In which languages can the author of \"The Witcher\" write, speak, or sign?",
+        "answer": "English, French",
+        "steps": 3,
+        "tokens": 295165,
+        "latency_s": 147.04,
+        "replan": 1
+      },
+      {
+        "question": "What language does the spouse of Maksim Chmerkovskiy speak, write or use to communicate?",
+        "answer": "German",
+        "steps": 2,
+        "tokens": 150076,
+        "latency_s": 124.93,
+        "replan": 0
+      },
+      {
+        "question": "At which place did the creator of \"Lady Windermere's Fan\" breathe their last?",
+        "answer": "Guangzhou",
+        "steps": 3,
+        "tokens": 295374,
+        "latency_s": 197.51,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the CEO of the developer of the iPad Pro?",
+        "answer": "Rome",
+        "steps": 3,
+        "tokens": 293213,
+        "latency_s": 145.84,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country that originated the sport coached by the head coach of Sydney FC belong?",
+        "answer": "Europe",
+        "steps": 3,
+        "tokens": 296077,
+        "latency_s": 159.34,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport represented by Liga Profesional de Baloncesto?",
+        "answer": "Soviet Union",
+        "steps": 2,
+        "tokens": 149503,
+        "latency_s": 122.98,
+        "replan": 0
+      },
+      {
+        "question": "To what continent does the country where Home United FC originated belong to?",
+        "answer": "Asia",
+        "steps": 5,
+        "tokens": 735613,
+        "latency_s": 319.89,
+        "replan": 2
+      },
+      {
+        "question": "To which continent does the country where Steve Lamacq holds his citizenship belong?",
+        "answer": "Europe",
+        "steps": 2,
+        "tokens": 144441,
+        "latency_s": 140.41,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the headquarters location of Gazeta Wyborcza situated?",
+        "answer": "South America",
+        "steps": 4,
+        "tokens": 492854,
+        "latency_s": 238.28,
+        "replan": 1
+      },
+      {
+        "question": "What is the educational institution that the founder of Dravida Munnetra Kazhagam was associated with?",
+        "answer": "University of Utah",
+        "steps": 4,
+        "tokens": 477434,
+        "latency_s": 322.16,
+        "replan": 1
+      },
+      {
+        "question": "From which language did the country of citizenship of the spouse of the creator of WWE Main Event borrow its official language?",
+        "answer": "English",
+        "steps": 8,
+        "tokens": 1724116,
+        "latency_s": 680.96,
+        "replan": 2
+      },
+      {
+        "question": "What is the continent where the headquarters of the institution where Rodney Peete received education is located?",
+        "answer": "Europe",
+        "steps": 3,
+        "tokens": 298557,
+        "latency_s": 244.91,
+        "replan": 0
+      },
+      {
+        "question": "What continent is the country of citizenship of the director/manager of the developer of Gran Turismo 5 associated with?",
+        "answer": "Europe",
+        "steps": 7,
+        "tokens": 1316090,
+        "latency_s": 584.05,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of origin of the sport that the Libya national football team plays?",
+        "answer": "Italy",
+        "steps": 3,
+        "tokens": 301319,
+        "latency_s": 299.29,
+        "replan": 1
+      },
+      {
+        "question": "Which language is the official language of the country where the partner of the author of Executive Order 6102 is a citizen?",
+        "answer": "English",
+        "steps": 7,
+        "tokens": 1348737,
+        "latency_s": 623.12,
+        "replan": 2
+      },
+      {
+        "question": "Which city serves as the capital of the country that Michael Feinstein is a citizen of?",
+        "answer": "Berlin",
+        "steps": 3,
+        "tokens": 283639,
+        "latency_s": 162.92,
+        "replan": 1
+      },
+      {
+        "question": "What is the birthplace of the founder of the religion associated with Maria Christina of Austria?",
+        "answer": "Epworth",
+        "steps": 3,
+        "tokens": 298451,
+        "latency_s": 252.92,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the sport of the position played on team / speciality of Dele Alli originate?",
+        "answer": "Ireland",
+        "steps": 2,
+        "tokens": 150267,
+        "latency_s": 119.81,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of citizenship of the creator of Eddard Stark's partner?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217727541320283683317075330b6cc9f64af0089ac7f964419b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "From which university did the partner of Harald V of Norway receive their education?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177275413342498a941fd3b1c6e321c170880bc52c931a4876a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What language is used as the official language of the country where the genre that Archie Shepp is associated with originally came from?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177275413482098a941fd3b1c6e321c170880bc52c931608d49', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What city serves as the capital of the country where the spouse of Jude Law holds citizenship?",
+        "answer": "Harrisville",
+        "steps": 4,
+        "tokens": 488284,
+        "latency_s": 221.97,
+        "replan": 1
+      },
+      {
+        "question": "On which continent is the country associated with the citizenship of Maurice Strong located?",
+        "answer": "Asia",
+        "steps": 2,
+        "tokens": 142158,
+        "latency_s": 76.36,
+        "replan": 0
+      },
+      {
+        "question": "What were the languages spoken, written or signed by the creator of Blandings Castle?",
+        "answer": "English, German",
+        "steps": 3,
+        "tokens": 297904,
+        "latency_s": 155.62,
+        "replan": 1
+      },
+      {
+        "question": "With which sport is the position played by Sebastian Janikowski on a team associated?",
+        "answer": "American football",
+        "steps": 2,
+        "tokens": 148541,
+        "latency_s": 96.17,
+        "replan": 0
+      },
+      {
+        "question": "In which city did the author of \"The Cask of Amontillado\" breathe his last?",
+        "answer": "Dublin",
+        "steps": 2,
+        "tokens": 149919,
+        "latency_s": 139.56,
+        "replan": 0
+      },
+      {
+        "question": "In what genre would you categorize The Who's Tommy?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772755024784377b40f86b525a5b2b80b969e4540b3fdd8f29', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the capital city of the country where the director/manager of \"The Rookies\" is a citizen?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772755026641377b40f86b525a5b2b80b969e4540b3fb98a28', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which individual holds the position of director/manager at the company that employs Dave Filoni?",
+        "answer": "Tony Hall, Baron Hall of Birkenhead",
+        "steps": 3,
+        "tokens": 299807,
+        "latency_s": 303.33,
+        "replan": 1
+      },
+      {
+        "question": "What is the location of the headquarters of the employer of the creator of Jabberwocky?",
+        "answer": "Mountain View",
+        "steps": 3,
+        "tokens": 282199,
+        "latency_s": 209.02,
+        "replan": 0
+      },
+      {
+        "question": "Who holds the position of the head of state of the country that Jessi Colter is a citizen of?",
+        "answer": "Prokopis Pavlopoulos",
+        "steps": 3,
+        "tokens": 289522,
+        "latency_s": 219.35,
+        "replan": 0
+      },
+      {
+        "question": "The capital city of which country is the birthplace of the sport that Timofey Mozgov specialized in?",
+        "answer": "Great Britain",
+        "steps": 3,
+        "tokens": 300844,
+        "latency_s": 317.06,
+        "replan": 1
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List
 
 # Add project root to sys.path
-sys.path.append(str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 
 from src.logger import get_logger
 from src.config import get_config

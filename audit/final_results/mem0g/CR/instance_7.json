@@ -1,0 +1,1594 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0g",
+  "instance_idx": 7,
+  "source_files": [
+    "out/mem0g/mem0g_conflict_results_7.json"
+  ],
+  "results": {
+    "R1": [
+      {
+        "question": "Which university was Adam Putnam educated at?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24025,
+        "latency_s": 30.81,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Tito Nieves play?",
+        "answer": "Information not found in the knowledge pool.",
+        "steps": 1,
+        "tokens": 24032,
+        "latency_s": 27.36,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "Israel",
+        "steps": 1,
+        "tokens": 24469,
+        "latency_s": 30.84,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleWorks?",
+        "answer": "The provided knowledge pool does not contain information about the developer of AppleWorks. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 24364,
+        "latency_s": 44.74,
+        "replan": 0
+      },
+      {
+        "question": "What language does Jasper Fforde speak?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24175,
+        "latency_s": 19.45,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Benedict XIII affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 24242,
+        "latency_s": 30.73,
+        "replan": 0
+      },
+      {
+        "question": "What language does Shane Meadows speak?",
+        "answer": "The knowledge pool does not contain information about the language Shane Meadows speaks.",
+        "steps": 1,
+        "tokens": 24187,
+        "latency_s": 17.91,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lou Gehrig play?",
+        "answer": "上下文信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24150,
+        "latency_s": 36.42,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Shingon Buddhism?",
+        "answer": "The information about who founded Shingon Buddhism is not available in the provided knowledge pool.\n\nAnswer: The information is insufficient.",
+        "steps": 1,
+        "tokens": 24093,
+        "latency_s": 25.33,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Extensible Markup Language?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24439,
+        "latency_s": 37.07,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Cy Young?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24229,
+        "latency_s": 26.93,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Davina McCall?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24033,
+        "latency_s": 19.68,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Witches of East End created in?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 24111,
+        "latency_s": 28.39,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Oculus VR, LLC?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24257,
+        "latency_s": 24.23,
+        "replan": 0
+      },
+      {
+        "question": "Who was Bart Simpson created by?",
+        "answer": "The information about who created Bart Simpson is not provided in the context.",
+        "steps": 1,
+        "tokens": 24385,
+        "latency_s": 21.5,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Albert of Saxony affiliated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24287,
+        "latency_s": 23.34,
+        "replan": 0
+      },
+      {
+        "question": "Who was The IT Crowd created by?",
+        "answer": "The provided knowledge pool does not contain information about who created The IT Crowd. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 24448,
+        "latency_s": 16.69,
+        "replan": 0
+      },
+      {
+        "question": "What language does Queen Victoria I speak?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24127,
+        "latency_s": 28.94,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Windows Vista produced by?",
+        "answer": "Microsoft",
+        "steps": 1,
+        "tokens": 24246,
+        "latency_s": 28.1,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Indiana Mr. Basketball associated with?",
+        "answer": "basketball",
+        "steps": 1,
+        "tokens": 24182,
+        "latency_s": 24.27,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Laura Bush?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 23999,
+        "latency_s": 20.35,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Helen Vendler?",
+        "answer": "Tsinghua University",
+        "steps": 1,
+        "tokens": 25060,
+        "latency_s": 47.34,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of C. S. Forester?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24188,
+        "latency_s": 27.85,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Tom Simpson?",
+        "answer": "The information about the country of citizenship of Tom Simpson is not provided in the context.\n\n(Or more concisely as per instruction: Information insufficient)\n\nWait, let's confirm again—yes, none of the entries mention Tom Simpson. So the answer is that the context doesn't have the info. The instruction says if info is不足,明确说明. So:\n\nThe context does not provide information about the country of citizenship of Tom Simpson.\n\nBut maybe even more concise: No information available about Tom Simpson's citizenship in the context.\n\nOr as per the example's style, but since there's no data, the answer should state that. Let's go with:\n\nNo relevant information found.\n\nWait, let's check the instruction again: \"如果上下文信息不足，请明确说明。\" So the correct answer is to state that the information is insufficient. So final answer:\n\nThe context does not contain information about the country of citizenship of Tom Simpson.</think_never_used_51bce0c785ca2f68081bfa7d91973934>The context does not provide information about the country of citizenship of Tom Simpson.",
+        "steps": 1,
+        "tokens": 24330,
+        "latency_s": 44.25,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Diego Simeone associated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 23931,
+        "latency_s": 49.76,
+        "replan": 0
+      },
+      {
+        "question": "Which country was go-go created in?",
+        "answer": "The information about which country go-go was created in is not available in the provided Knowledge Pool.",
+        "steps": 1,
+        "tokens": 24265,
+        "latency_s": 35.94,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Arthur Miller?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24273,
+        "latency_s": 20.47,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Albania?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24138,
+        "latency_s": 26.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Liz Lochhead?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24026,
+        "latency_s": 19.75,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Texas Collegiate League associated with?",
+        "answer": "baseball",
+        "steps": 1,
+        "tokens": 24040,
+        "latency_s": 40.22,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Vogue?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24190,
+        "latency_s": 23.64,
+        "replan": 0
+      },
+      {
+        "question": "Who is Wilma Flintstone's child?",
+        "answer": "The information about Wilma Flintstone's child is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 24027,
+        "latency_s": 22.97,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Abraham Ortelius work in?",
+        "answer": "Antwerp",
+        "steps": 1,
+        "tokens": 24217,
+        "latency_s": 16.27,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Armani?",
+        "answer": "Giorgio Armani",
+        "steps": 1,
+        "tokens": 24244,
+        "latency_s": 24.38,
+        "replan": 0
+      },
+      {
+        "question": "What position does Mathieu Flamini play?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24123,
+        "latency_s": 31.04,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of The Wonder Years?",
+        "answer": "American Broadcasting Company",
+        "steps": 1,
+        "tokens": 23988,
+        "latency_s": 27.12,
+        "replan": 0
+      },
+      {
+        "question": "Which company is M1895 Colt-Browning machine gun produced by?",
+        "answer": "The information about which company produced the M1895 Colt-Browning machine gun is not available in the provided knowledge pool.\n\nAnswer: Information not found.",
+        "steps": 1,
+        "tokens": 24111,
+        "latency_s": 32.5,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius IX affiliated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24314,
+        "latency_s": 25.98,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Morning Joe?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 23614,
+        "latency_s": 21.61,
+        "replan": 0
+      },
+      {
+        "question": "Who is Herodias's child?",
+        "answer": "The context does not provide information about Herodias's child.",
+        "steps": 1,
+        "tokens": 23869,
+        "latency_s": 22.94,
+        "replan": 0
+      },
+      {
+        "question": "Who was The Dark Knight created by?",
+        "answer": "Christopher Nolan",
+        "steps": 1,
+        "tokens": 24198,
+        "latency_s": 23.11,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Jeune Afrique created in?",
+        "answer": "Information not found in the knowledge pool.",
+        "steps": 1,
+        "tokens": 24190,
+        "latency_s": 18.77,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Anna Ancher?",
+        "answer": "Denmark",
+        "steps": 1,
+        "tokens": 23861,
+        "latency_s": 22.67,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Andy Griffith play?",
+        "answer": "The information about the type of music Andy Griffith plays is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 23958,
+        "latency_s": 28.64,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Jerry Lee Lewis work in?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24262,
+        "latency_s": 29.26,
+        "replan": 0
+      },
+      {
+        "question": "What language does William Shakespeare speak?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24582,
+        "latency_s": 22.51,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Joseph Lyons affiliated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24221,
+        "latency_s": 26.38,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2014 CollegeInsider.com Postseason Tournament associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24065,
+        "latency_s": 32.35,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Harry Judd?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24208,
+        "latency_s": 24.69,
+        "replan": 0
+      },
+      {
+        "question": "Which city did H. P. Lovecraft work in?",
+        "answer": "Providence",
+        "steps": 1,
+        "tokens": 24092,
+        "latency_s": 20.18,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Grêmio Barueri Futebol associated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 23883,
+        "latency_s": 24.68,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius VI affiliated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24006,
+        "latency_s": 26.8,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Frank Norris educated at?",
+        "answer": "The information about which university Frank Norris was educated at is not provided in the context.\n\n（说明：根据提供的知识库内容，未找到任何关于Frank Norris所就读大学的信息，因此无法回答该问题。）",
+        "steps": 1,
+        "tokens": 23985,
+        "latency_s": 21.68,
+        "replan": 0
+      },
+      {
+        "question": "What language does Theodor Herzl speak?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 23915,
+        "latency_s": 27.99,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Spain?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24243,
+        "latency_s": 20.84,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn L. Martin?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24108,
+        "latency_s": 24.19,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Kingdom of Italy located in?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 24286,
+        "latency_s": 30.42,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is squeeze play associated with?",
+        "answer": "baseball",
+        "steps": 1,
+        "tokens": 24029,
+        "latency_s": 32.0,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Worksop Town F.C. associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 23992,
+        "latency_s": 34.72,
+        "replan": 0
+      },
+      {
+        "question": "What is the original language of Gunsmoke?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24052,
+        "latency_s": 37.14,
+        "replan": 0
+      },
+      {
+        "question": "What is Helen Fielding famous for?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24196,
+        "latency_s": 19.4,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Milan Stojadinović?",
+        "answer": "University of Belgrade",
+        "steps": 1,
+        "tokens": 24186,
+        "latency_s": 27.7,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Cuba located in?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24437,
+        "latency_s": 30.11,
+        "replan": 0
+      },
+      {
+        "question": "Which language was 9/11 Commission Report written in?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24269,
+        "latency_s": 26.05,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Gianni Morbidelli?",
+        "answer": "Italy",
+        "steps": 1,
+        "tokens": 23880,
+        "latency_s": 17.78,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Nova Scotia government?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24034,
+        "latency_s": 37.41,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Lucan die in?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24159,
+        "latency_s": 29.45,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Windows XP?",
+        "answer": "The knowledge pool does not provide information about the developer of Windows XP.",
+        "steps": 1,
+        "tokens": 24374,
+        "latency_s": 24.47,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Aldrich Ames?",
+        "answer": "Central Intelligence Agency",
+        "steps": 1,
+        "tokens": 23938,
+        "latency_s": 29.27,
+        "replan": 0
+      },
+      {
+        "question": "Which country was The Unit created in?",
+        "answer": "Information not found in the knowledge pool.",
+        "steps": 1,
+        "tokens": 24322,
+        "latency_s": 25.72,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Jason Motte?",
+        "answer": "The provided knowledge pool does not contain information about Jason Motte's country of citizenship. Therefore, I cannot answer this question based on the given context.",
+        "steps": 1,
+        "tokens": 24337,
+        "latency_s": 31.84,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Nokia?",
+        "answer": "Information not found in the knowledge pool.",
+        "steps": 1,
+        "tokens": 24163,
+        "latency_s": 33.32,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Fantasy Island?",
+        "answer": "American Broadcasting Company",
+        "steps": 1,
+        "tokens": 23959,
+        "latency_s": 27.76,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does N. Chandrababu Naidu do?",
+        "answer": "politician",
+        "steps": 1,
+        "tokens": 24402,
+        "latency_s": 23.26,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of George R. R. Martin?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24290,
+        "latency_s": 18.49,
+        "replan": 0
+      },
+      {
+        "question": "What position does Shay Given play?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24194,
+        "latency_s": 20.55,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn Miller?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 23965,
+        "latency_s": 18.03,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Florentino Pérez associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 24014,
+        "latency_s": 50.14,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of University of Washington located in?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24053,
+        "latency_s": 18.85,
+        "replan": 0
+      },
+      {
+        "question": "What position does Jerzy Dudek play?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24227,
+        "latency_s": 37.87,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Ibn Saud work in?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 24198,
+        "latency_s": 19.2,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lonnie Mack?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 23873,
+        "latency_s": 18.16,
+        "replan": 0
+      },
+      {
+        "question": "What language does Néstor Kirchner speak?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 24249,
+        "latency_s": 24.0,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Larry Bird associated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24221,
+        "latency_s": 30.21,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Jessica Jones?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24032,
+        "latency_s": 19.71,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Gordon Jackson die in?",
+        "answer": "The information about which city Gordon Jackson died in is not available in the provided Knowledge Pool.",
+        "steps": 1,
+        "tokens": 23980,
+        "latency_s": 28.08,
+        "replan": 0
+      },
+      {
+        "question": "What is Alexander Hamilton famous for?",
+        "answer": "The knowledge pool does not contain information about what Alexander Hamilton is famous for.",
+        "steps": 1,
+        "tokens": 23942,
+        "latency_s": 25.86,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Pablo Neruda educated at?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24153,
+        "latency_s": 32.98,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Minister for Home Affairs?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 24324,
+        "latency_s": 32.34,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Purification Rundown?",
+        "answer": "Information not found in the knowledge pool.",
+        "steps": 1,
+        "tokens": 24172,
+        "latency_s": 27.08,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Canadian Broadcasting Corporation located in?",
+        "answer": "Ottawa",
+        "steps": 1,
+        "tokens": 24023,
+        "latency_s": 21.67,
+        "replan": 0
+      },
+      {
+        "question": "Who is Chiang Kai-shek's child?",
+        "answer": "Chiang Ching-kuo",
+        "steps": 1,
+        "tokens": 24276,
+        "latency_s": 30.32,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Big Mac produced by?",
+        "answer": "McDonald's",
+        "steps": 1,
+        "tokens": 24037,
+        "latency_s": 22.97,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Micrographia?",
+        "answer": "Information not found in the knowledge pool.",
+        "steps": 1,
+        "tokens": 24271,
+        "latency_s": 23.24,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of San Francisco Giants?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24270,
+        "latency_s": 30.11,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lorenzo Lamas?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 23788,
+        "latency_s": 23.96,
+        "replan": 0
+      },
+      {
+        "question": "What is Charaka famous for?",
+        "answer": "Charaka Samhita",
+        "steps": 1,
+        "tokens": 23879,
+        "latency_s": 24.77,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Jadranka Kosor affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 24325,
+        "latency_s": 17.11,
+        "replan": 0
+      },
+      {
+        "question": "What position does Sam Cassell play?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 24073,
+        "latency_s": 20.38,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Tampere?",
+        "answer": "上下文信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 24178,
+        "latency_s": 20.46,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "Which university was Adam Putnam educated at?",
+        "answer": "Not found.",
+        "steps": 5,
+        "tokens": 362010,
+        "latency_s": 167.94,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Tito Nieves play?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 362958,
+        "latency_s": 194.01,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "Israel",
+        "steps": 2,
+        "tokens": 49445,
+        "latency_s": 38.34,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleWorks?",
+        "answer": "Apple Inc.",
+        "steps": 2,
+        "tokens": 49901,
+        "latency_s": 30.55,
+        "replan": 0
+      },
+      {
+        "question": "What language does Jasper Fforde speak?",
+        "answer": "No relevant information found.",
+        "steps": 5,
+        "tokens": 363207,
+        "latency_s": 167.18,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Benedict XIII affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 49858,
+        "latency_s": 35.95,
+        "replan": 0
+      },
+      {
+        "question": "What language does Shane Meadows speak?",
+        "answer": "未找到关于Shane Meadows所讲语言的相关信息。",
+        "steps": 5,
+        "tokens": 364046,
+        "latency_s": 161.96,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lou Gehrig play?",
+        "error": "{neo4j_code: Neo.ClientError.Statement.ArgumentError} {message: Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.} {gql_status: 50N42} {gql_status_description: error: general processing exception - unexpected error. Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.}"
+      },
+      {
+        "question": "Who founded Shingon Buddhism?",
+        "error": "{neo4j_code: Neo.ClientError.Statement.ArgumentError} {message: Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.} {gql_status: 50N42} {gql_status_description: error: general processing exception - unexpected error. Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.}"
+      },
+      {
+        "question": "Who is the developer of Extensible Markup Language?",
+        "error": "{neo4j_code: Neo.ClientError.Statement.ArgumentError} {message: Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.} {gql_status: 50N42} {gql_status_description: error: general processing exception - unexpected error. Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.}"
+      },
+      {
+        "question": "What is the country of citizenship of Cy Young?",
+        "error": "{neo4j_code: Neo.ClientError.Statement.ArgumentError} {message: Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.} {gql_status: 50N42} {gql_status_description: error: general processing exception - unexpected error. Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.}"
+      },
+      {
+        "question": "What is the country of citizenship of Davina McCall?",
+        "error": "{neo4j_code: Neo.ClientError.Statement.ArgumentError} {message: Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.} {gql_status: 50N42} {gql_status_description: error: general processing exception - unexpected error. Invalid input for 'vector.similarity.cosine()': Argument b is not a valid vector for this similarity function.}"
+      },
+      {
+        "question": "Which country was Witches of East End created in?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 49442,
+        "latency_s": 34.76,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Oculus VR, LLC?",
+        "answer": "Not found in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 362023,
+        "latency_s": 193.25,
+        "replan": 0
+      },
+      {
+        "question": "Who was Bart Simpson created by?",
+        "answer": "Matt Groening",
+        "steps": 5,
+        "tokens": 364629,
+        "latency_s": 245.28,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Albert of Saxony affiliated with?",
+        "answer": "无相关信息",
+        "steps": 5,
+        "tokens": 364992,
+        "latency_s": 175.83,
+        "replan": 0
+      },
+      {
+        "question": "Who was The IT Crowd created by?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 364333,
+        "latency_s": 174.3,
+        "replan": 0
+      },
+      {
+        "question": "What language does Queen Victoria I speak?",
+        "answer": "English",
+        "steps": 5,
+        "tokens": 365123,
+        "latency_s": 190.54,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Windows Vista produced by?",
+        "answer": "Microsoft",
+        "steps": 2,
+        "tokens": 49960,
+        "latency_s": 29.76,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Indiana Mr. Basketball associated with?",
+        "answer": "basketball",
+        "steps": 4,
+        "tokens": 219608,
+        "latency_s": 99.35,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Laura Bush?",
+        "answer": "United States of America",
+        "steps": 5,
+        "tokens": 362948,
+        "latency_s": 222.73,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Helen Vendler?",
+        "answer": "tsinghua_university",
+        "steps": 2,
+        "tokens": 51033,
+        "latency_s": 61.0,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of C. S. Forester?",
+        "answer": "No information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 362756,
+        "latency_s": 161.1,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Tom Simpson?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 362313,
+        "latency_s": 163.82,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Diego Simeone associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 364569,
+        "latency_s": 183.17,
+        "replan": 0
+      },
+      {
+        "question": "Which country was go-go created in?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 361377,
+        "latency_s": 159.05,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Arthur Miller?",
+        "answer": "未找到关于Arthur Miller公民身份的相关信息",
+        "steps": 5,
+        "tokens": 363426,
+        "latency_s": 180.73,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Albania?",
+        "answer": "No relevant information about the Prime Minister of Albania is present in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 362919,
+        "latency_s": 175.87,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Liz Lochhead?",
+        "answer": "未找到关于Liz Lochhead国籍的相关信息。",
+        "steps": 5,
+        "tokens": 363030,
+        "latency_s": 174.56,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Texas Collegiate League associated with?",
+        "answer": "baseball",
+        "steps": 2,
+        "tokens": 49207,
+        "latency_s": 24.5,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Vogue?",
+        "answer": "无",
+        "steps": 5,
+        "tokens": 364881,
+        "latency_s": 208.14,
+        "replan": 0
+      },
+      {
+        "question": "Who is Wilma Flintstone's child?",
+        "answer": "未找到相关信息",
+        "steps": 5,
+        "tokens": 362634,
+        "latency_s": 184.05,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Abraham Ortelius work in?",
+        "answer": "Antwerp",
+        "steps": 2,
+        "tokens": 49784,
+        "latency_s": 26.05,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Armani?",
+        "answer": "Giorgio Armani",
+        "steps": 2,
+        "tokens": 49155,
+        "latency_s": 29.41,
+        "replan": 0
+      },
+      {
+        "question": "What position does Mathieu Flamini play?",
+        "answer": "无相关信息",
+        "steps": 5,
+        "tokens": 359849,
+        "latency_s": 173.05,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of The Wonder Years?",
+        "answer": "American Broadcasting Company",
+        "steps": 2,
+        "tokens": 48977,
+        "latency_s": 30.43,
+        "replan": 0
+      },
+      {
+        "question": "Which company is M1895 Colt-Browning machine gun produced by?",
+        "answer": "Not mentioned in the knowledge pool.",
+        "steps": 5,
+        "tokens": 364766,
+        "latency_s": 232.43,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius IX affiliated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 365641,
+        "latency_s": 175.72,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Morning Joe?",
+        "answer": "Not found in the knowledge pool",
+        "steps": 5,
+        "tokens": 357278,
+        "latency_s": 201.42,
+        "replan": 0
+      },
+      {
+        "question": "Who is Herodias's child?",
+        "answer": "Not found in the knowledge pool.",
+        "steps": 5,
+        "tokens": 364114,
+        "latency_s": 202.75,
+        "replan": 0
+      },
+      {
+        "question": "Who was The Dark Knight created by?",
+        "answer": "Christopher Nolan",
+        "steps": 2,
+        "tokens": 50070,
+        "latency_s": 39.01,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Jeune Afrique created in?",
+        "answer": "Not found in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 362187,
+        "latency_s": 150.05,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Anna Ancher?",
+        "answer": "denmark",
+        "steps": 2,
+        "tokens": 49228,
+        "latency_s": 21.27,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Andy Griffith play?",
+        "answer": "No relevant information found.",
+        "steps": 5,
+        "tokens": 360689,
+        "latency_s": 154.38,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Jerry Lee Lewis work in?",
+        "answer": "无",
+        "steps": 5,
+        "tokens": 363214,
+        "latency_s": 194.7,
+        "replan": 0
+      },
+      {
+        "question": "What language does William Shakespeare speak?",
+        "answer": "No information",
+        "steps": 5,
+        "tokens": 368762,
+        "latency_s": 177.98,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Joseph Lyons affiliated with?",
+        "answer": "未提及",
+        "steps": 5,
+        "tokens": 365394,
+        "latency_s": 191.59,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2014 CollegeInsider.com Postseason Tournament associated with?",
+        "answer": "未找到相关信息",
+        "steps": 5,
+        "tokens": 362696,
+        "latency_s": 229.44,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Harry Judd?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 363587,
+        "latency_s": 170.49,
+        "replan": 0
+      },
+      {
+        "question": "Which city did H. P. Lovecraft work in?",
+        "answer": "Providence",
+        "steps": 2,
+        "tokens": 49848,
+        "latency_s": 29.68,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Grêmio Barueri Futebol associated with?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 360667,
+        "latency_s": 176.08,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius VI affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 49626,
+        "latency_s": 21.24,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Frank Norris educated at?",
+        "answer": "No relevant fact found.",
+        "steps": 5,
+        "tokens": 362874,
+        "latency_s": 155.24,
+        "replan": 0
+      },
+      {
+        "question": "What language does Theodor Herzl speak?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 364995,
+        "latency_s": 153.33,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Spain?",
+        "answer": "未找到相关信息",
+        "steps": 5,
+        "tokens": 365416,
+        "latency_s": 191.76,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn L. Martin?",
+        "answer": "未找到关于Glenn L. Martin公民身份的相关信息。",
+        "steps": 5,
+        "tokens": 361938,
+        "latency_s": 167.44,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Kingdom of Italy located in?",
+        "answer": "Europe",
+        "steps": 2,
+        "tokens": 49837,
+        "latency_s": 24.87,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is squeeze play associated with?",
+        "answer": "baseball",
+        "steps": 2,
+        "tokens": 48988,
+        "latency_s": 21.09,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Worksop Town F.C. associated with?",
+        "answer": "No relevant information about Worksop Town F.C. is found in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 363715,
+        "latency_s": 173.88,
+        "replan": 0
+      },
+      {
+        "question": "What is the original language of Gunsmoke?",
+        "answer": "未找到关于Gunsmoke原始语言的信息。",
+        "steps": 5,
+        "tokens": 360476,
+        "latency_s": 170.43,
+        "replan": 0
+      },
+      {
+        "question": "What is Helen Fielding famous for?",
+        "answer": "无相关信息",
+        "steps": 5,
+        "tokens": 362305,
+        "latency_s": 175.07,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Milan Stojadinović?",
+        "answer": "University of Belgrade",
+        "steps": 2,
+        "tokens": 49884,
+        "latency_s": 35.55,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Cuba located in?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 364491,
+        "latency_s": 156.53,
+        "replan": 0
+      },
+      {
+        "question": "Which language was 9/11 Commission Report written in?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 364618,
+        "latency_s": 144.18,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Gianni Morbidelli?",
+        "answer": "Italy",
+        "steps": 2,
+        "tokens": 49219,
+        "latency_s": 29.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Nova Scotia government?",
+        "answer": "未提及",
+        "steps": 5,
+        "tokens": 359192,
+        "latency_s": 177.57,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Lucan die in?",
+        "answer": "未提及",
+        "steps": 5,
+        "tokens": 362395,
+        "latency_s": 194.57,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Windows XP?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 367022,
+        "latency_s": 198.44,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Aldrich Ames?",
+        "answer": "central_intelligence_agency",
+        "steps": 2,
+        "tokens": 49387,
+        "latency_s": 37.79,
+        "replan": 0
+      },
+      {
+        "question": "Which country was The Unit created in?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 360478,
+        "latency_s": 180.33,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Jason Motte?",
+        "answer": "未找到关于Jason Motte国籍的相关信息。",
+        "steps": 5,
+        "tokens": 362156,
+        "latency_s": 148.2,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Nokia?",
+        "answer": "Not found",
+        "steps": 2,
+        "tokens": 52886,
+        "latency_s": 98.23,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Fantasy Island?",
+        "answer": "American Broadcasting Company",
+        "steps": 2,
+        "tokens": 49547,
+        "latency_s": 33.63,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does N. Chandrababu Naidu do?",
+        "answer": "politician",
+        "steps": 2,
+        "tokens": 50114,
+        "latency_s": 29.13,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of George R. R. Martin?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 363786,
+        "latency_s": 145.13,
+        "replan": 0
+      },
+      {
+        "question": "What position does Shay Given play?",
+        "answer": "未找到关于Shay Given所打位置的相关信息。",
+        "steps": 5,
+        "tokens": 363497,
+        "latency_s": 166.0,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn Miller?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 49265,
+        "latency_s": 28.87,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Florentino Pérez associated with?",
+        "answer": "association football",
+        "steps": 3,
+        "tokens": 122991,
+        "latency_s": 74.36,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of University of Washington located in?",
+        "answer": "Not found in the context",
+        "steps": 5,
+        "tokens": 364098,
+        "latency_s": 201.78,
+        "replan": 0
+      },
+      {
+        "question": "What position does Jerzy Dudek play?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 364540,
+        "latency_s": 188.87,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Ibn Saud work in?",
+        "answer": "没有相关信息",
+        "steps": 5,
+        "tokens": 362761,
+        "latency_s": 168.07,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lonnie Mack?",
+        "answer": "未找到关于Lonnie Mack国家公民身份的相关信息。",
+        "steps": 5,
+        "tokens": 358768,
+        "latency_s": 154.49,
+        "replan": 0
+      },
+      {
+        "question": "What language does Néstor Kirchner speak?",
+        "answer": "没有找到关于Néstor Kirchner所讲语言的相关信息。",
+        "steps": 5,
+        "tokens": 362693,
+        "latency_s": 165.48,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Larry Bird associated with?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 362911,
+        "latency_s": 177.97,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Jessica Jones?",
+        "answer": "无",
+        "steps": 5,
+        "tokens": 361139,
+        "latency_s": 156.72,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Gordon Jackson die in?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 363465,
+        "latency_s": 158.17,
+        "replan": 0
+      },
+      {
+        "question": "What is Alexander Hamilton famous for?",
+        "answer": "The knowledge pool does not provide information about what Alexander Hamilton is famous for.",
+        "steps": 5,
+        "tokens": 363033,
+        "latency_s": 152.76,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Pablo Neruda educated at?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 360467,
+        "latency_s": 175.93,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Minister for Home Affairs?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 363557,
+        "latency_s": 196.53,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Purification Rundown?",
+        "answer": "没有找到关于Purification Rundown开发者的相关信息。",
+        "steps": 5,
+        "tokens": 361660,
+        "latency_s": 194.6,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Canadian Broadcasting Corporation located in?",
+        "answer": "Ottawa",
+        "steps": 3,
+        "tokens": 121596,
+        "latency_s": 53.52,
+        "replan": 0
+      },
+      {
+        "question": "Who is Chiang Kai-shek's child?",
+        "answer": "Chiang Ching-kuo",
+        "steps": 2,
+        "tokens": 49996,
+        "latency_s": 39.42,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Big Mac produced by?",
+        "answer": "McDonald's",
+        "steps": 2,
+        "tokens": 49387,
+        "latency_s": 28.26,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Micrographia?",
+        "answer": "Not found in the knowledge pool",
+        "steps": 5,
+        "tokens": 364719,
+        "latency_s": 217.13,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of San Francisco Giants?",
+        "answer": "未找到关于旧金山巨人队主教练的相关信息。",
+        "steps": 5,
+        "tokens": 363752,
+        "latency_s": 219.55,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lorenzo Lamas?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 48629,
+        "latency_s": 25.68,
+        "replan": 0
+      },
+      {
+        "question": "What is Charaka famous for?",
+        "answer": "Charaka Samhita",
+        "steps": 2,
+        "tokens": 49291,
+        "latency_s": 23.62,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Jadranka Kosor affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 49770,
+        "latency_s": 23.55,
+        "replan": 0
+      },
+      {
+        "question": "What position does Sam Cassell play?",
+        "answer": "没有相关信息",
+        "steps": 5,
+        "tokens": 361413,
+        "latency_s": 158.31,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Tampere?",
+        "answer": "Not found",
+        "steps": 5,
+        "tokens": 364714,
+        "latency_s": 230.11,
+        "replan": 0
+      }
+    ]
+  }
+}
