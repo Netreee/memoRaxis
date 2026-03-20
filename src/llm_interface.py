@@ -6,13 +6,16 @@
 
 import json
 import re
+import time
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 
 try:
     from openai import OpenAI
+    from httpx import Timeout
 except ImportError:
     OpenAI = None
+    Timeout = None
 
 from .logger import get_logger
 
@@ -62,7 +65,11 @@ class OpenAIClient(BaseLLMClient):
             raise ImportError("请先安装 openai 库: pip install openai")
 
         self._logger = get_logger()
-        self._client = OpenAI(api_key=api_key, base_url=base_url)
+        self._client = OpenAI(
+            api_key=api_key,
+            base_url=base_url,
+            timeout=Timeout(300.0, connect=10.0),
+        )
         self._model = model
         self._temperature = temperature
         self._max_tokens = max_tokens
@@ -78,25 +85,32 @@ class OpenAIClient(BaseLLMClient):
         self._total_tokens = 0
 
     def generate(self, prompt: str, **kwargs) -> str:
-        """调用 OpenAI 生成文本"""
+        """调用 OpenAI 生成文本，429 时指数退避重试"""
         self._logger.debug("OpenAI generate 调用")
-        try:
-            response = self._client.chat.completions.create(
-                model=self._model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=kwargs.get("temperature", self._temperature),
-                max_tokens=kwargs.get("max_tokens", self._max_tokens),
-            )
-            
-            content = response.choices[0].message.content
-            
-            if response.usage:
-                self._total_tokens += response.usage.total_tokens
-                
-            return content
-        except Exception as e:
-            self._logger.error("OpenAI 调用失败: %s", e)
-            raise
+        max_retries = 8
+        wait = 30
+        for attempt in range(max_retries):
+            try:
+                response = self._client.chat.completions.create(
+                    model=self._model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=kwargs.get("temperature", self._temperature),
+                    max_tokens=kwargs.get("max_tokens", self._max_tokens),
+                )
+                content = response.choices[0].message.content
+                if response.usage:
+                    self._total_tokens += response.usage.total_tokens
+                return content
+            except Exception as e:
+                err_str = str(e)
+                if "429" in err_str or "RateLimit" in err_str or "rate_limit" in err_str.lower():
+                    if attempt < max_retries - 1:
+                        self._logger.warning("429 TPM限制，等待 %ds 后重试 (attempt %d/%d)", wait, attempt+1, max_retries)
+                        time.sleep(wait)
+                        wait = min(wait * 2, 300)  # 指数退避，最长5min
+                        continue
+                self._logger.error("OpenAI 调用失败: %s", e)
+                raise
 
     def generate_json(self, prompt: str, **kwargs) -> Dict[str, Any]:
         """调用 OpenAI 生成 JSON"""
@@ -111,8 +125,9 @@ class OpenAIClient(BaseLLMClient):
     def _parse_json(self, content: str) -> Dict[str, Any]:
         """解析 JSON 字符串，处理 Markdown 代码块"""
         try:
-            # 尝试直接解析
-            return json.loads(content)
+            # 尝试直接解析（json.loads 可能返回 int/str 等非 dict，需要兜底）
+            parsed = json.loads(content)
+            return parsed if isinstance(parsed, dict) else {}
         except json.JSONDecodeError:
             # 尝试去除 Markdown 代码块 ```json ... ```
             pattern = r"```(?:json)?\s*(.*?)\s*```"
