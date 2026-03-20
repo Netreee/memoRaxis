@@ -165,6 +165,8 @@ class IterativeAdaptor(BaseAdaptor):
 
             # 获取决策
             decision = self._llm.generate_json(decision_prompt)
+            if not isinstance(decision, dict):
+                decision = {}
             action = decision.get("action", "ANSWER")
 
             if action == "ANSWER":

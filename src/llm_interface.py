@@ -12,8 +12,10 @@ from typing import Any, Dict, Optional
 
 try:
     from openai import OpenAI
+    from httpx import Timeout
 except ImportError:
     OpenAI = None
+    Timeout = None
 
 try:
     from fornax.fornax_openai import FornaxOpenAI
@@ -125,7 +127,11 @@ class OpenAIClient(BaseLLMClient):
                     existing = os.environ.get(var, "")
                     if host not in existing:
                         os.environ[var] = f"{existing},{host}" if existing else host
-            self._client = OpenAI(api_key=api_key, base_url=base_url)
+            self._client = OpenAI(
+                api_key=api_key,
+                base_url=base_url,
+                timeout=Timeout(300.0, connect=10.0),
+            )
             self._model = model
             self._logger.info("LLM provider: OpenAI-compatible (model=%s)", self._model)
 
@@ -185,8 +191,9 @@ class OpenAIClient(BaseLLMClient):
     def _parse_json(self, content: str) -> Dict[str, Any]:
         """解析 JSON 字符串，处理 Markdown 代码块"""
         try:
-            # 尝试直接解析
-            return json.loads(content)
+            # 尝试直接解析（json.loads 可能返回 int/str 等非 dict，需要兜底）
+            parsed = json.loads(content)
+            return parsed if isinstance(parsed, dict) else {}
         except json.JSONDecodeError:
             # 尝试去除 Markdown 代码块 ```json ... ```
             pattern = r"```(?:json)?\s*(.*?)\s*```"
