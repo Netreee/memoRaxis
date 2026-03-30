@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 51,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案。标准答案聚焦于Edmund的身世背景和出发前的铺垫，而Agent预测直接跳至被叔叔出卖、海上历险等后续核心情节，完全缺失了标准答案中提供的核心信息（如父母双亡、监护人、决定去爱丁堡等），属于核心情节缺失和错误。"
+    }
+  ]
+}

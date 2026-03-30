@@ -1,0 +1,17 @@
+{
+  "system": "amem",
+  "instance_idx": 21,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测完全未总结指定故事的情节与人物，而是对任务本身提出质疑并描述了另一个不相关的故事内容，与标准答案的核心情节和人物严重偏离。"
+    }
+  ]
+}

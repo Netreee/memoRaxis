@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 106,
+  "adaptor": "R2",
+  "accuracy": 0.16666666666666666,
+  "correct": 1,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。标准答案为'C. Xi Yan'，而Agent预测为'D. Anna Sophia'，且其推理基于无关上下文，未正确回答问题。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法找到相关信息'，而标准答案为具体选项，核心内容完全缺失。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent的回答完全未涉及标准答案'C. Mist painting'，而是基于无关推理得出了'None of the options are correct'的结论，核心内容严重偏离。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent的回答完全未涉及标准答案'C. Mists Drawn'，而是给出了一个不在选项中的名字，且其推理与问题无关，属于严重偏离。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，核心内容准确无误。"
+    }
+  ]
+}

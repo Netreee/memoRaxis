@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 109,
+  "adaptor": "R1",
+  "accuracy": 0.16666666666666666,
+  "correct": 1,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案相关的核心内容，严重偏离标准答案。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，而标准答案提供了明确的关键内容（B. Being killed by others），核心情节缺失，不符合得分条件。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未包含标准答案中的核心内容（Shunobu Akagi），与得分标准不符。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent以信息不足为由拒绝作答，未提供任何与标准答案相关的核心内容，严重偏离评估要求。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均为'C. Akagi Shiki'，且推理部分支持了该答案，核心内容准确。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案相关的核心内容，严重偏离。"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 103,
+  "adaptor": "R2",
+  "accuracy": 0.3333333333333333,
+  "correct": 2,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案的核心内容完全不符，预测内容涉及不同的人物和事件，属于严重偏离。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。标准答案为'Samuel Kid'，而Agent预测为'Henry Nigges'，属于主要人物错误。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全不符，预测为另一人物，属于主要人物错误。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案的核心内容完全一致，均指出凶手驾车逃离，核心情节准确无误。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测准确复现了标准答案的核心内容，即自杀及其原因（guilt and suffering），主要情节和逻辑一致。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案（Samuel Kidd）与标准答案（Janie Hobbs）完全不符，核心人物错误，属于严重偏离。"
+    }
+  ]
+}

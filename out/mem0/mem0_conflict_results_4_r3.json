@@ -1,0 +1,581 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0",
+  "instance_idx": 4,
+  "results": {
+    "R3": [
+      {
+        "question": "Which sport is goaltender associated with?",
+        "answer": "Association football",
+        "steps": 6,
+        "tokens": 26520,
+        "latency_s": 242.02,
+        "replan": 2
+      },
+      {
+        "question": "What is Nobuhiro Watsuki famous for?",
+        "answer": "Rurouni Kenshin",
+        "steps": 2,
+        "tokens": 6895,
+        "latency_s": 69.43,
+        "replan": 0
+      },
+      {
+        "question": "Which country was rugby union created in?",
+        "answer": "England",
+        "steps": 2,
+        "tokens": 6334,
+        "latency_s": 55.88,
+        "replan": 0
+      },
+      {
+        "question": "What is Ferdowsi famous for?",
+        "answer": "Shahnameh",
+        "steps": 2,
+        "tokens": 6590,
+        "latency_s": 57.45,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Joan Didion educated at?",
+        "answer": "University of California, Berkeley",
+        "steps": 2,
+        "tokens": 6352,
+        "latency_s": 52.42,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Marriage of Figaro?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15612,
+        "latency_s": 157.8,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Tunisia national football team associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14243,
+        "latency_s": 112.96,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is quarterback associated with?",
+        "answer": "Muay Thai",
+        "steps": 2,
+        "tokens": 6358,
+        "latency_s": 657.13,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Japan?",
+        "answer": "Swedish",
+        "steps": 2,
+        "tokens": 6543,
+        "latency_s": 66.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Tucson government?",
+        "answer": "Jonathan Rothschild",
+        "steps": 2,
+        "tokens": 7132,
+        "latency_s": 71.68,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Italy government?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15281,
+        "latency_s": 128.75,
+        "replan": 2
+      },
+      {
+        "question": "Who performed Meredith Grey?",
+        "answer": "Ellen Pompeo",
+        "steps": 2,
+        "tokens": 6544,
+        "latency_s": 70.45,
+        "replan": 0
+      },
+      {
+        "question": "What position does Robert Parish play?",
+        "answer": "No relevant information",
+        "steps": 4,
+        "tokens": 13893,
+        "latency_s": 122.18,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Cédric Klapisch?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017588698a941fd3b1c6e321c170880bc52c931270bd4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the author of Sidereus Nuncius?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017810198a941fd3b1c6e321c170880bc52c931c48b20', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which continent is Germany located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268017992998a941fd3b1c6e321c170880bc52c931ae52c0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which religion is Kingdom of Ireland affiliated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268018172398a941fd3b1c6e321c170880bc52c931ca9209', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which country was association football created in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268018316498a941fd3b1c6e321c170880bc52c93157ee86', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the developer of Windows Phone?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268018516098a941fd3b1c6e321c170880bc52c9316aa3ef', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the chief executive officer of Microsoft?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268018662698a941fd3b1c6e321c170880bc52c931db6714', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the chairperson of Harvard University?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268018843898a941fd3b1c6e321c170880bc52c931917c94', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who founded Church of Scotland?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268019002198a941fd3b1c6e321c170880bc52c9315a1d61', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is Galwegians RFC associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268019161798a941fd3b1c6e321c170880bc52c931e2e980', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the director of American Broadcasting Company?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020550798a941fd3b1c6e321c170880bc52c931170469', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city did Gennady Rozhdestvensky die in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020731498a941fd3b1c6e321c170880bc52c9315ac224', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the capital of Tang Empire?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268020889998a941fd3b1c6e321c170880bc52c93118fbf0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the director of British Broadcasting Corporation?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021046198a941fd3b1c6e321c170880bc52c931282e52', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Benjamin Mazar?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021241798a941fd3b1c6e321c170880bc52c931f05a4b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What type of music does Michael Mantler play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021383398a941fd3b1c6e321c170880bc52c931817030', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city did Oscar Wilde die in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021524298a941fd3b1c6e321c170880bc52c931ae544b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which country was baseball created in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021725898a941fd3b1c6e321c170880bc52c9316f29dd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Ernst Heinkel?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268021890798a941fd3b1c6e321c170880bc52c931499b87', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city is the headquarter of The University of the Arts located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022053798a941fd3b1c6e321c170880bc52c931a74ed8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which country was rap rock created in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022232598a941fd3b1c6e321c170880bc52c931a3f3c9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Where was Christianity founded?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022382498a941fd3b1c6e321c170880bc52c93197b42d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the official language of United States of America?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268022523098a941fd3b1c6e321c170880bc52c93158d994', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who performed Past Masters?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268023526798a941fd3b1c6e321c170880bc52c931cbd809', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the capital of Japan?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268024759298a941fd3b1c6e321c170880bc52c931cd5b0e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the capital of France?",
+        "answer": "Not mentioned",
+        "steps": 4,
+        "tokens": 13292,
+        "latency_s": 106.36,
+        "replan": 2
+      },
+      {
+        "question": "Who is the developer of SteamOS?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 25555,
+        "latency_s": 210.67,
+        "replan": 2
+      },
+      {
+        "question": "Which city is the headquarter of University of Bucharest located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066681398a941fd3b1c6e321c170880bc52c931de0973', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is wide receiver associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066839098a941fd3b1c6e321c170880bc52c931e0811f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What position does Hines Ward play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268066972898a941fd3b1c6e321c170880bc52c931bf2715', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the capital of Australia?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067115298a941fd3b1c6e321c170880bc52c9315cbc16', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which continent is Malaysia located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067269598a941fd3b1c6e321c170880bc52c931b6f1dd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the author of A Wizard of Earthsea?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067431298a941fd3b1c6e321c170880bc52c931168215', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who performed Free as a Bird?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067580498a941fd3b1c6e321c170880bc52c93153bd62', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the author of Our Mutual Friend?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268067725398a941fd3b1c6e321c170880bc52c931218d99', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which country was basketball created in?",
+        "answer": "No relevant information about the country where basketball was created is provided in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13590,
+        "latency_s": 104.59,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Hal Needham?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 6145,
+        "latency_s": 53.6,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Bengaluru located in?",
+        "answer": "Asia",
+        "steps": 2,
+        "tokens": 6850,
+        "latency_s": 72.47,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Slovakia national football team associated with?",
+        "answer": "association football",
+        "steps": 2,
+        "tokens": 7669,
+        "latency_s": 90.45,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in United States of America?",
+        "answer": "Connachta",
+        "steps": 3,
+        "tokens": 10754,
+        "latency_s": 91.46,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Imelda Marcos affiliated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268122081798a941fd3b1c6e321c170880bc52c931984ec5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What type of music does Dana International play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268122252598a941fd3b1c6e321c170880bc52c93168378b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Sable?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268122415898a941fd3b1c6e321c170880bc52c931ae63b6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which country was Charlie Hebdo created in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268122561998a941fd3b1c6e321c170880bc52c931753c79', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is Elvis Presley married to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268122755698a941fd3b1c6e321c170880bc52c931ea8ffa', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who performed Hermione Granger?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268122909398a941fd3b1c6e321c170880bc52c931895709', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is Bo Ryan associated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268123055398a941fd3b1c6e321c170880bc52c931b293c9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What type of music does John McVie play?",
+        "answer": "rock music",
+        "steps": 2,
+        "tokens": 6010,
+        "latency_s": 44.58,
+        "replan": 0
+      },
+      {
+        "question": "What position does Rogério Ceni play?",
+        "answer": "flanker",
+        "steps": 2,
+        "tokens": 6890,
+        "latency_s": 74.38,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Twitter?",
+        "answer": "Jack Dorsey",
+        "steps": 2,
+        "tokens": 5812,
+        "latency_s": 42.38,
+        "replan": 0
+      },
+      {
+        "question": "What language does Kylie Minogue speak?",
+        "answer": "English",
+        "steps": 2,
+        "tokens": 6846,
+        "latency_s": 71.71,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Darryl Strawberry associated with?",
+        "answer": "No information",
+        "steps": 4,
+        "tokens": 14190,
+        "latency_s": 117.58,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is placekicker associated with?",
+        "answer": "American football",
+        "steps": 2,
+        "tokens": 5483,
+        "latency_s": 28.86,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does Stephen McNeil do?",
+        "answer": "He is the chairperson of Congolese Party of Labour.",
+        "steps": 2,
+        "tokens": 7474,
+        "latency_s": 89.75,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Dave Filoni?",
+        "answer": "Lucasfilm",
+        "steps": 2,
+        "tokens": 6282,
+        "latency_s": 58.66,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is San Francisco located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268184969998a941fd3b1c6e321c170880bc52c93163d12a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Where was Canadair founded?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268185165098a941fd3b1c6e321c170880bc52c931fd04ab', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which company is AP1000 produced by?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268189968998a941fd3b1c6e321c170880bc52c9319029a7', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Ayumi Hamasaki?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268190129098a941fd3b1c6e321c170880bc52c9312201eb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What position does Blair Walsh play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268190265698a941fd3b1c6e321c170880bc52c931b038f0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is Tony Blair married to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268190426098a941fd3b1c6e321c170880bc52c931bec09a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the author of Endymion?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268190568298a941fd3b1c6e321c170880bc52c931d2bc27', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the author of Lady Windermere's Fan?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268190767798a941fd3b1c6e321c170880bc52c931d07425', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the current head of the Japan government?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268190962298a941fd3b1c6e321c170880bc52c931e57101', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is the chairperson of Congolese Party of Labour?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268191112498a941fd3b1c6e321c170880bc52c931e5cdf4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which sport is flanker associated with?",
+        "answer": "No information available",
+        "steps": 6,
+        "tokens": 25912,
+        "latency_s": 222.2,
+        "replan": 2
+      },
+      {
+        "question": "What is the capital of Czech Republic?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 12450,
+        "latency_s": 76.92,
+        "replan": 2
+      },
+      {
+        "question": "What position does Lisa Leslie play?",
+        "answer": "center",
+        "steps": 2,
+        "tokens": 6169,
+        "latency_s": 51.78,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in Soviet Union?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 6,
+        "tokens": 26867,
+        "latency_s": 212.26,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Ferdinand von Richthofen?",
+        "answer": "Germany",
+        "steps": 2,
+        "tokens": 6425,
+        "latency_s": 55.34,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Karen Armstrong affiliated with?",
+        "answer": "No information about Karen Armstrong's affiliated religion is provided in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15201,
+        "latency_s": 148.72,
+        "replan": 2
+      },
+      {
+        "question": "Who was Vito Corleone created by?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 21167,
+        "latency_s": 189.16,
+        "replan": 2
+      },
+      {
+        "question": "What is the capital of Romania?",
+        "answer": "Rajanpur",
+        "steps": 2,
+        "tokens": 6121,
+        "latency_s": 52.49,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is India located in?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 15541,
+        "latency_s": 169.81,
+        "replan": 2
+      },
+      {
+        "question": "Which city did Olga of Kiev die in?",
+        "answer": "Kyiv",
+        "steps": 2,
+        "tokens": 7487,
+        "latency_s": 83.15,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Sasanian Empire?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14241,
+        "latency_s": 127.14,
+        "replan": 2
+      },
+      {
+        "question": "Which city did Pedro Pierluisi work in?",
+        "answer": "Washington, D.C.",
+        "steps": 2,
+        "tokens": 6969,
+        "latency_s": 67.54,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Surrey Senior Cup associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15466,
+        "latency_s": 150.32,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Narendra Modi?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13462,
+        "latency_s": 92.0,
+        "replan": 2
+      },
+      {
+        "question": "Who is Victoria Beckham married to?",
+        "answer": "David Beckham",
+        "steps": 2,
+        "tokens": 6725,
+        "latency_s": 69.1,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Charles Messier?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368049498a941fd3b1c6e321c170880bc52c931d04a59', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who was Rand al'Thor created by?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368217198a941fd3b1c6e321c170880bc52c9316c8c24', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What position does Mike D'Antoni play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368356698a941fd3b1c6e321c170880bc52c93124dc89', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of citizenship of Colin Irwin?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368512498a941fd3b1c6e321c170880bc52c9315eef83', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is Walter Chrysler's child?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368691698a941fd3b1c6e321c170880bc52c9318779ea', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is Charles Darwin married to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368847998a941fd3b1c6e321c170880bc52c931a9a80c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What position does Irving Fryar play?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 02177268368989898a941fd3b1c6e321c170880bc52c931260021', 'param': '', 'type': 'TooManyRequests'}}"
+      }
+    ]
+  }
+}

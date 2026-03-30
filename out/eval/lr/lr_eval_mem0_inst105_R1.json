@@ -1,0 +1,71 @@
+{
+  "system": "mem0",
+  "instance_idx": 105,
+  "adaptor": "R1",
+  "accuracy": 0.3,
+  "correct": 3,
+  "total": 10,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程引用了故事中的相关线索（蓝帽陌生人）来支持其结论，核心内容准确无误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案相关的核心内容。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心内容（偷书）与标准答案（获取书中隐藏的东西）在关键情节上存在本质偏差，属于核心情节错误。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的核心内容（William Sedley使用化名Dr. Alessi雇佣Joe Vella）与标准答案（William Sedaris）指向同一关键人物，尽管姓氏拼写略有差异，但不影响核心情节和人物关系的准确性。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全一致，均指出信封中的符号包含重要信息，且推理过程支持了这一结论。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。"
+    },
+    {
+      "q_idx": 6,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案相关的核心内容，严重偏离评估标准。"
+    },
+    {
+      "q_idx": 7,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心人物错误，且其推理基于对选项的猜测（假设为拼写错误），而非依据给定的标准答案进行判断。"
+    },
+    {
+      "q_idx": 8,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案（William Schedler/Sedley）与标准答案（Hamnet Sedley）在核心人物上完全错误，且其推理依据与问题所问的'Lichem Rocchi's method of death'无关，属于严重偏离。"
+    },
+    {
+      "q_idx": 9,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，而标准答案为具体选项，核心内容完全缺失。"
+    }
+  ]
+}

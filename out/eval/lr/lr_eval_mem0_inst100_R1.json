@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 100,
+  "adaptor": "R1",
+  "accuracy": 0.6666666666666666,
+  "correct": 4,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案在核心内容上一致，均指向Brand/Brandt夫妇，且推理过程支持了这一关键人物关系，无核心情节缺失或错误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的核心答案包含了标准答案中的关键人物'Miss Martin Dale'，且推理与给定上下文一致，符合得分标准。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的核心人物（Hilary Webber）与标准答案（Hila Weber）指向同一角色，并准确解释了其行为动机，核心情节正确。名称差异可视为拼写变体，不影响核心内容准确性。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案'C. Second wife of Brand'在核心人物关系上完全不符，预测为'First wife'，属于主要人物关系错误。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答'信息不足'，但标准答案明确指向具体选项，核心情节缺失，不符合得分条件。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程基于提供的上下文，核心内容准确无误。"
+    }
+  ]
+}

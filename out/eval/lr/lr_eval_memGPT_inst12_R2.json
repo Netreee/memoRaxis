@@ -1,0 +1,17 @@
+{
+  "system": "memGPT",
+  "instance_idx": 12,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案的核心情节与人物。标准答案明确主角为Cal，始于其祖父母在1922年的故事，并提及移民底特律。而Agent预测以一位无法生育、加入外交服务的双性人叙述者开篇，其描述的祖父母‘蜜月’情节、人物关系（如Sourmelina）及后续事件（如婚礼、被解雇细节）在标准答案中均未出现，属于核心情节缺失与错误。"
+    }
+  ]
+}

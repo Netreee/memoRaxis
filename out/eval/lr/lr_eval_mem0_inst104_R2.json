@@ -1,0 +1,59 @@
+{
+  "system": "mem0",
+  "instance_idx": 104,
+  "adaptor": "R2",
+  "accuracy": 0.5,
+  "correct": 4,
+  "total": 8,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测准确包含了标准答案的核心内容，即犯罪动机是受到Field的勒索，与关键要点一致。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的核心内容与标准答案完全一致，均指出凶手离开时拿走了Field的帽子，关键情节准确无误。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全一致，均指出凶手意图将罪责转移给Morgan，且推理中包含了关键情节（如匿名信是陷阱、Morgan与Field的敌对关系），核心内容准确无误。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案'B. Theater staff'与标准答案'A. Actor'完全不符，核心内容错误。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全一致，均指出凶手持有毒药并在与Field见面时将其投毒，主要情节和逻辑准确。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无相关信息'，严重偏离标准答案的核心情节（Quinn已确认凶手但缺乏证据）。"
+    },
+    {
+      "q_idx": 6,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全不符。标准答案涉及动机和机会的调查，而Agent预测的是关于引诱凶手返回现场，属于核心情节错误。"
+    },
+    {
+      "q_idx": 7,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案'B. Morgan'与标准答案'A. Stephen Barry'完全不符，核心人物错误，属于严重偏离。"
+    }
+  ]
+}

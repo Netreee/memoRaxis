@@ -1,0 +1,809 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0",
+  "instance_idx": 0,
+  "results": {
+    "R1": [
+      {
+        "question": "What is the country of citizenship of the spouse of the author of Our Mutual Friend?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 600,
+        "latency_s": 5.25,
+        "replan": 0
+      },
+      {
+        "question": "In which location did the spouse of Igor of Kiev pass away?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 565,
+        "latency_s": 4.53,
+        "replan": 0
+      },
+      {
+        "question": "Which country is the birthplace of the sport associated with Steve Sax?",
+        "answer": "The context does not provide information about the birthplace of the sport associated with Steve Sax.",
+        "steps": 1,
+        "tokens": 784,
+        "latency_s": 9.86,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin for the sport of the Tunisia national football team?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 824,
+        "latency_s": 10.51,
+        "replan": 0
+      },
+      {
+        "question": "What is the sport that Blair Walsh plays in which he is known for his position on the team?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 536,
+        "latency_s": 3.59,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the educational institution where the partner of Nicolae Ceaușescu was educated?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 601,
+        "latency_s": 3.96,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the current CEO of Twitter hold citizenship of?",
+        "answer": "United States of America.",
+        "steps": 1,
+        "tokens": 576,
+        "latency_s": 4.59,
+        "replan": 0
+      },
+      {
+        "question": "On which continent was the place of birth of Thomas Arne located?",
+        "answer": "The information about Thomas Arne's place of birth is not provided in the given knowledge pool. Therefore, I cannot answer this question based on the provided context.\n\nAnswer: The information is insufficient.",
+        "steps": 1,
+        "tokens": 604,
+        "latency_s": 5.16,
+        "replan": 0
+      },
+      {
+        "question": "To which continent does the country of citizenship of Colin Irwin pertain?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 543,
+        "latency_s": 4.62,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of work of the founder of the religion to which John Walsh belongs?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 613,
+        "latency_s": 5.51,
+        "replan": 0
+      },
+      {
+        "question": "What is the religious affiliation of the person who founded the Transcendental Meditation movement?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 646,
+        "latency_s": 7.37,
+        "replan": 0
+      },
+      {
+        "question": "What was the religion of the person with the citizenship of the country to which Edmund Burke belonged?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 728,
+        "latency_s": 7.62,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country where the sport associated with John Harkes has its origin?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 664,
+        "latency_s": 7.61,
+        "replan": 0
+      },
+      {
+        "question": "Which faith is the partner of Laura Bush associated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 551,
+        "latency_s": 4.29,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the head of state in the country where Andrew Carnegie was a citizen?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 581,
+        "latency_s": 3.83,
+        "replan": 0
+      },
+      {
+        "question": "From which capital city did the Surrey Senior Cup, a sports competition, originate?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 553,
+        "latency_s": 5.27,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the sport, with which Carlos Gómez is associated, come from?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 688,
+        "latency_s": 7.25,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country where Madame du Barry held a citizenship?",
+        "answer": "The information about the capital of France is not provided in the knowledge pool. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 695,
+        "latency_s": 7.38,
+        "replan": 0
+      },
+      {
+        "question": "What is the job title of the chairperson of the political organization Fatah?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 629,
+        "latency_s": 4.54,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the performer of \"Free as a Bird\"'s director/manager comes from?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 654,
+        "latency_s": 8.76,
+        "replan": 0
+      },
+      {
+        "question": "What is the language of the work that was created by the individual who created Rand al'Thor?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 590,
+        "latency_s": 6.19,
+        "replan": 0
+      },
+      {
+        "question": "What is the work location of the person who founded the religion Karen Armstrong belongs to?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 778,
+        "latency_s": 9.57,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the child category of \"Categories\" created by the author?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 696,
+        "latency_s": 7.31,
+        "replan": 0
+      },
+      {
+        "question": "Where is the country of origin of FC Vorskla Poltava?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 531,
+        "latency_s": 3.15,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the capital of the country where the CEO of the developer of SteamOS holds a citizenship?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 894,
+        "latency_s": 12.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who is the chief executive officer of the developer of F-22 Raptor?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 574,
+        "latency_s": 4.39,
+        "replan": 0
+      },
+      {
+        "question": "Who holds the position of chairperson in the organization where Joseph Story was employed?",
+        "answer": "The information about Joseph Story and the organization he was employed in is not provided in the knowledge pool. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 598,
+        "latency_s": 4.55,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the capital of the country where the performer who is the spouse of Derek Shepherd holds citizenship?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 690,
+        "latency_s": 8.59,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the city that serves as the capital of the country to which Sable belongs?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 694,
+        "latency_s": 7.04,
+        "replan": 0
+      },
+      {
+        "question": "In which city serves as the capital of the country of citizenship of Country Joe McDonald?",
+        "answer": "There is insufficient information in the provided knowledge pool to answer the question, as there is no fact about Joe McDonald's country of citizenship.",
+        "steps": 1,
+        "tokens": 677,
+        "latency_s": 6.74,
+        "replan": 0
+      },
+      {
+        "question": "What city or town is the headquarters of the educational institution, where the performer of the album \"Blood on the Tracks\" received education, located in?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 702,
+        "latency_s": 6.03,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief executive of the country where the sport associated with Bo Ryan was first developed?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 648,
+        "latency_s": 6.38,
+        "replan": 0
+      },
+      {
+        "question": "What is the continent of origin of the chief executive officer for the developer of Windows Phone?",
+        "answer": "Asia\n\nFirst, identify the developer of Windows Phone: Microsoft. Then, find the CEO of Microsoft from the knowledge pool: Satya Nadella (fact [1]). Next, check Satya Nadella's origin: fact [6] states he was born in Hyderabad, which is in India (Asia). Thus, the continent of origin is Asia.\n\nAnswer: Asia",
+        "steps": 1,
+        "tokens": 749,
+        "latency_s": 7.61,
+        "replan": 0
+      },
+      {
+        "question": "Which continent does the country where the sport played by the Slovakia national football team originated come from?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 660,
+        "latency_s": 7.1,
+        "replan": 0
+      },
+      {
+        "question": "Which religion was the partner of Ferdinand Marcos associated with?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 602,
+        "latency_s": 5.87,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the significant creation associated with the creator of Vito Corleone?",
+        "answer": "The Godfather",
+        "steps": 1,
+        "tokens": 582,
+        "latency_s": 4.23,
+        "replan": 0
+      },
+      {
+        "question": "To which country does the performer who goes by the name Rocket Man hold citizenship?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 583,
+        "latency_s": 3.84,
+        "replan": 0
+      },
+      {
+        "question": "Which language does the performer of Hermione Granger know how to speak, write or sign?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 578,
+        "latency_s": 4.66,
+        "replan": 0
+      },
+      {
+        "question": "From which country does the musical genre Michael Mantler is associated with come from?",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 571,
+        "latency_s": 3.22,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is associated with the position played by Robert Parish on a team or his specialty?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 514,
+        "latency_s": 2.83,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the person who founded the organization that Benjamin Mazar was part of?",
+        "answer": "Information insufficient.",
+        "steps": 1,
+        "tokens": 564,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "Which language is recognized as the official language of the place where Gennady Rozhdestvensky took his last breath?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 673,
+        "latency_s": 7.42,
+        "replan": 0
+      },
+      {
+        "question": "What is the birthplace of the author of \"The Marriage of Figaro\"?",
+        "answer": "The information in the knowledge pool is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 3.36,
+        "replan": 0
+      },
+      {
+        "question": "In which country was Darryl Strawberry's sport developed, and who is the head of government in that nation?",
+        "answer": "The information is insufficient. The knowledge pool does not contain any fact about Darryl Strawberry's sport, so it's impossible to determine the country where the sport was developed and the head of government of that nation.",
+        "steps": 1,
+        "tokens": 712,
+        "latency_s": 8.17,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the sport that Mike D'Antoni specialized in hails from?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 788,
+        "latency_s": 8.54,
+        "replan": 0
+      },
+      {
+        "question": "At what location did the author of \"Sketches by Boz\" breathe his last?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 738,
+        "latency_s": 11.12,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country from which the sport of Daniele De Rossi originated?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 646,
+        "latency_s": 7.0,
+        "replan": 0
+      },
+      {
+        "question": "To which continent is the country of citizenship of Ferdinand von Richthofen located?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 558,
+        "latency_s": 4.05,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country where the sport played by Galwegians RFC was originated?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 1101,
+        "latency_s": 18.94,
+        "replan": 0
+      },
+      {
+        "question": "What languages are spoken, written or signed by the founder of Shingon Buddhism?",
+        "answer": "Japanese",
+        "steps": 1,
+        "tokens": 581,
+        "latency_s": 5.29,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the partner of the head of government of the Council of People's Commissars?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 716,
+        "latency_s": 7.14,
+        "replan": 0
+      },
+      {
+        "question": "What is the professional role of the chairperson of the Congolese Party of Labour?",
+        "answer": "The provided knowledge pool only mentions that the chairperson of the Congolese Party of Labour is Denis Sassou-Nguesso, but there is no information about the professional role of this chairperson. So the information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 612,
+        "latency_s": 4.87,
+        "replan": 0
+      },
+      {
+        "question": "Where did the religion associated with the Bagratuni Dynasty come into existence?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 579,
+        "latency_s": 4.25,
+        "replan": 0
+      },
+      {
+        "question": "What country does the genre of music associated with the spouse of Roy Rogers originate from?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 746,
+        "latency_s": 10.02,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital located of the country where the director/producer of \"666 Park Avenue\" is a citizen?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 636,
+        "latency_s": 6.08,
+        "replan": 0
+      },
+      {
+        "question": "In what place was the organization that Ron Dennis works for, first established?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 565,
+        "latency_s": 4.42,
+        "replan": 0
+      },
+      {
+        "question": "On which continent was Le Petit Parisien originally made?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 569,
+        "latency_s": 5.06,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital city of the country where the sport played by the partner of Victoria Beckham originated?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 966,
+        "latency_s": 18.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the political entity that was established from the successor of the Sasanian Empire?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 621,
+        "latency_s": 5.56,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country that FC Irtysh Omsk originates from located?",
+        "answer": "Information is insufficient.",
+        "steps": 1,
+        "tokens": 595,
+        "latency_s": 4.54,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the performer of the song collection \"Back to Black\"?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 798,
+        "latency_s": 12.16,
+        "replan": 0
+      },
+      {
+        "question": "What was the sport that Hines Ward competed in professionally?",
+        "answer": "American football",
+        "steps": 1,
+        "tokens": 567,
+        "latency_s": 5.71,
+        "replan": 0
+      },
+      {
+        "question": "In which position did the person related to the original broadcaster of \"The Brady Bunch\" serve?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 702,
+        "latency_s": 7.57,
+        "replan": 0
+      },
+      {
+        "question": "In what location did the person who founded Chanel pass away?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 576,
+        "latency_s": 4.13,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of the author of \"Starship Troopers\"?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 559,
+        "latency_s": 4.09,
+        "replan": 0
+      },
+      {
+        "question": "Which individual holds the position of director/manager at the company that employs Dave Filoni?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 706,
+        "latency_s": 9.35,
+        "replan": 0
+      },
+      {
+        "question": "In what language is the notable work associated with Hugh Hefner written?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 649,
+        "latency_s": 6.68,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country that gave rise to the sport played by Rogério Ceni?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 893,
+        "latency_s": 13.43,
+        "replan": 0
+      },
+      {
+        "question": "From which educational institution did the author of 'Sidereus Nuncius' receive their education?",
+        "answer": "University of Pisa",
+        "steps": 1,
+        "tokens": 591,
+        "latency_s": 3.85,
+        "replan": 0
+      },
+      {
+        "question": "What is the place of death of the author of Endymion?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 584,
+        "latency_s": 4.51,
+        "replan": 0
+      },
+      {
+        "question": "In which city can the headquarters of the educational institution attended by the spouse of Sophia Hawthorne be found?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 693,
+        "latency_s": 6.31,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the country where Leo Stein holds citizenship?",
+        "answer": "Donald Trump",
+        "steps": 1,
+        "tokens": 652,
+        "latency_s": 5.49,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the chief of state of the country that Hal Needham belongs to?",
+        "answer": "Donald Trump",
+        "steps": 1,
+        "tokens": 740,
+        "latency_s": 8.14,
+        "replan": 0
+      },
+      {
+        "question": "Who serves as the head of government in the location where the AP1000 was made by its manufacturer?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 687,
+        "latency_s": 5.61,
+        "replan": 0
+      },
+      {
+        "question": "In what place did the author of \"A Wizard of Earthsea\" breathe his last?",
+        "answer": "Portland",
+        "steps": 1,
+        "tokens": 547,
+        "latency_s": 3.44,
+        "replan": 0
+      },
+      {
+        "question": "Which religion does the partner of the performer of \"Aladdin Sane\" follow?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 693,
+        "latency_s": 6.93,
+        "replan": 0
+      },
+      {
+        "question": "At which location does the Prime Minister of Sweden spend most of their work hours?",
+        "answer": "The information provided in the knowledge pool is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 579,
+        "latency_s": 4.2,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country whose citizenship is held by the CEO of the developer of AppleScript?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 786,
+        "latency_s": 9.7,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is the country of origin for Gala RFC located in?",
+        "answer": "The information provided is insufficient to determine the continent of the country of origin for Gala RFC.",
+        "steps": 1,
+        "tokens": 776,
+        "latency_s": 9.69,
+        "replan": 0
+      },
+      {
+        "question": "What sport is associated with the position played by Irving Fryar on a team/specialty?",
+        "answer": "The information about Irving Fryar's position and the associated sport is not provided in the given knowledge pool. So I can't answer this question based on the provided context.\n\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 701,
+        "latency_s": 8.53,
+        "replan": 0
+      },
+      {
+        "question": "In which continent is the country to which Cédric Klapisch holds citizenship located?",
+        "answer": "The information about Cédric Klapisch's citizenship is not provided in the given knowledge pool. Therefore, it is impossible to determine the continent where the country of his citizenship is located.\n\n(Note: Since the user's instruction says to answer concisely and state if info is insufficient, a more concise version could be: \"The information about Cédric Klapisch's citizenship is not available in the provided knowledge pool.\")\n\nBut following the example's style of being concise, maybe even shorter: \"Insufficient information about Cédric Klapisch's citizenship in the knowledge pool.\"\n\nWait, let's make it as per the instruction: if context info is不足,明确说明. So the answer is: There is no information about Cédric Klapisch's citizenship in the provided knowledge pool, so it cannot be determined.\n\nBut maybe even more concise: \"No information about Cédric Klapisch's citizenship is available in the knowledge pool.\" That's better.</think_never_used_51bce0c785ca2f68081bfa7d91973934>No information about Cédric Klapisch's citizenship is available in the provided knowledge pool. Therefore, it is impossible to determine the continent where the country of his citizenship is located.",
+        "steps": 1,
+        "tokens": 801,
+        "latency_s": 10.79,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of the headquarters of the company where Leonte Răutu worked?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 742,
+        "latency_s": 7.52,
+        "replan": 0
+      },
+      {
+        "question": "To whom does the head of government of the country of origin of Club Nouveau report to?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 842,
+        "latency_s": 9.95,
+        "replan": 0
+      },
+      {
+        "question": "Which individual is responsible for founding the organization that has its headquarters in the same location where Bill Frisell received his education?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 754,
+        "latency_s": 7.24,
+        "replan": 0
+      },
+      {
+        "question": "In which city of the country where Charles Messier held citizenship is the capital located?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 565,
+        "latency_s": 4.26,
+        "replan": 0
+      },
+      {
+        "question": "Which country does the sportsperson who specializes in Lisa Leslie's position originally come from?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 891,
+        "latency_s": 12.75,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the capital city of the country where the founder of the manufacturer of Ford F-Series hailed from?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 715,
+        "latency_s": 6.8,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the sport that Sandy Alderson is associated with originated?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 723,
+        "latency_s": 7.73,
+        "replan": 0
+      },
+      {
+        "question": "Which language is the official language of the country whose citizenship is held by the director/manager of \"Past Masters\"?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 739,
+        "latency_s": 9.05,
+        "replan": 0
+      },
+      {
+        "question": "Which nation is the birthplace of the sport that features the split-finger fastball?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 714,
+        "latency_s": 8.94,
+        "replan": 0
+      },
+      {
+        "question": "In which languages can the author of \"The Witcher\" write, speak, or sign?",
+        "answer": "Polish",
+        "steps": 1,
+        "tokens": 582,
+        "latency_s": 3.69,
+        "replan": 0
+      },
+      {
+        "question": "In which city is the capital of the country, where the book \"The Birth of Tragedy\" first came from, located?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 692,
+        "latency_s": 7.18,
+        "replan": 0
+      },
+      {
+        "question": "In what language are communications in the headquarters location of the manufacturer of Il-2 Shturmovik conducted officially?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 724,
+        "latency_s": 8.8,
+        "replan": 0
+      },
+      {
+        "question": "Which city serves as the capital of the country where the spouse of the performer of \"Viva Las Vegas\" is a citizen?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 741,
+        "latency_s": 7.73,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of origin of the sport that the New Firm is related to?",
+        "answer": "Information insufficient",
+        "steps": 1,
+        "tokens": 1168,
+        "latency_s": 20.93,
+        "replan": 0
+      },
+      {
+        "question": "Which religious leader is responsible for founding the religion to which Sarit Thanarat belongs?",
+        "answer": "Gautama Buddha",
+        "steps": 1,
+        "tokens": 598,
+        "latency_s": 5.92,
+        "replan": 0
+      },
+      {
+        "question": "At which place did the creator of \"Lady Windermere's Fan\" breathe their last?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 761,
+        "latency_s": 9.3,
+        "replan": 0
+      },
+      {
+        "question": "what kind of music does \"Born in the U.S.A.\" fall under according to its performer?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 634,
+        "latency_s": 5.22,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital city of the country where the founder of the manufacturer of Ford Transit Connect holds citizenship?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 741,
+        "latency_s": 7.57,
+        "replan": 0
+      },
+      {
+        "question": "In what language are the official documents of the country where Alta IF originates written?",
+        "answer": "The information provided is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 659,
+        "latency_s": 6.62,
+        "replan": 0
+      }
+    ]
+  }
+}

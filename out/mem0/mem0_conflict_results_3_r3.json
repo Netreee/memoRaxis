@@ -1,0 +1,677 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0",
+  "instance_idx": 3,
+  "results": {
+    "R3": [
+      {
+        "question": "What is the country of origin of the sport played by Christian Abbiati?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 17680,
+        "latency_s": 213.37,
+        "replan": 1
+      },
+      {
+        "question": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+        "answer": "No relevant information about Karl Lueger's country of citizenship is provided in the knowledge pool, so the answer cannot be determined.\n\nWait, but let's check again—does the knowledge pool have any entry about Karl Lueger? No, none of the entries mention him. So the answer should be that there's no relevant info. So the concise answer would be:\n\nNo relevant information.\n\nBut let's confirm: yes, the knowledge pool doesn't have any data on Karl Lueger, so we can't find his country of citizenship, hence can't find the religion associated with that country. So the answer is No relevant information.</think_never_used_51bce0c785ca2f68081bfa7d91973934>No relevant information.",
+        "steps": 5,
+        "tokens": 19995,
+        "latency_s": 169.82,
+        "replan": 2
+      },
+      {
+        "question": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+        "answer": "No relevant information available.",
+        "steps": 10,
+        "tokens": 57008,
+        "latency_s": 431.16,
+        "replan": 2
+      },
+      {
+        "question": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20666,
+        "latency_s": 181.65,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the language in which Valmiki wrote his notable works?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 6,
+        "tokens": 24015,
+        "latency_s": 159.04,
+        "replan": 2
+      },
+      {
+        "question": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 8,
+        "tokens": 40445,
+        "latency_s": 317.92,
+        "replan": 2
+      },
+      {
+        "question": "Which language was the one in which Melvil Dewey produced their notable work?",
+        "answer": "No relevant information",
+        "steps": 6,
+        "tokens": 25460,
+        "latency_s": 217.06,
+        "replan": 2
+      },
+      {
+        "question": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726801810025f58b4b9fafb5c5ad2de0705d9b0095d79e0b3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "In which school did the author of \"Measure for Measure\" receive their education?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802221465f58b4b9fafb5c5ad2de0705d9b0095d7d5996', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802325665f58b4b9fafb5c5ad2de0705d9b0095d92ef13', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802345595f58b4b9fafb5c5ad2de0705d9b0095d4ab83d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802360455f58b4b9fafb5c5ad2de0705d9b0095d5c1ac8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802376985f58b4b9fafb5c5ad2de0705d9b0095d71911b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the notable work of the performer associated with Miley Stewart?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802394625f58b4b9fafb5c5ad2de0705d9b0095d49c48f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "To which continent does Fernando Lugo belong based on his citizenship?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802410975f58b4b9fafb5c5ad2de0705d9b0095ddc1c99', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 23688,
+        "latency_s": 262.22,
+        "replan": 2
+      },
+      {
+        "question": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806674985f58b4b9fafb5c5ad2de0705d9b0095dfb0b6c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "In which country was the individual who founded Duquesne University born?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806692795f58b4b9fafb5c5ad2de0705d9b0095d6fe88c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806708105f58b4b9fafb5c5ad2de0705d9b0095d1744cd', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806724315f58b4b9fafb5c5ad2de0705d9b0095de187ea', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806741105f58b4b9fafb5c5ad2de0705d9b0095dc76beb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806758035f58b4b9fafb5c5ad2de0705d9b0095d6c7c1b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the country of origin of the sport associated with John Beilein's occupation?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806773275f58b4b9fafb5c5ad2de0705d9b0095de884c1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the employer of Lynn Margulis' spouse?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806792595f58b4b9fafb5c5ad2de0705d9b0095d1db0af', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806807905f58b4b9fafb5c5ad2de0705d9b0095d2cb65e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806820925f58b4b9fafb5c5ad2de0705d9b0095d77e8c4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the birthplace of the spouse of Bianca Jagger?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806839595f58b4b9fafb5c5ad2de0705d9b0095dc823e3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+        "answer": "No relevant information available in the provided knowledge pool.",
+        "steps": 8,
+        "tokens": 43279,
+        "latency_s": 356.35,
+        "replan": 2
+      },
+      {
+        "question": "In which city is the seat of government located in the country where Family Force 5 came from?",
+        "answer": "No relevant information\n\nThe knowledge pool provided does not contain any facts about Family Force 5, so it is impossible to determine the country they came from and thus the seat of government of that country. Therefore, there is no relevant information to answer the question.",
+        "steps": 5,
+        "tokens": 19827,
+        "latency_s": 145.24,
+        "replan": 2
+      },
+      {
+        "question": "What location was the place of death of the author of Carmilla?",
+        "answer": "No relevant information\n\nThe collected evidence does not mention the author of Carmilla, so there is no data available to determine the place of death of that author. Thus, the answer is no relevant information.",
+        "steps": 6,
+        "tokens": 25832,
+        "latency_s": 210.1,
+        "replan": 2
+      },
+      {
+        "question": "From what country does the music genre of Dave Matthews Band originate?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 19040,
+        "latency_s": 157.52,
+        "replan": 2
+      },
+      {
+        "question": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 18405,
+        "latency_s": 131.96,
+        "replan": 2
+      },
+      {
+        "question": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726818382465f58b4b9fafb5c5ad2de0705d9b0095d1bdbef', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726818396415f58b4b9fafb5c5ad2de0705d9b0095d7fe8af', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "In what city did the individual who established Metz Cathedral have their occupation?",
+        "answer": "No relevant information.",
+        "steps": 8,
+        "tokens": 41243,
+        "latency_s": 356.08,
+        "replan": 2
+      },
+      {
+        "question": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 27640,
+        "latency_s": 240.01,
+        "replan": 1
+      },
+      {
+        "question": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 6,
+        "tokens": 27068,
+        "latency_s": 202.67,
+        "replan": 2
+      },
+      {
+        "question": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20061,
+        "latency_s": 167.67,
+        "replan": 2
+      },
+      {
+        "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+        "answer": "No information available about Nate \"Tiny\" Archibald's country of citizenship in the knowledge pool, so cannot determine the language of official documents in that country.\n\nWait, but let's make it more concise as per the problem's instruction. The problem says \"very concise answer without saying other words\". Since there's no info about Nate in the evidence, the answer should be:\n\nNo information available.\n\nBut wait, let's confirm again—yes, the evidence list doesn't have any entry about Nate. So the answer is:\n\nNo information available.",
+        "steps": 5,
+        "tokens": 20842,
+        "latency_s": 175.5,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the school where the author of \"La Celestina\" studied?",
+        "answer": "No information available in the knowledge pool.",
+        "steps": 6,
+        "tokens": 25025,
+        "latency_s": 183.97,
+        "replan": 2
+      },
+      {
+        "question": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+        "answer": "No relevant information about Malik Kafur's religion is available in the provided knowledge pool. Therefore, the official language of the religion he practiced cannot be determined from the given evidence.\n\nAnswer: No relevant information available.",
+        "steps": 3,
+        "tokens": 14066,
+        "latency_s": 192.42,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+        "answer": "No relevant information available.",
+        "steps": 2,
+        "tokens": 9602,
+        "latency_s": 141.64,
+        "replan": 0
+      },
+      {
+        "question": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726836868985f58b4b9fafb5c5ad2de0705d9b0095ddbdb68', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726836885445f58b4b9fafb5c5ad2de0705d9b0095d17b8b2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726836998985f58b4b9fafb5c5ad2de0705d9b0095df8058e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the place of demise of the author of the book \"Dubliners\"?",
+        "answer": "No relevant information\n\nThe collected evidence does not contain any facts about the author of \"Dubliners\" or their place of demise, so no answer can be derived from the provided knowledge pool.\n\n\n（注：根据要求仅基于收集到的证据回答，而证据中未提及《都柏林人》的作者及其逝世地点，因此给出该结果。）",
+        "steps": 2,
+        "tokens": 11283,
+        "latency_s": 181.6,
+        "replan": 0
+      },
+      {
+        "question": "Where is the headquarters of the company that developed Sailfish OS located?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 21844,
+        "latency_s": 219.77,
+        "replan": 2
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+        "answer": "No relevant information.",
+        "steps": 6,
+        "tokens": 27409,
+        "latency_s": 249.94,
+        "replan": 2
+      },
+      {
+        "question": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+        "answer": "No relevant information available.",
+        "steps": 7,
+        "tokens": 30900,
+        "latency_s": 199.25,
+        "replan": 2
+      },
+      {
+        "question": "What is the birthplace of the person who created Indiana Jones?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20302,
+        "latency_s": 172.6,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847250045f58b4b9fafb5c5ad2de0705d9b0095d64940f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847263045f58b4b9fafb5c5ad2de0705d9b0095df06158', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847276465f58b4b9fafb5c5ad2de0705d9b0095d5fe200', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847289955f58b4b9fafb5c5ad2de0705d9b0095d8ef44a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "In which city did the founder of the religion of Steve Cooley have their work location?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847304385f58b4b9fafb5c5ad2de0705d9b0095d6444ad', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847318435f58b4b9fafb5c5ad2de0705d9b0095de7be51', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847333695f58b4b9fafb5c5ad2de0705d9b0095d6f8066', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the birthplace of the person who established the religion of Saint Eligius?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 22369,
+        "latency_s": 215.52,
+        "replan": 1
+      },
+      {
+        "question": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 18755,
+        "latency_s": 113.55,
+        "replan": 2
+      },
+      {
+        "question": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726852173775f58b4b9fafb5c5ad2de0705d9b0095da2fbe2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726852190045f58b4b9fafb5c5ad2de0705d9b0095df3f754', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What is the birthplace of the author of Ivanhoe?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 19543,
+        "latency_s": 151.97,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the child of the person who created Feluda?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20592,
+        "latency_s": 191.06,
+        "replan": 2
+      },
+      {
+        "question": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 27415,
+        "latency_s": 229.03,
+        "replan": 2
+      },
+      {
+        "question": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 20844,
+        "latency_s": 179.57,
+        "replan": 2
+      },
+      {
+        "question": "What is the literary genre of the book \"Dune\" written by the author?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 27576,
+        "latency_s": 231.9,
+        "replan": 2
+      },
+      {
+        "question": "What is the continent of origin of Thomas Dolby, a musician?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 20251,
+        "latency_s": 171.15,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the school where the founder of House of Bonaparte studied?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 28807,
+        "latency_s": 261.36,
+        "replan": 2
+      },
+      {
+        "question": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20740,
+        "latency_s": 178.37,
+        "replan": 2
+      },
+      {
+        "question": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 28832,
+        "latency_s": 298.38,
+        "replan": 2
+      },
+      {
+        "question": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+        "answer": "No information available.",
+        "steps": 6,
+        "tokens": 25808,
+        "latency_s": 189.44,
+        "replan": 2
+      },
+      {
+        "question": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 16511,
+        "latency_s": 171.4,
+        "replan": 1
+      },
+      {
+        "question": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 28602,
+        "latency_s": 261.05,
+        "replan": 2
+      },
+      {
+        "question": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 19878,
+        "latency_s": 146.41,
+        "replan": 2
+      },
+      {
+        "question": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 19286,
+        "latency_s": 139.26,
+        "replan": 2
+      },
+      {
+        "question": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+        "answer": "No relevant information available.",
+        "steps": 4,
+        "tokens": 20596,
+        "latency_s": 261.83,
+        "replan": 0
+      },
+      {
+        "question": "In which city was the person who created the centrifugal governor born?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 22343,
+        "latency_s": 243.31,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+        "answer": "No relevant information available.",
+        "steps": 6,
+        "tokens": 28551,
+        "latency_s": 268.72,
+        "replan": 1
+      },
+      {
+        "question": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+        "answer": "No information about Eric Weissberg's country of citizenship is provided in the knowledge pool, so the official language cannot be determined.",
+        "steps": 5,
+        "tokens": 18666,
+        "latency_s": 135.82,
+        "replan": 2
+      },
+      {
+        "question": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 22474,
+        "latency_s": 222.92,
+        "replan": 1
+      },
+      {
+        "question": "Which language was used by Mario Puzo in writing his famous work?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 6,
+        "tokens": 25617,
+        "latency_s": 212.74,
+        "replan": 2
+      },
+      {
+        "question": "Which continent is the country of origin of Teenage Fanclub located in?",
+        "answer": "No relevant information available.",
+        "steps": 5,
+        "tokens": 20048,
+        "latency_s": 177.13,
+        "replan": 2
+      },
+      {
+        "question": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+        "answer": "No relevant information about Edward Mooney's religion exists in the provided knowledge pool, so the answer cannot be determined.\n\nBut wait, according to the task's instruction to give a very concise answer. Since there's no info, maybe just:\n\nNo relevant information.\n\nBut let's confirm: yes, no entry mentions Edward Mooney, so we can't find his religion, hence the founder, hence the work location. So the answer is:\n\nNo relevant information.",
+        "steps": 6,
+        "tokens": 24814,
+        "latency_s": 196.13,
+        "replan": 2
+      },
+      {
+        "question": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 21292,
+        "latency_s": 222.31,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+        "answer": "No relevant information available in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 23904,
+        "latency_s": 144.99,
+        "replan": 2
+      },
+      {
+        "question": "In what field did the author, who is known for Julius Caesar, work in?",
+        "answer": "No relevant information provided in the knowledge pool.",
+        "steps": 6,
+        "tokens": 28070,
+        "latency_s": 278.89,
+        "replan": 2
+      },
+      {
+        "question": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+        "answer": "Not mentioned in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 26312,
+        "latency_s": 228.72,
+        "replan": 2
+      },
+      {
+        "question": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 6,
+        "tokens": 27210,
+        "latency_s": 256.32,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 24258,
+        "latency_s": 306.32,
+        "replan": 2
+      },
+      {
+        "question": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+        "answer": "No information available from the provided evidence.",
+        "steps": 6,
+        "tokens": 29126,
+        "latency_s": 299.93,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+        "answer": "No relevant information.",
+        "steps": 5,
+        "tokens": 19405,
+        "latency_s": 151.95,
+        "replan": 2
+      },
+      {
+        "question": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+        "answer": "No relevant information available in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 26530,
+        "latency_s": 221.41,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+        "answer": "No information available",
+        "steps": 8,
+        "tokens": 42030,
+        "latency_s": 314.54,
+        "replan": 2
+      },
+      {
+        "question": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+        "answer": "No relevant information.",
+        "steps": 6,
+        "tokens": 27701,
+        "latency_s": 267.02,
+        "replan": 2
+      },
+      {
+        "question": "What is the primary language spoken in the country where Flogging Molly comes from?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20065,
+        "latency_s": 171.76,
+        "replan": 2
+      },
+      {
+        "question": "Which company did the employer of the creator of Link work for?",
+        "answer": "No relevant information about the creator of Link is present in the knowledge pool, so the answer cannot be determined.",
+        "steps": 6,
+        "tokens": 26870,
+        "latency_s": 265.28,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 24713,
+        "latency_s": 191.2,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is associated with the position played by Bobby Hurley?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 19515,
+        "latency_s": 164.35,
+        "replan": 2
+      },
+      {
+        "question": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+        "answer": "There is no relevant information in the provided knowledge pool to answer the question.",
+        "steps": 6,
+        "tokens": 26110,
+        "latency_s": 232.38,
+        "replan": 2
+      },
+      {
+        "question": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 25968,
+        "latency_s": 203.92,
+        "replan": 2
+      }
+    ]
+  }
+}

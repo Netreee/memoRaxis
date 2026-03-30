@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 109,
+  "adaptor": "R3",
+  "accuracy": 0.5,
+  "correct": 3,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法确认任何选项'，而标准答案为明确选项，核心内容缺失且结论相反。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全一致，均指出死因是'被他人杀害'，符合得分标准。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均为'D. Shunobu Akagi'，符合核心内容准确的要求。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent的回答与标准答案完全无关，标准答案为特定人名，而Agent在讨论一个关于机器人的不同问题，核心内容严重错误且偏离。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均为'C. Akagi Shiki'，核心内容准确无误。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法作答'，与标准答案的核心内容完全不符，核心情节缺失。"
+    }
+  ]
+}

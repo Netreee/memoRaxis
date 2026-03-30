@@ -1,0 +1,809 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "backend": "mem0",
+  "instance_idx": 14,
+  "results": {
+    "R1": [
+      {
+        "question": "These are the events that have already occurred:\n\n1. Pascal watched the motions of the ship and repeated the pilot's directions.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal urged the team to check the compass.', 'Pascal instructed the team to adjust the rigging.', 'Pascal ordered the crew to take in sail.', 'Pascal commanded the crew to secure the cargo.', 'Pascal signaled the crew to drop the anchor.', 'Pascal directed the sailors to hoist the flags.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 997,
+        "latency_s": 13.34,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Pascal watched the motions of the ship and repeated the pilot's directions.\n2. Pascal ordered the crew to take in sail.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Julianne praised Pascal's skills as a chef during the dinner party.\", \"Julianne celebrated Pascal's capabilities as a musician at the annual concert.\", \"Julianne complimented Pascal's abilities as a seaman.\", \"Julianne acknowledged Pascal's talents as an artist at the gallery opening.\", \"Julianne admired Pascal's expertise as a gardener during their weekend project.\", \"Julianne recognized Pascal's proficiency as a dancer at the community event.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Julianne complimented Pascal's abilities as a seaman.",
+        "steps": 1,
+        "tokens": 1085,
+        "latency_s": 10.03,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Pascal watched the motions of the ship and repeated the pilot's directions.\n2. Pascal ordered the crew to take in sail.\n3. Julianne complimented Pascal's abilities as a seaman.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal was advised to adjust the navigation charts.', 'Pascal was told to secure the lifeboats tightly.', 'Pascal received instructions to lower the sails.', 'Pascal was instructed to raise the anchor promptly.', 'Pascal was commanded to fuel the engines for departure.', 'Pascal was urged to check the weather conditions carefully.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1508,
+        "latency_s": 27.07,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Pascal watched the motions of the ship and repeated the pilot's directions.\n2. Pascal ordered the crew to take in sail.\n3. Julianne complimented Pascal's abilities as a seaman.\n4. Pascal received instructions to lower the sails.\n\n\nBelow is a list of possible subsequent events:\n\n['Julianne teased Pascal about his betrothed, Abrielle.', 'Julianne warned Pascal that Abrielle might not appreciate his sarcasm.', 'Julianne convinced Pascal that Abrielle preferred grand romantic gestures over simple gifts.', 'Julianne challenged Pascal to impress Abrielle with a grand gesture.', \"Julianne playfully mocked Pascal's secret admiration for Abrielle.\", 'Julianne urged Pascal to ask Abrielle for help with his cooking skills.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Julianne teased Pascal about his betrothed, Abrielle.",
+        "steps": 1,
+        "tokens": 1254,
+        "latency_s": 15.37,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n1. Pascal watched the motions of the ship and repeated the pilot's directions.\n2. Pascal ordered the crew to take in sail.\n3. Julianne complimented Pascal's abilities as a seaman.\n4. Pascal received instructions to lower the sails.\n5. Julianne teased Pascal about his betrothed, Abrielle.\n\n\nBelow is a list of possible subsequent events:\n\n['Blaire tracked Pascal closely as he scrambled onto the platform.', 'Blaire gazed at Pascal earnestly until he saw him vault onto the wharf.', 'Blaire watched Pascal intently as he leaped onto the dock.', 'Blaire kept an eye on Pascal until he spotted him jump onto the shore.', 'Blaire observed Pascal carefully as he bounded off towards the pier.', 'Blaire followed Pascal with his eyes until he saw him spring out on the quay.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定后续发生的具体事件。",
+        "steps": 1,
+        "tokens": 1974,
+        "latency_s": 25.52,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n2. Pascal ordered the crew to take in sail.\n3. Julianne complimented Pascal's abilities as a seaman.\n4. Pascal received instructions to lower the sails.\n5. Julianne teased Pascal about his betrothed, Abrielle.\n6. Blaire followed Pascal with his eyes until he saw him spring out on the quay.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal cheered 'Teacher -- respected teacher!' upon greeting his teacher.\", \"Pascal gasped 'Friend -- cherished friend!' upon encountering his friend.\", \"Pascal called out 'Brother -- trusted brother!' upon discovering his brother.\", \"Pascal cried 'Sister -- precious sister!' upon finding his sister.\", \"Pascal shouted 'Mother -- beloved mother!' upon meeting his mother.\", \"Pascal exclaimed 'Father -- dear father!' upon seeing his father.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal exclaimed 'Father -- dear father!' upon seeing his father.",
+        "steps": 1,
+        "tokens": 1912,
+        "latency_s": 28.13,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n3. Julianne complimented Pascal's abilities as a seaman.\n4. Pascal received instructions to lower the sails.\n5. Julianne teased Pascal about his betrothed, Abrielle.\n6. Blaire followed Pascal with his eyes until he saw him spring out on the quay.\n7. Pascal exclaimed 'Father -- dear father!' upon seeing his father.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal stood silently in front of his mentor, overwhelmed with doubt.', 'Pascal sank to the ground in front of his friends, engulfed in despair.', 'Pascal dropped to the floor before his peers in utter disappointment.', 'Pascal bowed his head before his mentor, filled with uncertainty.', 'Pascal fell on his knees before his father in distress.', 'Pascal turned pale and leaned against the wall, gripped by anxiety.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal fell on his knees before his father in distress.",
+        "steps": 1,
+        "tokens": 1250,
+        "latency_s": 10.66,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n4. Pascal received instructions to lower the sails.\n5. Julianne teased Pascal about his betrothed, Abrielle.\n6. Blaire followed Pascal with his eyes until he saw him spring out on the quay.\n7. Pascal exclaimed 'Father -- dear father!' upon seeing his father.\n8. Pascal fell on his knees before his father in distress.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Corbin questioned Pascal's honesty and recent activities.\", \"Corbin criticized Pascal's choices and questionable decisions.\", \"Corbin admired Pascal's creativity and artistic vision.\", \"Corbin challenged Pascal's influence and public reputation.\", \"Corbin commented on Pascal's wealth and good fortune.\", \"Corbin praised Pascal's talent and impressive achievements.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1725,
+        "latency_s": 27.36,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n5. Julianne teased Pascal about his betrothed, Abrielle.\n6. Blaire followed Pascal with his eyes until he saw him spring out on the quay.\n7. Pascal exclaimed 'Father -- dear father!' upon seeing his father.\n8. Pascal fell on his knees before his father in distress.\n9. Corbin commented on Pascal's wealth and good fortune.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Corbin and Blaire discussed Pascal's aspirations of becoming a captain.\", \"Corbin and Blaire pondered Pascal's dream of opening a gourmet restaurant.\", \"Corbin and Blaire debated Pascal's ambitions to launch a new fashion line.\", \"Corbin and Blaire explored Pascal's desire to travel the world as a photographer.\", \"Corbin and Blaire speculated about Pascal's goal of writing a bestselling novel.\", \"Corbin and Blaire analyzed Pascal's plan to run for student council president.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Corbin and Blaire discussed Pascal's aspirations of becoming a captain.",
+        "steps": 1,
+        "tokens": 1332,
+        "latency_s": 10.55,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n6. Blaire followed Pascal with his eyes until he saw him spring out on the quay.\n7. Pascal exclaimed 'Father -- dear father!' upon seeing his father.\n8. Pascal fell on his knees before his father in distress.\n9. Corbin commented on Pascal's wealth and good fortune.\n10. Corbin and Blaire discussed Pascal's aspirations of becoming a captain.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Quinton expressed sympathy for Abrielle's struggles, revealing his own struggles with identity.\", \"Quinton validated Abrielle's concerns, sharing his own sense of loss amidst their evolving relationship.\", \"Quinton acknowledged Abrielle's feelings, admitting his own despair.\", \"Quinton supported Abrielle's aspirations, disclosing his own insecurities about achieving their dreams.\", \"Quinton recognized Abrielle's pain, unveiling his own hidden frustrations regarding their partnership.\", \"Quinton confronted Abrielle's fears, confessing his own doubts about their future together.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Quinton acknowledged Abrielle's feelings, admitting his own despair.",
+        "steps": 1,
+        "tokens": 1837,
+        "latency_s": 28.92,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n7. Pascal exclaimed 'Father -- dear father!' upon seeing his father.\n8. Pascal fell on his knees before his father in distress.\n9. Corbin commented on Pascal's wealth and good fortune.\n10. Corbin and Blaire discussed Pascal's aspirations of becoming a captain.\n11. Quinton acknowledged Abrielle's feelings, admitting his own despair.\n\n\nBelow is a list of possible subsequent events:\n\n['Quinton confronted Abrielle after witnessing her laughter with Armando at the café.', 'Quinton felt betrayed when he discovered Abrielle and Armando sharing secrets in the park.', \"Quinton's jealousy flared up after finding Abrielle and Armando deep in conversation at the bookstore.\", \"Quinton's frustration grew as he caught Abrielle and Armando exchanging playful glances during the party.\", \"Quinton's heart sank when he noticed Abrielle and Armando dancing closely at the club.\", 'Quinton expressed his anger and jealousy upon seeing Abrielle and Armando together.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足，无法确定具体是哪个事件。",
+        "steps": 1,
+        "tokens": 2102,
+        "latency_s": 34.63,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n8. Pascal fell on his knees before his father in distress.\n9. Corbin commented on Pascal's wealth and good fortune.\n10. Corbin and Blaire discussed Pascal's aspirations of becoming a captain.\n11. Quinton acknowledged Abrielle's feelings, admitting his own despair.\n12. Quinton expressed his anger and jealousy upon seeing Abrielle and Armando together.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Corbin and Blaire speculated on Quinton's secret admiration for Clara.\", \"Corbin and Blaire laughed about Quinton's clumsy attempts to woo Gwendolyn.\", \"Corbin and Blaire discussed Quinton's unrequited love for Abrielle.\", \"Corbin and Blaire reminisced about Quinton's fleeting affection for Ella.\", \"Corbin and Blaire debated Quinton's complicated feelings for Felicity.\", \"Corbin and Blaire argued about Quinton's unexpected crush on Ainsley.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Corbin and Blaire discussed Quinton's unrequited love for Abrielle.",
+        "steps": 1,
+        "tokens": 1286,
+        "latency_s": 12.22,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n9. Corbin commented on Pascal's wealth and good fortune.\n10. Corbin and Blaire discussed Pascal's aspirations of becoming a captain.\n11. Quinton acknowledged Abrielle's feelings, admitting his own despair.\n12. Quinton expressed his anger and jealousy upon seeing Abrielle and Armando together.\n13. Corbin and Blaire discussed Quinton's unrequited love for Abrielle.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Blaire observed Quinton's unusual behavior and raised questions.\", \"Blaire sensed Quinton's frustration and initiated a conversation.\", \"Blaire perceived Quinton's distraction and prompted a discussion.\", \"Blaire acknowledged Quinton's silence and sought clarification.\", \"Blaire noted Quinton's emotional state and expressed concern.\", \"Blaire recognized Quinton's growing anxiety and offered support.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Blaire noted Quinton's emotional state and expressed concern.",
+        "steps": 1,
+        "tokens": 1489,
+        "latency_s": 15.4,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n10. Corbin and Blaire discussed Pascal's aspirations of becoming a captain.\n11. Quinton acknowledged Abrielle's feelings, admitting his own despair.\n12. Quinton expressed his anger and jealousy upon seeing Abrielle and Armando together.\n13. Corbin and Blaire discussed Quinton's unrequited love for Abrielle.\n14. Blaire noted Quinton's emotional state and expressed concern.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal excused Corbin for his mistake regarding Abrielle's name.\", \"Pascal corrected Corbin for his error concerning Abrielle's birthday party.\", \"Pascal reprimanded Corbin for his oversight related to Abrielle's social media post.\", \"Pascal clarified Corbin's confusion regarding Abrielle's choice of restaurant.\", \"Pascal reassured Corbin about his blunder with Abrielle's recent achievement.\", \"Pascal defended Corbin for his misunderstanding about Abrielle's favorite color.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定后续事件。",
+        "steps": 1,
+        "tokens": 1192,
+        "latency_s": 10.53,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n11. Quinton acknowledged Abrielle's feelings, admitting his own despair.\n12. Quinton expressed his anger and jealousy upon seeing Abrielle and Armando together.\n13. Corbin and Blaire discussed Quinton's unrequited love for Abrielle.\n14. Blaire noted Quinton's emotional state and expressed concern.\n15. Pascal excused Corbin for his mistake regarding Abrielle's name.\n\n\nBelow is a list of possible subsequent events:\n\n['Quinton admitted his admiration for Isabella in front of Blaire.', 'Quinton discussed his childhood dreams with Blaire over coffee.', 'Quinton revealed his biggest fear about relationships to Blaire.', 'Quinton expressed his regrets about past mistakes to Blaire.', 'Quinton confessed his love for Abrielle to Blaire.', 'Quinton shared his secret ambitions for the future with Blaire.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Quinton confessed his love for Abrielle to Blaire.",
+        "steps": 1,
+        "tokens": 1609,
+        "latency_s": 22.28,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n12. Quinton expressed his anger and jealousy upon seeing Abrielle and Armando together.\n13. Corbin and Blaire discussed Quinton's unrequited love for Abrielle.\n14. Blaire noted Quinton's emotional state and expressed concern.\n15. Pascal excused Corbin for his mistake regarding Abrielle's name.\n16. Quinton confessed his love for Abrielle to Blaire.\n\n\nBelow is a list of possible subsequent events:\n\n['Blaire orchestrated a fabrication of evidence against Quinton to settle an old score.', 'Blaire launched a smear campaign against Quinton to disrupt his career progression.', 'Blaire filed a formal complaint against Quinton as an act of retribution for past grievances.', 'Blaire crafted a false testimony against Quinton to tarnish his reputation.', 'Blaire wrote a denunciation against Pascal as a means of revenge.', 'Blaire devised a plot to accuse Quinton of misconduct to exact personal vengeance.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Blaire wrote a denunciation against Pascal as a means of revenge.",
+        "steps": 1,
+        "tokens": 1659,
+        "latency_s": 18.61,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n13. Corbin and Blaire discussed Quinton's unrequited love for Abrielle.\n14. Blaire noted Quinton's emotional state and expressed concern.\n15. Pascal excused Corbin for his mistake regarding Abrielle's name.\n16. Quinton confessed his love for Abrielle to Blaire.\n17. Blaire wrote a denunciation against Pascal as a means of revenge.\n\n\nBelow is a list of possible subsequent events:\n\n['M. Julianne arrived at La Reserve and was greeted with applause.', 'M. Julianne walked onto the stage and was greeted with raucous applause.', 'M. Julianne stepped into the gallery and was met with a standing ovation.', 'M. Julianne made her way to the podium and was honored with a loud chorus of appreciation.', 'M. Julianne appeared at the conference and was welcomed with enthusiastic cheers.', 'M. Julianne entered the theater and was received with thunderous claps.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "M. Julianne arrived at La Reserve and was greeted with applause.",
+        "steps": 1,
+        "tokens": 1923,
+        "latency_s": 25.19,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n14. Blaire noted Quinton's emotional state and expressed concern.\n15. Pascal excused Corbin for his mistake regarding Abrielle's name.\n16. Quinton confessed his love for Abrielle to Blaire.\n17. Blaire wrote a denunciation against Pascal as a means of revenge.\n18. M. Julianne arrived at La Reserve and was greeted with applause.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal opted to have Julianne on his right and Blaire on his left throughout the formal occasion.', 'Pascal had M. Julianne placed on his left while Blaire was situated on his right at the gathering.', 'Pascal seated M. Julianne at his right hand and Blaire at his left during the feast.', 'Pascal directed M. Blaire to take a seat to his right and Julianne to settle on his left during the dinner.', 'Pascal positioned M. Blaire to his left side and Julianne to his right during the banquet.', 'Pascal arranged for Julianne to sit to his left and Blaire to his right during the celebration.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal seated M. Julianne at his right hand and Blaire at his left during the feast.",
+        "steps": 1,
+        "tokens": 2459,
+        "latency_s": 42.79,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n15. Pascal excused Corbin for his mistake regarding Abrielle's name.\n16. Quinton confessed his love for Abrielle to Blaire.\n17. Blaire wrote a denunciation against Pascal as a means of revenge.\n18. M. Julianne arrived at La Reserve and was greeted with applause.\n19. Pascal seated M. Julianne at his right hand and Blaire at his left during the feast.\n\n\nBelow is a list of possible subsequent events:\n\n['Abrielle suggested the group head to the gathering just as the clock chimed four.', 'Abrielle insisted the guests move towards the celebration as the sun dipped below the horizon.', 'Pascal prompted the attendees to set off for the banquet when the bell tolled six.', 'Abrielle called for everyone to make their way to the festivity as the hour hand reached eight.', \"Abrielle urged the party to leave for the ceremony as two o'clock struck.\", 'Pascal encouraged the team to depart for the event when midnight approached.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足，无法确定后续事件。",
+        "steps": 1,
+        "tokens": 1568,
+        "latency_s": 18.6,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n16. Quinton confessed his love for Abrielle to Blaire.\n17. Blaire wrote a denunciation against Pascal as a means of revenge.\n18. M. Julianne arrived at La Reserve and was greeted with applause.\n19. Pascal seated M. Julianne at his right hand and Blaire at his left during the feast.\n20. Abrielle urged the party to leave for the ceremony as two o'clock struck.\n\n\nBelow is a list of possible subsequent events:\n\n['Abrielle and the elderly neighbor clasped hands in despair following the news of the lost kitten.', 'Abrielle and the ancient storyteller wept together in silence after the final performance was abruptly canceled.', \"Abrielle and the seasoned mentor fell to their knees in sorrow upon learning of the village's destruction.\", 'Abrielle and the wise old sage embraced tightly in mourning after hearing of the storm’s devastation in the valley.', \"Abrielle and the old father rushed into each other's arms in grief after Armando's departure.\", 'Abrielle and the frail grandmother exchanged tearful glances after discovering the old oak had been cut down.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Abrielle and the old father rushed into each other's arms in grief after Armando's departure.",
+        "steps": 1,
+        "tokens": 1695,
+        "latency_s": 19.95,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n17. Blaire wrote a denunciation against Pascal as a means of revenge.\n18. M. Julianne arrived at La Reserve and was greeted with applause.\n19. Pascal seated M. Julianne at his right hand and Blaire at his left during the feast.\n20. Abrielle urged the party to leave for the ceremony as two o'clock struck.\n21. Abrielle and the old father rushed into each other's arms in grief after Armando's departure.\n\n\nBelow is a list of possible subsequent events:\n\n['Abrielle wept inconsolably after watching her childhood home burn down.', \"Abrielle trembled in despair after hearing about her mother's illness.\", \"Abrielle burst into hysterical sobbing over her lover's arrest.\", \"Abrielle screamed in rage when she discovered her friend's betrayal.\", \"Abrielle fainted at the shocking news of her brother's disappearance.\", 'Abrielle gasped in disbelief upon receiving the divorce papers.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Abrielle burst into hysterical sobbing over her lover's arrest.",
+        "steps": 1,
+        "tokens": 1333,
+        "latency_s": 12.27,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n18. M. Julianne arrived at La Reserve and was greeted with applause.\n19. Pascal seated M. Julianne at his right hand and Blaire at his left during the feast.\n20. Abrielle urged the party to leave for the ceremony as two o'clock struck.\n21. Abrielle and the old father rushed into each other's arms in grief after Armando's departure.\n22. Abrielle burst into hysterical sobbing over her lover's arrest.\n\n\nBelow is a list of possible subsequent events:\n\n['Blaire cautioned Corbin to stay quiet about the ongoing investigation to protect themselves from potential scrutiny.', 'Blaire advised Corbin to keep the details of their discovery confidential to avoid unnecessary complications.', 'Blaire reminded Corbin to not speak about the mysterious package they found to prevent drawing attention to themselves.', 'Blaire urged Corbin to refrain from discussing the recent incident regarding Lila, emphasizing the importance of discretion.', \"Blaire warned Corbin to remain silent about Pascal's situation for their own safety.\", 'Blaire instructed Corbin to maintain silence on the matter of Jace’s whereabouts in order to preserve their security.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Blaire warned Corbin to remain silent about Pascal's situation for their own safety.",
+        "steps": 1,
+        "tokens": 1339,
+        "latency_s": 13.92,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n19. Pascal seated M. Julianne at his right hand and Blaire at his left during the feast.\n20. Abrielle urged the party to leave for the ceremony as two o'clock struck.\n21. Abrielle and the old father rushed into each other's arms in grief after Armando's departure.\n22. Abrielle burst into hysterical sobbing over her lover's arrest.\n23. Blaire warned Corbin to remain silent about Pascal's situation for their own safety.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Blaire remarked that Jordan's visit to Corsica was odd.\", \"Blaire suggested that Vincent's departure from Capri was questionable.\", \"Blaire argued that Samuel's meeting in Sardinia seemed peculiar.\", \"Blaire noted that Rachel's arrival at Lindos appeared unusual.\", \"Blaire claimed that Fiona's stay in Malta was concerning.\", \"Blaire mentioned that Pascal's stop at Elba was suspicious.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Blaire mentioned that Pascal's stop at Elba was suspicious.",
+        "steps": 1,
+        "tokens": 1466,
+        "latency_s": 9.41,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n20. Abrielle urged the party to leave for the ceremony as two o'clock struck.\n21. Abrielle and the old father rushed into each other's arms in grief after Armando's departure.\n22. Abrielle burst into hysterical sobbing over her lover's arrest.\n23. Blaire warned Corbin to remain silent about Pascal's situation for their own safety.\n24. Blaire mentioned that Pascal's stop at Elba was suspicious.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Shayne announced his support for environmental causes and rejected his mother's corporate values.\", \"Shayne expressed his political stance and disowned his father's principles.\", \"Shayne revealed his plans to run for local office and distanced himself from his family's legacy.\", \"Shayne shared his views on education reform and criticized his father's outdated ideologies.\", \"Shayne hosted a fundraiser for social justice and broke ties with his family's conservative beliefs.\", \"Shayne participated in a rally for equality and turned away from his family's traditional views.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne expressed his political stance and disowned his father's principles.",
+        "steps": 1,
+        "tokens": 1392,
+        "latency_s": 14.43,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n21. Abrielle and the old father rushed into each other's arms in grief after Armando's departure.\n22. Abrielle burst into hysterical sobbing over her lover's arrest.\n23. Blaire warned Corbin to remain silent about Pascal's situation for their own safety.\n24. Blaire mentioned that Pascal's stop at Elba was suspicious.\n25. Shayne expressed his political stance and disowned his father's principles.\n\n\nBelow is a list of possible subsequent events:\n\n['Shayne committed to reviewing the evidence in the trials for the charged individuals.', 'Shayne assured the public that he would revisit the recommendations for the sentenced.', 'Shayne declared his intention to reconsider the verdict for the convicted.', 'Shayne promised to show leniency in the case of the accused.', 'Shayne vowed to exercise discretion in the hearings for the implicated parties.', 'Shayne expressed his willingness to modify the penalties for the offenders involved.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne declared his intention to reconsider the verdict for the convicted.",
+        "steps": 1,
+        "tokens": 1774,
+        "latency_s": 28.1,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n22. Abrielle burst into hysterical sobbing over her lover's arrest.\n23. Blaire warned Corbin to remain silent about Pascal's situation for their own safety.\n24. Blaire mentioned that Pascal's stop at Elba was suspicious.\n25. Shayne expressed his political stance and disowned his father's principles.\n26. Shayne promised to show leniency in the case of the accused.\n\n\nBelow is a list of possible subsequent events:\n\n['Shayne communicated to the board that he had analyzed the case and approved the appeal of Lila Becker.', 'Shayne disclosed to the committee that he had examined the testimony and validated the decision regarding Simone Clarke.', 'Shayne told the authorities that he had received the report and supported the charges against Teresa Lang.', 'Shayne informed the commissary that he had read the letter and agreed with the arrest of Armando Pascal.', 'Shayne reported to the panel that he had assessed the findings and concurred with the verdict for Naomi Rivers.', 'Shayne announced to the council that he had reviewed the evidence and endorsed the sentence for Marcus Vento.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne informed the commissary that he had read the letter and agreed with the arrest of Armando Pascal.",
+        "steps": 1,
+        "tokens": 1903,
+        "latency_s": 19.78,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n23. Blaire warned Corbin to remain silent about Pascal's situation for their own safety.\n24. Blaire mentioned that Pascal's stop at Elba was suspicious.\n25. Shayne expressed his political stance and disowned his father's principles.\n26. Shayne promised to show leniency in the case of the accused.\n27. Shayne informed the commissary that he had read the letter and agreed with the arrest of Armando Pascal.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Shayne stated his resolve to examine the evidence thoroughly related to Marcus's investigation.\", 'Shayne affirmed his intention to analyze the facts neutrally regarding the recent funding decisions.', \"Shayne expressed his intention to perform his duty impartially regarding Pascal's case.\", 'Shayne announced his commitment to provide unbiased advice concerning the upcoming policy changes.', 'Shayne indicated his willingness to assess the situation fairly regarding the new community guidelines.', \"Shayne shared his dedication to evaluate the circumstances objectively concerning Ethan's proposal.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne expressed his intention to perform his duty impartially regarding Pascal's case.",
+        "steps": 1,
+        "tokens": 1204,
+        "latency_s": 10.17,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n24. Blaire mentioned that Pascal's stop at Elba was suspicious.\n25. Shayne expressed his political stance and disowned his father's principles.\n26. Shayne promised to show leniency in the case of the accused.\n27. Shayne informed the commissary that he had read the letter and agreed with the arrest of Armando Pascal.\n28. Shayne expressed his intention to perform his duty impartially regarding Pascal's case.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal shared with Shayne that he was enjoying a holiday feast when seized.', 'Pascal mentioned to Shayne that he was celebrating his promotion when apprehended.', 'Pascal conveyed to Shayne that he was at his birthday party when captured.', 'Pascal disclosed to Shayne that he was attending his graduation ceremony when detained.', 'Pascal revealed to Shayne that he was at his marriage festival when arrested.', 'Pascal informed Shayne that he was at his family reunion when taken into custody.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal informed Shayne that he was at his marriage festival when arrested.",
+        "steps": 1,
+        "tokens": 1352,
+        "latency_s": 4.95,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n25. Shayne expressed his political stance and disowned his father's principles.\n26. Shayne promised to show leniency in the case of the accused.\n27. Shayne informed the commissary that he had read the letter and agreed with the arrest of Armando Pascal.\n28. Shayne expressed his intention to perform his duty impartially regarding Pascal's case.\n29. Pascal revealed to Shayne that he was at his marriage festival when arrested.\n\n\nBelow is a list of possible subsequent events:\n\n['Shayne suggested that Pascal investigate the origins of the mysterious donation request.', 'Shayne proposed to Pascal that they uncover the source of the unsigned letter.', 'Shayne offered to help Pascal discover the author of the anonymous accusation.', 'Shayne invited Pascal to assist in identifying the sender of the concealed message.', 'Shayne advised Pascal to reveal the identity of the masked whistleblower.', 'Shayne encouraged Pascal to track down the writer of the uncredited blog post.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne offered to help Pascal discover the author of the anonymous accusation.",
+        "steps": 1,
+        "tokens": 1414,
+        "latency_s": 17.19,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n26. Shayne promised to show leniency in the case of the accused.\n27. Shayne informed the commissary that he had read the letter and agreed with the arrest of Armando Pascal.\n28. Shayne expressed his intention to perform his duty impartially regarding Pascal's case.\n29. Pascal revealed to Shayne that he was at his marriage festival when arrested.\n30. Shayne offered to help Pascal discover the author of the anonymous accusation.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal strongly affirmed his transparency and urged Shayne to examine him further if there were any uncertainties.', 'Pascal insisted on his innocence and requested Shayne to question him if in doubt.', 'Pascal proclaimed his unblemished record and prompted Shayne to delve deeper into his alibi if any suspicion arose.', 'Pascal asserted his unwavering honesty and invited Shayne to conduct a thorough inquiry if there were any hesitations.', 'Pascal declared his innocence emphatically and challenged Shayne to scrutinize his statements if anything seemed amiss.', 'Pascal maintained his position of guiltlessness and encouraged Shayne to interrogate him directly if there were lingering questions.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal proclaimed his unblemished record and prompted Shayne to delve deeper into his alibi if any suspicion arose.",
+        "steps": 1,
+        "tokens": 1709,
+        "latency_s": 19.32,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n27. Shayne informed the commissary that he had read the letter and agreed with the arrest of Armando Pascal.\n28. Shayne expressed his intention to perform his duty impartially regarding Pascal's case.\n29. Pascal revealed to Shayne that he was at his marriage festival when arrested.\n30. Shayne offered to help Pascal discover the author of the anonymous accusation.\n31. Pascal insisted on his innocence and requested Shayne to question him if in doubt.\n\n\nBelow is a list of possible subsequent events:\n\n['Shayne arranged for a mediator to negotiate with Pascal outside the office.', 'Shayne invited a lawyer to question Pascal at the café.', \"Shayne called a detective to investigate Pascal's whereabouts late at night.\", 'Shayne summoned a police agent to take Pascal away.', 'Shayne contacted a journalist to interview Pascal about the incident.', 'Shayne enlisted a government official to confront Pascal during the meeting.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne summoned a police agent to take Pascal away.",
+        "steps": 1,
+        "tokens": 1306,
+        "latency_s": 9.67,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n28. Shayne expressed his intention to perform his duty impartially regarding Pascal's case.\n29. Pascal revealed to Shayne that he was at his marriage festival when arrested.\n30. Shayne offered to help Pascal discover the author of the anonymous accusation.\n31. Pascal insisted on his innocence and requested Shayne to question him if in doubt.\n32. Shayne summoned a police agent to take Pascal away.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal was placed in a prison cell and left alone in darkness.', 'Pascal was shut away in an obscure dungeon and kept in silence for hours.', 'Pascal was detained in a shadowy cell and forced to wrestle with his regrets.', 'Pascal was locked in a solitary room and left to confront his deepest fears.', 'Pascal was imprisoned within an unilluminated space and isolated from the outside world.', 'Pascal was confined to a dimly lit chamber and abandoned to ponder his thoughts.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal was shut away in an obscure dungeon and kept in silence for hours.",
+        "steps": 1,
+        "tokens": 1406,
+        "latency_s": 14.0,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n29. Pascal revealed to Shayne that he was at his marriage festival when arrested.\n30. Shayne offered to help Pascal discover the author of the anonymous accusation.\n31. Pascal insisted on his innocence and requested Shayne to question him if in doubt.\n32. Shayne summoned a police agent to take Pascal away.\n33. Pascal was placed in a prison cell and left alone in darkness.\n\n\nBelow is a list of possible subsequent events:\n\n['The priest came by the next week to provide Pascal with spiritual guidance.', \"The doctor arrived later that day to examine Pascal's condition.\", 'The jailer returned the next morning to check on Pascal.', 'The guard entered the cell that evening to offer Pascal some food.', 'The lawyer knocked on the door the following day to meet with Pascal.', \"The warden passed by in the afternoon to discuss Pascal's future.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The guard entered the cell that evening to offer Pascal some food.",
+        "steps": 1,
+        "tokens": 1680,
+        "latency_s": 31.86,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n30. Shayne offered to help Pascal discover the author of the anonymous accusation.\n31. Pascal insisted on his innocence and requested Shayne to question him if in doubt.\n32. Shayne summoned a police agent to take Pascal away.\n33. Pascal was placed in a prison cell and left alone in darkness.\n34. The jailer returned the next morning to check on Pascal.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal was led by the soldiers to the command center for a debriefing.', 'Pascal was escorted by the soldiers to the barracks for questioning.', 'Pascal was transported by the soldiers to the training grounds for an exercise.', 'Pascal was guided by the soldiers to the observation tower for surveillance.', 'Pascal was taken by the soldiers to the dungeon.', 'Pascal was brought by the soldiers to the supply room for inspection.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal was taken by the soldiers to the dungeon.",
+        "steps": 1,
+        "tokens": 1402,
+        "latency_s": 15.84,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n31. Pascal insisted on his innocence and requested Shayne to question him if in doubt.\n32. Shayne summoned a police agent to take Pascal away.\n33. Pascal was placed in a prison cell and left alone in darkness.\n34. The jailer returned the next morning to check on Pascal.\n35. Pascal was taken by the soldiers to the dungeon.\n\n\nBelow is a list of possible subsequent events:\n\n['The marquis met with his advisor to discuss the recent rise in property taxes.', 'The marquis requested his chef to create a new menu for the upcoming gala.', 'The marquis wrote a letter to his broker to sell his lands.', \"The marquis summoned his architect to redesign the estate's main hall.\", 'The marquis commissioned an artist to paint a portrait of his late wife.', 'The marquis instructed his servant to prepare a feast for the visiting dignitaries.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The marquis wrote a letter to his broker to sell his lands.",
+        "steps": 1,
+        "tokens": 1121,
+        "latency_s": 9.07,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n32. Shayne summoned a police agent to take Pascal away.\n33. Pascal was placed in a prison cell and left alone in darkness.\n34. The jailer returned the next morning to check on Pascal.\n35. Pascal was taken by the soldiers to the dungeon.\n36. The marquis wrote a letter to his broker to sell his lands.\n\n\nBelow is a list of possible subsequent events:\n\n['Abrielle wept after Shayne refused to help her find Pascal.', 'Abrielle frowned while Shayne dismissed her concerns about the upcoming competition.', 'Abrielle sighed as Shayne prepared to leave without acknowledging her efforts.', 'Abrielle beamed when Shayne volunteered to accompany her on the charity trip.', 'Abrielle smiled when Shayne agreed to organize a party in honor of her promotion.', 'Abrielle cheered when Shayne surprised her with tickets to the concert she longed to attend.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Abrielle wept after Shayne refused to help her find Pascal.",
+        "steps": 1,
+        "tokens": 1045,
+        "latency_s": 7.95,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n33. Pascal was placed in a prison cell and left alone in darkness.\n34. The jailer returned the next morning to check on Pascal.\n35. Pascal was taken by the soldiers to the dungeon.\n36. The marquis wrote a letter to his broker to sell his lands.\n37. Abrielle wept after Shayne refused to help her find Pascal.\n\n\nBelow is a list of possible subsequent events:\n\n['Corbin cooked a lavish dinner to distract himself from his emotions regarding Pascal.', 'Corbin drank black currant brandy to forget his worries about Pascal.', 'Corbin wrote a heartfelt letter to release his anxieties about Pascal.', 'Corbin took a long walk in the rain to clear his mind of worries concerning Pascal.', 'Corbin painted a vibrant mural to express his feelings about Pascal.', 'Corbin danced alone in the moonlight to escape his thoughts about Pascal.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Corbin drank black currant brandy to forget his worries about Pascal.",
+        "steps": 1,
+        "tokens": 1234,
+        "latency_s": 10.7,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n34. The jailer returned the next morning to check on Pascal.\n35. Pascal was taken by the soldiers to the dungeon.\n36. The marquis wrote a letter to his broker to sell his lands.\n37. Abrielle wept after Shayne refused to help her find Pascal.\n38. Corbin drank black currant brandy to forget his worries about Pascal.\n\n\nBelow is a list of possible subsequent events:\n\n['Shayne discovered that the usurper was arming ships and planning a landing.', 'Shayne learned that the rival was constructing fortifications and mobilizing a fleet.', 'Shayne detected that the deceiver was amassing weapons and preparing for an invasion.', 'Shayne uncovered that the pretender was financing mercenaries and organizing a raid.', 'Shayne found out that the challenger was recruiting soldiers and awaiting crucial intel.', 'Shayne realized that the impostor was gathering allies and strategizing a counterattack.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne discovered that the usurper was arming ships and planning a landing.",
+        "steps": 1,
+        "tokens": 1188,
+        "latency_s": 9.21,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n35. Pascal was taken by the soldiers to the dungeon.\n36. The marquis wrote a letter to his broker to sell his lands.\n37. Abrielle wept after Shayne refused to help her find Pascal.\n38. Corbin drank black currant brandy to forget his worries about Pascal.\n39. Shayne discovered that the usurper was arming ships and planning a landing.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Shayne recognized Rihanna XVIII's admiration and endeavored to reduce his importance in the whole affair.\", \"Shayne accepted Rihanna XVIII's commendation and aimed to minimize his involvement in the outcome.\", \"Shayne acknowledged the king's praise and sought to downplay his role in the situation.\", \"Shayne took note of the queen's accolades and sought to dilute his influence in the event's resolution.\", 'Shayne received the accolades from Rihanna XVIII and intended to lessen the significance of his contribution to the scenario.', 'Shayne appreciated the recognition from Rihanna XVIII and aimed to trivialize his impact in the development.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne received the accolades from Rihanna XVIII and intended to lessen the significance of his contribution to the scenario.",
+        "steps": 1,
+        "tokens": 2396,
+        "latency_s": 39.12,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n36. The marquis wrote a letter to his broker to sell his lands.\n37. Abrielle wept after Shayne refused to help her find Pascal.\n38. Corbin drank black currant brandy to forget his worries about Pascal.\n39. Shayne discovered that the usurper was arming ships and planning a landing.\n40. Shayne acknowledged the king's praise and sought to downplay his role in the situation.\n\n\nBelow is a list of possible subsequent events:\n\n['Shayne received the cross of the Legion of Honor from Rihanna XVIII.', 'Shayne won the Silver Shield awarded by Rihanna XVIII.', 'Shayne received the Sapphire Star from Rihanna XVIII.', 'Shayne was awarded the Golden Harp by Rihanna XVIII.', 'Shayne obtained the Ruby Medallion from Rihanna XVIII.', 'Shayne was presented with the Emerald Crown by Rihanna XVIII.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne received the cross of the Legion of Honor from Rihanna XVIII.",
+        "steps": 1,
+        "tokens": 1051,
+        "latency_s": 7.51,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n37. Abrielle wept after Shayne refused to help her find Pascal.\n38. Corbin drank black currant brandy to forget his worries about Pascal.\n39. Shayne discovered that the usurper was arming ships and planning a landing.\n40. Shayne acknowledged the king's praise and sought to downplay his role in the situation.\n41. Shayne received the cross of the Legion of Honor from Rihanna XVIII.\n\n\nBelow is a list of possible subsequent events:\n\n[\"M. Abe showed astonishment at Shayne's sudden arrival in Tokyo just after his engagement was publicized.\", \"M. Abe conveyed his amazement at Shayne's hasty trip to Rome right after his romantic milestone was revealed.\", \"M. Abe remarked on his shock regarding Shayne's appearance in New York shortly following his relationship status update.\", \"M. Abe noted his surprise at Shayne's quick journey to Berlin mere days after his proposal was made official.\", \"M. Abe expressed surprise at Shayne's presence in Paris so soon after his wedding announcement.\", \"M. Abe commented on his disbelief at Shayne's unexpected visit to London on the heels of his recent marriage declaration.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 1150,
+        "latency_s": 10.86,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n38. Corbin drank black currant brandy to forget his worries about Pascal.\n39. Shayne discovered that the usurper was arming ships and planning a landing.\n40. Shayne acknowledged the king's praise and sought to downplay his role in the situation.\n41. Shayne received the cross of the Legion of Honor from Rihanna XVIII.\n42. M. Abe expressed surprise at Shayne's presence in Paris so soon after his wedding announcement.\n\n\nBelow is a list of possible subsequent events:\n\n['Shayne watched M. Abe leave the hotel after their conversation.', 'Shayne followed M. Abe as he departed the gallery after their exchange.', 'Shayne noticed M. Abe return to the venue after their discussion.', 'Shayne spotted M. Abe exit the restaurant following their meeting.', 'Shayne observed M. Abe enter the café after their encounter.', 'Shayne glimpsed M. Abe stroll out of the theater after their dialogue.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Shayne spotted M. Abe exit the restaurant following their meeting.",
+        "steps": 1,
+        "tokens": 1074,
+        "latency_s": 11.6,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n39. Shayne discovered that the usurper was arming ships and planning a landing.\n40. Shayne acknowledged the king's praise and sought to downplay his role in the situation.\n41. Shayne received the cross of the Legion of Honor from Rihanna XVIII.\n42. M. Abe expressed surprise at Shayne's presence in Paris so soon after his wedding announcement.\n43. Shayne watched M. Abe leave the hotel after their conversation.\n\n\nBelow is a list of possible subsequent events:\n\n['Julianne met Shayne to support the application for Rosa Martinez.', 'Julianne conferred with Shayne to plead on behalf of Marcus Lee.', 'Julianne approached Shayne to discuss the proposal for David Kim.', 'Julianne joined Shayne to advocate for Teresa Ramirez.', 'Julianne visited Shayne to intercede for Armando Pascal.', 'Julianne called Shayne to negotiate terms with Oliver Grant.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Julianne visited Shayne to intercede for Armando Pascal.",
+        "steps": 1,
+        "tokens": 1227,
+        "latency_s": 9.84,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n40. Shayne acknowledged the king's praise and sought to downplay his role in the situation.\n41. Shayne received the cross of the Legion of Honor from Rihanna XVIII.\n42. M. Abe expressed surprise at Shayne's presence in Paris so soon after his wedding announcement.\n43. Shayne watched M. Abe leave the hotel after their conversation.\n44. Julianne visited Shayne to intercede for Armando Pascal.\n\n\nBelow is a list of possible subsequent events:\n\n['Julianne texted Shayne to remind him about the deadline for submitting the grant proposal for their research project.', \"Julianne left Shayne's office to inform old Pascal about his son's impending release.\", \"Julianne rushed into Shayne's office to discuss the feedback on their recent volunteer initiative at the community center.\", \"Julianne entered Shayne's office to discuss the upcoming charity auction with local philanthropists.\", 'Julianne met Shayne at the coffee shop to share details about her new art exhibition opening next month.', 'Julianne called Shayne to inform him about the urgent meeting with the city council regarding new park regulations.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Julianne left Shayne's office to inform old Pascal about his son's impending release.",
+        "steps": 1,
+        "tokens": 1311,
+        "latency_s": 16.25,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n41. Shayne received the cross of the Legion of Honor from Rihanna XVIII.\n42. M. Abe expressed surprise at Shayne's presence in Paris so soon after his wedding announcement.\n43. Shayne watched M. Abe leave the hotel after their conversation.\n44. Julianne visited Shayne to intercede for Armando Pascal.\n45. Julianne left Shayne's office to inform old Pascal about his son's impending release.\n\n\nBelow is a list of possible subsequent events:\n\n['Blaire received a tip from Julianne regarding a French artist.', 'Blaire secured a partnership with Julianne for a pottery studio.', 'Blaire earned praise from Julianne for her photography exhibit.', 'Blaire arranged a meeting with Julianne to discuss a travel blog.', 'Blaire obtained a recommendation from Julianne to a Spanish merchant.', \"Blaire got an introduction to Julianne's cousin at a culinary festival.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1771,
+        "latency_s": 21.91,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n42. M. Abe expressed surprise at Shayne's presence in Paris so soon after his wedding announcement.\n43. Shayne watched M. Abe leave the hotel after their conversation.\n44. Julianne visited Shayne to intercede for Armando Pascal.\n45. Julianne left Shayne's office to inform old Pascal about his son's impending release.\n46. Blaire obtained a recommendation from Julianne to a Spanish merchant.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Julianne donated significant funds to support Pascal's health recovery.\", 'Julianne organized a lavish birthday party for aging Pascal.', \"Julianne paid the expenses of old Pascal's funeral.\", \"Julianne hosted a charity gala in memory of beloved Pascal's contributions.\", \"Julianne arranged for an art exhibit showcasing Pascal's lifelong creations.\", \"Julianne financed the renovation of Pascal's childhood home for future generations.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Julianne paid the expenses of old Pascal's funeral.",
+        "steps": 1,
+        "tokens": 1293,
+        "latency_s": 10.69,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n43. Shayne watched M. Abe leave the hotel after their conversation.\n44. Julianne visited Shayne to intercede for Armando Pascal.\n45. Julianne left Shayne's office to inform old Pascal about his son's impending release.\n46. Blaire obtained a recommendation from Julianne to a Spanish merchant.\n47. Julianne paid the expenses of old Pascal's funeral.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal stood still and meditated quietly.', 'Pascal crouched in silence and reflected introspectively.', 'Pascal fell on his knees and prayed earnestly.', 'Pascal dropped to the ground and pleaded passionately.', 'Pascal knelt before the statue and whispered fervently.', 'Pascal lay flat on the floor and called out desperately.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 1549,
+        "latency_s": 21.97,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n44. Julianne visited Shayne to intercede for Armando Pascal.\n45. Julianne left Shayne's office to inform old Pascal about his son's impending release.\n46. Blaire obtained a recommendation from Julianne to a Spanish merchant.\n47. Julianne paid the expenses of old Pascal's funeral.\n48. Pascal fell on his knees and prayed earnestly.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal detected a soft thumping rhythm originating from under his bed in the cell.', 'Pascal sensed a curious humming noise drifting from the window of his cell.', 'Pascal felt a shiver as a low rumble emerged from the floor of his cell.', 'Pascal noticed a faint tapping sound resonating from the ceiling of his cell.', 'Pascal heard a scratching noise coming from the wall of his cell.', 'Pascal perceived a whispering voice echoing from behind the door of his cell.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal heard a scratching noise coming from the wall of his cell.",
+        "steps": 1,
+        "tokens": 1046,
+        "latency_s": 8.39,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n45. Julianne left Shayne's office to inform old Pascal about his son's impending release.\n46. Blaire obtained a recommendation from Julianne to a Spanish merchant.\n47. Julianne paid the expenses of old Pascal's funeral.\n48. Pascal fell on his knees and prayed earnestly.\n49. Pascal heard a scratching noise coming from the wall of his cell.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal savored the rare delicacies delivered by the jailer.', 'Pascal feasted on the delicious rations supplied by the jailer.', 'Pascal devoured the fresh provisions brought by the jailer.', 'Pascal enjoyed the lavish spread offered by the jailer.', 'Pascal relished the gourmet dishes provided by the jailer.', 'Pascal consumed the exquisite meals presented by the jailer.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1236,
+        "latency_s": 15.8,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n46. Blaire obtained a recommendation from Julianne to a Spanish merchant.\n47. Julianne paid the expenses of old Pascal's funeral.\n48. Pascal fell on his knees and prayed earnestly.\n49. Pascal heard a scratching noise coming from the wall of his cell.\n50. Pascal devoured the fresh provisions brought by the jailer.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal hidden the glowing ember from the extinguished campfire beneath his pillow.', 'Pascal buried the rusted keys to the ancient chest in the garden soil.', 'Pascal tucked the wilted flower from the forgotten bouquet inside his jacket.', 'Pascal hoarded the tarnished coins from the family heirloom deep in the closet.', \"Pascal stashed the fragile pages of the torn journal within the attic's shadows.\", 'Pascal concealed the sharp fragments of the broken jug in his bed.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal concealed the sharp fragments of the broken jug in his bed.",
+        "steps": 1,
+        "tokens": 1571,
+        "latency_s": 19.86,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n47. Julianne paid the expenses of old Pascal's funeral.\n48. Pascal fell on his knees and prayed earnestly.\n49. Pascal heard a scratching noise coming from the wall of his cell.\n50. Pascal devoured the fresh provisions brought by the jailer.\n51. Pascal concealed the sharp fragments of the broken jug in his bed.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal organized the files neatly on the desk in anticipation of the audit.', \"Pascal refreshed the coat of paint on the door before the visitor's check.\", \"Pascal adjusted the position of the bookshelf before the inspector's arrival.\", 'Pascal aligned the chairs around the table ahead of the committee meeting.', \"Pascal polished the surface of the table prior to the governor's inspection.\", \"Pascal straightened the handle of the saucepan before the jailer's visit.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal straightened the handle of the saucepan before the jailer's visit.",
+        "steps": 1,
+        "tokens": 1038,
+        "latency_s": 11.99,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n48. Pascal fell on his knees and prayed earnestly.\n49. Pascal heard a scratching noise coming from the wall of his cell.\n50. Pascal devoured the fresh provisions brought by the jailer.\n51. Pascal concealed the sharp fragments of the broken jug in his bed.\n52. Pascal straightened the handle of the saucepan before the jailer's visit.\n\n\nBelow is a list of possible subsequent events:\n\n[\"The passerby lifted the curtain to obscure his escape from Pascal's room.\", \"The stranger raised the stone to conceal his entrance into Pascal's cell.\", \"The rogue positioned the vase to block his view of Pascal's hiding place.\", \"The intruder brandished the lamp to mask his departure from Pascal's chamber.\", \"The visitor grabbed the rug in order to disguise his exit from Pascal's space.\", \"The wanderer held up the book to shield his presence within Pascal's quarters.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The stranger raised the stone to conceal his entrance into Pascal's cell.",
+        "steps": 1,
+        "tokens": 1067,
+        "latency_s": 10.62,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n49. Pascal heard a scratching noise coming from the wall of his cell.\n50. Pascal devoured the fresh provisions brought by the jailer.\n51. Pascal concealed the sharp fragments of the broken jug in his bed.\n52. Pascal straightened the handle of the saucepan before the jailer's visit.\n53. The stranger raised the stone to conceal his entrance into Pascal's cell.\n\n\nBelow is a list of possible subsequent events:\n\n[\"The stranger clambered onto Pascal's arms to get a better view of the concert.\", \"The stranger hopped onto Pascal's ankles to peek into the garden.\", \"The stranger climbed onto Pascal's shoulders to look out the window.\", \"The stranger balanced on Pascal's head to scan for the approaching storm.\", \"The stranger settled on Pascal's knees to marvel at the distant fireworks.\", \"The stranger perched on Pascal's back to catch a glimpse of the parade outside.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The stranger climbed onto Pascal's shoulders to look out the window.",
+        "steps": 1,
+        "tokens": 1134,
+        "latency_s": 12.88,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n50. Pascal devoured the fresh provisions brought by the jailer.\n51. Pascal concealed the sharp fragments of the broken jug in his bed.\n52. Pascal straightened the handle of the saucepan before the jailer's visit.\n53. The stranger raised the stone to conceal his entrance into Pascal's cell.\n54. The stranger climbed onto Pascal's shoulders to look out the window.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal wondered aloud to the stranger where he hailed from, captivated by the enigma surrounding his presence.', 'Pascal questioned the stranger why he possessed such unique insights, fascinated by the depths of his unusual persona.', 'Pascal challenged the stranger to reveal his secrets, curious about the extraordinary qualities he seemed to embody.', 'Pascal probed the stranger about his purpose that day, fascinated by the intriguing aura he radiated.', 'Pascal asked the stranger who he was, expressing curiosity about his remarkable nature.', 'Pascal inquired of the stranger what compelled him to wander alone, intrigued by his mysterious demeanor.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal asked the stranger who he was, expressing curiosity about his remarkable nature.",
+        "steps": 1,
+        "tokens": 1561,
+        "latency_s": 20.97,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n51. Pascal concealed the sharp fragments of the broken jug in his bed.\n52. Pascal straightened the handle of the saucepan before the jailer's visit.\n53. The stranger raised the stone to conceal his entrance into Pascal's cell.\n54. The stranger climbed onto Pascal's shoulders to look out the window.\n55. Pascal asked the stranger who he was, expressing curiosity about his remarkable nature.\n\n\nBelow is a list of possible subsequent events:\n\n['The stranger asserted that he had meticulously curated supplies and equipment to support his sudden exodus.', 'The stranger revealed that he had devoted months crafting intricate maps to navigate the labyrinth.', 'The stranger mentioned that he had engaged in extensive research on ancient routes to ensure a successful flight.', 'The stranger shared that he had sacrificed years assembling an array of distractions to facilitate his departure.', 'The stranger disclosed that he had invested countless days training a series of contraptions to aid his getaway.', 'The stranger explained that he had spent years digging and preparing tools for escape.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The stranger explained that he had spent years digging and preparing tools for escape.",
+        "steps": 1,
+        "tokens": 1031,
+        "latency_s": 8.58,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n52. Pascal straightened the handle of the saucepan before the jailer's visit.\n53. The stranger raised the stone to conceal his entrance into Pascal's cell.\n54. The stranger climbed onto Pascal's shoulders to look out the window.\n55. Pascal asked the stranger who he was, expressing curiosity about his remarkable nature.\n56. The stranger explained that he had spent years digging and preparing tools for escape.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal wondered about the stranger's decision to endure suffering instead of fighting back against his captors.\", \"Pascal noted the stranger's hesitance to betray his friends, even if it meant sacrificing his own freedom.\", \"Pascal was intrigued by the stranger's unwillingness to take advantage of others, even if it could lead to his escape.\", \"Pascal expressed surprise at the stranger's reluctance to harm anyone for his freedom.\", \"Pascal questioned the stranger's choice to remain captive rather than seek revenge on those who had wronged him.\", \"Pascal remarked on the stranger's commitment to non-violence, despite the promise of liberation through aggression.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 1397,
+        "latency_s": 17.93,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n53. The stranger raised the stone to conceal his entrance into Pascal's cell.\n54. The stranger climbed onto Pascal's shoulders to look out the window.\n55. Pascal asked the stranger who he was, expressing curiosity about his remarkable nature.\n56. The stranger explained that he had spent years digging and preparing tools for escape.\n57. Pascal expressed surprise at the stranger's reluctance to harm anyone for his freedom.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal was astonished by the stranger's in-depth understanding of science and technology during their brief encounter.\", \"Pascal marveled at the stranger's uncanny ability to recount historical events with precision and flair.\", \"Pascal found himself captivated by the stranger's articulate storytelling and vivid imagination.\", \"Pascal expressed wonder at the stranger's extensive vocabulary and knowledge.\", \"Pascal was impressed by the stranger's complex arguments and reasoning on various social issues they discussed.\", \"Pascal was intrigued by the stranger's profound insights on philosophy and ethics during their conversation.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal was intrigued by the stranger's profound insights on philosophy and ethics during their conversation.",
+        "steps": 1,
+        "tokens": 1159,
+        "latency_s": 14.27,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n54. The stranger climbed onto Pascal's shoulders to look out the window.\n55. Pascal asked the stranger who he was, expressing curiosity about his remarkable nature.\n56. The stranger explained that he had spent years digging and preparing tools for escape.\n57. Pascal expressed surprise at the stranger's reluctance to harm anyone for his freedom.\n58. Pascal expressed wonder at the stranger's extensive vocabulary and knowledge.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal expressed curiosity about the stranger's technique in crafting intricate letters.\", \"Pascal expressed desire to see the stranger's writing materials.\", \"Pascal inquired about the stranger's favorite type of quill and its historical significance.\", \"Pascal mentioned interest in examining the stranger's collection of rare ink bottles.\", \"Pascal asked to borrow the stranger's notebook for a moment to sketch some ideas.\", \"Pascal proposed a collaboration on a piece using the stranger's unique stationery.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足，无法确定后续事件。",
+        "steps": 1,
+        "tokens": 1073,
+        "latency_s": 11.73,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n55. Pascal asked the stranger who he was, expressing curiosity about his remarkable nature.\n56. The stranger explained that he had spent years digging and preparing tools for escape.\n57. Pascal expressed surprise at the stranger's reluctance to harm anyone for his freedom.\n58. Pascal expressed wonder at the stranger's extensive vocabulary and knowledge.\n59. Pascal expressed desire to see the stranger's writing materials.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal watched the monk's technique for calculating distance with shadows.\", \"Pascal examined the sage's system for identifying constellations with star patterns.\", \"Pascal noted the priest's approach for measuring temperature with candlelight.\", \"Pascal observed the abbe's method for telling time with sunlight.\", \"Pascal learned the hermit's strategy for predicting weather with animal behavior.\", \"Pascal studied the elder's practice for tracking seasons with tree rings.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1374,
+        "latency_s": 18.87,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n56. The stranger explained that he had spent years digging and preparing tools for escape.\n57. Pascal expressed surprise at the stranger's reluctance to harm anyone for his freedom.\n58. Pascal expressed wonder at the stranger's extensive vocabulary and knowledge.\n59. Pascal expressed desire to see the stranger's writing materials.\n60. Pascal observed the abbe's method for telling time with sunlight.\n\n\nBelow is a list of possible subsequent events:\n\n['The stranger demonstrated how he made a penknife from an old candlestick.', 'The stranger showcased how he fashioned a crossbow from an abandoned crutch.', 'The stranger revealed how he transformed a rusty bicycle into a functional scooter.', 'The stranger explained how he crafted a music box from discarded wooden spoons.', 'The stranger demonstrated how he turned an old shoe into a hidden storage box.', 'The stranger illustrated how he created a lantern from a broken wine bottle.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The stranger demonstrated how he made a penknife from an old candlestick.",
+        "steps": 1,
+        "tokens": 1386,
+        "latency_s": 17.4,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n57. Pascal expressed surprise at the stranger's reluctance to harm anyone for his freedom.\n58. Pascal expressed wonder at the stranger's extensive vocabulary and knowledge.\n59. Pascal expressed desire to see the stranger's writing materials.\n60. Pascal observed the abbe's method for telling time with sunlight.\n61. The stranger demonstrated how he made a penknife from an old candlestick.\n\n\nBelow is a list of possible subsequent events:\n\n['The stranger explained he had constructed a raft from the materials he scavenged.', 'The stranger confessed he had forged a key from the metal he unearthed.', 'The stranger disclosed he had devised a route through the tunnels he discovered.', 'The stranger mentioned he had secured a disguise from the clothes he collected.', 'The stranger admitted he had cultivated a signal using the lights he fashioned.', 'The stranger revealed he had planned an escape using the ladder he made.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The stranger disclosed he had devised a route through the tunnels he discovered.",
+        "steps": 1,
+        "tokens": 1365,
+        "latency_s": 20.42,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n58. Pascal expressed wonder at the stranger's extensive vocabulary and knowledge.\n59. Pascal expressed desire to see the stranger's writing materials.\n60. Pascal observed the abbe's method for telling time with sunlight.\n61. The stranger demonstrated how he made a penknife from an old candlestick.\n62. The stranger revealed he had planned an escape using the ladder he made.\n\n\nBelow is a list of possible subsequent events:\n\n['The stranger urged Pascal to consider the deeper reasons that led to his confinement.', 'The stranger inspired Pascal to examine the driving forces that culminated in his apprehension.', 'The stranger persuaded Pascal to think critically about the intentions that resulted in his capture.', 'The stranger challenged Pascal to explore the underlying causes that resulted in his imprisonment.', 'The stranger encouraged Pascal to reflect on the motivations behind his arrest.', 'The stranger prompted Pascal to analyze the factors that contributed to his detainment.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Context information is insufficient to determine the next event.",
+        "steps": 1,
+        "tokens": 1694,
+        "latency_s": 25.87,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n59. Pascal expressed desire to see the stranger's writing materials.\n60. Pascal observed the abbe's method for telling time with sunlight.\n61. The stranger demonstrated how he made a penknife from an old candlestick.\n62. The stranger revealed he had planned an escape using the ladder he made.\n63. The stranger encouraged Pascal to reflect on the motivations behind his arrest.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal learned of Blaire's influence over the issues that led to his indictment.\", \"Pascal discovered Blaire's connection to the circumstances surrounding his dismissal.\", \"Pascal found evidence of Blaire's involvement in the factors impacting his credibility.\", \"Pascal noticed Blaire's role in the incidents contributing to his reputation damage.\", 'Pascal understood Blaire played a part in the saga resulting in his suspension.', 'Pascal realized Blaire was involved in the events leading to his accusation.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal realized Blaire was involved in the events leading to his accusation.",
+        "steps": 1,
+        "tokens": 1112,
+        "latency_s": 13.03,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n60. Pascal observed the abbe's method for telling time with sunlight.\n61. The stranger demonstrated how he made a penknife from an old candlestick.\n62. The stranger revealed he had planned an escape using the ladder he made.\n63. The stranger encouraged Pascal to reflect on the motivations behind his arrest.\n64. Pascal realized Blaire was involved in the events leading to his accusation.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal asked Davion to join him for a late-night snack.', 'Davion requested that Pascal come over for a casual brunch.', 'Pascal arranged for Davion to meet him for dinner at their favorite restaurant.', 'Davion invited Pascal to share his supper.', 'Pascal suggested that Davion accompany him for lunch at the café.', 'Davion surprised Pascal with an invitation to breakfast.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 1034,
+        "latency_s": 8.65,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n61. The stranger demonstrated how he made a penknife from an old candlestick.\n62. The stranger revealed he had planned an escape using the ladder he made.\n63. The stranger encouraged Pascal to reflect on the motivations behind his arrest.\n64. Pascal realized Blaire was involved in the events leading to his accusation.\n65. Davion invited Pascal to share his supper.\n\n\nBelow is a list of possible subsequent events:\n\n['The abbe and Pascal exchanged thoughts on their favorite literary works.', 'The abbe and Pascal planned a surprise gathering for their friends.', 'The abbe and Pascal crafted a complicated riddle for their students.', 'The abbe and Pascal organized a friendly competition to test their wits.', 'The abbe and Pascal discussed their escape plan.', 'The abbe and Pascal debated the merits of their new invention.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "The abbe and Pascal discussed their escape plan.",
+        "steps": 1,
+        "tokens": 1934,
+        "latency_s": 32.54,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n62. The stranger revealed he had planned an escape using the ladder he made.\n63. The stranger encouraged Pascal to reflect on the motivations behind his arrest.\n64. Pascal realized Blaire was involved in the events leading to his accusation.\n65. Davion invited Pascal to share his supper.\n66. The abbe and Pascal discussed their escape plan.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal and Davion began their escape work.', 'Pascal and Davion started their secret preparation plans.', 'Pascal and Davion initiated their strategy discussions.', 'Pascal and Davion launched their exploration mission.', 'Pascal and Davion executed their daring getaway plan.', 'Pascal and Davion commenced their training exercises.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal and Davion began their escape work.",
+        "steps": 1,
+        "tokens": 1529,
+        "latency_s": 22.16,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n63. The stranger encouraged Pascal to reflect on the motivations behind his arrest.\n64. Pascal realized Blaire was involved in the events leading to his accusation.\n65. Davion invited Pascal to share his supper.\n66. The abbe and Pascal discussed their escape plan.\n67. Pascal and Davion began their escape work.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal gazed at Davion, feeling both nervousness and fascination intertwined.', 'Pascal reached out to Davion with trembling hands, filled with awe and dread.', 'Pascal observed Davion intently, caught between anxiety and admiration.', 'Pascal studied Davion closely, his heart racing with both fear and intrigue.', 'Pascal stared at Davion with a mix of admiration and trepidation.', 'Pascal looked at Davion in fear and wonder.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal stared at Davion with a mix of admiration and trepidation.",
+        "steps": 1,
+        "tokens": 1445,
+        "latency_s": 19.71,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n64. Pascal realized Blaire was involved in the events leading to his accusation.\n65. Davion invited Pascal to share his supper.\n66. The abbe and Pascal discussed their escape plan.\n67. Pascal and Davion began their escape work.\n68. Pascal looked at Davion in fear and wonder.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal positioned Davion beside the window.', 'Pascal guided Davion into the bathroom.', 'Pascal placed Davion in the chair.', 'Pascal laid Davion on his bed.', 'Pascal helped Davion onto the couch.', 'Pascal set Davion down on the floor.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal laid Davion on his bed.",
+        "steps": 1,
+        "tokens": 1017,
+        "latency_s": 7.11,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n65. Davion invited Pascal to share his supper.\n66. The abbe and Pascal discussed their escape plan.\n67. Pascal and Davion began their escape work.\n68. Pascal looked at Davion in fear and wonder.\n69. Pascal laid Davion on his bed.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal hurried to his cell after covering the opening.', 'Pascal sprinted to his room after shutting the window.', 'Pascal dashed through the corridor after securing the door.', 'Pascal hurried back to his space after drawing the curtains.', 'Pascal rushed into his quarters after sealing the passage.', 'Pascal raced back to his chamber after locking the entrance.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal rushed into his quarters after sealing the passage.",
+        "steps": 1,
+        "tokens": 1169,
+        "latency_s": 13.57,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n66. The abbe and Pascal discussed their escape plan.\n67. Pascal and Davion began their escape work.\n68. Pascal looked at Davion in fear and wonder.\n69. Pascal laid Davion on his bed.\n70. Pascal hurried to his cell after covering the opening.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal showed anxiety over Davion's cognitive condition.\", \"Pascal articulated fears concerning Davion's emotional resilience.\", \"Pascal expressed concern over Davion's mental state.\", \"Pascal raised questions about Davion's emotional stability.\", \"Pascal voiced doubts regarding Davion's psychological well-being.\", \"Pascal highlighted worries about Davion's overall mental health.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal expressed concern over Davion's mental state.",
+        "steps": 1,
+        "tokens": 1370,
+        "latency_s": 19.35,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n67. Pascal and Davion began their escape work.\n68. Pascal looked at Davion in fear and wonder.\n69. Pascal laid Davion on his bed.\n70. Pascal hurried to his cell after covering the opening.\n71. Pascal expressed concern over Davion's mental state.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal observed Davion's overall stability and mental endurance.\", \"Pascal assessed Davion's health status and cognitive function.\", \"Pascal evaluated Davion's emotional well-being and psychological resilience.\", \"Pascal contemplated Davion's condition and mental state.\", \"Pascal reflected on Davion's physical fitness and mental clarity.\", \"Pascal analyzed Davion's mood fluctuations and behavioral patterns.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal contemplated Davion's condition and mental state.",
+        "steps": 1,
+        "tokens": 1373,
+        "latency_s": 20.56,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n68. Pascal looked at Davion in fear and wonder.\n69. Pascal laid Davion on his bed.\n70. Pascal hurried to his cell after covering the opening.\n71. Pascal expressed concern over Davion's mental state.\n72. Pascal contemplated Davion's condition and mental state.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal contemplated the proposals outlined by Davion.', 'Pascal read the contents of the paper offered by Davion.', 'Pascal reviewed the manuscript submitted by Davion.', 'Pascal examined the report shared by Davion.', 'Pascal analyzed the findings presented by Davion.', 'Pascal assessed the research brief provided by Davion.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal read the contents of the paper offered by Davion.",
+        "steps": 1,
+        "tokens": 1368,
+        "latency_s": 18.77,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n69. Pascal laid Davion on his bed.\n70. Pascal hurried to his cell after covering the opening.\n71. Pascal expressed concern over Davion's mental state.\n72. Pascal contemplated Davion's condition and mental state.\n73. Pascal read the contents of the paper offered by Davion.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal was astonished by the sudden appearance of the mythical creature.', 'Pascal expressed disbelief at the amount of the treasure.', 'Pascal doubted the existence of the legendary artifact rumored to be hidden nearby.', 'Pascal marveled at the size of the ancient statue.', 'Pascal scrutinized the peculiar map that led to the lost city.', 'Pascal questioned the authenticity of the rare gemstone.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal expressed disbelief at the amount of the treasure.",
+        "steps": 1,
+        "tokens": 1021,
+        "latency_s": 8.56,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n70. Pascal hurried to his cell after covering the opening.\n71. Pascal expressed concern over Davion's mental state.\n72. Pascal contemplated Davion's condition and mental state.\n73. Pascal read the contents of the paper offered by Davion.\n74. Pascal expressed disbelief at the amount of the treasure.\n\n\nBelow is a list of possible subsequent events:\n\n['Davion helped Pascal uncover the ancient map leading to the hidden treasure.', 'Davion warned Pascal about the dangers of seeking the cursed treasure.', 'Davion shared with Pascal stories of legendary pirates guarding the treasure.', 'Davion gave Pascal advice on how to recover the treasure.', \"Davion entrusted Pascal with the key to unlock the treasure's secret location.\", 'Davion suggested to Pascal strategies for outsmarting rivals in the treasure hunt.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Davion gave Pascal advice on how to recover the treasure.",
+        "steps": 1,
+        "tokens": 1086,
+        "latency_s": 9.94,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n71. Pascal expressed concern over Davion's mental state.\n72. Pascal contemplated Davion's condition and mental state.\n73. Pascal read the contents of the paper offered by Davion.\n74. Pascal expressed disbelief at the amount of the treasure.\n75. Davion gave Pascal advice on how to recover the treasure.\n\n\nBelow is a list of possible subsequent events:\n\n['Davion praised Pascal for his thoughtful contributions to their collaborative efforts.', 'Davion commended Pascal for his remarkable ability to listen and understand.', 'Davion thanked Pascal for his companionship.', 'Davion acknowledged Pascal for his insightful guidance during challenging times.', 'Davion expressed gratitude to Pascal for his unwavering support.', 'Davion appreciated Pascal for his consistent encouragement throughout the journey.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Davion thanked Pascal for his companionship.",
+        "steps": 1,
+        "tokens": 1770,
+        "latency_s": 27.55,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n72. Pascal contemplated Davion's condition and mental state.\n73. Pascal read the contents of the paper offered by Davion.\n74. Pascal expressed disbelief at the amount of the treasure.\n75. Davion gave Pascal advice on how to recover the treasure.\n76. Davion thanked Pascal for his companionship.\n\n\nBelow is a list of possible subsequent events:\n\n['Davion warned Pascal about the hidden dangers.', 'Davion advised Pascal on which path to take.', 'Davion taught Pascal the secret to survival.', 'Davion instructed Pascal on how to escape.', 'Davion explained to Pascal the best way to evade capture.', 'Davion guided Pascal through the maze of traps.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Davion advised Pascal on which path to take.",
+        "steps": 1,
+        "tokens": 1304,
+        "latency_s": 18.41,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n73. Pascal read the contents of the paper offered by Davion.\n74. Pascal expressed disbelief at the amount of the treasure.\n75. Davion gave Pascal advice on how to recover the treasure.\n76. Davion thanked Pascal for his companionship.\n77. Davion instructed Pascal on how to escape.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal discovered that the treasure was missing.', 'Pascal realized Davion was dead.', 'Pascal recognized that the evidence was tampered with.', 'Pascal understood that the village was abandoned.', 'Pascal learned that the ancient manuscript had been destroyed.', 'Pascal found out that the painting was forged.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal realized Davion was dead.",
+        "steps": 1,
+        "tokens": 1201,
+        "latency_s": 13.58,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n74. Pascal expressed disbelief at the amount of the treasure.\n75. Davion gave Pascal advice on how to recover the treasure.\n76. Davion thanked Pascal for his companionship.\n77. Davion instructed Pascal on how to escape.\n78. Pascal realized Davion was dead.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal gasped in shock as the faint whispers of frantic voices echoed from the darkened hallway.', 'Pascal cringed in fear as the loud crash of shattered glass shattered the stillness of the night.', 'Pascal winced in disgust as the pungent aroma of charred wood seeped through the cracks.', 'Pascal felt a chill run down his spine as the echo of anguished screams filled the air.', 'Pascal listened in horror as the smell of burning flesh penetrated the wall.', 'Pascal stared in disbelief as the sight of flickering flames danced ominously beyond the window.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足，无法确定后续事件。",
+        "steps": 1,
+        "tokens": 1219,
+        "latency_s": 13.51,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n75. Davion gave Pascal advice on how to recover the treasure.\n76. Davion thanked Pascal for his companionship.\n77. Davion instructed Pascal on how to escape.\n78. Pascal realized Davion was dead.\n79. Pascal listened in horror as the smell of burning flesh penetrated the wall.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal attempted to stand in Lily's stead and sliced the seal of the envelope with a pair of scissors.\", 'Pascal meant to replace Oliver and swung the hammer against the wall to create an opening.', \"Pascal decided to take Davion's place and opened the shroud with a knife.\", \"Pascal resolved to fill Marcus's shoes and pried the door ajar with a screwdriver.\", \"Pascal aimed to take Jenna's position and removed the cover of the box with a wrench.\", \"Pascal chose to assume Elana's role and lifted the lid of the chest with a crowbar.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal decided to take Davion's place and opened the shroud with a knife.",
+        "steps": 1,
+        "tokens": 1299,
+        "latency_s": 10.34,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n76. Davion thanked Pascal for his companionship.\n77. Davion instructed Pascal on how to escape.\n78. Pascal realized Davion was dead.\n79. Pascal listened in horror as the smell of burning flesh penetrated the wall.\n80. Pascal decided to take Davion's place and opened the shroud with a knife.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal was flung into the sea with a thirty-six pound shot tied to his feet.', 'Pascal was launched from a catapult into the river while clutching a heavy anvil in his hands.', 'Pascal was cast into the ocean while tethered to a barrel full of heavy stones.', 'Pascal was propelled off a cliff into the canyon while encumbered by a boulder weighing forty pounds.', 'Pascal was thrown into the volcano with a sack filled with bricks strapped to his back.', 'Pascal was dropped from a helicopter into the lake while bound by chains of iron.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal was flung into the sea with a thirty-six pound shot tied to his feet.",
+        "steps": 1,
+        "tokens": 889,
+        "latency_s": 4.17,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n77. Davion instructed Pascal on how to escape.\n78. Pascal realized Davion was dead.\n79. Pascal listened in horror as the smell of burning flesh penetrated the wall.\n80. Pascal decided to take Davion's place and opened the shroud with a knife.\n81. Pascal was flung into the sea with a thirty-six pound shot tied to his feet.\n\n\nBelow is a list of possible subsequent events:\n\n[\"Pascal reflected on Davion's tip about resisting the urge to procrastinate when studying for exams.\", \"Pascal noted Davion's reminder to stay focused and not allow fatigue to hinder their hiking adventures.\", \"Pascal recalled Davion's advice about not giving way to listlessness while swimming.\", \"Pascal remembered Davion's suggestion to avoid distractions while training for the marathon.\", \"Pascal thought about Davion's counsel on steering clear of lethargy while practicing yoga.\", \"Pascal considered Davion's warning against succumbing to boredom during their chess matches.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal recalled Davion's advice about not giving way to listlessness while swimming.",
+        "steps": 1,
+        "tokens": 1086,
+        "latency_s": 7.58,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n78. Pascal realized Davion was dead.\n79. Pascal listened in horror as the smell of burning flesh penetrated the wall.\n80. Pascal decided to take Davion's place and opened the shroud with a knife.\n81. Pascal was flung into the sea with a thirty-six pound shot tied to his feet.\n82. Pascal recalled Davion's advice about not giving way to listlessness while swimming.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal sang melodiously as he wandered through the vibrant fields of Montalban.', 'Pascal danced joyfully beneath the shimmering stars of the open sky.', 'Pascal laughed heartily while sharing stories around the warm fire of Lormé.', 'Pascal prayed in gratitude after reaching the granite shore of Tiboulen.', 'Pascal marveled in awe after discovering the hidden springs of Valdonis.', 'Pascal meditated in silence upon the misty hills of Villerouge.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal prayed in gratitude after reaching the granite shore of Tiboulen.",
+        "steps": 1,
+        "tokens": 1009,
+        "latency_s": 8.83,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n79. Pascal listened in horror as the smell of burning flesh penetrated the wall.\n80. Pascal decided to take Davion's place and opened the shroud with a knife.\n81. Pascal was flung into the sea with a thirty-six pound shot tied to his feet.\n82. Pascal recalled Davion's advice about not giving way to listlessness while swimming.\n83. Pascal prayed in gratitude after reaching the granite shore of Tiboulen.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal witnessed the fishing boat break apart in the storm.', 'Pascal noticed the hot air balloon descend rapidly amidst the thunderstorm.', 'Pascal perceived the cargo plane lose control while attempting to land during the gale.', 'Pascal observed the racing car collide with the barrier during the competition.', 'Pascal encountered the sailing yacht capsize unexpectedly in the rough waters.', 'Pascal experienced the train derail as it navigated through the flooded tracks.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal noticed the hot air balloon descend rapidly amidst the thunderstorm.",
+        "steps": 1,
+        "tokens": 1537,
+        "latency_s": 24.4,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n80. Pascal decided to take Davion's place and opened the shroud with a knife.\n81. Pascal was flung into the sea with a thirty-six pound shot tied to his feet.\n82. Pascal recalled Davion's advice about not giving way to listlessness while swimming.\n83. Pascal prayed in gratitude after reaching the granite shore of Tiboulen.\n84. Pascal witnessed the fishing boat break apart in the storm.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal was retrieved by rescuers from the wreckage after he was trapped in the storm.', 'Pascal was rescued by sailors from the tartan after he lost consciousness.', 'Pascal was located by mountain climbers after he fell unconscious during the ascent.', 'Pascal was discovered by a group of divers after he sank during the underwater expedition.', 'Pascal was found by hikers after he collapsed in the dense forest during his trek.', 'Pascal was saved by local fishermen after he vanished while fishing on the river.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal was rescued by sailors from the tartan after he lost consciousness.",
+        "steps": 1,
+        "tokens": 1345,
+        "latency_s": 17.7,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n81. Pascal was flung into the sea with a thirty-six pound shot tied to his feet.\n82. Pascal recalled Davion's advice about not giving way to listlessness while swimming.\n83. Pascal prayed in gratitude after reaching the granite shore of Tiboulen.\n84. Pascal witnessed the fishing boat break apart in the storm.\n85. Pascal was rescued by sailors from the tartan after he lost consciousness.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal understood that the date was the 7th of September, 1827.', 'Pascal noted that the year was 1830, falling on the 10th of December.', 'Pascal learned that the date was the 28th of February, 1829.', 'Pascal discovered that the month was April, during the year 1835.', 'Pascal realized that the day was the 15th of January, 1832.', 'Pascal found out that the year was 1841, specifically on the 2nd of March.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal learned that the date was the 28th of February, 1829.",
+        "steps": 1,
+        "tokens": 942,
+        "latency_s": 8.06,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n82. Pascal recalled Davion's advice about not giving way to listlessness while swimming.\n83. Pascal prayed in gratitude after reaching the granite shore of Tiboulen.\n84. Pascal witnessed the fishing boat break apart in the storm.\n85. Pascal was rescued by sailors from the tartan after he lost consciousness.\n86. Pascal learned that the date was the 28th of February, 1829.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal promised to collaborate with the crew of The Shimmering Quest for three months.', 'Pascal consented to serve as the first mate on The Dreaming Star for six weeks.', 'Pascal agreed to work for the captain of The Young Amelia for three months.', 'Pascal decided to assist the crew of The Brave Voyager for two months.', 'Pascal accepted a position with the captain of The Wandering Isle for five weeks.', 'Pascal volunteered to navigate the seas alongside the captain of The Swift Eagle for four weeks.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal agreed to work for the captain of The Young Amelia for three months.",
+        "steps": 1,
+        "tokens": 1183,
+        "latency_s": 9.29,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n83. Pascal prayed in gratitude after reaching the granite shore of Tiboulen.\n84. Pascal witnessed the fishing boat break apart in the storm.\n85. Pascal was rescued by sailors from the tartan after he lost consciousness.\n86. Pascal learned that the date was the 28th of February, 1829.\n87. Pascal agreed to work for the captain of The Young Amelia for three months.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal was filled with emotion when Brayan Annabel was mentioned.', \"Pascal was overwhelmed with joy when Ian Thompson's name was brought up.\", 'Pascal found himself in deep thought when Marcus Albright was spoken about.', 'Pascal was taken aback with excitement when Sofia Delgado was discussed.', 'Pascal felt a surge of nostalgia when Clara Montgomery came into the conversation.', 'Pascal experienced a wave of surprise when Lily Johnson was referenced.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal was filled with emotion when Brayan Annabel was mentioned.",
+        "steps": 1,
+        "tokens": 1300,
+        "latency_s": 9.6,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n84. Pascal witnessed the fishing boat break apart in the storm.\n85. Pascal was rescued by sailors from the tartan after he lost consciousness.\n86. Pascal learned that the date was the 28th of February, 1829.\n87. Pascal agreed to work for the captain of The Young Amelia for three months.\n88. Pascal was filled with emotion when Brayan Annabel was mentioned.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal instructed the navigator to raise the sails to steer his vessel away from the rocky coastline of Sardinia.', 'Pascal urged the lookout to adjust the course to bring the ship closer to the lighthouse on the distant horizon.', 'Pascal directed the first mate to trim the sails to catch the favorable winds that would carry them past Elba.', 'Pascal ordered the helmsman to put down his helm to leave La Pianosa to starboard.', 'Pascal requested the engineer to start the engines to propel the yacht towards the picturesque island of Capraia.', 'Pascal commanded the crew to lower the anchor to secure the ship beside the tranquil waters of the bay.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal ordered the helmsman to put down his helm to leave La Pianosa to starboard.",
+        "steps": 1,
+        "tokens": 1389,
+        "latency_s": 13.72,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n85. Pascal was rescued by sailors from the tartan after he lost consciousness.\n86. Pascal learned that the date was the 28th of February, 1829.\n87. Pascal agreed to work for the captain of The Young Amelia for three months.\n88. Pascal was filled with emotion when Brayan Annabel was mentioned.\n89. Pascal ordered the helmsman to put down his helm to leave La Pianosa to starboard.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal contemplated the excitement he could spark in his team with a subtle gesture.', 'Pascal reflected on the joy he could evoke from his men with a single word.', 'Pascal realized the delight he could inspire in his crew with one simple phrase.', 'Pascal sensed the thrill he could ignite among his peers with a heartfelt smile.', 'Pascal acknowledged the enthusiasm he could generate in his colleagues with a shared glance.', 'Pascal discovered the cheer he could bring to his squad with an encouraging nod.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal realized the delight he could inspire in his crew with one simple phrase.",
+        "steps": 1,
+        "tokens": 1626,
+        "latency_s": 19.85,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n86. Pascal learned that the date was the 28th of February, 1829.\n87. Pascal agreed to work for the captain of The Young Amelia for three months.\n88. Pascal was filled with emotion when Brayan Annabel was mentioned.\n89. Pascal ordered the helmsman to put down his helm to leave La Pianosa to starboard.\n90. Pascal reflected on the joy he could evoke from his men with a single word.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal declared that his classmates should proceed with the trip even with the risk of delay.', 'Pascal stressed that his peers should celebrate the victory despite the looming challenges ahead.', 'Pascal argued that his friends should continue their game despite the rainstorm approaching.', 'Pascal urged that his colleagues should enjoy the party despite the ongoing work dispute.', 'Pascal maintained that his team should complete the project regardless of the deadline extension.', \"Pascal insisted that his comrades should have their meal despite Armando's condition.\"]\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal insisted that his comrades should have their meal despite Armando's condition.",
+        "steps": 1,
+        "tokens": 1463,
+        "latency_s": 14.69,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n87. Pascal agreed to work for the captain of The Young Amelia for three months.\n88. Pascal was filled with emotion when Brayan Annabel was mentioned.\n89. Pascal ordered the helmsman to put down his helm to leave La Pianosa to starboard.\n90. Pascal reflected on the joy he could evoke from his men with a single word.\n91. Pascal insisted that his comrades should have their meal despite Armando's condition.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal began to dig away the earth to reveal the hidden entrance.', 'Pascal initiated the process of removing the rubble to disclose the buried entrance.', 'Pascal proceeded to clear the debris to reveal the hidden gateway.', 'Pascal started to carve through the stone to uncover the secret passage.', 'Pascal commenced to scrape back the gravel to expose the concealed doorway.', 'Pascal began to excavate the soil to unveil the obscured threshold.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 2075,
+        "latency_s": 33.15,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n88. Pascal was filled with emotion when Brayan Annabel was mentioned.\n89. Pascal ordered the helmsman to put down his helm to leave La Pianosa to starboard.\n90. Pascal reflected on the joy he could evoke from his men with a single word.\n91. Pascal insisted that his comrades should have their meal despite Armando's condition.\n92. Pascal began to dig away the earth to reveal the hidden entrance.\n\n\nBelow is a list of possible subsequent events:\n\n['Countless leaves cascaded down from the gap carved by Pascal.', 'A multitude of butterflies emerged from the crack developed by Pascal.', 'Scores of flowers bloomed wildly around the fissure made by Pascal.', 'Hundreds of birds flocked from the opening created by Pascal.', 'Thousands of insects escaped from the aperture formed by Pascal.', 'Dozens of fish leapt from the stream diverted by Pascal.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 1457,
+        "latency_s": 20.36,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n89. Pascal ordered the helmsman to put down his helm to leave La Pianosa to starboard.\n90. Pascal reflected on the joy he could evoke from his men with a single word.\n91. Pascal insisted that his comrades should have their meal despite Armando's condition.\n92. Pascal began to dig away the earth to reveal the hidden entrance.\n93. Thousands of insects escaped from the aperture formed by Pascal.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal hesitated and reflected before descending.', 'Pascal paused and contemplated before stepping forward.', 'Pascal deliberated and mulled over before proceeding.', 'Pascal wavered and considered before advancing.', 'Pascal pondered and deliberated before moving ahead.', 'Pascal reflected and evaluated before taking the plunge.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1131,
+        "latency_s": 15.5,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n90. Pascal reflected on the joy he could evoke from his men with a single word.\n91. Pascal insisted that his comrades should have their meal despite Armando's condition.\n92. Pascal began to dig away the earth to reveal the hidden entrance.\n93. Thousands of insects escaped from the aperture formed by Pascal.\n94. Pascal hesitated and reflected before descending.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal spotted a vibrant orange feather lying within the flowerbed.', 'Pascal encountered a shiny metal coin buried under the gravel.', 'Pascal discovered a peculiar green leaf tucked beneath the moss.', 'Pascal stumbled upon a dusty old book resting on the windowsill.', 'Pascal found a large white stone behind the stucco.', 'Pascal unearthed a small wooden box hidden in the ivy.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal unearthed a small wooden box hidden in the ivy.",
+        "steps": 1,
+        "tokens": 1349,
+        "latency_s": 21.8,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n91. Pascal insisted that his comrades should have their meal despite Armando's condition.\n92. Pascal began to dig away the earth to reveal the hidden entrance.\n93. Thousands of insects escaped from the aperture formed by Pascal.\n94. Pascal hesitated and reflected before descending.\n95. Pascal found a large white stone behind the stucco.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal attempted to lift the coffer but it was impossible.', 'Pascal sought to navigate the treacherous terrain, however it was utterly insurmountable.', 'Pascal wished to unravel the complex riddle, but it remained beyond comprehension.', 'Pascal aimed to rescue the trapped animal, yet it was hopelessly unreachable.', 'Pascal tried to ignite the damp kindling, but it was entirely unyielding.', 'Pascal endeavored to decipher the ancient script, yet it proved futile.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal attempted to lift the coffer but it was impossible.",
+        "steps": 1,
+        "tokens": 1506,
+        "latency_s": 20.35,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n92. Pascal began to dig away the earth to reveal the hidden entrance.\n93. Thousands of insects escaped from the aperture formed by Pascal.\n94. Pascal hesitated and reflected before descending.\n95. Pascal found a large white stone behind the stucco.\n96. Pascal attempted to lift the coffer but it was impossible.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal stood in silence, gazing at the ancient manuscript.', 'Pascal wandered aimlessly, tracing his fingers along the weathered stones.', 'Pascal climbed the mountain, searching for the elusive hidden cave.', 'Pascal lay flat on the ground, whispering secrets to the earth.', 'Pascal offered a sacrifice, honoring the spirits of the forest.', 'Pascal knelt and prayed before the treasure.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal knelt and prayed before the treasure.",
+        "steps": 1,
+        "tokens": 1055,
+        "latency_s": 10.55,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n93. Thousands of insects escaped from the aperture formed by Pascal.\n94. Pascal hesitated and reflected before descending.\n95. Pascal found a large white stone behind the stucco.\n96. Pascal attempted to lift the coffer but it was impossible.\n97. Pascal knelt and prayed before the treasure.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal embarked on his mission at the break of dawn.', 'Pascal restarted his exploration at sunrise.', 'Pascal initiated his pursuit at first light.', 'Pascal resumed his search at dawn.', 'Pascal continued his journey at twilight.', 'Pascal began his quest at daybreak.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1186,
+        "latency_s": 17.47,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n94. Pascal hesitated and reflected before descending.\n95. Pascal found a large white stone behind the stucco.\n96. Pascal attempted to lift the coffer but it was impossible.\n97. Pascal knelt and prayed before the treasure.\n98. Pascal resumed his search at dawn.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal greeted his associates and sought updates on their travels.', 'Pascal met his companions and inquired about their trip.', 'Pascal joined his colleagues and asked about their recent adventure.', 'Pascal encountered his friends and questioned them about their journey.', 'Pascal found his peers and probed into their excursion details.', 'Pascal reunited with his teammates and explored the stories of their expedition.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal met his companions and inquired about their trip.",
+        "steps": 1,
+        "tokens": 1331,
+        "latency_s": 15.69,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n95. Pascal found a large white stone behind the stucco.\n96. Pascal attempted to lift the coffer but it was impossible.\n97. Pascal knelt and prayed before the treasure.\n98. Pascal resumed his search at dawn.\n99. Pascal met his companions and inquired about their trip.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal urged Beatrix to investigate the collaboration between Selena and Marissa.', 'Pascal advised Beatrix to evaluate the impact of Billie and Serafina.', 'Pascal instructed Beatrix to inquire about Rihanna and Abrielle.', 'Pascal encouraged Beatrix to explore the backgrounds of Taylor and Jaxon.', 'Pascal directed Beatrix to discuss the latest trends featuring Ariana and Camille.', 'Pascal prompted Beatrix to analyze the performances of Dua and Lila.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal instructed Beatrix to inquire about Rihanna and Abrielle.",
+        "steps": 1,
+        "tokens": 878,
+        "latency_s": 5.7,
+        "replan": 0
+      },
+      {
+        "question": "These are the events that have already occurred:\n\n...\n96. Pascal attempted to lift the coffer but it was impossible.\n97. Pascal knelt and prayed before the treasure.\n98. Pascal resumed his search at dawn.\n99. Pascal met his companions and inquired about their trip.\n100. Pascal instructed Beatrix to inquire about Rihanna and Abrielle.\n\n\nBelow is a list of possible subsequent events:\n\n['Pascal requested the yacht builder to create a secret closet in the cabin.', 'Pascal instructed the architect to design a hidden tunnel beneath the mansion.', 'Pascal commissioned the tailor to sew a secret pocket within the jacket.', 'Pascal urged the chef to prepare a clandestine dish not listed on the menu.', 'Pascal asked the jeweler to craft a concealed compartment in the necklace.', 'Pascal directed the gardener to plant an invisible fence around the estate.']\n\n Your task is to choose from the above events which event happens next based on the book excerpt. In your response to me, only include the answer without anything else. ",
+        "answer": "Pascal requested the yacht builder to create a secret closet in the cabin.",
+        "steps": 1,
+        "tokens": 1014,
+        "latency_s": 9.26,
+        "replan": 0
+      }
+    ]
+  }
+}

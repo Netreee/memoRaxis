@@ -1,0 +1,17 @@
+{
+  "system": "hipporag",
+  "instance_idx": 3,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，将核心人物关系（如信件作者、收信人、被救者）和关键情节（如怪物由谁创造）完全错误或颠倒，且包含了大量标准答案中未要求的分析性内容（如‘悲剧故事’、‘寻求陪伴’等），未能按要求仅概括情节与人物。"
+    }
+  ]
+}

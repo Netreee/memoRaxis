@@ -1,0 +1,621 @@
+{
+  "dataset": "Test_Time_Learning",
+  "backend": "mem0",
+  "instance_idx": 1,
+  "results": {
+    "R3": [
+      {
+        "question": "Are there restrictions for my disposable card since it does not seem to be working?",
+        "answer": "{5}",
+        "steps": 6,
+        "tokens": 22388,
+        "latency_s": 171.71,
+        "replan": 0
+      },
+      {
+        "question": "I'm trying to transfer money to another country. It's just pending and not sending. My account details are correct. Please help me.",
+        "answer": "{12}",
+        "steps": 5,
+        "tokens": 22159,
+        "latency_s": 227.46,
+        "replan": 0
+      },
+      {
+        "question": "What do I do if I notice a strange withdrawl in my statement?",
+        "error": "'str' object has no attribute 'get'"
+      },
+      {
+        "question": "I got a message that I need to verify my identity; what do I do?",
+        "answer": "4",
+        "steps": 5,
+        "tokens": 19464,
+        "latency_s": 216.75,
+        "replan": 0
+      },
+      {
+        "question": "How do I use the app if I don't have my phone with me?",
+        "answer": "{1}",
+        "steps": 3,
+        "tokens": 10949,
+        "latency_s": 103.32,
+        "replan": 0
+      },
+      {
+        "question": "why is the exchange rate for a Foreign ATM different",
+        "answer": "{0}",
+        "steps": 10,
+        "tokens": 62763,
+        "latency_s": 395.89,
+        "replan": 2
+      },
+      {
+        "question": "What happens if my card is stuck in the ATM?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726795060578b55878d95caf0a54b04de1dacd104ededf5b9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Is there a discount for frequently exchanging currencies?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726795075058b55878d95caf0a54b04de1dacd104edee344c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I sent money.  They haven't received it.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726795097228b55878d95caf0a54b04de1dacd104edce66d6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What age do my kids need to be to use your service?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726795111268b55878d95caf0a54b04de1dacd104ede0d528', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I've notice I was charged for withdrawing cash, can you explain why?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726795125928b55878d95caf0a54b04de1dacd104ed349cfe', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Can you please identify the problem with my bank card?",
+        "answer": "{label}",
+        "steps": 3,
+        "tokens": 13356,
+        "latency_s": 201.31,
+        "replan": 0
+      },
+      {
+        "question": "Do you know where my card will be accepted?",
+        "answer": "{27}",
+        "steps": 4,
+        "tokens": 13884,
+        "latency_s": 144.49,
+        "replan": 0
+      },
+      {
+        "question": "My work sends me all over the world, can I get a discount for all the money I have to exchange?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802057198b55878d95caf0a54b04de1dacd104edc52908', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Why do I have to verify my identity?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802074348b55878d95caf0a54b04de1dacd104edda32d3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "When my card expires what happens to my account?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802089998b55878d95caf0a54b04de1dacd104ed41462c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "It appears that I am being double charged for some items that I have purchased this past week.  Please review and correct.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802105268b55878d95caf0a54b04de1dacd104ed16c1e3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "how long til my cash out goes through?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802122888b55878d95caf0a54b04de1dacd104eddb3b10', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "my phone is gone",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802138338b55878d95caf0a54b04de1dacd104edf3a46a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "My money transfer has not arrived.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802151708b55878d95caf0a54b04de1dacd104ed50b61f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I bought something but now I would like a refund. How do I do that?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802165628b55878d95caf0a54b04de1dacd104ed82078d', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Hello. Can you tell me if you use Visa or Mastercard?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802178358b55878d95caf0a54b04de1dacd104ed50dd41', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I can't see my latest bank transfer",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802198458b55878d95caf0a54b04de1dacd104ed736238', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I got a fee for an ATM withdrawal.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802213178b55878d95caf0a54b04de1dacd104edaa7c97', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "There is a transaction for $1 and I don't know why it was charged.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802229348b55878d95caf0a54b04de1dacd104ed6bbf9c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Am I able to get a second card?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802245308b55878d95caf0a54b04de1dacd104ed858ea1', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Why is my card payment showing as pending?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802261708b55878d95caf0a54b04de1dacd104edfe260f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Why was I chaged twice for the same thing?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802276898b55878d95caf0a54b04de1dacd104ed2a17d6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Is it okay to use a bank card to top up",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802295908b55878d95caf0a54b04de1dacd104ed733dc5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I see what looks like duplicate charges on account.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726802311308b55878d95caf0a54b04de1dacd104ed241fbb', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What ATMs is the card okay to use at?",
+        "answer": "{3}",
+        "steps": 1,
+        "tokens": 3810,
+        "latency_s": 59.69,
+        "replan": 0
+      },
+      {
+        "question": "I want a refund because my package has been taking too long to arrive. How do I go about doing that?",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 4415,
+        "latency_s": 73.2,
+        "replan": 0
+      },
+      {
+        "question": "Freeze my account it's been hacked.",
+        "answer": "{}",
+        "steps": 1,
+        "tokens": 5740,
+        "latency_s": 117.53,
+        "replan": 0
+      },
+      {
+        "question": "The card got declined twice when I tried to use it to buy something online yesterday.",
+        "answer": "{11}",
+        "steps": 4,
+        "tokens": 16858,
+        "latency_s": 191.7,
+        "replan": 0
+      },
+      {
+        "question": "The transfer is coming up as pending the payment is due today. Will I be charged a fee?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726806747918b55878d95caf0a54b04de1dacd104ed680591', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Does my PIN come with my card?",
+        "answer": "{4}",
+        "steps": 6,
+        "tokens": 28590,
+        "latency_s": 242.44,
+        "replan": 2
+      },
+      {
+        "question": "Someone else is using my card, freeze it.",
+        "answer": "{11}",
+        "steps": 4,
+        "tokens": 16681,
+        "latency_s": 187.9,
+        "replan": 1
+      },
+      {
+        "question": "Transferring money in 2018 to another country shouldn't take this long. My transfer has been pending for too long. I verified my account details are correct.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726812217638b55878d95caf0a54b04de1dacd104edb437ba', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "My card is gone I think it was stolen",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726812232818b55878d95caf0a54b04de1dacd104eda4a9de', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Can I get a mastercard?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726812251358b55878d95caf0a54b04de1dacd104ed1960ad', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I don't understand where this debit came from and want it removed.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726812266718b55878d95caf0a54b04de1dacd104edeacf1f', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I made a transfer 12 hours ago. Why is it still listed as pending?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726812284318b55878d95caf0a54b04de1dacd104ed221390', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "can you limit my top up?",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 22621,
+        "latency_s": 295.86,
+        "replan": 2
+      },
+      {
+        "question": "Why can't I get my virtual card to work?",
+        "answer": "{15}",
+        "steps": 3,
+        "tokens": 11813,
+        "latency_s": 165.64,
+        "replan": 0
+      },
+      {
+        "question": "What steps must I follow to get a Visa credit card?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819077368b55878d95caf0a54b04de1dacd104ed7319ef', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Can I transfer money to a beneficiery?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819096218b55878d95caf0a54b04de1dacd104edeaeb08', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Can you help with a transfer to an account",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819111168b55878d95caf0a54b04de1dacd104ed8549f4', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Do you support all fiat currencies?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819125968b55878d95caf0a54b04de1dacd104edfe6151', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "My transfer didn't go through.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819145858b55878d95caf0a54b04de1dacd104edd097cf', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "How do I add the card to my account?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819161368b55878d95caf0a54b04de1dacd104edc9047a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I am still waiting for a cash withdrawal to show",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819175508b55878d95caf0a54b04de1dacd104ed5f5ef7', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "What places can I use my card?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726819194188b55878d95caf0a54b04de1dacd104edcb2c91', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "How do I open up an account for my child?",
+        "answer": "{2}",
+        "steps": 3,
+        "tokens": 11451,
+        "latency_s": 135.22,
+        "replan": 0
+      },
+      {
+        "question": "can you tell me what cards and currencies you take?",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 8498,
+        "latency_s": 128.16,
+        "replan": 0
+      },
+      {
+        "question": "Why didn't my balance change after I transferred some money?",
+        "answer": "{15}",
+        "steps": 7,
+        "tokens": 33855,
+        "latency_s": 262.81,
+        "replan": 1
+      },
+      {
+        "question": "The wrong rate was applied to an item I bought in a currency different from mine. Can this be changed?",
+        "answer": "{1}",
+        "steps": 9,
+        "tokens": 50299,
+        "latency_s": 346.95,
+        "replan": 2
+      },
+      {
+        "question": "How many tries do I have to enter my pin before I'm blocked?",
+        "answer": "{-1}",
+        "steps": 4,
+        "tokens": 17465,
+        "latency_s": 172.38,
+        "replan": 2
+      },
+      {
+        "question": "My top-up isn't working.",
+        "answer": "{}",
+        "steps": 1,
+        "tokens": 5864,
+        "latency_s": 106.77,
+        "replan": 0
+      },
+      {
+        "question": "Where do I need to live to get support?",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 5146,
+        "latency_s": 97.59,
+        "replan": 0
+      },
+      {
+        "question": "Delete this account!",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "There is an extra $1 charge",
+        "answer": "3",
+        "steps": 8,
+        "tokens": 42046,
+        "latency_s": 366.88,
+        "replan": 2
+      },
+      {
+        "question": "app does not recognize me",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 3941,
+        "latency_s": 59.26,
+        "replan": 0
+      },
+      {
+        "question": "What are the fees for a physical card?",
+        "answer": "{3}",
+        "steps": 1,
+        "tokens": 4973,
+        "latency_s": 78.73,
+        "replan": 0
+      },
+      {
+        "question": "Is there a limit to top-ups?",
+        "answer": "{1}",
+        "steps": 4,
+        "tokens": 14495,
+        "latency_s": 146.27,
+        "replan": 0
+      },
+      {
+        "question": "Please explain why the transfers shows up as pending?",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 4827,
+        "latency_s": 85.19,
+        "replan": 0
+      },
+      {
+        "question": "How do I know which ATMs will accept this card?",
+        "answer": "{2}",
+        "steps": 4,
+        "tokens": 16971,
+        "latency_s": 197.11,
+        "replan": 0
+      },
+      {
+        "question": "Is my cash withdrawal pending?",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 22130,
+        "latency_s": 178.44,
+        "replan": 2
+      },
+      {
+        "question": "Why do you require so many identity details?",
+        "answer": "{16}",
+        "steps": 8,
+        "tokens": 35351,
+        "latency_s": 293.64,
+        "replan": 2
+      },
+      {
+        "question": "I don't recognize a debit payment that was made and would like to find out about the payment.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847357138b55878d95caf0a54b04de1dacd104edfb69b9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Still waiting on a refund.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726847371258b55878d95caf0a54b04de1dacd104edf64fca', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "Why is there a transaction that shows multiple times?",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "I was taking out funds and was unable to regain my card.",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "My credit card cancelled a payment for a purchase.",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "Can I get a physical card through this app?",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 3310,
+        "latency_s": 36.85,
+        "replan": 0
+      },
+      {
+        "question": "I made a mistake and need to cancel a transaction",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726852154008b55878d95caf0a54b04de1dacd104ed9230af', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I need to verify my identity, but how do I do that?",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726852169608b55878d95caf0a54b04de1dacd104edc21742', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "I need to cancel an incorrect transaction.",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 0217726852185898b55878d95caf0a54b04de1dacd104ed9f5a6b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "My latest payment was declined, I was told everything was back to working order. What happened?",
+        "answer": "{11}",
+        "steps": 8,
+        "tokens": 42109,
+        "latency_s": 293.2,
+        "replan": 2
+      },
+      {
+        "question": "whats your exchange rate",
+        "answer": "{40}",
+        "steps": 4,
+        "tokens": 16652,
+        "latency_s": 195.58,
+        "replan": 2
+      },
+      {
+        "question": "How do I get my paycheck through this?",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 3865,
+        "latency_s": 55.25,
+        "replan": 0
+      },
+      {
+        "question": "How can i check if my card is working?",
+        "answer": "{1}",
+        "steps": 10,
+        "tokens": 55269,
+        "latency_s": 415.22,
+        "replan": 2
+      },
+      {
+        "question": "What is the top-ups limit?",
+        "answer": "{}",
+        "steps": 7,
+        "tokens": 34463,
+        "latency_s": 318.61,
+        "replan": 2
+      },
+      {
+        "question": "I would like to link my card. How do I do it?",
+        "answer": "{3}",
+        "steps": 1,
+        "tokens": 3279,
+        "latency_s": 40.53,
+        "replan": 0
+      },
+      {
+        "question": "Where do I go if I want to link my new card?",
+        "answer": "{2}",
+        "steps": 1,
+        "tokens": 3431,
+        "latency_s": 37.01,
+        "replan": 0
+      },
+      {
+        "question": "How can I start using my card?",
+        "answer": "{2}",
+        "steps": 1,
+        "tokens": 3701,
+        "latency_s": 49.16,
+        "replan": 0
+      },
+      {
+        "question": "I made a mistake when I did a transfer so now what can I do to fix that?",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 4686,
+        "latency_s": 77.04,
+        "replan": 0
+      },
+      {
+        "question": "The app reverted what I topped up.",
+        "answer": "{12}",
+        "steps": 5,
+        "tokens": 24584,
+        "latency_s": 300.38,
+        "replan": 0
+      },
+      {
+        "question": "In terms of holding and exchange, what fiat currencies do you use.",
+        "answer": "{1}",
+        "steps": 7,
+        "tokens": 30032,
+        "latency_s": 243.28,
+        "replan": 2
+      },
+      {
+        "question": "Can you tell me if my top-up has been cancelled?",
+        "answer": "{ }",
+        "steps": 1,
+        "tokens": 6302,
+        "latency_s": 115.01,
+        "replan": 0
+      },
+      {
+        "question": "Why can't I use my American Express with Apple Pay to top up my account?",
+        "answer": "{1}",
+        "steps": 4,
+        "tokens": 16534,
+        "latency_s": 169.49,
+        "replan": 0
+      },
+      {
+        "question": "Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but \"Pending\", and that status has never changed during the last two days.",
+        "answer": "{0}",
+        "steps": 1,
+        "tokens": 5350,
+        "latency_s": 86.47,
+        "replan": 0
+      },
+      {
+        "question": "I received my new card, but I don't see it in the app anywhere.  What do I do?",
+        "answer": "{11}",
+        "steps": 7,
+        "tokens": 32987,
+        "latency_s": 299.85,
+        "replan": 2
+      },
+      {
+        "question": "The transfer I did hasn't arrived",
+        "answer": "{12}",
+        "steps": 5,
+        "tokens": 20996,
+        "latency_s": 191.0,
+        "replan": 0
+      },
+      {
+        "question": "Can I top up using an international card",
+        "answer": "{17}",
+        "steps": 6,
+        "tokens": 29001,
+        "latency_s": 327.1,
+        "replan": 2
+      },
+      {
+        "question": "How do I deal with a blocked PIN?",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 4214,
+        "latency_s": 60.69,
+        "replan": 0
+      },
+      {
+        "question": "Why was I charged a fee for withdrawing cash?",
+        "answer": "{11}",
+        "steps": 5,
+        "tokens": 21267,
+        "latency_s": 173.69,
+        "replan": 0
+      },
+      {
+        "question": "I payed with a card and was charged an extra fee",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "Hello. I checked my transactions and saw I was double charged on my card for a restaurant visit. I would like to get my money back.",
+        "answer": "{}",
+        "steps": 1,
+        "tokens": 5601,
+        "latency_s": 101.94,
+        "replan": 0
+      },
+      {
+        "question": "How long do card transactions take to clear?",
+        "answer": "{2}",
+        "steps": 7,
+        "tokens": 35594,
+        "latency_s": 315.92,
+        "replan": 2
+      },
+      {
+        "question": "I don't like that I have to fill out so much information about my identity.",
+        "answer": "17",
+        "steps": 8,
+        "tokens": 37926,
+        "latency_s": 342.46,
+        "replan": 2
+      }
+    ]
+  }
+}

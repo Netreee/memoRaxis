@@ -1,0 +1,57 @@
+{
+  "dataset": "Long_Range_Understanding",
+  "backend": "mem0",
+  "instance_idx": 107,
+  "results": {
+    "R2": [
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  Why did the killer choose to use a lighter for illumination?\nA. Bad eyesight\nB. Flashlight is broken.\nC. A lighter does not attract attention.\nD. No other illumination tools\n Output:",
+        "answer": "{\"answer\":\"A. Bad eyesight\", \"reasoning\":\"The shrine's altar had lighter burn marks, and Oyama noticed that the killer using a lighter instead of a visible flashlight indicates they wear glasses. Wearing glasses usually implies bad eyesight, so the killer chose a lighter for illumination due to their bad eyesight.\"}",
+        "steps": 4,
+        "tokens": 9238,
+        "latency_s": 91.6,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  Who was the person who made the toad-faced man commit suicide?\nA. Emperor Shadow's mother\nB. Spring Vegetables\nC.Quiet Horse\nD.Hesheng\n Output:",
+        "answer": "{\"answer\": \"No relevant information\", \"reasoning\": \"The provided context does not mention the toad-faced man or any of the options (A. Emperor Shadow's mother, B. Spring Vegetables, C. Quiet Horse, D. Hesheng) being responsible for making someone commit suicide. There is no relevant information in the given context to answer the question.\"}",
+        "steps": 5,
+        "tokens": 12965,
+        "latency_s": 135.0,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  The real culprit of the triple murder case 18 years ago was who?\nA. Enter\nB. Xukun Cai\nC. The mother of the Empress\nD. Zhong Tianjing Ma\n Output:",
+        "answer": "{\"answer\":\"C. The mother of the Empress\", \"reasoning\":\"The current case's killer is the mother (Oyama Oyim) (source: points 20,40). The current case uses the same murder method as the 18-year-old case: hit on back of head, strangled with belt-like object, then beheaded with axe (source: points5,16,24,35,45). This suggests the same person is responsible for both cases. Additionally, Ogiu-san made a false confession in the 18-year-old case possibly to protect the killer (source: points2,11,22,32,42), which aligns with the mother being the culprit.\"}",
+        "steps": 5,
+        "tokens": 13158,
+        "latency_s": 120.5,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  The hideout of the criminal is\nA. Qin Nai Tang\nB.Qinzhe Family Mansion\nC.Jumi's family\nD. Pre-death residence\n Output:",
+        "answer": "{\"answer\":\"D. Pre-death residence\", \"reasoning\":\"The sliding door in the inner room was closed when Suma was decapitated but open when her body was found (entry 8). The person X (who hid in the inner room) stayed with Suma's body until the snow stopped falling (entry18). Oyama deduced Snow Vegetable must have gone home once before being killed based on crime scene and room clues (entries19,39,46). Combining these clues, the inner room where the criminal hid is the victim's pre-death residence.\"}",
+        "steps": 5,
+        "tokens": 13872,
+        "latency_s": 167.03,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  The killer of Yuecai is\nA.Imperial Shadow\nB.Yuying's Mother\nC. Broccoli\nD. Miss Mizuno\n Output:",
+        "answer": "{\"answer\":\"B. Yuying's Mother\", \"reasoning\":\"[5] The mother (Oyama Oyim) is the current case's killer. [15] The mother (Oyama Oyim) is the current case's killer. [31] The mother (Oyama Oyim) is the current case's killer. Yuying's mother is Oyama Oyim, so she is the killer of Yuecai.\"}",
+        "steps": 5,
+        "tokens": 13334,
+        "latency_s": 171.98,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  Why does the watch on the victim's hand look suspicious?\nA. Xuecai usually doesn't wear a watch.\nB. The time on the watch has been adjusted\nC. The watch is clean.\nD. The watch is put on after death\n Output:",
+        "answer": "{\"answer\":\"D. The watch is put on after death\", \"reasoning\":\"Snow Vegetable's right wrist watch was face upside down, likely put back by the killer. This indicates that the watch was not in its normal state when the victim was alive and was probably placed on the victim's hand by the killer after death, making it suspicious.\"}",
+        "steps": 2,
+        "tokens": 4977,
+        "latency_s": 81.4,
+        "replan": 0
+      }
+    ]
+  }
+}

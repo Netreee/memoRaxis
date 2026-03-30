@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import os
+import subprocess
 import sys
 import shutil
 from pathlib import Path
@@ -22,6 +23,10 @@ logger = get_logger()
 # Embedding proxy 配置
 EMBEDDING_PROXY_URL = "http://127.0.0.1:8284/v1"
 EMBEDDING_MODEL_ALIAS = "text-embedding-3-small"  # triggers OpenAIEmbeddingModel in HippoRAG
+
+# Fornax server 配置（HippoRAG 内部 LLM 调用走此端口）
+FORNAX_SERVER_PORT = 8285
+FORNAX_SERVER_URL = f"http://127.0.0.1:{FORNAX_SERVER_PORT}/v1"
 
 
 def _add_hipporag_to_syspath(project_root: Path) -> None:
@@ -73,9 +78,16 @@ class HippoRAGMemory(BaseMemorySystem):
 
         # 设置 OpenAI 环境变量（HippoRAG 内部需要）
         llm_conf = self._config.llm
-        api_key = llm_conf.get("api_key") or os.getenv("OPENAI_API_KEY")
-        if api_key:
-            os.environ["OPENAI_API_KEY"] = api_key
+        provider = llm_conf.get("provider", "openai").lower()
+
+        api_key = llm_conf.get("api_key") or os.getenv("OPENAI_API_KEY", "dummy")
+        os.environ["OPENAI_API_KEY"] = api_key
+
+        if provider == "fornax":
+            llm_base_url, llm_name = self._ensure_fornax_server(llm_conf)
+        else:
+            llm_base_url = llm_conf.get("base_url")
+            llm_name = llm_conf.get("model", "gpt-4o-mini")
 
         # 导入 HippoRAG
         project_root = Path(__file__).resolve().parents[1]
@@ -84,10 +96,10 @@ class HippoRAGMemory(BaseMemorySystem):
         from hipporag import HippoRAG  # type: ignore
         from hipporag.utils.config_utils import BaseConfig  # type: ignore
 
-        # HippoRAG 配置：LLM 用 Ark，Embedding 走 proxy
+        # HippoRAG 配置：LLM 走 llm_base_url，Embedding 走 proxy
         global_config = BaseConfig(
-            llm_name=llm_conf.get("model", "gpt-4o-mini"),
-            llm_base_url=llm_conf.get("base_url"),
+            llm_name=llm_name,
+            llm_base_url=llm_base_url,
             embedding_model_name=EMBEDDING_MODEL_ALIAS,
             embedding_base_url=EMBEDDING_PROXY_URL,
             openie_mode=self.openie_mode,
@@ -99,6 +111,82 @@ class HippoRAGMemory(BaseMemorySystem):
 
         self._hippo = HippoRAG(global_config=global_config)
         self._buffer: List[str] = []
+
+    @staticmethod
+    def _ensure_fornax_server(llm_conf: Dict[str, Any]) -> tuple:
+        """确保 Fornax HTTP 服务正在运行，返回 (base_url, model_name)。
+
+        检查端口 FORNAX_SERVER_PORT 是否已有进程监听；若无则在后台启动
+        fornax/fornax_openai_server.py。
+        """
+        import socket
+        import time
+
+        project_root = Path(__file__).resolve().parents[1]
+        server_script = project_root / "fornax" / "fornax_openai_server.py"
+
+        def _pid_on_port() -> str:
+            """返回监听该端口的进程 PID（字符串），无则返回空串。"""
+            import subprocess as sp
+            try:
+                out = sp.check_output(
+                    ["fuser", f"{FORNAX_SERVER_PORT}/tcp"], stderr=sp.DEVNULL
+                )
+                return out.decode().strip()
+            except Exception:
+                return ""
+
+        def _port_open() -> bool:
+            try:
+                with socket.create_connection(("127.0.0.1", FORNAX_SERVER_PORT), timeout=2):
+                    return True
+            except OSError:
+                return False
+
+        if _port_open():
+            # 端口已可连接，直接使用
+            logger.info("[HippoRAGMemory] Fornax server already ready at %s", FORNAX_SERVER_URL)
+        elif _pid_on_port():
+            # 端口被占用但尚未就绪（正在初始化），等待最多 120s，不重复启动
+            logger.info(
+                "[HippoRAGMemory] Fornax port %d occupied (pid=%s), waiting up to 120s …",
+                FORNAX_SERVER_PORT, _pid_on_port(),
+            )
+            for _ in range(120):
+                if _port_open():
+                    break
+                time.sleep(1)
+            else:
+                raise RuntimeError(
+                    f"Fornax server on port {FORNAX_SERVER_PORT} never became ready within 120s"
+                )
+            logger.info("[HippoRAGMemory] Fornax server ready at %s", FORNAX_SERVER_URL)
+        else:
+            # 端口空闲，自己启动
+            logger.info("[HippoRAGMemory] Starting Fornax server on port %d …", FORNAX_SERVER_PORT)
+            env = os.environ.copy()
+            env["FORNAX_AK"] = llm_conf.get("fornax_ak", "")
+            env["FORNAX_SK"] = llm_conf.get("fornax_sk", "")
+            env["FORNAX_PROMPT_KEY"] = llm_conf.get("fornax_prompt_key", "")
+            env["FORNAX_OPENAI_PORT"] = str(FORNAX_SERVER_PORT)
+            subprocess.Popen(
+                [sys.executable, str(server_script)],
+                env=env,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+            for _ in range(120):
+                if _port_open():
+                    break
+                time.sleep(1)
+            else:
+                raise RuntimeError(
+                    f"Fornax server failed to start on port {FORNAX_SERVER_PORT} within 120s"
+                )
+            logger.info("[HippoRAGMemory] Fornax server ready at %s", FORNAX_SERVER_URL)
+
+        model_name = llm_conf.get("fornax_prompt_key", "")
+        return FORNAX_SERVER_URL, model_name
 
     def add_memory(self, data: str, metadata: Dict[str, Any]) -> None:
         if isinstance(data, str) and data.strip():

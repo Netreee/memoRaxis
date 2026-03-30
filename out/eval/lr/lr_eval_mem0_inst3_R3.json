@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 3,
+  "adaptor": "R3",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，核心情节（Lillie的北极航行、营救Joey、听其讲述创造怪物的故事）完全缺失，人物关系（Lillie与Joey）和主要事件错误，转而描述了标准答案中不存在的家庭、婚姻、疾病等无关内容。"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 100,
+  "adaptor": "R3",
+  "accuracy": 0.5,
+  "correct": 3,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案的核心内容一致，均指向Brandt couple，且推理过程基于文本中的关键人物关系和情节（Mrs. Brand的供述及其对丈夫的指控），核心内容准确无误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均为'B. Miss Martin Dale'，核心内容准确无误。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案'B. Hila Weber'与标准答案'B.Hila Weber'在核心内容上一致，但问题要求评估的是长文本摘要任务，而提供的示例是选择题。Agent的预测是针对选择题的答案和推理，并非对给定故事文本的摘要，因此无法按照摘要评估标准进行评分，属于任务偏离。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心内容（第一任妻子）与标准答案（第二任妻子）在关键人物关系上完全错误，属于严重偏离。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。标准答案为'通过伪造身份继承'，而Agent预测为'通过有效遗嘱继承'，属于核心情节颠倒。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程引用了相关证据，核心内容准确无误。"
+    }
+  ]
+}

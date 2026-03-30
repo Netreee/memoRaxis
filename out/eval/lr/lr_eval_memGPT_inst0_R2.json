@@ -1,0 +1,17 @@
+{
+  "system": "memGPT",
+  "instance_idx": 0,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案的核心内容。标准答案聚焦于Jennifer与Loris的婚姻矛盾、角色性格及与Will的关系，而Agent预测引入了大量无关人物（如Mr. Pete, Bunch, Sir Briar）和次要情节（如遗嘱附录、偷羊贼），完全缺失了Jennifer的初始期望、对Loris才华的怀疑等核心情节，且对人物关系的描述与标准答案不符。"
+    }
+  ]
+}

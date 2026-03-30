@@ -8,7 +8,13 @@ venv/
 
 # 日志与输出
 log/
-out/
+
+# out/ 子目录：精确忽略大型存储/索引，允许实验结果 JSON 入库
+out/hipporag/indices/
+out/amem/chroma/
+out/amem/ingest_progress/
+out/raptor/trees/
+out/raptor/logs/
 
 # Python
 __pycache__/

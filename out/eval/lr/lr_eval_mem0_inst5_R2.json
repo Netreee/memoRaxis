@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 5,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离核心情节与人物关系，将主角Andromeda与Adrian的关系描述为已婚且存在矛盾，而标准答案中他们初识且互有好感；同时引入了大量标准答案中未出现的人物（如Mr. Mya, Mr. Deanne）和事件（如伦敦通信、图书馆），核心情节缺失或错误。"
+    }
+  ]
+}

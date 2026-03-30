@@ -1,0 +1,17 @@
+{
+  "system": "hipporag",
+  "instance_idx": 4,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，将核心人物Atticus Finch错误命名为Ariel，并引入了标准答案中完全不存在的关键情节（如Frances Bertram案件、Gia Leena事件、Mallory Gian等），主要人物关系和故事框架与标准答案不符。"
+    }
+  ]
+}

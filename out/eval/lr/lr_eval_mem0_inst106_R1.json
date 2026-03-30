@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 106,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案'C. Misty Sketches'相关的核心内容，属于严重偏离。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未包含标准答案中的核心内容，严重偏离要求。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案'C.Xi Yan'相关的核心内容。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案'C.Mist painting'相关的核心内容。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供标准答案中的核心内容，严重偏离要求。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心内容（为家人复仇）与标准答案（完成她的美学）完全不符，属于核心情节错误。"
+    }
+  ]
+}

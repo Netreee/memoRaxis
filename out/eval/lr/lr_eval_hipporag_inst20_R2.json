@@ -1,0 +1,17 @@
+{
+  "system": "hipporag",
+  "instance_idx": 20,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，主要人物姓名（Caitlin Alfred, Lavinia Carlton等）、核心情节（前往Tahiti、绘画、死亡地点等）与标准答案（Alfred为股票经纪人、离开家庭前往马来西亚、叙述者受其妻子委托等）完全不符，属于核心内容错误。"
+    }
+  ]
+}

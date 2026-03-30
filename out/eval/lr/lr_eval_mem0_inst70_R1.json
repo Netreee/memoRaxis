@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 70,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，核心情节与人物关系错误。标准答案围绕Ziva俱乐部成员的冒险展开，而Agent预测混淆了人物（如Mr. Ziva与Myrtle Ziva）、错误描述了人物关系（如将Mr. Gwen视为诈骗犯而非俱乐部成员），并引入了大量无关或错误的情节（如Arabella Allen的婚姻、Donna Christina的故事等），缺失了俱乐部集体冒险的核心内容。"
+    }
+  ]
+}

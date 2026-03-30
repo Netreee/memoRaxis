@@ -1,0 +1,17 @@
+{
+  "system": "mem0g",
+  "instance_idx": 8,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测的摘要与标准答案的核心情节和人物设定严重不符。标准答案描述Tasha回家后发现家园荒废，并遇到Dash Palmer；而Agent预测描述的是一个完整的家庭西迁故事，涉及众多标准答案中未出现的人物（如Ma, Pa, Al, Grampa）和事件（如迁移、打工、死亡），核心内容完全偏离。"
+    }
+  ]
+}

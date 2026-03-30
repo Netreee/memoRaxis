@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 67,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案核心情节与人物关系。标准答案围绕Lars与Raine两家的关系展开，核心事件是音乐会相遇和Rainees搬家。而Agent预测内容混乱，包含大量无关或错误细节（如Morris成为乞丐、Nate Raine的生意、房产遗留等），且主要情节（如两家的对立、音乐会相遇）缺失或错误，整体未能准确概括故事。"
+    }
+  ]
+}

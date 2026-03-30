@@ -1,0 +1,57 @@
+{
+  "dataset": "Long_Range_Understanding",
+  "backend": "mem0",
+  "instance_idx": 100,
+  "results": {
+    "R1": [
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  Which character is related to the death of the deceased?\nA. Mrs. Hemm\nB. Mr. and Mrs. MacNamara\nC. The Brandt couple\nD. Miss House\n Output:",
+        "answer": "{\"answer\":\"C. The Brandt couple\",\"reasoning\":\"[1] Mrs. Brand confessed to being involved in the crime and claimed her husband Jocelyn Brand and sister Miss Martin orchestrated it. Although the option uses 'Brandt' which may be a typo for 'Brand' as mentioned in the context, the Brand couple (Jocelyn Brand and his wife) are clearly related to the crime. The other options: Mrs. Hemm (Hamm in context) only made a comment without indication of involvement; Mr. and Mrs. MacNamara and Miss House are not mentioned in the context. Thus, the Brandt couple (Brand couple) are related to the death of the deceased.\"}",
+        "steps": 1,
+        "tokens": 1793,
+        "latency_s": 26.8,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  In connection with the death of Inna Brennt, which of the following individuals is a suspect?\nA. Sheila Webb\nB. Miss Martin Dale\nC. Miss Pema\nD. Mr. Brand\n Output:",
+        "answer": "{\"answer\": \"B. Miss Martin Dale; D. Mr. Brand\", \"reasoning\": \"According to context point 5, Mrs. Brand confessed to being involved in the crime (which includes Inna Brent's case as stated in point 4) and claimed her sister Miss Martin and husband Jocelyn Brand (Mr. Brand) orchestrated the crime. Thus, Miss Martin Dale (option B) and Mr. Brand (option D) are suspects.\"}",
+        "steps": 1,
+        "tokens": 2006,
+        "latency_s": 35.21,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  Who took the clock with the 'Rosemary' label?\nA. Colin Lamb\nB.Hila Weber\nC. Detective Harcourt\nD. Miss Pema Chodron\n Output:",
+        "answer": "{\"answer\":\"B. Hila Weber\", \"reasoning\":\"Hilary Webber (also known as Rosemary Shirley) took the clock inscribed with 'Rosemary' (her childhood name until age 6) because it was hers; she lost it earlier, found it at the murder scene, then threw it in a neighbor's trash bin. (Note: 'Hila Weber' in option B is likely a typo for 'Hilary Webber' as mentioned in the context.)\"}",
+        "steps": 1,
+        "tokens": 1597,
+        "latency_s": 11.81,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  Who is Mrs. Brand really?\nA. First wife of Brand, Valerie\nB. Lawyer\nC. Second wife of Brand\nD.Agency Execution by Law Firm\n Output:",
+        "answer": "{\"answer\":\"A. First wife of Brand, Valerie\", \"reasoning\":\"The context explicitly states in entry [1] that Mrs. Valerie Brand is the wife of Jocelyn Brand. There is no mention of any other wives of Brand in the provided memory entries, so Mrs. Brand is Valerie, the first wife of Brand.\"}",
+        "steps": 1,
+        "tokens": 1687,
+        "latency_s": 25.17,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  How did the Brandt couple acquire the inheritance?\nA. Inheriting through a valid will\nB. Acquired through transfer\nC. Inheriting by means of falsified identity\nD. Acquiring through purchase\n Output:",
+        "answer": "{\"answer\": \"Insufficient information\", \"reasoning\": \"The context only mentions that Mrs. Valerie Brand inherited a considerable amount of property from her uncle Henry Montreux eighteen months ago, but there is no information about the specific way she and her husband acquired the inheritance (such as through a valid will, transfer, falsified identity, or purchase).\"}",
+        "steps": 1,
+        "tokens": 1091,
+        "latency_s": 10.4,
+        "replan": 0
+      },
+      {
+        "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi's method of death was certainly not ( ) \n            A. Murder \n            B. Sudden death \n            C. Suicide \n            D. Sudden illness \n            \n            Output: {\"answer\":\"C. Suicide\", \"reasoning\":\" Litherm Rough is irritable and almost psychologically obsessed with his reputation. \",\n            \" Mr. Lichfield Rock believes himself to be the King of England.\",\n            \" Mr. Lichthelm Roech believes that his authority is supreme.\",\n            \" Mr. Lichthamn Roche may suffer from narcissistic personality disorder, as he firmly believes that the world cannot exist without him. \",\n            \" Mr. Litchfield Rock was found deceased, seated sideways, facing the window.\",\n            \" Based on the above clues, it is inferred that Mr. Lichthom's mental issues would cause him to go mad, but he would never commit suicide. If he did commit suicide, his body posture would be facing the desk, which does not conform to suicide behavior.\"}\n            \n Now Answer the Question:  Who was the killer of Quentin Ducassin?\nA. Mr. and Mrs. Brand\nB. Miss Pema Khodro\nC. Mrs. Rival\nD. Mrs. Rumsfeld\n Output:",
+        "answer": "{\"answer\":\"A. Mr. and Mrs. Brand\", \"reasoning\":\"Mrs. Brand confessed to being involved in the crime and claimed her husband Jocelyn Brand orchestrated it (context [1]). Quentin Ducassin's body was hidden in the Brand family's backyard (context [4]). These clues indicate that Mr. and Mrs. Brand are the killers of Quentin Ducassin.\"}",
+        "steps": 1,
+        "tokens": 1675,
+        "latency_s": 22.13,
+        "replan": 0
+      }
+    ]
+  }
+}

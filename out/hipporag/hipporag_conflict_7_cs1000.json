@@ -1,0 +1,2401 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "hipporag",
+  "instance_idx": 7,
+  "results": {
+    "R1": [
+      {
+        "question": "Which university was Adam Putnam educated at?",
+        "answer": "University of Florida",
+        "steps": 1,
+        "tokens": 3440,
+        "latency_s": 3.15,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Tito Nieves play?",
+        "answer": "salsa",
+        "steps": 1,
+        "tokens": 3481,
+        "latency_s": 1.39,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "Iceland",
+        "steps": 1,
+        "tokens": 3489,
+        "latency_s": 1.28,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleWorks?",
+        "answer": "Apple Inc.",
+        "steps": 1,
+        "tokens": 3582,
+        "latency_s": 1.39,
+        "replan": 0
+      },
+      {
+        "question": "What language does Jasper Fforde speak?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 3486,
+        "latency_s": 1.32,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Benedict XIII affiliated with?",
+        "answer": "Methodism",
+        "steps": 1,
+        "tokens": 3540,
+        "latency_s": 1.27,
+        "replan": 0
+      },
+      {
+        "question": "What language does Shane Meadows speak?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 3448,
+        "latency_s": 91.45,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lou Gehrig play?",
+        "answer": "first baseman",
+        "steps": 1,
+        "tokens": 3558,
+        "latency_s": 1.51,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Shingon Buddhism?",
+        "answer": "Kūkai",
+        "steps": 1,
+        "tokens": 3555,
+        "latency_s": 1.38,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Extensible Markup Language?",
+        "answer": "Sega AM2",
+        "steps": 1,
+        "tokens": 3526,
+        "latency_s": 1.32,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Cy Young?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3497,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Davina McCall?",
+        "answer": "Kingdom of the Netherlands",
+        "steps": 1,
+        "tokens": 3564,
+        "latency_s": 1.28,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Witches of East End created in?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 3445,
+        "latency_s": 1.27,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Oculus VR, LLC?",
+        "answer": "Marc Benioff",
+        "steps": 1,
+        "tokens": 3525,
+        "latency_s": 1.57,
+        "replan": 0
+      },
+      {
+        "question": "Who was Bart Simpson created by?",
+        "answer": "Ray Bradbury",
+        "steps": 1,
+        "tokens": 3516,
+        "latency_s": 1.34,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Albert of Saxony affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 3497,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "Who was The IT Crowd created by?",
+        "answer": "Graham Linehan",
+        "steps": 1,
+        "tokens": 3555,
+        "latency_s": 1.3,
+        "replan": 0
+      },
+      {
+        "question": "What language does Queen Victoria I speak?",
+        "answer": "The language that Queen Victoria I speaks is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 3570,
+        "latency_s": 1.38,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Windows Vista produced by?",
+        "answer": "Microsoft",
+        "steps": 1,
+        "tokens": 3470,
+        "latency_s": 1.39,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Indiana Mr. Basketball associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 3514,
+        "latency_s": 1.3,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Laura Bush?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3487,
+        "latency_s": 1.32,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Helen Vendler?",
+        "answer": "Yale University",
+        "steps": 1,
+        "tokens": 3431,
+        "latency_s": 1.58,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of C. S. Forester?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 3559,
+        "latency_s": 1.25,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Tom Simpson?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 3454,
+        "latency_s": 1.26,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Diego Simeone associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 3501,
+        "latency_s": 1.28,
+        "replan": 0
+      },
+      {
+        "question": "Which country was go-go created in?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3454,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Arthur Miller?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3541,
+        "latency_s": 1.17,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Albania?",
+        "answer": "Edi Rama",
+        "steps": 1,
+        "tokens": 3545,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Liz Lochhead?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 3492,
+        "latency_s": 91.62,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Texas Collegiate League associated with?",
+        "answer": "baseball",
+        "steps": 1,
+        "tokens": 3445,
+        "latency_s": 1.31,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Vogue?",
+        "answer": "Madonna",
+        "steps": 1,
+        "tokens": 3558,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "Who is Wilma Flintstone's child?",
+        "answer": "Eric Garcetti",
+        "steps": 1,
+        "tokens": 3587,
+        "latency_s": 1.47,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Abraham Ortelius work in?",
+        "answer": "Berlin",
+        "steps": 1,
+        "tokens": 3517,
+        "latency_s": 1.22,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Armani?",
+        "answer": "Giorgio Armani",
+        "steps": 1,
+        "tokens": 3534,
+        "latency_s": 1.62,
+        "replan": 0
+      },
+      {
+        "question": "What position does Mathieu Flamini play?",
+        "answer": "midfielder",
+        "steps": 1,
+        "tokens": 3484,
+        "latency_s": 1.17,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of The Wonder Years?",
+        "answer": "British Broadcasting Corporation",
+        "steps": 1,
+        "tokens": 3413,
+        "latency_s": 1.28,
+        "replan": 0
+      },
+      {
+        "question": "Which company is M1895 Colt-Browning machine gun produced by?",
+        "answer": "Colt's Manufacturing Company",
+        "steps": 1,
+        "tokens": 3524,
+        "latency_s": 1.3,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius IX affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 3471,
+        "latency_s": 1.45,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Morning Joe?",
+        "answer": "MSNBC",
+        "steps": 1,
+        "tokens": 3518,
+        "latency_s": 1.37,
+        "replan": 0
+      },
+      {
+        "question": "Who is Herodias's child?",
+        "answer": "Francis Russell, 4th Earl of Bedford",
+        "steps": 1,
+        "tokens": 3531,
+        "latency_s": 1.42,
+        "replan": 0
+      },
+      {
+        "question": "Who was The Dark Knight created by?",
+        "answer": "Christopher Nolan",
+        "steps": 1,
+        "tokens": 3379,
+        "latency_s": 1.28,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Jeune Afrique created in?",
+        "answer": "Israel",
+        "steps": 1,
+        "tokens": 3478,
+        "latency_s": 1.4,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Anna Ancher?",
+        "answer": "Denmark",
+        "steps": 1,
+        "tokens": 3470,
+        "latency_s": 1.55,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Andy Griffith play?",
+        "answer": "post-punk",
+        "steps": 1,
+        "tokens": 3496,
+        "latency_s": 1.48,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Jerry Lee Lewis work in?",
+        "answer": "Helsinki",
+        "steps": 1,
+        "tokens": 3496,
+        "latency_s": 1.42,
+        "replan": 0
+      },
+      {
+        "question": "What language does William Shakespeare speak?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 3478,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Joseph Lyons affiliated with?",
+        "answer": "Methodism",
+        "steps": 1,
+        "tokens": 3502,
+        "latency_s": 1.22,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2014 CollegeInsider.com Postseason Tournament associated with?",
+        "answer": "basketball",
+        "steps": 1,
+        "tokens": 3557,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Harry Judd?",
+        "answer": "France",
+        "steps": 1,
+        "tokens": 3516,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "Which city did H. P. Lovecraft work in?",
+        "answer": "Providence",
+        "steps": 1,
+        "tokens": 3399,
+        "latency_s": 1.25,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Grêmio Barueri Futebol associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 3438,
+        "latency_s": 91.36,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius VI affiliated with?",
+        "answer": "Jainism",
+        "steps": 1,
+        "tokens": 3509,
+        "latency_s": 1.46,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Frank Norris educated at?",
+        "answer": "University of California, Berkeley",
+        "steps": 1,
+        "tokens": 3496,
+        "latency_s": 1.51,
+        "replan": 0
+      },
+      {
+        "question": "What language does Theodor Herzl speak?",
+        "answer": "French",
+        "steps": 1,
+        "tokens": 3530,
+        "latency_s": 1.24,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Spain?",
+        "answer": "Spanish",
+        "steps": 1,
+        "tokens": 3506,
+        "latency_s": 1.22,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn L. Martin?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3439,
+        "latency_s": 1.27,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Kingdom of Italy located in?",
+        "answer": "Asia",
+        "steps": 1,
+        "tokens": 3478,
+        "latency_s": 1.21,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is squeeze play associated with?",
+        "answer": "basketball",
+        "steps": 1,
+        "tokens": 3484,
+        "latency_s": 1.75,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Worksop Town F.C. associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 3410,
+        "latency_s": 1.2,
+        "replan": 0
+      },
+      {
+        "question": "What is the original language of Gunsmoke?",
+        "answer": "Hindi",
+        "steps": 1,
+        "tokens": 3522,
+        "latency_s": 1.39,
+        "replan": 0
+      },
+      {
+        "question": "What is Helen Fielding famous for?",
+        "answer": "Bridget Jones's Diary",
+        "steps": 1,
+        "tokens": 3424,
+        "latency_s": 1.98,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Milan Stojadinović?",
+        "answer": "WWE",
+        "steps": 1,
+        "tokens": 3483,
+        "latency_s": 1.51,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Cuba located in?",
+        "answer": "North America",
+        "steps": 1,
+        "tokens": 3412,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "Which language was 9/11 Commission Report written in?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 3447,
+        "latency_s": 1.31,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Gianni Morbidelli?",
+        "answer": "Italy",
+        "steps": 1,
+        "tokens": 3549,
+        "latency_s": 1.41,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Nova Scotia government?",
+        "answer": "Stephen McNeil",
+        "steps": 1,
+        "tokens": 3563,
+        "latency_s": 1.34,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Lucan die in?",
+        "answer": "Lancaster",
+        "steps": 1,
+        "tokens": 3526,
+        "latency_s": 0.97,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Windows XP?",
+        "answer": "Microsoft",
+        "steps": 1,
+        "tokens": 3500,
+        "latency_s": 1.34,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Aldrich Ames?",
+        "answer": "Central Intelligence Agency",
+        "steps": 1,
+        "tokens": 3500,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "Which country was The Unit created in?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3467,
+        "latency_s": 91.36,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Jason Motte?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3553,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Nokia?",
+        "answer": "Finnish",
+        "steps": 1,
+        "tokens": 3496,
+        "latency_s": 1.57,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Fantasy Island?",
+        "answer": "British Broadcasting Corporation",
+        "steps": 1,
+        "tokens": 3445,
+        "latency_s": 1.53,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does N. Chandrababu Naidu do?",
+        "answer": "basketball player",
+        "steps": 1,
+        "tokens": 3494,
+        "latency_s": 1.3,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of George R. R. Martin?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 3550,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "What position does Shay Given play?",
+        "answer": "goalkeeper",
+        "steps": 1,
+        "tokens": 3467,
+        "latency_s": 1.26,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn Miller?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3541,
+        "latency_s": 1.27,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Florentino Pérez associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 3516,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of University of Washington located in?",
+        "answer": "Seattle",
+        "steps": 1,
+        "tokens": 3444,
+        "latency_s": 1.17,
+        "replan": 0
+      },
+      {
+        "question": "What position does Jerzy Dudek play?",
+        "answer": "defenceman",
+        "steps": 1,
+        "tokens": 3485,
+        "latency_s": 1.45,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Ibn Saud work in?",
+        "answer": "Riyadh Region",
+        "steps": 1,
+        "tokens": 3579,
+        "latency_s": 1.46,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lonnie Mack?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 3574,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "What language does Néstor Kirchner speak?",
+        "answer": "Russian",
+        "steps": 1,
+        "tokens": 3567,
+        "latency_s": 1.13,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Larry Bird associated with?",
+        "answer": "basketball",
+        "steps": 1,
+        "tokens": 3414,
+        "latency_s": 1.24,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Jessica Jones?",
+        "answer": "Krysten Ritter",
+        "steps": 1,
+        "tokens": 3518,
+        "latency_s": 1.26,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Gordon Jackson die in?",
+        "answer": "Flensburg",
+        "steps": 1,
+        "tokens": 3496,
+        "latency_s": 1.27,
+        "replan": 0
+      },
+      {
+        "question": "What is Alexander Hamilton famous for?",
+        "answer": "Federalist Papers",
+        "steps": 1,
+        "tokens": 3487,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Pablo Neruda educated at?",
+        "answer": "The Wharton School",
+        "steps": 1,
+        "tokens": 3449,
+        "latency_s": 1.22,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Minister for Home Affairs?",
+        "answer": "Danny Danon",
+        "steps": 1,
+        "tokens": 3477,
+        "latency_s": 1.41,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Purification Rundown?",
+        "answer": "L. Ron Hubbard",
+        "steps": 1,
+        "tokens": 3544,
+        "latency_s": 1.25,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Canadian Broadcasting Corporation located in?",
+        "answer": "Ottawa",
+        "steps": 1,
+        "tokens": 3476,
+        "latency_s": 1.26,
+        "replan": 0
+      },
+      {
+        "question": "Who is Chiang Kai-shek's child?",
+        "answer": "Chiang Ching-kuo",
+        "steps": 1,
+        "tokens": 3496,
+        "latency_s": 1.03,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Big Mac produced by?",
+        "answer": "McDonald's",
+        "steps": 1,
+        "tokens": 3429,
+        "latency_s": 0.96,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Micrographia?",
+        "answer": "The question is about the author of Micrographia. Looking through the knowledge pool, there is no fact that mentions the author of Micrographia. Therefore, the answer is that the information is not available in the knowledge pool.",
+        "steps": 1,
+        "tokens": 3515,
+        "latency_s": 91.59,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of San Francisco Giants?",
+        "answer": "Thiago Motta",
+        "steps": 1,
+        "tokens": 3579,
+        "latency_s": 1.52,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lorenzo Lamas?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 3405,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "What is Charaka famous for?",
+        "answer": "Charaka Samhita",
+        "steps": 1,
+        "tokens": 3474,
+        "latency_s": 1.16,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Jadranka Kosor affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 3408,
+        "latency_s": 1.4,
+        "replan": 0
+      },
+      {
+        "question": "What position does Sam Cassell play?",
+        "answer": "shooting guard",
+        "steps": 1,
+        "tokens": 3459,
+        "latency_s": 1.37,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Tampere?",
+        "answer": "Finnish",
+        "steps": 1,
+        "tokens": 3451,
+        "latency_s": 1.35,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "Which university was Adam Putnam educated at?",
+        "answer": "Federal University of Rio de Janeiro",
+        "steps": 2,
+        "tokens": 7933,
+        "latency_s": 2.04,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Tito Nieves play?",
+        "answer": "salsa",
+        "steps": 2,
+        "tokens": 8061,
+        "latency_s": 2.13,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "The author of The Persians is Aeschylus.",
+        "steps": 5,
+        "tokens": 43023,
+        "latency_s": 5.89,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleWorks?",
+        "answer": "根据提供的上下文，以下是各条信息的整理与验证：\n\n### **1. 音乐相关**\n- **2950**：John McVie 演奏的音乐类型是 **摇滚音乐**。\n- **1289**：San E 演奏的音乐类型是 **嘻哈音乐**。\n- **10473**：Angel 演奏的音乐类型是 **流行音乐**。\n- **10907**：Park Jung-min 演奏的音乐类型是 **前卫金属**。\n\n### **2. 公司与产品**\n- **16760**：Hummer H1 由 **福特汽车公司** 生产。\n- **16767**：AppleWorks 由 **波音公司** 开发（与11286-11288中未冲突）。\n- **1287**：iPhone 3G 由 **苹果公司** 生产。\n- **1297**：Mac OS X Leopard 由 **苹果公司** 开发。\n- **1299**：Windows Phone 8 由 **微软** 生产。\n- **2957**：B-17 Flying Fortress 由 **通用汽车** 生产。\n- **10901**：Chevrolet Silverado 由 **通用汽车** 生产。\n- **3657**：Chevrolet Corvette 由 **通用汽车** 生产。\n- **11287**：Il-10 系列由 **伊留申设计局** 生产。\n- **17257**：Ford GT40 由 **梅赛施密特** 生产（可能存在矛盾，但以最新来源为准）。\n\n### **3. 大学与教育**\n- **16761**：William Lenthall 毕业于 **维尔茨堡大学**。\n- **2956**：Douglas Alexander 毕业于 **爱丁堡大学**。\n- **13945**：伯克利音乐学院总部位于 **圣彼得堡**（可能存在矛盾，因通常位于波士顿）。\n- **13940**：Kate Miller-Heidke 是 **日本** 公民。\n- **16766**：Charlie Benante 是 **德国** 公民。\n- **11299**：Gordon Strachan 与 ** association football**（足球）相关。\n- **10464**：Goichi Suda 是 **日本** 公民。\n- **13944**：Winston Churchill 是 **圣卢西亚** 公民（历史上实际为英国）。\n- **13937**：Suzanne Collins 是 **加拿大** 公民。\n- **11289**：Ryback 是 **法国** 公民。\n- **11300**：Téa Leoni 是 **美国** 公民。\n- **10894**：Paul Reubens 是 **美国** 公民。\n- **11290**：Henry W. Corbett 是 **西班牙** 公民。\n- **17251**：William Eaton 是 **台湾** 公民（存在政治争议，以来源为准）。\n- **10468**：Mikhail Khodorkovsky 是 **爱尔兰** 公民。\n- **3650**：Dennis Prager 是 **美国** 公民。\n- **17255**：Darren Aronofsky 是 **美国** 公民。\n- **17260**：Will Self 是 **德国** 公民。\n- **10476**：Roy Greenslade 是 **英国** 公民。\n- **10899**：The Strain 由 **英国** 创作。\n- **16764**：The X-Files 由 **英国** 创作。\n- **1294**：UK garage 由 **英国** 创造。\n- **5609**：With the Beatles 由 **麦当娜** 演奏。\n- **1289**：San E 演奏的音乐类型是 **嘻哈音乐**。\n- **10473**：Angel 演奏的音乐类型是 **流行音乐**。\n- **10907**：Park Jung-min 演奏的音乐类型是 **前卫金属**。\n- **1285**：Andrea Camilleri 工作于 **罗马**。\n- **1290**：Grove Press 总部位于 **纽约市**。\n- **1295**：Maharashtra Navnirman Sena 由 **Raj Thackeray** 创立。\n- **1301**：PopCap Games 成立于 **西雅图**。\n- **17262**：东京广播系统控股公司成立于 **西雅图**（可能存在矛盾）。\n- **16762**：银河帝国现任国家元首是 **萨鲁曼**（虚构设定）。\n- **16774**：巴基斯坦现任政府首脑是 **Cuauhtémoc Blanco**（虚构或错误，现实中巴总理为其他人）。\n- **17254**：Kåre Willoch 工作于 **堪培拉**。\n- **17259**：Greg Abbott 工作于 **奥斯汀**。\n- **1292**：Edward Everett 受雇于 **哈佛大学**。\n- **13934**：Boy Meets World 最初由 **NPR** 播出。\n- **17261**：General Hospital 最初由 **美国广播公司（ABC）** 播出。\n- **11292**：The Merv Griffin Show 最初由 **CBS** 播出。\n- **16775**：The Sopranos 最初由 **HBO** 播出。\n- **17250**：《Book of Abraham》的作者是 **Neil Simon**（可能错误，该文本实际为宗教文献）。\n- **13942**：《Billy Liar》的作者是 **William Shakespeare**（错误，实际作者为 Keith Waterhouse）。\n- **13949**：《Measure for Measure》的作者是 **William Shakespeare**（正确）。\n- **1288**：《The Monk》的作者是 **Matthew Gregory Lewis**（正确）。\n- **11298**：《Jane Eyre》的作者是 **H. G. Wells**（错误，实际作者为 Charlotte Brontë）。\n- **10910**：《The Selfish Gene》的作者是 **Karl Marx**（错误，实际作者为 Richard Dawkins）。\n- **10472**：《Paradise Lost》的作者是 **Allen Ginsberg**（错误，实际作者为 John Milton）。\n- **17265**：《Madame Bovary》的作者是 **Samuel Taylor Coleridge**（错误，实际作者为 Gustave Flaubert）。\n- **13933**：《The Principles of Psychology》的作者是 **William James**（正确）。\n- **10471**：《Ball Four》的作者是 **Bill James**（正确）。\n- **10466**：《Mein Kampf》的作者是 **Adolf Hitler**（正确）。\n- **10896**：《Arms and the Man》的作者是 **George Bernard Shaw**（正确）。\n- **10898**：Jacqueline Kennedy Onassis 会说 **英语**。\n- **3647**：Roald Dahl 会说 **英语**。\n- **3652**：Whitney Houston 会说 **法语**。\n- **3659**：Charles de Gaulle 会说 **西班牙语**。\n- **10903**：Leonardo da Vinci 会说 **意大利语**。\n- **10480**：《Het Gulden Cabinet》用 **韩语** 书写（可能存在错误）。\n- **5612**：《The Jungle》用 **英语** 书写（正确）。\n- **11288**：Macromedia 由 **穆罕默德·摩萨台** 创立（错误，Macromedia 由 author 创立）。\n- **10463**：Sher Bahadur Deuba 从事 **板球运动员** 领域。\n- **10469**：全国民主联盟主席是 **Tony Hall**（错误，实际为 Aung San Suu Kyi）。\n- **10470**：SAGEM 由 **法国** 创造。\n- **10468**：Mikhail Khodorkovsky 是 **爱尔兰** 公民（可能错误，实际为俄罗斯）。\n- **13936**：F-35 Lightning II 由 **数字设备公司（DEC）** 开发（错误，实际由洛马公司）。\n- **13941**：盖革计数器由 **威廉二世** 创造（错误，由汉斯·盖革和沃尔夫冈·弥勒发明）。\n- **16773**：Jack Donaghy 由 **Kanye West** 饰演（错误，实际由 Alec Baldwin 饰演）。\n- **13948**：Ivanka Trump 与 **Christa Ludwig** 结婚（错误，实际丈夫为 Jared Kushner）。\n- **3646**：Thomas Wakley 的孩子是 **Thomas Wakley**（可能为同一人）。\n- **3655**：Ralph Ellison 死于 **纽约市**。\n- **10895**：Xbox 由 **SpaceX** 开发（错误，由微软开发）。\n- **10900**：iOS 7 由 **索尼互动娱乐** 开发（错误，由苹果开发）。\n- **10465**：Apple Music 由 **苹果公司** 开发。\n- **3645**：VoiceOver 由 **苹果公司** 开发。\n- **3653**：iOS 11 由 **苹果公司** 开发。\n- **11296**：iOS 10 由 **苹果公司** 开发。\n- **10465**：Apple Music 由 **苹果公司** 开发。\n- **3645**：VoiceOver 由 **苹果公司** 开发。\n- **3653**：iOS 11 由 **苹果公司** 开发。\n- **11296**：iOS 10 由 **苹果公司** 开发。\n- **10465**：Apple Music 由 **苹果公司** 开发。\n- **3645**：VoiceOver 由 **苹果公司** 开发。\n- **3653**：iOS 11 由 **苹果公司** 开发。\n- **11296**：iOS 10 由 **苹果公司** 开发。\n- **10465**：Apple Music 由 **苹果公司** 开发。\n- **3645**：VoiceOver 由 **苹果公司** 开发。\n- **3653**：iOS 11 由 **苹果公司** 开发。\n- **11296**：iOS 10 由 **苹果公司** 开发。\n\n### **4. 其他关键信息**\n- **16762**：银河帝国现任国家元首是 **萨鲁曼**（虚构设定）。\n- **16774**：巴基斯坦现任政府首脑是 **Cuauhtémoc Blanco**（虚构或错误）。\n- **13940**：Kate Miller-Heidke 是 **日本** 公民。\n- **16766**：Charlie Benante 是 **德国** 公民。\n- **11299**：Gordon Strachan 与足球相关。\n- **10464**：Goichi Suda 是 **日本** 公民。\n- **13944**：Winston Churchill 是 **圣卢西亚** 公民（存在矛盾）。\n- **13937**：Suzanne Collins 是 **加拿大** 公民。\n- **11289**：Ryback 是 **法国** 公民。\n- **11300**：Téa Leoni 是 **美国** 公民。\n- **10894**：Paul Reubens 是 **美国** 公民。\n- **11290**：Henry W. Corbett 是 **西班牙** 公民。\n- **17251**：William Eaton 是 **台湾** 公民（政治争议）。\n- **10468**：Mikhail Khodorkovsky 是 **爱尔兰** 公民（可能错误）。\n- **3650**：Dennis Prager 是 **美国** 公民。\n- **17255**：Darren Aronofsky 是 **美国** 公民。\n- **17260**：Will Self 是 **德国** 公民。\n- **10476**：Roy Greenslade 是 **英国** 公民。\n- **10899**：The Strain 由英国创作。\n- **16764**：The X-Files 由英国创作。\n- **1294**：UK garage 由英国创造。\n- **5609**：With the Beatles 由麦当娜演奏。\n- **1289**：San E 演奏嘻哈音乐。\n- **10473**：Angel 演奏流行音乐。\n- **10907**：Park Jung-min 演奏前卫金属。\n- **1285**：Andrea Camilleri 工作于罗马。\n- **1290**：Grove Press 总部在纽约市。\n- **1295**：Maharashtra Navnirman Sena 由 Raj Thackeray 创立。\n- **1301**：PopCap Games 成立于西雅图。\n- **17262**：东京广播系统控股公司成立于西雅图（可能矛盾）。\n- **16762**：银河帝国元首是萨鲁曼。\n- **16774**：巴基斯坦总理是 Cuauhtémoc Blanco（错误）。\n- **17254**：Kåre Willoch 工作于堪培拉。\n- **17259**：Greg Abbott 工作于奥斯汀。\n- **1292**：Edward Everett 受雇于哈佛大学。\n- **13934**：Boy Meets World 由 NPR 播出。\n- **17261**：General Hospital 由 ABC 播出。\n- **11292**：The Merv Griffin Show 由 CBS 播出。\n- **16775**：The Sopranos 由 HBO 播出。\n- **17250**：《Book of Abraham》作者是 Neil Simon（错误）。\n- **13942**：《Billy Liar》作者是莎士比亚（错误）。\n- **13949**：《Measure for Measure》作者是莎士比亚（正确）。\n- **1288**：《The Monk》作者是 Matthew Gregory Lewis（正确）。\n- **11298**：《Jane Eyre》作者是 H.G. Wells（错误）。\n- **10910**：《The Selfish Gene》作者是 Karl Marx（错误）。\n- **10472**：《Paradise Lost》作者是 Allen Ginsberg（错误）。\n- **17265**：《Madame Bovary》作者是 Coleridge（错误）。\n- **13933**：《The Principles of Psychology》作者是 William James（正确）。\n- **10471**：《Ball Four》作者是 Bill James（正确）。\n- **10466**：《Mein Kampf》作者是希特勒（正确）。\n- **10896**：《Arms and the Man》作者是萧伯纳（正确）。\n- **10898**：Jacqueline Kennedy Onassis 会说英语。\n- **3647**：Roald Dahl 会说英语。\n- **3652**：Whitney Houston 会说法语。\n- **3659**：戴高乐会说西班牙语。\n- **10903**：达芬奇会说意大利语。\n- **10480**：《Het Gulden Cabinet》用韩语书写（可能错误）。\n- **5612**：《The Jungle》用英语书写（正确）。\n- **11288**：Macromedia 由摩萨台创立（错误）。\n- **10463**：Deuba 从事板球。\n- **10469**：NLD 主席是 Tony Hall（错误）。\n- **10470**：SAGEM 是法国公司。\n- **13936**：F-35 由 DEC 开发（错误）。\n- **13941**：盖革计数器由威廉二世创造（错误）。\n- **16773**：Jack Donaghy 由 Kanye West 饰演（错误）。\n- **13948**：Ivanka Trump 与 Christa Ludwig 结婚（错误）。\n- **3646**：Thomas Wakley 的孩子是他自己（可能）。\n- **3655**：艾略特死于纽约市。\n- **10895**：Xbox 由 SpaceX 开发（错误）。\n- **10900**：iOS 7 由索尼开发（错误）。\n\n### **总结**\n- **矛盾/错误信息**（以最新来源为准）：  \n  - AppleWorks 由波音开发（16767）。  \n  - 伯克利音乐学院位于圣彼得堡（13945）。  \n  - 历史人物国籍或作品作者（如丘吉尔、达芬奇等）存在明显错误，但以提供的上下文为准。  \n  - 虚构内容（如银河帝国、萨鲁曼）需特别注意。  \n\n请根据具体需求参考上述信息，优先以标注来源的条目为准。",
+        "steps": 5,
+        "tokens": 47889,
+        "latency_s": 27.28,
+        "replan": 0
+      },
+      {
+        "question": "What language does Jasper Fforde speak?",
+        "answer": "Kannada",
+        "steps": 5,
+        "tokens": 41769,
+        "latency_s": 35.17,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Benedict XIII affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 5,
+        "tokens": 42726,
+        "latency_s": 5.37,
+        "replan": 0
+      },
+      {
+        "question": "What language does Shane Meadows speak?",
+        "answer": "To determine the language spoken by Shane Meadows, we look for relevant entries in the knowledge pool. \n\nFirst, we find **[12] 17004**: \"Shane Meadows speaks the language of English.\" This entry is clear and directly addresses the question.\n\nNext, we check for potential conflicts with more recent or duplicate entries. However, all other entries mentioning Shane Meadows (e.g., **[22] 9742**) do not contradict this information. The entry **[22] 9742** states \"Captain Harlock was created by Shane Meadows,\" which is unrelated to language.\n\nThus, the most direct and accurate answer, based solely on the provided context, is that Shane Meadows speaks English.\n\nEnglish",
+        "steps": 5,
+        "tokens": 42673,
+        "latency_s": 6.68,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lou Gehrig play?",
+        "answer": "1. Simón Bolívar was born in the city of Caracas.\n2. Elsevier was founded in the city of Lawrence.\n3. Pia Zadora is a citizen of France.\n4. Os Lusíadas was written in the language of English.\n5. Charlotte Independence is associated with the sport of baseball.\n6. Benjamin Rush died in the city of Philadelphia.\n7. Rocket Man was performed by Ayumi Hamasaki.\n8. The univeristy where Michael Haneke was educated is Nuffield College.\n9. Hasheem Thabeet plays the position of shooting guard.\n10. The Guardian was founded in the city of Munich.\n11. Bastian Schweinsteiger plays the position of quarterback.\n12. The univeristy where Maria Montessori was educated is Sapienza University of Rome.\n13. Elton John is married to Manjula Vijayakumar.\n14. MSV Duisburg is associated with the sport of Gaelic football.\n15. The author of Kuzari is Jerome.\n16. Lou Gehrig plays the position of first baseman.\n17. Bettino Ricasoli is affiliated with the religion of Methodism.\n18. The origianl broadcaster of Legends of Tomorrow is MSNBC.\n19. Des Cahill is a citizen of France.\n20. Ibn al-Nafis is affiliated with the religion of Islam.\n21. The headquarters of Uppsala University is located in the city of Agra.\n22. AlphaGo was developed by Elsevier.\n23. The author of Little Dorrit is Kurt Cobain.\n24. James H. Nicholson is a citizen of Canada.\n25. Joey Barton plays the position of shooting guard.\n26. Lou Gehrig plays the position of placekicker.\n27. The headquarters of University of Bologna is located in the city of Lima.\n28. The type of music that El-P plays is hip hop music.\n29. The type of music that Diana Wynne Jones plays is fantasy.\n30. The author of A Study in Scarlet is Martin Luther.\n31. Yoweri Kaguta Museveni is a citizen of Peru.\n32. The President of Israel is Sonny Perdue.\n33. Alessandra Daddario is a citizen of Austria.\n34. The capital of People's Republic of China is Daugavpils.\n35. Janet Jackson was born in the city of Los Angeles.\n36. Jahlil Okafor plays the position of cornerback.\n37. The headquarters of Stanford University is located in the city of Glendale.\n38. FK Drina Zvornik is associated with the sport of association football.\n39. The origianl broadcaster of The Rachel Maddow Show is MSNBC.\n40. Julius Caesar Scaliger is affiliated with the religion of Christianity.\n41. The headquarters of Yale University is located in the city of New Haven.\n42. The official language of Lahti is Black Speech.\n43. The origianl broadcaster of The Jim Henson Hour is NBC.\n44. John Stuart Mill worked in the city of London.\n45. T. S. Eliot was born in the city of Riga.\n46. Brigham Young speaks the language of English.\n47. Samit Patel is associated with the sport of cricket.\n48. Ethan Embry is a citizen of United States of America.\n49. Aldous Huxley is a citizen of France.\n50. Speakerboxxx/The Love Below was created in the country of United States of America.\n51. Joseph Goebbels is married to Magda Goebbels.\n52. Reggie Jackson plays the position of right fielder.\n53. Paul Pogba plays the position of starting pitcher.\n54. Cafu is associated with the sport of cricket.\n55. The univeristy where Martin E. Marty was educated is University of Chicago.\n56. The author of The Far Side is Gary Larson.\n57. Poor Richard's Almanack was founded by Benjamin Franklin.\n58. The headquarters of University of Lisbon is located in the city of McLaren Technology Centre.\n59. Tim Southee is a citizen of New Zealand.\n60. Guy Verhofstadt works in the field of politician.\n61. The origianl broadcaster of Once and Again is American Broadcasting Company.\n62. The univeristy where Hendrik Lorentz was educated is Leiden University.\n63. The origianl broadcaster of Green Acres is NBC.\n64. Hydatius is affiliated with the religion of Church of Scotland.\n65. Adam Hochschild is employed by University of California, Berkeley.\n66. The chairperson of Green Party of Canada is Elizabeth May.\n67. The headquarters of Vancouver Sun is located in the city of Mays Landing.\n68. Bryce Harper plays the position of right fielder.\n69. The chairperson of Hungarian Academy of Sciences is László Lovász.\n70. Roosevelt Skerrit works in the field of politician.\n71. Kirk Gibson works in the field of baseball player.\n72. Daniele De Rossi plays the position of midfielder.\n73. Hercule Poirot was created by Sejong the Great.\n74. Lord Byron died in the city of Missolonghi.\n75. WWE Main Event was created by Vince McMahon.\n76. The Monarchy of Canada is Elizabeth II.\n77. Mike Wallace is a citizen of United States of America.\n78. Raymond Flynn is affiliated with the religion of Christianity.\n79. David Bowie was born in the city of Brooklyn.\n80. Rafer Alston is associated with the sport of association football.\n81. Friedrich Nietzsche is employed by University of Miami.\n82. The company that produced Minimoog is Moog Music.\n83. Sting is employed by Apple Inc..\n84. Bagratuni Dynasty is affiliated with the religion of Christianity.\n85. The origianl broadcaster of One Life to Live is American Broadcasting Company.\n86. Chris Osgood plays the position of first baseman.\n87. Sunaina is a citizen of India.\n88. Frederick Terman is employed by MI5.\n89. Zulfiqar Ali Bhutto died in the city of Paris.\n90. Mike D'Antoni plays the position of midfielder.\n91. Harold Reynolds is associated with the sport of association football.\n92. Arvydas Sabonis plays the position of center.\n93. Clayton Kershaw plays the position of relief pitcher.\n94. Dorothy L. Sayers is affiliated with the religion of Catholic Church.\n95. Distinguished Service Order was founded by Queen Victoria I.\n96. Tim Berners-Lee was born in the city of London.\n97. Estádio da Luz (1954) is associated with the sport of association football.\n98. Max Scherzer plays the position of starting pitcher.\n99. Matthew Paris is affiliated with the religion of Catholic Church.\n100. 1989 NBA Playoffs is associated with the sport of basketball.\n101. The origianl broadcaster of The Chris Rock Show is HBO.\n102. Ptolemy I Soter died in the city of Alexandria.\n103. Hideki Irabu is associated with the sport of baseball.\n104. Lalla Ward is a citizen of United Kingdom.\n105. Wendy Doniger is employed by University of Chicago.\n106. The univeristy where Dabo Swinney was educated is University of Alabama.\n107. Santa Maria sopra Minerva is affiliated with the religion of Catholic Church.\n108. Jacques Plante plays the position of goaltender.\n109. Mark Few plays the position of point guard.\n110. Aristotle works in the field of philosopher.\n111. The director of Valve Corporation is Elizabeth II.\n112. Jaime Alguersuari is a citizen of Spain.\n113. David Lammy is a citizen of United Kingdom.\n114. Lukas Jutkiewicz is associated with the sport of association football.\n115. The type of music that The J. Geils Band plays is rock music.\n116. The author of The Age of Reason is Allen Ginsberg.\n117. The author of House of Leaves is Kahlil Gibran.\n118. The capital of Greece is Athens.\n119. Jeff Suppan plays the position of starting pitcher.\n120. 2017 Copa Libertadores is associated with the sport of association football.\n121. Land of Oz was created by Mario Puzo.\n122. The company that produced Fender Stratocaster is Boeing.\n123. Rick Neuheisel plays the position of utility player.\n124. MS-DOS was developed by Google.\n125. Luis Muñoz Rivera is affiliated with the religion of Tendai.\n126. Louis Prima speaks the language of English.\n127. Lark Rise to Candleford was created in the country of England.\n128. Máiréad Nesbitt is a citizen of United States of America.\n129. Gordon Banks plays the position of outfielder.\n130. iPad Pro was developed by Google.\n131. Mary Poppins was created by P. L. Travers.\n132. The author of Lady Chatterley's Lover is D. H. Lawrence.\n133. Virginia Cavaliers men's soccer is associated with the sport of association football.\n134. Benjamin Sisko was performed by Extreme.\n135. Ed Bailey is associated with the sport of baseball.\n136. Nick Bottom was created by Benozzo Gozzoli.\n137. The origianl broadcaster of Beetlejuice is American Broadcasting Company.\n138. N. Chandrababu Naidu worked in the city of London.\n139. Day Tripper was performed by The Beatles.\n140. heartland rock was created in the country of United States of America.\n141. Khaleda Zia is affiliated with the religion of International Church of the Foursquare Gospel.\n142. Steve Yeager is associated with the sport of baseball.\n143. Ensemble InterContemporain was founded by Pierre Boulez.\n144. Chris Carter is a citizen of United States of America.\n145. The type of music that Lulu plays is pop music.\n146. The headquarters of Wayne State University is located in the city of Munich.\n147. Bruce Springsteen speaks the language of English.\n148. Hakeem Olajuwon is associated with the sport of association football.\n149. Susan Hayward is affiliated with the religion of Catholic Church.\n150. Lewis University is affiliated with the religion of Methodism.\n151. The chairperson of National League for Democracy is Aung San Suu Kyi.\n152. Chris Osgood plays the position of goaltender.\n153. The official language of Zürich is German.\n154. FC Jūrmala is associated with the sport of association football.",
+        "steps": 5,
+        "tokens": 45257,
+        "latency_s": 20.19,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Shingon Buddhism?",
+        "answer": "Kūkai",
+        "steps": 5,
+        "tokens": 43873,
+        "latency_s": 6.37,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Extensible Markup Language?",
+        "answer": "The author of Lark Rise to Candleford is Luigi Pirandello.",
+        "steps": 5,
+        "tokens": 42927,
+        "latency_s": 5.09,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Cy Young?",
+        "answer": "Russia",
+        "steps": 2,
+        "tokens": 8209,
+        "latency_s": 1.94,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Davina McCall?",
+        "answer": "Kingdom of the Netherlands",
+        "steps": 5,
+        "tokens": 43308,
+        "latency_s": 34.72,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Witches of East End created in?",
+        "answer": "I can't answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 5,
+        "tokens": 42950,
+        "latency_s": 4.9,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Oculus VR, LLC?",
+        "answer": "1. 5009. The company that produced Windows Vista is Raytheon.\n2. 15265. Michelangelo speaks the language of English.\n3. 15369. Gregg Popovich is associated with the sport of association football.\n4. 11015. The chief executive officer of Valve Corporation is Mukesh Ambani.\n5. 10339. The chief executive officer of Netflix is Neil Aspinall.\n6. 3040. Laisenia Qarase is a citizen of Mexico.\n7. 15256. Bing Maps was developed by Oculus VR, LLC.\n8. 7580. The chief executive officer of Oculus VR, LLC is Brendan Iribe.\n9. 14608. The chief executive officer of Oculus VR, LLC is Marc Benioff.\n10. 10210. The author of The Road to Serfdom is Søren Kierkegaard.\n11. 5012. Nepal is located in the continent of South America.\n12. 15267. The name of the current head of state in Austria is Michael Jeffery.\n13. 11019. Afghanistan is affiliated with the religion of Latin Church.\n14. 3039. Islam was founded by Muhammad.\n15. 15252. Patrick Swayze is affiliated with the religion of Sikhism.\n16. 10330. The Forester Sisters was created in the country of Iceland.\n17. 14610. Me 262 was developed by GNU Project.\n18. 3920. watchOS was developed by Apple Inc..\n19. 10328. Portal 2 was developed by Valve Corporation.\n20. 7583. Hugo Kołłątaj is affiliated with the religion of Zoroastrianism.\n21. 15250. The origianl broadcaster of Jane the Virgin is MSNBC.\n22. 5005. Dante Alighieri was born in the city of Florence.\n23. 25251. Víctor Valdés is associated with the sport of association football.\n24. 10195. The chief executive officer of Berkshire Hathaway is Anne-Marie Slaughter.\n25. 3912. Viktor Zubkov is affiliated with the religion of Russian Orthodox Church.\n26. 11021. Eric Cantona is associated with the sport of rugby union.\n27. 3049. The chief executive officer of Google is Sundar Pichai.\n28. 15383. The company that produced iPhone 6 is NVIDIA.\n29. 15384. Arwen was created by Paul Reubens.\n30. 10335. Donald Knuth speaks the language of English.\n31. 14615. Geoffrey Chaucer is a citizen of Kingdom of England.\n32. 15260. Jacob Black was created by Stephenie Meyer.\n33. 15259. Yeezus was performed by John Coltrane.\n34. 15254. Nowhere Man was performed by Madonna.\n35. 15253. iPhone 3G was developed by Apple Inc..\n36. 15261. The official language of French Third Republic is French.\n37. 15262. Toni Morrison was born in the city of Lorain.\n38. 15263. Tove Jansson worked in the city of Helsinki.\n39. 15264. The author of The Snow Queen is Hans Christian Andersen.\n40. 15266. Ivar Aasen is a citizen of Nigeria.\n41. 14618. Terrassa FC is associated with the sport of baseball.\n42. 14619. Improvement Era was created in the country of Germany.\n43. 14620. Chen Guangcheng is a citizen of Israel.\n44. 14621. Outlook Express was developed by Apple Inc..\n45. 14622. Federalist Papers was written in the language of Australian English.\n46. 14609. Alan Carr is a citizen of United States of America.\n47. 14612. Campbell Newman is a citizen of United States of America.\n48. 14613. Seth MacFarlane is a citizen of United Kingdom.\n49. 14614. Distinguished Service Order was founded by John III of Sweden.\n50. 14607. Sidney Webb was born in the city of Lewisham.\n51. 14606. Walt Bellamy plays the position of flanker.\n52. 14605. Taito Corporation was founded in the city of Moscow.\n53. 14616. The name of the current head of state in Nepal is Bidhya Bhandari.\n54. 15368. Othello is married to Rand al'Thor.\n55. 15370. The Prime Minister of Canada is Mark Rutte.\n56. 15371. Leon Osman plays the position of quarterback.\n57. 15372. The capital of Finland is Helsinki.\n58. 15373. music of Japan was created in the country of Japan.\n59. 15374. Elizabeth Montgomery died in the city of Vienna.\n60. 15375. Felix Frankfurter is employed by University of Chicago.\n61. 15376. Manuel II of Portugal is affiliated with the religion of Methodism.\n62. 15377. Mike Matheny plays the position of catcher.\n63. 15378. Sweethearts of the Rodeo was created in the country of United States of America.\n64. 15379. Marcellus II is affiliated with the religion of Catholic Church.\n65. 15380. Tony Hillerman is a citizen of United States of America.\n66. 15381. Martin Foyle is associated with the sport of association football.\n67. 15382. Neuromancer was created in the country of Estonia.\n68. 15384. Arwen was created by Paul Reubens.\n69. 3914. Gabe Newell is a citizen of United States of America.\n70. 3915. R. Siva Kumar is a citizen of India.\n71. 3916. Greg Oden plays the position of center.\n72. 3917. The chief executive officer of Netflix is Reed Hastings.\n73. 3918. The author of The School for Scandal is Richard Brinsley Sheridan.\n74. 3919. Madchester was created in the country of United Kingdom.\n75. 3920. watchOS was developed by Apple Inc..\n76. 3921. Mortal Kombat II was developed by Midway Games.\n77. 3922. 2008 AFC Challenge Cup is associated with the sport of association football.\n78. 3923. County of Flanders is affiliated with the religion of Catholic Church.\n79. 3924. Eric Gordon is a citizen of United States of America.\n80. 3925. Sergey Mironov worked in the city of Moscow.\n81. 10195. The chief executive officer of Berkshire Hathaway is Anne-Marie Slaughter.\n82. 10196. Armani was founded by Pál Teleki.\n83. 10197. Lucasfilm was founded by George Lucas.\n84. 10198. The headquarters of VMware Inc. is located in the city of Ottawa.\n85. 10199. The headquarters of Columbia University School of Engineering is located in the city of New York City.\n86. 10200. 1998 NBA Finals is associated with the sport of basketball.\n87. 10201. The company that produced Ford Fusion is Ford Motor Company.\n88. 10202. Loyola Ramblers Men's Basketball is associated with the sport of basketball.\n89. 10203. Rick Hearst is a citizen of Poland.\n90. 10204. Angelo Dundee is associated with the sport of boxing.\n91. 10205. Palani is located in the continent of Asia.\n92. 10206. The name of the current head of state in Russia is Vladimir Putin.\n93. 10207. Clay Buchholz plays the position of cornerback.\n94. 10208. Brienne of Tarth was performed by Gwendoline Christie.\n95. 10209. The author of Jude the Obscure is Thomas Hardy.\n96. 10210. The author of The Road to Serfdom is Søren Kierkegaard.\n97. 3036. Clube Atlético Metropolitano is associated with the sport of association football.\n98. 3037. Special Air Service was founded by David Stirling.\n99. 3038. Afghanistan national football team is associated with the sport of association football.\n100. 3039. Islam was founded by Muhammad.",
+        "steps": 5,
+        "tokens": 45254,
+        "latency_s": 17.76,
+        "replan": 0
+      },
+      {
+        "question": "Who was Bart Simpson created by?",
+        "answer": "The author of Tender Is the Night is Vladimir Lenin.",
+        "steps": 5,
+        "tokens": 43076,
+        "latency_s": 36.42,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Albert of Saxony affiliated with?",
+        "answer": "The Church of Jesus Christ of Latter-day Saints",
+        "steps": 2,
+        "tokens": 8171,
+        "latency_s": 2.33,
+        "replan": 0
+      },
+      {
+        "question": "Who was The IT Crowd created by?",
+        "answer": "Graham Linehan",
+        "steps": 5,
+        "tokens": 43688,
+        "latency_s": 4.85,
+        "replan": 0
+      },
+      {
+        "question": "What language does Queen Victoria I speak?",
+        "answer": "The official language of Great Britain is English.",
+        "steps": 5,
+        "tokens": 42457,
+        "latency_s": 34.9,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Windows Vista produced by?",
+        "answer": "Microsoft",
+        "steps": 2,
+        "tokens": 7987,
+        "latency_s": 1.95,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Indiana Mr. Basketball associated with?",
+        "answer": "The author of Jane Eyre is Charlotte Brontë.",
+        "steps": 5,
+        "tokens": 42723,
+        "latency_s": 5.65,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Laura Bush?",
+        "answer": "The author of Oliver Twist is Charles Dickens.",
+        "steps": 5,
+        "tokens": 43366,
+        "latency_s": 4.38,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Helen Vendler?",
+        "answer": "To solve the problem of finding the current head coach of the British & Irish Lions, we need to extract relevant information from the provided context. \n\nLooking through the entries, we find:  \n- **[26] 12653. The head coach of British & Irish Lions is Savo Milošević.**  \n\nThis entry directly states the head coach of the British & Irish Lions. There are no conflicting or more recent entries in the context, so this is the correct answer.\n\n**Answer: Savo Milošević**",
+        "steps": 5,
+        "tokens": 42128,
+        "latency_s": 97.13,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of C. S. Forester?",
+        "answer": "United Kingdom",
+        "steps": 5,
+        "tokens": 42867,
+        "latency_s": 4.92,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Tom Simpson?",
+        "answer": "The type of music that James Taylor Quartet plays is jazz.",
+        "steps": 5,
+        "tokens": 42985,
+        "latency_s": 4.93,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Diego Simeone associated with?",
+        "answer": "- [1] 4344. Al Horford is associated with the sport of basketball.\n4345. Iman is affiliated with the religion of Islam.\n4346. Michael Dukakis worked in the city of Boston.\n4347. The name of the current head of state in Namibia is Hage Gottfried Geingob.\n4348. The headquarters of Nissan is located in the city of 133 avenue des Champs-Élysées.\n4349. Kubuntu was developed by Canonical Group Limited.\n4350. Angela Rippon is a citizen of United Kingdom.\n4351. The head coach of Atlético Madrid is Diego Simeone.\n4352. Leon Allen White is employed by Impact Wrestling.\n4353. John Hickenlooper worked in the city of Denver.\n4354. Audio Units was developed by Apple Inc..\n4355. Nate McLouth is a citizen of United States of America.\n4356. John Playfair is employed by University of Edinburgh.\n4357. Roberto Calvi works in the field of banker.\n4358. The author of De humani corporis fabrica is Andreas Vesalius.\n4359. Eric Roth is a citizen of United States of America.\n4360. Beau Biden is affiliated with the religion of Catholic Church. (来源: HippoRAG)\n- [2] 14195. Sourav Ganguly is associated with the sport of cricket.\n14196. Brazilian jiu-jitsu was created in the country of Philippines.\n14197. Joey Cape is a citizen of United States of America.\n14198. Atlético Choloma is associated with the sport of association football.\n14199. Alexander Van der Bellen speaks the language of German.\n14200. William James is a citizen of Italy.\n14201. Sangju Sangmu FC is associated with the sport of cricket.\n14202. Rashid Khalidi is affiliated with the religion of Islam.\n14203. 2005 World Series is associated with the sport of football.\n14204. GNU Classpath was developed by GNU Project.\n14205. The Well of Loneliness was written in the language of Russian.\n14206. The type of music that Changmin plays is K-pop.\n14207. Alessandra Daddario is a citizen of United States of America.\n14208. Tillakaratne Dilshan is associated with the sport of cricket.\n14209. Agatha Christie is a citizen of Venezuela.\n14210. Marco Materazzi is a citizen of United States of America.\n14211. Becki Newton is a citizen of Italy. (来源: HippoRAG)\n- [3] 3036. Clube Atlético Metropolitano is associated with the sport of association football.\n3037. Special Air Service was founded by David Stirling.\n3038. Afghanistan national football team is associated with the sport of association football.\n3039. Islam was founded by Muhammad.\n3040. Laisenia Qarase is a citizen of Mexico.\n3041. 1936 World Series is associated with the sport of baseball.\n3042. Ryan Klesko is a citizen of United States of America.\n3043. Lucille Roybal-Allard is affiliated with the religion of Catholic Church.\n3044. The author of De vulgari eloquentia is Dante Alighieri.\n3045. Byron Brown is a citizen of United States of America.\n3046. The author of Shakespeare's sonnets is William Shakespeare.\n3047. Jordan Belfort is famous for The Wolf of Wall Street.\n3048. BioWare was founded in the city of New York.\n3049. The chief executive officer of Google is Sundar Pichai.\n3050. Scott Walker works in the field of politician.\n3051. The chairperson of Scottish Government is Nicola Sturgeon.\n3052. The Mayor of London is Bill Haslam. (来源: HippoRAG)\n- [4] 8172. Jon Robin Baitz is a citizen of United States of America.\n8173. The President of Tanzania is John Magufuli.\n8174. Garrincha is associated with the sport of rugby union.\n8175. Mark Buehrle plays the position of flanker.\n8176. German Empire is located in the continent of Africa.\n8177. Hermann Hesse speaks the language of German.\n8178. The head coach of Chicago Bulls is Diego Simeone.\n8179. The name of the current head of state in Albania is Ilir Meta.\n8180. Leo Allatius is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints.\n8181. Ralph Sampson plays the position of defender.\n8182. Switzerland is located in the continent of Asia.\n8183. Leo I the Thracian is affiliated with the religion of Christianity.\n8184. Andrew Morton is a citizen of United Kingdom.\n8185. The name of the current head of state in Dominican Republic is Lim Guan Eng.\n8186. Paul Mooney is a citizen of United States of America.\n8187. Gianluigi Buffon plays the position of goalkeeper.\n8188. The origianl broadcaster of Life Unexpected is MSNBC. (来源: HippoRAG)\n- [5] 7888. José Contreras is associated with the sport of association football.\n7889. Bryan Robson plays the position of relief pitcher.\n7890. Carey Hart speaks the language of English.\n7891. David Beckham is associated with the sport of association football.\n7892. Ray Kurzweil is employed by McGill University.\n7893. Hélder Postiga is a citizen of Portugal.\n7894. Abraham Maslow is a citizen of United States of America.\n7895. John Lloyd is a citizen of United Kingdom.\n7896. Jack Elway's child is Pete Maravich.\n7897. Daniele De Rossi plays the position of quarterback.\n7898. John von Neumann was born in the city of Budapest.\n7899. Jasper Johns is a citizen of Germany.\n7900. The author of Star Trek is Gene Roddenberry.\n7901. The author of Jane Eyre is Charlotte Brontë.\n7902. 500 home run club is associated with the sport of baseball.\n7903. Carlo Cudicini plays the position of goalkeeper.\n7904. John Oliver is employed by The Walt Disney Company.\n7905. Mike Krzyzewski is associated with the sport of basketball.\n7906. NK Marsonia is associated with the sport of association football. (来源: HippoRAG)\n- [6] 11439. South Wales derby is associated with the sport of basketball.\n11440. Windows Aero was developed by Electronic Arts.\n11441. treble is associated with the sport of association football.\n11442. Wincenty Kadłubek is affiliated with the religion of Christian Science.\n11443. Roy Sievers is associated with the sport of rugby.\n11444. Jadranka Kosor is affiliated with the religion of Church of Scotland.\n11445. François Rabelais is affiliated with the religion of Christian Science.\n11446. Ender Wiggin was created by Orson Scott Card.\n11447. The company that produced Chevrolet Cruze is Toyota.\n11448. Bill Frist is a citizen of United Kingdom.\n11449. Oliver Wendell Holmes is employed by MSNBC.\n11450. Jean Jaurès is a citizen of United States of America.\n11451. Will Smith is married to Peter Mansbridge.\n11452. Spice Girls was created in the country of United Kingdom.\n11453. Stella Maris F.C. is associated with the sport of association football.\n11454. Florentino Pérez is associated with the sport of association football. (来源: HippoRAG)\n- [7] 16408. Martha Wayne is a citizen of United Kingdom of Great Britain and Ireland.\n16409. The author of Allegory of the Cave is J. M. E. McTaggart.\n16410. Simon Coveney is a citizen of United States of America.\n16411. Copa del Rey is associated with the sport of baseball.\n16412. John Beilein works in the field of association football referee.\n16413. The type of music that Bernie Worrell plays is funk.\n16414. Steve Buscemi is a citizen of United States of America.\n16415. Lou Reed is a citizen of United States of America.\n16416. Jean-Jacques Bertrand is affiliated with the religion of Methodism.\n16417. Mario Chalmers plays the position of flanker.\n16418. Umar Gul is associated with the sport of association football.\n16419. Paolo Sarpi is affiliated with the religion of Methodism.\n16420. The company that produced Pontiac Grand Am is General Motors.\n16421. Oscar Wilde is married to Constance Lloyd.\n16422. J. D. Salinger died in the city of Cornish.\n16423. Belfast Celtic F.C. is associated with the sport of association football. (来源: HippoRAG)\n- [8] 10844. Joe McGinnity is associated with the sport of association football.\n10845. William Shakespeare works in the field of businessperson.\n10846. The author of The History Boys is Samuel P. Huntington.\n10847. Augustinas Voldemaras is a citizen of Duchy of Lorraine.\n10848. R. L. Stine worked in the city of New York City.\n10849. Peter Sarsgaard is a citizen of Austria.\n10850. Susan Hayward is affiliated with the religion of Church of Scotland.\n10851. midfielder is associated with the sport of association football.\n10852. Agatha Christie speaks the language of English.\n10853. Dominic Brunt is a citizen of United Kingdom.\n10854. Jessie's Girl was created in the country of United States of America.\n10855. Factory Records was founded by Lyndon B. Johnson.\n10856. Andy Burnham works in the field of politician.\n10857. Montreal Royals is associated with the sport of field hockey.\n10858. Seoi nage is associated with the sport of judo.\n10859. Alfred Newton is employed by London School of Economics and Political Science. (来源: HippoRAG)\n- [9] 10258. Johan Cruyff's child is Greg Gagne.\n10259. Hotmail was developed by Midway Games.\n10260. Athenagoras of Athens is affiliated with the religion of Methodism.\n10261. Quasimodo was created by Franklin Delano Roosevelt.\n10262. H. P. Lovecraft speaks the language of Spanish.\n10263. The author of Goodnight Moon is Terrance Dicks.\n10264. The Royle Family was created in the country of United Kingdom.\n10265. Heavy Rain was developed by Quantic Dream.\n10266. John Hope Franklin speaks the language of English.\n10267. Margaret Lockwood is a citizen of Soviet Union.\n10268. Back Stage was created in the country of France.\n10269. The company that produced Zune is Microsoft.\n10270. Yossi Benayoun is associated with the sport of association football.\n10271. Oliver Stone speaks the language of English.\n10272. The author of Going Postal is Terry Pratchett.\n10273. The headquarters of York University is located in the city of Nashville.\n10274. Club Atlético Lanús is associated with the sport of association football.\n10275. Atlético Junior is associated with the sport of baseball. (来源: HippoRAG)\n- [10] 4606. The headquarters of Ilyushin is located in the city of Moscow.\n4607. Burnley F.C. is associated with the sport of association football.\n4608. Apple Pay was developed by Apple Inc..\n4609. Arthurlie F.C. is associated with the sport of association football.\n4610. Michael Reagan is affiliated with the religion of Methodism.\n4611. Anselm of Canterbury is affiliated with the religion of African Methodist Episcopal Church.\n4612. Milan Stojadinović is employed by WWE.\n4613. Carlos Queiroz is associated with the sport of association football.\n4614. Brian Epstein is a citizen of United Kingdom.\n4615. The head coach of Brisbane Roar FC is John Aloisi.\n4616. The origianl broadcaster of Superstore is NBC.\n4617. The chairperson of Ontario New Democratic Party is Andrea Horwath.\n4618. 2016 African Nations Championship is associated with the sport of association football.\n4619. The author of Flatland is Edwin Abbott Abbott.\n4620. Henry Thomas Colebrooke died in the city of London.\n4621. Kelis is a citizen of Ireland. (来源: HippoRAG)\n- [11] 4344. Al Horford is associated with the sport of basketball.\n4345. Iman is affiliated with the religion of Islam.\n4346. Michael Dukakis worked in the city of Boston.\n4347. The name of the current head of state in Namibia is Hage Gottfried Geingob.\n4348. The headquarters of Nissan is located in the city of 133 avenue des Champs-Élysées.\n4349. Kubuntu was developed by Canonical Group Limited.\n4350. Angela Rippon is a citizen of United Kingdom.\n4351. The head coach of Atlético Madrid is Diego Simeone.\n4352. Leon Allen White is employed by Impact Wrestling.\n4353. John Hickenlooper worked in the city of Denver.\n4354. Audio Units was developed by Apple Inc..\n4355. Nate McLouth is a citizen of United States of America.\n4356. John Playfair is employed by University of Edinburgh.\n4357. Roberto Calvi works in the field of banker.\n4358. The author of De humani corporis fabrica is Andreas Vesalius.\n4359. Eric Roth is a citizen of United States of America.\n4360. Beau Biden is affiliated with the religion of Catholic Church. (来源: HippoRAG)\n- [12] 8172. Jon Robin Baitz is a citizen of United States of America.\n8173. The President of Tanzania is John Magufuli.\n8174. Garrincha is associated with the sport of rugby union.\n8175. Mark Buehrle plays the position of flanker.\n8176. German Empire is located in the continent of Africa.\n8177. Hermann Hesse speaks the language of German.\n8178. The head coach of Chicago Bulls is Diego Simeone.\n8179. The name of the current head of state in Albania is Ilir Meta.\n8180. Leo Allatius is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints.\n8181. Ralph Sampson plays the position of defender.\n8182. Switzerland is located in the continent of Asia.\n8183. Leo I the Thracian is affiliated with the religion of Christianity.\n8184. Andrew Morton is a citizen of United Kingdom.\n8185. The name of the current head of state in Dominican Republic is Lim Guan Eng.\n8186. Paul Mooney is a citizen of United States of America.\n8187. Gianluigi Buffon plays the position of goalkeeper.\n8188. The origianl broadcaster of Life Unexpected is MSNBC. (来源: HippoRAG)\n- [13] 14195. Sourav Ganguly is associated with the sport of cricket.\n14196. Brazilian jiu-jitsu was created in the country of Philippines.\n14197. Joey Cape is a citizen of United States of America.\n14198. Atlético Choloma is associated with the sport of association football.\n14199. Alexander Van der Bellen speaks the language of German.\n14200. William James is a citizen of Italy.\n14201. Sangju Sangmu FC is associated with the sport of cricket.\n14202. Rashid Khalidi is affiliated with the religion of Islam.\n14203. 2005 World Series is associated with the sport of football.\n14204. GNU Classpath was developed by GNU Project.\n14205. The Well of Loneliness was written in the language of Russian.\n14206. The type of music that Changmin plays is K-pop.\n14207. Alessandra Daddario is a citizen of United States of America.\n14208. Tillakaratne Dilshan is associated with the sport of cricket.\n14209. Agatha Christie is a citizen of Venezuela.\n14210. Marco Materazzi is a citizen of United States of America.\n14211. Becki Newton is a citizen of Italy. (来源: HippoRAG)\n- [14] 3036. Clube Atlético Metropolitano is associated with the sport of association football.\n3037. Special Air Service was founded by David Stirling.\n3038. Afghanistan national football team is associated with the sport of association football.\n3039. Islam was founded by Muhammad.\n3040. Laisenia Qarase is a citizen of Mexico.\n3041. 1936 World Series is associated with the sport of baseball.\n3042. Ryan Klesko is a citizen of United States of America.\n3043. Lucille Roybal-Allard is affiliated with the religion of Catholic Church.\n3044. The author of De vulgari eloquentia is Dante Alighieri.\n3045. Byron Brown is a citizen of United States of America.\n3046. The author of Shakespeare's sonnets is William Shakespeare.\n3047. Jordan Belfort is famous for The Wolf of Wall Street.\n3048. BioWare was founded in the city of New York.\n3049. The chief executive officer of Google is Sundar Pichai.\n3050. Scott Walker works in the field of politician.\n3051. The chairperson of Scottish Government is Nicola Sturgeon.\n3052. The Mayor of London is Bill Haslam. (来源: HippoRAG)\n- [15] 7888. José Contreras is associated with the sport of association football.\n7889. Bryan Robson plays the position of relief pitcher.\n7890. Carey Hart speaks the language of English.\n7891. David Beckham is associated with the sport of association football.\n7892. Ray Kurzweil is employed by McGill University.\n7893. Hélder Postiga is a citizen of Portugal.\n7894. Abraham Maslow is a citizen of United States of America.\n7895. John Lloyd is a citizen of United Kingdom.\n7896. Jack Elway's child is Pete Maravich.\n7897. Daniele De Rossi plays the position of quarterback.\n7898. John von Neumann was born in the city of Budapest.\n7899. Jasper Johns is a citizen of Germany.\n7900. The author of Star Trek is Gene Roddenberry.\n7901. The author of Jane Eyre is Charlotte Brontë.\n7902. 500 home run club is associated with the sport of baseball.\n7903. Carlo Cudicini plays the position of goalkeeper.\n7904. John Oliver is employed by The Walt Disney Company.\n7905. Mike Krzyzewski is associated with the sport of basketball.\n7906. NK Marsonia is associated with the sport of association football. (来源: HippoRAG)\n- [16] 16408. Martha Wayne is a citizen of United Kingdom of Great Britain and Ireland.\n16409. The author of Allegory of the Cave is J. M. E. McTaggart.\n16410. Simon Coveney is a citizen of United States of America.\n16411. Copa del Rey is associated with the sport of baseball.\n16412. John Beilein works in the field of association football referee.\n16413. The type of music that Bernie Worrell plays is funk.\n16414. Steve Buscemi is a citizen of United States of America.\n16415. Lou Reed is a citizen of United States of America.\n16416. Jean-Jacques Bertrand is affiliated with the religion of Methodism.\n16417. Mario Chalmers plays the position of flanker.\n16418. Umar Gul is associated with the sport of association football.\n16419. Paolo Sarpi is affiliated with the religion of Methodism.\n16420. The company that produced Pontiac Grand Am is General Motors.\n16421. Oscar Wilde is married to Constance Lloyd.\n16422. J. D. Salinger died in the city of Cornish.\n16423. Belfast Celtic F.C. is associated with the sport of association football. (来源: HippoRAG)\n- [17] 4606. The headquarters of Ilyushin is located in the city of Moscow.\n4607. Burnley F.C. is associated with the sport of association football.\n4608. Apple Pay was developed by Apple Inc..\n4609. Arthurlie F.C. is associated with the sport of association football.\n4610. Michael Reagan is affiliated with the religion of Methodism.\n4611. Anselm of Canterbury is affiliated with the religion of African Methodist Episcopal Church.\n4612. Milan Stojadinović is employed by WWE.\n4613. Carlos Queiroz is associated with the sport of association football.\n4614. Brian Epstein is a citizen of United Kingdom.\n4615. The head coach of Brisbane Roar FC is John Aloisi.\n4616. The origianl broadcaster of Superstore is NBC.\n4617. The chairperson of Ontario New Democratic Party is Andrea Horwath.\n4618. 2016 African Nations Championship is associated with the sport of association football.\n4619. The author of Flatland is Edwin Abbott Abbott.\n4620. Henry Thomas Colebrooke died in the city of London.\n4621. Kelis is a citizen of Ireland. (来源: HippoRAG)\n- [18] 7746. Thus Spoke Zarathustra was created in the country of Germany.\n7747. Cannonball Adderley is a citizen of Germany.\n7748. Villarreal CF C is associated with the sport of association football.\n7749. Brooks Wackerman is a citizen of United States of America.\n7750. Mary Fallin works in the field of politician.\n7751. The name of the current head of the Bihar government is Nitish Kumar.\n7752. ASM Clermont Auvergne is associated with the sport of baseball.\n7753. Sofía Vergara is affiliated with the religion of Lapsed Catholic.\n7754. Keith Smart plays the position of flanker.\n7755. Rafael van der Vaart plays the position of goaltender.\n7756. Federico García Lorca speaks the language of Spanish.\n7757. Charles Dickens died in the city of Angers.\n7758. Peter Dutton speaks the language of English.\n7759. The type of music that Lloyd Alexander plays is jazz.\n7760. The Governor of Hawaii is David Ige.\n7761. Pietro Aldobrandini is affiliated with the religion of Church of Scotland.\n7762. The author of Utopia is Thomas More. (来源: HippoRAG)\n- [19] 6816. Fareham Town F.C. is associated with the sport of association football.\n6817. Mstislav Rostropovich died in the city of Moscow.\n6818. The headquarters of CME Group is located in the city of Chicago.\n6819. Mitt Romney is a citizen of United States of America.\n6820. Louis Massignon is affiliated with the religion of Catholic Church.\n6821. The univeristy where Nicodemus Tessin the Younger was educated is Uppsala University.\n6822. Jill Biden is affiliated with the religion of Catholic Church.\n6823. The chairperson of Peoples Temple is Iwakura Tomomi.\n6824. Józef Glemp is affiliated with the religion of Catholic Church.\n6825. The univeristy where Karl Menger was educated is University of Vienna.\n6826. Clement VIII is affiliated with the religion of Catholic Church.\n6827. James Patterson is a citizen of Spain.\n6828. The head coach of Central Coast Mariners FC is Graham Arnold.\n6829. Callixtus II is affiliated with the religion of Catholic Church.\n6830. Queen Victoria I is affiliated with the religion of Anglicanism. (来源: HippoRAG)\n- [20] 14926. Sadiq Khan is affiliated with the religion of Islam.\n14927. Serbia is located in the continent of Asia.\n14928. Emo Philips is a citizen of Ireland.\n14929. Muhammad Tahir-ul-Qadri is affiliated with the religion of Islam.\n14930. Prince Hamlet was created by Norman Rockwell.\n14931. John Steinbeck speaks the language of English.\n14932. Mellitus is affiliated with the religion of Church of Scotland.\n14933. Billy Packer works in the field of basketball coach.\n14934. Jorge Sampaoli works in the field of association football manager.\n14935. The type of music that Avery Brooks plays is jazz.\n14936. The author of The Twelve Caesars is John von Neumann.\n14937. Jim Davis is a citizen of United States of America.\n14938. Ryan Murphy is affiliated with the religion of Jainism.\n14939. Karen Jarrett is a citizen of United States of America.\n14940. Miguel I of Portugal is a citizen of United States of America.\n14941. Club Atlético Peñarol is associated with the sport of association football.\n14942. David Bowie speaks the language of German. (来源: HippoRAG)\n- [21] 4344. Al Horford is associated with the sport of basketball.\n4345. Iman is affiliated with the religion of Islam.\n4346. Michael Dukakis worked in the city of Boston.\n4347. The name of the current head of state in Namibia is Hage Gottfried Geingob.\n4348. The headquarters of Nissan is located in the city of 133 avenue des Champs-Élysées.\n4349. Kubuntu was developed by Canonical Group Limited.\n4350. Angela Rippon is a citizen of United Kingdom.\n4351. The head coach of Atlético Madrid is Diego Simeone.\n4352. Leon Allen White is employed by Impact Wrestling.\n4353. John Hickenlooper worked in the city of Denver.\n4354. Audio Units was developed by Apple Inc..\n4355. Nate McLouth is a citizen of United States of America.\n4356. John Playfair is employed by University of Edinburgh.\n4357. Roberto Calvi works in the field of banker.\n4358. The author of De humani corporis fabrica is Andreas Vesalius.\n4359. Eric Roth is a citizen of United States of America.\n4360. Beau Biden is affiliated with the religion of Catholic Church. (来源: HippoRAG)\n- [22] 14195. Sourav Ganguly is associated with the sport of cricket.\n14196. Brazilian jiu-jitsu was created in the country of Philippines.\n14197. Joey Cape is a citizen of United States of America.\n14198. Atlético Choloma is associated with the sport of association football.\n14199. Alexander Van der Bellen speaks the language of German.\n14200. William James is a citizen of Italy.\n14201. Sangju Sangmu FC is associated with the sport of cricket.\n14202. Rashid Khalidi is affiliated with the religion of Islam.\n14203. 2005 World Series is associated with the sport of football.\n14204. GNU Classpath was developed by GNU Project.\n14205. The Well of Loneliness was written in the language of Russian.\n14206. The type of music that Changmin plays is K-pop.\n14207. Alessandra Daddario is a citizen of United States of America.\n14208. Tillakaratne Dilshan is associated with the sport of cricket.\n14209. Agatha Christie is a citizen of Venezuela.\n14210. Marco Materazzi is a citizen of United States of America.\n14211. Becki Newton is a citizen of Italy. (来源: HippoRAG)\n- [23] 3036. Clube Atlético Metropolitano is associated with the sport of association football.\n3037. Special Air Service was founded by David Stirling.\n3038. Afghanistan national football team is associated with the sport of association football.\n3039. Islam was founded by Muhammad.\n3040. Laisenia Qarase is a citizen of Mexico.\n3041. 1936 World Series is associated with the sport of baseball.\n3042. Ryan Klesko is a citizen of United States of America.\n3043. Lucille Roybal-Allard is affiliated with the religion of Catholic Church.\n3044. The author of De vulgari eloquentia is Dante Alighieri.\n3045. Byron Brown is a citizen of United States of America.\n3046. The author of Shakespeare's sonnets is William Shakespeare.\n3047. Jordan Belfort is famous for The Wolf of Wall Street.\n3048. BioWare was founded in the city of New York.\n3049. The chief executive officer of Google is Sundar Pichai.\n3050. Scott Walker works in the field of politician.\n3051. The chairperson of Scottish Government is Nicola Sturgeon.\n3052. The Mayor of London is Bill Haslam. (来源: HippoRAG)\n- [24] 8172. Jon Robin Baitz is a citizen of United States of America.\n8173. The President of Tanzania is John Magufuli.\n8174. Garrincha is associated with the sport of rugby union.\n8175. Mark Buehrle plays the position of flanker.\n8176. German Empire is located in the continent of Africa.\n8177. Hermann Hesse speaks the language of German.\n8178. The head coach of Chicago Bulls is Diego Simeone.\n8179. The name of the current head of state in Albania is Ilir Meta.\n8180. Leo Allatius is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints.\n8181. Ralph Sampson plays the position of defender.\n8182. Switzerland is located in the continent of Asia.\n8183. Leo I the Thracian is affiliated with the religion of Christianity.\n8184. Andrew Morton is a citizen of United Kingdom.\n8185. The name of the current head of state in Dominican Republic is Lim Guan Eng.\n8186. Paul Mooney is a citizen of United States of America.\n8187. Gianluigi Buffon plays the position of goalkeeper.\n8188. The origianl broadcaster of Life Unexpected is MSNBC. (来源: HippoRAG)\n- [25] 7888. José Contreras is associated with the sport of association football.\n7889. Bryan Robson plays the position of relief pitcher.\n7890. Carey Hart speaks the language of English.\n7891. David Beckham is associated with the sport of association football.\n7892. Ray Kurzweil is employed by McGill University.\n7893. Hélder Postiga is a citizen of Portugal.\n7894. Abraham Maslow is a citizen of United States of America.\n7895. John Lloyd is a citizen of United Kingdom.\n7896. Jack Elway's child is Pete Maravich.\n7897. Daniele De Rossi plays the position of quarterback.\n7898. John von Neumann was born in the city of Budapest.\n7899. Jasper Johns is a citizen of Germany.\n7900. The author of Star Trek is Gene Roddenberry.\n7901. The author of Jane Eyre is Charlotte Brontë.\n7902. 500 home run club is associated with the sport of baseball.\n7903. Carlo Cudicini plays the position of goalkeeper.\n7904. John Oliver is employed by The Walt Disney Company.\n7905. Mike Krzyzewski is associated with the sport of basketball.\n7906. NK Marsonia is associated with the sport of association football. (来源: HippoRAG)\n- [26] 11439. South Wales derby is associated with the sport of basketball.\n11440. Windows Aero was developed by Electronic Arts.\n11441. treble is associated with the sport of association football.\n11442. Wincenty Kadłubek is affiliated with the religion of Christian Science.\n11443. Roy Sievers is associated with the sport of rugby.\n11444. Jadranka Kosor is affiliated with the religion of Church of Scotland.\n11445. François Rabelais is affiliated with the religion of Christian Science.\n11446. Ender Wiggin was created by Orson Scott Card.\n11447. The company that produced Chevrolet Cruze is Toyota.\n11448. Bill Frist is a citizen of United Kingdom.\n11449. Oliver Wendell Holmes is employed by MSNBC.\n11450. Jean Jaurès is a citizen of United States of America.\n11451. Will Smith is married to Peter Mansbridge.\n11452. Spice Girls was created in the country of United Kingdom.\n11453. Stella Maris F.C. is associated with the sport of association football.\n11454. Florentino Pérez is associated with the sport of association football. (来源: HippoRAG)\n- [27] 16408. Martha Wayne is a citizen of United Kingdom of Great Britain and Ireland.\n16409. The author of Allegory of the Cave is J. M. E. McTaggart.\n16410. Simon Coveney is a citizen of United States of America.\n16411. Copa del Rey is associated with the sport of baseball.\n16412. John Beilein works in the field of association football referee.\n16413. The type of music that Bernie Worrell plays is funk.\n16414. Steve Buscemi is a citizen of United States of America.\n16415. Lou Reed is a citizen of United States of America.\n16416. Jean-Jacques Bertrand is affiliated with the religion of Methodism.\n16417. Mario Chalmers plays the position of flanker.\n16418. Umar Gul is associated with the sport of association football.\n16419. Paolo Sarpi is affiliated with the religion of Methodism.\n16420. The company that produced Pontiac Grand Am is General Motors.\n16421. Oscar Wilde is married to Constance Lloyd.\n16422. J. D. Salinger died in the city of Cornish.\n16423. Belfast Celtic F.C. is associated with the sport of association football. (来源: HippoRAG)\n- [28] 10844. Joe McGinnity is associated with the sport of association football.\n10845. William Shakespeare works in the field of businessperson.\n10846. The author of The History Boys is Samuel P. Huntington.\n10847. Augustinas Voldemaras is a citizen of Duchy of Lorraine.\n10848. R. L. Stine worked in the city of New York City.\n10849. Peter Sarsgaard is a citizen of Austria.\n10850. Susan Hayward is affiliated with the religion of Church of Scotland.\n10851. midfielder is associated with the sport of association football.\n10852. Agatha Christie speaks the language of English.\n10853. Dominic Brunt is a citizen of United Kingdom.\n10854. Jessie's Girl was created in the country of United States of America.\n10855. Factory Records was founded by Lyndon B. Johnson.\n10856. Andy Burnham works in the field of politician.\n10857. Montreal Royals is associated with the sport of field hockey.\n10858. Seoi nage is associated with the sport of judo.\n10859. Alfred Newton is employed by London School of Economics and Political Science. (来源: HippoRAG)\n- [29] 10258. Johan Cruyff's child is Greg Gagne.\n10259. Hotmail was developed by Midway Games.\n10260. Athenagoras of Athens is affiliated with the religion of Methodism.\n10261. Quasimodo was created by Franklin Delano Roosevelt.\n10262. H. P. Lovecraft speaks the language of Spanish.\n10263. The author of Goodnight Moon is Terrance Dicks.\n10264. The Royle Family was created in the country of United Kingdom.\n10265. Heavy Rain was developed by Quantic Dream.\n10266. John Hope Franklin speaks the language of English.\n10267. Margaret Lockwood is a citizen of Soviet Union.\n10268. Back Stage was created in the country of France.\n10269. The company that produced Zune is Microsoft.\n10270. Yossi Benayoun is associated with the sport of association football.\n10271. Oliver Stone speaks the language of English.\n10272. The author of Going Postal is Terry Pratchett.\n10273. The headquarters of York University is located in the city of Nashville.\n10274. Club Atlético Lanús is associated with the sport of association football.\n10275. Atlético Junior is associated with the sport of baseball. (来源: HippoRAG)\n- [30] 4606. The headquarters of Ilyushin is located in the city of Moscow.\n4607. Burnley F.C. is associated with the sport of association football.\n4608. Apple Pay was developed by Apple Inc..\n4609. Arthurlie F.C. is associated with the sport of association football.\n4610. Michael Reagan is affiliated with the religion of Methodism.\n4611. Anselm of Canterbury is affiliated with the religion of African Methodist Episcopal Church.\n4612. Milan Stojadinović is employed by WWE.\n4613. Carlos Queiroz is associated with the sport of association football.\n4614. Brian Epstein is a citizen of United Kingdom.\n4615. The head coach of Brisbane Roar FC is John Aloisi.\n4616. The origianl broadcaster of Superstore is NBC.\n4617. The chairperson of Ontario New Democratic Party is Andrea Horwath.\n4618. 2016 African Nations Championship is associated with the sport of association football.\n4619. The author of Flatland is Edwin Abbott Abbott.\n4620. Henry Thomas Colebrooke died in the city of London.\n4621. Kelis is a citizen of Ireland. (来源: HippoRAG)",
+        "steps": 5,
+        "tokens": 51698,
+        "latency_s": 57.17,
+        "replan": 0
+      },
+      {
+        "question": "Which country was go-go created in?",
+        "answer": "The Girl from Ipanema is associated with the type of music go-go.",
+        "steps": 5,
+        "tokens": 42893,
+        "latency_s": 4.56,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Arthur Miller?",
+        "answer": "The author of Gorgias is Karl Marx.",
+        "steps": 5,
+        "tokens": 43271,
+        "latency_s": 4.5,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Albania?",
+        "answer": "Ilir Meta",
+        "steps": 2,
+        "tokens": 8087,
+        "latency_s": 1.99,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Liz Lochhead?",
+        "answer": "United Kingdom",
+        "steps": 5,
+        "tokens": 43157,
+        "latency_s": 4.74,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Texas Collegiate League associated with?",
+        "answer": "baseball",
+        "steps": 2,
+        "tokens": 7896,
+        "latency_s": 1.92,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Vogue?",
+        "answer": "The author of Astro Boy is Osamu Tezuka.",
+        "steps": 5,
+        "tokens": 43252,
+        "latency_s": 5.51,
+        "replan": 0
+      },
+      {
+        "question": "Who is Wilma Flintstone's child?",
+        "answer": "根据提供的知识，关于“Wilma Flintstone的孩子是谁”存在两个不同的说法：  \n- **4855**：Wilma Flintstone's child is Pebbles Flintstone.  \n- **15185**：Wilma Flintstone's child is Eric Garcetti.  \n\n由于序列号较大的事实优先（15185 > 4855），**最新且具有更大序列号的事实是15185**。  \n\n**答案：Eric Garcetti**",
+        "steps": 5,
+        "tokens": 44030,
+        "latency_s": 5.17,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Abraham Ortelius work in?",
+        "answer": "- [11] 2649. Abraham Ortelius worked in the city of Antwerp.\n- [12] 14005. Abraham Ortelius worked in the city of Berlin.\n- [13] 12183. The author of The Shadow Over Innsmouth is Abraham Ortelius.\n- [21] 2649. Abraham Ortelius worked in the city of Antwerp.\n- [22] 14005. Abraham Ortelius worked in the city of Berlin.\n- [23] 12183. The author of The Shadow Over Innsmouth is Abraham Ortelius.\n\n根据规则， newer fact has larger serial number，且需找最新的事实。上述关于Abraham Ortelius的事实中，serial numbers最大的是2649、14005、12183（均为2649 < 14005 < 12183），因此最新的是12183。\n\nAnswer: The author of The Shadow Over Innsmouth is Abraham Ortelius.",
+        "steps": 5,
+        "tokens": 43660,
+        "latency_s": 6.04,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Armani?",
+        "answer": "The company that produced Polymoog is Moog Music.\nThe author of Eclogues is Virgil.\nThe author of Shōbōgenzō is Dōgen.\nThe company that produced Ford Escort is Ford Motor Company.\nThe author of Howards End is E. M. Forster.\nThe author of Yu Yu Hakusho is Yoshihiro Togashi.\nThe director of Armani is Giorgio Armani.\nAnna Magdalena Bach is married to Johann Sebastian Bach.\nThe chief executive officer of Berkshire Hathaway is Anne-Marie Slaughter.\nArmani was founded by Pál Teleki.\nLucasfilm was founded by George Lucas.\nThe headquarters of VMware Inc. is located in the city of Ottawa.\nThe headquarters of Columbia University School of Engineering is located in the city of New York City.\n1998 NBA Finals is associated with the sport of basketball.\nThe company that produced Ford Fusion is Ford Motor Company.\nLoyola Ramblers Men's Basketball is associated with the sport of basketball.\nRick Hearst is a citizen of Poland.\nAngelo Dundee is associated with the sport of boxing.\nPalani is located in the continent of Asia.\nThe name of the current head of state in Russia is Vladimir Putin.\nClay Buchholz plays the position of cornerback.\nBrienne of Tarth was performed by Gwendoline Christie.\nThe author of Jude the Obscure is Thomas Hardy.\nThe author of The Road to Serfdom is Søren Kierkegaard.\nApple Lisa was developed by Apple Inc.\nBohr model was created by Niels Bohr.\nJohanna van Gogh-Bonger is a citizen of Kingdom of the Netherlands.\nThe origianl broadcaster of 85th Academy Awards is British Broadcasting Corporation.\nThe author of Second Foundation is Isaac Asimov.\nBGM-71 TOW was developed by Raytheon.\nRené Descartes is affiliated with the religion of Catholic Church.\nJorge Masvidal is a citizen of United States of America.\nGiorgio Armani is a citizen of Tang Empire.\nThe company that produced Red Bull is Red Bull GmbH.\nKingdom of Aragon is located in the continent of Europe.\nTyronn Lue plays the position of point guard.\nGreg Mortenson is a citizen of United States of America.\nRomain Rolland worked in the city of Paris.\nKarşıyaka S.K. is associated with the sport of cricket.\nStrangers in the Night was performed by Frank Sinatra.\nCongregation of Christian Brothers is affiliated with the religion of Catholic Church.\nWhitgift School was founded by Robert P. George.\nTyson Chandler plays the position of linebacker.\nMartin of Braga is affiliated with the religion of Methodism.\nManchester City F.C. is associated with the sport of association football.\nEttore Bugatti is associated with the sport of baseball.\nAlvar Aalto died in the city of Helsinki.\nThe original language of Harry Potter is English.\nJohn Doggett is employed by Federal Bureau of Investigation.\nJamie Lee Curtis is a citizen of France.\nStephen Adly Guirgis was born in the city of Hamburg.\nJerry Coyne is employed by Harvard University.\nNobunaga's Ambition was developed by Tupolev.\nSpeakerboxxx/The Love Below was performed by Queen.\nDistributed Component Object Model was developed by BlackBerry.\nMiu Miu was founded by Alfred Adler.\nJerry Lee Lewis worked in the city of Helsinki.\nGuinness was founded by Charlemagne.\nThe univeristy where John Hancock was educated is Stanford University.\nThe author of Romeo and Juliet is Henry James.\nRoger B. Taney is affiliated with the religion of Methodism.\nInnocent XI is affiliated with the religion of Catholic Church.\nThe author of I Have a Dream is H. P. Lovecraft.\nStephenie Meyer speaks the language of German.\nLakshmi Mittal is a citizen of Philippines.\nThe director of Armani is Alfred Gusenbauer.\nCochinchina is affiliated with the religion of Buddhism.\nPeter Robinson worked in the city of Paris.\nCarl Lumbly speaks the language of Korean.\nAyn Rand died in the city of New York City.\nElizabeth Edwards is employed by Bard College.\nAnderson .Paak is a citizen of Ireland.\nPrince Nicholas of Greece and Denmark died in the city of Warsaw.\nSimi Garewal is a citizen of Italy.\nDoctor Who was created in the country of United Kingdom.\ncricket was created in the country of England.\nHunter Foster is a citizen of France.\nGregory House was created by Robert Louis Stevenson.\nJonathan Raban is a citizen of United Kingdom.\nIveco was founded by Sebastián de Belalcázar.\nMatt Kemp is associated with the sport of baseball.\nSean Miller plays the position of point guard.\nThe name of the current head of the Auckland government is Phil Goff.\nMarty Walsh works in the field of economist.\nWilbert Awdry is a citizen of United Kingdom.\nSami Khedira plays the position of midfielder.\nChâteau de Chambord was founded by Ashot I of Armenia.\nKD Slovan is associated with the sport of basketball.\nThe headquarters of Gazeta Wyborcza is located in the city of Warsaw.\nSheikh Hasina speaks the language of Bengali.\nThe Minister for Home Affairs is Peter Dutton.\nKarl Marx speaks the language of German.\nRicky Rubio plays the position of defender.\nLee Cattermole plays the position of midfielder.\nEmilio Estefan is married to William Williams.\nPauline Bonaparte is affiliated with the religion of Catholic Church.\nDavid Hasselhoff is a citizen of United States of America.\nGiulio Antonio Santorio is affiliated with the religion of Catholic Church.\nPedro I is affiliated with the religion of Catholic Church.\nRoc Nation was founded by Jay-Z.\nA. A. Milne was born in the city of London.\ndefensive tackle is associated with the sport of American football.\nRyan Howard plays the position of first baseman.\nThe type of music that Terry Pratchett plays is fantasy.\nThe type of music that Will Young plays is pop music.\nNintendo was founded by Fusajiro Yamauchi.\nThe chairperson of Palestine Liberation Organization is Mahmoud Abbas.\nAntonin Scalia is affiliated with the religion of Catholic Church.\nThe univeristy where William Lenthall was educated is University of Oxford.\nMilwaukee Brewers is associated with the sport of baseball.\nThe Glee Project was created by Ryan Murphy.\nGrameen Bank was founded by Muhammad Yunus.\nJoan Laporta is a citizen of Spain.\nAmoco was founded by Paul Hellyer.\nPaul Mooney is a citizen of Australia.\nE. B. White is a citizen of United States of America.\nAris Thessaloniki F.C. is associated with the sport of association football.\nLeonte Răutu is employed by University of Bucharest.\nBen Carson was born in the city of Detroit.\nJayne Meadows is a citizen of United States of America.\nAmerican Experience was created in the country of United States of America.\nStephen McNeil works in the field of politician.\nThomas de Cantilupe is affiliated with the religion of Church of Scotland.\nEnrico Letta is affiliated with the religion of Catholic Church.\nThe type of music that Patsy Cline plays is country music.\nRobin Givens was born in the city of Seoul.\nAngelo Sodano is affiliated with the religion of Catholic Church.\nJulia Grant is married to Ulysses S. Grant.\nJames Aloysius Hickey is affiliated with the religion of Methodism.\nFrançois Pinault speaks the language of French.\nSudan People's Liberation Movement was founded by John Garang.\nFábio Aurélio is associated with the sport of cricket.\nMark Feldman is a citizen of United States of America.\nThe name of the current head of the Italy government is Giuseppe Conte.\nNeuromancer was created in the country of United States of America.\nHon Hai Precision Industry was founded by Terry Gou.\nThe headquarters of The Walt Disney Studios is located in the city of Burbank.\nMary Tudor is affiliated with the religion of Methodism.\nWilliam Randolph Hearst is a citizen of France.\nAbet Guidaben plays the position of goaltender.\nJoanna Cassidy is a citizen of United States of America.\nWendy Wasserstein speaks the language of English.\nThe headquarters of University of the Punjab is located in the city of Lahore.\nThe Governor of Colorado is Priti Patel.\nGeorge Lucas was born in the city of Modesto.\nJuan Osorio is a citizen of Mexico.",
+        "steps": 5,
+        "tokens": 44452,
+        "latency_s": 16.5,
+        "replan": 0
+      },
+      {
+        "question": "What position does Mathieu Flamini play?",
+        "answer": "midfielder",
+        "steps": 5,
+        "tokens": 42834,
+        "latency_s": 35.09,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of The Wonder Years?",
+        "answer": "The original broadcaster of The Wonder Years is British Broadcasting Corporation.",
+        "steps": 5,
+        "tokens": 41980,
+        "latency_s": 4.93,
+        "replan": 0
+      },
+      {
+        "question": "Which company is M1895 Colt-Browning machine gun produced by?",
+        "answer": "The company that produced M1895 Colt-Browning machine gun is Colt's Manufacturing Company.",
+        "steps": 5,
+        "tokens": 43212,
+        "latency_s": 36.2,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius IX affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 8008,
+        "latency_s": 1.89,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Morning Joe?",
+        "answer": "MSNBC",
+        "steps": 2,
+        "tokens": 8005,
+        "latency_s": 1.92,
+        "replan": 0
+      },
+      {
+        "question": "Who is Herodias's child?",
+        "answer": "Herodias's child is Francis Russell, 4th Earl of Bedford.",
+        "steps": 5,
+        "tokens": 42728,
+        "latency_s": 4.72,
+        "replan": 0
+      },
+      {
+        "question": "Who was The Dark Knight created by?",
+        "answer": "Stephen Hillenburg",
+        "steps": 5,
+        "tokens": 41853,
+        "latency_s": 5.49,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Jeune Afrique created in?",
+        "answer": "Jeune Afrique was created in the country of Israel (from 14389) and also in the country of France (from 4036). Since the task requires using the most recent fact with the largest serial number, and 14389 has a larger serial number than 4036, the answer is Israel.",
+        "steps": 5,
+        "tokens": 43341,
+        "latency_s": 35.32,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Anna Ancher?",
+        "answer": "The author of A Passage to India is Federico García Lorca.",
+        "steps": 5,
+        "tokens": 42743,
+        "latency_s": 5.07,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Andy Griffith play?",
+        "answer": "post-punk",
+        "steps": 5,
+        "tokens": 43012,
+        "latency_s": 5.28,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Jerry Lee Lewis work in?",
+        "answer": "The type of music that Teddy Wilson plays is jazz.",
+        "steps": 5,
+        "tokens": 43609,
+        "latency_s": 5.58,
+        "replan": 0
+      },
+      {
+        "question": "What language does William Shakespeare speak?",
+        "answer": "The official language of Argentina is German.",
+        "steps": 5,
+        "tokens": 43038,
+        "latency_s": 95.46,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Joseph Lyons affiliated with?",
+        "answer": "The author of Winnie-the-Pooh is Robert Burns.",
+        "steps": 5,
+        "tokens": 42506,
+        "latency_s": 5.7,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2014 CollegeInsider.com Postseason Tournament associated with?",
+        "answer": "basketball",
+        "steps": 2,
+        "tokens": 8125,
+        "latency_s": 1.89,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Harry Judd?",
+        "answer": "法国",
+        "steps": 5,
+        "tokens": 42503,
+        "latency_s": 4.34,
+        "replan": 0
+      },
+      {
+        "question": "Which city did H. P. Lovecraft work in?",
+        "answer": "H. P. Lovecraft worked in the city of Ottawa.",
+        "steps": 5,
+        "tokens": 43334,
+        "latency_s": 4.76,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Grêmio Barueri Futebol associated with?",
+        "answer": "The author of Tuesdays with Morrie is Mitch Albom.",
+        "steps": 5,
+        "tokens": 42254,
+        "latency_s": 4.6,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius VI affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 8010,
+        "latency_s": 92.25,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Frank Norris educated at?",
+        "answer": "University of California, Berkeley",
+        "steps": 5,
+        "tokens": 42822,
+        "latency_s": 5.71,
+        "replan": 0
+      },
+      {
+        "question": "What language does Theodor Herzl speak?",
+        "answer": "The official language of Germany is English.",
+        "steps": 5,
+        "tokens": 42857,
+        "latency_s": 4.84,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Spain?",
+        "answer": "The official language of Spain is Spanish.",
+        "steps": 5,
+        "tokens": 43147,
+        "latency_s": 5.36,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn L. Martin?",
+        "answer": "United States of America",
+        "steps": 5,
+        "tokens": 42796,
+        "latency_s": 4.76,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Kingdom of Italy located in?",
+        "answer": "The author of An Ideal Husband is James Agee.",
+        "steps": 5,
+        "tokens": 43130,
+        "latency_s": 4.49,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is squeeze play associated with?",
+        "answer": "basketball",
+        "steps": 2,
+        "tokens": 8021,
+        "latency_s": 1.94,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Worksop Town F.C. associated with?",
+        "answer": "association football",
+        "steps": 5,
+        "tokens": 41992,
+        "latency_s": 5.46,
+        "replan": 0
+      },
+      {
+        "question": "What is the original language of Gunsmoke?",
+        "error": "请求 Token 数量超过模型 TPM 限制，请稍后重试, log_id: 202603300340520000000000003195C7A"
+      },
+      {
+        "question": "What is Helen Fielding famous for?",
+        "answer": "Bridget Jones's Diary",
+        "steps": 2,
+        "tokens": 7938,
+        "latency_s": 32.5,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Milan Stojadinović?",
+        "answer": "以下是根据上下文整理的部分事实信息（按类别划分，答案需严格基于原文，不添加外部知识）：\n\n\n### **人物与职业**  \n- **Zoran Milanović**：在[10]中工作领域为“politician”，[14]中为“American football player”（存在冲突，但需按原文记录）。  \n- **Milan Stojadinović**：[13]中被WWE雇佣，[23]中创立Lollardy，[21]中被University of Belgrade雇佣（存在冲突，需按原文记录）。  \n- **Carmarthen Town A.F.C.**：[9]中关联运动为“association football”。  \n- **Bobby Hebert**：[9]中位置为“quarterback”。  \n- **Dino Zoff**：[9]中位置为“goalkeeper”。  \n- **Hit-Boy**：[10]中为“United States of America”公民。  \n- **Avril Lavigne**：[14]中为“Canada”公民。  \n- **Jorma Panula**：[21]中为“Finland”公民。  \n- **Guy Green**：[21]中为“United Kingdom”公民。  \n- **Ian St. John**：[21]中关联运动为“association football”。  \n- **Herbert Hoover**：[14]中妻子为“Susan Roces”（可能存在错误，但按原文记录）。  \n- **Noel Gallagher**：[14]中为“Pakistan”公民。  \n- **R. L. Stine**：[14]中曾在“Oslo”工作，[15]中为《Goosebumps》作者。  \n- **Steve Kerr**：[10]中为“Golden State Warriors”主教练。  \n- **Andy Kershaw**：[16]中毕业于“University of Leeds”。  \n- **Titian**：[14]中死于“Belgrade”。  \n- **Jean-Paul Sartre**：[17]中为“France”公民。  \n- **Roy Hodgson**：[17]中关联运动为“association football”。  \n- **Françoise Mouly**：[20]中出生于“Los Angeles”。  \n- **Waylon Jennings**：[20]中曾在“Nashville”工作。  \n- **Andre Citroën**：[20]中死于“Paris”。  \n- **Erik Spoelstra**：[20]中位置为“power forward”。  \n- **Javed Akhtar**：[20]中妻子为“Jamie Hewlett”（可能存在错误，按原文记录）。  \n\n\n### **机构与产品**  \n- **Apple Inc.**：[13]开发Finder，[22]开发Apple Pay，[16]开发“Yulia Lipnitskaya”（原文“Yulia Lipnitskaya is a citizen of Russia.”，此句与Apple无关，可能为误关联）。  \n- **Microsoft**：[21]生产Windows Vista，[17]开发Windows Server 2003。  \n- **Harvard University**：[10]雇佣Oliver Wendell Holmes，[16]雇佣Felix Frankfurter，[15]雇佣Washington Allston。  \n- **University of Belgrade**：[21]雇佣Milan Stojadinović，[26]雇佣Vuk Karadžić，[19]雇佣Dositej Obradović，[17]雇佣Haris Silajdžić。  \n- **Koei**：[9]开发《Nobunaga's Ambition》。  \n- **Schneider Electric**：[26]生产Schneider CA1。  \n- **Ford Motor Company**：[19]生产Ford Falcon，[30]生产Ford Torino。  \n- **WWE**：[13]雇佣Milan Stojadinović，[25]雇佣Max Levchin。  \n\n\n### **地理与文化**  \n- **Australia**：[21]位于“Oceania”，[20]官方语言为“Arabic”（可能错误，按原文记录），[19]中Elizabeth Perkins为“Australia”公民。  \n- **Indonesia**：[18]首都是“Jakarta”。  \n- **Netherlands**：[19]首都是“Amsterdam”。  \n- **Mumbai**：[14]位于“Asia”。  \n- **Paris**：[20]中André Citroën死于“Paris”。  \n- **Helsinki**：[19]中Väinö Tanner曾工作，[20]中Juha Sipilä曾工作，[9]中Matti Vanhanen曾工作。  \n- **London**：[13]中Henry Thomas Colebrooke死于“London”，[20]中Kunstkamera总部位于“London”（[16]中为“Saint Petersburg”，存在冲突）。  \n- **Belgrade**：[14]中Titian死于“Belgrade”。  \n- **Chicago**：[23]中Thomas Mifflin出生于“Chicago”。  \n\n\n### **宗教与信仰**  \n- **Methodism**：[13]中Michael Reagan、[16]中Andrew Little、[9]中Barry University、[16]中Duchy of Greater Poland所属宗教。  \n- **Catholic Church**：[26]中Palladius、[9]中Christine Hakim、[17]中Geoffrey Chaucer所属宗教。  \n- **Serbian Orthodox Church**：[21]中Aleksandar Vučić所属宗教。  \n- **African Methodist Episcopal Church**：[13]中Anselm of Canterbury所属宗教。  \n- **Religious Society of Friends**：[13]中Clement IX所属宗教。  \n- **Ahmadiyya**：[9]中Albert of Riga所属宗教。  \n- **Lutheranism**：[16]中Hage Gottfried Geingob所属宗教。  \n\n\n### **体育与运动**  \n- **association football**：[9]（Carmarthen Town A.F.C.）、[13]（Burnley F.C.、Arthurlie F.C.、Carlos Queiroz）、[17]（Roy Hodgson）、[19]（Addis Ababa Stadium）、[26]（Tyresö FF）、[28]（Lisbon Lions、FK Senica、Liga Alef）、[30]（Serbian League West）等均关联此运动。  \n- **basketball**：[13]（1997 Florida Marlins season）、[14]（squeeze play）。  \n- **baseball**：[9]（Wade Davis）、[30]（Serbian League West）。  \n- **cricket**：[13]（Ståle Solbakken）、[16]（Ståle Solbakken）。  \n- **judo**：[9]（Pan American Judo Championships）。  \n- **Miles Davis**：[25]中音乐类型为“country music”。  \n- **Martin Denny**：[23]中音乐类型为“K-pop”。  \n- **Brantley Gilbert**：[15]中音乐类型为“J-pop”。  \n- **The Girl from Ipanema**：[30]中音乐类型为“go-go”。  \n\n\n### **文学与艺术**  \n- **Edwin Abbott Abbott**：[13]中《Flatland》作者。  \n- **Longus**：[25]中《Daphnis and Chloe》作者。  \n- **Gustave Flaubert**：[25]中《Salammbô》作者。  \n- **T. S. Eliot**：[18]中《Four Quartets》作者。  \n- **Arthur Conan Doyle**：[10]中为《Sherlock Holmes》 canon作者，[30]中误为《Fast Food Nation》作者（原文如此，需记录）。  \n- **David Simon**：[17]中《Our Gang》作者（可能错误，按原文记录）。  \n- **Jane Austen**：[17]中《Dianetics》作者（明显错误，按原文记录）。  \n- **Gustave Flaubert**：[25]中《Salammbô》作者。  \n- **Klee Wyck**：[25]中Mark Millar的代表作。  \n\n\n### **政治与历史**  \n- **Rashtriya Janata Dal**：[26]中由Lalu Prasad Yadav创立。  \n- **New Economic Policy**：[20]中由Vladimir Lenin创立。  \n- **Russian Empire**：[25]中由K. B. Hedgewar创立（明显错误，按原文记录）。  \n- **Dominican Republic**：[21]中现任国家元首为“Danilo Medina”。  \n- **Kerala政府**：[23]中现任负责人为“Pinarayi Vijayan”。  \n- **West Bengal政府**：[18]中现任负责人为“Mamata Banerjee”。  \n\n\n**注**：部分内容存在明显矛盾（如机构雇佣、人物关系），均严格按原文记录，不做修正。",
+        "steps": 5,
+        "tokens": 45035,
+        "latency_s": 19.55,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Cuba located in?",
+        "error": "请求 Token 数量超过模型 TPM 限制，请稍后重试, log_id: 202603300404480000000000003542850"
+      },
+      {
+        "question": "Which language was 9/11 Commission Report written in?",
+        "answer": "The language of 9/11 Commission Report is English.",
+        "steps": 5,
+        "tokens": 42739,
+        "latency_s": 35.44,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Gianni Morbidelli?",
+        "answer": "- [11] 5505. The type of music that Nottz plays is opéra comique.\n5506. The author of Small Gods is Terry Pratchett.\n5507. Dennis Erickson plays the position of quarterback.\n5508. The company that produced Volvo P1800 is Fiat.\n5509. Gianni Morbidelli is a citizen of Denmark.\n5510. The official language of Järvenpää is Finnish.\n5511. Raymond Chandler speaks the language of English.\n5512. Valerie Plame is employed by Central Intelligence Agency.\n5513. The capital of Uganda is Kampala.\n5514. A Rake's Progress was created by William Hogarth.\n5515. The author of Pharsalia is Lucan.\n5516. Logic Pro was developed by Microsoft.\n5517. Victoria Cross was founded by Queen Victoria I.\n5518. Monty Panesar is associated with the sport of cricket.\n5519. The headquarters of ShondaLand is located in the city of Washington, D.C..\n5520. Charles de Gaulle is a citizen of France.\n5521. Henrik Ibsen is a citizen of United Kingdom.\n5522. The author of Nicholas Nickleby is Charles Dickens.\n5523. The official language of Jamaica is English. (来源: HippoRAG)\n- [12] 2496. The origianl broadcaster of The A-Team is NBC.\n2497. The chairperson of Santer Commission is Philip Hammond.\n2498. John Buchan worked in the city of London.\n2499. Pune is located in the continent of Asia.\n2500. The type of music that Frank Herbert plays is science fiction.\n2501. Antigua Barracuda FC is associated with the sport of association football.\n2502. Gianni Morbidelli is a citizen of Italy.\n2503. The headquarters of Cadillac Fairview is located in the city of Toronto.\n2504. Alternative Press was created in the country of United States of America.\n2505. The Beggar's Opera was written in the language of English.\n2506. The type of music that Jon Faddis plays is jazz.\n2507. Whitgift School was founded by John Whitgift.\n2508. Charles Borromeo is affiliated with the religion of Armenian Apostolic Church.\n2509. Tinker Bell was created by J. M. Barrie.\n2510. Red Star Stadium is associated with the sport of association football.\n2511. Bob Bennett died in the city of Washington, D.C..\n2512. 2004 FA Cup Final is associated with the sport of association football. (来源: HippoRAG)\n- [13] 8814. Glenn L. Martin is a citizen of Denmark.\n8815. Aidan O'Brien is a citizen of United Kingdom.\n8816. The univeristy where Ilir Meta was educated is University of Tirana.\n8817. Miami Marlins is associated with the sport of baseball.\n8818. Bob Lanier plays the position of center.\n8819. The company that produced Pontiac Grand Prix is General Motors.\n8820. Antoni Macierewicz is a citizen of Poland.\n8821. John Henry Newman is employed by University of Oxford.\n8822. Chögyam Trungpa is affiliated with the religion of Buddhism.\n8823. Shawn Marion is associated with the sport of basketball.\n8824. Sadiq Khan is a citizen of United States of America.\n8825. Aurora Pro Patria 1919 is associated with the sport of association football.\n8826. The headquarters of Airbnb is located in the city of San Francisco.\n8827. Davina McCall is a citizen of United Kingdom.\n8828. Chonburi F.C. is associated with the sport of association football.\n8829. petanque was created in the country of France.\n8830. Joseph Pulitzer is a citizen of United States of America. (来源: HippoRAG)\n- [14] 14195. Sourav Ganguly is associated with the sport of cricket.\n14196. Brazilian jiu-jitsu was created in the country of Philippines.\n14197. Joey Cape is a citizen of United States of America.\n14198. Atlético Choloma is associated with the sport of association football.\n14199. Alexander Van der Bellen speaks the language of German.\n14200. William James is a citizen of Italy.\n14201. Sangju Sangmu FC is associated with the sport of cricket.\n14202. Rashid Khalidi is affiliated with the religion of Islam.\n14203. 2005 World Series is associated with the sport of football.\n14204. GNU Classpath was developed by GNU Project.\n14205. The Well of Loneliness was written in the language of Russian.\n14206. The type of music that Changmin plays is K-pop.\n14207. Alessandra Daddario is a citizen of United States of America.\n14208. Tillakaratne Dilshan is associated with the sport of cricket.\n14209. Agatha Christie is a citizen of Venezuela.\n14210. Marco Materazzi is a citizen of United States of America.\n14211. Becki Newton is a citizen of Italy. (来源: HippoRAG)\n- [15] 13492. John Shadegg is a citizen of United Kingdom.\n13493. John Wayles is a citizen of Romania.\n13494. Catriona Matthew is a citizen of Paraguay.\n13495. General Motors was created in the country of Great Britain.\n13496. Justin Timberlake is married to Jessica Biel.\n13497. William Ewart Gladstone worked in the city of Ulm.\n13498. Paul Roma is a citizen of Italy.\n13499. Bill Gates is a citizen of Puerto Rico.\n13500. Carl Gustaf Wrangel is a citizen of Sweden.\n13501. The official language of Romania is Medieval Greek.\n13502. The capital of Canada is Ottawa.\n13503. Scafati Basket is associated with the sport of basketball.\n13504. Charles Laughton is married to Amanda Palmer.\n13505. Clement Davies worked in the city of Bern.\n13506. Monty Panesar is associated with the sport of rugby.\n13507. John McEnroe is associated with the sport of association football.\n13508. Luca Cordero di Montezemolo is a citizen of Italy.\n13509. Lark Rise to Candleford was created in the country of Australia.\n13510. The company that produced Volvo S80 is General Motors. (来源: HippoRAG)\n- [16] 8172. Jon Robin Baitz is a citizen of United States of America.\n8173. The President of Tanzania is John Magufuli.\n8174. Garrincha is associated with the sport of rugby union.\n8175. Mark Buehrle plays the position of flanker.\n8176. German Empire is located in the continent of Africa.\n8177. Hermann Hesse speaks the language of German.\n8178. The head coach of Chicago Bulls is Diego Simeone.\n8179. The name of the current head of state in Albania is Ilir Meta.\n8180. Leo Allatius is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints.\n8181. Ralph Sampson plays the position of defender.\n8182. Switzerland is located in the continent of Asia.\n8183. Leo I the Thracian is affiliated with the religion of Christianity.\n8184. Andrew Morton is a citizen of United Kingdom.\n8185. The name of the current head of state in Dominican Republic is Lim Guan Eng.\n8186. Paul Mooney is a citizen of United States of America.\n8187. Gianluigi Buffon plays the position of goalkeeper.\n8188. The origianl broadcaster of Life Unexpected is MSNBC. (来源: HippoRAG)\n- [17] 10656. The capital of Belgium is Porto Velho.\n10657. Peter Sellars is a citizen of Egypt.\n10658. The type of music that Verve Records plays is jazz.\n10659. Tite Kubo is famous for La Nouvelle Revue française.\n10660. The author of Etymologiae is Ibn al-Haytham.\n10661. The author of Monster Manual II is Gary Gygax.\n10662. Lalla Ward is a citizen of Canada.\n10663. Harper Lee speaks the language of German.\n10664. The type of music that Gza plays is hip hop music.\n10665. Andrew Carnegie is a citizen of United Kingdom.\n10666. Dragnet franchise was created by Vera Ignatyevna Mukhina.\n10667. The type of music that Miles Davis plays is jazz.\n10668. Sixtus V is affiliated with the religion of Latter Day Saint movement.\n10669. Eben Moglen is a citizen of Taiwan.\n10670. Gianni Infantino is associated with the sport of cricket.\n10671. Siena College is affiliated with the religion of Jainism.\n10672. The company that produced Aston Martin DBR9 is Toyota.\n10673. Scott Walker is a citizen of United States of America.\n10674. Vince McMahon is a citizen of United States of America. (来源: HippoRAG)\n- [18] 7746. Thus Spoke Zarathustra was created in the country of Germany.\n7747. Cannonball Adderley is a citizen of Germany.\n7748. Villarreal CF C is associated with the sport of association football.\n7749. Brooks Wackerman is a citizen of United States of America.\n7750. Mary Fallin works in the field of politician.\n7751. The name of the current head of the Bihar government is Nitish Kumar.\n7752. ASM Clermont Auvergne is associated with the sport of baseball.\n7753. Sofía Vergara is affiliated with the religion of Lapsed Catholic.\n7754. Keith Smart plays the position of flanker.\n7755. Rafael van der Vaart plays the position of goaltender.\n7756. Federico García Lorca speaks the language of Spanish.\n7757. Charles Dickens died in the city of Angers.\n7758. Peter Dutton speaks the language of English.\n7759. The type of music that Lloyd Alexander plays is jazz.\n7760. The Governor of Hawaii is David Ige.\n7761. Pietro Aldobrandini is affiliated with the religion of Church of Scotland.\n7762. The author of Utopia is Thomas More. (来源: HippoRAG)\n- [19] 9245. Giovanni Agnelli is a citizen of Niger.\n9246. The type of music that Ed Shaughnessy plays is contemporary Christian music.\n9247. Chris Claremont is famous for Blue Peter.\n9248. 1998 NatWest Trophy is associated with the sport of cricket.\n9249. Austria-Hungary is affiliated with the religion of Catholic Church.\n9250. Sam Nujoma is a citizen of Namibia.\n9251. St. John Fisher College is affiliated with the religion of Christian Science.\n9252. John Cassavetes is married to Gena Rowlands.\n9253. Soul Food was created in the country of United States of America.\n9254. Johannes Trithemius is affiliated with the religion of Church of Scotland.\n9255. Combat Rock was performed by Lulu.\n9256. Jango Fett was created by George Lucas.\n9257. Club Atlético Platense is associated with the sport of rugby.\n9258. The company that produced GMC Envoy is General Motors.\n9259. Joey Barton plays the position of midfielder.\n9260. Zodiac was created in the country of Russia.\n9261. Empress Jingu is a citizen of United States of America. (来源: HippoRAG)\n- [20] 3070. cornerback is associated with the sport of American football.\n3071. Jöns Jacob Berzelius is a citizen of Sweden.\n3072. Louis Aragon is a citizen of France.\n3073. Gösta Ekman is a citizen of Sweden.\n3074. Gary Larson is famous for The Far Side.\n3075. Antonio Conte is associated with the sport of association football.\n3076. Martin O'Neill is associated with the sport of association football.\n3077. The official language of Forssa is Finnish.\n3078. Moazzam Begg is affiliated with the religion of Islam.\n3079. Elisabeth Moss is a citizen of United States of America.\n3080. U2 was created in the country of Ireland.\n3081. Luke the Evangelist is affiliated with the religion of Christianity.\n3082. Karl Marx is married to Jenny Marx.\n3083. Michiko Kakutani is employed by The New York Times.\n3084. Paul Ryan is affiliated with the religion of Zoroastrianism.\n3085. Joe Cocker is a citizen of Australia.\n3086. Cardinal Richelieu speaks the language of French.\n3087. The name of the current head of state in Saint Lucia is Elizabeth II. (来源: HippoRAG)\n- [21] 5505. The type of music that Nottz plays is opéra comique.\n5506. The author of Small Gods is Terry Pratchett.\n5507. Dennis Erickson plays the position of quarterback.\n5508. The company that produced Volvo P1800 is Fiat.\n5509. Gianni Morbidelli is a citizen of Denmark.\n5510. The official language of Järvenpää is Finnish.\n5511. Raymond Chandler speaks the language of English.\n5512. Valerie Plame is employed by Central Intelligence Agency.\n5513. The capital of Uganda is Kampala.\n5514. A Rake's Progress was created by William Hogarth.\n5515. The author of Pharsalia is Lucan.\n5516. Logic Pro was developed by Microsoft.\n5517. Victoria Cross was founded by Queen Victoria I.\n5518. Monty Panesar is associated with the sport of cricket.\n5519. The headquarters of ShondaLand is located in the city of Washington, D.C..\n5520. Charles de Gaulle is a citizen of France.\n5521. Henrik Ibsen is a citizen of United Kingdom.\n5522. The author of Nicholas Nickleby is Charles Dickens.\n5523. The official language of Jamaica is English. (来源: HippoRAG)\n- [22] 2496. The origianl broadcaster of The A-Team is NBC.\n2497. The chairperson of Santer Commission is Philip Hammond.\n2498. John Buchan worked in the city of London.\n2499. Pune is located in the continent of Asia.\n2500. The type of music that Frank Herbert plays is science fiction.\n2501. Antigua Barracuda FC is associated with the sport of association football.\n2502. Gianni Morbidelli is a citizen of Italy.\n2503. The headquarters of Cadillac Fairview is located in the city of Toronto.\n2504. Alternative Press was created in the country of United States of America.\n2505. The Beggar's Opera was written in the language of English.\n2506. The type of music that Jon Faddis plays is jazz.\n2507. Whitgift School was founded by John Whitgift.\n2508. Charles Borromeo is affiliated with the religion of Armenian Apostolic Church.\n2509. Tinker Bell was created by J. M. Barrie.\n2510. Red Star Stadium is associated with the sport of association football.\n2511. Bob Bennett died in the city of Washington, D.C..\n2512. 2004 FA Cup Final is associated with the sport of association football. (来源: HippoRAG)\n- [23] 8814. Glenn L. Martin is a citizen of Denmark.\n8815. Aidan O'Brien is a citizen of United Kingdom.\n8816. The univeristy where Ilir Meta was educated is University of Tirana.\n8817. Miami Marlins is associated with the sport of baseball.\n8818. Bob Lanier plays the position of center.\n8819. The company that produced Pontiac Grand Prix is General Motors.\n8820. Antoni Macierewicz is a citizen of Poland.\n8821. John Henry Newman is employed by University of Oxford.\n8822. Chögyam Trungpa is affiliated with the religion of Buddhism.\n8823. Shawn Marion is associated with the sport of basketball.\n8824. Sadiq Khan is a citizen of United States of America.\n8825. Aurora Pro Patria 1919 is associated with the sport of association football.\n8826. The headquarters of Airbnb is located in the city of San Francisco.\n8827. Davina McCall is a citizen of United Kingdom.\n8828. Chonburi F.C. is associated with the sport of association football.\n8829. petanque was created in the country of France.\n8830. Joseph Pulitzer is a citizen of United States of America. (来源: HippoRAG)\n- [24] 14195. Sourav Ganguly is associated with the sport of cricket.\n14196. Brazilian jiu-jitsu was created in the country of Philippines.\n14197. Joey Cape is a citizen of United States of America.\n14198. Atlético Choloma is associated with the sport of association football.\n14199. Alexander Van der Bellen speaks the language of German.\n14200. William James is a citizen of Italy.\n14201. Sangju Sangmu FC is associated with the sport of cricket.\n14202. Rashid Khalidi is affiliated with the religion of Islam.\n14203. 2005 World Series is associated with the sport of football.\n14204. GNU Classpath was developed by GNU Project.\n14205. The Well of Loneliness was written in the language of Russian.\n14206. The type of music that Changmin plays is K-pop.\n14207. Alessandra Daddario is a citizen of United States of America.\n14208. Tillakaratne Dilshan is associated with the sport of cricket.\n14209. Agatha Christie is a citizen of Venezuela.\n14210. Marco Materazzi is a citizen of United States of America.\n14211. Becki Newton is a citizen of Italy. (来源: HippoRAG)\n- [25] 13492. John Shadegg is a citizen of United Kingdom.\n13493. John Wayles is a citizen of Romania.\n13494. Catriona Matthew is a citizen of Paraguay.\n13495. General Motors was created in the country of Great Britain.\n13496. Justin Timberlake is married to Jessica Biel.\n13497. William Ewart Gladstone worked in the city of Ulm.\n13498. Paul Roma is a citizen of Italy.\n13499. Bill Gates is a citizen of Puerto Rico.\n13500. Carl Gustaf Wrangel is a citizen of Sweden.\n13501. The official language of Romania is Medieval Greek.\n13502. The capital of Canada is Ottawa.\n13503. Scafati Basket is associated with the sport of basketball.\n13504. Charles Laughton is married to Amanda Palmer.\n13505. Clement Davies worked in the city of Bern.\n13506. Monty Panesar is associated with the sport of rugby.\n13507. John McEnroe is associated with the sport of association football.\n13508. Luca Cordero di Montezemolo is a citizen of Italy.\n13509. Lark Rise to Candleford was created in the country of Australia.\n13510. The company that produced Volvo S80 is General Motors. (来源: HippoRAG)\n- [26] 8172. Jon Robin Baitz is a citizen of United States of America.\n8173. The President of Tanzania is John Magufuli.\n8174. Garrincha is associated with the sport of rugby union.\n8175. Mark Buehrle plays the position of flanker.\n8176. German Empire is located in the continent of Africa.\n8177. Hermann Hesse speaks the language of German.\n8178. The head coach of Chicago Bulls is Diego Simeone.\n8179. The name of the current head of state in Albania is Ilir Meta.\n8180. Leo Allatius is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints.\n8181. Ralph Sampson plays the position of defender.\n8182. Switzerland is located in the continent of Asia.\n8183. Leo I the Thracian is affiliated with the religion of Christianity.\n8184. Andrew Morton is a citizen of United Kingdom.\n8185. The name of the current head of state in Dominican Republic is Lim Guan Eng.\n8186. Paul Mooney is a citizen of United States of America.\n8187. Gianluigi Buffon plays the position of goalkeeper.\n8188. The origianl broadcaster of Life Unexpected is MSNBC. (来源: HippoRAG)\n- [27] 10656. The capital of Belgium is Porto Velho.\n10657. Peter Sellars is a citizen of Egypt.\n10658. The type of music that Verve Records plays is jazz.\n10659. Tite Kubo is famous for La Nouvelle Revue française.\n10660. The author of Etymologiae is Ibn al-Haytham.\n10661. The author of Monster Manual II is Gary Gygax.\n10662. Lalla Ward is a citizen of Canada.\n10663. Harper Lee speaks the language of German.\n10664. The type of music that Gza plays is hip hop music.\n10665. Andrew Carnegie is a citizen of United Kingdom.\n10666. Dragnet franchise was created by Vera Ignatyevna Mukhina.\n10667. The type of music that Miles Davis plays is jazz.\n10668. Sixtus V is affiliated with the religion of Latter Day Saint movement.\n10669. Eben Moglen is a citizen of Taiwan.\n10670. Gianni Infantino is associated with the sport of cricket.\n10671. Siena College is affiliated with the religion of Jainism.\n10672. The company that produced Aston Martin DBR9 is Toyota.\n10673. Scott Walker is a citizen of United States of America.\n10674. Vince McMahon is a citizen of United States of America. (来源: HippoRAG)\n- [28] 7746. Thus Spoke Zarathustra was created in the country of Germany.\n7747. Cannonball Adderley is a citizen of Germany.\n7748. Villarreal CF C is associated with the sport of association football.\n7749. Brooks Wackerman is a citizen of United States of America.\n7750. Mary Fallin works in the field of politician.\n7751. The name of the current head of the Bihar government is Nitish Kumar.\n7752. ASM Clermont Auvergne is associated with the sport of baseball.\n7753. Sofía Vergara is affiliated with the religion of Lapsed Catholic.\n7754. Keith Smart plays the position of flanker.\n7755. Rafael van der Vaart plays the position of goaltender.\n7756. Federico García Lorca speaks the language of Spanish.\n7757. Charles Dickens died in the city of Angers.\n7758. Peter Dutton speaks the language of English.\n7759. The type of music that Lloyd Alexander plays is jazz.\n7760. The Governor of Hawaii is David Ige.\n7761. Pietro Aldobrandini is affiliated with the religion of Church of Scotland.\n7762. The author of Utopia is Thomas More. (来源: HippoRAG)\n- [29] 9245. Giovanni Agnelli is a citizen of Niger.\n9246. The type of music that Ed Shaughnessy plays is contemporary Christian music.\n9247. Chris Claremont is famous for Blue Peter.\n9248. 1998 NatWest Trophy is associated with the sport of cricket.\n9249. Austria-Hungary is affiliated with the religion of Catholic Church.\n9250. Sam Nujoma is a citizen of Namibia.\n9251. St. John Fisher College is affiliated with the religion of Christian Science.\n9252. John Cassavetes is married to Gena Rowlands.\n9253. Soul Food was created in the country of United States of America.\n9254. Johannes Trithemius is affiliated with the religion of Church of Scotland.\n9255. Combat Rock was performed by Lulu.\n9256. Jango Fett was created by George Lucas.\n9257. Club Atlético Platense is associated with the sport of rugby.\n9258. The company that produced GMC Envoy is General Motors.\n9259. Joey Barton plays the position of midfielder.\n9260. Zodiac was created in the country of Russia.\n9261. Empress Jingu is a citizen of United States of America. (来源: HippoRAG)\n- [30] 3070. cornerback is associated with the sport of American football.\n3071. Jöns Jacob Berzelius is a citizen of Sweden.\n3072. Louis Aragon is a citizen of France.\n3073. Gösta Ekman is a citizen of Sweden.\n3074. Gary Larson is famous for The Far Side.\n3075. Antonio Conte is associated with the sport of association football.\n3076. Martin O'Neill is associated with the sport of association football.\n3077. The official language of Forssa is Finnish.\n3078. Moazzam Begg is affiliated with the religion of Islam.\n3079. Elisabeth Moss is a citizen of United States of America.\n3080. U2 was created in the country of Ireland.\n3081. Luke the Evangelist is affiliated with the religion of Christianity.\n3082. Karl Marx is married to Jenny Marx.\n3083. Michiko Kakutani is employed by The New York Times.\n3084. Paul Ryan is affiliated with the religion of Zoroastrianism.\n3085. Joe Cocker is a citizen of Australia.\n3086. Cardinal Richelieu speaks the language of French.\n3087. The name of the current head of state in Saint Lucia is Elizabeth II. (来源: HippoRAG)",
+        "steps": 5,
+        "tokens": 49870,
+        "latency_s": 38.62,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Nova Scotia government?",
+        "answer": "Stephen McNeil",
+        "steps": 2,
+        "tokens": 8003,
+        "latency_s": 2.21,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Lucan die in?",
+        "answer": "The headquarters of Sapienza University of Rome is located in the city of Rome.",
+        "steps": 5,
+        "tokens": 43464,
+        "latency_s": 6.55,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Windows XP?",
+        "answer": "Microsoft",
+        "steps": 5,
+        "tokens": 43374,
+        "latency_s": 6.29,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Aldrich Ames?",
+        "answer": "Central Intelligence Agency",
+        "steps": 2,
+        "tokens": 8091,
+        "latency_s": 1.86,
+        "replan": 0
+      },
+      {
+        "question": "Which country was The Unit created in?",
+        "answer": "The Unit was created in the country of Nepal.",
+        "steps": 5,
+        "tokens": 42452,
+        "latency_s": 5.66,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Jason Motte?",
+        "answer": "The type of music that The Lounge Lizards plays is jazz.",
+        "steps": 5,
+        "tokens": 43192,
+        "latency_s": 36.6,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Nokia?",
+        "answer": "The official language of Nokia is Finnish.",
+        "steps": 5,
+        "tokens": 43763,
+        "latency_s": 4.61,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Fantasy Island?",
+        "answer": "The original language of Angel is Filipino.",
+        "steps": 5,
+        "tokens": 42219,
+        "latency_s": 4.97,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does N. Chandrababu Naidu do?",
+        "answer": "politician",
+        "steps": 5,
+        "tokens": 43431,
+        "latency_s": 5.94,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of George R. R. Martin?",
+        "answer": "United Kingdom",
+        "steps": 5,
+        "tokens": 43222,
+        "latency_s": 6.52,
+        "replan": 0
+      },
+      {
+        "question": "What position does Shay Given play?",
+        "answer": "goalkeeper",
+        "steps": 5,
+        "tokens": 42452,
+        "latency_s": 5.13,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn Miller?",
+        "answer": "United States of America",
+        "steps": 5,
+        "tokens": 43054,
+        "latency_s": 4.78,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Florentino Pérez associated with?",
+        "answer": "association football",
+        "steps": 2,
+        "tokens": 7884,
+        "latency_s": 31.97,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of University of Washington located in?",
+        "answer": "Seattle",
+        "steps": 2,
+        "tokens": 7883,
+        "latency_s": 1.78,
+        "replan": 0
+      },
+      {
+        "question": "What position does Jerzy Dudek play?",
+        "answer": "1. The author of The Big Sleep is Raymond Chandler. (7119)\n2. The official language of Islam is Arabic. (7110)\n3. The original broadcaster of The Roy Rogers Show is NBC. (7111)\n4. The capital of Syria is Damascus. (7112)\n5. Onn Jaafar is a citizen of Malaysia. (7113)\n6. Jacques Demy died in the city of Paris. (7114)\n7. Windows NT 3.1 was developed by Microsoft. (7115)\n8. Colt's Manufacturing Company was founded in the city of Hartford. (7116)\n9. Bob Bradley works in the field of basketball coach. (7117)\n10. Winston Churchill is employed by Manchester Metropolitan University. (7118)\n11. Diarmuid Martin is affiliated with the religion of Christian Science. (7120)\n12. Ivan Koloff is associated with the sport of ice hockey. (7121)\n13. Richard Brinsley Sheridan speaks the language of English. (7122)\n14. The original broadcaster of Charlie's Angels is American Broadcasting Company. (7123)\n15. The type of music that Alex Acuña plays is Música Popular Brasileira. (7124)\n16. Giovanni Papini is affiliated with the religion of Abrahamic religion. (17084)\n17. James Dashner speaks the language of English. (17085)\n18. Team Fortress 2 was developed by Grasshopper Manufacture. (17086)\n19. Friday was created in the country of Russia. (17087)\n20. Herodotus was born in the city of Formigine. (17088)\n21. Little Miss Sunshine was created in the country of United Kingdom. (17089)\n22. Jerzy Dudek plays the position of defenceman. (17090)\n23. Silappatikaram was written in the language of Tamil. (17091)\n24. André Bazin is a citizen of France. (17092)\n25. Peter Schmeichel is associated with the sport of association football. (17093)\n26. Eccellenza Campania is associated with the sport of association football. (17094)\n27. British Raj is located in the continent of Asia. (17095)\n28. The Normal Heart was created in the country of Nazi Germany. (17096)\n29. Umberto Bossi works in the field of Catholic priest. (17097)\n30. Winston Churchill is married to Travis Barker. (17098)\n31. Clara Schumann was born in the city of Leipzig. (17099)\n32. Rabindranath Tagore is employed by University of Calcutta. (17100)\n33. Hideki Irabu is associated with the sport of baseball. (3837)\n34. Lalla Ward is a citizen of United Kingdom. (3838)\n35. Wendy Doniger is employed by University of Chicago. (3839)\n36. The university where Dabo Swinney was educated is University of Alabama. (3840)\n37. Santa Maria sopra Minerva is affiliated with the religion of Catholic Church. (3841)\n38. Jacques Plante plays the position of goaltender. (3842)\n39. Mark Few plays the position of point guard. (3843)\n40. Aristotle works in the field of philosopher. (3844)\n41. The director of Valve Corporation is Elizabeth II. (3845)\n42. Jaime Alguersuari is a citizen of Spain. (3846)\n43. David Lammy is a citizen of United Kingdom. (3847)\n44. Lukas Jutkiewicz is associated with the sport of association football. (3848)\n45. The type of music that The J. Geils Band plays is rock music. (3849)\n46. The author of The Age of Reason is Allen Ginsberg. (3850)\n47. The author of House of Leaves is Kahlil Gibran. (3851)\n48. The capital of Greece is Athens. (3852)\n49. Jeff Suppan plays the position of starting pitcher. (3853)\n50. 2017 Copa Libertadores is associated with the sport of association football. (3854)\n51. The headquarters of Ipswich Town F.C. is located in the city of La Roda. (16677)\n52. Azul Claro Numazu is associated with the sport of cricket. (16678)\n53. Bertrand du Guesclin is a citizen of United Kingdom. (16679)\n54. Hilbert's axioms was created by Shigeru Miyamoto. (16680)\n55. The type of music that Monrose plays is pop music. (16681)\n56. The chairperson of Harvard University is Peter Diamandis. (16682)\n57. The head coach of Football Federation Australia is Henri Michel. (16683)\n58. The author of The Second Jungle Book is Rudyard Kipling. (16684)\n59. Jarosław Kaczyński is affiliated with the religion of Methodism. (16685)\n60. Kevin Spacey is a citizen of United States of America. (16686)\n61. Francis II is affiliated with the religion of Catholic Church. (16687)\n62. Jay Fiedler plays the position of quarterback. (16688)\n63. The type of music that Inspectah Deck plays is jazz. (16689)\n64. Karel Jaromír Erben died in the city of Prague. (16690)\n65. The headquarters of Cornell University is located in the city of Varanasi. (16691)\n66. Kareem Abdul-Jabbar plays the position of midfielder. (16692)\n67. The company that produced Ford Five Hundred is Ford Motor Company. (1457)\n68. The author of The Vicar of Wakefield is Oliver Goldsmith. (1458)\n69. Emomali Rahmon is a citizen of Portugal. (1459)\n70. The Prime Minister of Fiji is Frank Bainimarama. (1460)\n71. Carl Rogers is employed by University of Chicago. (1461)\n72. Gerry Conway is a citizen of United States of America. (1462)\n73. Jalal Talabani is a citizen of Iraq. (1463)\n74. The type of music that Oliver Nelson plays is jazz. (1464)\n75. Greg Oden is a citizen of United States of America. (1465)\n76. José Luis Chilavert plays the position of goalkeeper. (1466)\n77. Samuel Taylor Coleridge speaks the language of English. (1467)\n78. Deron Williams plays the position of point guard. (1468)\n79. EuroBasket 2003 is associated with the sport of basketball. (1469)\n80. Carlo Rubbia is a citizen of Italy. (1470)\n81. Major Arena Soccer League is associated with the sport of association football. (1471)\n82. Tomasz Kuszczak plays the position of goalkeeper. (1472)\n83. jazz rap was created in the country of United States of America. (1473)\n84. Hugo Grotius was born in the city of Delft. (1474)\n85. Tom Huddlestone plays the position of goalkeeper. (16946)\n86. Loyola Ramblers Men's Basketball is associated with the sport of association football. (16947)\n87. Dino Meneghin plays the position of center. (16948)\n88. The university where Jaan Kross was educated is University of Graz. (16949)\n89. Aramis Ramírez is associated with the sport of baseball. (16950)\n90. Longus works in the field of writer. (16951)\n91. The author of The Snow Queen is Alfred, Lord Tennyson. (16952)\n92. Johann Heinrich Pestalozzi is employed by Moscow State University. (16953)\n93. Frank Tanana is associated with the sport of rugby. (16954)\n94. Thomas Hughes is affiliated with the religion of Anglicanism. (16955)\n95. Samuel Pickwick was created by James Monroe. (16956)\n96. The headquarters of Soviet Air Forces is located in the city of Moscow. (16957)\n97. Benedict of Aniane is affiliated with the religion of Methodism. (16958)\n98. The capital of Spain is Hartford. (16959)\n99. The headquarters of Westdeutscher Rundfunk is located in the city of Szczecin. (16960)\n100. George H. W. Bush is married to Alfonso XI of Castile. (16961)\n101. Carmarthen Town A.F.C. is associated with the sport of association football. (5961)\n102. Nobunaga's Ambition was developed by Koei. (5962)\n103. Lonny Ross is a citizen of United States of America. (5963)\n104. Dino Zoff plays the position of goalkeeper. (5964)\n105. Albert of Riga is affiliated with the religion of Ahmadiyya. (5965)\n106. Dirk Maggs is a citizen of United Kingdom. (5966)\n107. Pan American Judo Championships is associated with the sport of judo. (5967)\n108. Kapil Dev is a citizen of India. (5968)\n109. Bobby Hebert plays the position of quarterback. (5969)\n110. Frank Buck is a citizen of Finland. (5970)\n111. Christine Hakim is affiliated with the religion of Catholic Church. (5971)\n112. Michelle Gomez is a citizen of Austria. (5972)\n113. Wade Davis is associated with the sport of baseball. (5973)\n114. Barry University is affiliated with the religion of Methodism. (5974)\n115. Richard Stallman is a citizen of Serbia. (5975)\n116. Jack Butland plays the position of goalkeeper. (5976)\n117. The author of As We May Think is Robert Graves. (5977)\n118. Matti Vanhanen worked in the city of Helsinki. (5978)\n119. José Contreras is associated with the sport of association football. (7888)\n120. Bryan Robson plays the position of relief pitcher. (7889)\n121. Carey Hart speaks the language of English. (7890)\n122. David Beckham is associated with the sport of association football. (7891)\n123. Ray Kurzweil is employed by McGill University. (7892)\n124. Hélder Postiga is a citizen of Portugal. (7893)\n125. Abraham Maslow is a citizen of United States of America. (7894)\n126. John Lloyd is a citizen of United Kingdom. (7895)\n127. Jack Elway's child is Pete Maravich. (7896)\n128. Daniele De Rossi plays the position of quarterback. (7897)\n129. John von Neumann was born in the city of Budapest. (7898)\n130. Jasper Johns is a citizen of Germany. (7899)\n131. The author of Star Trek is Gene Roddenberry. (7900)\n132. The author of Jane Eyre is Charlotte Brontë. (7901)\n133. 500 home run club is associated with the sport of baseball. (7902)\n134. Carlo Cudicini plays the position of goalkeeper. (7903)\n135. John Oliver is employed by The Walt Disney Company. (7904)\n136. Mike Krzyzewski is associated with the sport of basketball. (7905)\n137. NK Marsonia is associated with the sport of association football. (7906)\n138. Saul Tigh was performed by Mariah Carey. (13648)\n139. Jordan Henderson plays the position of shooting guard. (13649)\n140. Mercutio was created by Gerard 't Hooft. (13650)\n141. Apple Filing Protocol was developed by Apple Inc.. (13651)\n142. George Eliot died in the city of London. (13652)\n143. Ted Turner is a citizen of Canada. (13653)\n144. The type of music that Jerrod Niemann plays is jazz. (13654)\n145. The type of music that Fergie plays is pop music. (13655)\n146. Chonburi F.C. is associated with the sport of baseball. (13656)\n147. Jack Butland plays the position of punter. (13657)\n148. Hans Küng is employed by Duke University. (13658)\n149. Eric Garcetti is a citizen of United Kingdom. (13659)\n150. Ernesto Valverde is a citizen of Spain. (13660)\n151. The name of the current head of state in Soviet Union is Mikhail Gorbachev. (13661)\n152. The original broadcaster of Project Greenlight is Netflix. (13662)\n153. Ullensaker/Kisa IL is associated with the sport of rugby. (13663)\n154. Graeme Hick is associated with the sport of association football. (13664)\n155. The head coach of Toronto Blue Jays is John Gibbons. (13665)",
+        "steps": 5,
+        "tokens": 46492,
+        "latency_s": 24.22,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Ibn Saud work in?",
+        "answer": "Riyadh Region",
+        "steps": 5,
+        "tokens": 43738,
+        "latency_s": 34.53,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lonnie Mack?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 8177,
+        "latency_s": 1.96,
+        "replan": 0
+      },
+      {
+        "question": "What language does Néstor Kirchner speak?",
+        "answer": "根据上下文，Néstor Kirchner speaks the language of Spanish.",
+        "steps": 5,
+        "tokens": 43272,
+        "latency_s": 4.69,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Larry Bird associated with?",
+        "answer": "The author of The Twelve Caesars is Suetonius.",
+        "steps": 5,
+        "tokens": 42640,
+        "latency_s": 5.16,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Jessica Jones?",
+        "answer": "Krysten Ritter is a citizen of United Kingdom.",
+        "steps": 5,
+        "tokens": 43288,
+        "latency_s": 5.94,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Gordon Jackson die in?",
+        "answer": "Flensburg",
+        "steps": 5,
+        "tokens": 42686,
+        "latency_s": 5.29,
+        "replan": 0
+      },
+      {
+        "question": "What is Alexander Hamilton famous for?",
+        "answer": "To determine the answer to \"What is Alexander Hamilton famous for?\" based on the provided knowledge pool, we need to identify the most recent (highest serial number) fact about Alexander Hamilton's fame. Here's the analysis:\n\n### Key Facts:\n- **[11] 8736**: Federalist Party was founded by Alexander Hamilton. (Focuses on founding a political party, not fame.)  \n- **[12] 10981**: James Madison is famous for Federalist Papers. (Incorrectly attributes Federalist Papers to Madison, not Hamilton.)  \n- **[13] 15100**: Alexander Hamilton is famous for Federalist Papers. (Directly states Hamilton's fame as \"Federalist Papers\" with a high serial number.)  \n- **[17] 16075**: Alexander Hamilton is famous for De re militari. (Claims a different work, but this is less recent than 15100.)  \n- **[27] 16075**: Repeats \"De re militari\" (same as 16075, lower than 15100).  \n\n\n### Conflict Resolution:\nThe most recent and relevant fact about Hamilton's fame is **[13] 15100**, which explicitly states \"Alexander Hamilton is famous for Federalist Papers.\"\n\n\nAnswer: Federalist Papers",
+        "steps": 5,
+        "tokens": 42929,
+        "latency_s": 6.1,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Pablo Neruda educated at?",
+        "answer": "The author of The Pickwick Papers is Charles Dickens.",
+        "steps": 5,
+        "tokens": 42374,
+        "latency_s": 4.1,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Minister for Home Affairs?",
+        "answer": "The Minister for Home Affairs is Danny Danon.",
+        "steps": 5,
+        "tokens": 42716,
+        "latency_s": 96.5,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Purification Rundown?",
+        "answer": "L. Ron Hubbard",
+        "steps": 2,
+        "tokens": 8071,
+        "latency_s": 1.93,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Canadian Broadcasting Corporation located in?",
+        "answer": "The headquarters of Canadian Broadcasting Corporation is located in the city of Universal City.",
+        "steps": 5,
+        "tokens": 41559,
+        "latency_s": 5.46,
+        "replan": 0
+      },
+      {
+        "question": "Who is Chiang Kai-shek's child?",
+        "answer": "Chiang Ching-kuo",
+        "steps": 5,
+        "tokens": 42747,
+        "latency_s": 4.52,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Big Mac produced by?",
+        "answer": "McDonald's",
+        "steps": 2,
+        "tokens": 7909,
+        "latency_s": 1.69,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Micrographia?",
+        "answer": "Robert Hooke",
+        "steps": 2,
+        "tokens": 8000,
+        "latency_s": 32.07,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of San Francisco Giants?",
+        "answer": "Thiago Motta",
+        "steps": 5,
+        "tokens": 43353,
+        "latency_s": 125.76,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lorenzo Lamas?",
+        "answer": "United Kingdom",
+        "steps": 5,
+        "tokens": 42718,
+        "latency_s": 425.46,
+        "replan": 0
+      },
+      {
+        "question": "What is Charaka famous for?",
+        "answer": "The official language of Jyväskylä is Black Speech.",
+        "steps": 5,
+        "tokens": 43322,
+        "latency_s": 124.82,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Jadranka Kosor affiliated with?",
+        "answer": "Jadranka Kosor is affiliated with the religion of Catholic Church.",
+        "steps": 5,
+        "tokens": 42048,
+        "latency_s": 125.74,
+        "replan": 0
+      },
+      {
+        "question": "What position does Sam Cassell play?",
+        "answer": "shooting guard",
+        "steps": 2,
+        "tokens": 8087,
+        "latency_s": 92.2,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Tampere?",
+        "answer": "I can't answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 5,
+        "tokens": 42310,
+        "latency_s": 125.25,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "Which university was Adam Putnam educated at?",
+        "answer": "University of Florida, Federal University of Rio de Janeiro",
+        "steps": 2,
+        "tokens": 22605,
+        "latency_s": 124.67,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Tito Nieves play?",
+        "answer": "salsa",
+        "steps": 2,
+        "tokens": 22957,
+        "latency_s": 123.66,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "Iceland",
+        "steps": 1,
+        "tokens": 8589,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleWorks?",
+        "answer": "Apple Inc.",
+        "steps": 2,
+        "tokens": 23482,
+        "latency_s": 92.67,
+        "replan": 0
+      },
+      {
+        "question": "What language does Jasper Fforde speak?",
+        "answer": "The language spoken by Jasper Fforde is Kannada.",
+        "steps": 3,
+        "tokens": 43324,
+        "latency_s": 247.29,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Benedict XIII affiliated with?",
+        "answer": "Benedict XIII is affiliated with the religion of Catholic Church.",
+        "steps": 4,
+        "tokens": 64386,
+        "latency_s": 126.74,
+        "replan": 0
+      },
+      {
+        "question": "What language does Shane Meadows speak?",
+        "answer": "English",
+        "steps": 2,
+        "tokens": 22696,
+        "latency_s": 123.03,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lou Gehrig play?",
+        "answer": "first baseman",
+        "steps": 2,
+        "tokens": 23018,
+        "latency_s": 93.69,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Shingon Buddhism?",
+        "answer": "Kūkai",
+        "steps": 2,
+        "tokens": 23521,
+        "latency_s": 34.08,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Extensible Markup Language?",
+        "answer": "To determine the developer of Extensible Markup Language (XML), we analyze the evidence from the knowledge pool, focusing on the most recent (highest serial number) facts about XML development:\n\n1. **Evidence for XML development**:\n   - **[11, 21] 14180**: \"Extensible Markup Language was developed by Sega AM2.\" (Serial number: 14180)\n   - **[12, 22] 12325**: \"Extensible Markup Language was developed by World Wide Web Consortium.\" (Serial number: 12325)\n   - **[18, 23] 4875**: \"Extensible HyperText Markup Language was developed by World Wide Web Consortium.\" (Serial number: 4875) – Note: This refers to XHTML, not XML, and has a lower serial number than 14180.\n\n2. **Conflict resolution**:\n   - The facts about XML development are: \"developed by Sega AM2\" (14180) and \"developed by World Wide Web Consortium\" (12325). Since 14180 is a higher serial number (newer fact), it takes precedence.\n\nAnswer: Sega AM2",
+        "steps": 4,
+        "tokens": 65557,
+        "latency_s": 789.85,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Cy Young?",
+        "answer": "Cy Young is a citizen of Russia.",
+        "steps": 4,
+        "tokens": 66672,
+        "latency_s": 127.5,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Davina McCall?",
+        "answer": "The official language of Romania is Medieval Greek.",
+        "steps": 4,
+        "tokens": 65478,
+        "latency_s": 97.55,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Witches of East End created in?",
+        "answer": "United Kingdom",
+        "steps": 2,
+        "tokens": 23002,
+        "latency_s": 2.82,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Oculus VR, LLC?",
+        "answer": "Marc Benioff",
+        "steps": 2,
+        "tokens": 23076,
+        "latency_s": 3.7,
+        "replan": 0
+      },
+      {
+        "question": "Who was Bart Simpson created by?",
+        "answer": "Ray Bradbury",
+        "steps": 2,
+        "tokens": 23063,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Albert of Saxony affiliated with?",
+        "answer": "The type of music that Lauren Alaina plays is country music.",
+        "steps": 4,
+        "tokens": 66020,
+        "latency_s": 7.0,
+        "replan": 0
+      },
+      {
+        "question": "Who was The IT Crowd created by?",
+        "answer": "Graham Linehan",
+        "steps": 4,
+        "tokens": 66517,
+        "latency_s": 7.96,
+        "replan": 0
+      },
+      {
+        "question": "What language does Queen Victoria I speak?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 8598,
+        "latency_s": 2.46,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Windows Vista produced by?",
+        "answer": "The company that produced Windows Vista is Microsoft.",
+        "steps": 4,
+        "tokens": 64317,
+        "latency_s": 37.05,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Indiana Mr. Basketball associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 8543,
+        "latency_s": 1.62,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Laura Bush?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 23236,
+        "latency_s": 3.61,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Helen Vendler?",
+        "answer": "I can't answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 3,
+        "tokens": 43687,
+        "latency_s": 4.94,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of C. S. Forester?",
+        "answer": "United Kingdom",
+        "steps": 2,
+        "tokens": 22939,
+        "latency_s": 3.56,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Tom Simpson?",
+        "answer": "United Kingdom",
+        "steps": 2,
+        "tokens": 23015,
+        "latency_s": 2.69,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Diego Simeone associated with?",
+        "answer": "1. The headquarters of Nissan is located in the city of 133 avenue des Champs-Élysées.\n2. Kubuntu was developed by Canonical Group Limited.\n3. Angela Rippon is a citizen of United Kingdom.\n4. The head coach of Atlético Madrid is Diego Simeone.\n5. Leon Allen White is employed by Impact Wrestling.\n6. John Hickenlooper worked in the city of Denver.\n7. Audio Units was developed by Apple Inc..\n8. Nate McLouth is a citizen of United States of America.\n9. John Playfair is employed by University of Edinburgh.\n10. Roberto Calvi works in the field of banker.\n11. The author of De humani corporis fabrica is Andreas Vesalius.\n12. Eric Roth is a citizen of United States of America.\n13. Beau Biden is affiliated with the religion of Catholic Church.\n14. Lithuania is located in the continent of Europe.\n15. Bangkok is located in the continent of Asia.\n16. Edmund Ignatius Rice is affiliated with the religion of Christian Science.\n17. The head coach of Atlético Madrid is Frank Lampard.\n18. Dream On was created in the country of United States of America.\n19. Kåre Willoch worked in the city of Oslo.\n20. Emil Constantinescu is a citizen of Romania.\n21. The Rolling Stones speaks the language of English.\n22. The type of music that Lillian Hellman plays is play.\n23. rock and roll was created in the country of United States of America.\n24. The company that produced Falcon 9 Flight 20 is Peugeot.\n25. Libya national football team is associated with the sport of association football.\n26. The author of Ninety-five Theses is Martin Luther.\n27. The author of Red Storm Rising is Tom Clancy.\n28. The origianl broadcaster of Monster Garage is Discovery Channel.\n29. Jamie Hewlett is a citizen of United Kingdom.\n30. Josh Barnett is a citizen of United States of America.\n31. Jon Robin Baitz is a citizen of United States of America.\n32. The President of Tanzania is John Magufuli.\n33. Garrincha is associated with the sport of rugby union.\n34. Mark Buehrle plays the position of flanker.\n35. German Empire is located in the continent of Africa.\n36. Hermann Hesse speaks the language of German.\n37. The head coach of Chicago Bulls is Diego Simeone.\n38. The name of the current head of state in Albania is Ilir Meta.\n39. Leo Allatius is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints.\n40. Ralph Sampson plays the position of defender.\n41. Switzerland is located in the continent of Asia.\n42. Leo I the Thracian is affiliated with the religion of Christianity.\n43. Andrew Morton is a citizen of United Kingdom.\n44. The name of the current head of state in Dominican Republic is Lim Guan Eng.\n45. Paul Mooney is a citizen of United States of America.\n46. Gianluigi Buffon plays the position of goalkeeper.\n47. The origianl broadcaster of Life Unexpected is MSNBC.\n48. Theon Greyjoy was created by George R. R. Martin.\n49. Zinedine Zidane plays the position of midfielder.\n50. Dax Shepard is a citizen of United States of America.\n51. Carl Franklin is a citizen of United States of America.\n52. Cher speaks the language of Spanish.\n53. The headquarters of TV Land is located in the city of New York City.\n54. Uruguay is located in the continent of South America.\n55. The company that produced Chevrolet S-10 Blazer is General Motors.\n56. The official language of Egypt is Arabic.\n57. The capital of North Karelia is Kinshasa.\n58. The head coach of Vålerenga Fotball is Dick Advocaat.\n59. The type of music that P. G. Wodehouse plays is indie rock.\n60. Friedrich Nietzsche is employed by University of Basel.\n61. Manuel L. Quezon is a citizen of United States of America.\n62. Mario Puzo is a citizen of South Africa.\n63. Gauliga is associated with the sport of association football.\n64. Bill Slavicsek is a citizen of Uruguay.\n65. Château de Chambord was founded by Francis I of France.\n66. The head coach of Washington Wizards is Scott Brooks.\n67. Max Kellerman is a citizen of Albania.\n68. Menachem Begin worked in the city of Jerusalem.\n69. The chief executive officer of Rolls-Royce is Warren East.\n70. Buckie Thistle F.C. is associated with the sport of association football.\n71. Galileo Galilei was born in the city of Pisa.\n72. The univeristy where Chicago Boys was educated is University of Chicago.\n73. The univeristy where Raúl Ruiz was educated is University of Chile.\n74. Jules Maigret was created by Simon Fuller.\n75. Enosis Neon Paralimni FC is associated with the sport of rugby.\n76. Charles Addams is a citizen of United States of America.\n77. Juan Antonio Samaranch is affiliated with the religion of Catholic Church.\n78. The type of music that Jeff Chimenti plays is jazz.\n79. Hal Roach speaks the language of English.\n80. Johann Hari is a citizen of United Kingdom.\n81. Joey Galloway plays the position of midfielder.\n82. Sigmund Freud is married to Martha Bernays.\n83. Peter Shilton plays the position of goalkeeper.\n84. 2001 ICC Trophy is associated with the sport of cricket.\n85. The head coach of New York Knicks is Jeff Hornacek.\n86. Louis Bonaparte is affiliated with the religion of Catholic Church.\n87. South Korea is located in the continent of Asia.\n88. Donald Hall is employed by University of Michigan.\n89. The chief executive officer of Dell Inc. is Michael Dell.\n90. Deacon Jones is a citizen of United States of America.\n91. The headquarters of University of Washington is located in the city of Seattle.\n92. Félix Houphouët-Boigny speaks the language of Spanish American.\n93. Emily Thornberry is a citizen of United Kingdom.\n94. The capital of Poland is Warsaw.\n95. Frutiger was created by Sally Wainwright.\n96. Tancredo Neves is affiliated with the religion of Catholic Church.\n97. The chief executive officer of Apple Inc. is Tim Cook.\n98. Tim Cook is a citizen of United States of America.\n99. The Simpsons was written in the language of English.\n100. James Madison is famous for Federalist Papers.\n101. Hollywood United Hitmen is associated with the sport of association football.\n102. The chief executive officer of ABB Group is Bernard Arnault.\n103. The origianl broadcaster of Inhumans is American Broadcasting Company.\n104. Randal Kleiser is a citizen of United States of America.\n105. The head coach of West Ham United F.C. is Jacques Kallis.\n106. Ambrose is affiliated with the religion of Methodism.\n107. Hernán Crespo is associated with the sport of association football.\n108. Simon Mignolet plays the position of goalkeeper.\n109. Bibi Andersson is a citizen of United Kingdom.\n110. The univeristy where Mstislav Rostropovich was educated is Moscow Conservatory.\n111. Michael Corleone was created by Chris Claremont.\n112. Macbeth was created by Diego Velázquez.\n113. The univeristy where Sigismund von Herberstein was educated is University of Vienna.\n114. Edward the Confessor is married to Edith of Wessex.\n115. Peter Shilton is associated with the sport of rugby.\n116. Al Horford is associated with the sport of basketball.\n117. Iman is affiliated with the religion of Islam.\n118. Michael Dukakis worked in the city of Boston.\n119. The name of the current head of state in Namibia is Hage Gottfried Geingob.\n120. Al Horford is associated with the sport of basketball.\n121. Iman is affiliated with the religion of Islam.\n122. Michael Dukakis worked in the city of Boston.\n123. The name of the current head of state in Namibia is Hage Gottfried Geingob.\n124. The headquarters of Nissan is located in the city of 133 avenue des Champs-Élysées.\n125. Kubuntu was developed by Canonical Group Limited.\n126. Angela Rippon is a citizen of United Kingdom.\n127. The head coach of Atlético Madrid is Diego Simeone.\n128. Leon Allen White is employed by Impact Wrestling.\n129. John Hickenlooper worked in the city of Denver.\n130. Audio Units was developed by Apple Inc..\n131. Nate McLouth is a citizen of United States of America.\n132. John Playfair is employed by University of Edinburgh.\n133. Roberto Calvi works in the field of banker.\n134. The author of De humani corporis fabrica is Andreas Vesalius.\n135. Eric Roth is a citizen of United States of America.\n136. Beau Biden is affiliated with the religion of Catholic Church.\n137. Jon Robin Baitz is a citizen of United States of America.\n138. The President of Tanzania is John Magufuli.\n139. Garrincha is associated with the sport of rugby union.\n140. Mark Buehrle plays the position of flanker.\n141. German Empire is located in the continent of Africa.\n142. Hermann Hesse speaks the language of German.\n143. The head coach of Chicago Bulls is Diego Simeone.\n144. The name of the current head of state in Albania is Ilir Meta.\n145. Leo Allatius is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints.\n146. Ralph Sampson plays the position of defender.\n147. Switzerland is located in the continent of Asia.\n148. Leo I the Thracian is affiliated with the religion of Christianity.\n149. Andrew Morton is a citizen of United Kingdom.\n150. The name of the current head of state in Dominican Republic is Lim Guan Eng.\n151. Paul Mooney is a citizen of United States of America.\n152. Gianluigi Buffon plays the position of goalkeeper.\n153. The origianl broadcaster of Life Unexpected is MSNBC.\n154. Sourav Ganguly is associated with the sport of cricket.\n155. Brazilian jiu-jitsu was created in the country of Philippines.\n156. Joey Cape is a citizen of United States of America.\n157. Atlético Choloma is associated with the sport of association football.\n158. Alexander Van der Bellen speaks the language of German.\n159. William James is a citizen of Italy.\n160. Sangju Sangmu FC is associated with the sport of cricket.\n161. Rashid Khalidi is affiliated with the religion of Islam.\n162. 2005 World Series is associated with the sport of football.\n163. GNU Classpath was developed by GNU Project.\n164. The Well of Loneliness was written in the language of Russian.\n165. The type of music that Changmin plays is K-pop.\n166. Alessandra Daddario is a citizen of United States of America.\n167. Tillakaratne Dilshan is associated with the sport of cricket.\n168. Agatha Christie is a citizen of Venezuela.\n169. Marco Materazzi is a citizen of United States of America.\n170. Becki Newton is a citizen of Italy.\n171. James Madison is famous for Federalist Papers.\n172. Hollywood United Hitmen is associated with the sport of association football.\n173. The chief executive officer of ABB Group is Bernard Arnault.\n174. The origianl broadcaster of Inhumans is American Broadcasting Company.\n175. Randal Kleiser is a citizen of United States of America.\n176. The head coach of West Ham United F.C. is Jacques Kallis.\n177. Ambrose is affiliated with the religion of Methodism.\n178. Hernán Crespo is associated with the sport of association football.\n179. Simon Mignolet plays the position of goalkeeper.\n180. Bibi Andersson is a citizen of United Kingdom.\n181. The univeristy where Mstislav Rostropovich was educated is Moscow Conservatory.\n182. Michael Corleone was created by Chris Claremont.\n183. Macbeth was created by Diego Velázquez.\n184. The univeristy where Sigismund von Herberstein was educated is University of Vienna.\n185. Edward the Confessor is married to Edith of Wessex.\n186. Peter Shilton is associated with the sport of rugby.\n187. Sadiq Khan is affiliated with the religion of Islam.\n188. Serbia is located in the continent of Asia.\n189. Emo Philips is a citizen of Ireland.\n190. Muhammad Tahir-ul-Qadri is affiliated with the religion of Islam.\n191. Prince Hamlet was created by Norman Rockwell.\n192. John Steinbeck speaks the language of English.\n193. Mellitus is affiliated with the religion of Church of Scotland.\n194. Billy Packer works in the field of basketball coach.\n195. Jorge Sampaoli works in the field of association football manager.\n196. The type of music that Avery Brooks plays is jazz.\n197. The author of The Twelve Caesars is John von Neumann.\n198. Jim Davis is a citizen of United States of America.\n199. Ryan Murphy is affiliated with the religion of Jainism.\n200. Karen Jarrett is a citizen of United States of America.\n201. Miguel I of Portugal is a citizen of United States of America.\n202. Club Atlético Peñarol is associated with the sport of association football.\n203. David Bowie speaks the language of German.\n204. The headquarters of Ilyushin is located in the city of Moscow.\n205. Burnley F.C. is associated with the sport of association football.\n206. Apple Pay was developed by Apple Inc..\n207. Arthurlie F.C. is associated with the sport of association football.\n208. Michael Reagan is affiliated with the religion of Methodism.\n209. Anselm of Canterbury is affiliated with the religion of African Methodist Episcopal Church.\n210. Milan Stojadinović is employed by WWE.\n211. Carlos Queiroz is associated with the sport of association football.\n212. Brian Epstein is a citizen of United Kingdom.\n213. The head coach of Brisbane Roar FC is John Aloisi.\n214. The origianl broadcaster of Superstore is NBC.\n215. The chairperson of Ontario New Democratic Party is Andrea Horwath.\n216. 2016 African Nations Championship is associated with the sport of association football.\n217. The author of Flatland is Edwin Abbott Abbott.\n218. Henry Thomas Colebrooke died in the city of London.\n219. Kelis is a citizen of Ireland.\n220. The author of All the Year Round is Charles Dickens.\n221. Hiroshige speaks the language of Japanese.\n222. George Pell is affiliated with the religion of Catholic Church.\n223. The company that produced Colt Python is Colt's Manufacturing Company.\n224. The type of music that Heidi Montag plays is pop music.\n225. Futurama was created by Matt Groening.\n226. The capital of India is New Delhi.\n227. Jacob De la Gardie is a citizen of Sweden.\n228. Andrew Carnegie is married to Marjorie Merriweather Post.\n229. The author of The Pillow Book is Sei Shōnagon.\n230. Raluca Olaru is a citizen of United States of America.\n231. Sholem Aleichem died in the city of New York City.\n232. John Connor is a citizen of United States of America.\n233. Roma Downey is married to Mohammad Azharuddin.\n234. The head coach of Brisbane Roar FC is Diego Simeone.\n235. The capital of Thailand is Bangkok.\n236. Rafał Majka is a citizen of Greece.\n237. The Sapphires was created in the country of Australia.\n238. The name of the current head of state in Sierra Leone is Julius Maada Bio.\n239. FBC Melgar is associated with the sport of association football.\n240. The capital of Michigan Territory is Detroit.\n241. The origianl broadcaster of Galavant is British Broadcasting Corporation.\n242. The name of the current head of state in Sweden is Carl XVI Gustaf of Sweden.\n243. Catherine of Alexandria is affiliated with the religion of Christianity.\n244. Kasper Schmeichel plays the position of goalkeeper.\n245. Charles Messier died in the city of Paris.\n246. Charles Simon Clermont-Ganneau died in the city of Paris.\n247. The author of Tartuffe is Molière.\n248. The origianl broadcaster of Agents of S.H.I.E.L.D. is American Broadcasting Company.\n249. The head coach of AFC Bournemouth is Eddie Howe.\n250. SønderjyskE Fodbold is associated with the sport of association football.\n251. Mike Rowe is a citizen of United States of America.\n252. André Greipel is a citizen of Germany.\n253. Tommy Ellis is a citizen of United States of America.\n254. The author of The Road to Oz is L. Frank Baum.\n255. Martin Luther was born in the city of Øystese.\n256. Ahmed Rashid is a citizen of Pakistan.\n257. Aryabhata is famous for Āryabhaṭīya.\n258. Siena College is affiliated with the religion of Catholic Church.\n259. Alfred, Lord Tennyson is a citizen of United Kingdom of Great Britain and Ireland.\n260. Missionaries of Charity was founded by Mother Teresa.\n261. Naoko Takeuchi speaks the language of Japanese.\n262. The type of music that Danny Thompson plays is jazz.\n263. Gustave Flaubert was born in the city of Rouen.\n264. Charles II of England was born in the city of London.\n265. The capital of Germany is Berlin.\n266. Plato was born in the city of British Hong Kong.\n267. Edgar Allan Poe speaks the language of Polish.",
+        "steps": 3,
+        "tokens": 47958,
+        "latency_s": 27.89,
+        "replan": 0
+      },
+      {
+        "question": "Which country was go-go created in?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 22976,
+        "latency_s": 2.88,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Arthur Miller?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 23144,
+        "latency_s": 3.58,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Albania?",
+        "answer": "Edi Rama",
+        "steps": 2,
+        "tokens": 22907,
+        "latency_s": 33.57,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Liz Lochhead?",
+        "answer": "Liz Lochhead is a citizen of Singapore.",
+        "steps": 4,
+        "tokens": 65404,
+        "latency_s": 7.19,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Texas Collegiate League associated with?",
+        "answer": "baseball",
+        "steps": 2,
+        "tokens": 22537,
+        "latency_s": 33.75,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Vogue?",
+        "answer": "I can't answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 3,
+        "tokens": 44423,
+        "latency_s": 96.39,
+        "replan": 0
+      },
+      {
+        "question": "Who is Wilma Flintstone's child?",
+        "answer": "Pebbles Flintstone",
+        "steps": 2,
+        "tokens": 23479,
+        "latency_s": 33.27,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Abraham Ortelius work in?",
+        "answer": "Antwerp, Berlin",
+        "steps": 2,
+        "tokens": 23158,
+        "latency_s": 4.19,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Armani?",
+        "error": "请求 Token 数量超过模型 TPM 限制，请稍后重试, log_id: 202603300529590000000000000544A3F"
+      },
+      {
+        "question": "What position does Mathieu Flamini play?",
+        "answer": "midfielder",
+        "steps": 2,
+        "tokens": 23084,
+        "latency_s": 33.05,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of The Wonder Years?",
+        "answer": "British Broadcasting Corporation",
+        "steps": 2,
+        "tokens": 22537,
+        "latency_s": 2.9,
+        "replan": 0
+      },
+      {
+        "question": "Which company is M1895 Colt-Browning machine gun produced by?",
+        "answer": "Colt's Manufacturing Company",
+        "steps": 1,
+        "tokens": 8678,
+        "latency_s": 32.87,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius IX affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 8441,
+        "latency_s": 2.49,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Morning Joe?",
+        "answer": "MSNBC",
+        "steps": 2,
+        "tokens": 22543,
+        "latency_s": 3.4,
+        "replan": 0
+      },
+      {
+        "question": "Who is Herodias's child?",
+        "answer": "Salome",
+        "steps": 2,
+        "tokens": 22923,
+        "latency_s": 3.73,
+        "replan": 0
+      },
+      {
+        "question": "Who was The Dark Knight created by?",
+        "answer": "Stephen Hillenburg",
+        "steps": 4,
+        "tokens": 63569,
+        "latency_s": 98.69,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Jeune Afrique created in?",
+        "answer": "Israel",
+        "steps": 1,
+        "tokens": 8620,
+        "latency_s": 1.97,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Anna Ancher?",
+        "answer": "根据提供的证据，Anna Ancher的国籍存在冲突信息：\n- [8975]  Anna Ancher is a citizen of Ecuador.\n- [2269]  Anna Ancher is a citizen of Denmark.\n\n**规则**： newer fact has larger serial number. 对比两个条目编号：\n- 8975 < 2269，因此 newer 事实为 **2269**。\n\n**答案**：Denmark",
+        "steps": 3,
+        "tokens": 43908,
+        "latency_s": 5.7,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Andy Griffith play?",
+        "answer": "post-punk",
+        "steps": 2,
+        "tokens": 23033,
+        "latency_s": 93.89,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Jerry Lee Lewis work in?",
+        "answer": "Helsinki",
+        "steps": 3,
+        "tokens": 44710,
+        "latency_s": 34.69,
+        "replan": 0
+      },
+      {
+        "question": "What language does William Shakespeare speak?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 8551,
+        "latency_s": 2.76,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Joseph Lyons affiliated with?",
+        "answer": "The Church of Jesus Christ of Latter-day Saints",
+        "steps": 2,
+        "tokens": 22783,
+        "latency_s": 3.09,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is 2014 CollegeInsider.com Postseason Tournament associated with?",
+        "answer": "basketball",
+        "steps": 1,
+        "tokens": 8706,
+        "latency_s": 92.93,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Harry Judd?",
+        "answer": "To determine the country of citizenship of Harry Judd, we look for relevant facts in the knowledge pool. \n\n- **Evidence [1]** (serial number 7691): \"Harry Judd is a citizen of France.\"  \n- **Evidence [2]** (serial number 6862): \"Harry Judd is a citizen of United Kingdom.\"  \n\nSince newer facts have larger serial numbers, we compare the two: 7691 (newer) vs. 6862 (older). The newest fact is 7691, which states Harry Judd is a citizen of France.\n\nAnswer: France",
+        "steps": 2,
+        "tokens": 22898,
+        "latency_s": 3.42,
+        "replan": 0
+      },
+      {
+        "question": "Which city did H. P. Lovecraft work in?",
+        "answer": "The author of The Shadow Over Innsmouth is H. P. Lovecraft.",
+        "steps": 3,
+        "tokens": 44214,
+        "latency_s": 35.43,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Grêmio Barueri Futebol associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 8462,
+        "latency_s": 31.81,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Pius VI affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 8401,
+        "latency_s": 2.2,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Frank Norris educated at?",
+        "answer": "University of California, Berkeley",
+        "steps": 2,
+        "tokens": 22822,
+        "latency_s": 3.74,
+        "replan": 0
+      },
+      {
+        "question": "What language does Theodor Herzl speak?",
+        "answer": "The author of King Lear is Theodor Herzl.",
+        "steps": 2,
+        "tokens": 23062,
+        "latency_s": 95.46,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Spain?",
+        "answer": "Spanish",
+        "steps": 2,
+        "tokens": 23096,
+        "latency_s": 33.1,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn L. Martin?",
+        "answer": "Glenn L. Martin Company was founded by Glenn L. Martin.",
+        "steps": 3,
+        "tokens": 43784,
+        "latency_s": 96.69,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Kingdom of Italy located in?",
+        "answer": "Europe",
+        "steps": 2,
+        "tokens": 23012,
+        "latency_s": 3.38,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is squeeze play associated with?",
+        "answer": "basketball",
+        "steps": 2,
+        "tokens": 23005,
+        "latency_s": 63.95,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Worksop Town F.C. associated with?",
+        "answer": "association football",
+        "steps": 2,
+        "tokens": 22539,
+        "latency_s": 3.17,
+        "replan": 0
+      },
+      {
+        "question": "What is the original language of Gunsmoke?",
+        "answer": "English",
+        "steps": 2,
+        "tokens": 23056,
+        "latency_s": 93.03,
+        "replan": 0
+      },
+      {
+        "question": "What is Helen Fielding famous for?",
+        "answer": "Bridget Jones's Diary",
+        "steps": 2,
+        "tokens": 22665,
+        "latency_s": 34.46,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Milan Stojadinović?",
+        "answer": "The company that produced Windows Vista is Microsoft.",
+        "steps": 3,
+        "tokens": 44066,
+        "latency_s": 95.88,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Cuba located in?",
+        "answer": "North America",
+        "steps": 2,
+        "tokens": 22765,
+        "latency_s": 3.4,
+        "replan": 0
+      },
+      {
+        "question": "Which language was 9/11 Commission Report written in?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 8520,
+        "latency_s": 32.58,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Gianni Morbidelli?",
+        "answer": "To determine the country of citizenship of Gianni Morbidelli, we refer to the evidence in the knowledge pool. There are two entries related to Gianni Morbidelli:  \n- **[5509]** states \"Gianni Morbidelli is a citizen of Denmark.\"  \n- **[2502]** states \"Gianni Morbidelli is a citizen of Italy.\"  \n\nSince the newer fact has a larger serial number, and 2502 (serial number 2502) is larger than 5509 (serial number 5509 is not present in the listed sequence, but assuming the provided data is ordered by serial number, 2502 is more recent than 5509), the most recent fact is [2502].  \n\nAnswer: Italy",
+        "steps": 4,
+        "tokens": 65961,
+        "latency_s": 96.91,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Nova Scotia government?",
+        "answer": "Stephen McNeil",
+        "steps": 2,
+        "tokens": 23146,
+        "latency_s": 4.96,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Lucan die in?",
+        "answer": "Rome",
+        "steps": 2,
+        "tokens": 23284,
+        "latency_s": 93.24,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Windows XP?",
+        "answer": "Microsoft",
+        "steps": 4,
+        "tokens": 66691,
+        "latency_s": 36.64,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Aldrich Ames?",
+        "answer": "British Broadcasting Corporation",
+        "steps": 2,
+        "tokens": 23108,
+        "latency_s": 93.61,
+        "replan": 0
+      },
+      {
+        "question": "Which country was The Unit created in?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 22820,
+        "latency_s": 2.91,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Jason Motte?",
+        "answer": "Ireland",
+        "steps": 2,
+        "tokens": 23240,
+        "latency_s": 33.82,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Nokia?",
+        "answer": "Finnish",
+        "steps": 2,
+        "tokens": 23389,
+        "latency_s": 93.23,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Fantasy Island?",
+        "answer": "British Broadcasting Corporation",
+        "steps": 2,
+        "tokens": 22746,
+        "latency_s": 4.44,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does N. Chandrababu Naidu do?",
+        "answer": "- N. Chandrababu Naidu works in the field of politician. (来自[13]18, [24]24, 序列号较小；需找最新)\n- N. Chandrababu Naidu works in the field of basketball player. (来自[12]10621, 序列号10621)\n- N. Chandrababu Naidu is the chairperson of Telugu Desam Party. (来自[15]14645, [21]14645, 序列号14645)\n- The name of the current head of the Andhra Pradesh government is N. Chandrababu Naidu. (来自[8]6898, [26]6898, 序列号6898)\n- N. Chandrababu Naidu worked in the city of Hyderabad. (来自[16]5111, 序列号5111)\n- N. Chandrababu Naidu worked in the city of London. (来自[14]11666, 序列号11666)\n- The chairperson of Telugu Desam Party is N. Chandrababu Naidu. (来自[15]14645, [21]14645, 序列号14645)\n- The name of the current head of the Andhra Pradesh government is N. Chandrababu Naidu. (来自[8]6898, [26]6898, 序列号6898)\n\n由于序列号最大的事实中未直接提及职业，需比较不同事实的职业描述：\n- 序列号10621：basketball player\n- 序列号13/24：politician（序列号18,24均为13/24，较小）\n- 最新序列号6898（来自[8]6898和[26]6898，均为6898）未说明职业，而14645（14645）为政党主席。\n\n冲突解决：需找最新事实（序列号最大）。在所有关于N. Chandrababu Naidu的事实中，最新的是序列号6898（26）和14645（21），6898较小，但[8]6898为“current head of Andhra Pradesh government”，[15]14645为“chairperson of Telugu Desam Party”。由于题目问“what kind of work does N. Chandrababu Naidu do”，需选择职业身份。14645（政党主席）和18/24（politician）均为职业，而10621为basketball player（矛盾）。因10621（10621）比18/24（13/24）小，而14645（14645）比10621大，且未被更新事实覆盖。但题目要求“newest fact with larger serial number”，需确定最大序列号的职业描述。在提供的证据中，关于N. Chandrababu Naidu的最大序列号事实是[26]6898：“The name of the current head of the Andhra Pradesh government is N. Chandrababu Naidu.” 未直接说明职业，而其他事实如[15]14645（14645）为“chairperson of Telugu Desam Party”，[13]18/[24]24（13/24）为“politician”，[12]10621（10621）为“basketball player”。需比较序列号，最大的是14645（14645），但[8]6898（6898）更小。根据规则，最新的是序列号最大的，因此14645（政党主席）和18/24（politician）中，14645更大，但“chairperson of Telugu Desam Party”属于职业。若题目要求最简洁，可能需合并，但根据示例，应选择最新。由于没有比14645更新的职业描述，最终根据序列号14645，答案为“chairperson of Telugu Desam Party”。但需检查是否有更大序列号的职业事实。在所有提供的证据中，N. Chandrababu Naidu的职业事实中，最大序列号是14645（政党主席），因此答案为：chairperson of Telugu Desam Party",
+        "steps": 3,
+        "tokens": 45608,
+        "latency_s": 131.56,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of George R. R. Martin?",
+        "answer": "The author of Gorgias is Plato.",
+        "steps": 3,
+        "tokens": 44319,
+        "latency_s": 5.04,
+        "replan": 0
+      },
+      {
+        "question": "What position does Shay Given play?",
+        "answer": "goalkeeper",
+        "steps": 2,
+        "tokens": 22753,
+        "latency_s": 213.05,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Glenn Miller?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 22958,
+        "latency_s": 3.57,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Florentino Pérez associated with?",
+        "answer": "association football",
+        "steps": 2,
+        "tokens": 22571,
+        "latency_s": 34.96,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of University of Washington located in?",
+        "answer": "Seattle",
+        "steps": 2,
+        "tokens": 22433,
+        "latency_s": 33.69,
+        "replan": 0
+      },
+      {
+        "question": "What position does Jerzy Dudek play?",
+        "answer": "The type of music that Alex Acuña plays is Música Popular Brasileira.",
+        "steps": 4,
+        "tokens": 65441,
+        "latency_s": 96.99,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Ibn Saud work in?",
+        "answer": "Riyadh Region, London",
+        "steps": 2,
+        "tokens": 23373,
+        "latency_s": 3.88,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lonnie Mack?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 23316,
+        "latency_s": 33.76,
+        "replan": 0
+      },
+      {
+        "question": "What language does Néstor Kirchner speak?",
+        "answer": "Sonia Gandhi works in the field of politician.",
+        "steps": 4,
+        "tokens": 65368,
+        "latency_s": 126.86,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Larry Bird associated with?",
+        "answer": "basketball",
+        "steps": 2,
+        "tokens": 22902,
+        "latency_s": 2.71,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Jessica Jones?",
+        "answer": "- **核心问题**：找出所有与“sport”相关的条目，并按“运动类型”分类，列出其所属运动及相关信息。\n\n### 一、运动类型及关联条目\n#### 1. **Association Football (足球)**\n- **条目**：\n  - [12610] 金州勇士队与足球相关。\n  - [12780] 福特皇冠维多利亚由德哈维兰公司生产。（*注：可能为错误关联，德哈维兰主要生产飞机，此处存疑*）\n  - [15147] 霍顿Caprice由鸿海精密工业公司生产。（*注：鸿海为富士康，不涉及汽车制造*）\n  - [15154] 丰田体育场与橄榄球联合相关。\n  - [16846] 雅普·斯塔姆与足球相关。\n  - [10104] 埃塞俄比亚足球协会与足球相关。\n  - [7323] 李·史密斯与足球相关。\n  - [3465] 奈杰尔·阿德金斯与足球相关。\n  - [5040] 敖德萨黑海人足球俱乐部与足球相关。\n  - [5036] 乔治·维阿与足球相关。\n  - [12770] 卡尔·舒尔茨与足球无关（条目12770为“死于伦敦”）。\n  - [12770] 可能误关联，需排除。\n\n#### 2. **Baseball (棒球)**\n- **条目**：\n  - [7320] 约尔迪·文图拉与棒球相关。\n  - [7791] 加里·南希与棒球相关。（*原数据中无此条目，需核对*）\n  - [7812] 杰基·詹森与棒球相关。\n  - [7815] 德鲁·皮尔逊担任先发投手。\n  - [16827] 弗雷迪·弗里曼担任外线手。\n  - [7321] 李·史密斯与棒球相关。\n  - [7321] 可能重复，需排除。\n  - [7791] 应为[7812]，正确条目：[7812] 杰基·詹森与棒球相关；[7815] 德鲁·皮尔逊担任先发投手；[16827] 弗雷迪·弗里曼担任外线手。\n\n#### 3. **Rugby Union (橄榄球联合)**\n- **条目**：\n  - [12779] 2005年六国锦标赛与橄榄球联合相关。\n  - [15146] 无家可归者世界杯与橄榄球相关。\n  - [15154] 丰田体育场与橄榄球联合相关。\n  - [7791] 可能重复，需排除。\n\n#### 4. **Basketball (篮球)**\n- **条目**：\n  - [5036] 乔治·维阿与篮球无关（应为足球）。\n  - [7311] 苏福尔斯天空力量队与篮球相关。\n  - [7811] 泰勒·汉斯布鲁与篮球相关。\n  - [6833] 拉里·菲茨杰拉德担任小前锋。\n  - [3830] 厄尔·门罗担任控球后卫。\n  - [8090] 路易斯·布兰代斯与篮球无关。\n  - [16827] 弗雷迪·弗里曼与篮球无关（应为棒球）。\n\n#### 5. **Cricket (板球)**\n- **条目**：\n  - [13130] 板球起源于英格兰。\n  - [10107] 加里·克利斯蒂与板球相关。\n\n#### 6. **其他运动**\n- **Rugby (橄榄球)**：[15146] 无家可归者世界杯与橄榄球相关。\n- **Association Football**：[12610] 金州勇士队错误关联，应为[12610]可能误写，需排除。\n\n### 二、错误或存疑条目（需排除）\n- **错误关联**：\n  - [12610] 金州勇士队（NBA篮球）与足球无关。\n  - [12780] 福特皇冠维多利亚生产公司（德哈维兰）错误。\n  - [15147] 霍顿Caprice生产公司（鸿海）错误。\n- **信息冲突**：\n  - [12610] 与足球无关，可能为条目号重复或数据错误。\n\n### 三、最终整理（仅保留可靠关联）\n| 运动类型               | 条目编号       | 内容描述                                                                 |\n|------------------------|----------------|--------------------------------------------------------------------------|\n| 足球                   | 5036, 5040     | 乔治·维阿与足球相关；敖德萨黑海人足球俱乐部与足球相关。                   |\n| 棒球                   | 7320, 7812     | 约尔迪·文图拉与棒球相关；杰基·詹森与棒球相关。                           |\n| 橄榄球联合             | 12779, 15146   | 2005年六国锦标赛与橄榄球联合相关；无家可归者世界杯与橄榄球相关。           |\n| 篮球                   | 7311, 7811     | 苏福尔斯天空力量队与篮球相关；泰勒·汉斯布鲁与篮球相关。                   |\n| 板球                   | 13130, 10107   | 板球起源于英格兰；加里·克利斯蒂与板球相关。                               |\n\n### 四、说明\n- 部分条目因数据矛盾（如[12610]）或信息错误（如公司生产关联）被排除，仅保留明确的运动类型关联。\n- 需注意“sport”相关条目以“associated with the sport of...”为标准，严格筛选。",
+        "steps": 4,
+        "tokens": 67501,
+        "latency_s": 46.28,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Gordon Jackson die in?",
+        "answer": "Flensburg",
+        "steps": 2,
+        "tokens": 22989,
+        "latency_s": 123.0,
+        "replan": 0
+      },
+      {
+        "question": "What is Alexander Hamilton famous for?",
+        "answer": "The author of The Cask of Amontillado is Edgar Allan Poe.",
+        "steps": 3,
+        "tokens": 43829,
+        "latency_s": 126.23,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Pablo Neruda educated at?",
+        "answer": "I cannot answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 2,
+        "tokens": 22702,
+        "latency_s": 4.09,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Minister for Home Affairs?",
+        "answer": "Danny Danon",
+        "steps": 2,
+        "tokens": 22934,
+        "latency_s": 3.67,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Purification Rundown?",
+        "answer": "L. Ron Hubbard",
+        "steps": 2,
+        "tokens": 22968,
+        "latency_s": 33.43,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Canadian Broadcasting Corporation located in?",
+        "answer": "Ottawa",
+        "steps": 2,
+        "tokens": 22295,
+        "latency_s": 2.84,
+        "replan": 0
+      },
+      {
+        "question": "Who is Chiang Kai-shek's child?",
+        "answer": "Chiang Ching-kuo",
+        "steps": 2,
+        "tokens": 22895,
+        "latency_s": 93.43,
+        "replan": 0
+      },
+      {
+        "question": "Which company is Big Mac produced by?",
+        "answer": "McDonald's",
+        "steps": 2,
+        "tokens": 22515,
+        "latency_s": 2.43,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Micrographia?",
+        "answer": "Brothers Grimm",
+        "steps": 2,
+        "tokens": 22894,
+        "latency_s": 3.56,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of San Francisco Giants?",
+        "answer": "Thiago Motta",
+        "steps": 2,
+        "tokens": 23159,
+        "latency_s": 34.12,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Lorenzo Lamas?",
+        "answer": "The user's question is not clearly stated. Please provide a specific question, and I will answer it based on the collected evidence.",
+        "steps": 4,
+        "tokens": 64805,
+        "latency_s": 98.26,
+        "replan": 0
+      },
+      {
+        "question": "What is Charaka famous for?",
+        "answer": "Sanskrit",
+        "steps": 1,
+        "tokens": 8572,
+        "latency_s": 2.13,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Jadranka Kosor affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 22403,
+        "latency_s": 93.78,
+        "replan": 0
+      },
+      {
+        "question": "What position does Sam Cassell play?",
+        "answer": "Sam Cassell plays the position of shooting guard.",
+        "steps": 4,
+        "tokens": 65115,
+        "latency_s": 37.71,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Tampere?",
+        "answer": "Esperanto",
+        "steps": 1,
+        "tokens": 8471,
+        "latency_s": 1.82,
+        "replan": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "system": "memGPT",
+  "instance_idx": 22,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案的核心情节与人物。标准答案聚焦于Halley的早期孤儿院与济贫院经历及请求添粥事件，而Agent预测包含大量无关人物（如Celestia, Ariel, Master Maryam, Ananya的帮派）和复杂情节（如谋杀嫌疑、搬迁、朋友拜访），这些在标准答案中均未出现，且对Halley早期经历的描述不准确或不完整。"
+    }
+  ]
+}

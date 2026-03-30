@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 4,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测将核心人物关系完全错误（将邻居男孩Taylor误写为家庭成员，且主要情节与标准答案严重不符），并引入了大量标准答案中未提及的次要事件（如学校经历、打架等），核心情节缺失且错误。"
+    }
+  ]
+}

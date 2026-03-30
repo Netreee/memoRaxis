@@ -1,0 +1,17 @@
+{
+  "system": "simpleMem",
+  "instance_idx": 21,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离核心情节与人物。标准答案聚焦于Morgan Paris违背父命出海的核心事件，而Agent预测则描述了无关的晚年生活、婚姻、子女及殖民地务农等细节，完全缺失了出海这一关键情节，且人物背景描述存在大量标准答案未提及的信息。"
+    }
+  ]
+}

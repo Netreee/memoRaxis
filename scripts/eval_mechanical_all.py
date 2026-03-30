@@ -94,6 +94,22 @@ def load_merged_results(system, dataset_prefix, instance_idx):
             return None
         return json.load(open(path))["results"]
 
+    elif system == "amem":
+        task_map = {"acc_ret": "acc_ret", "conflict": "conflict", "ttl": "ttl"}
+        short = task_map.get(dataset_prefix)
+        if not short:
+            return None
+        path = f"out/amem/amem_{short}_{instance_idx}.json"
+        if not os.path.exists(path):
+            return None
+        return json.load(open(path))["results"]
+
+    elif system == "hipporag":
+        path = f"out/hipporag/hipporag_{dataset_prefix}_{instance_idx}.json"
+        if not os.path.exists(path):
+            return None
+        return json.load(open(path))["results"]
+
     elif system == "memGPT":
         merged = {}
         if dataset_prefix == "acc_ret":
@@ -269,6 +285,13 @@ def eval_ttl(system, instance_range):
         if not results:
             continue
 
+        # Load GT for fallback (systems that don't embed ground_truth in results)
+        gt_path = f"MemoryAgentBench/preview_samples/Test_Time_Learning/instance_{idx}.json"
+        qa_map = {}
+        if os.path.exists(gt_path):
+            gt = json.load(open(gt_path))
+            qa_map = {q: a for q, a in zip(gt.get("questions", []), gt.get("answers", []))}
+
         for adaptor in ["R1", "R2", "R3"]:
             if adaptor not in results:
                 continue
@@ -279,7 +302,9 @@ def eval_ttl(system, instance_range):
             correct = 0; total = 0
             for item in items:
                 pred = item.get("answer", "").strip()
-                gt_ids = item.get("ground_truth", [])
+                gt_ids = item.get("ground_truth") or qa_map.get(item.get("question", ""), [])
+                if not isinstance(gt_ids, list):
+                    gt_ids = [gt_ids] if gt_ids else []
                 if idx == 0:
                     # 电影推荐：ID -> Title 匹配
                     is_hit = False
@@ -323,6 +348,8 @@ if __name__ == "__main__":
         ("mem0",      range(22), range(8), range(6)),
         ("mem0g",     range(22), range(8), range(6)),
         ("memGPT",    range(22), range(8), range(6)),
+        ("amem",      range(22), range(8), range(1, 6)),
+        ("hipporag",  range(22), range(8), range(1, 6)),
     ]:
         print(f"\n{'#'*60}")
         print(f"  SYSTEM: {system}")
@@ -340,7 +367,7 @@ if __name__ == "__main__":
     print(f"{'System':<12} | {'Task':<5} | {'Metric':<10} | {'R1':<10} | {'R2':<10} | {'R3':<10}")
     print("-" * 70)
 
-    for system in ["simpleMem", "mem0", "mem0g", "memGPT"]:
+    for system in ["simpleMem", "mem0", "mem0g", "memGPT", "amem", "hipporag"]:
         res = all_results[system]
         # AR
         ar = res["AR"]
@@ -378,7 +405,7 @@ if __name__ == "__main__":
 
     # Save JSON
     output = {}
-    for system in ["simpleMem", "mem0", "mem0g", "memGPT"]:
+    for system in ["simpleMem", "mem0", "mem0g", "memGPT", "amem", "hipporag"]:
         output[system] = {}
         res = all_results[system]
         for task in ["AR", "CR", "TTL"]:

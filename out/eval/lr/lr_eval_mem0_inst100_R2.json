@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 100,
+  "adaptor": "R2",
+  "accuracy": 0.3333333333333333,
+  "correct": 2,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程引用了文本中的关键信息来支持该答案，核心内容准确无误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心人物错误，且推理基于未提供的上下文，属于严重偏离。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案'B. Hila Weber'与标准答案'B.Hila Weber'在核心内容上一致，但评估标准要求基于给定的故事文本和问题判断，而问题与预测内容无关，预测也未回答问题，属于严重偏离。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "空或过短的预测"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "空或过短的预测"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程引用了故事中的关键情节（尸体位置、供词）来支持结论，核心内容准确无误。"
+    }
+  ]
+}

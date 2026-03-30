@@ -1,0 +1,65 @@
+{
+  "system": "mem0",
+  "instance_idx": 108,
+  "adaptor": "R3",
+  "accuracy": 0.2222222222222222,
+  "correct": 2,
+  "total": 9,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测与问题无关。问题要求从给定选项中选择Lichem Rocchi的死亡方式，但预测内容是关于Hakamura对Uzuki/Yukine的情感，完全偏离主题，核心内容错误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法确定'，而标准答案为具体选项，核心内容缺失，严重偏离。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法支持任何选项'，而标准答案为具体选项，核心内容完全缺失，严重偏离。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程基于原文情节（利用气味追踪）进行合理推断，核心内容准确无误。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案（Boss's wife）与标准答案（Nao Tokoro himself）完全不符，核心人物错误，属于严重偏离。"
+    },
+    {
+      "q_idx": 6,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'证据不足'，未提供任何与标准答案相关的核心内容，严重偏离标准答案。"
+    },
+    {
+      "q_idx": 7,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程引用了相关证据，准确涵盖了核心情节：信件被寄往邮局后被邮局员工拆解丢弃。"
+    },
+    {
+      "q_idx": 8,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'证据不足'，未提供任何与标准答案相关的核心内容，严重偏离标准答案。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 49,
+  "adaptor": "R3",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测摘要与标准答案的核心情节、人物和起始事件完全不符。预测摘要描述了船只、叛变和寻宝中后期事件，而标准答案始于主角Jerome在客栈的童年经历及发现地图等初始情节。两者讲述的是故事的不同部分，预测摘要缺失了标准答案要求的所有核心内容。"
+    }
+  ]
+}

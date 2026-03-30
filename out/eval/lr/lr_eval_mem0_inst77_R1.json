@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 77,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，其内容聚焦于达尔文及其家庭生活细节，而标准答案的核心是查尔斯、达尔文、莱尼和马克斯四个主要人物在特定时间地点的引入，以及达尔文父亲垂危的关键情节。Agent预测缺失了故事开篇的时间地点设定、核心人物马克斯，以及父亲病危这一核心情节，属于核心内容缺失。"
+    }
+  ]
+}

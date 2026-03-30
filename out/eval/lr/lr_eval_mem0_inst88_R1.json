@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 88,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案。标准答案核心是神父Chad在监狱密谋营救国王双胞胎兄弟，而Agent预测内容涉及Fouquet、逃亡计划、信件等完全不同的人物和情节，主要人物、核心事件均错误，属于完全不同的故事线。"
+    }
+  ]
+}

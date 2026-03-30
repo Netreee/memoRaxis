@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 107,
+  "adaptor": "R3",
+  "accuracy": 0.5,
+  "correct": 3,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案的核心内容完全不符，且其推理依据与问题无关，属于严重偏离。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供标准答案中的核心内容，严重偏离要求。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均指向同一关键人物，核心内容准确无误。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心内容（Qinzhe Family Mansion）与标准答案（Qin Nai Tang）完全不符，属于主要信息错误。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的核心答案与标准答案完全一致，均指向'Yuying's Mother'，且提供了相关推理和证据支持，核心内容准确无误。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，核心内容准确无误。"
+    }
+  ]
+}

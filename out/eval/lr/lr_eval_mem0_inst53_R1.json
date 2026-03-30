@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 53,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案的核心情节。标准答案明确故事分为Book I和Book II，以Coral Rafael为主角，始于Precious一家带她去Bath。而Agent预测引入了大量标准答案中不存在的人物（如Rowena Dominick, Tyrese, Hugo一家）和复杂情节，完全未提及标准答案的关键设定，属于核心情节错误和缺失。"
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "dataset": "test_time_learning",
+  "backend": "memOS",
+  "instance_idx": 1,
+  "results": {
+    "R2": [
+      {
+        "question": "Are there restrictions for my disposable card since it does not seem to be working?",
+        "answer": "{67}",
+        "steps": 2,
+        "tokens": 12436,
+        "replan": 0,
+        "elapsed_sec": 25.34
+      },
+      {
+        "question": "I'm trying to transfer money to another country. It's just pending and not sending. My account details are correct. Please help me.",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 12901,
+        "replan": 0,
+        "elapsed_sec": 33.92
+      },
+      {
+        "question": "What do I do if I notice a strange withdrawl in my statement?",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 12503,
+        "replan": 0,
+        "elapsed_sec": 41.82
+      },
+      {
+        "question": "I got a message that I need to verify my identity; what do I do?",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 13034,
+        "replan": 0,
+        "elapsed_sec": 42.63
+      },
+      {
+        "question": "How do I use the app if I don't have my phone with me?",
+        "answer": "{22}",
+        "steps": 2,
+        "tokens": 13506,
+        "replan": 0,
+        "elapsed_sec": 45.88
+      },
+      {
+        "question": "why is the exchange rate for a Foreign ATM different",
+        "answer": "{26}",
+        "steps": 2,
+        "tokens": 12529,
+        "replan": 0,
+        "elapsed_sec": 26.52
+      },
+      {
+        "question": "What happens if my card is stuck in the ATM?",
+        "answer": "{51}",
+        "steps": 2,
+        "tokens": 13496,
+        "replan": 0,
+        "elapsed_sec": 48.6
+      },
+      {
+        "question": "Is there a discount for frequently exchanging currencies?",
+        "answer": "{10}",
+        "steps": 2,
+        "tokens": 12589,
+        "replan": 0,
+        "elapsed_sec": 27.51
+      },
+      {
+        "question": "I sent money.  They haven't received it.",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 13477,
+        "replan": 0,
+        "elapsed_sec": 87.56
+      },
+      {
+        "question": "What age do my kids need to be to use your service?",
+        "answer": "{21}",
+        "steps": 2,
+        "tokens": 12818,
+        "replan": 0,
+        "elapsed_sec": 30.55
+      },
+      {
+        "question": "I've notice I was charged for withdrawing cash, can you explain why?",
+        "answer": "{62}",
+        "steps": 2,
+        "tokens": 12244,
+        "replan": 0,
+        "elapsed_sec": 34.02
+      },
+      {
+        "question": "Can you please identify the problem with my bank card?",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 14066,
+        "replan": 0,
+        "elapsed_sec": 96.33
+      },
+      {
+        "question": "Do you know where my card will be accepted?",
+        "answer": "{15}",
+        "steps": 2,
+        "tokens": 12964,
+        "replan": 0,
+        "elapsed_sec": 38.85
+      },
+      {
+        "question": "My work sends me all over the world, can I get a discount for all the money I have to exchange?",
+        "answer": "{10}",
+        "steps": 2,
+        "tokens": 12411,
+        "replan": 0,
+        "elapsed_sec": 23.65
+      },
+      {
+        "question": "Why do I have to verify my identity?",
+        "answer": "{45}",
+        "steps": 2,
+        "tokens": 12616,
+        "replan": 0,
+        "elapsed_sec": 29.9
+      },
+      {
+        "question": "When my card expires what happens to my account?",
+        "answer": "{9}",
+        "steps": 2,
+        "tokens": 12539,
+        "replan": 0,
+        "elapsed_sec": 23.96
+      },
+      {
+        "question": "It appears that I am being double charged for some items that I have purchased this past week.  Please review and correct.",
+        "answer": "{63}",
+        "steps": 2,
+        "tokens": 12705,
+        "replan": 0,
+        "elapsed_sec": 39.27
+      },
+      {
+        "question": "how long til my cash out goes through?",
+        "answer": "{24}",
+        "steps": 2,
+        "tokens": 13574,
+        "replan": 0,
+        "elapsed_sec": 49.87
+      },
+      {
+        "question": "my phone is gone",
+        "answer": "{22}",
+        "steps": 2,
+        "tokens": 12565,
+        "replan": 0,
+        "elapsed_sec": 31.06
+      },
+      {
+        "question": "My money transfer has not arrived.",
+        "answer": "{69}",
+        "steps": 2,
+        "tokens": 13027,
+        "replan": 0,
+        "elapsed_sec": 43.34
+      },
+      {
+        "question": "I bought something but now I would like a refund. How do I do that?",
+        "answer": "{47}",
+        "steps": 2,
+        "tokens": 12720,
+        "replan": 0,
+        "elapsed_sec": 39.52
+      },
+      {
+        "question": "Hello. Can you tell me if you use Visa or Mastercard?",
+        "answer": "72",
+        "steps": 2,
+        "tokens": 12964,
+        "replan": 0,
+        "elapsed_sec": 39.02
+      },
+      {
+        "question": "I can't see my latest bank transfer",
+        "answer": "{69}",
+        "steps": 2,
+        "tokens": 12856,
+        "replan": 0,
+        "elapsed_sec": 34.96
+      },
+      {
+        "question": "I got a fee for an ATM withdrawal.",
+        "answer": "{62}",
+        "steps": 2,
+        "tokens": 12281,
+        "replan": 0,
+        "elapsed_sec": 29.1
+      },
+      {
+        "question": "There is a transaction for $1 and I don't know why it was charged.",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 12785,
+        "replan": 0,
+        "elapsed_sec": 38.06
+      },
+      {
+        "question": "Am I able to get a second card?",
+        "answer": "{71}",
+        "steps": 2,
+        "tokens": 12518,
+        "replan": 0,
+        "elapsed_sec": 23.53
+      },
+      {
+        "question": "Why is my card payment showing as pending?",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 13292,
+        "replan": 0,
+        "elapsed_sec": 44.05
+      },
+      {
+        "question": "Why was I chaged twice for the same thing?",
+        "answer": "{63}",
+        "steps": 2,
+        "tokens": 12542,
+        "replan": 0,
+        "elapsed_sec": 35.96
+      },
+      {
+        "question": "Is it okay to use a bank card to top up",
+        "answer": "{39}",
+        "steps": 4,
+        "tokens": 52832,
+        "replan": 0,
+        "elapsed_sec": 100.0
+      },
+      {
+        "question": "I see what looks like duplicate charges on account.",
+        "answer": "{63}",
+        "steps": 2,
+        "tokens": 12740,
+        "replan": 0,
+        "elapsed_sec": 41.95
+      },
+      {
+        "question": "What ATMs is the card okay to use at?",
+        "answer": "{43}",
+        "steps": 2,
+        "tokens": 13624,
+        "replan": 0,
+        "elapsed_sec": 52.36
+      },
+      {
+        "question": "I want a refund because my package has been taking too long to arrive. How do I go about doing that?",
+        "answer": "{47}",
+        "steps": 2,
+        "tokens": 13262,
+        "replan": 0,
+        "elapsed_sec": 57.82
+      },
+      {
+        "question": "Freeze my account it's been hacked.",
+        "answer": "{57}",
+        "steps": 2,
+        "tokens": 13179,
+        "replan": 0,
+        "elapsed_sec": 47.53
+      },
+      {
+        "question": "The card got declined twice when I tried to use it to buy something online yesterday.",
+        "answer": "{60}",
+        "steps": 2,
+        "tokens": 12928,
+        "replan": 0,
+        "elapsed_sec": 71.66
+      },
+      {
+        "question": "The transfer is coming up as pending the payment is due today. Will I be charged a fee?",
+        "answer": "{33}",
+        "steps": 4,
+        "tokens": 53349,
+        "replan": 0,
+        "elapsed_sec": 104.65
+      },
+      {
+        "question": "Does my PIN come with my card?",
+        "answer": "{75}",
+        "steps": 2,
+        "tokens": 13743,
+        "replan": 0,
+        "elapsed_sec": 53.19
+      },
+      {
+        "question": "Someone else is using my card, freeze it.",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 13077,
+        "replan": 0,
+        "elapsed_sec": 45.16
+      },
+      {
+        "question": "Transferring money in 2018 to another country shouldn't take this long. My transfer has been pending for too long. I verified my account details are correct.",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 13245,
+        "replan": 0,
+        "elapsed_sec": 47.66
+      },
+      {
+        "question": "My card is gone I think it was stolen",
+        "answer": "7",
+        "steps": 2,
+        "tokens": 12732,
+        "replan": 0,
+        "elapsed_sec": 24.37
+      },
+      {
+        "question": "Can I get a mastercard?",
+        "answer": "{72}",
+        "steps": 2,
+        "tokens": 13006,
+        "replan": 0,
+        "elapsed_sec": 48.96
+      },
+      {
+        "question": "I don't understand where this debit came from and want it removed.",
+        "answer": "{5}",
+        "steps": 2,
+        "tokens": 12502,
+        "replan": 0,
+        "elapsed_sec": 30.2
+      },
+      {
+        "question": "I made a transfer 12 hours ago. Why is it still listed as pending?",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 12845,
+        "replan": 0,
+        "elapsed_sec": 39.02
+      },
+      {
+        "question": "can you limit my top up?",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 12943,
+        "replan": 0,
+        "elapsed_sec": 42.31
+      },
+      {
+        "question": "Why can't I get my virtual card to work?",
+        "answer": "{28}",
+        "steps": 2,
+        "tokens": 13369,
+        "replan": 0,
+        "elapsed_sec": 57.43
+      },
+      {
+        "question": "What steps must I follow to get a Visa credit card?",
+        "answer": "{72}",
+        "steps": 2,
+        "tokens": 12474,
+        "replan": 0,
+        "elapsed_sec": 26.69
+      },
+      {
+        "question": "Can I transfer money to a beneficiery?",
+        "answer": "{44}",
+        "steps": 3,
+        "tokens": 31046,
+        "replan": 0,
+        "elapsed_sec": 95.25
+      },
+      {
+        "question": "Can you help with a transfer to an account",
+        "answer": "{52}",
+        "steps": 2,
+        "tokens": 15171,
+        "replan": 0,
+        "elapsed_sec": 96.08
+      },
+      {
+        "question": "Do you support all fiat currencies?",
+        "answer": "{56}",
+        "steps": 2,
+        "tokens": 13040,
+        "replan": 0,
+        "elapsed_sec": 36.31
+      },
+      {
+        "question": "My transfer didn't go through.",
+        "answer": "{29}",
+        "steps": 2,
+        "tokens": 12523,
+        "replan": 0,
+        "elapsed_sec": 35.2
+      },
+      {
+        "question": "How do I add the card to my account?",
+        "answer": "{41}",
+        "steps": 2,
+        "tokens": 12994,
+        "replan": 0,
+        "elapsed_sec": 42.18
+      },
+      {
+        "question": "I am still waiting for a cash withdrawal to show",
+        "answer": "{24}",
+        "steps": 2,
+        "tokens": 12517,
+        "replan": 0,
+        "elapsed_sec": 36.57
+      },
+      {
+        "question": "What places can I use my card?",
+        "answer": "{15}",
+        "steps": 2,
+        "tokens": 13000,
+        "replan": 0,
+        "elapsed_sec": 47.93
+      },
+      {
+        "question": "How do I open up an account for my child?",
+        "answer": "{21}",
+        "steps": 2,
+        "tokens": 12551,
+        "replan": 0,
+        "elapsed_sec": 62.83
+      },
+      {
+        "question": "can you tell me what cards and currencies you take?",
+        "answer": "{39}",
+        "steps": 2,
+        "tokens": 12469,
+        "replan": 0,
+        "elapsed_sec": 52.5
+      },
+      {
+        "question": "Why didn't my balance change after I transferred some money?",
+        "answer": "{69}",
+        "steps": 2,
+        "tokens": 12547,
+        "replan": 0,
+        "elapsed_sec": 28.52
+      },
+      {
+        "question": "The wrong rate was applied to an item I bought in a currency different from mine. Can this be changed?",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 12607,
+        "replan": 0,
+        "elapsed_sec": 31.62
+      },
+      {
+        "question": "How many tries do I have to enter my pin before I'm blocked?",
+        "answer": "{0}",
+        "steps": 5,
+        "tokens": 67241,
+        "replan": 0,
+        "elapsed_sec": 87.14
+      },
+      {
+        "question": "My top-up isn't working.",
+        "answer": "{3}",
+        "steps": 2,
+        "tokens": 13354,
+        "replan": 0,
+        "elapsed_sec": 47.8
+      },
+      {
+        "question": "Where do I need to live to get support?",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 12743,
+        "replan": 0,
+        "elapsed_sec": 29.73
+      },
+      {
+        "question": "Delete this account!",
+        "answer": "{23}",
+        "steps": 2,
+        "tokens": 12692,
+        "replan": 0,
+        "elapsed_sec": 28.81
+      },
+      {
+        "question": "There is an extra $1 charge",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 13147,
+        "replan": 0,
+        "elapsed_sec": 55.29
+      },
+      {
+        "question": "app does not recognize me",
+        "answer": "{16}",
+        "steps": 2,
+        "tokens": 12748,
+        "replan": 0,
+        "elapsed_sec": 28.76
+      },
+      {
+        "question": "What are the fees for a physical card?",
+        "answer": "{37}",
+        "steps": 2,
+        "tokens": 12936,
+        "replan": 0,
+        "elapsed_sec": 38.34
+      },
+      {
+        "question": "Is there a limit to top-ups?",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 12800,
+        "replan": 0,
+        "elapsed_sec": 68.41
+      },
+      {
+        "question": "Please explain why the transfers shows up as pending?",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 12552,
+        "replan": 0,
+        "elapsed_sec": 35.9
+      },
+      {
+        "question": "How do I know which ATMs will accept this card?",
+        "answer": "{43}",
+        "steps": 2,
+        "tokens": 13074,
+        "replan": 0,
+        "elapsed_sec": 51.43
+      },
+      {
+        "question": "Is my cash withdrawal pending?",
+        "answer": "{24}",
+        "steps": 2,
+        "tokens": 12900,
+        "replan": 0,
+        "elapsed_sec": 39.98
+      },
+      {
+        "question": "Why do you require so many identity details?",
+        "answer": "{45}",
+        "steps": 2,
+        "tokens": 12575,
+        "replan": 0,
+        "elapsed_sec": 26.75
+      },
+      {
+        "question": "I don't recognize a debit payment that was made and would like to find out about the payment.",
+        "answer": "{5}",
+        "steps": 2,
+        "tokens": 14124,
+        "replan": 0,
+        "elapsed_sec": 89.22
+      },
+      {
+        "question": "Still waiting on a refund.",
+        "answer": "{17}",
+        "steps": 2,
+        "tokens": 13592,
+        "replan": 0,
+        "elapsed_sec": 59.16
+      },
+      {
+        "question": "Why is there a transaction that shows multiple times?",
+        "answer": "{63}",
+        "steps": 2,
+        "tokens": 12167,
+        "replan": 0,
+        "elapsed_sec": 25.39
+      },
+      {
+        "question": "I was taking out funds and was unable to regain my card.",
+        "answer": "{51}",
+        "steps": 2,
+        "tokens": 13341,
+        "replan": 0,
+        "elapsed_sec": 62.28
+      },
+      {
+        "question": "My credit card cancelled a payment for a purchase.",
+        "answer": "{74}",
+        "steps": 2,
+        "tokens": 13209,
+        "replan": 0,
+        "elapsed_sec": 56.65
+      },
+      {
+        "question": "Can I get a physical card through this app?",
+        "answer": "{37}",
+        "steps": 2,
+        "tokens": 12903,
+        "replan": 0,
+        "elapsed_sec": 39.81
+      },
+      {
+        "question": "I made a mistake and need to cancel a transaction",
+        "answer": "20",
+        "steps": 2,
+        "tokens": 12899,
+        "replan": 0,
+        "elapsed_sec": 54.19
+      },
+      {
+        "question": "I need to verify my identity, but how do I do that?",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 12569,
+        "replan": 0,
+        "elapsed_sec": 33.73
+      },
+      {
+        "question": "I need to cancel an incorrect transaction.",
+        "answer": "20",
+        "steps": 2,
+        "tokens": 14050,
+        "replan": 0,
+        "elapsed_sec": 88.92
+      },
+      {
+        "question": "My latest payment was declined, I was told everything was back to working order. What happened?",
+        "answer": "{60}",
+        "steps": 2,
+        "tokens": 12648,
+        "replan": 0,
+        "elapsed_sec": 32.47
+      },
+      {
+        "question": "whats your exchange rate",
+        "answer": "{53}",
+        "steps": 2,
+        "tokens": 13222,
+        "replan": 0,
+        "elapsed_sec": 53.18
+      },
+      {
+        "question": "How do I get my paycheck through this?",
+        "answer": "{8}",
+        "steps": 2,
+        "tokens": 13448,
+        "replan": 0,
+        "elapsed_sec": 51.23
+      },
+      {
+        "question": "How can i check if my card is working?",
+        "answer": "{42}",
+        "steps": 3,
+        "tokens": 29839,
+        "replan": 0,
+        "elapsed_sec": 62.3
+      },
+      {
+        "question": "What is the top-ups limit?",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 12794,
+        "replan": 0,
+        "elapsed_sec": 35.39
+      },
+      {
+        "question": "I would like to link my card. How do I do it?",
+        "answer": "{41}",
+        "steps": 2,
+        "tokens": 12805,
+        "replan": 0,
+        "elapsed_sec": 36.56
+      },
+      {
+        "question": "Where do I go if I want to link my new card?",
+        "answer": "{41}",
+        "steps": 2,
+        "tokens": 13001,
+        "replan": 0,
+        "elapsed_sec": 35.25
+      },
+      {
+        "question": "How can I start using my card?",
+        "answer": "{31}",
+        "steps": 2,
+        "tokens": 13490,
+        "replan": 0,
+        "elapsed_sec": 56.77
+      },
+      {
+        "question": "I made a mistake when I did a transfer so now what can I do to fix that?",
+        "answer": "{20}",
+        "steps": 2,
+        "tokens": 12578,
+        "replan": 0,
+        "elapsed_sec": 42.83
+      },
+      {
+        "question": "The app reverted what I topped up.",
+        "answer": "{3}",
+        "steps": 2,
+        "tokens": 12289,
+        "replan": 0,
+        "elapsed_sec": 23.96
+      },
+      {
+        "question": "In terms of holding and exchange, what fiat currencies do you use.",
+        "answer": "{56}",
+        "steps": 2,
+        "tokens": 12507,
+        "replan": 0,
+        "elapsed_sec": 30.25
+      },
+      {
+        "question": "Can you tell me if my top-up has been cancelled?",
+        "answer": "{3}",
+        "steps": 2,
+        "tokens": 12373,
+        "replan": 0,
+        "elapsed_sec": 26.29
+      },
+      {
+        "question": "Why can't I use my American Express with Apple Pay to top up my account?",
+        "answer": "{30}",
+        "steps": 2,
+        "tokens": 12531,
+        "replan": 0,
+        "elapsed_sec": 28.47
+      },
+      {
+        "question": "Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but \"Pending\", and that status has never changed during the last two days.",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 13510,
+        "replan": 0,
+        "elapsed_sec": 55.91
+      },
+      {
+        "question": "I received my new card, but I don't see it in the app anywhere.  What do I do?",
+        "answer": "{41}",
+        "steps": 2,
+        "tokens": 12983,
+        "replan": 0,
+        "elapsed_sec": 68.29
+      },
+      {
+        "question": "The transfer I did hasn't arrived",
+        "answer": "{69}",
+        "steps": 2,
+        "tokens": 13034,
+        "replan": 0,
+        "elapsed_sec": 49.52
+      },
+      {
+        "question": "Can I top up using an international card",
+        "answer": "{39}",
+        "steps": 2,
+        "tokens": 14395,
+        "replan": 0,
+        "elapsed_sec": 87.75
+      },
+      {
+        "question": "How do I deal with a blocked PIN?",
+        "answer": "{0}",
+        "steps": 2,
+        "tokens": 12882,
+        "replan": 0,
+        "elapsed_sec": 37.12
+      },
+      {
+        "question": "Why was I charged a fee for withdrawing cash?",
+        "answer": "{62}",
+        "steps": 2,
+        "tokens": 12077,
+        "replan": 0,
+        "elapsed_sec": 29.46
+      },
+      {
+        "question": "I payed with a card and was charged an extra fee",
+        "answer": "{27}",
+        "steps": 2,
+        "tokens": 13612,
+        "replan": 0,
+        "elapsed_sec": 59.36
+      },
+      {
+        "question": "Hello. I checked my transactions and saw I was double charged on my card for a restaurant visit. I would like to get my money back.",
+        "answer": "{63}",
+        "steps": 2,
+        "tokens": 13964,
+        "replan": 0,
+        "elapsed_sec": 83.99
+      },
+      {
+        "question": "How long do card transactions take to clear?",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 12950,
+        "replan": 0,
+        "elapsed_sec": 43.32
+      },
+      {
+        "question": "I don't like that I have to fill out so much information about my identity.",
+        "answer": "{45}",
+        "steps": 2,
+        "tokens": 13086,
+        "replan": 0,
+        "elapsed_sec": 71.2
+      }
+    ]
+  }
+}

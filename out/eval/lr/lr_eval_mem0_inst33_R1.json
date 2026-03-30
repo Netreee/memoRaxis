@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 33,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案要求。标准答案明确要求只写故事的情节和人物，且给出了具体示例（描述两个年轻人到达湖边等具体情节）。但Agent预测的开头却包含了故事背景（1740-1745年，纽约殖民地）、主题分析（如Ronaldo的道德信念）和评论，这些都属于被禁止的“主题、背景、分析或评论”，未能遵循指令。核心情节描述也与标准答案示例不匹配。"
+    }
+  ]
+}

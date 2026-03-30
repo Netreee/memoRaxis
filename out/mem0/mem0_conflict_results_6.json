@@ -1,0 +1,809 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0",
+  "instance_idx": 6,
+  "results": {
+    "R1": [
+      {
+        "question": "Which language was The New York Times written in?",
+        "answer": "The knowledge pool does not provide information about the language in which The New York Times was written.\n\n（说明：知识池中未包含关于《纽约时报》所用语言的事实，因此无法回答该问题。）",
+        "steps": 1,
+        "tokens": 549,
+        "latency_s": 4.39,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Hard Times?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 505,
+        "latency_s": 2.9,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of David Farragut?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 559,
+        "latency_s": 4.79,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Death Eater?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 590,
+        "latency_s": 5.0,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Joseph Mitchell?",
+        "answer": "There is no relevant information about Joseph Mitchell's country of citizenship in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 566,
+        "latency_s": 4.5,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Aki Takase play?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 539,
+        "latency_s": 3.54,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Shaman King created in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 631,
+        "latency_s": 5.17,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Henry of Blois affiliated with?",
+        "answer": "信息不足，知识池中未提及Henry of Blois的宗教信仰。",
+        "steps": 1,
+        "tokens": 524,
+        "latency_s": 3.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the original language of The Sky at Night?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 636,
+        "latency_s": 5.65,
+        "replan": 0
+      },
+      {
+        "question": "Who was Kermit the Frog created by?",
+        "answer": "上下文信息不足，无法确定Kermit the Frog的创造者。",
+        "steps": 1,
+        "tokens": 798,
+        "latency_s": 10.87,
+        "replan": 0
+      },
+      {
+        "question": "Which city was Monty Norman born in?",
+        "answer": "信息不足，知识池中未提及Monty Norman的出生城市。",
+        "steps": 1,
+        "tokens": 505,
+        "latency_s": 2.68,
+        "replan": 0
+      },
+      {
+        "question": "Who is Prince Andrew, Duke of York married to?",
+        "answer": "Information insufficient",
+        "steps": 1,
+        "tokens": 557,
+        "latency_s": 3.3,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Day Tripper?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 566,
+        "latency_s": 3.68,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Pablo Picasso work in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 635,
+        "latency_s": 6.5,
+        "replan": 0
+      },
+      {
+        "question": "Who is the director of CERN?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 547,
+        "latency_s": 2.89,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Jane Foster?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 548,
+        "latency_s": 3.87,
+        "replan": 0
+      },
+      {
+        "question": "Who is the head coach of Burnley F.C.?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 534,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of One Life to Live?",
+        "answer": "The information about the original broadcaster of One Life to Live is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 648,
+        "latency_s": 6.61,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Red Storm Rising?",
+        "answer": "Tom Clancy",
+        "steps": 1,
+        "tokens": 527,
+        "latency_s": 4.58,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Soviet Union?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 578,
+        "latency_s": 4.94,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Great Britain located in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 608,
+        "latency_s": 6.32,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Sōtō?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 615,
+        "latency_s": 5.68,
+        "replan": 0
+      },
+      {
+        "question": "Which country was The Orange County Register created in?",
+        "answer": "The context does not provide information about which country The Orange County Register was created in.",
+        "steps": 1,
+        "tokens": 562,
+        "latency_s": 3.36,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is racing video game associated with?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 572,
+        "latency_s": 3.49,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Philip II of Spain?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 505,
+        "latency_s": 2.64,
+        "replan": 0
+      },
+      {
+        "question": "What is Luís de Camões famous for?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 551,
+        "latency_s": 3.21,
+        "replan": 0
+      },
+      {
+        "question": "Who is Wilma Flintstone's child?",
+        "answer": "The information about Wilma Flintstone's child is not provided in the knowledge pool.\n\n（或者更简洁点：No relevant information.）根据指令要求“如果上下文信息不足，请明确说明”，所以直接回答信息不足即可。</think_never_used_51bce0c785ca2f68081bfa7d91973934>No relevant information in the knowledge pool.",
+        "steps": 1,
+        "tokens": 594,
+        "latency_s": 4.38,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of General Hospital?",
+        "answer": "The information about the original broadcaster of General Hospital is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 537,
+        "latency_s": 2.91,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Erik Spoelstra associated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 552,
+        "latency_s": 4.18,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of PowerBook G4?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 599,
+        "latency_s": 6.65,
+        "replan": 0
+      },
+      {
+        "question": "Which language was Os Lusíadas written in?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 532,
+        "latency_s": 2.86,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Die Gartenlaube created in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 626,
+        "latency_s": 4.95,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Martin Luther King Jr. die in?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 585,
+        "latency_s": 4.73,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Sher Bahadur Deuba?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 501,
+        "latency_s": 2.92,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Toshiba?",
+        "answer": "The information about the chief executive officer of Toshiba is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 543,
+        "latency_s": 2.72,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Ilir Meta educated at?",
+        "answer": "The information about which university Ilir Meta was educated at is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 541,
+        "latency_s": 2.49,
+        "replan": 0
+      },
+      {
+        "question": "What is Richard Adams famous for?",
+        "answer": "The knowledge pool does not contain information about what Richard Adams is famous for.",
+        "steps": 1,
+        "tokens": 511,
+        "latency_s": 2.39,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chairperson of General Motors?",
+        "answer": "The knowledge pool does not provide information about the chairperson of General Motors.",
+        "steps": 1,
+        "tokens": 538,
+        "latency_s": 2.74,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Zürich located in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 530,
+        "latency_s": 2.53,
+        "replan": 0
+      },
+      {
+        "question": "What language does Daphne du Maurier speak?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 510,
+        "latency_s": 3.55,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Andromeda Strain?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 587,
+        "latency_s": 4.25,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the India government?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 592,
+        "latency_s": 5.16,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Bibi Andersson?",
+        "answer": "The information about the country of citizenship of Bibi Andersson is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 549,
+        "latency_s": 3.69,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Felix Aylmer?",
+        "answer": "The information about the country of citizenship of Felix Aylmer is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 576,
+        "latency_s": 4.08,
+        "replan": 0
+      },
+      {
+        "question": "Where was Finnair founded?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 493,
+        "latency_s": 3.48,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Mortal Kombat X?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 640,
+        "latency_s": 6.99,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Kim Tae-hee?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 523,
+        "latency_s": 3.06,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Windows Server 2008?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 596,
+        "latency_s": 5.43,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Kingdom of the Netherlands?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 531,
+        "latency_s": 3.62,
+        "replan": 0
+      },
+      {
+        "question": "What is Colleen McCullough famous for?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 512,
+        "latency_s": 2.71,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is John Paul I affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 547,
+        "latency_s": 3.93,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Taxman?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 582,
+        "latency_s": 5.41,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of University of Manchester located in?",
+        "answer": "信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 619,
+        "latency_s": 5.77,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Texas Legends associated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 520,
+        "latency_s": 2.51,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Jaime Alguersuari?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 2.78,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Alassane Dramane Ouattara affiliated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 3.44,
+        "replan": 0
+      },
+      {
+        "question": "What position does Andrea Pirlo play?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 497,
+        "latency_s": 2.16,
+        "replan": 0
+      },
+      {
+        "question": "Which country was association football created in?",
+        "answer": "England",
+        "steps": 1,
+        "tokens": 568,
+        "latency_s": 5.46,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Big Sean play?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 549,
+        "latency_s": 3.41,
+        "replan": 0
+      },
+      {
+        "question": "Which country was bluegrass music created in?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 516,
+        "latency_s": 3.69,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is North East Stars associated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 533,
+        "latency_s": 2.59,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Tesla?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 525,
+        "latency_s": 3.97,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Omidyar Network?",
+        "answer": "The provided knowledge pool does not contain information about who founded Omidyar Network. Therefore, the answer cannot be determined based on the given context.",
+        "steps": 1,
+        "tokens": 532,
+        "latency_s": 3.44,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of Berklee College of Music located in?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 535,
+        "latency_s": 3.65,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Czechoslovakia?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 599,
+        "latency_s": 6.76,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Ellen Pompeo?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 523,
+        "latency_s": 3.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Alan Blyth?",
+        "answer": "The knowledge pool does not contain information about Alan Blyth's country of citizenship. Therefore, the answer cannot be determined based on the provided context.",
+        "steps": 1,
+        "tokens": 529,
+        "latency_s": 4.82,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Satyricon?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 657,
+        "latency_s": 6.28,
+        "replan": 0
+      },
+      {
+        "question": "Who is the original broadcaster of Revenge?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 512,
+        "latency_s": 3.89,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Stewart Udall educated at?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 571,
+        "latency_s": 4.03,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chairperson of Aam Aadmi Party?",
+        "answer": "The information about the chairperson of Aam Aadmi Party is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 677,
+        "latency_s": 5.99,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Beatles for Sale?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 526,
+        "latency_s": 3.05,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Philippine Basketball Association Draft associated with?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 664,
+        "latency_s": 6.65,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Archie Shepp play?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 518,
+        "latency_s": 3.64,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of El Salvador?",
+        "answer": "信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 2.2,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Larry Page?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 522,
+        "latency_s": 2.81,
+        "replan": 0
+      },
+      {
+        "question": "Which university was James Dashner educated at?",
+        "answer": "The provided knowledge pool does not contain information about which university James Dashner was educated at. Therefore, the answer cannot be determined based on the given context.\n\n（或者更简洁的：No relevant information found in the knowledge pool.）\n\n不过按照指令要求“如果上下文信息不足，请明确说明”，所以直接说：No information about James Dashner's education is available in the provided knowledge pool.\n\n但再看例子，例子里是直接给答案，这里没有的话就明确说信息不足。所以最终答案应该是：No relevant information about James Dashner's education is found in the knowledge pool.</think_never_used_51bce0c785ca2f68081bfa7d91973934>No relevant information about James Dashner's education is available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 662,
+        "latency_s": 7.4,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Areopagitica?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 532,
+        "latency_s": 3.67,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Dear Prudence?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 610,
+        "latency_s": 4.99,
+        "replan": 0
+      },
+      {
+        "question": "What language does George Boole speak?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 497,
+        "latency_s": 2.06,
+        "replan": 0
+      },
+      {
+        "question": "Which language was Shahnameh written in?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 527,
+        "latency_s": 3.26,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Altrincham F.C. associated with?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 529,
+        "latency_s": 2.72,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is São Paulo located in?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 2.51,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is three-point field goal associated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 577,
+        "latency_s": 5.28,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Paul Morley?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 2.97,
+        "replan": 0
+      },
+      {
+        "question": "Who is Reese Witherspoon's child?",
+        "answer": "Information insufficient",
+        "steps": 1,
+        "tokens": 550,
+        "latency_s": 3.63,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Lisbon Lions associated with?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 672,
+        "latency_s": 5.96,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Born This Way Ball?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 635,
+        "latency_s": 6.38,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Denis Thatcher affiliated with?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 550,
+        "latency_s": 3.57,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Rerum Novarum?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 686,
+        "latency_s": 7.1,
+        "replan": 0
+      },
+      {
+        "question": "What position does Manuel Neuer play?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 548,
+        "latency_s": 3.64,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Lonesome Dove?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 515,
+        "latency_s": 2.98,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Allan Pinkerton die in?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 583,
+        "latency_s": 4.7,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Helsinki?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 553,
+        "latency_s": 3.92,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Mads Mikkelsen?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 524,
+        "latency_s": 3.63,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of iPad Pro?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 484,
+        "latency_s": 2.45,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Vagina Monologues?",
+        "answer": "The information about the author of The Vagina Monologues is not provided in the given knowledge pool.",
+        "steps": 1,
+        "tokens": 528,
+        "latency_s": 2.6,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Montreal Royals associated with?",
+        "answer": "Context information is insufficient.",
+        "steps": 1,
+        "tokens": 549,
+        "latency_s": 3.77,
+        "replan": 0
+      },
+      {
+        "question": "Where was The Kinks founded?",
+        "answer": "The information about where The Kinks was founded is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 606,
+        "latency_s": 5.21,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Estelle Getty?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 504,
+        "latency_s": 2.95,
+        "replan": 0
+      }
+    ]
+  }
+}

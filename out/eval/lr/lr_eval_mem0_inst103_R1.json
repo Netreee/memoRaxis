@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 103,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案的核心情节和关键内容完全不符，预测内容涉及不同的人物和事件，属于严重偏离。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案的关键内容要点完全不符。标准答案为'C. Samuel Kid'，而Agent预测的答案虽然也以'C. Samuel Kid'开头，但其提供的推理和内容与问题（关于Lichem Rocchi的死因）无关，属于严重偏离。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案在核心人物上完全错误（预测为Samuel Kid，标准答案为Nancy Duane），且推理依据与问题无关，属于严重偏离。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未包含标准答案中的任何核心内容，严重偏离。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent以信息不足为由拒绝作答，未提供与标准答案相关的任何核心内容，严重偏离任务要求。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未包含标准答案中的核心内容（A. Janie Hobbs），属于严重偏离。"
+    }
+  ]
+}

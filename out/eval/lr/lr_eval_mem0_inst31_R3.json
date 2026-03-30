@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 31,
+  "adaptor": "R3",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案核心情节。标准答案核心是特洛伊人逃往意大利、遭遇风暴后抵达迦太基，埃涅阿斯向狄多女王讲述旅途经历。而Agent预测混合了狄多的背景故事、埃涅阿斯母亲维纳斯的干预、以及航行中的次要事件（如赛船），完全遗漏了‘埃涅阿斯讲述特洛伊陷落及海上漂泊’这一核心情节结构，人物关系与事件顺序也存在错误。"
+    }
+  ]
+}

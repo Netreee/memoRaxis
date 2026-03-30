@@ -1,0 +1,17 @@
+{
+  "system": "memGPT",
+  "instance_idx": 12,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离指令，未按要求总结故事的情节和人物，而是提供了大量分析性、背景性和元叙述内容，且未涵盖标准答案中的核心起始情节（祖父母在奥林匹斯山、乱伦、移民决定等）。"
+    }
+  ]
+}

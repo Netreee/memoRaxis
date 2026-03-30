@@ -1,0 +1,65 @@
+{
+  "system": "mem0",
+  "instance_idx": 108,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 9,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，而标准答案明确给出了具体选项，属于严重偏离。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案相关的核心内容。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，而标准答案为具体选项，核心内容完全缺失，严重偏离。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未包含任何标准答案的核心内容，严重偏离评估标准。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供与标准答案相关的任何核心内容。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未包含标准答案中的任何核心内容，与得分标准不符。"
+    },
+    {
+      "q_idx": 6,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案'B. Shizuko Fujisawa'相关的核心内容，严重偏离标准答案。"
+    },
+    {
+      "q_idx": 7,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全不符。标准答案明确指出信件被寄往邮局并拆解丢弃，而Agent预测为被Sagara丢弃，缺失了'寄往邮局'这一关键情节，属于核心情节错误。"
+    },
+    {
+      "q_idx": 8,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，而标准答案为具体选项，核心内容完全缺失且方向错误。"
+    }
+  ]
+}

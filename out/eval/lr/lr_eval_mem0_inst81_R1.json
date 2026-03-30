@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 81,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测的摘要与标准答案的核心情节、人物和事件完全不符，出现了标准答案中不存在的人物（如Miguel, Miss Chad, Harriet）和情节，而标准答案中的关键人物（Eve Lily, Bridgette, Tip, Maria/Little Lily）和核心事件（因债务入狱、家人在狱中团聚）均未提及，属于严重偏离。"
+    }
+  ]
+}

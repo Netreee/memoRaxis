@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 68,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，其描述的核心人物（Jarrod, Lindsay Lowell, The Professor, Mr. Tayah）和情节（监狱、自杀报道、无政府主义哲学）在标准答案中完全未出现，而标准答案中的核心人物（Lainey, Jonty, Anita, Comrade Lowell等）和情节（小店、家庭关系、朋友交往）在Agent预测中完全缺失。"
+    }
+  ]
+}

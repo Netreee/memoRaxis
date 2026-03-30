@@ -97,19 +97,23 @@ def load_data(dataset: str, instance_idx: int):
         return json.load(f)
 
 
-def get_chunks(dataset: str, context: str) -> List[str]:
+def get_chunks(dataset: str, context: str, chunk_size_override: int = None) -> List[str]:
     cfg = DATASETS[dataset]
     if dataset == "accurate_retrieval":
-        return chunk_context(context, chunk_size=cfg["chunk_size"])
+        cs = chunk_size_override or cfg["chunk_size"]
+        return chunk_context(context, chunk_size=cs)
     elif dataset == "conflict_resolution":
-        return chunk_facts(context, min_chars=cfg["min_chars"])
+        mc = chunk_size_override or cfg["min_chars"]
+        return chunk_facts(context, min_chars=mc)
     elif dataset == "long_range_understanding":
-        return chunk_context(context, chunk_size=cfg["chunk_size"], overlap=cfg["overlap"])
+        cs = chunk_size_override or cfg["chunk_size"]
+        return chunk_context(context, chunk_size=cs, overlap=cfg["overlap"])
     elif dataset == "test_time_learning":
         if "Dialogue 1:" in context[:500]:
             return chunk_dialogues(context)
         else:
-            return chunk_facts(context, min_chars=cfg["min_chars"])
+            mc = chunk_size_override or cfg["min_chars"]
+            return chunk_facts(context, min_chars=mc)
     return []
 
 
@@ -125,7 +129,10 @@ def _is_index_complete(index_path: Path) -> bool:
 
 def ingest_one_instance(dataset: str, instance_idx: int, args):
     cfg = DATASETS[dataset]
-    index_path = INDEX_DIR / f"{cfg['index_prefix']}_{instance_idx}"
+    prefix = cfg['index_prefix']
+    if args.chunk_size is not None:
+        prefix = f"{prefix}_cs{args.chunk_size}"
+    index_path = INDEX_DIR / f"{prefix}_{instance_idx}"
 
     if not args.force and _is_index_complete(index_path):
         logger.info(f"[{dataset}] Instance {instance_idx}: index already exists at {index_path}. Use --force to rebuild.")
@@ -139,7 +146,7 @@ def ingest_one_instance(dataset: str, instance_idx: int, args):
         logger.error(str(e))
         return
 
-    chunks = get_chunks(dataset, data["context"])
+    chunks = get_chunks(dataset, data["context"], chunk_size_override=args.chunk_size)
     if not chunks:
         logger.warning(f"No chunks generated for instance {instance_idx}")
         return
@@ -181,6 +188,8 @@ def main():
                         help="Index range (e.g., '0', '0-5', '1,3')")
     parser.add_argument("--force", action="store_true",
                         help="Force rebuild even if index exists")
+    parser.add_argument("--chunk_size", type=int, default=None,
+                        help="Override chunk size (for experiments)")
     args = parser.parse_args()
 
     indices = parse_instance_indices(args.instance_idx)

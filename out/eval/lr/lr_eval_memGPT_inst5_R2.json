@@ -1,0 +1,17 @@
+{
+  "system": "memGPT",
+  "instance_idx": 5,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案核心情节。标准答案以Mehtab Adrian租住Netherfield Park及Lila家反应为开端，而Agent预测直接从Nicolette私奔这一中后期情节切入，遗漏了故事开端、主要人物（如Andromeda与Adrian的初遇）及前期关键事件，核心内容缺失且焦点错误。"
+    }
+  ]
+}

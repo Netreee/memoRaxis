@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 101,
+  "adaptor": "R1",
+  "accuracy": 0.16666666666666666,
+  "correct": 1,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心情节（Rudy Scherz自杀）与标准答案（被Blacklock杀死）完全矛盾，主要事件和人物关系严重错误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。标准答案指向特定人物关系，而Agent回答的是身份确认问题，且未包含标准答案的关键信息。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心情节（Dora误食毒药）与标准答案的核心情节（女主人调换安眠药为毒药）存在本质差异，缺失了‘调换’这一关键人物关系和核心事件，属于核心情节错误。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案相关的核心内容。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'信息不足'，未提供任何与标准答案相关的核心情节或人物关系，完全偏离任务要求。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，准确复现了核心情节：凶手制造短路使环境变暗，且灯泡被烧毁。"
+    }
+  ]
+}

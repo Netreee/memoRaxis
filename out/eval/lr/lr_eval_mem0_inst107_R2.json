@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 107,
+  "adaptor": "R2",
+  "accuracy": 0.6666666666666666,
+  "correct": 4,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程基于文本细节（使用打火机而非手电筒暗示视力不佳），核心内容准确无误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答'无法作答'，与标准答案的核心情节完全不符，属于严重偏离。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程引用了故事中的关键信息点来支持结论，核心内容准确无误。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全无关，核心内容严重偏离。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案一致，均指向'Yuying's Mother'，且推理中明确指出了该人物的关键作用，核心内容准确无误。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的核心内容与标准答案一致，均指出手表是在死后被戴上的，关键情节准确无误。"
+    }
+  ]
+}

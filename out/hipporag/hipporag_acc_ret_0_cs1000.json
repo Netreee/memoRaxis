@@ -1,0 +1,2413 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "backend": "hipporag",
+  "instance_idx": 0,
+  "results": {
+    "R1": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France",
+        "steps": 1,
+        "tokens": 2008,
+        "latency_s": 4.13,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "The 10th and 11th centuries.",
+        "steps": 1,
+        "tokens": 2156,
+        "latency_s": 1.94,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "Denmark, Iceland and Norway, and possibly Sweden, and Anglo-Danes from the English Danelaw under Norse control.",
+        "steps": 1,
+        "tokens": 2106,
+        "latency_s": 1.83,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo",
+        "steps": 1,
+        "tokens": 1887,
+        "latency_s": 1.52,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "10th century",
+        "steps": 1,
+        "tokens": 2121,
+        "latency_s": 1.64,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "William the Conqueror",
+        "steps": 1,
+        "tokens": 2273,
+        "latency_s": 1.94,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "Rollo, then Richard I, William the Conqueror, etc. (Note: The context mentions Rollo as the founder, Richard I as forging it into a cohesive principality, and William the Conqueror as Duke of Normandy who conquered England in 1066. However, the question is broad, so multiple dukes are implied. Since the user may expect the key ones, but the most prominent are Rollo, Richard I, and William the Conqueror.) \n\nBut to strictly follow \"only give the answer\", and considering the main rulers mentioned: Rollo, Richard I, William II (the Conqueror). However, the context has multiple dukes, so the answer is the dukes of Normandy, with Rollo as the first, followed by subsequent dukes like Richard I, William the Conqueror, etc. \n\nThe most concise answer based on the context would be: The dukes of Normandy, starting with Rollo, then Richard I, William the Conqueror, etc. But since the user might want specific names, the key ones are Rollo, Richard I, William the Conqueror.\n\nBut the question is \"Who ruled the duchy of Normandy\" – the answer is the dukes of Normandy, with Rollo as the initial ruler, followed by a series of dukes including Richard I and William the Conqueror.\n\nSo the answer is: The dukes of Normandy, starting with Rollo, and including Richard I, William the Conqueror, etc.\n\nHowever, the user said \"only give me the answer and do not output any other words\". So the most accurate answer based on the context is that the duchy of Normandy was ruled by the dukes, with Rollo as the first, and subsequent dukes like Richard I, William the Conqueror.\n\nBut to fit conciseness, the key names: Rollo, Richard I, William II (the Conqueror).\n\nFinal answer: Rollo, Richard I, William the Conqueror, etc. But since the user may want specific, the most prominent are Rollo, Richard I, William the Conqueror.\n\nBut the context mentions \"the Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo\". Then \"under Richard I of Normandy was forged into a cohesive and formidable principality\". And \"Duke William II of Normandy conquered England\". So the rulers are the dukes, with Rollo, Richard I, William II (the Conqueror) being key.\n\nThus, the answer is: Rollo, Richard I, William the Conqueror.",
+        "steps": 1,
+        "tokens": 2508,
+        "latency_s": 4.94,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "Catholicism (Christianity)",
+        "steps": 1,
+        "tokens": 1944,
+        "latency_s": 1.69,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "Norseman, Viking.",
+        "steps": 1,
+        "tokens": 2095,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "9th century",
+        "steps": 1,
+        "tokens": 2007,
+        "latency_s": 31.25,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "911",
+        "steps": 1,
+        "tokens": 2102,
+        "latency_s": 1.52,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia",
+        "steps": 1,
+        "tokens": 1815,
+        "latency_s": 1.27,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The river Epte",
+        "steps": 1,
+        "tokens": 2089,
+        "latency_s": 1.62,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo",
+        "steps": 1,
+        "tokens": 2078,
+        "latency_s": 1.19,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "Catholic orthodoxy (Christianity)",
+        "steps": 1,
+        "tokens": 1956,
+        "latency_s": 1.6,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The north of France, specifically the region that became Normandy, which was situated in the former Frankish kingdom of Neustria, between the river Epte and the Atlantic coast, roughly corresponding to the northern part of present-day Upper Normandy down to the river Seine.",
+        "steps": 1,
+        "tokens": 2046,
+        "latency_s": 1.65,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "Fighting horsemen.",
+        "steps": 1,
+        "tokens": 1928,
+        "latency_s": 1.46,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "Byzantine Empire",
+        "steps": 1,
+        "tokens": 2221,
+        "latency_s": 2.33,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "In the 1050s.",
+        "steps": 1,
+        "tokens": 2010,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "In the 1060s.",
+        "steps": 1,
+        "tokens": 1903,
+        "latency_s": 1.11,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos",
+        "steps": 1,
+        "tokens": 2119,
+        "latency_s": 1.47,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle, Dublin Castle",
+        "steps": 1,
+        "tokens": 2409,
+        "latency_s": 1.54,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "Oursel",
+        "steps": 1,
+        "tokens": 2138,
+        "latency_s": 1.4,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "Turkish forces, Armenian state in Cilicia, the Albanians, Lombards, Varangian contingents, the local population, pope Gregory VII, Croatia, Catholic cities of Dalmatia, Venetian fleet, Amalfitan merchants, Byzantine Empire, etc.",
+        "steps": 1,
+        "tokens": 2090,
+        "latency_s": 92.1,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Raoulii were descended from an Italo-Norman named Raoul.",
+        "steps": 1,
+        "tokens": 2185,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard",
+        "steps": 1,
+        "tokens": 2184,
+        "latency_s": 1.42,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "1082",
+        "steps": 1,
+        "tokens": 2267,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000",
+        "steps": 1,
+        "tokens": 2309,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "Deabolis",
+        "steps": 1,
+        "tokens": 2157,
+        "latency_s": 1.09,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "Bohemond",
+        "steps": 1,
+        "tokens": 2247,
+        "latency_s": 1.68,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "Deabolis",
+        "steps": 1,
+        "tokens": 2242,
+        "latency_s": 1.34,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "1081, 1185, 1107",
+        "steps": 1,
+        "tokens": 2277,
+        "latency_s": 1.37,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "Blount Island Command, Naval Submarine Base Kings Bay, Fort Caroline, Fort Clinch",
+        "steps": 1,
+        "tokens": 2017,
+        "latency_s": 1.48,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "southern shores of Albania",
+        "steps": 1,
+        "tokens": 2172,
+        "latency_s": 1.1,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England.",
+        "steps": 1,
+        "tokens": 2054,
+        "latency_s": 1.57,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "Richard II of Normandy",
+        "steps": 1,
+        "tokens": 2097,
+        "latency_s": 1.44,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy",
+        "steps": 1,
+        "tokens": 1721,
+        "latency_s": 1.45,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard",
+        "steps": 1,
+        "tokens": 2125,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 1,
+        "tokens": 1944,
+        "latency_s": 1.08,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "1041",
+        "steps": 1,
+        "tokens": 1979,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges",
+        "steps": 1,
+        "tokens": 1940,
+        "latency_s": 1.58,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "At the Battle of Hastings.",
+        "steps": 1,
+        "tokens": 2212,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "The invading Normans",
+        "steps": 1,
+        "tokens": 2056,
+        "latency_s": 91.66,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 1,
+        "tokens": 2045,
+        "latency_s": 1.53,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "Anglo-Saxons",
+        "steps": 1,
+        "tokens": 1857,
+        "latency_s": 1.31,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "It evolved into Modern English.",
+        "steps": 1,
+        "tokens": 1967,
+        "latency_s": 1.19,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 1,
+        "tokens": 2270,
+        "latency_s": 1.34,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland",
+        "steps": 1,
+        "tokens": 2021,
+        "latency_s": 1.27,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "Irish culture",
+        "steps": 1,
+        "tokens": 2108,
+        "latency_s": 1.67,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "The context does not mention Margaret's brother.",
+        "steps": 1,
+        "tokens": 2150,
+        "latency_s": 1.32,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "King Malcolm III of Scotland",
+        "steps": 1,
+        "tokens": 2133,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "1072",
+        "steps": 1,
+        "tokens": 2043,
+        "latency_s": 1.5,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "The question is too broad as there are multiple hostages mentioned in different contexts: Duncan (son of Malcolm III of Scotland), Wonjong (prince of Korea). Since the question does not specify a particular event, there is insufficient context to determine a single answer.",
+        "steps": 1,
+        "tokens": 2185,
+        "latency_s": 1.74,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Sybilla of Normandy",
+        "steps": 1,
+        "tokens": 2216,
+        "latency_s": 1.24,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Norman",
+        "steps": 1,
+        "tokens": 2014,
+        "latency_s": 1.3,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Hereford",
+        "steps": 1,
+        "tokens": 1725,
+        "latency_s": 1.43,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "the Welsh",
+        "steps": 1,
+        "tokens": 1941,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "Edward the Confessor",
+        "steps": 1,
+        "tokens": 1870,
+        "latency_s": 1.82,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "Wales, England, Sicily, the Kingdom of Sicily, the Crusader states of the Near East, Scotland, Ireland, the coasts of north Africa, the Canary Islands, southern Italy, the Levant",
+        "steps": 1,
+        "tokens": 2046,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 1,
+        "tokens": 2156,
+        "latency_s": 1.4,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil",
+        "steps": 1,
+        "tokens": 2104,
+        "latency_s": 1.58,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "1097",
+        "steps": 1,
+        "tokens": 2163,
+        "latency_s": 1.41,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 1,
+        "tokens": 2068,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "He was instrumental in the conquest of Jerusalem.",
+        "steps": 1,
+        "tokens": 2266,
+        "latency_s": 91.55,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "380 years",
+        "steps": 1,
+        "tokens": 2322,
+        "latency_s": 1.47,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed the fleet.",
+        "steps": 1,
+        "tokens": 1857,
+        "latency_s": 1.11,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 1,
+        "tokens": 1984,
+        "latency_s": 1.83,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 1,
+        "tokens": 2470,
+        "latency_s": 1.29,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "Richard the Lion-hearted and his allies.",
+        "steps": 1,
+        "tokens": 2192,
+        "latency_s": 1.78,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat.",
+        "steps": 1,
+        "tokens": 2010,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "silver",
+        "steps": 1,
+        "tokens": 2233,
+        "latency_s": 1.39,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan",
+        "steps": 1,
+        "tokens": 2271,
+        "latency_s": 1.48,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa",
+        "steps": 1,
+        "tokens": 2326,
+        "latency_s": 1.46,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Jean de Bethencourt",
+        "steps": 1,
+        "tokens": 1908,
+        "latency_s": 1.46,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "Enrique Pérez de Guzmán, 2nd Count de Niebla.",
+        "steps": 1,
+        "tokens": 2344,
+        "latency_s": 1.81,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "Maciot de Bethencourt",
+        "steps": 1,
+        "tokens": 2347,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "The Channel Islands",
+        "steps": 1,
+        "tokens": 1869,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "two",
+        "steps": 1,
+        "tokens": 1931,
+        "latency_s": 1.08,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "A new stage in the architectural history of the regions they subdued, spreading a unique Romanesque idiom characterized by rounded arches, particularly over windows and doorways, and massive proportions.",
+        "steps": 1,
+        "tokens": 2223,
+        "latency_s": 1.57,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches.",
+        "steps": 1,
+        "tokens": 2275,
+        "latency_s": 1.43,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic",
+        "steps": 1,
+        "tokens": 2304,
+        "latency_s": 1.44,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon",
+        "steps": 1,
+        "tokens": 1989,
+        "latency_s": 1.32,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Kingdom of Sicily",
+        "steps": 1,
+        "tokens": 2218,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "In the early 11th century.",
+        "steps": 1,
+        "tokens": 2160,
+        "latency_s": 92.03,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The dukes of Normandy.",
+        "steps": 1,
+        "tokens": 2070,
+        "latency_s": 1.57,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "From 1562 to 1598.",
+        "steps": 1,
+        "tokens": 2113,
+        "latency_s": 1.75,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "Embroidery.",
+        "steps": 1,
+        "tokens": 2317,
+        "latency_s": 1.55,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "The Bayeux Tapestry.",
+        "steps": 1,
+        "tokens": 2138,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 1,
+        "tokens": 2262,
+        "latency_s": 1.5,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Sculptured fonts, capitals, and mosaics.",
+        "steps": 1,
+        "tokens": 2128,
+        "latency_s": 1.41,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "11th century",
+        "steps": 1,
+        "tokens": 1925,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna",
+        "steps": 1,
+        "tokens": 2015,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "southern Italy",
+        "steps": 1,
+        "tokens": 2551,
+        "latency_s": 1.37,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia",
+        "steps": 1,
+        "tokens": 2339,
+        "latency_s": 1.47,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Robert Guiscard",
+        "steps": 1,
+        "tokens": 2266,
+        "latency_s": 1.43,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "Singing and musical traditions.",
+        "steps": 1,
+        "tokens": 2055,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "steps": 1,
+        "tokens": 1518,
+        "latency_s": 1.8,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "The amount of resources needed to solve them, such as time and storage.",
+        "steps": 1,
+        "tokens": 1583,
+        "latency_s": 1.69,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "Computational problem",
+        "steps": 1,
+        "tokens": 1819,
+        "latency_s": 1.41,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "Quantifying the amount of resources needed to solve them, such as time and storage.",
+        "steps": 1,
+        "tokens": 1648,
+        "latency_s": 1.45,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France",
+        "steps": 2,
+        "tokens": 4799,
+        "latency_s": 1.94,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "In the 10th and 11th centuries",
+        "steps": 2,
+        "tokens": 4693,
+        "latency_s": 2.03,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "Denmark, Iceland and Norway",
+        "steps": 5,
+        "tokens": 25387,
+        "latency_s": 96.26,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo",
+        "steps": 2,
+        "tokens": 4792,
+        "latency_s": 2.14,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "10th century",
+        "steps": 2,
+        "tokens": 4930,
+        "latency_s": 2.13,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "William the Conqueror",
+        "steps": 2,
+        "tokens": 5346,
+        "latency_s": 2.55,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "Rollo, Richard I of Normandy, William II (the Conqueror) of Normandy.",
+        "steps": 5,
+        "tokens": 25637,
+        "latency_s": 5.55,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "Catholicism (Christianity)",
+        "steps": 2,
+        "tokens": 4611,
+        "latency_s": 2.37,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "Norseman, Viking",
+        "steps": 2,
+        "tokens": 4952,
+        "latency_s": 1.96,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "9th century",
+        "steps": 2,
+        "tokens": 5099,
+        "latency_s": 1.82,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "911",
+        "steps": 2,
+        "tokens": 4779,
+        "latency_s": 2.13,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia",
+        "steps": 2,
+        "tokens": 4428,
+        "latency_s": 92.49,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "Epte and Seine",
+        "steps": 5,
+        "tokens": 26537,
+        "latency_s": 6.99,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo",
+        "steps": 2,
+        "tokens": 4985,
+        "latency_s": 2.02,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "Catholic orthodoxy",
+        "steps": 2,
+        "tokens": 4933,
+        "latency_s": 2.47,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The northern part of present-day Upper Normandy down to the river Seine, and eventually extending west beyond the Seine.",
+        "steps": 2,
+        "tokens": 5047,
+        "latency_s": 2.44,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "Fighting horsemen.",
+        "steps": 5,
+        "tokens": 24572,
+        "latency_s": 4.1,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "Byzantine Empire",
+        "steps": 5,
+        "tokens": 28208,
+        "latency_s": 7.17,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "in the 1050s",
+        "steps": 2,
+        "tokens": 5011,
+        "latency_s": 2.22,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "In the 1060s.",
+        "steps": 2,
+        "tokens": 4990,
+        "latency_s": 2.14,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos",
+        "steps": 2,
+        "tokens": 4617,
+        "latency_s": 92.81,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle, Dublin Castle",
+        "steps": 2,
+        "tokens": 5243,
+        "latency_s": 1.93,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "Oursel",
+        "steps": 5,
+        "tokens": 24297,
+        "latency_s": 6.82,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "Turkish forces, Armenian state in Cilicia and the Taurus Mountains, Albanians, Venetian and Amalfitan merchants, Croatia and the Catholic cities of Dalmatia, pope Gregory VII, high Byzantine officials, local population, Philaretus Brachamius, George Maniaces, Isaac Komnenos, Alexius I Comnenus, Bohemond, the call of emperor Alexius I Comnenus, the high Albanian official named Comiscortes, the fleet that had previously conquered Corfu, the Lombards, Varangian and Lombard contingents, the local population, the Armenian general Philaretus Brachamius, the local population, the Armenian vassal-states of Sassoun and Taron, the Armenian state further south in Cilicia and the Taurus Mountains, the high Byzantine officials, the locals, the Venetian and Amalfitan merchants, the high Byzantine officials, the local population, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the locals, the high Byzantine officials, the",
+        "steps": 5,
+        "tokens": 42510,
+        "latency_s": 79.56,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Raoulii were descended from an Italo-Norman named Raoul.",
+        "steps": 3,
+        "tokens": 12783,
+        "latency_s": 2.98,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard",
+        "steps": 5,
+        "tokens": 28621,
+        "latency_s": 6.06,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "1082",
+        "steps": 2,
+        "tokens": 5171,
+        "latency_s": 2.2,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000",
+        "steps": 2,
+        "tokens": 5342,
+        "latency_s": 32.81,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "Deabolis",
+        "steps": 2,
+        "tokens": 5251,
+        "latency_s": 1.71,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "Bohemond",
+        "steps": 5,
+        "tokens": 29596,
+        "latency_s": 5.69,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "The question about the river where Petrela was located is not mentioned in the provided context. There is no information available to answer this question based on the given documents.",
+        "steps": 5,
+        "tokens": 26075,
+        "latency_s": 4.15,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "1081 and 1185 and 1107",
+        "steps": 2,
+        "tokens": 5081,
+        "latency_s": 1.97,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "Blount Island Command and Naval Submarine Base Kings Bay",
+        "steps": 4,
+        "tokens": 18319,
+        "latency_s": 95.96,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "southern shores of Albania",
+        "steps": 5,
+        "tokens": 27065,
+        "latency_s": 6.68,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England",
+        "steps": 3,
+        "tokens": 13784,
+        "latency_s": 4.61,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "The context does not mention who Emma's brother was.",
+        "steps": 5,
+        "tokens": 26277,
+        "latency_s": 4.37,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy",
+        "steps": 2,
+        "tokens": 4732,
+        "latency_s": 2.13,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard",
+        "steps": 2,
+        "tokens": 5214,
+        "latency_s": 2.37,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 2,
+        "tokens": 4752,
+        "latency_s": 2.21,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "1041",
+        "steps": 3,
+        "tokens": 11193,
+        "latency_s": 3.78,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges",
+        "steps": 2,
+        "tokens": 4833,
+        "latency_s": 92.16,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "At the Battle of Hastings.",
+        "steps": 3,
+        "tokens": 9999,
+        "latency_s": 3.86,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "The invading Normans.",
+        "steps": 2,
+        "tokens": 4973,
+        "latency_s": 2.12,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 2,
+        "tokens": 4557,
+        "latency_s": 2.57,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "The Anglo-Saxons.",
+        "steps": 2,
+        "tokens": 4640,
+        "latency_s": 2.15,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "It evolved into Modern English.",
+        "steps": 5,
+        "tokens": 25440,
+        "latency_s": 5.48,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 2,
+        "tokens": 5249,
+        "latency_s": 2.2,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland",
+        "steps": 5,
+        "tokens": 25410,
+        "latency_s": 4.81,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "Irish culture",
+        "steps": 2,
+        "tokens": 5058,
+        "latency_s": 2.14,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "Edgar Atheling",
+        "steps": 5,
+        "tokens": 26695,
+        "latency_s": 94.26,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "Malcolm III of Scotland",
+        "steps": 5,
+        "tokens": 26655,
+        "latency_s": 6.57,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "1072",
+        "steps": 2,
+        "tokens": 4784,
+        "latency_s": 2.0,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "The text does not mention a specific individual who was the hostage.",
+        "steps": 5,
+        "tokens": 27667,
+        "latency_s": 5.42,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Sybilla of Normandy",
+        "steps": 5,
+        "tokens": 26791,
+        "latency_s": 5.41,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Norman",
+        "steps": 2,
+        "tokens": 4591,
+        "latency_s": 2.34,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Hereford",
+        "steps": 2,
+        "tokens": 5205,
+        "latency_s": 2.31,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "the Welsh",
+        "steps": 5,
+        "tokens": 25433,
+        "latency_s": 97.17,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "Edward the Confessor.",
+        "steps": 5,
+        "tokens": 24765,
+        "latency_s": 6.98,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "England, southern Italy, Wales, Ireland, Scotland, the Kingdom of Sicily, the Crusader states of the Near East",
+        "steps": 2,
+        "tokens": 5036,
+        "latency_s": 2.43,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 3,
+        "tokens": 10556,
+        "latency_s": 3.15,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil",
+        "steps": 2,
+        "tokens": 4579,
+        "latency_s": 2.07,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "1097",
+        "steps": 2,
+        "tokens": 4541,
+        "latency_s": 2.05,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 2,
+        "tokens": 5019,
+        "latency_s": 2.23,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "The conquest of Jerusalem.",
+        "steps": 2,
+        "tokens": 5190,
+        "latency_s": 2.11,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "380 years",
+        "steps": 2,
+        "tokens": 5708,
+        "latency_s": 2.15,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed the fleet.",
+        "steps": 5,
+        "tokens": 27112,
+        "latency_s": 95.11,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 3,
+        "tokens": 12337,
+        "latency_s": 3.27,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 3,
+        "tokens": 10673,
+        "latency_s": 2.4,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "Isaac Komnenos",
+        "steps": 4,
+        "tokens": 19930,
+        "latency_s": 4.96,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat",
+        "steps": 2,
+        "tokens": 5605,
+        "latency_s": 1.87,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "Silver.",
+        "steps": 2,
+        "tokens": 4968,
+        "latency_s": 2.01,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan",
+        "steps": 2,
+        "tokens": 5687,
+        "latency_s": 2.59,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa",
+        "steps": 5,
+        "tokens": 27924,
+        "latency_s": 5.85,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Jean de Bethencourt",
+        "steps": 2,
+        "tokens": 4427,
+        "latency_s": 1.89,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "BSkyB, Setanta Sports",
+        "steps": 5,
+        "tokens": 23626,
+        "latency_s": 97.79,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "Maciot de Bethencourt",
+        "steps": 4,
+        "tokens": 21639,
+        "latency_s": 6.31,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "In the Channel Islands.",
+        "steps": 3,
+        "tokens": 10871,
+        "latency_s": 3.7,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two.",
+        "steps": 3,
+        "tokens": 10971,
+        "latency_s": 3.65,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "Rounded arches, particularly over windows and doorways, and massive proportions.",
+        "steps": 2,
+        "tokens": 5318,
+        "latency_s": 2.17,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches, particularly over windows and doorways.",
+        "steps": 2,
+        "tokens": 5395,
+        "latency_s": 1.99,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic",
+        "steps": 2,
+        "tokens": 5115,
+        "latency_s": 1.72,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon",
+        "steps": 2,
+        "tokens": 4901,
+        "latency_s": 92.19,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Kingdom of Sicily.",
+        "steps": 3,
+        "tokens": 12292,
+        "latency_s": 3.18,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "In the early 11th century.",
+        "steps": 5,
+        "tokens": 24786,
+        "latency_s": 6.84,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The dukes",
+        "steps": 5,
+        "tokens": 26104,
+        "latency_s": 6.62,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "From 1562 to 1598.",
+        "steps": 2,
+        "tokens": 4759,
+        "latency_s": 2.18,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "Embroidery",
+        "steps": 2,
+        "tokens": 5361,
+        "latency_s": 2.01,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "The Bayeux Tapestry",
+        "steps": 2,
+        "tokens": 5210,
+        "latency_s": 2.12,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 2,
+        "tokens": 5016,
+        "latency_s": 2.05,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Mosaics.",
+        "steps": 5,
+        "tokens": 27649,
+        "latency_s": 5.49,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "11th century",
+        "steps": 3,
+        "tokens": 10915,
+        "latency_s": 94.29,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna",
+        "steps": 2,
+        "tokens": 4685,
+        "latency_s": 2.51,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "southern Italy",
+        "steps": 4,
+        "tokens": 23222,
+        "latency_s": 5.87,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia",
+        "steps": 2,
+        "tokens": 5546,
+        "latency_s": 2.28,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Robert Guiscard",
+        "steps": 3,
+        "tokens": 13034,
+        "latency_s": 4.3,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "A tradition of singing had developed and the choir achieved fame in Normandy.",
+        "steps": 3,
+        "tokens": 12077,
+        "latency_s": 4.4,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "steps": 2,
+        "tokens": 3731,
+        "latency_s": 2.21,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Inherent difficulty",
+        "steps": 5,
+        "tokens": 19647,
+        "latency_s": 5.17,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "computational problem",
+        "steps": 5,
+        "tokens": 23906,
+        "latency_s": 97.25,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "computational complexity theory",
+        "steps": 3,
+        "tokens": 9379,
+        "latency_s": 4.1,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France",
+        "steps": 1,
+        "tokens": 5163,
+        "latency_s": 1.66,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "The 10th and 11th centuries.",
+        "steps": 4,
+        "tokens": 37909,
+        "latency_s": 8.23,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "Denmark, Iceland, Norway, Sweden, Anglo-Danes, Norse–Gaels, Orkney Vikings.",
+        "steps": 2,
+        "tokens": 13725,
+        "latency_s": 4.26,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo",
+        "steps": 2,
+        "tokens": 12788,
+        "latency_s": 4.55,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "10th century",
+        "steps": 2,
+        "tokens": 14121,
+        "latency_s": 4.63,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "William the Conqueror",
+        "steps": 1,
+        "tokens": 5748,
+        "latency_s": 2.95,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "The Duchy of Normandy was ruled by the Norman dynasty, starting with Rollo (Rolf), who established it in 911 through the Treaty of Saint-Clair-sur-Epte with King Charles III of West Francia. Subsequent dukes included Richard I, Richard II, and William the Conqueror (William II), who later became King of England. The dukes were vassals of the King of France, and the dynasty had significant political, cultural, and military impacts across medieval Europe and beyond.",
+        "steps": 4,
+        "tokens": 38900,
+        "latency_s": 9.55,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "Christianity (Catholic orthodoxy)",
+        "steps": 1,
+        "tokens": 5300,
+        "latency_s": 32.98,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "Norseman, Viking.",
+        "steps": 1,
+        "tokens": 5286,
+        "latency_s": 2.95,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "9th century",
+        "steps": 2,
+        "tokens": 14739,
+        "latency_s": 4.24,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "911",
+        "steps": 2,
+        "tokens": 13789,
+        "latency_s": 4.13,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia",
+        "steps": 2,
+        "tokens": 13443,
+        "latency_s": 4.67,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The river Epte.",
+        "steps": 3,
+        "tokens": 27526,
+        "latency_s": 5.83,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo",
+        "steps": 3,
+        "tokens": 26075,
+        "latency_s": 6.64,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "Catholicism (Christianity)",
+        "steps": 1,
+        "tokens": 5278,
+        "latency_s": 2.79,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The northern part of present-day Upper Normandy down to the river Seine, and eventually extending west beyond the Seine, roughly equivalent to the old province of Rouen, situated in the former Frankish kingdom of Neustria.",
+        "steps": 4,
+        "tokens": 40783,
+        "latency_s": 39.42,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "fighting horsemen",
+        "steps": 2,
+        "tokens": 13524,
+        "latency_s": 3.76,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "The Byzantine Empire.",
+        "steps": 3,
+        "tokens": 29111,
+        "latency_s": 5.09,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "the 1050s",
+        "steps": 2,
+        "tokens": 13857,
+        "latency_s": 3.23,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "In the 1060s.",
+        "steps": 2,
+        "tokens": 14281,
+        "latency_s": 4.09,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos",
+        "steps": 3,
+        "tokens": 24328,
+        "latency_s": 7.37,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle, Dublin Castle",
+        "steps": 3,
+        "tokens": 28849,
+        "latency_s": 35.73,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "Oursel",
+        "steps": 1,
+        "tokens": 5184,
+        "latency_s": 2.0,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "Turkish forces, Armenian state in Cilicia and the Taurus Mountains, the Lombards, Croatian and Catholic cities of Dalmatia, the local population, the Albanians.",
+        "steps": 2,
+        "tokens": 15064,
+        "latency_s": 7.1,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Raoulii family were descended from an Italo-Norman named Raoul.",
+        "steps": 2,
+        "tokens": 15726,
+        "latency_s": 4.29,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard",
+        "steps": 3,
+        "tokens": 27634,
+        "latency_s": 6.15,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "1082, 1185, 1107",
+        "steps": 4,
+        "tokens": 41061,
+        "latency_s": 8.15,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000",
+        "steps": 3,
+        "tokens": 28245,
+        "latency_s": 5.66,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "Deabolis",
+        "steps": 2,
+        "tokens": 14947,
+        "latency_s": 33.87,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "Bohemond",
+        "steps": 2,
+        "tokens": 15515,
+        "latency_s": 2.69,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "Deabolis",
+        "steps": 2,
+        "tokens": 14469,
+        "latency_s": 3.36,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "1081, 1185, 1107",
+        "steps": 2,
+        "tokens": 14550,
+        "latency_s": 3.01,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "Blount Island Command, Naval Submarine Base Kings Bay, Fort Caroline",
+        "steps": 2,
+        "tokens": 13028,
+        "latency_s": 4.1,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "southern shores of Albania",
+        "steps": 3,
+        "tokens": 28470,
+        "latency_s": 4.79,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England",
+        "steps": 2,
+        "tokens": 14435,
+        "latency_s": 4.54,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "Richard II of Normandy",
+        "steps": 3,
+        "tokens": 27127,
+        "latency_s": 3.25,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy",
+        "steps": 3,
+        "tokens": 25235,
+        "latency_s": 37.64,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard",
+        "steps": 1,
+        "tokens": 5281,
+        "latency_s": 2.7,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 2,
+        "tokens": 12973,
+        "latency_s": 3.36,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "1041",
+        "steps": 2,
+        "tokens": 13848,
+        "latency_s": 3.7,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges",
+        "steps": 1,
+        "tokens": 5094,
+        "latency_s": 2.39,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "the Battle of Hastings",
+        "steps": 2,
+        "tokens": 12427,
+        "latency_s": 3.54,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "The Norman forces led by Duke William II of Normandy.",
+        "steps": 1,
+        "tokens": 5251,
+        "latency_s": 2.78,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 2,
+        "tokens": 12825,
+        "latency_s": 2.78,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "Anglo-Saxons",
+        "steps": 2,
+        "tokens": 12906,
+        "latency_s": 4.17,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "It evolved into Modern English.",
+        "steps": 2,
+        "tokens": 13556,
+        "latency_s": 5.02,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 2,
+        "tokens": 15168,
+        "latency_s": 4.35,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland",
+        "steps": 2,
+        "tokens": 13919,
+        "latency_s": 3.76,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "Irish culture",
+        "steps": 1,
+        "tokens": 5353,
+        "latency_s": 3.4,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "Edgar Atheling",
+        "steps": 4,
+        "tokens": 40299,
+        "latency_s": 5.76,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "King Malcolm III of Scotland",
+        "steps": 2,
+        "tokens": 15611,
+        "latency_s": 3.62,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "1072",
+        "steps": 3,
+        "tokens": 25274,
+        "latency_s": 6.45,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "Duncan",
+        "steps": 4,
+        "tokens": 39243,
+        "latency_s": 39.08,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Sybilla of Normandy",
+        "steps": 1,
+        "tokens": 5868,
+        "latency_s": 1.62,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Normans",
+        "steps": 4,
+        "tokens": 39637,
+        "latency_s": 8.69,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "The evidence provided does not mention Ralph earl of any specific location.",
+        "steps": 1,
+        "tokens": 4650,
+        "latency_s": 1.99,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "the Welsh",
+        "steps": 2,
+        "tokens": 13204,
+        "latency_s": 4.52,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "The document does not mention who made Ralph Earl.",
+        "steps": 2,
+        "tokens": 13811,
+        "latency_s": 3.66,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "England, southern Italy (Kingdom of Sicily), Wales, Ireland, Scotland, the Crusader states of the Near East, north Africa, Canary Islands.",
+        "steps": 2,
+        "tokens": 14894,
+        "latency_s": 4.99,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 2,
+        "tokens": 13848,
+        "latency_s": 5.01,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil",
+        "steps": 2,
+        "tokens": 12563,
+        "latency_s": 33.4,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "1097",
+        "steps": 2,
+        "tokens": 14610,
+        "latency_s": 3.54,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 2,
+        "tokens": 14216,
+        "latency_s": 2.59,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "The conquest of Jerusalem.",
+        "steps": 2,
+        "tokens": 14491,
+        "latency_s": 4.45,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "1191 to 1571.",
+        "steps": 3,
+        "tokens": 28218,
+        "latency_s": 6.15,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed the fleet.",
+        "steps": 4,
+        "tokens": 41317,
+        "latency_s": 8.12,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 2,
+        "tokens": 16381,
+        "latency_s": 2.42,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 2,
+        "tokens": 15640,
+        "latency_s": 4.04,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "Isaac Komnenos",
+        "steps": 2,
+        "tokens": 14319,
+        "latency_s": 33.66,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat",
+        "steps": 2,
+        "tokens": 13743,
+        "latency_s": 5.0,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "silver",
+        "steps": 2,
+        "tokens": 14082,
+        "latency_s": 2.71,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan",
+        "steps": 2,
+        "tokens": 15564,
+        "latency_s": 4.72,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa",
+        "steps": 2,
+        "tokens": 13990,
+        "latency_s": 3.54,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Jean de Bethencourt.",
+        "steps": 4,
+        "tokens": 39948,
+        "latency_s": 9.31,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "Maciot de Bethencourt, BSkyB, Setanta Sports.",
+        "steps": 4,
+        "tokens": 46779,
+        "latency_s": 39.74,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "Maciot de Bethencourt",
+        "steps": 2,
+        "tokens": 15746,
+        "latency_s": 4.96,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "In the English Channel.",
+        "steps": 3,
+        "tokens": 23065,
+        "latency_s": 6.16,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two",
+        "steps": 4,
+        "tokens": 39102,
+        "latency_s": 9.27,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "A unique Romanesque idiom characterized by rounded arches (particularly over windows and doorways) and massive proportions, spread to England and Italy; in southern Italy, incorporated elements of Islamic, Lombard, and Byzantine building techniques, initiating Norman-Arab architecture in the Kingdom of Sicily.",
+        "steps": 3,
+        "tokens": 28862,
+        "latency_s": 7.16,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches.",
+        "steps": 2,
+        "tokens": 14637,
+        "latency_s": 4.16,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic",
+        "steps": 2,
+        "tokens": 14675,
+        "latency_s": 34.42,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon",
+        "steps": 2,
+        "tokens": 13886,
+        "latency_s": 3.31,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "the Kingdom of Sicily",
+        "steps": 3,
+        "tokens": 29247,
+        "latency_s": 6.52,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "the early 11th century",
+        "steps": 2,
+        "tokens": 13128,
+        "latency_s": 2.68,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The dukes of Normandy.",
+        "steps": 2,
+        "tokens": 13869,
+        "latency_s": 4.4,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "1562 to 1598",
+        "steps": 2,
+        "tokens": 13727,
+        "latency_s": 3.9,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "Embroidery",
+        "steps": 2,
+        "tokens": 13402,
+        "latency_s": 3.64,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "The Bayeux Tapestry.",
+        "steps": 2,
+        "tokens": 14905,
+        "latency_s": 3.61,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 2,
+        "tokens": 15010,
+        "latency_s": 34.3,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Mosaics, sculptured fonts, capitals, metalwork, and illuminated manuscripts.",
+        "steps": 3,
+        "tokens": 28020,
+        "latency_s": 6.93,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "11th century",
+        "steps": 2,
+        "tokens": 13867,
+        "latency_s": 2.91,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna",
+        "steps": 2,
+        "tokens": 13967,
+        "latency_s": 4.74,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "southern Italy",
+        "steps": 3,
+        "tokens": 30313,
+        "latency_s": 6.71,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia",
+        "steps": 2,
+        "tokens": 15851,
+        "latency_s": 4.59,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Robert Guiscard",
+        "steps": 2,
+        "tokens": 15818,
+        "latency_s": 4.76,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "A tradition of singing.",
+        "steps": 2,
+        "tokens": 14273,
+        "latency_s": 3.8,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "steps": 2,
+        "tokens": 11636,
+        "latency_s": 5.54,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Inherent difficulty",
+        "steps": 2,
+        "tokens": 11089,
+        "latency_s": 4.47,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "computational problem",
+        "steps": 2,
+        "tokens": 12159,
+        "latency_s": 4.07,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "Computational complexity",
+        "steps": 4,
+        "tokens": 32149,
+        "latency_s": 7.8,
+        "replan": 0
+      }
+    ]
+  }
+}

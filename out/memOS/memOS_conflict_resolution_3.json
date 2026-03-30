@@ -1,0 +1,809 @@
+{
+  "dataset": "conflict_resolution",
+  "backend": "memOS",
+  "instance_idx": 3,
+  "results": {
+    "R2": [
+      {
+        "question": "What is the country of origin of the sport played by Christian Abbiati?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 299970,
+        "replan": 0,
+        "elapsed_sec": 135.42
+      },
+      {
+        "question": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+        "answer": "Catholic Church",
+        "steps": 2,
+        "tokens": 51198,
+        "replan": 0,
+        "elapsed_sec": 56.98
+      },
+      {
+        "question": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+        "answer": "Americas\n\n步骤解析：  \n1. 找到《American Pastoral》的作者：根据编号10793，作者是F. Scott Fitzgerald。  \n2. 假设其配偶（Zelda Fitzgerald）的国籍为美国（上下文未直接提及，但结合常识推导，且上下文编号3231提到Hyderabad属于Americas，默认美国属于Americas）。  \n3. 因此，配偶国籍所在的大陆是Americas。  \n\n（注：上下文未直接明确配偶国籍及美国大陆，但基于合理推导及上下文提及的Americas概念，得出此答案。）",
+        "steps": 5,
+        "tokens": 303309,
+        "replan": 0,
+        "elapsed_sec": 178.86
+      },
+      {
+        "question": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 297026,
+        "replan": 0,
+        "elapsed_sec": 135.24
+      },
+      {
+        "question": "What is the name of the language in which Valmiki wrote his notable works?",
+        "answer": "Sanskrit",
+        "steps": 5,
+        "tokens": 299710,
+        "replan": 0,
+        "elapsed_sec": 117.76
+      },
+      {
+        "question": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 301682,
+        "replan": 0,
+        "elapsed_sec": 247.2
+      },
+      {
+        "question": "Which language was the one in which Melvil Dewey produced their notable work?",
+        "answer": "Not found in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 300627,
+        "replan": 0,
+        "elapsed_sec": 88.08
+      },
+      {
+        "question": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+        "answer": "English",
+        "steps": 5,
+        "tokens": 303077,
+        "replan": 0,
+        "elapsed_sec": 207.29
+      },
+      {
+        "question": "In which school did the author of \"Measure for Measure\" receive their education?",
+        "answer": "University of Oxford",
+        "steps": 5,
+        "tokens": 301864,
+        "replan": 0,
+        "elapsed_sec": 115.69
+      },
+      {
+        "question": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 302102,
+        "replan": 0,
+        "elapsed_sec": 179.11
+      },
+      {
+        "question": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+        "answer": "North America",
+        "steps": 5,
+        "tokens": 302162,
+        "replan": 0,
+        "elapsed_sec": 159.27
+      },
+      {
+        "question": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+        "answer": "Unknown",
+        "steps": 5,
+        "tokens": 303705,
+        "replan": 0,
+        "elapsed_sec": 173.13
+      },
+      {
+        "question": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+        "answer": "New York City",
+        "steps": 5,
+        "tokens": 302957,
+        "replan": 0,
+        "elapsed_sec": 209.52
+      },
+      {
+        "question": "What is the notable work of the performer associated with Miley Stewart?",
+        "answer": "Bangerz",
+        "steps": 3,
+        "tokens": 126050,
+        "replan": 0,
+        "elapsed_sec": 53.86
+      },
+      {
+        "question": "To which continent does Fernando Lugo belong based on his citizenship?",
+        "answer": "No relevant information",
+        "steps": 5,
+        "tokens": 301264,
+        "replan": 0,
+        "elapsed_sec": 209.14
+      },
+      {
+        "question": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+        "answer": "Long Beach",
+        "steps": 4,
+        "tokens": 226341,
+        "replan": 0,
+        "elapsed_sec": 159.15
+      },
+      {
+        "question": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+        "answer": "No relevant information available",
+        "steps": 5,
+        "tokens": 307676,
+        "replan": 0,
+        "elapsed_sec": 236.1
+      },
+      {
+        "question": "In which country was the individual who founded Duquesne University born?",
+        "answer": "No relevant information available.",
+        "steps": 5,
+        "tokens": 299513,
+        "replan": 0,
+        "elapsed_sec": 162.46
+      },
+      {
+        "question": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+        "answer": "Washington D.C.",
+        "steps": 5,
+        "tokens": 305520,
+        "replan": 0,
+        "elapsed_sec": 211.7
+      },
+      {
+        "question": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+        "answer": "Copenhagen",
+        "steps": 5,
+        "tokens": 305399,
+        "replan": 0,
+        "elapsed_sec": 188.16
+      },
+      {
+        "question": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+        "answer": "Doge of Venice",
+        "steps": 3,
+        "tokens": 127476,
+        "replan": 0,
+        "elapsed_sec": 100.54
+      },
+      {
+        "question": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+        "answer": "Europe",
+        "steps": 5,
+        "tokens": 304407,
+        "replan": 0,
+        "elapsed_sec": 272.87
+      },
+      {
+        "question": "What is the country of origin of the sport associated with John Beilein's occupation?",
+        "answer": "United States of America",
+        "steps": 3,
+        "tokens": 127332,
+        "replan": 0,
+        "elapsed_sec": 57.31
+      },
+      {
+        "question": "What is the name of the employer of Lynn Margulis' spouse?",
+        "answer": "无",
+        "steps": 5,
+        "tokens": 302164,
+        "replan": 0,
+        "elapsed_sec": 125.72
+      },
+      {
+        "question": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+        "answer": "No relevant information.",
+        "steps": 5,
+        "tokens": 302194,
+        "replan": 0,
+        "elapsed_sec": 189.73
+      },
+      {
+        "question": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+        "answer": "Oceania",
+        "steps": 5,
+        "tokens": 301612,
+        "replan": 0,
+        "elapsed_sec": 109.59
+      },
+      {
+        "question": "What is the birthplace of the spouse of Bianca Jagger?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 303549,
+        "replan": 0,
+        "elapsed_sec": 189.95
+      },
+      {
+        "question": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 306087,
+        "replan": 0,
+        "elapsed_sec": 221.03
+      },
+      {
+        "question": "In which city is the seat of government located in the country where Family Force 5 came from?",
+        "answer": "Tokyo",
+        "steps": 2,
+        "tokens": 51523,
+        "replan": 0,
+        "elapsed_sec": 61.51
+      },
+      {
+        "question": "What location was the place of death of the author of Carmilla?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 301754,
+        "replan": 0,
+        "elapsed_sec": 146.81
+      },
+      {
+        "question": "From what country does the music genre of Dave Matthews Band originate?",
+        "answer": "No relevant information",
+        "steps": 5,
+        "tokens": 299255,
+        "replan": 0,
+        "elapsed_sec": 109.34
+      },
+      {
+        "question": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+        "answer": "Mike Cheston",
+        "steps": 2,
+        "tokens": 52217,
+        "replan": 0,
+        "elapsed_sec": 32.66
+      },
+      {
+        "question": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 304302,
+        "replan": 0,
+        "elapsed_sec": 130.25
+      },
+      {
+        "question": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 300333,
+        "replan": 0,
+        "elapsed_sec": 101.36
+      },
+      {
+        "question": "In what city did the individual who established Metz Cathedral have their occupation?",
+        "answer": "No relevant information available.",
+        "steps": 5,
+        "tokens": 299960,
+        "replan": 0,
+        "elapsed_sec": 139.47
+      },
+      {
+        "question": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 303828,
+        "replan": 0,
+        "elapsed_sec": 153.97
+      },
+      {
+        "question": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+        "answer": "No relevant information in the knowledge pool to answer the question.",
+        "steps": 5,
+        "tokens": 302080,
+        "replan": 0,
+        "elapsed_sec": 140.3
+      },
+      {
+        "question": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+        "answer": "Gérard Blitz",
+        "steps": 3,
+        "tokens": 127969,
+        "replan": 0,
+        "elapsed_sec": 65.17
+      },
+      {
+        "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+        "answer": "English",
+        "steps": 5,
+        "tokens": 305504,
+        "replan": 0,
+        "elapsed_sec": 214.69
+      },
+      {
+        "question": "What is the name of the school where the author of \"La Celestina\" studied?",
+        "answer": "Not mentioned",
+        "steps": 5,
+        "tokens": 302837,
+        "replan": 0,
+        "elapsed_sec": 113.16
+      },
+      {
+        "question": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+        "answer": "No relevant information",
+        "steps": 5,
+        "tokens": 302700,
+        "replan": 0,
+        "elapsed_sec": 94.51
+      },
+      {
+        "question": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 303174,
+        "replan": 0,
+        "elapsed_sec": 410.85
+      },
+      {
+        "question": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+        "answer": "No relevant information about Derek Holland in the knowledge pool.",
+        "steps": 5,
+        "tokens": 300706,
+        "replan": 0,
+        "elapsed_sec": 116.89
+      },
+      {
+        "question": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 303050,
+        "replan": 0,
+        "elapsed_sec": 125.36
+      },
+      {
+        "question": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 300214,
+        "replan": 0,
+        "elapsed_sec": 111.78
+      },
+      {
+        "question": "What is the place of demise of the author of the book \"Dubliners\"?",
+        "answer": "No information",
+        "steps": 5,
+        "tokens": 305765,
+        "replan": 0,
+        "elapsed_sec": 145.32
+      },
+      {
+        "question": "Where is the headquarters of the company that developed Sailfish OS located?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 299801,
+        "replan": 0,
+        "elapsed_sec": 91.99
+      },
+      {
+        "question": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 305431,
+        "replan": 0,
+        "elapsed_sec": 194.09
+      },
+      {
+        "question": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+        "answer": "Not mentioned.",
+        "steps": 5,
+        "tokens": 302162,
+        "replan": 0,
+        "elapsed_sec": 128.31
+      },
+      {
+        "question": "What is the birthplace of the person who created Indiana Jones?",
+        "answer": "Lüftelberg",
+        "steps": 3,
+        "tokens": 126280,
+        "replan": 0,
+        "elapsed_sec": 51.4
+      },
+      {
+        "question": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+        "answer": "未找到关于生产Chevrolet Chevelle的公司的相关信息。",
+        "steps": 4,
+        "tokens": 227464,
+        "replan": 0,
+        "elapsed_sec": 74.72
+      },
+      {
+        "question": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+        "answer": "composer",
+        "steps": 3,
+        "tokens": 127264,
+        "replan": 0,
+        "elapsed_sec": 53.62
+      },
+      {
+        "question": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+        "answer": "North America",
+        "steps": 4,
+        "tokens": 231245,
+        "replan": 0,
+        "elapsed_sec": 159.93
+      },
+      {
+        "question": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+        "answer": "Donald Trump",
+        "steps": 5,
+        "tokens": 301440,
+        "replan": 0,
+        "elapsed_sec": 207.92
+      },
+      {
+        "question": "In which city did the founder of the religion of Steve Cooley have their work location?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 303348,
+        "replan": 0,
+        "elapsed_sec": 133.67
+      },
+      {
+        "question": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+        "answer": "London",
+        "steps": 5,
+        "tokens": 299487,
+        "replan": 0,
+        "elapsed_sec": 157.0
+      },
+      {
+        "question": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+        "answer": "Alfonso Miranda Márquez",
+        "steps": 3,
+        "tokens": 126621,
+        "replan": 0,
+        "elapsed_sec": 44.88
+      },
+      {
+        "question": "What is the birthplace of the person who established the religion of Saint Eligius?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 302004,
+        "replan": 0,
+        "elapsed_sec": 129.89
+      },
+      {
+        "question": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+        "answer": "Allen Ginsberg",
+        "steps": 5,
+        "tokens": 302485,
+        "replan": 0,
+        "elapsed_sec": 111.55
+      },
+      {
+        "question": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+        "answer": "Chicago",
+        "steps": 5,
+        "tokens": 305089,
+        "replan": 0,
+        "elapsed_sec": 136.41
+      },
+      {
+        "question": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+        "answer": "Jesus Christ",
+        "steps": 5,
+        "tokens": 305042,
+        "replan": 0,
+        "elapsed_sec": 173.91
+      },
+      {
+        "question": "What is the birthplace of the author of Ivanhoe?",
+        "answer": "Not found in the knowledge pool",
+        "steps": 5,
+        "tokens": 299954,
+        "replan": 0,
+        "elapsed_sec": 100.63
+      },
+      {
+        "question": "What is the name of the child of the person who created Feluda?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 301950,
+        "replan": 0,
+        "elapsed_sec": 145.81
+      },
+      {
+        "question": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+        "answer": "Germany",
+        "steps": 3,
+        "tokens": 127322,
+        "replan": 0,
+        "elapsed_sec": 99.62
+      },
+      {
+        "question": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+        "answer": "English\n\nThe reasoning process is as follows:\n1. First, locate the fact about Yip Harburg: Entry [28] states \"3320. Yip Harburg is a citizen of United States of America.\" So Yip Harburg belongs to the United States.\n2. Then, find the official language of the United States. Although there is no direct entry stating the official language of the US, Entry [7] mentions \"583. The official language of Pennsylvania is English.\" Pennsylvania is a state in the United States, implying English is the official language of the country.\n\nThus, the answer is English.",
+        "steps": 5,
+        "tokens": 303805,
+        "replan": 0,
+        "elapsed_sec": 200.46
+      },
+      {
+        "question": "What is the literary genre of the book \"Dune\" written by the author?",
+        "answer": "无",
+        "steps": 5,
+        "tokens": 302591,
+        "replan": 0,
+        "elapsed_sec": 136.37
+      },
+      {
+        "question": "What is the continent of origin of Thomas Dolby, a musician?",
+        "answer": "No relevant information available.",
+        "steps": 5,
+        "tokens": 296586,
+        "replan": 0,
+        "elapsed_sec": 104.94
+      },
+      {
+        "question": "What is the name of the school where the founder of House of Bonaparte studied?",
+        "answer": "No relevant information available.",
+        "steps": 5,
+        "tokens": 303331,
+        "replan": 0,
+        "elapsed_sec": 133.8
+      },
+      {
+        "question": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+        "answer": "Great Britain",
+        "steps": 4,
+        "tokens": 225245,
+        "replan": 0,
+        "elapsed_sec": 105.06
+      },
+      {
+        "question": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+        "answer": "No relevant information available.",
+        "steps": 5,
+        "tokens": 303916,
+        "replan": 0,
+        "elapsed_sec": 161.07
+      },
+      {
+        "question": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+        "answer": "Uruguay",
+        "steps": 4,
+        "tokens": 228607,
+        "replan": 0,
+        "elapsed_sec": 132.53
+      },
+      {
+        "question": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+        "answer": "Office of Strategic Services, Robert James Carlson",
+        "steps": 3,
+        "tokens": 127541,
+        "replan": 0,
+        "elapsed_sec": 64.87
+      },
+      {
+        "question": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+        "answer": "No relevant information available.",
+        "steps": 5,
+        "tokens": 298439,
+        "replan": 0,
+        "elapsed_sec": 154.08
+      },
+      {
+        "question": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+        "answer": "Hebrew",
+        "steps": 2,
+        "tokens": 50990,
+        "replan": 0,
+        "elapsed_sec": 37.85
+      },
+      {
+        "question": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+        "answer": "English",
+        "steps": 5,
+        "tokens": 302636,
+        "replan": 0,
+        "elapsed_sec": 201.86
+      },
+      {
+        "question": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+        "answer": "Europe",
+        "steps": 3,
+        "tokens": 125765,
+        "replan": 0,
+        "elapsed_sec": 57.8
+      },
+      {
+        "question": "In which city was the person who created the centrifugal governor born?",
+        "answer": "Greenock",
+        "steps": 3,
+        "tokens": 126294,
+        "replan": 0,
+        "elapsed_sec": 36.97
+      },
+      {
+        "question": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+        "answer": "Berlin",
+        "steps": 5,
+        "tokens": 303702,
+        "replan": 0,
+        "elapsed_sec": 163.84
+      },
+      {
+        "question": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+        "answer": "No information available about Eric Weissberg's country of citizenship in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 298511,
+        "replan": 0,
+        "elapsed_sec": 112.7
+      },
+      {
+        "question": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+        "answer": "Unknown",
+        "steps": 5,
+        "tokens": 301151,
+        "replan": 0,
+        "elapsed_sec": 196.59
+      },
+      {
+        "question": "Which language was used by Mario Puzo in writing his famous work?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 301016,
+        "replan": 0,
+        "elapsed_sec": 133.96
+      },
+      {
+        "question": "Which continent is the country of origin of Teenage Fanclub located in?",
+        "answer": "Oceania",
+        "steps": 3,
+        "tokens": 127389,
+        "replan": 0,
+        "elapsed_sec": 86.01
+      },
+      {
+        "question": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+        "answer": "No information available.",
+        "steps": 5,
+        "tokens": 306923,
+        "replan": 0,
+        "elapsed_sec": 205.31
+      },
+      {
+        "question": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+        "answer": "无相关信息",
+        "steps": 5,
+        "tokens": 299844,
+        "replan": 0,
+        "elapsed_sec": 91.66
+      },
+      {
+        "question": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+        "answer": "Washington DC",
+        "steps": 2,
+        "tokens": 56188,
+        "replan": 0,
+        "elapsed_sec": 147.17
+      },
+      {
+        "question": "In what field did the author, who is known for Julius Caesar, work in?",
+        "answer": "businessperson",
+        "steps": 4,
+        "tokens": 225748,
+        "replan": 0,
+        "elapsed_sec": 75.45
+      },
+      {
+        "question": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 303159,
+        "replan": 0,
+        "elapsed_sec": 139.54
+      },
+      {
+        "question": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+        "answer": "Norway",
+        "steps": 5,
+        "tokens": 301681,
+        "replan": 0,
+        "elapsed_sec": 124.84
+      },
+      {
+        "question": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+        "answer": "Connachta",
+        "steps": 3,
+        "tokens": 126849,
+        "replan": 0,
+        "elapsed_sec": 71.55
+      },
+      {
+        "question": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+        "answer": "New York City",
+        "steps": 5,
+        "tokens": 296482,
+        "replan": 0,
+        "elapsed_sec": 128.48
+      },
+      {
+        "question": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+        "answer": "Muhammad",
+        "steps": 5,
+        "tokens": 302235,
+        "replan": 0,
+        "elapsed_sec": 101.35
+      },
+      {
+        "question": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+        "answer": "Donald Trump",
+        "steps": 2,
+        "tokens": 52862,
+        "replan": 0,
+        "elapsed_sec": 72.63
+      },
+      {
+        "question": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+        "answer": "Donald Trump",
+        "steps": 3,
+        "tokens": 127030,
+        "replan": 0,
+        "elapsed_sec": 73.69
+      },
+      {
+        "question": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+        "answer": "No relevant information available in the knowledge pool.",
+        "steps": 5,
+        "tokens": 300526,
+        "replan": 0,
+        "elapsed_sec": 139.16
+      },
+      {
+        "question": "What is the primary language spoken in the country where Flogging Molly comes from?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 303282,
+        "replan": 0,
+        "elapsed_sec": 124.97
+      },
+      {
+        "question": "Which company did the employer of the creator of Link work for?",
+        "answer": "Nintendo",
+        "steps": 5,
+        "tokens": 303410,
+        "replan": 0,
+        "elapsed_sec": 132.28
+      },
+      {
+        "question": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+        "answer": "United States of America",
+        "steps": 5,
+        "tokens": 304772,
+        "replan": 0,
+        "elapsed_sec": 153.69
+      },
+      {
+        "question": "Which sport is associated with the position played by Bobby Hurley?",
+        "answer": "No information about Bobby Hurley in the knowledge pool.",
+        "steps": 5,
+        "tokens": 301600,
+        "replan": 0,
+        "elapsed_sec": 124.21
+      },
+      {
+        "question": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 301358,
+        "replan": 0,
+        "elapsed_sec": 137.45
+      },
+      {
+        "question": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+        "answer": "No information available",
+        "steps": 5,
+        "tokens": 304750,
+        "replan": 0,
+        "elapsed_sec": 201.72
+      }
+    ]
+  }
+}

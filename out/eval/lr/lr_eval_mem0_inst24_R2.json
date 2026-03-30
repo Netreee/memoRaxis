@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 24,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案核心情节。标准答案始于未知蜥蜴袭击儿童并引出恐龙发现，而Agent预测始于角色Cerise Golda的公园计划及邀请专家，人物名称（如Cerise Golda, Nehemiah, Kallie）与标准答案（如Merida Lucky, Vasco Christie）不符，且核心事件（袭击、发现、实验室情节）完全缺失。"
+    }
+  ]
+}

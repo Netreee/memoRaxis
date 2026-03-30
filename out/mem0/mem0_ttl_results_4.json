@@ -1,0 +1,809 @@
+{
+  "dataset": "Test_Time_Learning",
+  "backend": "mem0",
+  "instance_idx": 4,
+  "results": {
+    "R1": [
+      {
+        "question": "What is the population of Venezuela ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 149,
+        "latency_s": 3.82,
+        "replan": 0
+      },
+      {
+        "question": "What does target heart rate mean ?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 147,
+        "latency_s": 2.66,
+        "replan": 0
+      },
+      {
+        "question": "What currency does Luxembourg use ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 149,
+        "latency_s": 2.26,
+        "replan": 0
+      },
+      {
+        "question": "How long did Rip Van Winkle sleep ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 152,
+        "latency_s": 2.34,
+        "replan": 0
+      },
+      {
+        "question": "Material called linen is made from what plant ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 174,
+        "latency_s": 3.47,
+        "replan": 0
+      },
+      {
+        "question": "What is phenylalanine ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 148,
+        "latency_s": 2.14,
+        "replan": 0
+      },
+      {
+        "question": "What is a group of turkeys called ?",
+        "answer": "信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 145,
+        "latency_s": 2.37,
+        "replan": 0
+      },
+      {
+        "question": "What are enzymes ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 163,
+        "latency_s": 2.89,
+        "replan": 0
+      },
+      {
+        "question": "Why is the sun yellow ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 146,
+        "latency_s": 2.3,
+        "replan": 0
+      },
+      {
+        "question": "What state is the geographic center of the lower 48 states ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 186,
+        "latency_s": 3.19,
+        "replan": 0
+      },
+      {
+        "question": "What is foot and mouth disease ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 184,
+        "latency_s": 3.08,
+        "replan": 0
+      },
+      {
+        "question": "What is sonar ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 182,
+        "latency_s": 3.45,
+        "replan": 0
+      },
+      {
+        "question": "When was Thomas Jefferson born ?",
+        "answer": "上下文信息不足，无法回答该问题",
+        "steps": 1,
+        "tokens": 220,
+        "latency_s": 3.74,
+        "replan": 0
+      },
+      {
+        "question": "What is the Ohio state bird ?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 272,
+        "latency_s": 6.55,
+        "replan": 0
+      },
+      {
+        "question": "What are the colors of the German flag ?",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 153,
+        "latency_s": 2.53,
+        "replan": 0
+      },
+      {
+        "question": "Who won Ms. American in 1989 ?",
+        "answer": "上下文信息不足，无法回答",
+        "steps": 1,
+        "tokens": 196,
+        "latency_s": 3.75,
+        "replan": 0
+      },
+      {
+        "question": "Where on the body is a mortarboard worn ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 152,
+        "latency_s": 2.9,
+        "replan": 0
+      },
+      {
+        "question": "What is the width of a football field ?",
+        "answer": "上下文信息不足，无法回答",
+        "steps": 1,
+        "tokens": 247,
+        "latency_s": 4.69,
+        "replan": 0
+      },
+      {
+        "question": "Who is the Prime Minister of Canada ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 167,
+        "latency_s": 2.53,
+        "replan": 0
+      },
+      {
+        "question": "What is the conversion rate between dollars and pounds ?",
+        "answer": "上下文信息不足，无法分配数值标签",
+        "steps": 1,
+        "tokens": 194,
+        "latency_s": 3.36,
+        "replan": 0
+      },
+      {
+        "question": "What is fibromyalgia ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 205,
+        "latency_s": 4.14,
+        "replan": 0
+      },
+      {
+        "question": "What are the spots on dominoes called ?",
+        "answer": "上下文信息不足，无法回答该问题",
+        "steps": 1,
+        "tokens": 214,
+        "latency_s": 3.97,
+        "replan": 0
+      },
+      {
+        "question": "What city is also known as `` The Gateway to the West '' ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 157,
+        "latency_s": 2.47,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered x-rays ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 149,
+        "latency_s": 3.28,
+        "replan": 0
+      },
+      {
+        "question": "How much does water weigh ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 204,
+        "latency_s": 3.93,
+        "replan": 0
+      },
+      {
+        "question": "Mercury , what year was it discovered ?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 168,
+        "latency_s": 2.98,
+        "replan": 0
+      },
+      {
+        "question": "Where do apple snails live ?",
+        "answer": "上下文信息不足，无法为该问题分配标签",
+        "steps": 1,
+        "tokens": 315,
+        "latency_s": 7.48,
+        "replan": 0
+      },
+      {
+        "question": "What is the rainiest place on Earth ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 188,
+        "latency_s": 3.27,
+        "replan": 0
+      },
+      {
+        "question": "Who invented the hula hoop ?",
+        "answer": "上下文信息不足，无法回答",
+        "steps": 1,
+        "tokens": 209,
+        "latency_s": 4.78,
+        "replan": 0
+      },
+      {
+        "question": "What is the longest suspension bridge in the U.S. ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 197,
+        "latency_s": 3.51,
+        "replan": 0
+      },
+      {
+        "question": "What is plastic made of ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 167,
+        "latency_s": 3.35,
+        "replan": 0
+      },
+      {
+        "question": "How far is it from Denver to Aspen ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 160,
+        "latency_s": 2.67,
+        "replan": 0
+      },
+      {
+        "question": "What is the criterion for being legally blind ?",
+        "answer": "上下文信息不足，无法确定法定失明的标准",
+        "steps": 1,
+        "tokens": 219,
+        "latency_s": 3.93,
+        "replan": 0
+      },
+      {
+        "question": "Who invented the instant Polaroid camera ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 149,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "What is the distance in miles from the earth to the sun ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 175,
+        "latency_s": 2.55,
+        "replan": 0
+      },
+      {
+        "question": "In which state would you find the Catskill Mountains ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 151,
+        "latency_s": 2.17,
+        "replan": 0
+      },
+      {
+        "question": "What is a prism ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 213,
+        "latency_s": 4.1,
+        "replan": 0
+      },
+      {
+        "question": "How fast is sound ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 159,
+        "latency_s": 3.67,
+        "replan": 0
+      },
+      {
+        "question": "What does cc in engines mean ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 185,
+        "latency_s": 3.52,
+        "replan": 0
+      },
+      {
+        "question": "What is an ulcer ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 236,
+        "latency_s": 5.16,
+        "replan": 0
+      },
+      {
+        "question": "What is compounded interest ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 182,
+        "latency_s": 5.09,
+        "replan": 0
+      },
+      {
+        "question": "What does CPR stand for ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 148,
+        "latency_s": 2.63,
+        "replan": 0
+      },
+      {
+        "question": "What is hybridization ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 149,
+        "latency_s": 2.43,
+        "replan": 0
+      },
+      {
+        "question": "How fast is alcohol absorbed ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 148,
+        "latency_s": 2.72,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first American to walk in space ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 194,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "What are pediatricians ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 145,
+        "latency_s": 2.47,
+        "replan": 0
+      },
+      {
+        "question": "What is the sales tax rate in New York ?",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 153,
+        "latency_s": 2.77,
+        "replan": 0
+      },
+      {
+        "question": "What is the money they use in Zambia ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 148,
+        "latency_s": 1.98,
+        "replan": 0
+      },
+      {
+        "question": "What is acetic acid ?",
+        "answer": "信息不足，无法分配数值标签。",
+        "steps": 1,
+        "tokens": 143,
+        "latency_s": 1.89,
+        "replan": 0
+      },
+      {
+        "question": "When was Lyndon B. Johnson born ?",
+        "answer": "上下文信息不足，无法回答该问题",
+        "steps": 1,
+        "tokens": 231,
+        "latency_s": 5.63,
+        "replan": 0
+      },
+      {
+        "question": "In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 189,
+        "latency_s": 2.73,
+        "replan": 0
+      },
+      {
+        "question": "How cold should a refrigerator be ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 235,
+        "latency_s": 5.92,
+        "replan": 0
+      },
+      {
+        "question": "What is another astronomic term for the Northern Lights ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 153,
+        "latency_s": 2.54,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Shawnee National Forest ?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 148,
+        "latency_s": 2.76,
+        "replan": 0
+      },
+      {
+        "question": "How much of an apple is water ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 148,
+        "latency_s": 1.92,
+        "replan": 0
+      },
+      {
+        "question": "What is strep throat ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 188,
+        "latency_s": 3.47,
+        "replan": 0
+      },
+      {
+        "question": "What is poliomyelitis ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 216,
+        "latency_s": 3.91,
+        "replan": 0
+      },
+      {
+        "question": "What is the temperature at the center of the earth ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 156,
+        "latency_s": 2.59,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Lourve ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 151,
+        "latency_s": 2.57,
+        "replan": 0
+      },
+      {
+        "question": "What is the longest bone in the human body ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 179,
+        "latency_s": 3.76,
+        "replan": 0
+      },
+      {
+        "question": "What state has the least amount of rain per year ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 193,
+        "latency_s": 3.98,
+        "replan": 0
+      },
+      {
+        "question": "What is neurology ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 153,
+        "latency_s": 2.55,
+        "replan": 0
+      },
+      {
+        "question": "What is the statue of liberty made of ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 228,
+        "latency_s": 4.21,
+        "replan": 0
+      },
+      {
+        "question": "What was W.C. Fields ' real name ?",
+        "answer": "上下文信息不足，无法回答",
+        "steps": 1,
+        "tokens": 224,
+        "latency_s": 4.56,
+        "replan": 0
+      },
+      {
+        "question": "What is solar wind ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 158,
+        "latency_s": 2.8,
+        "replan": 0
+      },
+      {
+        "question": "What position did Willie Davis play in baseball ?",
+        "answer": "上下文信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 181,
+        "latency_s": 3.27,
+        "replan": 0
+      },
+      {
+        "question": "Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?",
+        "answer": "上下文信息不足，无法完成任务。",
+        "steps": 1,
+        "tokens": 332,
+        "latency_s": 7.28,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first woman governor in the U.S. ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 160,
+        "latency_s": 2.76,
+        "replan": 0
+      },
+      {
+        "question": "What are solar cells ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 182,
+        "latency_s": 3.72,
+        "replan": 0
+      },
+      {
+        "question": "When was the telephone invented ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 149,
+        "latency_s": 2.99,
+        "replan": 0
+      },
+      {
+        "question": "What is another name for vitamin B1 ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 179,
+        "latency_s": 3.66,
+        "replan": 0
+      },
+      {
+        "question": "What is the major fault line near Kentucky ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 296,
+        "latency_s": 6.67,
+        "replan": 0
+      },
+      {
+        "question": "Where is the Savannah River ?",
+        "answer": "上下文信息不足，无法分配数值标签。",
+        "steps": 1,
+        "tokens": 158,
+        "latency_s": 2.86,
+        "replan": 0
+      },
+      {
+        "question": "What city 's newspaper is called `` The Star '' ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 216,
+        "latency_s": 5.16,
+        "replan": 0
+      },
+      {
+        "question": "What planet has the strongest magnetic field of all the planets ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 198,
+        "latency_s": 3.98,
+        "replan": 0
+      },
+      {
+        "question": "What is severance pay ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 147,
+        "latency_s": 3.63,
+        "replan": 0
+      },
+      {
+        "question": "What breed of hunting dog did the Beverly Hillbillies own ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 156,
+        "latency_s": 2.35,
+        "replan": 0
+      },
+      {
+        "question": "What is the population of China ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 161,
+        "latency_s": 2.74,
+        "replan": 0
+      },
+      {
+        "question": "What are semiconductors ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 149,
+        "latency_s": 2.06,
+        "replan": 0
+      },
+      {
+        "question": "What body of water are the Canary Islands in ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 154,
+        "latency_s": 2.93,
+        "replan": 0
+      },
+      {
+        "question": "What does the word fortnight mean ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 150,
+        "latency_s": 2.76,
+        "replan": 0
+      },
+      {
+        "question": "What monastery was raided by Vikings in the late eighth century ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 188,
+        "latency_s": 4.05,
+        "replan": 0
+      },
+      {
+        "question": "What did Edward Binney and Howard Smith invent in 1903 ?",
+        "answer": "上下文信息不足，无法回答",
+        "steps": 1,
+        "tokens": 304,
+        "latency_s": 6.43,
+        "replan": 0
+      },
+      {
+        "question": "When was President Kennedy shot ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 282,
+        "latency_s": 6.45,
+        "replan": 0
+      },
+      {
+        "question": "What is a thermometer ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 182,
+        "latency_s": 4.53,
+        "replan": 0
+      },
+      {
+        "question": "What is the earth 's diameter ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 178,
+        "latency_s": 3.08,
+        "replan": 0
+      },
+      {
+        "question": "What is mold ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 214,
+        "latency_s": 4.76,
+        "replan": 0
+      },
+      {
+        "question": "What does `` Sitting Shiva '' mean ?",
+        "answer": "信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 152,
+        "latency_s": 3.15,
+        "replan": 0
+      },
+      {
+        "question": "What is desktop publishing ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 147,
+        "latency_s": 2.22,
+        "replan": 0
+      },
+      {
+        "question": "Who discovered radium ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 148,
+        "latency_s": 2.91,
+        "replan": 0
+      },
+      {
+        "question": "What is mad cow disease ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 178,
+        "latency_s": 3.77,
+        "replan": 0
+      },
+      {
+        "question": "What is the location of Lake Champlain ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 151,
+        "latency_s": 2.1,
+        "replan": 0
+      },
+      {
+        "question": "What is the proper name for a female walrus ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 181,
+        "latency_s": 3.11,
+        "replan": 0
+      },
+      {
+        "question": "When was Rosa Parks born ?",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 242,
+        "latency_s": 4.89,
+        "replan": 0
+      },
+      {
+        "question": "When were William Shakespeare 's twins born ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 151,
+        "latency_s": 2.07,
+        "replan": 0
+      },
+      {
+        "question": "What is natural gas composed of ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 173,
+        "latency_s": 3.71,
+        "replan": 0
+      },
+      {
+        "question": "How tall is the Gateway Arch in St. Louis , MO ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 163,
+        "latency_s": 2.66,
+        "replan": 0
+      },
+      {
+        "question": "Who was the first governor of Alaska ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 215,
+        "latency_s": 4.11,
+        "replan": 0
+      },
+      {
+        "question": "When was the first Wal-Mart store opened ?",
+        "answer": "上下文信息不足，无法回答该问题",
+        "steps": 1,
+        "tokens": 252,
+        "latency_s": 5.29,
+        "replan": 0
+      },
+      {
+        "question": "What New York City structure is also known as the Twin Towers ?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 156,
+        "latency_s": 2.58,
+        "replan": 0
+      }
+    ]
+  }
+}

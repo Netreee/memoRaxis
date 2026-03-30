@@ -1,0 +1,809 @@
+{
+  "dataset": "test_time_learning",
+  "backend": "memOS",
+  "instance_idx": 3,
+  "results": {
+    "R2": [
+      {
+        "question": "fight me in street fighter",
+        "answer": "{43}",
+        "steps": 2,
+        "tokens": 13441,
+        "replan": 0,
+        "elapsed_sec": 56.61
+      },
+      {
+        "question": "i have to tell you about my day",
+        "answer": "{66}",
+        "steps": 2,
+        "tokens": 13438,
+        "replan": 0,
+        "elapsed_sec": 53.37
+      },
+      {
+        "question": "is meryl streep an actress or singer",
+        "answer": "{5}",
+        "steps": 2,
+        "tokens": 13634,
+        "replan": 0,
+        "elapsed_sec": 36.07
+      },
+      {
+        "question": "did i get any replies from jan",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 12864,
+        "replan": 0,
+        "elapsed_sec": 41.54
+      },
+      {
+        "question": "cancel the meeting next week Thursday at two pm",
+        "answer": "{15}",
+        "steps": 2,
+        "tokens": 12391,
+        "replan": 0,
+        "elapsed_sec": 30.35
+      },
+      {
+        "question": "tweet at macy's two weeks after purchase and the hems have all come loose",
+        "answer": "{46}",
+        "steps": 2,
+        "tokens": 14333,
+        "replan": 0,
+        "elapsed_sec": 54.74
+      },
+      {
+        "question": "tell my family this in an email",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 12563,
+        "replan": 0,
+        "elapsed_sec": 61.52
+      },
+      {
+        "question": "do not mind to choose any one.",
+        "answer": "{0}",
+        "steps": 2,
+        "tokens": 13572,
+        "replan": 0,
+        "elapsed_sec": 95.71
+      },
+      {
+        "question": "see you",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 69708,
+        "replan": 0,
+        "elapsed_sec": 154.49
+      },
+      {
+        "question": "confirm alarm for tomorrow morning",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 14229,
+        "replan": 0,
+        "elapsed_sec": 49.91
+      },
+      {
+        "question": "what do you want to do today",
+        "answer": "{29}",
+        "steps": 5,
+        "tokens": 76968,
+        "replan": 0,
+        "elapsed_sec": 199.41
+      },
+      {
+        "question": "open calendar",
+        "answer": "{15}",
+        "steps": 5,
+        "tokens": 73637,
+        "replan": 0,
+        "elapsed_sec": 184.85
+      },
+      {
+        "question": "where is stonehenge",
+        "answer": "{5}",
+        "steps": 2,
+        "tokens": 14054,
+        "replan": 0,
+        "elapsed_sec": 47.14
+      },
+      {
+        "question": "how many mega pixel is listed in the description of the canon",
+        "answer": "{66}",
+        "steps": 5,
+        "tokens": 68236,
+        "replan": 0,
+        "elapsed_sec": 93.37
+      },
+      {
+        "question": "how tall is lebron james",
+        "answer": "{5}",
+        "steps": 2,
+        "tokens": 13088,
+        "replan": 0,
+        "elapsed_sec": 19.67
+      },
+      {
+        "question": "give me the time",
+        "answer": "{18}",
+        "steps": 2,
+        "tokens": 13330,
+        "replan": 0,
+        "elapsed_sec": 27.15
+      },
+      {
+        "question": "delete list for groceries",
+        "answer": "19",
+        "steps": 2,
+        "tokens": 13335,
+        "replan": 0,
+        "elapsed_sec": 57.64
+      },
+      {
+        "question": "did i get any emails from jack",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 13834,
+        "replan": 0,
+        "elapsed_sec": 41.7
+      },
+      {
+        "question": "confirm last thing said please.",
+        "answer": "{12}",
+        "steps": 2,
+        "tokens": 14306,
+        "replan": 0,
+        "elapsed_sec": 51.07
+      },
+      {
+        "question": "olly set my alarm to go off in an hour",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 14390,
+        "replan": 0,
+        "elapsed_sec": 80.83
+      },
+      {
+        "question": "what are the bbc poll predictions for the upcoming us elections",
+        "answer": "{36}",
+        "steps": 2,
+        "tokens": 13436,
+        "replan": 0,
+        "elapsed_sec": 60.26
+      },
+      {
+        "question": "please remind me to go to the post office",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 14070,
+        "replan": 0,
+        "elapsed_sec": 69.95
+      },
+      {
+        "question": "new emails",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 12494,
+        "replan": 0,
+        "elapsed_sec": 28.76
+      },
+      {
+        "question": "is it noon in paris",
+        "answer": "18",
+        "steps": 2,
+        "tokens": 13746,
+        "replan": 0,
+        "elapsed_sec": 36.1
+      },
+      {
+        "question": "what food is good",
+        "answer": "{35}",
+        "steps": 2,
+        "tokens": 14376,
+        "replan": 0,
+        "elapsed_sec": 52.02
+      },
+      {
+        "question": "what is the exchange rate for eleven british pounds in us dollars",
+        "answer": "55",
+        "steps": 2,
+        "tokens": 13394,
+        "replan": 0,
+        "elapsed_sec": 25.98
+      },
+      {
+        "question": "how many dollars are in a euro",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 13368,
+        "replan": 0,
+        "elapsed_sec": 119.81
+      },
+      {
+        "question": "one am set",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 13223,
+        "replan": 0,
+        "elapsed_sec": 54.23
+      },
+      {
+        "question": "let me know when i am three days out from this event in my calendar",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 13437,
+        "replan": 0,
+        "elapsed_sec": 59.86
+      },
+      {
+        "question": "how many runs did cheteshwar pujara scored yesterday",
+        "answer": "{36}",
+        "steps": 3,
+        "tokens": 32438,
+        "replan": 0,
+        "elapsed_sec": 51.08
+      },
+      {
+        "question": "add eggs to my grocery list",
+        "answer": "{57}",
+        "steps": 2,
+        "tokens": 13482,
+        "replan": 0,
+        "elapsed_sec": 58.66
+      },
+      {
+        "question": "hey i feel good",
+        "answer": "{0}",
+        "steps": 5,
+        "tokens": 68880,
+        "replan": 0,
+        "elapsed_sec": 111.22
+      },
+      {
+        "question": "you've done your understanding correcly.",
+        "answer": "{21}",
+        "steps": 2,
+        "tokens": 12207,
+        "replan": 0,
+        "elapsed_sec": 119.16
+      },
+      {
+        "question": "please confirm details.",
+        "answer": "{12}",
+        "steps": 3,
+        "tokens": 29467,
+        "replan": 0,
+        "elapsed_sec": 157.91
+      },
+      {
+        "question": "describe the list contents",
+        "answer": "{29}",
+        "steps": 2,
+        "tokens": 12680,
+        "replan": 0,
+        "elapsed_sec": 35.53
+      },
+      {
+        "question": "that is all, cancel it.",
+        "answer": "{56}",
+        "steps": 2,
+        "tokens": 12259,
+        "replan": 0,
+        "elapsed_sec": 1089.59
+      },
+      {
+        "question": "shutoff light in the kitchen",
+        "answer": "{26}",
+        "steps": 2,
+        "tokens": 14388,
+        "replan": 0,
+        "elapsed_sec": 53.07
+      },
+      {
+        "question": "it should spices",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 13624,
+        "replan": 0,
+        "elapsed_sec": 88.16
+      },
+      {
+        "question": "i appreciate it, that's amazing.",
+        "answer": "{64}",
+        "steps": 2,
+        "tokens": 13528,
+        "replan": 0,
+        "elapsed_sec": 60.83
+      },
+      {
+        "question": "would you please clarify me about the last sentence again.",
+        "answer": "{16}",
+        "steps": 2,
+        "tokens": 12305,
+        "replan": 0,
+        "elapsed_sec": 25.27
+      },
+      {
+        "question": "send an email to emma",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 12873,
+        "replan": 0,
+        "elapsed_sec": 41.21
+      },
+      {
+        "question": "yesterday at noontime in times square what was the protest about",
+        "answer": "{51}",
+        "steps": 3,
+        "tokens": 32816,
+        "replan": 0,
+        "elapsed_sec": 80.82
+      },
+      {
+        "question": "thanks but i think you are wrong.",
+        "answer": "{23}",
+        "steps": 2,
+        "tokens": 12375,
+        "replan": 0,
+        "elapsed_sec": 95.78
+      },
+      {
+        "question": "turn on my playlist and play third song in the queue",
+        "answer": "17",
+        "steps": 2,
+        "tokens": 15135,
+        "replan": 0,
+        "elapsed_sec": 102.1
+      },
+      {
+        "question": "hey tell me a knock knock joke",
+        "answer": "{41}",
+        "steps": 2,
+        "tokens": 12883,
+        "replan": 0,
+        "elapsed_sec": 41.81
+      },
+      {
+        "question": "delete all lists",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 12895,
+        "replan": 0,
+        "elapsed_sec": 41.92
+      },
+      {
+        "question": "how far away is seattle",
+        "answer": "{20}",
+        "steps": 2,
+        "tokens": 13551,
+        "replan": 0,
+        "elapsed_sec": 38.07
+      },
+      {
+        "question": "did ashwin joined party yesterday",
+        "answer": "{5}",
+        "steps": 5,
+        "tokens": 69245,
+        "replan": 0,
+        "elapsed_sec": 115.79
+      },
+      {
+        "question": "what is the my upcoming events",
+        "answer": "{67}",
+        "steps": 2,
+        "tokens": 13641,
+        "replan": 0,
+        "elapsed_sec": 73.32
+      },
+      {
+        "question": "call yellow cab",
+        "answer": "{24}",
+        "steps": 2,
+        "tokens": 12506,
+        "replan": 0,
+        "elapsed_sec": 121.88
+      },
+      {
+        "question": "s2, i couldn't get what you have said.",
+        "answer": "{16}",
+        "steps": 2,
+        "tokens": 13090,
+        "replan": 0,
+        "elapsed_sec": 47.37
+      },
+      {
+        "question": "would you say that one more time again please.",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 12812,
+        "replan": 0,
+        "elapsed_sec": 38.92
+      },
+      {
+        "question": "answer the equation eight times seven",
+        "answer": "{61}",
+        "steps": 2,
+        "tokens": 13300,
+        "replan": 0,
+        "elapsed_sec": 28.91
+      },
+      {
+        "question": "give me the opening stock price of intel today",
+        "answer": "{4}",
+        "steps": 2,
+        "tokens": 13521,
+        "replan": 0,
+        "elapsed_sec": 27.83
+      },
+      {
+        "question": "please set a meeting to discuss terrorism with fred on the next available meeting day",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 13276,
+        "replan": 0,
+        "elapsed_sec": 57.16
+      },
+      {
+        "question": "how long does it take to get from here to chicago by train",
+        "answer": "{32}",
+        "steps": 2,
+        "tokens": 13949,
+        "replan": 0,
+        "elapsed_sec": 37.33
+      },
+      {
+        "question": "have i gotten any mail recently",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 12728,
+        "replan": 0,
+        "elapsed_sec": 37.33
+      },
+      {
+        "question": "if it's five am in berlin what time is it here",
+        "answer": "{20}",
+        "steps": 2,
+        "tokens": 14028,
+        "replan": 0,
+        "elapsed_sec": 74.06
+      },
+      {
+        "question": "make a status stating i got the promotion",
+        "answer": "{46}",
+        "steps": 2,
+        "tokens": 13427,
+        "replan": 0,
+        "elapsed_sec": 145.94
+      },
+      {
+        "question": "can you retry what i've said please.",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 12769,
+        "replan": 0,
+        "elapsed_sec": 68.61
+      },
+      {
+        "question": "turn on talk radio",
+        "answer": "{27}",
+        "steps": 2,
+        "tokens": 14212,
+        "replan": 0,
+        "elapsed_sec": 45.71
+      },
+      {
+        "question": "uh no, that isn't what i requested.",
+        "answer": "{23}",
+        "steps": 2,
+        "tokens": 12689,
+        "replan": 0,
+        "elapsed_sec": 69.66
+      },
+      {
+        "question": "remove the board meeting and reschedule for next wednesday",
+        "answer": "{38}",
+        "steps": 3,
+        "tokens": 30175,
+        "replan": 0,
+        "elapsed_sec": 81.04
+      },
+      {
+        "question": "local show",
+        "answer": "{37}",
+        "steps": 4,
+        "tokens": 51776,
+        "replan": 0,
+        "elapsed_sec": 103.11
+      },
+      {
+        "question": "i appreciate helping.",
+        "answer": "{64}",
+        "steps": 2,
+        "tokens": 12489,
+        "replan": 0,
+        "elapsed_sec": 124.58
+      },
+      {
+        "question": "i think it's not the correct command.",
+        "answer": "{23}",
+        "steps": 2,
+        "tokens": 12471,
+        "replan": 0,
+        "elapsed_sec": 29.58
+      },
+      {
+        "question": "what are my tasks",
+        "answer": "{29}",
+        "steps": 2,
+        "tokens": 13362,
+        "replan": 0,
+        "elapsed_sec": 51.64
+      },
+      {
+        "question": "hwood",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 67794,
+        "replan": 0,
+        "elapsed_sec": 133.73
+      },
+      {
+        "question": "list saturday night events near current location",
+        "answer": "{51}",
+        "steps": 2,
+        "tokens": 13542,
+        "replan": 0,
+        "elapsed_sec": 64.68
+      },
+      {
+        "question": "turn the lights on",
+        "answer": "{13}",
+        "steps": 2,
+        "tokens": 14370,
+        "replan": 0,
+        "elapsed_sec": 57.88
+      },
+      {
+        "question": "wake me up on Friday at five in the morning i need to catch the train",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 14897,
+        "replan": 0,
+        "elapsed_sec": 157.91
+      },
+      {
+        "question": "show me music by that artist",
+        "answer": "{17}",
+        "steps": 2,
+        "tokens": 13184,
+        "replan": 0,
+        "elapsed_sec": 52.21
+      },
+      {
+        "question": "i need to change the color of this light",
+        "answer": "{40}",
+        "steps": 2,
+        "tokens": 12845,
+        "replan": 0,
+        "elapsed_sec": 43.31
+      },
+      {
+        "question": "i want to send an email to my family do you help me",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 13679,
+        "replan": 0,
+        "elapsed_sec": 32.63
+      },
+      {
+        "question": "please can you say the last comment one more time.",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 12532,
+        "replan": 0,
+        "elapsed_sec": 33.16
+      },
+      {
+        "question": "please open chess game i would like to play with you",
+        "answer": "{43}",
+        "steps": 2,
+        "tokens": 12916,
+        "replan": 0,
+        "elapsed_sec": 43.03
+      },
+      {
+        "question": "awesome work, you did well, olly.",
+        "answer": "{64}",
+        "steps": 2,
+        "tokens": 12354,
+        "replan": 0,
+        "elapsed_sec": 29.43
+      },
+      {
+        "question": "what is the customer service feedback",
+        "answer": "{46}",
+        "steps": 2,
+        "tokens": 13905,
+        "replan": 0,
+        "elapsed_sec": 73.36
+      },
+      {
+        "question": "what are my plans for today",
+        "answer": "{67}",
+        "steps": 2,
+        "tokens": 13361,
+        "replan": 0,
+        "elapsed_sec": 28.76
+      },
+      {
+        "question": "set up each day an alarm at ten time for my meal",
+        "answer": "{42}",
+        "steps": 2,
+        "tokens": 14474,
+        "replan": 0,
+        "elapsed_sec": 58.82
+      },
+      {
+        "question": "start audiobook the time traveller",
+        "answer": "{54}",
+        "steps": 2,
+        "tokens": 13649,
+        "replan": 0,
+        "elapsed_sec": 126.66
+      },
+      {
+        "question": "can i mine for gold on any public land",
+        "answer": "{5}",
+        "steps": 5,
+        "tokens": 69176,
+        "replan": 0,
+        "elapsed_sec": 340.12
+      },
+      {
+        "question": "i need to set up a recurring event in my calendar please",
+        "answer": "{38}",
+        "steps": 2,
+        "tokens": 13749,
+        "replan": 0,
+        "elapsed_sec": 36.93
+      },
+      {
+        "question": "director who direct an act",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 68422,
+        "replan": 0,
+        "elapsed_sec": 150.01
+      },
+      {
+        "question": "tag you're it",
+        "answer": "{43}",
+        "steps": 5,
+        "tokens": 66995,
+        "replan": 0,
+        "elapsed_sec": 203.31
+      },
+      {
+        "question": "how many emails do i have from work today",
+        "answer": "{14}",
+        "steps": 2,
+        "tokens": 13730,
+        "replan": 0,
+        "elapsed_sec": 35.06
+      },
+      {
+        "question": "can you locate some gospel music for me",
+        "answer": "{17}",
+        "steps": 2,
+        "tokens": 14579,
+        "replan": 0,
+        "elapsed_sec": 63.3
+      },
+      {
+        "question": "mute",
+        "answer": "{10}",
+        "steps": 2,
+        "tokens": 12194,
+        "replan": 0,
+        "elapsed_sec": 21.67
+      },
+      {
+        "question": "do not wake me up on weekends",
+        "answer": "{2}",
+        "steps": 2,
+        "tokens": 12455,
+        "replan": 0,
+        "elapsed_sec": 26.39
+      },
+      {
+        "question": "run radio programme",
+        "answer": "{27}",
+        "steps": 2,
+        "tokens": 13558,
+        "replan": 0,
+        "elapsed_sec": 59.61
+      },
+      {
+        "question": "headlines from dhaka tribune",
+        "answer": "{36}",
+        "steps": 2,
+        "tokens": 12495,
+        "replan": 0,
+        "elapsed_sec": 32.03
+      },
+      {
+        "question": "place event in my calendar every tuesday",
+        "answer": "38",
+        "steps": 2,
+        "tokens": 13319,
+        "replan": 0,
+        "elapsed_sec": 29.99
+      },
+      {
+        "question": "select shuffle all",
+        "answer": "{52}",
+        "steps": 2,
+        "tokens": 12976,
+        "replan": 0,
+        "elapsed_sec": 45.52
+      },
+      {
+        "question": "if my vacuum cleaner is not activated please activate it",
+        "answer": "{7}",
+        "steps": 2,
+        "tokens": 12390,
+        "replan": 0,
+        "elapsed_sec": 61.56
+      },
+      {
+        "question": "repeat all",
+        "answer": "{52}",
+        "steps": 3,
+        "tokens": 28786,
+        "replan": 0,
+        "elapsed_sec": 44.24
+      },
+      {
+        "question": "i want to hear the last one you said again.",
+        "answer": "{11}",
+        "steps": 2,
+        "tokens": 13100,
+        "replan": 0,
+        "elapsed_sec": 40.69
+      },
+      {
+        "question": "start the vacuum cleaner",
+        "answer": "{7}",
+        "steps": 2,
+        "tokens": 12275,
+        "replan": 0,
+        "elapsed_sec": 28.06
+      },
+      {
+        "question": "s2, that is not so clear to me.",
+        "answer": "{16}",
+        "steps": 2,
+        "tokens": 12477,
+        "replan": 0,
+        "elapsed_sec": 127.37
+      },
+      {
+        "question": "can you check and confirm detail.",
+        "answer": "{12}",
+        "steps": 2,
+        "tokens": 13217,
+        "replan": 0,
+        "elapsed_sec": 120.34
+      },
+      {
+        "question": "hi how are you",
+        "answer": "{58}",
+        "steps": 2,
+        "tokens": 12293,
+        "replan": 0,
+        "elapsed_sec": 26.2
+      }
+    ]
+  }
+}

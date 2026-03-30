@@ -1,0 +1,71 @@
+{
+  "system": "mem0",
+  "instance_idx": 105,
+  "adaptor": "R2",
+  "accuracy": 0.4,
+  "correct": 4,
+  "total": 10,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，且推理过程引用了故事中关于蓝帽子的关键情节，核心内容准确无误。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均为'B. Book Collector'，核心内容准确无误。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心内容（偷书）与标准答案（获取书中隐藏之物）在动机和情节关键点上存在本质差异，属于核心情节错误。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的核心答案与标准答案一致，均指向A选项，且推理过程基于故事中的人物身份与关系，符合得分标准。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案在核心内容上完全一致，均指出信封中的符号包含重要信息，符合得分标准。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。"
+    },
+    {
+      "q_idx": 6,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。标准答案为'B. Complete Colorblindness'，而Agent预测为'A. No defects'，属于严重偏离。"
+    },
+    {
+      "q_idx": 7,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心人物错误，且其推理基于的文本与问题无关，属于严重偏离。"
+    },
+    {
+      "q_idx": 8,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案'A. William Schedler'与标准答案'B. Hamnet Sedley'在核心人物上完全错误，且其推理依据与标准答案的关键内容不符，属于主要人物错误。"
+    },
+    {
+      "q_idx": 9,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。标准答案为'B. Rain'，而Agent预测为'C. Donohue'，属于主要信息错误。"
+    }
+  ]
+}

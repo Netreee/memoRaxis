@@ -1,0 +1,809 @@
+{
+  "dataset": "test_time_learning",
+  "backend": "memOS",
+  "instance_idx": 2,
+  "results": {
+    "R2": [
+      {
+        "question": "what is the least i can pay towards my car bill",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 13609,
+        "replan": 0,
+        "elapsed_sec": 31.54
+      },
+      {
+        "question": "what's the minimum due for my electric bill",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 14260,
+        "replan": 0,
+        "elapsed_sec": 49.72
+      },
+      {
+        "question": "you can remove the brithday party from my calendar fpr january 15, 2019",
+        "answer": "{57}",
+        "steps": 2,
+        "tokens": 13889,
+        "replan": 0,
+        "elapsed_sec": 41.29
+      },
+      {
+        "question": "everything needs ordered off my list",
+        "answer": "{129}",
+        "steps": 2,
+        "tokens": 13810,
+        "replan": 0,
+        "elapsed_sec": 38.7
+      },
+      {
+        "question": "adjust the volume to level 4",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 13916,
+        "replan": 0,
+        "elapsed_sec": 40.92
+      },
+      {
+        "question": "is there any danger going to brazil",
+        "answer": "{29}",
+        "steps": 2,
+        "tokens": 13566,
+        "replan": 0,
+        "elapsed_sec": 33.59
+      },
+      {
+        "question": "can you play the beatles",
+        "answer": "{110}",
+        "steps": 2,
+        "tokens": 14888,
+        "replan": 0,
+        "elapsed_sec": 67.83
+      },
+      {
+        "question": "how to spell doctor",
+        "answer": "{49}",
+        "steps": 2,
+        "tokens": 13306,
+        "replan": 0,
+        "elapsed_sec": 25.4
+      },
+      {
+        "question": "can you share my credit score with me",
+        "answer": "{43}",
+        "steps": 2,
+        "tokens": 13777,
+        "replan": 0,
+        "elapsed_sec": 40.27
+      },
+      {
+        "question": "no, that's wrong",
+        "answer": "{48}",
+        "steps": 2,
+        "tokens": 14623,
+        "replan": 0,
+        "elapsed_sec": 61.34
+      },
+      {
+        "question": "have i added anything to my todo list",
+        "answer": "{127}",
+        "steps": 2,
+        "tokens": 14622,
+        "replan": 0,
+        "elapsed_sec": 57.13
+      },
+      {
+        "question": "thanks for your help",
+        "answer": "{86}",
+        "steps": 2,
+        "tokens": 12953,
+        "replan": 0,
+        "elapsed_sec": 17.09
+      },
+      {
+        "question": "i need to know my tax rate",
+        "answer": "{2}",
+        "steps": 2,
+        "tokens": 14025,
+        "replan": 0,
+        "elapsed_sec": 48.96
+      },
+      {
+        "question": "go ahead and talk faster now",
+        "answer": "{75}",
+        "steps": 2,
+        "tokens": 14390,
+        "replan": 0,
+        "elapsed_sec": 57.47
+      },
+      {
+        "question": "what kind of fuel do i need to put in my car",
+        "answer": "{138}",
+        "steps": 2,
+        "tokens": 13609,
+        "replan": 0,
+        "elapsed_sec": 31.63
+      },
+      {
+        "question": "i enrolled in an insurance plan, what one was it",
+        "answer": "{55}",
+        "steps": 2,
+        "tokens": 13785,
+        "replan": 0,
+        "elapsed_sec": 36.34
+      },
+      {
+        "question": "what kind of oil do i need for my ford truck and how can i change it",
+        "answer": "{66}",
+        "steps": 2,
+        "tokens": 13430,
+        "replan": 0,
+        "elapsed_sec": 31.86
+      },
+      {
+        "question": "you must change your language setting to russian",
+        "answer": "{116}",
+        "steps": 2,
+        "tokens": 13649,
+        "replan": 0,
+        "elapsed_sec": 34.65
+      },
+      {
+        "question": "please delete the items on my to do list",
+        "answer": "{79}",
+        "steps": 2,
+        "tokens": 14090,
+        "replan": 0,
+        "elapsed_sec": 45.11
+      },
+      {
+        "question": "i want to figure out how to do an oil change on my car",
+        "answer": "{66}",
+        "steps": 2,
+        "tokens": 14113,
+        "replan": 0,
+        "elapsed_sec": 43.93
+      },
+      {
+        "question": "move over to the female voice",
+        "answer": "{114}",
+        "steps": 2,
+        "tokens": 13982,
+        "replan": 0,
+        "elapsed_sec": 47.97
+      },
+      {
+        "question": "how long is the wait at applebee's tonight",
+        "answer": "{118}",
+        "steps": 2,
+        "tokens": 14006,
+        "replan": 0,
+        "elapsed_sec": 46.66
+      },
+      {
+        "question": "could you please change your accent to the male british one",
+        "answer": "{114}",
+        "steps": 2,
+        "tokens": 13312,
+        "replan": 0,
+        "elapsed_sec": 25.54
+      },
+      {
+        "question": "what was the final vote count in the brexit referendum",
+        "answer": "{no label}",
+        "steps": 5,
+        "tokens": 75039,
+        "replan": 0,
+        "elapsed_sec": 102.49
+      },
+      {
+        "question": "what plugs are in england",
+        "answer": "{113}",
+        "steps": 2,
+        "tokens": 13609,
+        "replan": 0,
+        "elapsed_sec": 31.73
+      },
+      {
+        "question": "the credit limit i have needs to be changed",
+        "answer": "{122}",
+        "steps": 2,
+        "tokens": 13921,
+        "replan": 0,
+        "elapsed_sec": 47.74
+      },
+      {
+        "question": "what hour is it in london",
+        "answer": "{82}",
+        "steps": 2,
+        "tokens": 13895,
+        "replan": 0,
+        "elapsed_sec": 46.71
+      },
+      {
+        "question": "i think my luggage is stolen",
+        "answer": "{106}",
+        "steps": 2,
+        "tokens": 13781,
+        "replan": 0,
+        "elapsed_sec": 38.74
+      },
+      {
+        "question": "who is the person responsible for creating you",
+        "answer": "{123}",
+        "steps": 2,
+        "tokens": 13835,
+        "replan": 0,
+        "elapsed_sec": 33.97
+      },
+      {
+        "question": "can you tell me how much money i have i my bank accounts",
+        "answer": "{148}",
+        "steps": 2,
+        "tokens": 13611,
+        "replan": 0,
+        "elapsed_sec": 34.1
+      },
+      {
+        "question": "i'm out of cleaning supplies, remind me on my list",
+        "answer": "{34}",
+        "steps": 2,
+        "tokens": 14614,
+        "replan": 0,
+        "elapsed_sec": 60.07
+      },
+      {
+        "question": "can you tell me the drive time to the nearest gas station",
+        "answer": "{51}",
+        "steps": 2,
+        "tokens": 13484,
+        "replan": 0,
+        "elapsed_sec": 27.68
+      },
+      {
+        "question": "i need you to stop talking",
+        "answer": "{67}",
+        "steps": 2,
+        "tokens": 13986,
+        "replan": 0,
+        "elapsed_sec": 37.69
+      },
+      {
+        "question": "how much is the exchange between usd and euros",
+        "answer": "{105}",
+        "steps": 2,
+        "tokens": 13612,
+        "replan": 0,
+        "elapsed_sec": 32.65
+      },
+      {
+        "question": "send robert a text from me telling him okay",
+        "answer": "{117}",
+        "steps": 2,
+        "tokens": 14793,
+        "replan": 0,
+        "elapsed_sec": 58.69
+      },
+      {
+        "question": "what kind of gas does my car need",
+        "answer": "{138}",
+        "steps": 2,
+        "tokens": 14147,
+        "replan": 0,
+        "elapsed_sec": 45.82
+      },
+      {
+        "question": "do ducks sleep",
+        "answer": "150",
+        "steps": 2,
+        "tokens": 14899,
+        "replan": 0,
+        "elapsed_sec": 78.75
+      },
+      {
+        "question": "what's the name of the song playing right now",
+        "answer": "{72}",
+        "steps": 2,
+        "tokens": 13170,
+        "replan": 0,
+        "elapsed_sec": 21.08
+      },
+      {
+        "question": "what are the steps required for making a vacation request",
+        "answer": "{78}",
+        "steps": 2,
+        "tokens": 13482,
+        "replan": 0,
+        "elapsed_sec": 28.34
+      },
+      {
+        "question": "text joe",
+        "answer": "{117}",
+        "steps": 2,
+        "tokens": 13721,
+        "replan": 0,
+        "elapsed_sec": 37.76
+      },
+      {
+        "question": "cash in my credit card points",
+        "answer": "{97}",
+        "steps": 2,
+        "tokens": 13729,
+        "replan": 0,
+        "elapsed_sec": 35.6
+      },
+      {
+        "question": "can you find me an uber and have it here at 7pm",
+        "answer": "{92}",
+        "steps": 2,
+        "tokens": 13996,
+        "replan": 0,
+        "elapsed_sec": 43.24
+      },
+      {
+        "question": "tell carl that he sucks",
+        "answer": "{117}",
+        "steps": 5,
+        "tokens": 75541,
+        "replan": 0,
+        "elapsed_sec": 109.98
+      },
+      {
+        "question": "is there a reason my card was declined",
+        "answer": "{45}",
+        "steps": 2,
+        "tokens": 13418,
+        "replan": 0,
+        "elapsed_sec": 32.92
+      },
+      {
+        "question": "what is the process for making a vacation request",
+        "answer": "{78}",
+        "steps": 2,
+        "tokens": 13644,
+        "replan": 0,
+        "elapsed_sec": 95.02
+      },
+      {
+        "question": "please tell me if you are a bot",
+        "answer": "{112}",
+        "steps": 2,
+        "tokens": 14178,
+        "replan": 0,
+        "elapsed_sec": 47.84
+      },
+      {
+        "question": "i need your volume increased",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 13889,
+        "replan": 0,
+        "elapsed_sec": 45.52
+      },
+      {
+        "question": "what's my visa cards balance for rewards",
+        "answer": "{109}",
+        "steps": 2,
+        "tokens": 13472,
+        "replan": 0,
+        "elapsed_sec": 31.7
+      },
+      {
+        "question": "i need a recipe for chicken cordon bleu",
+        "answer": "{81}",
+        "steps": 2,
+        "tokens": 13649,
+        "replan": 0,
+        "elapsed_sec": 37.01
+      },
+      {
+        "question": "give me a cool fact about lsd",
+        "answer": "{65}",
+        "steps": 3,
+        "tokens": 31392,
+        "replan": 0,
+        "elapsed_sec": 37.89
+      },
+      {
+        "question": "i need to know what time it is",
+        "answer": "{82}",
+        "steps": 2,
+        "tokens": 13766,
+        "replan": 0,
+        "elapsed_sec": 38.0
+      },
+      {
+        "question": "either i am not sure",
+        "answer": "{140}",
+        "steps": 2,
+        "tokens": 13511,
+        "replan": 0,
+        "elapsed_sec": 36.78
+      },
+      {
+        "question": "can you ask me that again",
+        "answer": "{62}",
+        "steps": 2,
+        "tokens": 13798,
+        "replan": 0,
+        "elapsed_sec": 42.91
+      },
+      {
+        "question": "where were you born as a kid",
+        "answer": "{47}",
+        "steps": 2,
+        "tokens": 13639,
+        "replan": 0,
+        "elapsed_sec": 33.73
+      },
+      {
+        "question": "how long will it take for me to get to the gas station",
+        "answer": "{51}",
+        "steps": 2,
+        "tokens": 13591,
+        "replan": 0,
+        "elapsed_sec": 27.96
+      },
+      {
+        "question": "set the timer for 10 minutes",
+        "answer": "{136}",
+        "steps": 2,
+        "tokens": 13577,
+        "replan": 0,
+        "elapsed_sec": 25.89
+      },
+      {
+        "question": "can i change you name to gretchen",
+        "answer": "{99}",
+        "steps": 2,
+        "tokens": 13908,
+        "replan": 0,
+        "elapsed_sec": 38.21
+      },
+      {
+        "question": "did i make a note on my todo list to mop the bathroom floor",
+        "answer": "{128}",
+        "steps": 2,
+        "tokens": 13732,
+        "replan": 0,
+        "elapsed_sec": 34.08
+      },
+      {
+        "question": "how many years have you been living",
+        "answer": "{17}",
+        "steps": 2,
+        "tokens": 13657,
+        "replan": 0,
+        "elapsed_sec": 35.51
+      },
+      {
+        "question": "is rice good for me",
+        "answer": "{10}",
+        "steps": 2,
+        "tokens": 13795,
+        "replan": 0,
+        "elapsed_sec": 41.14
+      },
+      {
+        "question": "what's is the current weather forecast",
+        "answer": "{22}",
+        "steps": 2,
+        "tokens": 13943,
+        "replan": 0,
+        "elapsed_sec": 41.53
+      },
+      {
+        "question": "make me an appointment for a tire check",
+        "answer": "{119}",
+        "steps": 2,
+        "tokens": 14518,
+        "replan": 0,
+        "elapsed_sec": 59.87
+      },
+      {
+        "question": "i need to obtain and uber",
+        "answer": "{92}",
+        "steps": 2,
+        "tokens": 14287,
+        "replan": 0,
+        "elapsed_sec": 49.98
+      },
+      {
+        "question": "what things did i not want to forget",
+        "answer": "{127}",
+        "steps": 2,
+        "tokens": 13427,
+        "replan": 0,
+        "elapsed_sec": 32.58
+      },
+      {
+        "question": "what rules does southwest have for carry-on luggage",
+        "answer": "{124}",
+        "steps": 2,
+        "tokens": 13392,
+        "replan": 0,
+        "elapsed_sec": 27.52
+      },
+      {
+        "question": "i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there",
+        "answer": "{34}",
+        "steps": 2,
+        "tokens": 14743,
+        "replan": 0,
+        "elapsed_sec": 61.41
+      },
+      {
+        "question": "in what month does my credit card expire",
+        "answer": "{90}",
+        "steps": 2,
+        "tokens": 13817,
+        "replan": 0,
+        "elapsed_sec": 34.39
+      },
+      {
+        "question": "give me location for tourist destination in bangkok",
+        "answer": "{60}",
+        "steps": 2,
+        "tokens": 13661,
+        "replan": 0,
+        "elapsed_sec": 30.58
+      },
+      {
+        "question": "tell me my tax rate",
+        "answer": "{2}",
+        "steps": 3,
+        "tokens": 32541,
+        "replan": 0,
+        "elapsed_sec": 67.46
+      },
+      {
+        "question": "could you tell me my bill's minimum payment",
+        "answer": "{19}",
+        "steps": 2,
+        "tokens": 13268,
+        "replan": 0,
+        "elapsed_sec": 24.13
+      },
+      {
+        "question": "when did i last get my car serviced",
+        "answer": "{107}",
+        "steps": 2,
+        "tokens": 13291,
+        "replan": 0,
+        "elapsed_sec": 27.66
+      },
+      {
+        "question": "make your volume quieter please",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 78005,
+        "replan": 0,
+        "elapsed_sec": 191.03
+      },
+      {
+        "question": "for the love of all that good change your accent",
+        "answer": "{114}",
+        "steps": 2,
+        "tokens": 13721,
+        "replan": 0,
+        "elapsed_sec": 34.25
+      },
+      {
+        "question": "i want to know what the purpose of life is",
+        "answer": "{98}",
+        "steps": 2,
+        "tokens": 13752,
+        "replan": 0,
+        "elapsed_sec": 34.02
+      },
+      {
+        "question": "what's the wait like at chima brazilian steakhouse at this time",
+        "answer": "{118}",
+        "steps": 2,
+        "tokens": 13547,
+        "replan": 0,
+        "elapsed_sec": 31.18
+      },
+      {
+        "question": "set my alarm for eight tomorrow, please",
+        "answer": "{102}",
+        "steps": 2,
+        "tokens": 13661,
+        "replan": 0,
+        "elapsed_sec": 28.4
+      },
+      {
+        "question": "change back to factory settings",
+        "answer": "{28}",
+        "steps": 2,
+        "tokens": 13436,
+        "replan": 0,
+        "elapsed_sec": 23.59
+      },
+      {
+        "question": "how high is my spending limit on my wells fargo card",
+        "answer": "{144}",
+        "steps": 2,
+        "tokens": 13481,
+        "replan": 0,
+        "elapsed_sec": 27.96
+      },
+      {
+        "question": "i'd like to know how to make changes for my insurance policy",
+        "answer": "{139}",
+        "steps": 2,
+        "tokens": 15025,
+        "replan": 0,
+        "elapsed_sec": 63.4
+      },
+      {
+        "question": "what are you interested in",
+        "answer": "{73}",
+        "steps": 2,
+        "tokens": 13770,
+        "replan": 0,
+        "elapsed_sec": 71.07
+      },
+      {
+        "question": "scrap",
+        "answer": "{64}",
+        "steps": 4,
+        "tokens": 55548,
+        "replan": 0,
+        "elapsed_sec": 60.35
+      },
+      {
+        "question": "my card is lost and i need to know how to report it",
+        "answer": "{61}",
+        "steps": 2,
+        "tokens": 13482,
+        "replan": 0,
+        "elapsed_sec": 26.97
+      },
+      {
+        "question": "what is that tune",
+        "answer": "{72}",
+        "steps": 2,
+        "tokens": 14561,
+        "replan": 0,
+        "elapsed_sec": 57.71
+      },
+      {
+        "question": "i've forgotten my pin number for my citibank gold account",
+        "answer": "{50}",
+        "steps": 2,
+        "tokens": 14614,
+        "replan": 0,
+        "elapsed_sec": 64.1
+      },
+      {
+        "question": "what's delta's carry on policy",
+        "answer": "{124}",
+        "steps": 2,
+        "tokens": 13006,
+        "replan": 0,
+        "elapsed_sec": 208.31
+      },
+      {
+        "question": "what is the best way to insure that my credit score doesn't decrease",
+        "answer": "{149}",
+        "steps": 2,
+        "tokens": 13492,
+        "replan": 0,
+        "elapsed_sec": 27.28
+      },
+      {
+        "question": "help me schedule maintenance for my car",
+        "answer": "{119}",
+        "steps": 2,
+        "tokens": 13745,
+        "replan": 0,
+        "elapsed_sec": 37.31
+      },
+      {
+        "question": "tell me the meaning of condemnation",
+        "answer": "{108}",
+        "steps": 2,
+        "tokens": 13898,
+        "replan": 0,
+        "elapsed_sec": 45.13
+      },
+      {
+        "question": "tell me the meaning of hegemony",
+        "answer": "{108}",
+        "steps": 2,
+        "tokens": 13321,
+        "replan": 0,
+        "elapsed_sec": 26.05
+      },
+      {
+        "question": "roll that dice",
+        "answer": "{46}",
+        "steps": 2,
+        "tokens": 13767,
+        "replan": 0,
+        "elapsed_sec": 37.96
+      },
+      {
+        "question": "tell me an axolotl fact",
+        "answer": "{65}",
+        "steps": 2,
+        "tokens": 13546,
+        "replan": 0,
+        "elapsed_sec": 28.11
+      },
+      {
+        "question": "i do not think that is proper",
+        "answer": "{48}",
+        "steps": 2,
+        "tokens": 14340,
+        "replan": 0,
+        "elapsed_sec": 50.04
+      },
+      {
+        "question": "who do you say you work for",
+        "answer": "{35}",
+        "steps": 2,
+        "tokens": 14722,
+        "replan": 0,
+        "elapsed_sec": 54.19
+      },
+      {
+        "question": "will i be permitted to take my vacation",
+        "answer": "{94}",
+        "steps": 2,
+        "tokens": 14654,
+        "replan": 0,
+        "elapsed_sec": 59.43
+      },
+      {
+        "question": "specify who your boss is",
+        "answer": "{35}",
+        "steps": 2,
+        "tokens": 13854,
+        "replan": 0,
+        "elapsed_sec": 69.49
+      },
+      {
+        "question": "this was fun, see you around bye",
+        "answer": "{53}",
+        "steps": 2,
+        "tokens": 14061,
+        "replan": 0,
+        "elapsed_sec": 43.54
+      },
+      {
+        "question": "10 minutes is the setting for the timer",
+        "answer": "{136}",
+        "steps": 2,
+        "tokens": 13996,
+        "replan": 0,
+        "elapsed_sec": 35.54
+      },
+      {
+        "question": "i want to be called tom",
+        "answer": "{8}",
+        "steps": 2,
+        "tokens": 14279,
+        "replan": 0,
+        "elapsed_sec": 46.27
+      },
+      {
+        "question": "is a shot required before traveling to mexico",
+        "answer": "{83}",
+        "steps": 2,
+        "tokens": 13242,
+        "replan": 0,
+        "elapsed_sec": 23.78
+      },
+      {
+        "question": "please inform me on bad habits and overcoming them",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 77055,
+        "replan": 0,
+        "elapsed_sec": 158.22
+      }
+    ]
+  }
+}

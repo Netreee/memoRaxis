@@ -1,0 +1,793 @@
+{
+  "dataset": "Test_Time_Learning",
+  "backend": "mem0",
+  "instance_idx": 3,
+  "results": {
+    "R2": [
+      {
+        "question": "fight me in street fighter",
+        "answer": "{9}",
+        "steps": 5,
+        "tokens": 9865,
+        "latency_s": 111.6,
+        "replan": 0
+      },
+      {
+        "question": "i have to tell you about my day",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 9945,
+        "latency_s": 108.84,
+        "replan": 0
+      },
+      {
+        "question": "is meryl streep an actress or singer",
+        "answer": "{0}",
+        "steps": 5,
+        "tokens": 9905,
+        "latency_s": 112.83,
+        "replan": 0
+      },
+      {
+        "question": "did i get any replies from jan",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 11815,
+        "latency_s": 165.53,
+        "replan": 0
+      },
+      {
+        "question": "cancel the meeting next week Thursday at two pm",
+        "answer": "{3}",
+        "steps": 5,
+        "tokens": 11373,
+        "latency_s": 140.11,
+        "replan": 0
+      },
+      {
+        "question": "tweet at macy's two weeks after purchase and the hems have all come loose",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 11912,
+        "latency_s": 134.98,
+        "replan": 0
+      },
+      {
+        "question": "tell my family this in an email",
+        "answer": "{no label}",
+        "steps": 5,
+        "tokens": 10823,
+        "latency_s": 126.49,
+        "replan": 0
+      },
+      {
+        "question": "do not mind to choose any one.",
+        "answer": "{no label}",
+        "steps": 5,
+        "tokens": 10325,
+        "latency_s": 102.57,
+        "replan": 0
+      },
+      {
+        "question": "see you",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 9062,
+        "latency_s": 94.25,
+        "replan": 0
+      },
+      {
+        "question": "confirm alarm for tomorrow morning",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 9986,
+        "latency_s": 110.6,
+        "replan": 0
+      },
+      {
+        "question": "what do you want to do today",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 10896,
+        "latency_s": 115.42,
+        "replan": 0
+      },
+      {
+        "question": "open calendar",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 10270,
+        "latency_s": 104.43,
+        "replan": 0
+      },
+      {
+        "question": "where is stonehenge",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 12506,
+        "latency_s": 170.52,
+        "replan": 0
+      },
+      {
+        "question": "how many mega pixel is listed in the description of the canon",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 10514,
+        "latency_s": 119.53,
+        "replan": 0
+      },
+      {
+        "question": "how tall is lebron james",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 9563,
+        "latency_s": 92.93,
+        "replan": 0
+      },
+      {
+        "question": "give me the time",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 13764,
+        "latency_s": 201.48,
+        "replan": 0
+      },
+      {
+        "question": "delete list for groceries",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 11168,
+        "latency_s": 130.1,
+        "replan": 0
+      },
+      {
+        "question": "did i get any emails from jack",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 2309,
+        "latency_s": 25.44,
+        "replan": 0
+      },
+      {
+        "question": "confirm last thing said please.",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 10655,
+        "latency_s": 115.38,
+        "replan": 0
+      },
+      {
+        "question": "olly set my alarm to go off in an hour",
+        "answer": "{8}",
+        "steps": 5,
+        "tokens": 11142,
+        "latency_s": 125.8,
+        "replan": 0
+      },
+      {
+        "question": "what are the bbc poll predictions for the upcoming us elections",
+        "error": "'str' object has no attribute 'get'"
+      },
+      {
+        "question": "please remind me to go to the post office",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 10748,
+        "latency_s": 123.95,
+        "replan": 0
+      },
+      {
+        "question": "new emails",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 10756,
+        "latency_s": 124.37,
+        "replan": 0
+      },
+      {
+        "question": "is it noon in paris",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 10948,
+        "latency_s": 139.48,
+        "replan": 0
+      },
+      {
+        "question": "what food is good",
+        "answer": "{8}",
+        "steps": 2,
+        "tokens": 3764,
+        "latency_s": 60.53,
+        "replan": 0
+      },
+      {
+        "question": "what is the exchange rate for eleven british pounds in us dollars",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "how many dollars are in a euro",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 10815,
+        "latency_s": 133.47,
+        "replan": 0
+      },
+      {
+        "question": "one am set",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 10280,
+        "latency_s": 107.07,
+        "replan": 0
+      },
+      {
+        "question": "let me know when i am three days out from this event in my calendar",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 11227,
+        "latency_s": 123.38,
+        "replan": 0
+      },
+      {
+        "question": "how many runs did cheteshwar pujara scored yesterday",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 9748,
+        "latency_s": 112.12,
+        "replan": 0
+      },
+      {
+        "question": "add eggs to my grocery list",
+        "answer": "{1}",
+        "steps": 4,
+        "tokens": 9671,
+        "latency_s": 144.79,
+        "replan": 0
+      },
+      {
+        "question": "hey i feel good",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 10959,
+        "latency_s": 119.39,
+        "replan": 0
+      },
+      {
+        "question": "you've done your understanding correcly.",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 10818,
+        "latency_s": 121.88,
+        "replan": 0
+      },
+      {
+        "question": "please confirm details.",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 10703,
+        "latency_s": 125.55,
+        "replan": 0
+      },
+      {
+        "question": "describe the list contents",
+        "answer": "{none}",
+        "steps": 5,
+        "tokens": 9680,
+        "latency_s": 106.12,
+        "replan": 0
+      },
+      {
+        "question": "that is all, cancel it.",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 11149,
+        "latency_s": 130.2,
+        "replan": 0
+      },
+      {
+        "question": "shutoff light in the kitchen",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 3196,
+        "latency_s": 48.68,
+        "replan": 0
+      },
+      {
+        "question": "it should spices",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 9465,
+        "latency_s": 101.27,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate it, that's amazing.",
+        "answer": "{2}",
+        "steps": 5,
+        "tokens": 11867,
+        "latency_s": 143.46,
+        "replan": 0
+      },
+      {
+        "question": "would you please clarify me about the last sentence again.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 10602,
+        "latency_s": 115.33,
+        "replan": 0
+      },
+      {
+        "question": "send an email to emma",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 9612,
+        "latency_s": 95.61,
+        "replan": 0
+      },
+      {
+        "question": "yesterday at noontime in times square what was the protest about",
+        "answer": "{0}",
+        "steps": 5,
+        "tokens": 10750,
+        "latency_s": 129.83,
+        "replan": 0
+      },
+      {
+        "question": "thanks but i think you are wrong.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 11168,
+        "latency_s": 122.2,
+        "replan": 0
+      },
+      {
+        "question": "turn on my playlist and play third song in the queue",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 11430,
+        "latency_s": 128.9,
+        "replan": 0
+      },
+      {
+        "question": "hey tell me a knock knock joke",
+        "answer": "{1}",
+        "steps": 3,
+        "tokens": 4839,
+        "latency_s": 58.43,
+        "replan": 0
+      },
+      {
+        "question": "delete all lists",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 10005,
+        "latency_s": 115.3,
+        "replan": 0
+      },
+      {
+        "question": "how far away is seattle",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 10999,
+        "latency_s": 137.12,
+        "replan": 0
+      },
+      {
+        "question": "did ashwin joined party yesterday",
+        "answer": "0",
+        "steps": 5,
+        "tokens": 9475,
+        "latency_s": 105.99,
+        "replan": 0
+      },
+      {
+        "question": "what is the my upcoming events",
+        "answer": "1,5,6",
+        "steps": 2,
+        "tokens": 3886,
+        "latency_s": 62.54,
+        "replan": 0
+      },
+      {
+        "question": "call yellow cab",
+        "answer": "{4}",
+        "steps": 5,
+        "tokens": 9920,
+        "latency_s": 118.54,
+        "replan": 0
+      },
+      {
+        "question": "s2, i couldn't get what you have said.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 11519,
+        "latency_s": 133.16,
+        "replan": 0
+      },
+      {
+        "question": "would you say that one more time again please.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 11973,
+        "latency_s": 153.62,
+        "replan": 0
+      },
+      {
+        "question": "answer the equation eight times seven",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 9926,
+        "latency_s": 98.49,
+        "replan": 0
+      },
+      {
+        "question": "give me the opening stock price of intel today",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "please set a meeting to discuss terrorism with fred on the next available meeting day",
+        "answer": "{15}",
+        "steps": 5,
+        "tokens": 9867,
+        "latency_s": 106.87,
+        "replan": 0
+      },
+      {
+        "question": "how long does it take to get from here to chicago by train",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 11715,
+        "latency_s": 138.65,
+        "replan": 0
+      },
+      {
+        "question": "have i gotten any mail recently",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 10420,
+        "latency_s": 129.33,
+        "replan": 0
+      },
+      {
+        "question": "if it's five am in berlin what time is it here",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 11536,
+        "latency_s": 149.06,
+        "replan": 0
+      },
+      {
+        "question": "make a status stating i got the promotion",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 9976,
+        "latency_s": 100.19,
+        "replan": 0
+      },
+      {
+        "question": "can you retry what i've said please.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 11146,
+        "latency_s": 136.53,
+        "replan": 0
+      },
+      {
+        "question": "turn on talk radio",
+        "answer": "{4}",
+        "steps": 5,
+        "tokens": 10242,
+        "latency_s": 120.07,
+        "replan": 0
+      },
+      {
+        "question": "uh no, that isn't what i requested.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 11930,
+        "latency_s": 131.15,
+        "replan": 0
+      },
+      {
+        "question": "remove the board meeting and reschedule for next wednesday",
+        "answer": "{none}",
+        "steps": 5,
+        "tokens": 11937,
+        "latency_s": 159.76,
+        "replan": 0
+      },
+      {
+        "question": "local show",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 9053,
+        "latency_s": 93.54,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate helping.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 9649,
+        "latency_s": 94.52,
+        "replan": 0
+      },
+      {
+        "question": "i think it's not the correct command.",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 12370,
+        "latency_s": 144.73,
+        "replan": 0
+      },
+      {
+        "question": "what are my tasks",
+        "answer": "Here are your tasks:\n1. Every three hours give you your facebook update.\n2. Find out if your meeting today was rescheduled.\n3. Schedule a meeting with your colleague.\n4. Complete the oil change (added to your to-do list).\n5. Add Tom to your contact list.\n6. Add your work email address.\n7. Set a reminder for your 9 am meeting on Wednesday.\n8. Schedule a meeting on Tuesday.\n9. Add mow lawn, order more soap, and put carrots in there to your to-do list.",
+        "steps": 2,
+        "tokens": 5391,
+        "latency_s": 99.15,
+        "replan": 0
+      },
+      {
+        "question": "hwood",
+        "answer": "{2}",
+        "steps": 5,
+        "tokens": 8831,
+        "latency_s": 72.31,
+        "replan": 0
+      },
+      {
+        "question": "list saturday night events near current location",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 10563,
+        "latency_s": 123.7,
+        "replan": 0
+      },
+      {
+        "question": "turn the lights on",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 3167,
+        "latency_s": 45.1,
+        "replan": 0
+      },
+      {
+        "question": "wake me up on Friday at five in the morning i need to catch the train",
+        "answer": "{3}",
+        "steps": 2,
+        "tokens": 3265,
+        "latency_s": 45.85,
+        "replan": 0
+      },
+      {
+        "question": "show me music by that artist",
+        "answer": "{6}",
+        "steps": 2,
+        "tokens": 4064,
+        "latency_s": 63.12,
+        "replan": 0
+      },
+      {
+        "question": "i need to change the color of this light",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 4314,
+        "latency_s": 73.92,
+        "replan": 0
+      },
+      {
+        "question": "i want to send an email to my family do you help me",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 10524,
+        "latency_s": 115.87,
+        "replan": 0
+      },
+      {
+        "question": "please can you say the last comment one more time.",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 10889,
+        "latency_s": 119.08,
+        "replan": 0
+      },
+      {
+        "question": "please open chess game i would like to play with you",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 9345,
+        "latency_s": 96.21,
+        "replan": 0
+      },
+      {
+        "question": "awesome work, you did well, olly.",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 9994,
+        "latency_s": 107.25,
+        "replan": 0
+      },
+      {
+        "question": "what is the customer service feedback",
+        "answer": "{2}",
+        "steps": 5,
+        "tokens": 10570,
+        "latency_s": 94.91,
+        "replan": 0
+      },
+      {
+        "question": "what are my plans for today",
+        "answer": "{3}",
+        "steps": 3,
+        "tokens": 7701,
+        "latency_s": 120.56,
+        "replan": 0
+      },
+      {
+        "question": "set up each day an alarm at ten time for my meal",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 10557,
+        "latency_s": 111.02,
+        "replan": 0
+      },
+      {
+        "question": "start audiobook the time traveller",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 9473,
+        "latency_s": 95.53,
+        "replan": 0
+      },
+      {
+        "question": "can i mine for gold on any public land",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "i need to set up a recurring event in my calendar please",
+        "answer": "{8}",
+        "steps": 3,
+        "tokens": 6599,
+        "latency_s": 91.04,
+        "replan": 0
+      },
+      {
+        "question": "director who direct an act",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 10103,
+        "latency_s": 93.16,
+        "replan": 0
+      },
+      {
+        "question": "tag you're it",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 9809,
+        "latency_s": 80.43,
+        "replan": 0
+      },
+      {
+        "question": "how many emails do i have from work today",
+        "answer": "{none}",
+        "steps": 2,
+        "tokens": 5168,
+        "latency_s": 94.49,
+        "replan": 0
+      },
+      {
+        "question": "can you locate some gospel music for me",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 11510,
+        "latency_s": 145.6,
+        "replan": 0
+      },
+      {
+        "question": "mute",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 4622,
+        "latency_s": 79.34,
+        "replan": 0
+      },
+      {
+        "question": "do not wake me up on weekends",
+        "answer": "{16}",
+        "steps": 5,
+        "tokens": 10760,
+        "latency_s": 126.25,
+        "replan": 0
+      },
+      {
+        "question": "run radio programme",
+        "answer": "{2}",
+        "steps": 5,
+        "tokens": 10079,
+        "latency_s": 122.16,
+        "replan": 0
+      },
+      {
+        "question": "headlines from dhaka tribune",
+        "answer": "0",
+        "steps": 5,
+        "tokens": 10170,
+        "latency_s": 112.32,
+        "replan": 0
+      },
+      {
+        "question": "place event in my calendar every tuesday",
+        "answer": "{4}",
+        "steps": 2,
+        "tokens": 4140,
+        "latency_s": 74.74,
+        "replan": 0
+      },
+      {
+        "question": "select shuffle all",
+        "answer": "{None}",
+        "steps": 5,
+        "tokens": 10363,
+        "latency_s": 92.54,
+        "replan": 0
+      },
+      {
+        "question": "if my vacuum cleaner is not activated please activate it",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 4258,
+        "latency_s": 78.21,
+        "replan": 0
+      },
+      {
+        "question": "repeat all",
+        "answer": "{label}",
+        "steps": 5,
+        "tokens": 10665,
+        "latency_s": 106.5,
+        "replan": 0
+      },
+      {
+        "question": "i want to hear the last one you said again.",
+        "answer": "{1}",
+        "steps": 2,
+        "tokens": 4373,
+        "latency_s": 75.54,
+        "replan": 0
+      },
+      {
+        "question": "start the vacuum cleaner",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 10584,
+        "latency_s": 130.07,
+        "replan": 0
+      },
+      {
+        "question": "s2, that is not so clear to me.",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 10333,
+        "latency_s": 111.01,
+        "replan": 0
+      },
+      {
+        "question": "can you check and confirm detail.",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 12224,
+        "latency_s": 181.41,
+        "replan": 0
+      },
+      {
+        "question": "hi how are you",
+        "answer": "{ }",
+        "steps": 5,
+        "tokens": 9913,
+        "latency_s": 106.35,
+        "replan": 0
+      }
+    ]
+  }
+}

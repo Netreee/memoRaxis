@@ -1,0 +1,17 @@
+{
+  "system": "amem",
+  "instance_idx": 7,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，将主角姓名、性别、核心情节和人物关系完全错误描述（如将男性主角Viola误为女性，并虚构了大量不存在的次要人物和事件），且包含了明确要求避免的主题分析。"
+    }
+  ]
+}

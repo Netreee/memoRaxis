@@ -182,10 +182,14 @@ def evaluate_one_instance(
     limit: int,
     output_suffix: str = "",
     index_dir: str = None,
+    chunk_size: int = None,
 ):
     cfg = TASK_CONFIG[task]
     _index_dir = Path(index_dir) if index_dir else INDEX_DIR
-    index_path = _index_dir / f"{cfg['index_prefix']}_{instance_idx}"
+    prefix = cfg['index_prefix']
+    if chunk_size is not None:
+        prefix = f"{prefix}_cs{chunk_size}"
+    index_path = _index_dir / f"{prefix}_{instance_idx}"
 
     if not index_path.exists():
         logger.error(f"HippoRAG index not found: {index_path} (run ingest first)")
@@ -207,9 +211,9 @@ def evaluate_one_instance(
 
     conf = get_config()
     llm = OpenAIClient(
-        api_key=conf.llm["api_key"],
-        base_url=conf.llm["base_url"],
-        model=conf.llm["model"],
+        api_key=conf.llm.get("api_key"),
+        base_url=conf.llm.get("base_url"),
+        model=conf.llm.get("model"),
     )
 
     template_name = get_template_name(task, instance_idx)
@@ -268,6 +272,8 @@ def main():
                         help=f"Directory containing HippoRAG indices (default: {INDEX_DIR})")
     parser.add_argument("--output_suffix", type=str, default="",
                         help="Suffix for output filename")
+    parser.add_argument("--chunk_size", type=int, default=None,
+                        help="Match the chunk_size used in ingest (for small-chunk experiments)")
     args = parser.parse_args()
 
     indices = parse_instance_indices(args.instance_idx)
@@ -276,7 +282,7 @@ def main():
     logger.info(f"Target adaptors: {args.adaptor}")
 
     for idx in indices:
-        evaluate_one_instance(args.task, idx, args.adaptor, args.limit, args.output_suffix, args.index_dir)
+        evaluate_one_instance(args.task, idx, args.adaptor, args.limit, args.output_suffix, args.index_dir, args.chunk_size)
 
 
 if __name__ == "__main__":

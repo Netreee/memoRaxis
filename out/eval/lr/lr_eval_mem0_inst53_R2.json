@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 53,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案的核心情节。标准答案明确故事分为Book I和Book II，以Coral前往Bath为关键开端。而Agent预测完全未提及此核心结构、Bath的背景、Preciouss家庭等关键情节，转而描述了一段围绕Hugo家族、Martina、Nicolas以及Ashlie Dominick恶作剧的复杂人际关系，这些在标准答案中均未出现，属于核心情节缺失和错误。"
+    }
+  ]
+}

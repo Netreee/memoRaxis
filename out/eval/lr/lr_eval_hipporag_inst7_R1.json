@@ -1,0 +1,17 @@
+{
+  "system": "hipporag",
+  "instance_idx": 7,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，将故事核心人物（Viola）的性别、关键情节（被开除、家庭背景）及故事发生地（美国宾夕法尼亚州）完全错误地描述为马来西亚背景的男性角色及其它无关情节，且预测内容包含明确被禁止的主题分析，未按要求提供纯情节与人物摘要。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 67,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测与标准答案的核心情节、人物关系和主要事件严重不符。预测中出现了标准答案未提及的人物（如Sania, Nate, Ramon）、地点（Howards End, Oniton）和情节线（房屋继承、谋杀等），而标准答案中的关键人物（如Morris Maryann作为保险职员与Lars家的相遇）和核心事件（如Lars家与Raine家的关系、音乐会相遇等）在预测中要么缺失，要么被错误地整合到另一个完全不同的故事框架中。"
+    }
+  ]
+}

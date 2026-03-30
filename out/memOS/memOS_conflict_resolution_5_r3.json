@@ -1,0 +1,617 @@
+{
+  "dataset": "conflict_resolution",
+  "backend": "memOS",
+  "instance_idx": 5,
+  "results": {
+    "R3": [
+      {
+        "question": "Which sport is Salem-Keizer Volcanoes associated with?",
+        "answer": "basketball",
+        "steps": 2,
+        "tokens": 147976,
+        "replan": 0,
+        "elapsed_sec": 61.19
+      },
+      {
+        "question": "What position does Nick Rimando play?",
+        "answer": "goalkeeper",
+        "steps": 2,
+        "tokens": 148887,
+        "replan": 0,
+        "elapsed_sec": 67.48
+      },
+      {
+        "question": "Which sport is power forward associated with?",
+        "answer": "rugby",
+        "steps": 2,
+        "tokens": 150977,
+        "replan": 0,
+        "elapsed_sec": 127.53
+      },
+      {
+        "question": "Which religion is Morris Iemma affiliated with?",
+        "answer": "Methodism",
+        "steps": 2,
+        "tokens": 143811,
+        "replan": 0,
+        "elapsed_sec": 54.61
+      },
+      {
+        "question": "Which sport is FC Slutsk associated with?",
+        "answer": "association football",
+        "steps": 2,
+        "tokens": 148095,
+        "replan": 0,
+        "elapsed_sec": 54.36
+      },
+      {
+        "question": "What is the capital of United Kingdom?",
+        "answer": "Rupnagar",
+        "steps": 2,
+        "tokens": 144117,
+        "replan": 0,
+        "elapsed_sec": 54.23
+      },
+      {
+        "question": "What is the country of citizenship of Dan Christensen?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 148704,
+        "replan": 0,
+        "elapsed_sec": 47.37
+      },
+      {
+        "question": "Who founded Montanism?",
+        "answer": "No relevant information about who founded Montanism is found in the knowledge pool.",
+        "steps": 4,
+        "tokens": 426090,
+        "replan": 2,
+        "elapsed_sec": 113.95
+      },
+      {
+        "question": "Which city did Noel Pemberton Billing work in?",
+        "answer": "Washington, D.C.",
+        "steps": 2,
+        "tokens": 147769,
+        "replan": 0,
+        "elapsed_sec": 47.98
+      },
+      {
+        "question": "What is the capital of Papal States?",
+        "answer": "Rome",
+        "steps": 2,
+        "tokens": 143786,
+        "replan": 0,
+        "elapsed_sec": 40.67
+      },
+      {
+        "question": "What is the country of citizenship of Edmund Burke?",
+        "answer": "Kingdom of Ireland",
+        "steps": 2,
+        "tokens": 148006,
+        "replan": 0,
+        "elapsed_sec": 49.79
+      },
+      {
+        "question": "What is the country of citizenship of Colin Irwin?",
+        "answer": "Israel",
+        "steps": 2,
+        "tokens": 144498,
+        "replan": 0,
+        "elapsed_sec": 57.66
+      },
+      {
+        "question": "Who is the developer of Apple DOS?",
+        "error": "Connection error.",
+        "elapsed_sec": 750.5
+      },
+      {
+        "question": "Which sport is Gary SouthShore RailCats associated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 170.39
+      },
+      {
+        "question": "Which city was Bachir Gemayel born in?",
+        "error": "Connection error.",
+        "elapsed_sec": 242.28
+      },
+      {
+        "question": "What is the country of citizenship of Rick Remender?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 52746,
+        "replan": 0,
+        "elapsed_sec": 1919.66
+      },
+      {
+        "question": "Which sport is Jeff Hornacek associated with?",
+        "answer": "football",
+        "steps": 2,
+        "tokens": 145500,
+        "replan": 0,
+        "elapsed_sec": 83.32
+      },
+      {
+        "question": "Who is Charles Darwin married to?",
+        "error": "Request timed out.",
+        "elapsed_sec": 246.08
+      },
+      {
+        "question": "Who is the author of David Copperfield?",
+        "error": "Request timed out.",
+        "elapsed_sec": 158.27
+      },
+      {
+        "question": "Which religion is Maria Amalia of Naples and Sicily affiliated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 193.38
+      },
+      {
+        "question": "What position does Tony Parker play?",
+        "error": "Connection error.",
+        "elapsed_sec": 230.55
+      },
+      {
+        "question": "Which sport is flanker associated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 326.86
+      },
+      {
+        "question": "What language does Federico García Lorca speak?",
+        "error": "Request timed out.",
+        "elapsed_sec": 210.21
+      },
+      {
+        "question": "What is Stephen Crane famous for?",
+        "error": "Request timed out.",
+        "elapsed_sec": 163.02
+      },
+      {
+        "question": "Who is Igor of Kiev married to?",
+        "error": "Request timed out.",
+        "elapsed_sec": 150.0
+      },
+      {
+        "question": "What is the country of citizenship of Robert Wisdom?",
+        "error": "Request timed out.",
+        "elapsed_sec": 146.51
+      },
+      {
+        "question": "What is the country of citizenship of Renaud Lavillenie?",
+        "error": "Connection error.",
+        "elapsed_sec": 134.0
+      },
+      {
+        "question": "Which sport is midfielder associated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 305.95
+      },
+      {
+        "question": "What is the country of citizenship of James Badge Dale?",
+        "error": "Request timed out.",
+        "elapsed_sec": 126.13
+      },
+      {
+        "question": "Which sport is Darryl Strawberry associated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 186.69
+      },
+      {
+        "question": "Which company is Apple TV produced by?",
+        "error": "Request timed out.",
+        "elapsed_sec": 174.35
+      },
+      {
+        "question": "Which city is the headquarter of Microsoft located in?",
+        "error": "Connection error.",
+        "elapsed_sec": 138.15
+      },
+      {
+        "question": "Which religion is Catholic bishop affiliated with?",
+        "error": "Request timed out.",
+        "elapsed_sec": 85.83
+      },
+      {
+        "question": "Which city did William Holman Hunt die in?",
+        "error": "Request timed out.",
+        "elapsed_sec": 1552.67
+      },
+      {
+        "question": "What is the country of citizenship of Travis Barker?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 147184,
+        "replan": 0,
+        "elapsed_sec": 123.39
+      },
+      {
+        "question": "Which sport is Burleigh Grimes associated with?",
+        "answer": "未提及",
+        "steps": 4,
+        "tokens": 436370,
+        "replan": 2,
+        "elapsed_sec": 191.39
+      },
+      {
+        "question": "Which university was Hrishikesh Mukherjee educated at?",
+        "error": "Request timed out.",
+        "elapsed_sec": 165.68
+      },
+      {
+        "question": "Who is the original broadcaster of Parenthood?",
+        "error": "Connection error.",
+        "elapsed_sec": 123.26
+      },
+      {
+        "question": "What position does Lisa Leslie play?",
+        "error": "Request timed out.",
+        "elapsed_sec": 288.73
+      },
+      {
+        "question": "What is the capital of Iran?",
+        "error": "Connection error.",
+        "elapsed_sec": 117.34
+      },
+      {
+        "question": "Who is the original broadcaster of The Drew Carey Show?",
+        "error": "Connection error.",
+        "elapsed_sec": 116.27
+      },
+      {
+        "question": "Who is the chief executive officer of Apple Inc.?",
+        "error": "Connection error.",
+        "elapsed_sec": 276.65
+      },
+      {
+        "question": "What kind of work does Sabbatai Zevi do?",
+        "error": "Request timed out.",
+        "elapsed_sec": 149.31
+      },
+      {
+        "question": "What is the country of citizenship of Lionel Richie?",
+        "error": "Request timed out.",
+        "elapsed_sec": 99.31
+      },
+      {
+        "question": "Which religion is Tom Cruise affiliated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 295.24
+      },
+      {
+        "question": "Which company is Ford F-Series produced by?",
+        "answer": "Ford Motor Company",
+        "steps": 2,
+        "tokens": 144646,
+        "replan": 0,
+        "elapsed_sec": 71.35
+      },
+      {
+        "question": "Who is the author of Inuyasha?",
+        "answer": "Terrance Dicks",
+        "steps": 2,
+        "tokens": 148773,
+        "replan": 0,
+        "elapsed_sec": 64.18
+      },
+      {
+        "question": "Which continent is San Francisco located in?",
+        "error": "Connection error.",
+        "elapsed_sec": 850.64
+      },
+      {
+        "question": "Which sport is Terry Collins associated with?",
+        "error": "Request timed out.",
+        "elapsed_sec": 1785.14
+      },
+      {
+        "question": "Which sport is 2009 Six Nations Championship associated with?",
+        "error": "Request timed out.",
+        "elapsed_sec": 971.0
+      },
+      {
+        "question": "What position does Vernon Davis play?",
+        "answer": "defensive end",
+        "steps": 3,
+        "tokens": 287468,
+        "replan": 0,
+        "elapsed_sec": 96.57
+      },
+      {
+        "question": "What is the name of the current head of state in Ireland?",
+        "error": "Request timed out.",
+        "elapsed_sec": 284.35
+      },
+      {
+        "question": "Who performed Past Masters?",
+        "error": "Request timed out.",
+        "elapsed_sec": 114.24
+      },
+      {
+        "question": "Which sport is Imran Khan associated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 236.43
+      },
+      {
+        "question": "What is the country of citizenship of Tomoyasu Hotei?",
+        "error": "Connection error.",
+        "elapsed_sec": 397.66
+      },
+      {
+        "question": "What language does Matti Vanhanen speak?",
+        "error": "Request timed out.",
+        "elapsed_sec": 179.4
+      },
+      {
+        "question": "Who founded Transcendental Meditation movement?",
+        "error": "Connection error.",
+        "elapsed_sec": 194.85
+      },
+      {
+        "question": "What is the name of the current head of state in United States of America?",
+        "error": "Connection error.",
+        "elapsed_sec": 316.72
+      },
+      {
+        "question": "Who is the developer of AppleScript?",
+        "error": "Connection error.",
+        "elapsed_sec": 472.83
+      },
+      {
+        "question": "Which continent is Philippines located in?",
+        "error": "Request timed out.",
+        "elapsed_sec": 233.6
+      },
+      {
+        "question": "Who is the author of The Great Movies?",
+        "error": "Request timed out.",
+        "elapsed_sec": 216.25
+      },
+      {
+        "question": "Which university was Chicago Boys educated at?",
+        "error": "Request timed out.",
+        "elapsed_sec": 129.16
+      },
+      {
+        "question": "What is the country of citizenship of Andrew Carnegie?",
+        "error": "Request timed out.",
+        "elapsed_sec": 97.25
+      },
+      {
+        "question": "Who is Kristen Bell married to?",
+        "error": "Request timed out.",
+        "elapsed_sec": 103.61
+      },
+      {
+        "question": "What is William Gibson famous for?",
+        "error": "Request timed out.",
+        "elapsed_sec": 109.91
+      },
+      {
+        "question": "Which religion is Bahawalpur State affiliated with?",
+        "error": "Request timed out.",
+        "elapsed_sec": 126.44
+      },
+      {
+        "question": "Who is the chief executive officer of Advanced Micro Devices?",
+        "error": "Request timed out.",
+        "elapsed_sec": 214.94
+      },
+      {
+        "question": "What is the country of citizenship of Sue Grafton?",
+        "error": "Request timed out.",
+        "elapsed_sec": 354.15
+      },
+      {
+        "question": "Who is the developer of Internet Explorer 5?",
+        "error": "Connection error.",
+        "elapsed_sec": 173.34
+      },
+      {
+        "question": "Who is the author of The Marriage of Figaro?",
+        "error": "Connection error.",
+        "elapsed_sec": 202.48
+      },
+      {
+        "question": "Who is the author of The Age of Reason?",
+        "error": "Connection error.",
+        "elapsed_sec": 178.79
+      },
+      {
+        "question": "What language does Daphne du Maurier speak?",
+        "error": "Request timed out.",
+        "elapsed_sec": 836.68
+      },
+      {
+        "question": "Which city is the headquarter of MTV located in?",
+        "error": "Request timed out.",
+        "elapsed_sec": 86.06
+      },
+      {
+        "question": "Who was Malvolio created by?",
+        "error": "Request timed out.",
+        "elapsed_sec": 96.53
+      },
+      {
+        "question": "What type of music does Nat King Cole play?",
+        "error": "Connection error.",
+        "elapsed_sec": 144.54
+      },
+      {
+        "question": "Who is the developer of Unreal Tournament 2004?",
+        "error": "Request timed out.",
+        "elapsed_sec": 244.8
+      },
+      {
+        "question": "Which country was heartland rock created in?",
+        "error": "Request timed out.",
+        "elapsed_sec": 114.92
+      },
+      {
+        "question": "What is the country of citizenship of Cédric Klapisch?",
+        "error": "Connection error.",
+        "elapsed_sec": 210.45
+      },
+      {
+        "question": "Who founded Jaguar Cars?",
+        "error": "Connection error.",
+        "elapsed_sec": 443.68
+      },
+      {
+        "question": "Which sport is Sports Interactive associated with?",
+        "error": "Connection error.",
+        "elapsed_sec": 604.84
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "error": "Connection error.",
+        "elapsed_sec": 312.63
+      },
+      {
+        "question": "Which country was pesäpallo created in?",
+        "answer": "Philippines",
+        "steps": 3,
+        "tokens": 286633,
+        "replan": 0,
+        "elapsed_sec": 392.92
+      },
+      {
+        "question": "Who was Kinsey Millhone created by?",
+        "answer": "Sue Grafton",
+        "steps": 2,
+        "tokens": 143810,
+        "replan": 0,
+        "elapsed_sec": 59.71
+      },
+      {
+        "question": "What is the country of citizenship of Madame du Barry?",
+        "answer": "Great Britain",
+        "steps": 2,
+        "tokens": 147881,
+        "replan": 0,
+        "elapsed_sec": 51.69
+      },
+      {
+        "question": "Which language was The Thorn Birds written in?",
+        "answer": "French",
+        "steps": 2,
+        "tokens": 144805,
+        "replan": 0,
+        "elapsed_sec": 78.35
+      },
+      {
+        "question": "Who is the head coach of Los Angeles FC?",
+        "answer": "Bob Bradley",
+        "steps": 2,
+        "tokens": 147724,
+        "replan": 0,
+        "elapsed_sec": 48.59
+      },
+      {
+        "question": "Which company is Buick Regal produced by?",
+        "answer": "Aston Martin Lagonda",
+        "steps": 2,
+        "tokens": 143977,
+        "replan": 0,
+        "elapsed_sec": 51.12
+      },
+      {
+        "question": "Which religion is Natalie Portman affiliated with?",
+        "answer": "interdenominational organization",
+        "steps": 2,
+        "tokens": 148907,
+        "replan": 0,
+        "elapsed_sec": 83.19
+      },
+      {
+        "question": "Who was Finnish created by?",
+        "answer": "Stirling Silliphanta",
+        "steps": 2,
+        "tokens": 144348,
+        "replan": 0,
+        "elapsed_sec": 59.44
+      },
+      {
+        "question": "What position does Artur Boruc play?",
+        "answer": "midfielder",
+        "steps": 2,
+        "tokens": 145125,
+        "replan": 0,
+        "elapsed_sec": 47.61
+      },
+      {
+        "question": "What is the country of citizenship of Ada Wong?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 146947,
+        "replan": 0,
+        "elapsed_sec": 47.89
+      },
+      {
+        "question": "Who is Lalu Prasad Yadav married to?",
+        "answer": "Goldust",
+        "steps": 2,
+        "tokens": 148192,
+        "replan": 0,
+        "elapsed_sec": 76.29
+      },
+      {
+        "question": "Which company is Ford S-Max produced by?",
+        "answer": "Ford Motor Company",
+        "steps": 2,
+        "tokens": 144909,
+        "replan": 0,
+        "elapsed_sec": 68.15
+      },
+      {
+        "question": "Which country was Orkneyinga saga created in?",
+        "answer": "Iceland",
+        "steps": 2,
+        "tokens": 144589,
+        "replan": 0,
+        "elapsed_sec": 45.85
+      },
+      {
+        "question": "Which sport is shooting guard associated with?",
+        "answer": "rugby",
+        "steps": 2,
+        "tokens": 144483,
+        "replan": 0,
+        "elapsed_sec": 72.19
+      },
+      {
+        "question": "What is the country of citizenship of Henri Grégoire?",
+        "answer": "India",
+        "steps": 2,
+        "tokens": 149057,
+        "replan": 0,
+        "elapsed_sec": 81.86
+      },
+      {
+        "question": "Which city was Constantine VII born in?",
+        "answer": "Constantinople",
+        "steps": 2,
+        "tokens": 144330,
+        "replan": 0,
+        "elapsed_sec": 41.46
+      },
+      {
+        "question": "What is the country of citizenship of Wilhelm von Humboldt?",
+        "answer": "Germany",
+        "steps": 2,
+        "tokens": 146470,
+        "replan": 0,
+        "elapsed_sec": 175.4
+      },
+      {
+        "question": "What is the name of the current head of the South Korea government?",
+        "error": "Connection error.",
+        "elapsed_sec": 1480.48
+      },
+      {
+        "question": "What position does David Seaman play?",
+        "error": "Connection error.",
+        "elapsed_sec": 1.36
+      }
+    ]
+  }
+}

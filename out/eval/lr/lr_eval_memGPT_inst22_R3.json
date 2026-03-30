@@ -1,0 +1,17 @@
+{
+  "system": "memGPT",
+  "instance_idx": 22,
+  "adaptor": "R3",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测完全偏离任务要求。任务要求撰写1000-1200字的故事情节与人物摘要，但Agent预测内容是对五个具体证据问题的回答，且格式与主题均与标准答案（Halley的出生与早期经历摘要）无关，属于严重偏离。"
+    }
+  ]
+}

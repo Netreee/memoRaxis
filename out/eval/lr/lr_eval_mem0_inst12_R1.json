@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 12,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案的核心情节与人物。标准答案以Cal的祖父母移民故事为主线，而Agent预测混淆了人物关系（如将Raul和Harris误作夫妻而非兄妹）、添加了大量无关细节（如Irma、Russell、cousins等），且未提及从Smyrna到Detroit的关键移民情节，核心内容缺失且错误。"
+    }
+  ]
+}

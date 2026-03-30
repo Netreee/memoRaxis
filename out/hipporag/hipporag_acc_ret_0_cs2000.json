@@ -1,0 +1,2413 @@
+{
+  "dataset": "Accurate_Retrieval",
+  "backend": "hipporag",
+  "instance_idx": 0,
+  "results": {
+    "R1": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France",
+        "steps": 1,
+        "tokens": 4116,
+        "latency_s": 3.51,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "In the 10th and 11th centuries.",
+        "steps": 1,
+        "tokens": 4189,
+        "latency_s": 1.54,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "Scandinavia and northern Europe",
+        "steps": 1,
+        "tokens": 3728,
+        "latency_s": 1.65,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo",
+        "steps": 1,
+        "tokens": 3888,
+        "latency_s": 1.11,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "10th century",
+        "steps": 1,
+        "tokens": 3903,
+        "latency_s": 1.47,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "William the Conqueror",
+        "steps": 1,
+        "tokens": 3912,
+        "latency_s": 1.69,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "Rollo, Richard I, William II, etc.",
+        "steps": 1,
+        "tokens": 4085,
+        "latency_s": 1.39,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "Christian",
+        "steps": 1,
+        "tokens": 3952,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "Norseman, Viking.",
+        "steps": 1,
+        "tokens": 3981,
+        "latency_s": 1.78,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "9th century",
+        "steps": 1,
+        "tokens": 3784,
+        "latency_s": 1.59,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "911",
+        "steps": 1,
+        "tokens": 3999,
+        "latency_s": 1.83,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia",
+        "steps": 1,
+        "tokens": 4089,
+        "latency_s": 1.66,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "Epte",
+        "steps": 1,
+        "tokens": 4141,
+        "latency_s": 1.45,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo",
+        "steps": 1,
+        "tokens": 3749,
+        "latency_s": 1.19,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "Christian orthodoxy",
+        "steps": 1,
+        "tokens": 3773,
+        "latency_s": 1.66,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The northern part of present-day Upper Normandy down to the river Seine, and later extending west beyond the Seine; roughly equivalent to the old province of Rouen, corresponding to the former Frankish kingdom of Neustria.",
+        "steps": 1,
+        "tokens": 4054,
+        "latency_s": 1.8,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "Fighting horsemen.",
+        "steps": 1,
+        "tokens": 4003,
+        "latency_s": 1.6,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "Byzantine Empire",
+        "steps": 1,
+        "tokens": 3840,
+        "latency_s": 1.9,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "In the 1050s.",
+        "steps": 1,
+        "tokens": 3868,
+        "latency_s": 1.5,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "In the 1060s.",
+        "steps": 1,
+        "tokens": 4089,
+        "latency_s": 1.4,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos",
+        "steps": 1,
+        "tokens": 3584,
+        "latency_s": 1.55,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle, Dublin Castle, Afranji",
+        "steps": 1,
+        "tokens": 3734,
+        "latency_s": 1.66,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "Oursel",
+        "steps": 1,
+        "tokens": 3895,
+        "latency_s": 1.51,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "Turkish forces, Armenian state in Cilicia, Philaretus Brachamius, Albanians, Croatian, Catholic cities of Dalmatia, Byzantines, Seljuk Turks, Lombards, Varangian contingents, Venetian, Amalfitan merchants, Pechenegs, Bulgars, David I of Scotland, Henry I of England, Maud of Scotland, Warner Sinback, Kemney, Irish, etc.\n\nWait, the question is \"Who did the Normans team up with in Anatolia?\" According to the first context [1]: \"Some Normans joined Turkish forces to aid in the destruction of the Armenians vassal-states of Sassoun and Taron in far eastern Anatolia. Later, many took up service with the Armenian state further south in Cilicia and the Taurus Mountains.\" So the answer should be Turkish forces and the Armenian state in Cilicia.\n\nTurkish forces and the Armenian state in Cilicia",
+        "steps": 1,
+        "tokens": 4007,
+        "latency_s": 3.04,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "Several families of Byzantine Greece were of Norman mercenary origin during the period of the Comnenian Restoration, when Byzantine emperors were seeking out western European warriors. The Raoulii were descended from an Italo-Norman named Raoul.",
+        "steps": 1,
+        "tokens": 3698,
+        "latency_s": 1.94,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard",
+        "steps": 1,
+        "tokens": 3745,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "1082",
+        "steps": 1,
+        "tokens": 3851,
+        "latency_s": 1.2,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000",
+        "steps": 1,
+        "tokens": 3843,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "Deabolis",
+        "steps": 1,
+        "tokens": 3948,
+        "latency_s": 1.25,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "Bohemond",
+        "steps": 1,
+        "tokens": 3844,
+        "latency_s": 1.36,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "Deabolis",
+        "steps": 1,
+        "tokens": 4213,
+        "latency_s": 1.47,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "1081, 1185, 1107",
+        "steps": 1,
+        "tokens": 3861,
+        "latency_s": 1.28,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "Dyrrachium",
+        "steps": 1,
+        "tokens": 3594,
+        "latency_s": 1.41,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "southern shores of Albania",
+        "steps": 1,
+        "tokens": 3735,
+        "latency_s": 1.52,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England.",
+        "steps": 1,
+        "tokens": 3777,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "No information available.",
+        "steps": 1,
+        "tokens": 4027,
+        "latency_s": 1.51,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy",
+        "steps": 1,
+        "tokens": 3997,
+        "latency_s": 1.63,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard",
+        "steps": 1,
+        "tokens": 4301,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 1,
+        "tokens": 3906,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "1041",
+        "steps": 1,
+        "tokens": 4000,
+        "latency_s": 1.58,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges",
+        "steps": 1,
+        "tokens": 3786,
+        "latency_s": 1.5,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "at the Battle of Hastings",
+        "steps": 1,
+        "tokens": 4242,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "The invading Normans.",
+        "steps": 1,
+        "tokens": 4080,
+        "latency_s": 31.76,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 1,
+        "tokens": 4001,
+        "latency_s": 1.47,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "Anglo-Saxons",
+        "steps": 1,
+        "tokens": 3313,
+        "latency_s": 1.21,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "Absorbed into the Anglo-Saxon language of their subjects and evolved into Modern English.",
+        "steps": 1,
+        "tokens": 3731,
+        "latency_s": 1.34,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 1,
+        "tokens": 3661,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland",
+        "steps": 1,
+        "tokens": 3673,
+        "latency_s": 1.26,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "Irish culture",
+        "steps": 1,
+        "tokens": 3715,
+        "latency_s": 1.53,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "No information provided.",
+        "steps": 1,
+        "tokens": 3909,
+        "latency_s": 1.11,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "Malcolm III of Scotland",
+        "steps": 1,
+        "tokens": 3743,
+        "latency_s": 1.38,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "1072",
+        "steps": 1,
+        "tokens": 3899,
+        "latency_s": 1.41,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "The context does not mention any specific hostage.",
+        "steps": 1,
+        "tokens": 3921,
+        "latency_s": 1.14,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Sybilla of Normandy.",
+        "steps": 1,
+        "tokens": 4099,
+        "latency_s": 1.54,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Norman",
+        "steps": 1,
+        "tokens": 3830,
+        "latency_s": 1.75,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Hereford",
+        "steps": 1,
+        "tokens": 3768,
+        "latency_s": 1.75,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "the Welsh",
+        "steps": 1,
+        "tokens": 3866,
+        "latency_s": 1.45,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "Edward the Confessor",
+        "steps": 1,
+        "tokens": 3708,
+        "latency_s": 1.57,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "Wales, Ireland, Scotland, England, Kingdom of Sicily, Principality of Antioch, Crusader states of the Near East, coasts of north Africa and the Canary Islands",
+        "steps": 1,
+        "tokens": 3575,
+        "latency_s": 1.53,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 1,
+        "tokens": 3866,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil",
+        "steps": 1,
+        "tokens": 4106,
+        "latency_s": 1.35,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "1097 and 1348–49",
+        "steps": 1,
+        "tokens": 3877,
+        "latency_s": 1.15,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 1,
+        "tokens": 3879,
+        "latency_s": 1.09,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "The conquest of Jerusalem.",
+        "steps": 1,
+        "tokens": 3844,
+        "latency_s": 1.55,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "380 years.",
+        "steps": 1,
+        "tokens": 3727,
+        "latency_s": 1.32,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed the fleet.",
+        "steps": 1,
+        "tokens": 3576,
+        "latency_s": 1.07,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 1,
+        "tokens": 3983,
+        "latency_s": 1.45,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 1,
+        "tokens": 4011,
+        "latency_s": 1.03,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "Isaac Komnenos",
+        "steps": 1,
+        "tokens": 4230,
+        "latency_s": 1.44,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat",
+        "steps": 1,
+        "tokens": 3947,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "silver",
+        "steps": 1,
+        "tokens": 3984,
+        "latency_s": 1.33,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan",
+        "steps": 1,
+        "tokens": 3822,
+        "latency_s": 1.38,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa",
+        "steps": 1,
+        "tokens": 3814,
+        "latency_s": 1.46,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Jean de Bethencourt.",
+        "steps": 1,
+        "tokens": 3764,
+        "latency_s": 1.57,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "Jean's nephew Maciot de Bethencourt sold the rights to the islands to Enrique Pérez de Guzmán, 2nd Count de Niebla.",
+        "steps": 1,
+        "tokens": 3750,
+        "latency_s": 1.67,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "Maciot de Bethencourt",
+        "steps": 1,
+        "tokens": 3592,
+        "latency_s": 1.65,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "The Channel Islands.",
+        "steps": 1,
+        "tokens": 3950,
+        "latency_s": 1.66,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "two",
+        "steps": 1,
+        "tokens": 3850,
+        "latency_s": 1.0,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "A new stage in the architectural history of the regions they subdued, characterized by rounded arches, particularly over windows and doorways, and massive proportions, and spreading a unique Romanesque idiom.",
+        "steps": 1,
+        "tokens": 3753,
+        "latency_s": 1.7,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches.",
+        "steps": 1,
+        "tokens": 3790,
+        "latency_s": 1.36,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic",
+        "steps": 1,
+        "tokens": 3738,
+        "latency_s": 1.53,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon",
+        "steps": 1,
+        "tokens": 3610,
+        "latency_s": 1.28,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "the Kingdom of Sicily, southern Italy",
+        "steps": 1,
+        "tokens": 3906,
+        "latency_s": 1.62,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "In the early 11th century.",
+        "steps": 1,
+        "tokens": 4014,
+        "latency_s": 1.32,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The dukes.",
+        "steps": 1,
+        "tokens": 3394,
+        "latency_s": 1.43,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "1562 to 1598",
+        "steps": 1,
+        "tokens": 3647,
+        "latency_s": 1.36,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "Embroidery",
+        "steps": 1,
+        "tokens": 4034,
+        "latency_s": 1.44,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "The Bayeux Tapestry.",
+        "steps": 1,
+        "tokens": 3693,
+        "latency_s": 1.1,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 1,
+        "tokens": 4211,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Romanesque architecture and mosaics.",
+        "steps": 1,
+        "tokens": 3765,
+        "latency_s": 1.56,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "11th century",
+        "steps": 1,
+        "tokens": 4213,
+        "latency_s": 1.42,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna",
+        "steps": 1,
+        "tokens": 3911,
+        "latency_s": 1.7,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "southern Italy",
+        "steps": 1,
+        "tokens": 4057,
+        "latency_s": 1.49,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia",
+        "steps": 1,
+        "tokens": 4094,
+        "latency_s": 1.52,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Robert Guiscard",
+        "steps": 1,
+        "tokens": 3998,
+        "latency_s": 1.51,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "A tradition of singing, and the choir achieved fame in Normandy. Also, they continued the tradition of singing. Additionally, they were known for musical traditions, and Fécamp Abbey and Saint-Evroul Abbey were centres of musical production and education. The system of denoting notes by letters was developed and taught at Fécamp, and the staff around which neumes were oriented was first developed and taught in the 11th century at Fécamp.",
+        "steps": 1,
+        "tokens": 4128,
+        "latency_s": 2.15,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "steps": 1,
+        "tokens": 3477,
+        "latency_s": 1.45,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Their inherent difficulty, quantified by resources like time and storage.",
+        "steps": 1,
+        "tokens": 3604,
+        "latency_s": 1.53,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "computational problem",
+        "steps": 1,
+        "tokens": 3792,
+        "latency_s": 1.05,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "Computational complexity.",
+        "steps": 1,
+        "tokens": 3764,
+        "latency_s": 1.4,
+        "replan": 0
+      }
+    ],
+    "R2": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France",
+        "steps": 2,
+        "tokens": 8577,
+        "latency_s": 1.84,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "In the 10th and 11th centuries",
+        "steps": 2,
+        "tokens": 8479,
+        "latency_s": 32.09,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "Denmark, Iceland and Norway",
+        "steps": 2,
+        "tokens": 8401,
+        "latency_s": 1.73,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo",
+        "steps": 2,
+        "tokens": 8481,
+        "latency_s": 1.73,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "The Normans, from the 10th and 11th centuries, gave their name to Normandy, a region in France. They were descendants of Norse raiders (Norsemen) from Denmark, Iceland, and Norway, led by Rollo, who in 911 made a treaty with King Charles III of West Francia (the Treaty of Saint-Clair-sur-Epte) to settle in what is now Normandy in exchange for protecting the Frankish kingdom from further Viking incursions. Over generations, they assimilated with local Frankish and Roman-Gaulish populations, developing a distinct cultural and ethnic identity in the first half of the 10th century. They adopted Gallo-Romance language (Norman, or Norman French) and became known for their martial spirit and later Christian piety, aligning with Catholic orthodoxy. The Normans had a profound impact across Europe and the Near East: they conquered England in 1066 (Battle of Hastings), founded the Kingdom of Sicily, and established principalities in the Levant, Ireland, and elsewhere. Their influence included political reforms (feudalism), cultural contributions (Romanesque architecture, musical traditions), and linguistic impacts (Anglo-Norman language influencing Middle English). They eventually merged with local populations, with some Norman aristocracy identifying as English during the Hundred Years' War, and their descendants can still be recognized by surnames like Fitz, De, and others in regions they settled.",
+        "steps": 5,
+        "tokens": 47575,
+        "latency_s": 9.6,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "William the Conqueror.",
+        "steps": 2,
+        "tokens": 8607,
+        "latency_s": 2.09,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "Rollo, Richard I of Normandy, William II of Normandy (William the Conqueror)",
+        "steps": 5,
+        "tokens": 46372,
+        "latency_s": 6.04,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "The Normans were a people in the 10th and 11th centuries who gave their name to Normandy, France. They were descendants of Norse raiders and pirates (Norsemen/Vikings) from Denmark, Iceland, and Norway, led by Rollo, who swore fealty to King Charles III of West Francia. They merged with native Frankish and Roman-Gaulish populations, adopting Gallo-Romance language (Norman/Norman French), and had a distinct cultural/ethnic identity by the early 10th century. They were known for martial spirit, Christian piety (Catholic orthodoxy), military accomplishments, and innovations. They conquered England in 1066 (Battle of Hastings), founded the Kingdom of Sicily, and influenced areas like the Levant, Scotland, Wales, Ireland, North Africa, and the Canary Islands. They merged with locals, combining languages/traditions, and their influence included Romanesque architecture, musical traditions, and the Bayeux Tapestry.",
+        "steps": 5,
+        "tokens": 46398,
+        "latency_s": 8.02,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "\"Norseman, Viking\"",
+        "steps": 2,
+        "tokens": 8517,
+        "latency_s": 2.11,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "The Norman language, also known as Normaund or Norman French, is a Gallo-Romance language. It was adopted by the Normans when they settled in Frankish lands and became an important literary language. The Anglo-Norman language, a distinct variant, influenced Middle English along with Old Norse and Latin, contributing to its development. Norman words like \"baron\" (barwn) entered Welsh during the Norman influence in Wales. In southern Italy, Norman-Arab architecture merged elements of Islamic, Lombard, and Byzantine techniques, while Norman art in Britain survives as stonework or metalwork, and in southern Italy, it was influenced by Greek, Lombard, and Arab traditions, with examples like the crown of Palermo being Byzantine and the coronation cloak having Arab craftsmanship with Arabic inscriptions.",
+        "steps": 5,
+        "tokens": 47072,
+        "latency_s": 7.02,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "911",
+        "steps": 2,
+        "tokens": 8793,
+        "latency_s": 2.37,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia",
+        "steps": 2,
+        "tokens": 8266,
+        "latency_s": 2.54,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The Duchy of Normandy was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and Rollo, the Viking ruler, in 911. The territory was the French lands between the river Epte and the Atlantic coast, corresponding to the northern part of present-day Upper Normandy down to the river Seine, and later extended west beyond the Seine.",
+        "steps": 5,
+        "tokens": 49518,
+        "latency_s": 37.39,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "1. 问题：The English name \"Normans\" comes from the French words Normans/Normanz, plural of Normant, modern French normand, which is itself borrowed from Old Low Franconian Nortmann \"Northman\" or directly from Old Norse Norðmaðr, Latinized variously as Nortmannus, Normannus, or Nordmannus (recorded in Medieval Latin, 9th century) to mean \"Norseman, Viking\".\n答案：Old Low Franconian Nortmann \"Northman\" or directly from Old Norse Norðmaðr, Latinized variously as Nortmannus, Normannus, or Nordmannus (recorded in Medieval Latin, 9th century)\n\n2. 问题：The Duchy of Normandy, which began in 911 as a fiefdom, was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo, and was situated in the former Frankish kingdom of Neustria.\n答案：King Charles III of West Francia and Rollo\n\n3. 问题：The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (\"Norman\" comes from \"Norseman\") raiders and pirates from Denmark, Iceland and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia.\n答案：Norse (\"Norseman\") raiders and pirates from Denmark, Iceland and Norway\n\n4. 问题：In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings. The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England.\n答案：Duke William II of Normandy\n\n5. 问题：The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169. Initially the Normans maintained a distinct culture and ethnicity. Yet, with time, they came to be subsumed into Irish culture to the point that it has been said that they became \"more Irish than the Irish themselves.\"\n答案：Bannow Bay in 1169\n\n6. 问题：Eventually, the Normans merged with the natives, combining languages and traditions. In the course of the Hundred Years' War, the Norman aristocracy often identified themselves as English.\n答案：the Hundred Years' War\n\n7. 问题：The Normans were in contact with England from an early date. Not only were their original Viking brethren still ravaging the English coasts, they occupied most of the important ports opposite England across the English Channel. This relationship eventually produced closer ties of blood through the marriage of Emma, sister of Duke Richard II of Normandy, and King Ethelred II of England.\n答案：Emma, sister of Duke Richard II of Normandy, and King Ethelred II of England\n\n8. 问题：In 1564 a group of Norman Huguenots under the leadership of Jean Ribault established the small colony of Fort Caroline on the banks of the St. Johns River in what is today Jacksonville, Florida.\n答案：Jean Ribault\n\n9. 问题：In 1564 a group of Norman Huguenots under the leadership of Jean Ribault established the small colony of Fort Caroline on the banks of the St. Johns River in what is today Jacksonville, Florida. The effort was the first at any permanent European settlement in the present-day continental United States, but survived only a short time.\n答案：the first at any permanent European settlement in the present-day continental United States\n\n10. 问题：In 1564 a group of Norman Huguenots under the leadership of Jean Ribault established the small colony of Fort Caroline on the banks of the St. Johns River in what is today Jacksonville, Florida. A September 1565 French naval attack against the new Spanish colony at St. Augustine failed when its ships were hit by a hurricane on their way to the Spanish encampment at Fort Matanzas.\n答案：the new Spanish colony at St. Augustine\n\n11. 问题：In 1066, Duke William II of Normandy conquered England killing King Harold II at the Battle of Hastings. The invading Normans and their descendants replaced the Anglo-Saxons as the ruling class of England. The nobility of England were part of a single Normans culture and many had lands on both sides of the channel.\n答案：both sides of the channel\n\n12. 问题：The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169. The Normans settled mostly in an area in the east of Ireland, later known as the Pale, and also built many fine castles and settlements, including Trim Castle and Dublin Castle.\n答案：Trim Castle and Dublin Castle\n\n13. 问题：The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169. Norman descendants today can be recognised by their surnames. Names such as French, (De) Roche, Devereux, D'Arcy, Treacy and Lacy are particularly common in the southeast of Ireland, especially in the southern part of County Wexford where the first Norman settlements were established.\n答案：southeast of Ireland, especially in the southern part of County Wexford\n\n14. 问题：The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169. Another common Norman-Irish name was Morell (Murrell) derived from the French Norman name Morel. Other names beginning with Fitz (from the Norman for son) indicate Norman ancestry. These included Fitzgerald, FitzGibbons (Gibbons) dynasty, Fitzmaurice.\n答案：Fitzgerald, FitzGibbons (Gibbons) dynasty, Fitzmaurice\n\n15. 问题：The Normans had a profound effect on Irish culture and history after their invasion at Bannow Bay in 1169. Other families bearing such surnames as Barry (de Barra) and De Búrca (Burke) are also of Norman extraction.\n答案：Barry (de Barra) and De Búrca (Burke)\n\n16. 问题：The Normans were in contact with England from an early date. Because of this, Ethelred fled to Normandy in 1013, when he was forced from his kingdom by Sweyn Forkbeard. His stay in Normandy (until 1016) influenced him and his sons by Emma, who stayed in Normandy after Cnut the Great's conquest of the isle.\n答案：Sweyn Forkbeard\n\n17. 问题：The Normans were in contact with England from an early date. Because of this, Ethelred fled to Normandy in 1013, when he was forced from his kingdom by Sweyn Forkbeard. His stay in Normandy (until 1016) influenced him and his sons by Emma, who stayed in Normandy after Cnut the Great's conquest of the isle.\n答案：Cnut the Great\n\n18. 问题：Since its invention in 1269, the 'Phags-pa script, a unified script for spelling Mongolian, Tibetan, and Chinese languages, was preserved in the court until the end of the dynasty.\n答案：Mongolian, Tibetan, and Chinese languages\n\n19. 问题：Since its invention in 1269, the 'Phags-pa script, a unified script for spelling Mongolian, Tibetan, and Chinese languages, was preserved in the court until the end of the dynasty. Most of the Emperors could not master written Chinese, but they could generally converse well in the language.\n答案：written Chinese\n\n20. 问题：Since its invention in 1269, the 'Phags-pa script, a unified script for spelling Mongolian, Tibetan, and Chinese languages, was preserved in the court until the end of the dynasty. The Mongol custom of long standing quda/marriage alliance with Mongol clans, the Onggirat, and the Ikeres, kept the imperial blood purely Mongol until the reign of Tugh Temur, whose mother was a Tangut concubine.\n答案：the Onggirat, and the Ikeres\n\n21. 问题：Since its invention in 1269, the 'Phags-pa script, a unified script for spelling Mongolian, Tibetan, and Chinese languages, was preserved in the court until the end of the dynasty. The Mongol custom of long standing quda/marriage alliance with Mongol clans, the Onggirat, and the Ikeres, kept the imperial blood purely Mongol until the reign of Tugh Temur, whose mother was a Tangut concubine.\n答案：Tugh Temur\n\n22. 问题：Since its invention in 1269, the 'Phags-pa script, a unified script for spelling Mongolian, Tibetan, and Chinese languages, was preserved in the court until the end of the dynasty. Nevertheless, a few other Yuan emperors actively sponsored cultural activities; an example is Tugh Temur (Emperor Wenzong), who wrote poetry, painted, read Chinese classical texts, and ordered the compilation of books.\n答案：Tugh Temur (Emperor Wenzong)\n\n23. 问题：Individual Huguenots settled at the Cape of Good Hope from as early as 1671 with the arrival of François Villion (Viljoen). The first Huguenot to arrive at the Cape of Good Hope was however Maria de la Queillerie, wife of commander Jan van Riebeeck (and daughter of a Walloon church minister), who arrived on 6 April 1652 to establish a settlement at what is today Cape Town.\n答案：Maria de la Queillerie, wife of commander Jan van Riebeeck (and daughter of a Walloon church minister)\n\n24. 问题：Individual Huguenots settled at the Cape of Good Hope from as early as 1671 with the arrival of François Villion (Viljoen). The first Huguenot to arrive at the Cape of Good Hope was however Maria de la Queillerie, wife of commander Jan van Riebeeck (and daughter of a Walloon church minister), who arrived on 6 April 1652 to establish a settlement at what is today Cape Town.\n答案：6 April 1652\n\n25. 问题：Individual Huguenots settled at the Cape of Good Hope from as early as 1671 with the arrival of François Villion (Viljoen). On 31 December 1687 the first organised group of Huguenots set sail from the Netherlands to the Dutch East India Company post at the Cape of Good Hope. The largest portion of the Huguenots to settle in the Cape arrived between 1688 and 1689 in seven ships as part of the organised migration.\n答案：between 1688 and 1689 in seven ships\n\n26. 问题：In particular, this norm gets smaller when a number is multiplied by p, in sharp contrast to the usual absolute value (also referred to as the infinite prime). While completing Q (roughly, filling the gaps) with respect to the absolute value yields the field of real numbers, completing with respect to the p-adic norm |−|p yields the field of p-adic numbers.\n答案：the absolute value, p-adic norm |−|p\n\n27. 问题：In particular, this norm gets smaller when a number is multiplied by p, in sharp contrast to the usual absolute value (also referred to as the infinite prime). While completing Q (roughly, filling the gaps) with respect to the absolute value yields the field of real numbers, completing with respect to the p-adic norm |−|p yields the field of p-adic numbers. These are essentially all possible ways to complete Q, by Ostrowski's theorem.\n答案：Ostrowski's theorem\n\n28. 问题：In 1973, Nixon named William E. Simon as the first Administrator of the Federal Energy Office, a short-term organization created to coordinate the response to the embargo.\n答案：the embargo\n\n29. 问题：In 1973, Nixon named William E. Simon as the first Administrator of the Federal Energy Office, a short-term organization created to coordinate the response to the embargo. Simon allocated states the same amount of domestic oil for 1974 that each had consumed in 1972.\n答案：1974, 1972\n\n30. 问题：British settlers outnumbered the French 20 to 1 with a population of about 1.5 million ranged along the eastern coast of the continent, from Nova Scotia and Newfoundland in the north, to Georgia in the south.\n答案：Nova Scotia and Newfoundland in the north, to Georgia in the south",
+        "steps": 5,
+        "tokens": 47800,
+        "latency_s": 22.84,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "The Normans were a Norse (Viking) people who, in the 10th and 11th centuries, settled in Normandy, France, and assimilated with the local Frankish and Roman-Gaulish populations. They were descended from Norse raiders and pirates, with \"Norman\" deriving from \"Norseman\" (from Old Norse *Norðmaðr). Under their leader Rollo, they swore fealty to King Charles III of West Francia, forming the Duchy of Normandy. They adopted Gallo-Romance language (Norman French), feudal doctrines, and became exponents of Catholic orthodoxy. Known for their martial spirit and military innovations, they conquered England (1066, Battle of Hastings), founded the Kingdom of Sicily, and influenced the Crusader states, Wales, Ireland, and beyond. They merged with indigenous populations, and their descendants, like the Anglo-Normans, significantly impacted medieval Europe's culture, architecture, and politics.",
+        "steps": 5,
+        "tokens": 46738,
+        "latency_s": 8.99,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "Normandy",
+        "steps": 2,
+        "tokens": 8650,
+        "latency_s": 2.41,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "The Normans were descendants of Norse raiders and pirates from Denmark, Iceland, and Norway, who, under their leader Rollo, swore fealty to King Charles III of West Francia in the 10th century. They assimilated with the native Frankish and Roman-Gaulish populations, forming a distinct cultural and ethnic identity. The Normans were known for their martial spirit and later Christian piety, adopting Norman French as their language. They established the Duchy of Normandy, conquered England in 1066 (Battle of Hastings), founded the Kingdom of Sicily, and influenced regions like Scotland, Wales, Ireland, and the Near East. Their art included the Bayeux Tapestry, and they merged with local cultures, contributing to languages like Middle English. They also adopted feudal doctrines, exporting fighting horsemen and engaging in Crusades.",
+        "steps": 5,
+        "tokens": 47391,
+        "latency_s": 6.38,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "The Normans were a group of people who gave their name to Normandy in the 10th and 11th centuries. They were descendants of Norse raiders and pirates from Denmark, Iceland, and Norway, who under their leader Rollo swore fealty to King Charles III of West Francia. Over generations, they assimilated with the native Frankish and Roman-Gaulish populations, merging with Carolingian-based cultures. Their distinct identity emerged in the first half of the 10th century and evolved afterward. The Normans were known for their martial spirit and later Christian piety, adopting Norman French as their language. They founded the Duchy of Normandy, conquered England in 1066, established the Kingdom of Sicily, and had significant influence in the Crusader states, Scotland, Wales, Ireland, North Africa, and the Canary Islands. They served as mercenaries in the Byzantine Empire, fighting against Pechenegs, Bulgars, Seljuk Turks, and others, and some became Byzantine generals or settled in regions like Trebizond, Georgia, Malatya, and Edessa. They also attempted to carve out independent states in Asia Minor, such as Roussel de Bailleul, but were often opposed by the Byzantine Empire.",
+        "steps": 5,
+        "tokens": 49756,
+        "latency_s": 9.36,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "In the 1050s.",
+        "steps": 2,
+        "tokens": 8403,
+        "latency_s": 2.26,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "The text discusses multiple topics, including the Normans, complexity classes, combustion and air, BSkyB's digital service, prime numbers, gravity, and more. However, since the user's task is not specified, I can't provide a specific answer. If you need a summary or specific information, please clarify the question.",
+        "steps": 5,
+        "tokens": 49892,
+        "latency_s": 7.2,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Alexius Komnenos",
+        "steps": 2,
+        "tokens": 7997,
+        "latency_s": 2.49,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle, Dublin Castle, Afranji",
+        "steps": 2,
+        "tokens": 8031,
+        "latency_s": 2.31,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "The Normans were a people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (Norseman/Viking) raiders and pirates from Denmark, Iceland, and Norway, who under their leader Rollo, swore fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants merged with the Carolingian-based cultures of West Francia, developing a distinct cultural and ethnic identity by the first half of the 10th century, which continued to evolve. The English name \"Normans\" comes from the French words Normans/Normanz (plural of Normant, modern French normand), borrowed from Old Low Franconian Nortmann \"Northman\" or Old Norse Norðmaðr, meaning \"Norseman/Viking\".",
+        "steps": 5,
+        "tokens": 51134,
+        "latency_s": 9.33,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "The Normans were a group of people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway, led by Rollo, who swore fealty to King Charles III of West Francia. Over generations, they assimilated and mixed with the native Frankish and Roman-Gaulish populations, merging with Carolingian-based cultures. Their distinct cultural and ethnic identity emerged in the first half of the 10th century and evolved afterward. They had a profound impact on medieval Europe and the Near East, with notable accomplishments including the Norman conquest of England (1066), founding the Kingdom of Sicily, and spreading influence to the Crusader states, Scotland, Ireland, etc. They adopted Norman French, a literary language, and had unique cultural aspects like Romanesque architecture and musical traditions. They were known for their martial spirit and later Christian piety, serving as exponents of Catholic orthodoxy.",
+        "steps": 5,
+        "tokens": 46408,
+        "latency_s": 37.89,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Normans were a people from the 10th and 11th centuries who gave their name to Normandy, France. They were descended from Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway, led by Rollo, who in 911 made a treaty with King Charles III of West Francia (Saint-Clair-sur-Epte) to swear fealty and receive lands in exchange for protection against further Viking incursions. They assimilated and mixed with the native Frankish and Roman-Gaulish populations, evolving into a distinct cultural and ethnic identity. They adopted Gallo-Romance language (Norman, Normaund, or Norman French), had a martial spirit and later Christian piety, and had a profound impact on medieval Europe and the Near East, including conquering England (Battle of Hastings, 1066), founding the Kingdom of Sicily, and influencing regions like Scotland, Ireland, and the Levant. They merged with local populations, combining languages and traditions, and their influence extended to architecture, law, and culture.",
+        "steps": 5,
+        "tokens": 46428,
+        "latency_s": 9.18,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "The Normans were a people who, in the 10th and 11th centuries, gave their name to Normandy, a region in France. They were descended from Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway, who, under their leader Rollo, swore fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants merged with the Carolingian-based cultures of West Francia, and their distinct cultural and ethnic identity emerged in the first half of the 10th century, evolving over succeeding centuries.",
+        "steps": 5,
+        "tokens": 49267,
+        "latency_s": 7.2,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "1082",
+        "steps": 2,
+        "tokens": 8247,
+        "latency_s": 2.06,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "I cannot answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 5,
+        "tokens": 49142,
+        "latency_s": 7.03,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "I can't answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 5,
+        "tokens": 48659,
+        "latency_s": 6.96,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "The Normans were the people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (\"Norman\" comes from \"Norseman\") raiders and pirates from Denmark, Iceland and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants would gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, and it continued to evolve over the succeeding centuries.",
+        "steps": 5,
+        "tokens": 47989,
+        "latency_s": 6.35,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "The Rhine is a European river that begins in the Swiss canton of Graubünden in the southeastern Swiss Alps, forms part of the Swiss-Austrian, Swiss-Liechtenstein border, Swiss-German and then the Franco-German border, then flows through the Rhineland and eventually empties into the North Sea in the Netherlands. It is the second-longest river in Central and Western Europe (after the Danube), at about 1,230 km (760 mi), with an average discharge of about 2,900 m³/s (100,000 cu ft/s). It is the longest river in Germany. The main tributaries include the Neckar, the Main, and the Moselle, which contributes an average discharge of more than 300 m³/s (11,000 cu ft/s). The Rhine-Meuse Delta, also known as the Rhine–Meuse–Scheldt delta, is the most important natural region of the Netherlands, beginning near Millingen aan de Rijn with the division of the Rhine into Waal and Nederrijn. The Rhine emerges from Lake Constance, flows generally westward as the Hochrhein, passes the Rhine Falls, and is joined by its major tributary, the river Aare, which more than doubles its water discharge to an average of nearly 1,000 m³/s (35,000 cu ft/s) and provides more than a fifth of the discharge at the Dutch border. The Aare contains the waters from the 4,274 m (14,022 ft) summit of Finsteraarhorn, the highest point of the Rhine basin. The Rhine roughly forms the German-Swiss border from Lake Constance, except for the canton of Schaffhausen and parts of Zürich and Basel-Stadt, until it turns north at the Rhine knee at Basel, leaving Switzerland. The Lower Rhine flows through North Rhine-Westphalia, with the agglomerations Cologne, Düsseldorf, and Ruhr area, containing the largest conurbation in Germany, the Rhine-Ruhr region, and Duisburg with Europe's largest river port (Duisport). The mouth of the Rhine into Lake Constance forms an inland delta, delimited by the Alter Rhein to the west and a modern canalized section to the east, which is a nature reserve and bird sanctuary including Austrian towns like Gaißau, Höchst, and Fußach.",
+        "steps": 5,
+        "tokens": 50342,
+        "latency_s": 9.56,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "1081, 1185, 1107",
+        "steps": 2,
+        "tokens": 8535,
+        "latency_s": 1.91,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "The question is not provided, so I cannot answer it. Please provide the specific question you need answered based on the given context.",
+        "steps": 5,
+        "tokens": 46677,
+        "latency_s": 6.5,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "The Rhine emerges from Lake Constance, flows generally westward, as the Hochrhein, passes the Rhine Falls, and is joined by its major tributary, the river Aare. The Aare more than doubles the Rhine's water discharge, to an average of nearly 1,000 m³/s (35,000 cu ft/s), and provides more than a fifth of the discharge at the Dutch border. The Aare also contains the waters from the 4,274 m (14,022 ft) summit of Finsteraarhorn, the highest point of the Rhine basin. The Rhine roughly forms the German-Swiss border from Lake Constance with the exceptions of the canton of Schaffhausen and parts of the cantons of Zürich and Basel-Stadt, until it turns north at the so-called Rhine knee at Basel, leaving Switzerland.",
+        "steps": 5,
+        "tokens": 46831,
+        "latency_s": 8.04,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "The Normans were a people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants merged with the Carolingian-based cultures of West Francia, and the distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, evolving over succeeding centuries.",
+        "steps": 5,
+        "tokens": 49388,
+        "latency_s": 9.47,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "The question is not provided, so I cannot answer it based on the given context. Please provide a specific question, and I will try to answer it using the information from the provided text.",
+        "steps": 5,
+        "tokens": 47436,
+        "latency_s": 5.49,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy",
+        "steps": 2,
+        "tokens": 9286,
+        "latency_s": 2.05,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard.",
+        "steps": 2,
+        "tokens": 8730,
+        "latency_s": 2.16,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "The question is not clearly specified, but based on the provided context, key information includes:\n- **Normans in England**: Edward the Confessor (1041 return, invited by Harthacnut), Ralph the Timid as earl of Hereford, Eustace II of Boulogne's visit (1051, leading to Godwin's exile), William the Conqueror (1066, Battle of Hastings), Norman influence post-conquest.\n- **Normans in Scotland**: King David I, \"Davidian Revolution,\" feudal system, noble families (Bruce, Douglas, Stewart).\n- **Huguenots**: Origins (Hugues, Eidgenosse/Huisgenoten), settlement in Dover (25 widows), Bedfordshire lace industry (no Huguenot lacemaker evidence).\n- **Yuan Dynasty**: Gegeen Khan (1321-1323), Da Yuan Tong Zhi, Yesün Temür (Taidingdi) as ruler after coup.\n- **Harvard**: Crimson sports, rivalry with Yale, museums (Art Museums, Natural History, Peabody, etc.).\n- **Force units**: Pound-force, kilogram-force, sthène, kip, metric slug.\n- **Inequality effects**: Health/social issues, lower life expectancy, economic growth impact.\n- **Property systems**: Extra-legal ownership in developing countries (bureaucratic red tape, unrecorded documents).\n- **Glacial period**: NW Europe cold phases, 120m lower sea level, English Channel dry.\n\nIf you can specify a question (e.g., \"Who was Edward the Confessor's half-brother?\"), I can provide the exact answer from the context.",
+        "steps": 5,
+        "tokens": 48036,
+        "latency_s": 39.78,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "The text discusses the Normans' role in various historical events, including their contact with England, conquest of England, influence on Scotland, impact on Wales, and contributions to language and architecture. Key points include:\n\n- **Normans and England**: Edward the Confessor returned from Normandy in 1041, bringing Norman counselors and fighters; William the Conqueror's 1066 conquest replaced Anglo-Saxons as the ruling class.\n- **Normans and Scotland**: King David I introduced Norman culture and feudalism (\"Davidian Revolution\"), with families like Bruce and Stewart tracing Norman ancestry.\n- **Normans and Wales**: The Marches were under Norman barons, who began slow conquest, and Norman words like \"baron\" entered Welsh.\n- **Norman Language and Culture**: Anglo-Norman evolved into Middle English, merging with Old English and Norse, and Norman aristocrats identified as English during the Hundred Years' War.\n- **Architecture**: Norman architecture in England followed Anglo-Saxon and preceded Early Gothic; in Warsaw, 17th-19th century buildings included baroque, rococo, and neoclassical styles.\n\nThe text also touches on unrelated topics such as prime numbers, Harvard museums, U.S. energy crises, complexity classes, and historical warfare, but the primary focus is on the Normans' historical impact.",
+        "steps": 5,
+        "tokens": 49107,
+        "latency_s": 10.2,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges",
+        "steps": 2,
+        "tokens": 8115,
+        "latency_s": 1.9,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "The Normans were descendants of Norse raiders and pirates from Denmark, Iceland, and Norway who, under Rollo, swore fealty to King Charles III of West Francia in the 10th century. They merged with the native Frankish and Roman-Gaulish populations, developing a distinct cultural and ethnic identity. They were known for their martial spirit and Christian piety, adopting Norman French and making significant contributions to architecture, music, and military innovations. Key achievements include the Norman conquest of England (1066) and founding the Kingdom of Sicily. They also participated in the Reconquista in Iberia and the Crusades, spreading their influence across Europe and the Near East. Over time, they merged with local populations, with Norman aristocracy identifying as English during the Hundred Years' War, and their language (Anglo-Norman) influenced the development of Middle English.",
+        "steps": 5,
+        "tokens": 50858,
+        "latency_s": 9.0,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "Duke William II of Normandy.",
+        "steps": 2,
+        "tokens": 8550,
+        "latency_s": 2.28,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 2,
+        "tokens": 8779,
+        "latency_s": 1.96,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "The Normans were a group of people who, in the 10th and 11th centuries, gave their name to Normandy, a region in France. They were descended from Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway. Under their leader Rollo, they agreed to swear fealty to King Charles III of West Francia in 911, forming the Duchy of Normandy. They assimilated and mixed with the native Frankish and Roman-Gaulish populations, developing a distinct cultural and ethnic identity. The Normans were known for their martial spirit and later Christian piety, adopting the Gallo-Romance language (Norman, Normaund, or Norman French). They had significant political, cultural, and military impacts, founding the Kingdom of Sicily, conquering England in 1066, and influencing regions like Scotland, Wales, Ireland, and the Near East. They merged with local populations, combining languages and traditions, and their influence spread through architecture, governance, and culture.",
+        "steps": 5,
+        "tokens": 44666,
+        "latency_s": 8.54,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "The Anglo-Norman language was eventually absorbed into the Anglo-Saxon language of their subjects and influenced it, helping in the development of Middle English, which in turn evolved into Modern English.",
+        "steps": 2,
+        "tokens": 8291,
+        "latency_s": 2.02,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 2,
+        "tokens": 8481,
+        "latency_s": 2.14,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "The Normans were people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants gradually merged with the Carolingian-based cultures of West Francia. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century and continued to evolve over succeeding centuries. They were famed for their martial spirit and eventually for their Christian piety, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund, or Norman French, an important literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure. They are noted for their culture (unique Romanesque architecture and musical traditions) and significant military accomplishments and innovations, such as founding the Kingdom of Sicily under Roger II, the Norman conquest of England in 1066 (with the Battle of Hastings), and influence in the Crusader states, Scotland, Wales, Ireland, north Africa, and the Canary Islands. They merged with the natives, combining languages and traditions; the Anglo-Norman language influenced Old English, helping develop Middle English and then Modern English.",
+        "steps": 5,
+        "tokens": 43905,
+        "latency_s": 7.59,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "The English name \"Normans\" comes from the French words Normans/Normanz, plural of Normant, modern French normand, which is itself borrowed from Old Low Franconian Nortmann \"Northman\" or directly from Old Norse Norðmaðr, Latinized variously as Nortmannus, Normannus, or Nordmannus (recorded in Medieval Latin, 9th century) to mean \"Norseman, Viking\".",
+        "steps": 5,
+        "tokens": 45140,
+        "latency_s": 6.25,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "The text discusses multiple topics, including:\n1. **Normans**: Their origin as Norse raiders settling in Normandy, their cultural and ethnic identity, and their influence in Scotland, England, and their role in the Hundred Years' War.\n2. **Prime Numbers**: Definitions, conjectures (e.g., twin prime conjecture, Goldbach's conjecture), and their role in number theory and information technology.\n3. **Huguenots**: Their history, settlement in Ireland, role in the Williamite War, and the St. Bartholomew's Day Massacre.\n4. **Historical Events**: The French and Indian War (Seven Years' War), the St. Bartholomew's Day Massacre, and the Williamite war in Ireland.\n5. **Mathematics**: Big O notation for bounds, cubic interpolation by Guo Shoujing, and the fundamental theorem of arithmetic.\n6. **Other Topics**: The Premier of Victoria, oxygen solubility in water, the Brotherhood in Egypt, and the names of Warsaw.",
+        "steps": 5,
+        "tokens": 47424,
+        "latency_s": 5.74,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "The Huguenots settled in various places such as the Cape of Good Hope, Ireland, and North America (e.g., the Dutch East India Company post at the Cape of Good Hope, Dublin, Cork, Portarlington, Lisburn, Waterford, Youghal, Killeshandra, and areas like the Ohio Valley).",
+        "steps": 5,
+        "tokens": 46116,
+        "latency_s": 6.89,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "The Scotland Act 1998, passed by the UK Parliament and given royal assent on 19 November 1998, governs the Scottish Parliament. It delimits legislative competence by specifying reserved powers to Westminster, allowing the Scottish Parliament to legislate on devolved matters like education, health, agriculture, and justice. The UK Parliament retains authority over foreign policy and can amend the Scotland Act. The Scottish Parliament holds the Scottish Government to account and has limited tax-varying capability. The first session began on 12 May 1999.",
+        "steps": 5,
+        "tokens": 48391,
+        "latency_s": 7.11,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "The Huguenot label was first applied in France to conspirators (all aristocratic members of the Reformed Church) involved in the Amboise plot of 1560, a foiled attempt to wrest power from the House of Guise, with the move fostering relations with the Swiss.",
+        "steps": 5,
+        "tokens": 44999,
+        "latency_s": 4.66,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "The Norman dynasty had a major political, cultural and military impact on medieval Europe and even the Near East. The Normans were famed for their martial spirit and eventually for their Christian piety, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure. The Normans are noted both for their culture, such as their unique Romanesque architecture and musical traditions, and for their significant military accomplishments and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural and military influence spread from these new European centres to the Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.",
+        "steps": 5,
+        "tokens": 47742,
+        "latency_s": 39.62,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Norman",
+        "steps": 2,
+        "tokens": 8825,
+        "latency_s": 2.22,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "The Normans were a people from the 10th and 11th centuries who gave their name to Normandy, a region in France. They descended from Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway, who, under their leader Rollo, swore fealty to King Charles III of West Francia in the 10th century. They merged with the native Frankish and Roman-Gaulish populations, developing a distinct cultural and ethnic identity. They were involved in various activities such as raiding England, conquering England in 1066, participating in the Reconquista in Iberia, and joining the First Crusade. They adopted feudal doctrines, had ties to the Catholic Church, and influenced languages like Anglo-Norman, which contributed to the development of Middle English. They also ruled parts of Italy and Cyprus, and their nobility later identified as English during the Hundred Years' War.",
+        "steps": 5,
+        "tokens": 49831,
+        "latency_s": 8.45,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "The Normans were a people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (\"Norman\" comes from \"Norseman\") raiders and pirates from Denmark, Iceland, and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants gradually merged with the Carolingian-based cultures of West Francia. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century and continued to evolve over succeeding centuries. They were famed for their martial spirit and eventually for their Christian piety, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund, or Norman French, an important literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure. The Normans are noted both for their culture, such as their unique Romanesque architecture and musical traditions, and for their significant military accomplishments and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural and military influence spread from these new European centers to the Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands. Eventually, the Normans merged with the natives, combining languages and traditions. In the course of the Hundred Years' War, the Norman aristocracy often identified themselves as English. The Anglo-Norman language became distinct from the Latin language, something that was the subject of some humor by Geoffrey Chaucer. The Anglo-Norman language was eventually absorbed into the Anglo-Saxon language of their subjects (see Old English) and influenced it, helping (along with the Norse language of the earlier Anglo-Norse settlers and the Latin used by the church) in the development of Middle English, which in turn evolved into Modern English.",
+        "steps": 5,
+        "tokens": 46746,
+        "latency_s": 11.22,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "The text discusses the Normans, including their origin, settlement in Normandy, influence in various regions, and cultural contributions. They were descendants of Norse raiders who settled in northern France, established the Duchy of Normandy in 911, and later spread to England, Italy, and other areas. They introduced Norman architecture, feudal systems, and languages, merging with local populations and influencing cultures like English and Middle English. Key figures like Rollo, Edward the Confessor, Odo, and William the Conqueror are mentioned, along with their roles in Norman expansion and governance.",
+        "steps": 5,
+        "tokens": 47125,
+        "latency_s": 8.34,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "England, southern Italy, Sicily, Ireland, Scotland, Wales",
+        "steps": 2,
+        "tokens": 8092,
+        "latency_s": 2.38,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "The question is not clearly specified, but based on the provided context, here are key information:\n\n- **Normans**: Descended from Norse raiders; established Duchy of Normandy in 911 with Rollo.\n- **Norman History**: Involved in Reconquista (1018, Roger de Tosny failed to carve state in Iberia), serving Byzantium, and merging with locals.\n- **Science & Math**: Prime numbers >1, Euclid's theorem of arithmetic (excludes 1), sieve of Eratosthenes.\n- **Complexity Classes**: P ⊆ NP ⊆ PP ⊆ PSPACE, unproven if unequal.\n- **Economics**: Robert Barro found little relation between inequality and growth; high inequality reduces growth in poor countries.\n- **Other Topics**: French Huguenots' failed 1562-65 North American colonies, BSkyB's 1998 Sky Digital launch, etc.\n\nPlease clarify the specific question for a precise answer.",
+        "steps": 5,
+        "tokens": 47857,
+        "latency_s": 8.12,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil",
+        "steps": 2,
+        "tokens": 9357,
+        "latency_s": 2.12,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "1097",
+        "steps": 2,
+        "tokens": 8330,
+        "latency_s": 2.11,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 2,
+        "tokens": 8162,
+        "latency_s": 1.83,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "The Norman dynasty had a major political, cultural, and military impact on medieval Europe and even the Near East. They were descended from Norse raiders and pirates who, under Rollo, swore fealty to King Charles III of West Francia, merging with Frankish and Roman-Gaulish populations to form a distinct identity. The Normans were known for their martial spirit and Christian piety, adopting Norman French as a literary language. They founded the Duchy of Normandy, conquered England in 1066, established the Kingdom of Sicily, and spread influence to the Crusader states, Scotland, Wales, Ireland, North Africa, and the Canary Islands. Their military innovations and cultural contributions, such as Romanesque architecture, shaped medieval history.",
+        "steps": 5,
+        "tokens": 50040,
+        "latency_s": 7.37,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "380 years",
+        "steps": 2,
+        "tokens": 8410,
+        "latency_s": 2.21,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "Richard the Lion-hearted's plans to reach Acre were ruined by a storm that dispersed his fleet.",
+        "steps": 5,
+        "tokens": 50433,
+        "latency_s": 6.97,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 2,
+        "tokens": 9312,
+        "latency_s": 2.14,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "The Normans, originally Norse raiders, settled in northern France and formed the Duchy of Normandy, becoming a distinct group through cultural and ethnic blending. They had significant military and cultural impacts, such as conquering England in 1066, founding the Kingdom of Sicily, and influencing the Crusader states. They also had connections to England through marriages and Viking raids, and some joined Armenian forces in the Near East.",
+        "steps": 5,
+        "tokens": 48782,
+        "latency_s": 5.83,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "The Rhine's length was initially 1,230 km (764 miles) until 1932, when Knaurs Lexikon incorrectly stated 1,320 km (820 miles). This was adopted by Brockhaus Enzyklopädie, but corrected in 2010 to 1,232 km (766 miles) by the Dutch Rijkswaterstaat.",
+        "steps": 5,
+        "tokens": 49411,
+        "latency_s": 5.51,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "I can't answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 5,
+        "tokens": 52166,
+        "latency_s": 34.41,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "The text discusses various topics, including:\n1. **Geography/Waterways**: The Rhine's branches (Kromme Rijn, Leidse Rijn, Oude Rijn) and their role in draining land/polders, with mention of the Limes Germanicus and Channel River formation during ice ages.\n2. **History/Crusades**: Richard the Lion-hearted's 1191 Cyprus conquest, conflict with despot Isaac Komnenos, use of silver chains for confinement, and naming of island governors.\n3. **Sports**: Los Angeles' Major League Soccer teams (LA Galaxy, Chivas USA, 2005-2014), with Chivas suspended post-2014 and a new team scheduled for 2018.\n4. **History/Normans**: Origins of Normans (Norse raiders) in 10th-11th century France, merging with Frankish/Gaulish populations, and evolution of their identity.\n5. **Physics/Tension**: Ideal strings (massless, frictionless) and pulleys in force transmission, mechanical advantage, and energy conservation.\n6. **Science/Geology**: Lyell's uniformitarianism vs. catastrophism, and Hutton's role in promoting uniformitarianism.\n7. **Religion/Islamists**: Moderate (Ennahda, Jamaat-e-Islami), mixed (Hezbollah, Hamas), and radical (al-Qaeda, Taliban) Islamist groups' political participation.\n8. **Healthcare/Dispensaries**: Dispensary regulations, shift to pharmacy technicians, and reliance on automation.\n9. **Economics/Inequality**: Link between increasing inequality and harm to economic growth, with mechanisms like unemployment and social unrest.\n10. **Education/Religious Schools**: Types of religiously affiliated private schools (parochial, Protestant, Jewish, Muslim, Orthodox), and their focus on faith/academics.\n11. **Economics/Oil Shocks**: 1973-1974 Oil Shock, OPEC's price adjustments post-1971, and return to Bretton Woods-era gold-based prices.\n12. **Physics/Inertia**: Newton's inertia, Earth's rotational inertia, Einstein's equivalence principle, and application to gravity and relativity.\n13. **Religion/Huguenots**: Huguenot exodus post-1685, emigration to Protestant countries, and Camisard uprising in the Cévennes (1702-1709).\n14. **Technology/Broadcasting**: 2007 BSkyB-Virgin Media carriage dispute over channels, fees, and inclusion of HD/Video On Demand.\n15. **Physics/Weak Force**: Exchange of W/Z bosons, beta decay, field strength relative to strong force/gravity, and electroweak theory at high temperatures.\n16. **Biology/Ctenophora**: Comb jellies' features (combs of cilia), body structure (two cell layers), and classification distinct from cnidarians.\n17. **History/Iroquois**: William Johnson (Warraghiggey) and the Iroquois Confederacy, \"Covenant Chain\" with Britain, and resistance to French expansion.\n18. **Economics/Port Infrastructure**: Southern California ports (LA, Long Beach, San Diego) as major commercial/container ports.\n19. **Chemistry/Phlogiston Theory**: 18th-century theory of combustion involving \"phlogiston,\" its flaws (e.g., metal rusting gaining weight).\n20. **Physics/Big O Notation**: Simplified analysis of algorithms using O-notation, hiding constants/smaller terms.\n21. **Chemistry/Weak Force**: Electroweak theory unifying electromagnetic and weak forces at high temperatures (10¹⁵ K), observed in particle accelerators.",
+        "steps": 5,
+        "tokens": 47574,
+        "latency_s": 10.84,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan",
+        "steps": 2,
+        "tokens": 8937,
+        "latency_s": 2.48,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa",
+        "steps": 2,
+        "tokens": 8049,
+        "latency_s": 1.91,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "The question is not clearly stated. Please provide a specific question, and I will answer it based on the given context.",
+        "steps": 5,
+        "tokens": 49216,
+        "latency_s": 6.47,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "BSkyB",
+        "steps": 5,
+        "tokens": 49409,
+        "latency_s": 8.75,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "1. 20世纪历史学家John Gallagher和Ronald Robinson认为欧洲帝国主义的关键思想是“尽可能非正式地建立帝国，必要时才正式建立”。\n2. 约翰·道尔顿最初认为水的化学式是HO，将氧的原子量定为氢的8倍，而阿伏伽德罗基于阿伏伽德罗定律和双原子分子假设，正确解释了水的组成。\n3. 20世纪80年代，世界油价降至每桶不到10美元（经通胀调整后回落至1973年前水平），这对石油进口国（无论是发展中国家还是发达国家）都是意外之财。\n4. 1418年，让·德·贝坦库尔的侄子马西奥·德·贝坦库尔将加那利群岛的权利出售给恩里克·佩雷斯·德·古兹曼，即第二代内布拉伯爵。\n5. 1965年，在华纳·辛巴克的提议下，基于语音电话网络设计了数据网络，旨在连接通用电气的四个计算机销售和服务中心，以促进计算机分时服务，这显然是世界上首个商业在线服务。\n6. 1402至1405年间，由诺曼贵族让·德·贝坦库尔和普瓦图人加迪费尔·德拉萨尔领导的探险队征服了非洲大西洋沿岸的加那利群岛中的兰萨罗特岛、富埃特文图拉岛和耶罗岛。\n7. 1763年2月10日《巴黎条约》结束了北美的战争，法国选择割让密西西比河以东的大陆北美领地，保留圣皮埃尔和密克隆群岛及该地区的捕鱼权，换取了加勒比海瓜德罗普和马提尼克岛。\n8. 1991年秋季，为1992赛季起五年的英超联赛转播权进行谈判，ITV从1800万英镑加价到3400万英镑试图保留，BSkyB与BBC联手竞标，BSkyB支付3.04亿英镑获得全部60场左右直播权，BBC获得大部分比赛集锦。\n9. 2007-08赛季起，BSkyB的英超独家转播权因欧盟委员会认为其排他性损害竞争和消费者利益而结束，2006年5月爱尔兰Setanta体育获得两个转播包，Sky以13亿英镑获得剩余四个。\n10. 19世纪末至20世纪初，莱茵河在6世纪属于法兰克王国，9世纪成为中法兰克和西法兰克的边界，10世纪完全属于神圣罗马帝国，流经施瓦本、法兰克尼亚和下洛林。",
+        "steps": 5,
+        "tokens": 46597,
+        "latency_s": 10.37,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "I can't answer this question. You can provide other topics and I will try my best to help you.",
+        "steps": 5,
+        "tokens": 52545,
+        "latency_s": 8.61,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two.",
+        "steps": 2,
+        "tokens": 8639,
+        "latency_s": 2.44,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "Rounded arches, particularly over windows and doorways, and massive proportions.",
+        "steps": 2,
+        "tokens": 8224,
+        "latency_s": 2.0,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches.",
+        "steps": 2,
+        "tokens": 8618,
+        "latency_s": 2.27,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic",
+        "steps": 3,
+        "tokens": 19974,
+        "latency_s": 3.41,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "The Normans were descendants of Norse raiders and pirates from Denmark, Iceland, and Norway. They settled in Normandy, France, under their leader Rollo, who swore fealty to King Charles III of West Francia. Over generations, they assimilated with the native Frankish and Roman-Gaulish populations, forming a distinct cultural and ethnic identity by the first half of the 10th century. They adopted Gallo-Romance language, developed feudal systems, and became known for their military spirit, Christian piety, and architectural traditions like Romanesque style. They conquered England in 1066, founded the Kingdom of Sicily, and influenced regions including Scotland, Wales, Ireland, and the Near East. Their language, Anglo-Norman, contributed to the development of Middle English.",
+        "steps": 5,
+        "tokens": 46629,
+        "latency_s": 8.36,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Norman dynasty had a major political, cultural and military impact on medieval Europe and even the Near East. The Normans were famed for their martial spirit and eventually for their Christian piety, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure. The Normans are noted both for their culture, such as their unique Romanesque architecture and musical traditions, and for their significant military accomplishments and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural and military influence spread from these new European centres to the Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.",
+        "steps": 5,
+        "tokens": 48742,
+        "latency_s": 8.39,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "The Age of Imperialism generally refers to the activities of European powers from the early 18th century through to the middle of the 20th century, for example, the \"The Great Game\" in Persian lands, the \"Scramble for Africa\" and the \"Open Door Policy\" in China.",
+        "steps": 5,
+        "tokens": 47111,
+        "latency_s": 7.41,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The Normans were descendants of Norse raiders and pirates from Denmark, Iceland, and Norway. Under their leader Rollo, they settled in northern France, forming the Duchy of Normandy in 911 through the Treaty of Saint-Clair-sur-Epte with King Charles III of West Francia, in exchange for protection against further Viking incursions. They absorbed the native Frankish and Roman-Gaulish populations, adopting the Gallo-Romance language (Norman/French) and developing a distinct cultural and ethnic identity by the 10th century. Known for martial spirit and later Christian piety, they became a major political, cultural, and military force, conquering England (1066, Battle of Hastings), southern Italy, Sicily, parts of the Balkans, and the Near East, and influencing Scotland, Wales, and Ireland. They merged with locals, combining languages and traditions, and their descendants include families like the Stewarts in Scotland and names such as Bruce, Fraser, and Montgomery.",
+        "steps": 5,
+        "tokens": 44455,
+        "latency_s": 37.88,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "1562 to 1598",
+        "steps": 2,
+        "tokens": 7830,
+        "latency_s": 2.24,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "The Bayeux Tapestry is a work of embroidery, not a tapestry, commissioned by Odo, the Bishop of Bayeux and first Earl of Kent, and created using Nordic traditions from Danish Vikings.",
+        "steps": 5,
+        "tokens": 48766,
+        "latency_s": 6.74,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "The Bayeux Tapestry",
+        "steps": 2,
+        "tokens": 8416,
+        "latency_s": 1.87,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 2,
+        "tokens": 8952,
+        "latency_s": 1.92,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "The Normans were a group of people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They descended from Norse raiders and pirates from Denmark, Iceland, and Norway, who under their leader Rollo swore fealty to King Charles III of West Francia. Over generations, they assimilated and mixed with the native Frankish and Roman-Gaulish populations, merging with Carolingian-based cultures. Their distinct cultural and ethnic identity emerged in the first half of the 10th century and evolved over time. They were known for their martial spirit, Christian piety, and significant political, cultural, and military impact, including founding the Kingdom of Sicily, conquering England in 1066, and influencing regions like the Near East, Scotland, Wales, Ireland, and North Africa. Their language became Norman French, an important literary language, and they excelled in architecture (such as Romanesque and Norman-Arab styles) and military innovations. They eventually merged with native populations, and their language, Anglo-Norman, influenced the development of Middle English.",
+        "steps": 5,
+        "tokens": 46306,
+        "latency_s": 6.81,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "11th century",
+        "steps": 2,
+        "tokens": 8975,
+        "latency_s": 2.15,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "The Normans were a group of people who lived in the 10th and 11th centuries, originally from Norse raiders and pirates from Denmark, Iceland, and Norway. They settled in Normandy, France, and under their leader Rollo, they swore fealty to King Charles III of West Francia. Over time, they merged with the native Frankish and Roman-Gaulish populations, developing a distinct cultural and ethnic identity. They adopted the Gallo-Romance language, known as Norman or Norman French, and became a powerful force in medieval Europe, with a significant impact on politics, culture, and military affairs. They established the Duchy of Normandy, conquered England in 1066, founded the Kingdom of Sicily, and influenced regions like Scotland, Wales, Ireland, and the Near East. Their military innovations and cultural contributions, such as Romanesque architecture and musical traditions, were notable.",
+        "steps": 5,
+        "tokens": 45366,
+        "latency_s": 7.01,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "The Normans were a group of people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (\"Norman\" comes from \"Norseman\") raiders and pirates from Denmark, Iceland and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants would gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, and it continued to evolve over the succeeding centuries. They were famed for their martial spirit and eventually for their Christian piety, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure. The Normans are noted both for their culture, such as their unique Romanesque architecture and musical traditions, and for their significant military accomplishments and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural and military influence spread from these new European centres to the Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands. At Saint Evroul, a tradition of singing had developed and the choir achieved fame in Normandy. Under the Norman abbot Robert de Grantmesnil, several monks of Saint-Evroul fled to southern Italy, where they were patronised by Robert Guiscard and established a Latin monastery at Sant'Eufemia. There they continued the tradition of singing. Normandy was the site of several important developments in the history of classical music in the 11th century. Fécamp Abbey and Saint-Evroul Abbey were centres of musical production and education. At Fécamp, under two Italian abbots, William of Volpiano and John of Ravenna, the system of denoting notes by letters was developed and taught. It is still the most common form of pitch representation in English- and German-speaking countries today. Also at Fécamp, the staff, around which neumes were oriented, was first developed and taught in the 11th century. Under the German abbot Isembard, La Trinité-du-Mont became a centre of musical composition. In the visual arts, the Normans did not have the rich and distinctive traditions of the cultures they conquered. However, in the early 11th century the dukes began a programme of church reform, encouraging the Cluniac reform of monasteries and patronising intellectual pursuits, especially the proliferation of scriptoria and the reconstitution of a compilation of lost illuminated manuscripts. The church was utilised by the dukes as a unifying force for their disparate duchy. The chief monasteries taking part in this \"renaissance\" of Norman art and scholarship were Mont-Saint-Michel, Fécamp, Jumièges, Bec, Saint-Ouen, Saint-Evroul, and Saint-Wandrille. These centres were in contact with the so-called \"Winchester school\", which channeled a pure Carolingian artistic tradition to Normandy. In the final decade of the 11th and first of the 12th century, Normandy experienced a golden age of illustrated manuscripts, but it was brief and the major scriptoria of Normandy ceased to function after the midpoint of the century. Robert Guiscard, an other Norman adventurer previously elevated to the dignity of count of Apulia as the result of his military successes, ultimately drove the Byzantines out of southern Italy. Having obtained the consent of pope Gregory VII and acting as his vassal, Robert continued his campaign conquering the Balkan peninsula as a foothold for western feudal lords and the Catholic Church. After allying himself with Croatia and the Catholic cities of Dalmatia, in 1081 he led an army of 30,000 men in 300 ships landing on the southern shores of Albania, capturing Valona, Kanina, Jericho (Orikumi), and reaching Butrint after numerous pillages. They joined the fleet that had previously conquered Corfu and attacked Dyrrachium from land and sea, devastating everything along the way. Under these harsh circumstances, the locals accepted the call of emperor Alexius I Comnenus to join forces with the Byzantines against the Normans. The Albanian forces could not take part in the ensuing battle because it had started before their arrival. Immediately before the battle, the Venetian fleet had secured a victory in the coast surrounding the city. Forced to retreat, Alexius ceded the command to a high Albanian official named Comiscortes in the service of Byzantium. The city's garrison resisted until February 1082, when Dyrrachium was betrayed to the Normans by the Venetian and Amalfitan merchants who had settled there. The Normans were now free to penetrate into the hinterland; they took Ioannina and some minor cities in southwestern Macedonia and Thessaly before appearing at the gates of Thessalonica. Dissension among the high ranks coerced the Normans to retreat to Italy. They lost Dyrrachium, Valona, and Butrint in 1085, after the death of Robert. The first Huguenots to leave France sought freedom from persecution in Switzerland and the Netherlands. A group of Huguenots was part of the French colonisers who arrived in Brazil in 1555 to found France Antarctique. A couple of ships with around 500 people arrived at the Guanabara Bay, present-day Rio de Janeiro, and settled in a small island. A fort, named Fort Coligny, was built to protect them from attack from the Portuguese troops and Brazilian Native Americans. It was an attempt to establish a French colony in South America. The fort was destroyed in 1560 by the Portuguese, who captured part of the Huguenots. The Portuguese threatened the prisoners with death if they did not convert to Catholicism. The Huguenots of Guanabara, as they are now known, produced a declaration of faith to express their beliefs to the Portuguese. This was their death sentence. This document, the Guanabara Confession of Faith, became the first Protestant confession of faith in the whole of the Americas. French Huguenot explorer Jean Ribault charted the St. Johns River in 1562 calling it the River of May because he discovered it in May. Ribault erected a stone column near present-day Jacksonville claiming the newly discovered land for France. In 1564, René Goulaine de Laudonnière established the first European settlement, Fort Caroline, on the St. Johns near the main village of the Saturiwa. Philip II of Spain ordered Pedro Menéndez de Avilés to protect the interest of Spain by attacking the French presence at Fort Caroline. On September 20, 1565, a Spanish force from the nearby Spanish settlement of St. Augustine attacked Fort Caroline, and killed nearly all the French soldiers defending it. The Spanish renamed the fort San Mateo, and following the ejection of the French, St. Augustine's position as the most important settlement in Florida was solidified. The location of Fort Caroline is subject to debate but a reconstruction of the fort was established on the St. Johns River in 1964. Barred by the government from settling in New France, Huguenots led by Jessé de Forest, sailed to North America in 1624 and settled instead in the Dutch colony of New Netherland (later incorporated into New York and New Jersey); as well as Great Britain's colonies, including Nova Scotia. A number of New Amsterdam's families were of Huguenot origin, often having emigrated as refugees to the Netherlands in the previous century. In 1628 the Huguenots established a congregation as L'Église française à la Nouvelle-Amsterdam (the French church in New Amsterdam). This parish continues today as L'Eglise du Saint-Esprit, part of the Episcopal (Anglican) communion, and welcomes Francophone New Yorkers from all over the world. Upon their arrival in New Amsterdam, Huguenots were offered land directly across from Manhattan on Long Island for a permanent settlement and chose the harbor at the end of Newtown Creek, becoming the first Europeans to live in Brooklyn, then known as Boschwick, in the neighborhood now known as Bushwick. New Rochelle, located in the county of Westchester on the north shore of Long Island Sound, seemed to be the great location of the Huguenots in New York. It is said that they landed on the coastline peninsula of Davenports Neck called \"Bauffet's Point\" after traveling from England where they had previously taken refuge on account of religious persecution, four years before the revocation of the Edict of Nantes. They purchased from John Pell, Lord of Pelham Manor, a tract of land consisting of six thousand one hundred acres with the help of Jacob Leisler. It was named New Rochelle after La Rochelle, their former strong-hold in France. A small wooden church was first erected in the community, followed by a second church that built of stone. Previous to the erection of it, the strong men would often walk twenty-three miles on Saturday evening, the distance by the road from New Rochelle to New York, to attend the Sunday service. The church was eventually replaced by a third, Trinity-St. Paul's Episcopal Church, which contains heirlooms including the original bell from the French Huguenot Church \"Eglise du St. Esperit\" on Pine Street in New York City, which is preserved as a relic in the tower room. The Huguenot cemetery, or \"Huguenot Burial Ground\", has since been recognized as a historic cemetery that is the final resting place for a wide range of the Huguenot founders, early settlers and prominent citizens dating back more than three centuries. In 1191 Richard the Lion-hearted left Messina with a large fleet in order to reach Acre. But a storm dispersed the fleet. After some searching, it was discovered that the boat carrying his sister and his fiancée Berengaria was anchored on the south coast of Cyprus, together with the wrecks of several other ships, including the treasure ship. Survivors of the wrecks had been taken prisoner by the island's despot Isaac Komnenos. On 1 May 1191, Richard's fleet arrived in the port of Limassol on Cyprus. He ordered Isaac to release the prisoners and the treasure. Isaac refused, so Richard landed his troops and took Limassol. When finally Edward the Confessor returned from his father's refuge in 1041, at the invitation of his half-brother Harthacnut, he brought with him a Norman-educated mind. He also brought many Norman counsellors and fighters, some of whom established an English cavalry force. This concept never really took root, but it is a typical example of the attitudes of Edward. He appointed Robert of Jumièges archbishop of Canterbury and made Ralph the Timid earl of Hereford. He invited his brother-in-law Eustace II, Count of Boulogne to his court in 1051, an event which resulted in the greatest of early conflicts between Saxon and Norman and ultimately resulted in the exile of Earl Godwin of Wessex.",
+        "steps": 5,
+        "tokens": 52952,
+        "latency_s": 24.69,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "The Saint-Evroul monks established a Latin monastery at Sant'Eufemia in Italy.",
+        "steps": 5,
+        "tokens": 51384,
+        "latency_s": 7.99,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "The Norman dynasty had a major political, cultural, and military impact on medieval Europe and even the Near East. They were known for their martial spirit and Christian piety, adopting Norman French, forming the Duchy of Normandy, and contributing to Romanesque architecture and musical traditions. Their military successes included founding the Kingdom of Sicily, conquering England in 1066, and influencing the Crusader states, Scotland, Wales, Ireland, and North Africa/Canary Islands. In the visual arts, they patronized church reform, scriptoria, and illuminated manuscripts, with Norman art in southern Italy influenced by Greek, Lombard, and Arab traditions. Their musical innovations in Normandy included developing note notation and the staff at Fécamp Abbey.",
+        "steps": 5,
+        "tokens": 49659,
+        "latency_s": 10.22,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "Singing tradition and musical production and education.",
+        "steps": 2,
+        "tokens": 8728,
+        "latency_s": 2.09,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "steps": 2,
+        "tokens": 7871,
+        "latency_s": 2.33,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Computational complexity theory is a branch of theoretical computer science that focuses on classifying computational problems according to their inherent difficulty, and relating those classes to each other. It studies the amount of resources (like time, space, communication, etc.) needed to solve problems, formalizes this intuition with mathematical models of computation, and determines the practical limits on what computers can and cannot do. It classifies problems as solvable or not with appropriately restricted resources, distinguishing from analysis of algorithms (which analyzes a particular algorithm) and computability theory (which asks what can be solved in principle). Key concepts include decision problems, complexity classes (e.g., P, NP, EXPTIME, BPP, BQP), and hierarchy theorems for resource restrictions.",
+        "steps": 5,
+        "tokens": 43281,
+        "latency_s": 7.04,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "The integer factorization problem is a computational problem of determining the prime factorization of a given integer. It is in NP and co-NP, and if it is NP-complete, the polynomial time hierarchy will collapse to its first level. The best known classical algorithm is the general number field sieve, and Shor's algorithm is a quantum algorithm that runs in polynomial time.",
+        "steps": 5,
+        "tokens": 45546,
+        "latency_s": 7.08,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "Computational complexity theory",
+        "steps": 3,
+        "tokens": 18775,
+        "latency_s": 3.35,
+        "replan": 0
+      }
+    ],
+    "R3": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France",
+        "steps": 2,
+        "tokens": 25805,
+        "latency_s": 3.51,
+        "replan": 0
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "The Normans were the people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (\"Norman\" comes from \"Norseman\") raiders and pirates from Denmark, Iceland and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants would gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, and it continued to evolve over the succeeding centuries.",
+        "steps": 4,
+        "tokens": 70554,
+        "latency_s": 9.66,
+        "replan": 0
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "The Normans were descended from Norse (Norseman/Viking) raiders and pirates from Denmark, Iceland, and Norway, who under their leader Rollo settled in France and merged with the native Frankish and Roman-Gaulish populations, developing a unique Norman culture.",
+        "steps": 3,
+        "tokens": 46896,
+        "latency_s": 7.5,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "The Normans were a people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (\"Norman\" comes from \"Norseman\") raiders and pirates from Denmark, Iceland, and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants merged with the Carolingian-based cultures of West Francia. The Duchy of Normandy, established in 911 by the Treaty of Saint-Clair-sur-Epte, was a fiefdom formed by this agreement, offering Rollo and his men French lands in exchange for protection against further Viking incursions. The Normans had a major political, cultural, and military impact on medieval Europe and the Near East, adopting Gallo-Romance language (Norman, Normaund, or Norman French), excelling in martial spirit and Christian piety, and making significant contributions to architecture, music, and military innovations. They conquered England in 1066 under William the Conqueror, founded the Kingdom of Sicily, and influenced regions like Scotland, Wales, Ireland, and the Near East. Over time, they merged with the natives, combining languages and traditions, and their descendants can be identified by surnames like French, Roche, Devereux, D'Arcy, Treacy, Lacy, Furlong, Morell, Fitzgerald, and Barry.",
+        "steps": 4,
+        "tokens": 70334,
+        "latency_s": 11.94,
+        "replan": 0
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "10th century",
+        "steps": 1,
+        "tokens": 9096,
+        "latency_s": 2.7,
+        "replan": 0
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "William the Conqueror (William II of Normandy)",
+        "steps": 1,
+        "tokens": 9150,
+        "latency_s": 3.33,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "The Normans were a group of Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway who, under their leader Rollo, established the Duchy of Normandy in 911 through the Treaty of Saint-Clair-sur-Epte with King Charles III of West Francia. They assimilated with the native Frankish and Roman-Gaulish populations, adopting the Gallo-Romance language (Norman) and forming a distinct cultural and ethnic identity. Over time, they expanded their influence, conquering England in 1066 (Battle of Hastings), founding the Kingdom of Sicily, and establishing territories in the Near East, Scotland, Ireland, and elsewhere. Their descendants merged with local populations, influencing languages (e.g., Middle English) and cultures, and the Norman dynasty had significant political, cultural, and military impacts on medieval Europe.",
+        "steps": 4,
+        "tokens": 73216,
+        "latency_s": 41.25,
+        "replan": 0
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "Christian",
+        "steps": 2,
+        "tokens": 23695,
+        "latency_s": 3.68,
+        "replan": 0
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "Norseman, Viking.",
+        "steps": 1,
+        "tokens": 8947,
+        "latency_s": 2.78,
+        "replan": 0
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "9th century",
+        "steps": 1,
+        "tokens": 8893,
+        "latency_s": 2.52,
+        "replan": 0
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "911",
+        "steps": 2,
+        "tokens": 25670,
+        "latency_s": 93.45,
+        "replan": 0
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "The Duchy of Normandy was established by the treaty of Saint-Clair-sur-Epte between King Charles III of West Francia and the famed Viking ruler Rollo in 911.",
+        "steps": 3,
+        "tokens": 46272,
+        "latency_s": 7.5,
+        "replan": 0
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The Rhine River.",
+        "steps": 3,
+        "tokens": 51591,
+        "latency_s": 6.15,
+        "replan": 0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "The Normans were a people in the 10th and 11th centuries who took their name from Normandy, France. They were descendants of Norse (Viking) raiders from Denmark, Iceland, and Norway, led by Rollo, who swore fealty to King Charles III of West Francia. They merged with Frankish and Roman-Gaulish populations, adopting the Gallo-Romance language to form Norman dialects. The Duchy of Normandy, established by the 911 Treaty of Saint-Clair-sur-Epte, became a powerful feudal state. Their culture blended Norse traditions with Frankish elements, including Roman administrative structures, and they were known for martial spirit, Romanesque architecture, and military innovations. Normans expanded across Europe and the Near East, conquering England (1066), southern Italy, Sicily, and parts of the Levant, influencing politics, culture, and law. They also interacted with the Byzantine Empire, the Islamic world, and later became key in the Crusades. Their descendants in places like Ireland (the Pale) and Scotland retained Norman cultural traces through surnames and traditions.",
+        "steps": 5,
+        "tokens": 94002,
+        "latency_s": 14.98,
+        "replan": 0
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "The Normans were exponents of the Catholic orthodoxy into which they assimilated. They were major foreign participants in the Reconquista in Iberia and the First Crusade, and were famed for their Christian piety. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important literary language.",
+        "steps": 2,
+        "tokens": 24885,
+        "latency_s": 95.09,
+        "replan": 0
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "The Normans were a group of Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway who settled in northern France in the 10th century, giving their name to the region of Normandy. They were led by Rollo, who in 911 signed the Treaty of Saint-Clair-sur-Epte with King Charles III of West Francia, receiving land between the river Epte and the Atlantic coast in exchange for protection against further Viking incursions. Over time, they assimilated with the local Frankish and Roman-Gaulish populations, adopting the Gallo-Romance language (Norman French) and Frankish feudal traditions. They became known for their military spirit, Christian piety, and cultural innovations, such as Romanesque architecture and musical traditions. The Normans had significant impacts, including the Norman Conquest of England in 1066, the founding of the Kingdom of Sicily, and cultural influence across medieval Europe, the Near East, and beyond.",
+        "steps": 4,
+        "tokens": 73786,
+        "latency_s": 11.64,
+        "replan": 0
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "Fighting horsemen",
+        "steps": 2,
+        "tokens": 24680,
+        "latency_s": 4.13,
+        "replan": 0
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "The Byzantine Empire.",
+        "steps": 2,
+        "tokens": 25851,
+        "latency_s": 4.51,
+        "replan": 0
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "in the 1050s",
+        "steps": 1,
+        "tokens": 9443,
+        "latency_s": 3.36,
+        "replan": 0
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "1060s",
+        "steps": 2,
+        "tokens": 26213,
+        "latency_s": 93.41,
+        "replan": 0
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "Roussel de Bailleul",
+        "steps": 3,
+        "tokens": 47883,
+        "latency_s": 8.42,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "The Normans were a people from the 10th and 11th centuries who gave their name to Normandy, France. They descended from Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway, led by Rollo, who swore fealty to King Charles III of West Francia. Over generations, they assimilated with the native Frankish and Roman-Gaulish populations, developing a distinct Norman culture and ethnicity. They adopted the Gallo-Romance language, becoming known as Normans/Normaund/Norman French, an important literary language.\n\nThe Normans had a profound impact on medieval Europe and the Near East through their military conquests and cultural influence. They founded the Duchy of Normandy, a feudal principality, and later conquered England in 1066, establishing the Norman dynasty. They also established the Kingdom of Sicily, conquered southern Italy, and founded the Principality of Antioch in the Levant. In Great Britain, they settled in Ireland, Scotland, and Wales, building castles, introducing feudal systems, and merging with local populations, with families like Bruce, Fraser, Douglas, and Stewart tracing their ancestry to Normans.\n\nNorman culture included Romanesque architecture, musical traditions, and the Bayeux Tapestry (an embroidery). Their language, Anglo-Norman, influenced the development of Middle English. The Normans also spread their influence to North Africa, the Canary Islands, and the Crusader states, with some serving in Turkish and Armenian forces. They eventually merged with indigenous populations, with Norman aristocracy identifying as English during the Hundred Years' War. Their legacy is seen in surnames, feudal systems, architecture, and the English language.",
+        "steps": 3,
+        "tokens": 45159,
+        "latency_s": 8.97,
+        "replan": 0
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "Oursel",
+        "steps": 1,
+        "tokens": 9466,
+        "latency_s": 1.85,
+        "replan": 0
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "1. 安纳托利亚\n2. 1073-1074年\n3. 8000\n4. 1060年代\n5. 1050年代\n6. 1018年\n7. 1064年\n8. 1081年\n9. 1085年\n10. 1107年\n11. 1185年\n12. 1038-1040年\n13. 10世纪和11世纪\n14. 1066年\n15. 1081年\n16. 1082年2月\n17. 1081年\n18. 1085年\n19. 1050年代\n20. 1060年代\n21. 1018年\n22. 1064年\n23. 1081年\n24. 1085年\n25. 1107年\n26. 1038-1040年\n27. 10世纪和11世纪\n28. 1066年\n29. 1081年\n30. 1082年2月",
+        "steps": 3,
+        "tokens": 49397,
+        "latency_s": 8.62,
+        "replan": 0
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Normans were people from the 10th and 11th centuries, descendants of Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway, who under their leader Rollo, swore fealty to King Charles III of West Francia in 911. They settled in what became Normandy, a region in France, and over generations assimilated with the native Frankish and Roman-Gaulish populations, developing a distinct Norman culture and ethnicity. They were known for their martial spirit and later Christian piety, adopting Norman French (a Gallo-Romance language) and becoming feudal lords. The Normans had significant impacts, including conquering England in 1066, founding the Kingdom of Sicily, and influencing regions like Ireland, Scotland, the Near East, and parts of Europe through their military, political, and cultural innovations. Their descendants can be recognized by surnames such as Fitz- (e.g., Fitzgerald), De- (e.g., Devereux), and Barry, Burke, etc.",
+        "steps": 3,
+        "tokens": 49366,
+        "latency_s": 97.8,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "The Norman dynasty had a major political, cultural and military impact on medieval Europe and even the Near East. The Normans were famed for their martial spirit and eventually for their Christian piety, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure. The Normans are noted both for their culture, such as their unique Romanesque architecture and musical traditions, and for their significant military accomplishments and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural and military influence spread from these new European centres to the Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.",
+        "steps": 4,
+        "tokens": 70433,
+        "latency_s": 10.96,
+        "replan": 0
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "1082, 1085, 1107, 1185",
+        "steps": 3,
+        "tokens": 46445,
+        "latency_s": 5.09,
+        "replan": 0
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "The Normans were a Norse (Viking) group who, in the 10th and 11th centuries, settled in Normandy, France, and later had significant impacts on medieval Europe and the Near East. They were descendants of Norse raiders and pirates from Denmark, Iceland, and Norway, led by Rollo, who swore fealty to King Charles III of West Francia, forming the Duchy of Normandy. They assimilated with Frankish and Roman-Gaulish populations, adopting Norman French, a dialect of Gallo-Romance, and developed a distinct cultural identity.\n\nMilitary and political achievements included the Norman conquest of England (1066), founding the Kingdom of Sicily, and establishing the Principality of Antioch. They served as mercenaries in the Byzantine Empire and Armenia, fighting against the Seljuk Turks, and their martial spirit and innovations in warfare were notable. The Normans also influenced architecture (Romanesque), music, and literature, with their language and culture spreading across Europe and the Near East. Over time, they merged with local populations, and their aristocracy often identified as English during the Hundred Years' War, contributing to the development of Middle English through the Anglo-Norman language.",
+        "steps": 3,
+        "tokens": 50320,
+        "latency_s": 97.42,
+        "replan": 0
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "Deabolis",
+        "steps": 2,
+        "tokens": 25310,
+        "latency_s": 3.78,
+        "replan": 0
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "Bohemond",
+        "steps": 4,
+        "tokens": 71442,
+        "latency_s": 8.09,
+        "replan": 0
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "The information provided does not mention the river by which Petrela was located.",
+        "steps": 2,
+        "tokens": 25446,
+        "latency_s": 3.56,
+        "replan": 0
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "The Normans were a people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (Norseman) raiders and pirates from Denmark, Iceland, and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants merged with the Carolingian-based cultures of West Francia, and a distinct cultural and ethnic identity emerged initially in the first half of the 10th century, evolving over succeeding centuries. They adopted the Gallo-Romance language, known as Norman, Normaund, or Norman French, an important literary language. The Normans were famed for their martial spirit and Christian piety, becoming exponents of Catholic orthodoxy. They had a major political, cultural, and military impact on medieval Europe and the Near East, founding the Duchy of Normandy, the Kingdom of Sicily, the Principality of Antioch, and conquering England in 1066. They spread their influence to Scotland, Wales, Ireland, North Africa, and the Canary Islands. Their descendants can be found in various regions, with surnames like French, Roche, Devereux, D'Arcy, Treacy, Lacy, Fitzgerald, and Burke being common in areas like southeast Ireland.",
+        "steps": 3,
+        "tokens": 48953,
+        "latency_s": 8.1,
+        "replan": 0
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "Dyrrachium",
+        "steps": 2,
+        "tokens": 24695,
+        "latency_s": 94.23,
+        "replan": 0
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "Dyrrachium was located on the southern shores of Albania.",
+        "steps": 3,
+        "tokens": 48131,
+        "latency_s": 7.12,
+        "replan": 0
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "King Ethelred II of England.",
+        "steps": 1,
+        "tokens": 9010,
+        "latency_s": 3.1,
+        "replan": 0
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "The Normans were a people from the 10th and 11th centuries who gave their name to Normandy, France. They descended from Norse raiders and pirates (Norsemen) who settled in Frankish territories, forming the Duchy of Normandy in 911 under Rollo. Over generations, they merged with native Frankish and Roman-Gaulish populations, adopting the Gallo-Romance language (Norman French) and developing a distinct cultural identity. \n\nKey historical impacts include:\n- **Norman Conquest of England (1066)**: Duke William II (the Conqueror) defeated King Harold II at the Battle of Hastings, replacing the Anglo-Saxons as England's ruling class.\n- **Political and Cultural Influence**: Normans established feudal systems, introduced Norman French as a literary language, and spread their culture (e.g., Romanesque architecture) across Europe. They founded kingdoms in Sicily (Roger II) and the Levant (Principality of Antioch), and influenced Scotland, Wales, and Ireland through migration and intermarriage.\n- **Language and Society**: Anglo-Norman, a dialect of Norman French, became influential in medieval England and contributed to the development of Middle English. The Norman aristocracy often identified as English during the Hundred Years' War.\n\nTheir military prowess, feudal organization, and cultural assimilation made them a dominant force in medieval Europe.",
+        "steps": 4,
+        "tokens": 72577,
+        "latency_s": 9.92,
+        "replan": 0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "Normandy",
+        "steps": 2,
+        "tokens": 26694,
+        "latency_s": 4.96,
+        "replan": 0
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "Sweyn Forkbeard",
+        "steps": 1,
+        "tokens": 9000,
+        "latency_s": 2.9,
+        "replan": 0
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 2,
+        "tokens": 24389,
+        "latency_s": 93.95,
+        "replan": 0
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "The Normans, originally Norse raiders and pirates, settled in Normandy in the 10th century, merging with Frankish and Gallo-Roman populations to form a distinct culture. They expanded through military conquests, including southern Italy (under Robert Guiscard), England (1066 Battle of Hastings, replacing Anglo-Saxons as rulers), and parts of Scotland (via David I's \"Davidian Revolution\"). Normans introduced feudal systems, architecture (e.g., Norman-Arab in Sicily, succeeding Anglo-Saxon in England), and language, influencing Middle English and cultural identity across the Channel. They served as mercenaries in the Byzantine Empire and Armenia, with later kings of England (e.g., William II) and Scottish clans tracing Norman ancestry, while their aristocracy sometimes identified as English during the Hundred Years' War.",
+        "steps": 3,
+        "tokens": 49734,
+        "latency_s": 6.77,
+        "replan": 0
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges",
+        "steps": 1,
+        "tokens": 8471,
+        "latency_s": 2.87,
+        "replan": 0
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "The Battle of Hastings.",
+        "steps": 2,
+        "tokens": 26576,
+        "latency_s": 3.62,
+        "replan": 0
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "The Normans had a profound impact on medieval Europe and beyond. They established the Duchy of Normandy, became exponents of Catholic orthodoxy, adopted Norman French, and made significant military innovations. They founded the Kingdom of Sicily, conquered England in 1066, and spread their influence to the Near East, Scotland, Wales, Ireland, and North Africa. Their cultural contributions included Romanesque architecture, and they merged with native populations, influencing languages like Middle English. They also played a role in the Crusades and feudal systems.",
+        "steps": 4,
+        "tokens": 72874,
+        "latency_s": 9.92,
+        "replan": 0
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 2,
+        "tokens": 25482,
+        "latency_s": 3.09,
+        "replan": 0
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "Anglo-Saxons",
+        "steps": 2,
+        "tokens": 23307,
+        "latency_s": 3.9,
+        "replan": 0
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "The Normans, who were descendants of Norse raiders and pirates, established the Duchy of Normandy in 911 through the Treaty of Saint-Clair-sur-Epte with King Charles III of West Francia. They merged with the local Frankish and Roman-Gaulish populations, adopting the Gallo-Romance language (forming Norman) and Catholicism, developing a unique Norman culture. They later conquered England in 1066, and their influence spread to southern Italy, Sicily, the Near East, Scotland, Wales, Ireland, and North Africa. Their architecture included Norman-Arab styles in Sicily and Romanesque in England, and they were noted for feudal systems, military innovations, and cultural blending.",
+        "steps": 4,
+        "tokens": 70927,
+        "latency_s": 38.75,
+        "replan": 0
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 2,
+        "tokens": 25005,
+        "latency_s": 5.14,
+        "replan": 0
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "The Normans were a people from the 10th and 11th centuries who gave their name to Normandy, France. They were descendants of Norse (Viking) raiders from Denmark, Iceland, and Norway, led by Rollo, who swore fealty to King Charles III of West Francia. Over generations, they assimilated with the native Frankish and Roman-Gaulish populations, developing a distinct Norman culture, language (Norman, or Norman French), and identity. They had significant military and cultural impact, conquering England (1066), southern Italy, Sicily, parts of Scotland, Wales, and Ireland, and influencing architecture, law, and language across medieval Europe and the Near East.",
+        "steps": 3,
+        "tokens": 45808,
+        "latency_s": 7.54,
+        "replan": 0
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "The Normans were a group of Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway who settled in northern France, forming the Duchy of Normandy in 911 under Rollo. They absorbed Frankish and Roman-Gaulish cultures, developing a distinct Norman identity. Over time, they became prominent in medieval Europe, known for their military innovations, architecture (e.g., Romanesque, Norman-Arab in Sicily), and cultural contributions. They conquered England in 1066, introduced feudalism, and influenced other regions like Scotland, Wales, and the Crusader states. Key figures include William the Conqueror, Richard the Lion-Heart, and Roger II of Sicily. Their language, Norman French, became a literary language, and they blended traditions, often merging with native populations while maintaining their martial spirit and Christian piety.",
+        "steps": 3,
+        "tokens": 46346,
+        "latency_s": 7.57,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "The Normans had a profound impact on medieval Europe and beyond, characterized by their martial spirit, cultural fusion, and significant military and architectural contributions. Key aspects include:  \n\n### 1. **Origins and Early Expansion**  \nThe Normans, originally Norse (Viking) raiders, settled in northern France in the 10th century. By the Treaty of Saint-Clair-sur-Epte (911), Rollo, a Norse leader, was granted the Duchy of Normandy by King Charles III of West Francia in exchange for protection against further Viking incursions. This region became a cohesive principality, and the Normans absorbed Frankish culture, adopting the Gallo-Romance language (Norman French) and integrating into feudal systems.  \n\n### 2. **Military Conquests and Dynastic Expansion**  \nNormans became renowned for their military innovation, founding kingdoms and principalities across Europe and the Near East:  \n- **Norman Conquest of England (1066):** Duke William II (the Conqueror) defeated King Harold II at the Battle of Hastings, establishing Norman rule in England.  \n- **Southern Italy and Sicily:** Roger II founded the Kingdom of Sicily (1130), blending Norman, Lombard, Byzantine, and Islamic architectural styles (e.g., Norman-Arab architecture).  \n- **Levant:** Bohemond I established the Principality of Antioch as part of the Crusader states.  \n\n### 3. **Cultural and Linguistic Fusion**  \nNormans merged with local populations, blending traditions:  \n- **Language:** They adopted Norman French, a key literary language, which later influenced English (via Anglo-Norman) and other European languages.  \n- **Architecture:** Romanesque architecture characterized their early buildings, with later influences from Islamic and Byzantine styles in Sicily.  \n\n### 4. **Political and Administrative Innovations**  \nNormans introduced feudal systems to conquered territories, such as Scotland (via David I’s \"Davidian Revolution\") and Wales, where they established Marcher lordships (e.g., Bernard de Neufmarché in Brecknockshire).  \n\n### 5. **Legacy**  \nNorman rule transformed England, Sicily, and other regions, leaving lasting impacts on governance, law, language, and architecture. Their fusion of Norse warrior culture with Frankish feudalism and later Christian orthodoxy shaped medieval Europe’s cultural and political landscape.  \n\nSources highlight their role in spreading feudalism, influencing languages (e.g., Welsh words like *barwn* for \"baron\"), and integrating diverse traditions, making them a pivotal force in medieval history.",
+        "steps": 4,
+        "tokens": 71512,
+        "latency_s": 13.15,
+        "replan": 0
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "King Malcolm III of Scotland.",
+        "steps": 2,
+        "tokens": 24149,
+        "latency_s": 33.9,
+        "replan": 0
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "1072",
+        "steps": 1,
+        "tokens": 8845,
+        "latency_s": 2.54,
+        "replan": 0
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "Richard the Lion-hearted's sister and his fiancée Berengaria.",
+        "steps": 1,
+        "tokens": 8529,
+        "latency_s": 2.38,
+        "replan": 0
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "Sybilla of Normandy.",
+        "steps": 1,
+        "tokens": 9074,
+        "latency_s": 2.03,
+        "replan": 0
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Norman",
+        "steps": 2,
+        "tokens": 25243,
+        "latency_s": 5.1,
+        "replan": 0
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Hereford",
+        "steps": 2,
+        "tokens": 25877,
+        "latency_s": 94.53,
+        "replan": 0
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "1. The term \"Normans\" comes from Old Low Franconian Nortmann \"Northman\" or Old Norse Norðmaðr, meaning \"Norseman, Viking\".\n2. Normans were descendants of Norse raiders and pirates from Denmark, Iceland, and Norway, who under Rollo swore fealty to King Charles III of West Francia, and merged with native Frankish and Roman-Gaulish populations.\n3. Edward the Confessor (1041 returned to England) brought Norman-educated mind, Norman counsellors, and fighters, appointed Ralph the Timid as earl of Hereford, and charged him with defending the Marches and warring with the Welsh, but Normans failed to make headway into Wales.\n4. In 1066, Duke William II of Normandy conquered England, killing King Harold II at the Battle of Hastings, replacing Anglo-Saxons as ruling class; Norman kings of England (as Dukes of Normandy) owed homage to King of France for continental lands, considered England their most important holding.\n5. After the Conquest, the Marches came under Norman barons' dominance (e.g., Bernard de Neufmarché, Roger of Montgomery, Hugh Lupus), who began slow conquest of Wales, introducing Norman words like \"baron\" (barwn) into Welsh.\n6. Norman architecture in England succeeds Anglo-Saxon and precedes Early Gothic; in southern Italy, Normans created Norman-Arab architecture by incorporating Islamic, Lombard, and Byzantine techniques in Sicily.\n7. Normans came into Scotland, building castles, founding noble families (e.g., Bruce, Gray, Ramsay, Fraser, Douglas, Gordon) and the Stewart royal house, via the \"Davidian Revolution\" by King David I, who applied Norman feudal system.\n8. Normans in southern Italy and England: Bayeux Tapestry (embroidery) commissioned by Odo, Bishop of Bayeux, with Nordic traditions influence; Anglo-Norman culture was absorbed into Anglo-Saxon language, influencing Middle English.\n9. In the Seven Years' War (1756-1763): British declared war on France in 1756; Montcalm (French) and Bourlamaque led French regulars in North America; French used trading connections to recruit tribes (Huron, Mississauga, Ojibwa, Winnebago, Potawatomi), British supported by Iroquois Six Nations and Cherokee (until Anglo-Cherokee War 1758); Treaty of Easton (1758) with Ohio Country tribes for neutrality; British failures in 1755-1757 (e.g., Braddock's 1755 defeat); French destroyed British supplies at Battle of Fort Bull (1756).\n10. Corliss steam engine (1849): four-valve counter flow, separate steam admission/exhaust valves, automatic variable steam cutoff, more efficient (30% less steam), uniform speed, suited for manufacturing like cotton spinning.\n11. Income inequality and growth: S&P (2014) linked widening gap to slowed 2008-2009 recovery and boom-bust cycles, recommended more education access; Barro (1999/2000) found little overall relation, high inequality reduces growth in poor countries, encourages in rich; Swedish counties 1960-2000: positive inequality impact on growth with 5-year lead, no correlation after 10, negative long-term duration impact.",
+        "steps": 3,
+        "tokens": 47247,
+        "latency_s": 12.67,
+        "replan": 0
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "Ralph the Timid.",
+        "steps": 2,
+        "tokens": 24007,
+        "latency_s": 3.32,
+        "replan": 0
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "The Normans were a group of people who emerged in the 10th and 11th centuries, descending from Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway. They gave their name to Normandy, a region in France, and their distinct cultural and ethnic identity developed in the first half of the 10th century through assimilation and mixing with the native Frankish and Roman-Gaulish populations. \n\nThey were known for their martial spirit and later Christian piety, becoming exponents of Catholic orthodoxy. The Normans adopted the Gallo-Romance language, developing their own dialect known as Norman, Normaund, or Norman French, which was an important literary language. They established the Duchy of Normandy as a fiefdom with Rollo, a Viking ruler, in 911, which later became a cohesive principality in feudal tenure.\n\nTheir military accomplishments included the Norman conquest of England in 1066 (Battle of Hastings), the founding of the Kingdom of Sicily under Roger II after conquering southern Italy from the Saracens and Byzantines, and the establishment of the Principality of Antioch in the Levant. The Normans had a profound impact on medieval Europe, the Near East, Scotland, Wales, Ireland, and North Africa, influencing politics, culture, and architecture (e.g., Romanesque and Norman-Arab styles). They later merged with local populations, with Norman-derived feudal systems being adopted in regions like Scotland, and their language and traditions mixed with those of the indigenous peoples.",
+        "steps": 4,
+        "tokens": 68112,
+        "latency_s": 10.42,
+        "replan": 0
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "The key points about the Normans from the provided evidence are as follows:\n\n### Origins and Identity\n- The Normans emerged in the 10th-11th centuries from Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway, who settled in northern France. Under their leader Rollo, they established the Duchy of Normandy in 911 by treaty with King Charles III of West Francia, in exchange for protection against further Viking incursions.\n- They blended Norse traditions with Frankish and Roman-Gaulish cultures, adopting Catholicism and the local Gallo-Romance language (developing \"Norman\" as a regional language) to form a distinct identity.\n\n### Historical Activities and Expansion\n- **Iberian Peninsula**: Major participants in the Reconquista. In 1018, Roger de Tosny traveled to the peninsula to carve out a state from Moorish lands but failed. In 1064, William of Montreuil led the papal army in the War of Barbastro, capturing significant booty.\n- **Italy and the Byzantine Empire**: Norman mercenaries and adventurers (e.g., Robert Guiscard) entered Italy, driving out Byzantines and conquering parts of southern Italy and the Balkans. They fought in Byzantine service in Sicily (e.g., George Maniaces' campaign, 1038–40) and later clashed with Byzantium, besieging Dyrrachium in 1081 and 1107, though with mixed results.\n- **North America**: Norman Huguenots established Fort Caroline (1564) in present-day Jacksonville, Florida, the first permanent European settlement in the continental U.S., but it was destroyed by the Spanish under Pedro Menéndez de Avilés in 1565.\n- **Canary Islands**: In 1402–1405, Jean de Bethencourt and Gadifer de la Salle, Norman nobles, conquered Lanzarote, Fuerteventura, and El Hierro.\n- **England**: Normans had early contact with England, with ties through marriages (e.g., Emma, sister of Duke Richard II of Normandy, married to King Ethelred II). Edward the Confessor (1041–1066) brought Norman counselors and fighters, and the Normans later invaded England (1066) to establish William the Conqueror.\n\n### Cultural and Political Impact\n- The Normans adopted Frankish administrative structures, maintained a feudal system, and integrated with local populations. They became a dominant military and political force, establishing principalities in Antioch (post-First Crusade), Sicily, and elsewhere.\n- Their language, Norman, and cultural practices (e.g., chivalry, architecture) blended Norse, Frankish, and Roman influences, contributing to the development of medieval European culture.\n\n### Key Events\n- **Treaty of Saint-Clair-sur-Epte (911)**: Established the Duchy of Normandy.\n- **First Crusade (1096–1099)**: Normans carved out a principality in Antioch.\n- **Richard the Lion-hearted's Conquest of Cyprus (1191)**: Normans like Richard de Camville and Robert de Thornham were appointed governors after conquering the island.\n\n### Conclusion\nThe Normans were a dynamic, multiethnic group whose history spans from Norse raiders to feudal lords and explorers, leaving lasting impacts on European politics, culture, and exploration.",
+        "steps": 4,
+        "tokens": 75735,
+        "latency_s": 104.77,
+        "replan": 0
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil",
+        "steps": 1,
+        "tokens": 9794,
+        "latency_s": 2.32,
+        "replan": 0
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "1097",
+        "steps": 2,
+        "tokens": 24246,
+        "latency_s": 4.74,
+        "replan": 0
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "Tancred",
+        "steps": 2,
+        "tokens": 23624,
+        "latency_s": 2.66,
+        "replan": 0
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "The conquest of Jerusalem and the expansion of the Crusader kingdom in Transjordan and the region of Galilee.",
+        "steps": 2,
+        "tokens": 25347,
+        "latency_s": 95.13,
+        "replan": 0
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "The key points about the Age of Imperialism from the evidence are:\n- **Time Period**: Generally refers to European industrializing nations' colonizing, influencing, and annexing activities from the early 18th century through the middle of the 20th century.\n- **Motivation**: To gain political power.\n- **Examples**: \"The Great Game\" in Persian lands, \"Scramble for Africa\", and \"Open Door Policy\" in China.\n- **Types of Imperialism**: \"Formal imperialism\" (physical control/colonial rule) and \"Informal imperialism\" (less direct but powerful dominance).\n- **European Participants**: Industrializing European nations; Germany's participation was negligible until the late 19th century, Austria due to Habsburg control, while Prussia and early German states initially opposed colonial acquisitions.",
+        "steps": 3,
+        "tokens": 45273,
+        "latency_s": 7.47,
+        "replan": 0
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "The Norman dynasty had a major political, cultural and military impact on medieval Europe and even the Near East. The Normans were famed for their martial spirit and eventually for their Christian piety, becoming exponents of the Catholic orthodoxy into which they assimilated. They adopted the Gallo-Romance language of the Frankish land they settled, their dialect becoming known as Norman, Normaund or Norman French, an important literary language. The Duchy of Normandy, which they formed by treaty with the French crown, was a great fief of medieval France, and under Richard I of Normandy was forged into a cohesive and formidable principality in feudal tenure. The Normans are noted both for their culture, such as their unique Romanesque architecture and musical traditions, and for their significant military accomplishments and innovations. Norman adventurers founded the Kingdom of Sicily under Roger II after conquering southern Italy on the Saracens and Byzantines, and an expedition on behalf of their duke, William the Conqueror, led to the Norman conquest of England at the Battle of Hastings in 1066. Norman cultural and military influence spread from these new European centres to the Crusader states of the Near East, where their prince Bohemond I founded the Principality of Antioch in the Levant, to Scotland and Wales in Great Britain, to Ireland, and to the coasts of north Africa and the Canary Islands.",
+        "steps": 4,
+        "tokens": 75022,
+        "latency_s": 11.38,
+        "replan": 0
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 1,
+        "tokens": 9678,
+        "latency_s": 1.82,
+        "replan": 0
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 2,
+        "tokens": 23855,
+        "latency_s": 3.73,
+        "replan": 0
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "Isaac Komnenos",
+        "steps": 2,
+        "tokens": 25750,
+        "latency_s": 94.43,
+        "replan": 0
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat.",
+        "steps": 2,
+        "tokens": 26578,
+        "latency_s": 3.58,
+        "replan": 0
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "silver",
+        "steps": 2,
+        "tokens": 25143,
+        "latency_s": 3.59,
+        "replan": 0
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan",
+        "steps": 1,
+        "tokens": 8970,
+        "latency_s": 2.99,
+        "replan": 0
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa",
+        "steps": 2,
+        "tokens": 23822,
+        "latency_s": 4.83,
+        "replan": 0
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "Jean de Bethencourt.",
+        "steps": 1,
+        "tokens": 8940,
+        "latency_s": 3.14,
+        "replan": 0
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "BSkyB",
+        "steps": 2,
+        "tokens": 27265,
+        "latency_s": 5.33,
+        "replan": 0
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "The Canary Islands were conquered by Jean de Bethencourt and Gadifer de la Salle between 1402 and 1405. Maciot de Bethencourt, Jean's nephew, sold the rights to the islands to Enrique Pérez de Guzmán, 2nd Count de Niebla, in 1418.",
+        "steps": 4,
+        "tokens": 67680,
+        "latency_s": 98.83,
+        "replan": 0
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "The key point is that the spirit of protest should be maintained all the way, whether it is done by remaining in jail, or by evading it. To accept jail penitently as an accession to \"the rules\" is to switch suddenly to a spirit of subservience, to demean the seriousness of the protest...In particular, the neo-conservative insistence on a guilty plea should be eliminated.",
+        "steps": 3,
+        "tokens": 49850,
+        "latency_s": 7.03,
+        "replan": 0
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two.",
+        "steps": 2,
+        "tokens": 24852,
+        "latency_s": 4.37,
+        "replan": 0
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "Rounded arches, particularly over windows and doorways, and massive proportions.",
+        "steps": 2,
+        "tokens": 23295,
+        "latency_s": 4.6,
+        "replan": 0
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches.",
+        "steps": 2,
+        "tokens": 24350,
+        "latency_s": 4.39,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Early Gothic",
+        "steps": 2,
+        "tokens": 24873,
+        "latency_s": 94.63,
+        "replan": 0
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon",
+        "steps": 2,
+        "tokens": 23518,
+        "latency_s": 3.69,
+        "replan": 0
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Kingdom of Sicily and southern Italy.",
+        "steps": 2,
+        "tokens": 25677,
+        "latency_s": 3.84,
+        "replan": 0
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "In the early 11th century.",
+        "steps": 1,
+        "tokens": 8383,
+        "latency_s": 2.67,
+        "replan": 0
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "The dukes of Normandy.",
+        "steps": 2,
+        "tokens": 24395,
+        "latency_s": 3.73,
+        "replan": 0
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "1562 to 1598",
+        "steps": 2,
+        "tokens": 24062,
+        "latency_s": 4.06,
+        "replan": 0
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "Embroidery.",
+        "steps": 1,
+        "tokens": 8759,
+        "latency_s": 2.78,
+        "replan": 0
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "The Bayeux Tapestry",
+        "steps": 2,
+        "tokens": 24428,
+        "latency_s": 3.17,
+        "replan": 0
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 2,
+        "tokens": 26281,
+        "latency_s": 94.8,
+        "replan": 0
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "The Normans were a people who, in the 10th and 11th centuries, gave their name to Normandy, a region in France, descending from Norse raiders and pirates who, under Rollo, swore fealty to King Charles III of West Francia. They merged with the native Frankish and Roman-Gaulish populations, developing a distinct cultural and ethnic identity. They had a major impact on medieval Europe and the Near East, excelling in military and cultural fields. In Europe, they founded the Duchy of Normandy, conquered England in 1066, established the Kingdom of Sicily, and spread influence to Scotland, Wales, Ireland, and the Crusader states. They adopted Gallo-Romance language (Norman French), and their culture included Romanesque architecture and musical traditions. In the visual arts, they patronized illuminated manuscripts and church reform, with art surviving as stonework, metalwork, mosaics, and ivories, influenced by Greek, Lombard, and Arab traditions in southern Italy, and Carolingian traditions in Normandy. They also contributed to the development of Middle English through the Anglo-Norman language.",
+        "steps": 3,
+        "tokens": 46884,
+        "latency_s": 9.01,
+        "replan": 0
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "11th century",
+        "steps": 2,
+        "tokens": 26132,
+        "latency_s": 3.32,
+        "replan": 0
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna",
+        "steps": 1,
+        "tokens": 8964,
+        "latency_s": 3.03,
+        "replan": 0
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "southern Italy",
+        "steps": 2,
+        "tokens": 25801,
+        "latency_s": 4.81,
+        "replan": 0
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia",
+        "steps": 2,
+        "tokens": 26565,
+        "latency_s": 3.56,
+        "replan": 0
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "Robert Guiscard.",
+        "steps": 2,
+        "tokens": 25811,
+        "latency_s": 4.99,
+        "replan": 0
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "The Normans were a people who emerged in the 10th and 11th centuries, descending from Norse (Viking) raiders and pirates from Denmark, Iceland, and Norway. Under their leader Rollo, they settled in northern France, establishing the Duchy of Normandy in 911 through the Treaty of Saint-Clair-sur-Epte with King Charles III of West Francia, in exchange for protection against further Viking incursions. They assimilated with the native Frankish and Roman-Gaulish populations, merging languages (adopting Gallo-Romance, evolving into Norman French) and traditions, developing a distinct cultural and ethnic identity.\n\nNormans were known for their martial spirit and later Christian piety, becoming exponents of Catholic orthodoxy. They adopted feudal doctrines, forming a hierarchical system, and were avid warriors, exporting fighting horsemen. Their cultural and military influence was widespread, including the Norman conquest of England (1066), founding the Kingdom of Sicily, and establishing the Principality of Antioch in the Levant. They patronized intellectual pursuits and church reform, with monasteries like Fécamp, Jumièges, Bec, and Saint-Evroul as centers of musical production, scriptoria, and illuminated manuscripts. The Bayeux Tapestry, a notable work of Norman art, was an embroidery commissioned by Odo, Bishop of Bayeux, blending Nordic traditions. They later identified as English during the Hundred Years' War, with their language influencing the development of Middle English. Their legacy included political, cultural, and military impacts across medieval Europe, the Near East, and beyond.",
+        "steps": 3,
+        "tokens": 49920,
+        "latency_s": 99.92,
+        "replan": 0
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "steps": 2,
+        "tokens": 22657,
+        "latency_s": 5.32,
+        "replan": 0
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Their inherent difficulty.",
+        "steps": 2,
+        "tokens": 23661,
+        "latency_s": 5.04,
+        "replan": 0
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "To determine the term for a task that generally lends itself to being solved by a computer, we analyze the evidence provided. The key insight comes from the definition of \"decision problems\" in computational complexity theory, which are described as \"a special type of computational problem whose answer is either yes or no\" and are \"one of the central objects of study in computational complexity theory.\" Additionally, the text states that \"if a problem can be solved by an algorithm, there exists a Turing machine that solves the problem,\" and Turing machines are the basis for classifying problems by their solvability and efficiency (e.g., polynomial time). \n\nWhile the term \"computational problem\" is mentioned broadly, the most specific and precise term for tasks solvable by computers, as per the evidence, is **decision problem**. This is because decision problems are explicitly framed as the core objects of study in computational complexity theory, which deals with the feasibility of solving tasks using computational devices, aligning with the description of tasks \"lending themselves to being solved by a computer.\"\n\ndecision problem",
+        "steps": 3,
+        "tokens": 44937,
+        "latency_s": 8.76,
+        "replan": 0
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "Computational complexity",
+        "steps": 2,
+        "tokens": 22988,
+        "latency_s": 4.26,
+        "replan": 0
+      }
+    ]
+  }
+}

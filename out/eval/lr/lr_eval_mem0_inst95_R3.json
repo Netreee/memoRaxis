@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 95,
+  "adaptor": "R3",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，核心人物姓名（如Selina, Farah Dirk, Tamera Israel Lavana）与标准答案（应为Quasimodo, Pierre Gringoire, Claude Frollo）完全不符，主要情节（如Festival of Fools选举、Gringoire的戏剧）缺失，且包含大量标准答案未提及的虚构细节。"
+    }
+  ]
+}

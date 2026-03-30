@@ -1,0 +1,59 @@
+{
+  "system": "mem0",
+  "instance_idx": 102,
+  "adaptor": "R2",
+  "accuracy": 0.75,
+  "correct": 6,
+  "total": 8,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "空或过短的预测"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案的关键内容要点完全不符。标准答案要求的是'A. Dislike'，但预测内容是基于一个不相关的故事文本进行的推理，且其推理过程与所给问题（关于Lichem Rocchi的死因）无关，属于严重偏离。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测准确复现了标准答案的核心内容：Anthony对导游工作不满，并对提交手稿的报酬感到满意，推理部分也提供了文本依据。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，准确复现了核心情节：信并非Virginia所写，但她为了体验被勒索的感觉而付钱。推理过程也支持了这一结论。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均为'A. Miss White'，且其推理内容与标准答案的核心情节（Miss White是死者）相符。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，核心内容准确无误。"
+    },
+    {
+      "q_idx": 6,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，均为'B. Mr. Lemont'，核心内容准确无误。"
+    },
+    {
+      "q_idx": 7,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案在核心情节（Miss White是冒名顶替者，Mrs. Reve可能发现此事，这对King Victor的计划不利）、人物关系和主要事件上完全一致，内容准确。"
+    }
+  ]
+}

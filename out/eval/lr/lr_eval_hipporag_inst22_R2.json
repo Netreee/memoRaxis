@@ -1,0 +1,17 @@
+{
+  "system": "hipporag",
+  "instance_idx": 22,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离核心情节与人物，将故事背景、人物姓名（如Halley Darlene, Mr. Juniperhan）及关键事件（如索要更多粥、被班布尔先生送走）完全替换为另一套不相关的人物和情节（如Deepak Luca, Loren, Ananya, Mr. Cameron，涉及犯罪团伙、抢劫、收留、结婚等），与标准答案描述的故事无对应关系，属于核心内容错误。"
+    }
+  ]
+}

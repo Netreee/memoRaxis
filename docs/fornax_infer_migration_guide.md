@@ -25,7 +25,7 @@ llm:
   # Ark 配置保留但不生效（provider=fornax 时忽略）
   base_url: https://ark-cn-beijing.bytedance.net/api/v3
   model: ep-20251113195357-4gftp
-  api_key: f57edad9-ccc4-4892-b453-b7a7afce8552
+  api_key: your_ark_api_key_here
 ```
 
 ### src/llm_interface.py 支持情况

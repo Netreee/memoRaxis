@@ -18,7 +18,7 @@ import numpy as np
 from pathlib import Path
 from openai import OpenAI
 
-DEEPSEEK_API_KEY = "sk-31bbfe45316a4672aafca84e8b9828c9"
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 DEEPSEEK_MODEL = "deepseek-chat"
 
@@ -67,6 +67,16 @@ def get_lr_files(system: str):
     elif system == "mem0g":
         for f in glob.glob("out/mem0g/mem0g_long_range_results_*.json"):
             idx = int(f.split("mem0g_long_range_results_")[1].split(".")[0])
+            file_map[idx] = {"merged": f}
+
+    elif system == "amem":
+        for f in glob.glob("out/amem/amem_long_range_*.json"):
+            idx = int(f.split("amem_long_range_")[1].split(".")[0])
+            file_map[idx] = {"merged": f}
+
+    elif system == "hipporag":
+        for f in glob.glob("out/hipporag/hipporag_long_range_*.json"):
+            idx = int(f.split("hipporag_long_range_")[1].split(".")[0])
             file_map[idx] = {"merged": f}
 
     elif system == "memGPT":
@@ -265,7 +275,7 @@ def eval_lr_system(system: str, filter_adaptor=None, dry_run=False):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--system", nargs="+",
-                        default=["simpleMem", "mem0", "mem0g", "memGPT"],
+                        default=["simpleMem", "mem0", "mem0g", "memGPT", "hipporag"],
                         help="Systems to evaluate")
     parser.add_argument("--adaptor", default=None, choices=["R1", "R2", "R3"],
                         help="Only evaluate this adaptor")

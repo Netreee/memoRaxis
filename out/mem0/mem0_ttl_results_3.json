@@ -1,0 +1,809 @@
+{
+  "dataset": "Test_Time_Learning",
+  "backend": "mem0",
+  "instance_idx": 3,
+  "results": {
+    "R1": [
+      {
+        "question": "fight me in street fighter",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 475,
+        "latency_s": 6.45,
+        "replan": 0
+      },
+      {
+        "question": "i have to tell you about my day",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 445,
+        "latency_s": 5.7,
+        "replan": 0
+      },
+      {
+        "question": "is meryl streep an actress or singer",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 406,
+        "latency_s": 3.87,
+        "replan": 0
+      },
+      {
+        "question": "did i get any replies from jan",
+        "answer": "上下文信息不足，无法确定是否收到Jan的回复。",
+        "steps": 1,
+        "tokens": 402,
+        "latency_s": 3.18,
+        "replan": 0
+      },
+      {
+        "question": "cancel the meeting next week Thursday at two pm",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 722,
+        "latency_s": 10.69,
+        "replan": 0
+      },
+      {
+        "question": "tweet at macy's two weeks after purchase and the hems have all come loose",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 789,
+        "latency_s": 12.43,
+        "replan": 0
+      },
+      {
+        "question": "tell my family this in an email",
+        "answer": "信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 396,
+        "latency_s": 2.51,
+        "replan": 0
+      },
+      {
+        "question": "do not mind to choose any one.",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 629,
+        "latency_s": 7.7,
+        "replan": 0
+      },
+      {
+        "question": "see you",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 409,
+        "latency_s": 4.61,
+        "replan": 0
+      },
+      {
+        "question": "confirm alarm for tomorrow morning",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 537,
+        "latency_s": 6.91,
+        "replan": 0
+      },
+      {
+        "question": "what do you want to do today",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 877,
+        "latency_s": 14.46,
+        "replan": 0
+      },
+      {
+        "question": "open calendar",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 503,
+        "latency_s": 6.28,
+        "replan": 0
+      },
+      {
+        "question": "where is stonehenge",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 491,
+        "latency_s": 5.42,
+        "replan": 0
+      },
+      {
+        "question": "how many mega pixel is listed in the description of the canon",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 465,
+        "latency_s": 4.06,
+        "replan": 0
+      },
+      {
+        "question": "how tall is lebron james",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 372,
+        "latency_s": 2.25,
+        "replan": 0
+      },
+      {
+        "question": "give me the time",
+        "answer": "上下文信息不足，无法为该问题分配对应的数值标签。",
+        "steps": 1,
+        "tokens": 663,
+        "latency_s": 10.72,
+        "replan": 0
+      },
+      {
+        "question": "delete list for groceries",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 705,
+        "latency_s": 11.14,
+        "replan": 0
+      },
+      {
+        "question": "did i get any emails from jack",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 421,
+        "latency_s": 4.21,
+        "replan": 0
+      },
+      {
+        "question": "confirm last thing said please.",
+        "answer": "上下文信息不足，无法为该问题分配对应的数值标签。",
+        "steps": 1,
+        "tokens": 498,
+        "latency_s": 6.49,
+        "replan": 0
+      },
+      {
+        "question": "olly set my alarm to go off in an hour",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 734,
+        "latency_s": 14.13,
+        "replan": 0
+      },
+      {
+        "question": "what are the bbc poll predictions for the upcoming us elections",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 478,
+        "latency_s": 6.68,
+        "replan": 0
+      },
+      {
+        "question": "please remind me to go to the post office",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 474,
+        "latency_s": 4.5,
+        "replan": 0
+      },
+      {
+        "question": "new emails",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 845,
+        "latency_s": 13.33,
+        "replan": 0
+      },
+      {
+        "question": "is it noon in paris",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 473,
+        "latency_s": 4.7,
+        "replan": 0
+      },
+      {
+        "question": "what food is good",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 644,
+        "latency_s": 10.2,
+        "replan": 0
+      },
+      {
+        "question": "what is the exchange rate for eleven british pounds in us dollars",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 1091,
+        "latency_s": 22.79,
+        "replan": 0
+      },
+      {
+        "question": "how many dollars are in a euro",
+        "answer": "信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 436,
+        "latency_s": 3.81,
+        "replan": 0
+      },
+      {
+        "question": "one am set",
+        "answer": "{3}",
+        "steps": 1,
+        "tokens": 635,
+        "latency_s": 9.97,
+        "replan": 0
+      },
+      {
+        "question": "let me know when i am three days out from this event in my calendar",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 643,
+        "latency_s": 7.87,
+        "replan": 0
+      },
+      {
+        "question": "how many runs did cheteshwar pujara scored yesterday",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 416,
+        "latency_s": 3.69,
+        "replan": 0
+      },
+      {
+        "question": "add eggs to my grocery list",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 906,
+        "latency_s": 18.97,
+        "replan": 0
+      },
+      {
+        "question": "hey i feel good",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 543,
+        "latency_s": 7.02,
+        "replan": 0
+      },
+      {
+        "question": "you've done your understanding correcly.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 452,
+        "latency_s": 4.34,
+        "replan": 0
+      },
+      {
+        "question": "please confirm details.",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 611,
+        "latency_s": 9.83,
+        "replan": 0
+      },
+      {
+        "question": "describe the list contents",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 475,
+        "latency_s": 5.66,
+        "replan": 0
+      },
+      {
+        "question": "that is all, cancel it.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 480,
+        "latency_s": 6.21,
+        "replan": 0
+      },
+      {
+        "question": "shutoff light in the kitchen",
+        "answer": "{1,3}",
+        "steps": 1,
+        "tokens": 651,
+        "latency_s": 10.3,
+        "replan": 0
+      },
+      {
+        "question": "it should spices",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 610,
+        "latency_s": 8.58,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate it, that's amazing.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 858,
+        "latency_s": 15.75,
+        "replan": 0
+      },
+      {
+        "question": "would you please clarify me about the last sentence again.",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 455,
+        "latency_s": 4.66,
+        "replan": 0
+      },
+      {
+        "question": "send an email to emma",
+        "answer": "上下文信息不足，无法为“send an email to emma”分配对应的数值标签。",
+        "steps": 1,
+        "tokens": 413,
+        "latency_s": 3.98,
+        "replan": 0
+      },
+      {
+        "question": "yesterday at noontime in times square what was the protest about",
+        "answer": "信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 433,
+        "latency_s": 3.28,
+        "replan": 0
+      },
+      {
+        "question": "thanks but i think you are wrong.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 475,
+        "latency_s": 3.12,
+        "replan": 0
+      },
+      {
+        "question": "turn on my playlist and play third song in the queue",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 689,
+        "latency_s": 9.65,
+        "replan": 0
+      },
+      {
+        "question": "hey tell me a knock knock joke",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 403,
+        "latency_s": 3.85,
+        "replan": 0
+      },
+      {
+        "question": "delete all lists",
+        "answer": "信息不足，无法为“delete all lists”分配对应的数值标签。",
+        "steps": 1,
+        "tokens": 387,
+        "latency_s": 4.33,
+        "replan": 0
+      },
+      {
+        "question": "how far away is seattle",
+        "answer": "信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 389,
+        "latency_s": 3.19,
+        "replan": 0
+      },
+      {
+        "question": "did ashwin joined party yesterday",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 376,
+        "latency_s": 2.76,
+        "replan": 0
+      },
+      {
+        "question": "what is the my upcoming events",
+        "answer": "{1,3,7,10}",
+        "steps": 1,
+        "tokens": 509,
+        "latency_s": 6.94,
+        "replan": 0
+      },
+      {
+        "question": "call yellow cab",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 394,
+        "latency_s": 5.76,
+        "replan": 0
+      },
+      {
+        "question": "s2, i couldn't get what you have said.",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 449,
+        "latency_s": 4.38,
+        "replan": 0
+      },
+      {
+        "question": "would you say that one more time again please.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 661,
+        "latency_s": 10.58,
+        "replan": 0
+      },
+      {
+        "question": "answer the equation eight times seven",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 411,
+        "latency_s": 3.2,
+        "replan": 0
+      },
+      {
+        "question": "give me the opening stock price of intel today",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 454,
+        "latency_s": 5.78,
+        "replan": 0
+      },
+      {
+        "question": "please set a meeting to discuss terrorism with fred on the next available meeting day",
+        "answer": "{2}",
+        "steps": 1,
+        "tokens": 1234,
+        "latency_s": 26.66,
+        "replan": 0
+      },
+      {
+        "question": "how long does it take to get from here to chicago by train",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 557,
+        "latency_s": 7.04,
+        "replan": 0
+      },
+      {
+        "question": "have i gotten any mail recently",
+        "answer": "上下文信息不足，无法确定标签。",
+        "steps": 1,
+        "tokens": 469,
+        "latency_s": 5.84,
+        "replan": 0
+      },
+      {
+        "question": "if it's five am in berlin what time is it here",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 538,
+        "latency_s": 6.7,
+        "replan": 0
+      },
+      {
+        "question": "make a status stating i got the promotion",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 486,
+        "latency_s": 4.25,
+        "replan": 0
+      },
+      {
+        "question": "can you retry what i've said please.",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 559,
+        "latency_s": 7.17,
+        "replan": 0
+      },
+      {
+        "question": "turn on talk radio",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 645,
+        "latency_s": 10.38,
+        "replan": 0
+      },
+      {
+        "question": "uh no, that isn't what i requested.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 581,
+        "latency_s": 7.89,
+        "replan": 0
+      },
+      {
+        "question": "remove the board meeting and reschedule for next wednesday",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 613,
+        "latency_s": 8.39,
+        "replan": 0
+      },
+      {
+        "question": "local show",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1403,
+        "latency_s": 29.48,
+        "replan": 0
+      },
+      {
+        "question": "i appreciate helping.",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 507,
+        "latency_s": 5.96,
+        "replan": 0
+      },
+      {
+        "question": "i think it's not the correct command.",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 611,
+        "latency_s": 8.19,
+        "replan": 0
+      },
+      {
+        "question": "what are my tasks",
+        "answer": "Your tasks are as follows:\n1. Add mow lawn, order more soap, and put carrots to the to-do list.\n2. Added oil change to the to-do list.\n3. Delete the to-do list from March 18, 2017.\n4. Delete the shopping trip scheduled for March 23rd.",
+        "steps": 1,
+        "tokens": 862,
+        "latency_s": 13.73,
+        "replan": 0
+      },
+      {
+        "question": "hwood",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 910,
+        "latency_s": 17.09,
+        "replan": 0
+      },
+      {
+        "question": "list saturday night events near current location",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 411,
+        "latency_s": 4.36,
+        "replan": 0
+      },
+      {
+        "question": "turn the lights on",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 425,
+        "latency_s": 4.03,
+        "replan": 0
+      },
+      {
+        "question": "wake me up on Friday at five in the morning i need to catch the train",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 491,
+        "latency_s": 4.79,
+        "replan": 0
+      },
+      {
+        "question": "show me music by that artist",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 7.26,
+        "replan": 0
+      },
+      {
+        "question": "i need to change the color of this light",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 793,
+        "latency_s": 15.63,
+        "replan": 0
+      },
+      {
+        "question": "i want to send an email to my family do you help me",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 605,
+        "latency_s": 8.27,
+        "replan": 0
+      },
+      {
+        "question": "please can you say the last comment one more time.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 606,
+        "latency_s": 7.48,
+        "replan": 0
+      },
+      {
+        "question": "please open chess game i would like to play with you",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 379,
+        "latency_s": 3.69,
+        "replan": 0
+      },
+      {
+        "question": "awesome work, you did well, olly.",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 562,
+        "latency_s": 8.42,
+        "replan": 0
+      },
+      {
+        "question": "what is the customer service feedback",
+        "answer": "上下文信息不足，无法分配数值标签。",
+        "steps": 1,
+        "tokens": 952,
+        "latency_s": 18.11,
+        "replan": 0
+      },
+      {
+        "question": "what are my plans for today",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 576,
+        "latency_s": 8.37,
+        "replan": 0
+      },
+      {
+        "question": "set up each day an alarm at ten time for my meal",
+        "answer": "上下文信息不足，无法分配标签",
+        "steps": 1,
+        "tokens": 576,
+        "latency_s": 7.68,
+        "replan": 0
+      },
+      {
+        "question": "start audiobook the time traveller",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 444,
+        "latency_s": 3.98,
+        "replan": 0
+      },
+      {
+        "question": "can i mine for gold on any public land",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 594,
+        "latency_s": 8.68,
+        "replan": 0
+      },
+      {
+        "question": "i need to set up a recurring event in my calendar please",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 711,
+        "latency_s": 10.13,
+        "replan": 0
+      },
+      {
+        "question": "director who direct an act",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 422,
+        "latency_s": 3.15,
+        "replan": 0
+      },
+      {
+        "question": "tag you're it",
+        "answer": "上下文信息不足，无法为“tag you're it”分配对应的数值标签。",
+        "steps": 1,
+        "tokens": 493,
+        "latency_s": 4.49,
+        "replan": 0
+      },
+      {
+        "question": "how many emails do i have from work today",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 500,
+        "latency_s": 5.95,
+        "replan": 0
+      },
+      {
+        "question": "can you locate some gospel music for me",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 632,
+        "latency_s": 9.05,
+        "replan": 0
+      },
+      {
+        "question": "mute",
+        "answer": "{3}",
+        "steps": 1,
+        "tokens": 971,
+        "latency_s": 18.33,
+        "replan": 0
+      },
+      {
+        "question": "do not wake me up on weekends",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 465,
+        "latency_s": 4.67,
+        "replan": 0
+      },
+      {
+        "question": "run radio programme",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 1359,
+        "latency_s": 31.86,
+        "replan": 0
+      },
+      {
+        "question": "headlines from dhaka tribune",
+        "answer": "上下文信息不足，无法为“headlines from dhaka tribune”分配对应的数值标签。",
+        "steps": 1,
+        "tokens": 603,
+        "latency_s": 8.64,
+        "replan": 0
+      },
+      {
+        "question": "place event in my calendar every tuesday",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 503,
+        "latency_s": 5.23,
+        "replan": 0
+      },
+      {
+        "question": "select shuffle all",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 490,
+        "latency_s": 3.92,
+        "replan": 0
+      },
+      {
+        "question": "if my vacuum cleaner is not activated please activate it",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 588,
+        "latency_s": 6.78,
+        "replan": 0
+      },
+      {
+        "question": "repeat all",
+        "answer": "上下文信息不足，无法找到与“repeat all”对应的标签。",
+        "steps": 1,
+        "tokens": 761,
+        "latency_s": 12.33,
+        "replan": 0
+      },
+      {
+        "question": "i want to hear the last one you said again.",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 448,
+        "latency_s": 3.57,
+        "replan": 0
+      },
+      {
+        "question": "start the vacuum cleaner",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 718,
+        "latency_s": 13.15,
+        "replan": 0
+      },
+      {
+        "question": "s2, that is not so clear to me.",
+        "answer": "上下文信息不足，无法分配标签。",
+        "steps": 1,
+        "tokens": 461,
+        "latency_s": 3.51,
+        "replan": 0
+      },
+      {
+        "question": "can you check and confirm detail.",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 374,
+        "latency_s": 2.72,
+        "replan": 0
+      },
+      {
+        "question": "hi how are you",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 401,
+        "latency_s": 4.31,
+        "replan": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "system": "mem0",
+  "instance_idx": 34,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案，核心人物关系错误（如将Archie误为Yardley Bowen之子，将Raquel Drake误为Gervayse的祖父），且引入了大量标准答案未提及的次要情节和人物（如Ruthie、Clara Drake、Liv等），而标准答案的核心情节（Bowen被Drake陷害、诅咒、其子为Drake建房）在Agent预测中缺失或表述混乱。"
+    }
+  ]
+}

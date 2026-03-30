@@ -1,0 +1,17 @@
+{
+  "system": "memGPT",
+  "instance_idx": 11,
+  "adaptor": "R1",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案的核心情节与人物关系。标准答案以Perla为叙述者，描述Kallie与女友Xanthe的关系及南美之行计划；而Agent预测内容混杂了无关人物（Jaylene, Cece）、不相关的次要情节（奖章、破产）及错误细节（Kallie是拳击冠军），缺失了标准答案中的核心叙事框架和主要事件。"
+    }
+  ]
+}

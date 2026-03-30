@@ -1,0 +1,629 @@
+{
+  "dataset": "Test_Time_Learning",
+  "backend": "mem0",
+  "instance_idx": 2,
+  "results": {
+    "R3": [
+      {
+        "question": "what is the least i can pay towards my car bill",
+        "answer": "{}",
+        "steps": 3,
+        "tokens": 11214,
+        "latency_s": 161.1,
+        "replan": 0
+      },
+      {
+        "question": "what's the minimum due for my electric bill",
+        "answer": "{ }",
+        "steps": 4,
+        "tokens": 16167,
+        "latency_s": 232.07,
+        "replan": 2
+      },
+      {
+        "question": "you can remove the brithday party from my calendar fpr january 15, 2019",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "everything needs ordered off my list",
+        "answer": "14",
+        "steps": 4,
+        "tokens": 18411,
+        "latency_s": 260.99,
+        "replan": 0
+      },
+      {
+        "question": "adjust the volume to level 4",
+        "answer": "{1}",
+        "steps": 3,
+        "tokens": 10479,
+        "latency_s": 135.77,
+        "replan": 0
+      },
+      {
+        "question": "is there any danger going to brazil",
+        "answer": "{0}",
+        "steps": 5,
+        "tokens": 22822,
+        "latency_s": 253.95,
+        "replan": 1
+      },
+      {
+        "question": "can you play the beatles",
+        "answer": "0",
+        "steps": 1,
+        "tokens": 4705,
+        "latency_s": 78.68,
+        "replan": 0
+      },
+      {
+        "question": "how to spell doctor",
+        "answer": "{}",
+        "steps": 2,
+        "tokens": 9407,
+        "latency_s": 164.49,
+        "replan": 0
+      },
+      {
+        "question": "can you share my credit score with me",
+        "answer": "0",
+        "steps": 7,
+        "tokens": 34914,
+        "latency_s": 373.83,
+        "replan": 2
+      },
+      {
+        "question": "no, that's wrong",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680142531fe9f6125f2b74cd477deac452ba6a9654d623e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "have i added anything to my todo list",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680144160fe9f6125f2b74cd477deac452ba6a965bcdbb3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "thanks for your help",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680232877fe9f6125f2b74cd477deac452ba6a965789949', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i need to know my tax rate",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680234460fe9f6125f2b74cd477deac452ba6a9653bc150', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "go ahead and talk faster now",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680236043fe9f6125f2b74cd477deac452ba6a9658b5de5', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what kind of fuel do i need to put in my car",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680237424fe9f6125f2b74cd477deac452ba6a9657ac863', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i enrolled in an insurance plan, what one was it",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680238895fe9f6125f2b74cd477deac452ba6a965e6952e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what kind of oil do i need for my ford truck and how can i change it",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680240309fe9f6125f2b74cd477deac452ba6a96578f384', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "you must change your language setting to russian",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680242021fe9f6125f2b74cd477deac452ba6a9659378b8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "please delete the items on my to do list",
+        "answer": "{4}",
+        "steps": 1,
+        "tokens": 3401,
+        "latency_s": 49.96,
+        "replan": 0
+      },
+      {
+        "question": "i want to figure out how to do an oil change on my car",
+        "answer": "0",
+        "steps": 5,
+        "tokens": 19921,
+        "latency_s": 213.83,
+        "replan": 0
+      },
+      {
+        "question": "move over to the female voice",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "how long is the wait at applebee's tonight",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680665895fe9f6125f2b74cd477deac452ba6a965e53f47', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "could you please change your accent to the male british one",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680667444fe9f6125f2b74cd477deac452ba6a965b71af7', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what was the final vote count in the brexit referendum",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680669274fe9f6125f2b74cd477deac452ba6a96593a413', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what plugs are in england",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680670812fe9f6125f2b74cd477deac452ba6a965f0a7e0', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "the credit limit i have needs to be changed",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680672462fe9f6125f2b74cd477deac452ba6a9657dd507', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what hour is it in london",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680674323fe9f6125f2b74cd477deac452ba6a965297aab', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i think my luggage is stolen",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680675924fe9f6125f2b74cd477deac452ba6a9653268c2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "who is the person responsible for creating you",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680677414fe9f6125f2b74cd477deac452ba6a965a7ffa6', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "can you tell me how much money i have i my bank accounts",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680679202fe9f6125f2b74cd477deac452ba6a965ff3cb2', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i'm out of cleaning supplies, remind me on my list",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680680684fe9f6125f2b74cd477deac452ba6a9654caa20', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "can you tell me the drive time to the nearest gas station",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772680682101fe9f6125f2b74cd477deac452ba6a965af14d9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i need you to stop talking",
+        "answer": "{}",
+        "steps": 6,
+        "tokens": 27529,
+        "latency_s": 336.33,
+        "replan": 2
+      },
+      {
+        "question": "how much is the exchange between usd and euros",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681230673fe9f6125f2b74cd477deac452ba6a965db1768', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "send robert a text from me telling him okay",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681256857fe9f6125f2b74cd477deac452ba6a9652175d8', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what kind of gas does my car need",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681258546fe9f6125f2b74cd477deac452ba6a96566bc36', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "do ducks sleep",
+        "answer": "{no label}",
+        "steps": 5,
+        "tokens": 19169,
+        "latency_s": 181.49,
+        "replan": 2
+      },
+      {
+        "question": "what's the name of the song playing right now",
+        "answer": "{label}\n\nWait, no—wait, the evidence doesn't have any entry for the question \"what's the name of the song playing right now\". So there is no numerical label in the provided mapping for this context. According to the instructions, I have to use the provided mapping, which doesn't include this context, so the correct output is that there is no label. But the task says to output \"{label}\", so maybe the answer is an empty string? But let's think again—maybe I made a mistake, but after checking all evidence entries, none match the question. So the answer is:\n\n{ }\n\nWait, no, the task says to output \"{label}\"—but if no label exists, then perhaps the output is empty. But let's see, the user might expect that since there's no mapping, the answer is nothing, but according to the task's instruction, I have to output the label, so maybe the answer is that there is no label, so the output is empty. So the final answer is:\n\n{ }\n\nBut wait, maybe the problem expects that I output a label even if it's not present, but no—since the evidence doesn't have it, I can't. So the correct output is an empty label.\n</think_never_used_51bce0c785ca2f68081bfa7d91973934>\n{ }",
+        "steps": 6,
+        "tokens": 25289,
+        "latency_s": 257.7,
+        "replan": 2
+      },
+      {
+        "question": "what are the steps required for making a vacation request",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681837900fe9f6125f2b74cd477deac452ba6a965e549a9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "text joe",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772681839305fe9f6125f2b74cd477deac452ba6a965352d95', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "cash in my credit card points",
+        "answer": "{1}",
+        "steps": 6,
+        "tokens": 26464,
+        "latency_s": 247.05,
+        "replan": 2
+      },
+      {
+        "question": "can you find me an uber and have it here at 7pm",
+        "answer": "{4}",
+        "steps": 1,
+        "tokens": 4020,
+        "latency_s": 61.35,
+        "replan": 0
+      },
+      {
+        "question": "tell carl that he sucks",
+        "answer": "{}",
+        "steps": 1,
+        "tokens": 4175,
+        "latency_s": 66.21,
+        "replan": 0
+      },
+      {
+        "question": "is there a reason my card was declined",
+        "answer": "{1}",
+        "steps": 7,
+        "tokens": 32330,
+        "latency_s": 271.88,
+        "replan": 2
+      },
+      {
+        "question": "what is the process for making a vacation request",
+        "answer": "{0}",
+        "steps": 6,
+        "tokens": 28848,
+        "latency_s": 265.6,
+        "replan": 0
+      },
+      {
+        "question": "please tell me if you are a bot",
+        "answer": "{0}",
+        "steps": 8,
+        "tokens": 38929,
+        "latency_s": 310.71,
+        "replan": 2
+      },
+      {
+        "question": "i need your volume increased",
+        "answer": "{ }",
+        "steps": 3,
+        "tokens": 13883,
+        "latency_s": 233.9,
+        "replan": 0
+      },
+      {
+        "question": "what's my visa cards balance for rewards",
+        "answer": "{1}",
+        "steps": 4,
+        "tokens": 17338,
+        "latency_s": 247.36,
+        "replan": 2
+      },
+      {
+        "question": "i need a recipe for chicken cordon bleu",
+        "answer": "{label}",
+        "steps": 10,
+        "tokens": 50621,
+        "latency_s": 352.74,
+        "replan": 2
+      },
+      {
+        "question": "give me a cool fact about lsd",
+        "error": "'str' object has no attribute 'get'"
+      },
+      {
+        "question": "i need to know what time it is",
+        "answer": "{7}",
+        "steps": 8,
+        "tokens": 33339,
+        "latency_s": 221.63,
+        "replan": 1
+      },
+      {
+        "question": "either i am not sure",
+        "answer": "0",
+        "steps": 5,
+        "tokens": 21928,
+        "latency_s": 224.83,
+        "replan": 0
+      },
+      {
+        "question": "can you ask me that again",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772684721002fe9f6125f2b74cd477deac452ba6a9651acb45', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "where were you born as a kid",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772684722640fe9f6125f2b74cd477deac452ba6a965768a5a', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "how long will it take for me to get to the gas station",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772684723995fe9f6125f2b74cd477deac452ba6a9651dee7b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "set the timer for 10 minutes",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772684725325fe9f6125f2b74cd477deac452ba6a96546bc94', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "can i change you name to gretchen",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772684726853fe9f6125f2b74cd477deac452ba6a9651e5046', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "did i make a note on my todo list to mop the bathroom floor",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772684728207fe9f6125f2b74cd477deac452ba6a965226132', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "how many years have you been living",
+        "answer": "{0}",
+        "steps": 6,
+        "tokens": 24933,
+        "latency_s": 239.53,
+        "replan": 2
+      },
+      {
+        "question": "is rice good for me",
+        "answer": "{-1}",
+        "steps": 4,
+        "tokens": 15165,
+        "latency_s": 168.65,
+        "replan": 0
+      },
+      {
+        "question": "what's is the current weather forecast",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "make me an appointment for a tire check",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772685210642fe9f6125f2b74cd477deac452ba6a965a83c2b', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i need to obtain and uber",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772685212357fe9f6125f2b74cd477deac452ba6a9658a025c', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what things did i not want to forget",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772685213892fe9f6125f2b74cd477deac452ba6a96574ca79', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "what rules does southwest have for carry-on luggage",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772685215337fe9f6125f2b74cd477deac452ba6a965814be9', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772685216995fe9f6125f2b74cd477deac452ba6a96530739e', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "in what month does my credit card expire",
+        "error": "Error code: 429 - {'error': {'code': 'RateLimitExceeded.EndpointTPMExceeded', 'message': 'The Tokens Per Minute (TPM) limit of the associated endpoint for your account has been exceeded, please retry later or contact with administrator if not work afterwards. Request id: 021772685218500fe9f6125f2b74cd477deac452ba6a965996cb3', 'param': '', 'type': 'TooManyRequests'}}"
+      },
+      {
+        "question": "give me location for tourist destination in bangkok",
+        "answer": "{0}",
+        "steps": 10,
+        "tokens": 53295,
+        "latency_s": 313.05,
+        "replan": 2
+      },
+      {
+        "question": "tell me my tax rate",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "could you tell me my bill's minimum payment",
+        "answer": "{1}",
+        "steps": 3,
+        "tokens": 11327,
+        "latency_s": 146.57,
+        "replan": 0
+      },
+      {
+        "question": "when did i last get my car serviced",
+        "answer": "{52}",
+        "steps": 3,
+        "tokens": 10435,
+        "latency_s": 123.21,
+        "replan": 0
+      },
+      {
+        "question": "make your volume quieter please",
+        "answer": "{ }",
+        "steps": 1,
+        "tokens": 4368,
+        "latency_s": 69.22,
+        "replan": 0
+      },
+      {
+        "question": "for the love of all that good change your accent",
+        "answer": "{}",
+        "steps": 1,
+        "tokens": 5008,
+        "latency_s": 85.69,
+        "replan": 0
+      },
+      {
+        "question": "i want to know what the purpose of life is",
+        "answer": "{0}",
+        "steps": 10,
+        "tokens": 52200,
+        "latency_s": 383.06,
+        "replan": 2
+      },
+      {
+        "question": "what's the wait like at chima brazilian steakhouse at this time",
+        "answer": "{0}",
+        "steps": 4,
+        "tokens": 16783,
+        "latency_s": 199.68,
+        "replan": 2
+      },
+      {
+        "question": "set my alarm for eight tomorrow, please",
+        "answer": "{16}",
+        "steps": 6,
+        "tokens": 28849,
+        "latency_s": 304.15,
+        "replan": 2
+      },
+      {
+        "question": "change back to factory settings",
+        "answer": "{1}",
+        "steps": 1,
+        "tokens": 3072,
+        "latency_s": 34.68,
+        "replan": 0
+      },
+      {
+        "question": "how high is my spending limit on my wells fargo card",
+        "answer": "0",
+        "steps": 4,
+        "tokens": 17981,
+        "latency_s": 196.16,
+        "replan": 2
+      },
+      {
+        "question": "i'd like to know how to make changes for my insurance policy",
+        "answer": "0",
+        "steps": 6,
+        "tokens": 26281,
+        "latency_s": 263.32,
+        "replan": 0
+      },
+      {
+        "question": "what are you interested in",
+        "answer": "{16}",
+        "steps": 2,
+        "tokens": 6855,
+        "latency_s": 91.11,
+        "replan": 0
+      },
+      {
+        "question": "scrap",
+        "answer": "{0}",
+        "steps": 2,
+        "tokens": 9193,
+        "latency_s": 158.19,
+        "replan": 0
+      },
+      {
+        "question": "my card is lost and i need to know how to report it",
+        "answer": "{1}",
+        "steps": 6,
+        "tokens": 27281,
+        "latency_s": 236.24,
+        "replan": 2
+      },
+      {
+        "question": "what is that tune",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "i've forgotten my pin number for my citibank gold account",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "what's delta's carry on policy",
+        "answer": "{1}",
+        "steps": 7,
+        "tokens": 30688,
+        "latency_s": 222.37,
+        "replan": 0
+      },
+      {
+        "question": "what is the best way to insure that my credit score doesn't decrease",
+        "answer": "{1}",
+        "steps": 8,
+        "tokens": 40180,
+        "latency_s": 278.96,
+        "replan": 2
+      },
+      {
+        "question": "help me schedule maintenance for my car",
+        "answer": "{1}",
+        "steps": 5,
+        "tokens": 18782,
+        "latency_s": 175.65,
+        "replan": 0
+      },
+      {
+        "question": "tell me the meaning of condemnation",
+        "answer": "{0}",
+        "steps": 7,
+        "tokens": 31560,
+        "latency_s": 319.93,
+        "replan": 2
+      },
+      {
+        "question": "tell me the meaning of hegemony",
+        "answer": "{0}",
+        "steps": 7,
+        "tokens": 28574,
+        "latency_s": 265.6,
+        "replan": 2
+      },
+      {
+        "question": "roll that dice",
+        "answer": "0",
+        "steps": 8,
+        "tokens": 35501,
+        "latency_s": 298.83,
+        "replan": 2
+      },
+      {
+        "question": "tell me an axolotl fact",
+        "error": "'int' object has no attribute 'get'"
+      },
+      {
+        "question": "i do not think that is proper",
+        "answer": "{ }",
+        "steps": 10,
+        "tokens": 53468,
+        "latency_s": 440.92,
+        "replan": 1
+      },
+      {
+        "question": "who do you say you work for",
+        "answer": "0",
+        "steps": 4,
+        "tokens": 15737,
+        "latency_s": 202.65,
+        "replan": 2
+      },
+      {
+        "question": "will i be permitted to take my vacation",
+        "answer": "{label}",
+        "steps": 7,
+        "tokens": 34507,
+        "latency_s": 344.18,
+        "replan": 1
+      },
+      {
+        "question": "specify who your boss is",
+        "answer": "{}",
+        "steps": 5,
+        "tokens": 21060,
+        "latency_s": 276.79,
+        "replan": 2
+      },
+      {
+        "question": "this was fun, see you around bye",
+        "answer": "{label}",
+        "steps": 1,
+        "tokens": 5933,
+        "latency_s": 122.93,
+        "replan": 0
+      },
+      {
+        "question": "10 minutes is the setting for the timer",
+        "answer": "11",
+        "steps": 2,
+        "tokens": 6729,
+        "latency_s": 89.45,
+        "replan": 0
+      },
+      {
+        "question": "i want to be called tom",
+        "answer": "{0}",
+        "steps": 10,
+        "tokens": 49142,
+        "latency_s": 342.29,
+        "replan": 1
+      },
+      {
+        "question": "is a shot required before traveling to mexico",
+        "answer": "{0}",
+        "steps": 7,
+        "tokens": 31032,
+        "latency_s": 289.1,
+        "replan": 2
+      },
+      {
+        "question": "please inform me on bad habits and overcoming them",
+        "answer": "{0}",
+        "steps": 10,
+        "tokens": 46186,
+        "latency_s": 337.23,
+        "replan": 2
+      }
+    ]
+  }
+}

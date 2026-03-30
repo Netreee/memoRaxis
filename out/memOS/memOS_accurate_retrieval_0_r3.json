@@ -1,0 +1,809 @@
+{
+  "dataset": "accurate_retrieval",
+  "backend": "memOS",
+  "instance_idx": 0,
+  "results": {
+    "R3": [
+      {
+        "question": "In what country is Normandy located?",
+        "answer": "France",
+        "steps": 2,
+        "tokens": 100135,
+        "replan": 0,
+        "elapsed_sec": 49.59
+      },
+      {
+        "question": "When were the Normans in Normandy?",
+        "answer": "The Normans' distinct cultural and ethnic identity emerged initially in the first half of the 10th century, and they were present in Normandy from the 10th century onward, including the 11th century and early 15th century (e.g., the expedition led by Norman noble Jean de Bethencourt between 1402 and 1405 gathered troops in Normandy).",
+        "steps": 2,
+        "tokens": 105614,
+        "replan": 0,
+        "elapsed_sec": 113.99
+      },
+      {
+        "question": "From which countries did the Norse originate?",
+        "answer": "Denmark, Iceland and Norway.",
+        "steps": 2,
+        "tokens": 101894,
+        "replan": 0,
+        "elapsed_sec": 46.35
+      },
+      {
+        "question": "Who was the Norse leader?",
+        "answer": "Rollo",
+        "steps": 1,
+        "tokens": 34825,
+        "replan": 0,
+        "elapsed_sec": 30.63
+      },
+      {
+        "question": "What century did the Normans first gain their separate identity?",
+        "answer": "The 10th century.",
+        "steps": 2,
+        "tokens": 103476,
+        "replan": 0,
+        "elapsed_sec": 64.25
+      },
+      {
+        "question": "Who was the duke in the battle of Hastings?",
+        "answer": "Duke William II of Normandy.",
+        "steps": 2,
+        "tokens": 100053,
+        "replan": 0,
+        "elapsed_sec": 53.13
+      },
+      {
+        "question": "Who ruled the duchy of Normandy",
+        "answer": "The Duchy of Normandy was ruled by the Norman dynasty, including figures such as Rollo (the founder who established it via the Treaty of Saint-Clair-sur-Epte), Richard I of Normandy (who forged it into a cohesive principality), and William II of Normandy (William the Conqueror, who conquered England in 1066). Early Norman kings of England also served as Dukes of Normandy.\n\nWait, but the task says to only give the answer and no other words. Let me adjust to be concise:\n\nRollo (the founder), Richard I of Normandy, William II of Normandy (William the Conqueror), and early Norman kings of England (as Dukes of Normandy).\n\nBut maybe even more concise since the question is \"who ruled\". The key ones mentioned are Rollo, Richard I of Normandy, William II of Normandy, and the Norman dynasty including early Norman kings of England as dukes.\n\nWait, let's check again the evidence:\n\n- Rollo: established the duchy (user2, user4)\n- Richard I of Normandy: forged it into a cohesive principality (user17)\n- William II of Normandy: Duke who conquered England (user3)\n- Early Norman kings of England: were Dukes of Normandy (user3)\n\nSo the answer should list these. But let's make it as per the evidence. The most explicit are Rollo, Richard I of Normandy, William II of Normandy, and the Norman dynasty (including early Norman kings of England as dukes).\n\nBut maybe the simplest answer is: The Norman dynasty, including Rollo (founder), Richard I of Normandy, and William II of Normandy (William the Conqueror), as well as early Norman kings of England who served as Dukes of Normandy.\n\nBut let's see if the task allows that. Since the user says only give the answer and no other words, let's make it concise:\n\nRollo, Richard I of Normandy, William II of Normandy (William the Conqueror), and early Norman kings of England (as Dukes of Normandy).\n</think_never_used_51bce0c785ca2f68081bfa7d91973934>Rollo (the founder), Richard I of Normandy, William II of Normandy (William the Conqueror), and early Norman kings of England (who served as Dukes of Normandy).",
+        "steps": 2,
+        "tokens": 102932,
+        "replan": 0,
+        "elapsed_sec": 86.84
+      },
+      {
+        "question": "What religion were the Normans",
+        "answer": "Catholicism (Christianity)",
+        "steps": 2,
+        "tokens": 103691,
+        "replan": 0,
+        "elapsed_sec": 56.35
+      },
+      {
+        "question": "What is the original meaning of the word Norman?",
+        "answer": "Norseman (or Viking)",
+        "steps": 2,
+        "tokens": 103819,
+        "replan": 0,
+        "elapsed_sec": 112.88
+      },
+      {
+        "question": "When was the Latin version of the word Norman first recorded?",
+        "answer": "9th century",
+        "steps": 2,
+        "tokens": 105623,
+        "replan": 0,
+        "elapsed_sec": 77.14
+      },
+      {
+        "question": "When was the Duchy of Normandy founded?",
+        "answer": "911",
+        "steps": 2,
+        "tokens": 102671,
+        "replan": 0,
+        "elapsed_sec": 43.28
+      },
+      {
+        "question": "Who did Rollo sign the treaty of Saint-Clair-sur-Epte with?",
+        "answer": "King Charles III of West Francia",
+        "steps": 2,
+        "tokens": 101256,
+        "replan": 0,
+        "elapsed_sec": 57.51
+      },
+      {
+        "question": "What river originally bounded the Duchy",
+        "answer": "The Epte River.",
+        "steps": 2,
+        "tokens": 104109,
+        "replan": 0,
+        "elapsed_sec": 183.0
+      },
+      {
+        "question": "Who upon arriving gave the original viking settlers a common identity?",
+        "answer": "Rollo.",
+        "steps": 2,
+        "tokens": 104566,
+        "replan": 0,
+        "elapsed_sec": 119.78
+      },
+      {
+        "question": "What was the Norman religion?",
+        "answer": "Catholicism (Christianity)",
+        "steps": 2,
+        "tokens": 103277,
+        "replan": 0,
+        "elapsed_sec": 49.48
+      },
+      {
+        "question": "What part of France were the Normans located?",
+        "answer": "Normandy.",
+        "steps": 2,
+        "tokens": 103133,
+        "replan": 0,
+        "elapsed_sec": 57.32
+      },
+      {
+        "question": "What was one of the Norman's major exports?",
+        "answer": "Not mentioned",
+        "steps": 4,
+        "tokens": 303672,
+        "replan": 2,
+        "elapsed_sec": 166.65
+      },
+      {
+        "question": "Who was the Normans' main enemy in Italy, the Byzantine Empire and Armenia?",
+        "answer": "Pechenegs, Bulgars, and especially the Seljuk Turks.",
+        "steps": 2,
+        "tokens": 106152,
+        "replan": 0,
+        "elapsed_sec": 65.85
+      },
+      {
+        "question": "When did Herve serve as a Byzantine general?",
+        "answer": "In the 1050s.",
+        "steps": 2,
+        "tokens": 104588,
+        "replan": 0,
+        "elapsed_sec": 50.71
+      },
+      {
+        "question": "When did Robert Crispin go up against the Turks?",
+        "answer": "No information available.",
+        "steps": 4,
+        "tokens": 298582,
+        "replan": 2,
+        "elapsed_sec": 444.49
+      },
+      {
+        "question": "Who ruined Roussel de Bailleul's plans for an independent state?",
+        "answer": "The collected evidence does not contain information about who ruined Roussel de Bailleul's plans for an independent state.",
+        "steps": 7,
+        "tokens": 607629,
+        "replan": 2,
+        "elapsed_sec": 214.37
+      },
+      {
+        "question": "What was the name of the Norman castle?",
+        "answer": "Trim Castle and Dublin Castle",
+        "steps": 2,
+        "tokens": 105531,
+        "replan": 0,
+        "elapsed_sec": 65.29
+      },
+      {
+        "question": "Who was the leader when the Franks entered the Euphrates valley?",
+        "answer": "The memorized documents do not mention the leader when the Franks entered the Euphrates valley.",
+        "steps": 2,
+        "tokens": 106261,
+        "replan": 0,
+        "elapsed_sec": 91.75
+      },
+      {
+        "question": "Who did the Normans team up with in Anatolia?",
+        "answer": "The local population in Asia Minor (Anatolia).",
+        "steps": 2,
+        "tokens": 103306,
+        "replan": 0,
+        "elapsed_sec": 96.13
+      },
+      {
+        "question": "What were the origins of the Raouliii family?",
+        "answer": "The Raoulii family were descended from an Italo-Norman named Raoul, and they were among the families of Byzantine Greece of Norman mercenary origin during the period of the Comnenian Restoration when Byzantine emperors sought western European warriors.",
+        "steps": 2,
+        "tokens": 104149,
+        "replan": 0,
+        "elapsed_sec": 59.76
+      },
+      {
+        "question": "What was the name of the count of Apulia",
+        "answer": "Robert Guiscard",
+        "steps": 2,
+        "tokens": 100236,
+        "replan": 0,
+        "elapsed_sec": 42.08
+      },
+      {
+        "question": "When did Dyrrachium  fall to the Normans?",
+        "answer": "February 1082 and 1185",
+        "steps": 2,
+        "tokens": 100909,
+        "replan": 0,
+        "elapsed_sec": 74.25
+      },
+      {
+        "question": "How many men were in Robert's army?",
+        "answer": "30,000",
+        "steps": 2,
+        "tokens": 103164,
+        "replan": 0,
+        "elapsed_sec": 58.58
+      },
+      {
+        "question": "Where did the Normans and Byzantines sign the peace treaty?",
+        "answer": "Deabolis",
+        "steps": 2,
+        "tokens": 103276,
+        "replan": 0,
+        "elapsed_sec": 44.71
+      },
+      {
+        "question": "Who was Robert's son?",
+        "answer": "Not mentioned",
+        "steps": 2,
+        "tokens": 101719,
+        "replan": 0,
+        "elapsed_sec": 139.99
+      },
+      {
+        "question": "What river was Petrela located by?",
+        "answer": "Deabolis",
+        "steps": 2,
+        "tokens": 102823,
+        "replan": 0,
+        "elapsed_sec": 51.31
+      },
+      {
+        "question": "When did the Normans attack Dyrrachium?",
+        "answer": "1081, 1107, 1185",
+        "steps": 2,
+        "tokens": 100937,
+        "replan": 0,
+        "elapsed_sec": 57.54
+      },
+      {
+        "question": "What was the naval base called?",
+        "answer": "Blount Island Command and Naval Submarine Base Kings Bay",
+        "steps": 2,
+        "tokens": 103107,
+        "replan": 0,
+        "elapsed_sec": 71.95
+      },
+      {
+        "question": "Where was Dyrrachium located?",
+        "answer": "Dyrrachium was located on the southern shores of Albania.",
+        "steps": 2,
+        "tokens": 98728,
+        "replan": 0,
+        "elapsed_sec": 67.06
+      },
+      {
+        "question": "Who did Emma Marry?",
+        "answer": "No information about who Emma married is found in the provided documents.",
+        "steps": 2,
+        "tokens": 103465,
+        "replan": 0,
+        "elapsed_sec": 90.6
+      },
+      {
+        "question": "Who was Emma's brother?",
+        "answer": "There is no information about Emma's brother in the provided evidence.",
+        "steps": 4,
+        "tokens": 303632,
+        "replan": 1,
+        "elapsed_sec": 122.0
+      },
+      {
+        "question": "To where did Ethelred flee?",
+        "answer": "No information available in the provided documents.",
+        "steps": 2,
+        "tokens": 103585,
+        "replan": 0,
+        "elapsed_sec": 84.59
+      },
+      {
+        "question": "Who kicked Ethelred out?",
+        "answer": "No relevant information is found in the memorized documents.",
+        "steps": 2,
+        "tokens": 102666,
+        "replan": 0,
+        "elapsed_sec": 104.97
+      },
+      {
+        "question": "Who was Edward the Confessor's half-brother?",
+        "answer": "Harthacnut",
+        "steps": 2,
+        "tokens": 99619,
+        "replan": 0,
+        "elapsed_sec": 69.46
+      },
+      {
+        "question": "When did Edward return?",
+        "answer": "1041",
+        "steps": 2,
+        "tokens": 100727,
+        "replan": 0,
+        "elapsed_sec": 76.57
+      },
+      {
+        "question": "Who did Edward make archbishop of Canterbury?",
+        "answer": "Robert of Jumièges",
+        "steps": 2,
+        "tokens": 97416,
+        "replan": 0,
+        "elapsed_sec": 127.08
+      },
+      {
+        "question": "Where did Harold II die?",
+        "answer": "Not found in the provided evidence.",
+        "steps": 4,
+        "tokens": 297497,
+        "replan": 2,
+        "elapsed_sec": 218.71
+      },
+      {
+        "question": "Who killed Harold II?",
+        "answer": "Duke William II of Normandy killed Harold II at the Battle of Hastings.",
+        "steps": 2,
+        "tokens": 96502,
+        "replan": 0,
+        "elapsed_sec": 68.31
+      },
+      {
+        "question": "When was the Battle of Hastings?",
+        "answer": "1066",
+        "steps": 2,
+        "tokens": 94813,
+        "replan": 0,
+        "elapsed_sec": 54.09
+      },
+      {
+        "question": "Who was the ruling class ahead of the Normans?",
+        "answer": "Anglo-Saxons",
+        "steps": 1,
+        "tokens": 33858,
+        "replan": 0,
+        "elapsed_sec": 24.53
+      },
+      {
+        "question": "What was the Anglo-Norman language's final form?",
+        "answer": "The Anglo-Norman language was eventually absorbed into the Anglo-Saxon language (Old English) and influenced it, helping (along with the Norse language of the earlier Anglo-Norse settlers and the Latin used by the church) in the development of Middle English, which in turn evolved into Modern English.",
+        "steps": 2,
+        "tokens": 107636,
+        "replan": 0,
+        "elapsed_sec": 121.82
+      },
+      {
+        "question": "In what year did the Norman's invade at Bannow Bay?",
+        "answer": "1169",
+        "steps": 2,
+        "tokens": 102690,
+        "replan": 0,
+        "elapsed_sec": 366.69
+      },
+      {
+        "question": "What country did the Normans invade in 1169?",
+        "answer": "Ireland",
+        "steps": 2,
+        "tokens": 102261,
+        "replan": 0,
+        "elapsed_sec": 160.31
+      },
+      {
+        "question": "What culture did the Normans combine with in Ireland?",
+        "answer": "Irish culture",
+        "steps": 2,
+        "tokens": 101998,
+        "replan": 0,
+        "elapsed_sec": 101.24
+      },
+      {
+        "question": "Who was Margaret's brother?",
+        "answer": "Unknown",
+        "steps": 3,
+        "tokens": 203989,
+        "replan": 1,
+        "elapsed_sec": 441.22
+      },
+      {
+        "question": "Who was Margaret's husband?",
+        "answer": "No relevant information available.",
+        "steps": 3,
+        "tokens": 200476,
+        "replan": 1,
+        "elapsed_sec": 171.87
+      },
+      {
+        "question": "When was Scotland invaded by William?",
+        "answer": "No relevant information found in the provided evidence.",
+        "steps": 4,
+        "tokens": 292775,
+        "replan": 2,
+        "elapsed_sec": 195.46
+      },
+      {
+        "question": "Who was the hostage?",
+        "answer": "British men, women, children, and slaves captured by Montcalm's Indian allies during the withdrawal from Fort William Henry.",
+        "steps": 4,
+        "tokens": 295435,
+        "replan": 2,
+        "elapsed_sec": 261.8
+      },
+      {
+        "question": "Who did Alexander I marry?",
+        "answer": "No information about who Alexander I married is provided in the collected evidence.",
+        "steps": 3,
+        "tokens": 189526,
+        "replan": 1,
+        "elapsed_sec": 118.41
+      },
+      {
+        "question": "What culture's arrival in Scotland is know as the \"Davidian Revolution\"?",
+        "answer": "Not mentioned in the provided documents.",
+        "steps": 5,
+        "tokens": 388465,
+        "replan": 2,
+        "elapsed_sec": 188.17
+      },
+      {
+        "question": "Where was Ralph earl of?",
+        "answer": "Hereford",
+        "steps": 2,
+        "tokens": 102443,
+        "replan": 0,
+        "elapsed_sec": 53.79
+      },
+      {
+        "question": "Who was Ralph in charge of being at war with?",
+        "answer": "No relevant information about Ralph being in charge of a war with anyone is present in the provided documents.",
+        "steps": 6,
+        "tokens": 500404,
+        "replan": 2,
+        "elapsed_sec": 252.37
+      },
+      {
+        "question": "Who made Ralph earl?",
+        "answer": "No information available",
+        "steps": 3,
+        "tokens": 198452,
+        "replan": 1,
+        "elapsed_sec": 136.94
+      },
+      {
+        "question": "What country was under the control of Norman barons?",
+        "answer": "England",
+        "steps": 2,
+        "tokens": 100765,
+        "replan": 0,
+        "elapsed_sec": 69.91
+      },
+      {
+        "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+        "answer": "1018",
+        "steps": 2,
+        "tokens": 105755,
+        "replan": 0,
+        "elapsed_sec": 56.3
+      },
+      {
+        "question": "Who was in charge of the papal army in the War of Barbastro?",
+        "answer": "William of Montreuil",
+        "steps": 2,
+        "tokens": 100923,
+        "replan": 0,
+        "elapsed_sec": 48.34
+      },
+      {
+        "question": "When did the Siege of Antioch take place?",
+        "answer": "The specific time of the Siege of Antioch is not mentioned in the provided evidence.",
+        "steps": 4,
+        "tokens": 298003,
+        "replan": 2,
+        "elapsed_sec": 197.41
+      },
+      {
+        "question": "What was the name of Bohemond's nephew?",
+        "answer": "The name of Bohemond's nephew is not mentioned in the provided documents.",
+        "steps": 4,
+        "tokens": 279326,
+        "replan": 2,
+        "elapsed_sec": 177.51
+      },
+      {
+        "question": "What major conquest did Tancred play a roll in?",
+        "answer": "There is no mention of Tancred in the provided documents.",
+        "steps": 2,
+        "tokens": 98980,
+        "replan": 0,
+        "elapsed_sec": 123.77
+      },
+      {
+        "question": "How long did Western Europe control Cyprus?",
+        "answer": "Insufficient evidence to determine the duration.",
+        "steps": 5,
+        "tokens": 406573,
+        "replan": 2,
+        "elapsed_sec": 220.12
+      },
+      {
+        "question": "What ruined Richard's plans to reach Acre?",
+        "answer": "A storm dispersed Richard's fleet, and the island's despot Isaac Komnenos took the survivors of the wrecks (including those on the boat carrying his sister and fiancée) prisoner, forcing Richard to stop and conquer Cyprus instead of proceeding directly to Acre.",
+        "steps": 2,
+        "tokens": 105319,
+        "replan": 0,
+        "elapsed_sec": 96.57
+      },
+      {
+        "question": "Who was Richard's fiancee?",
+        "answer": "Berengaria",
+        "steps": 2,
+        "tokens": 104803,
+        "replan": 0,
+        "elapsed_sec": 91.62
+      },
+      {
+        "question": "What year did the storm hit Richard's fleet?",
+        "answer": "1191",
+        "steps": 2,
+        "tokens": 107175,
+        "replan": 0,
+        "elapsed_sec": 141.18
+      },
+      {
+        "question": "Who ruled Cyprus in 1191?",
+        "answer": "Isaac Komnenos (before June 1191), then Richard de Camville and Robert de Thornham (after June 1191)",
+        "steps": 2,
+        "tokens": 101653,
+        "replan": 0,
+        "elapsed_sec": 135.36
+      },
+      {
+        "question": "Who was Guy's Rival?",
+        "answer": "Conrad of Montferrat",
+        "steps": 2,
+        "tokens": 102924,
+        "replan": 0,
+        "elapsed_sec": 59.68
+      },
+      {
+        "question": "What were Isaac's chains made out of?",
+        "answer": "Silver.",
+        "steps": 2,
+        "tokens": 102174,
+        "replan": 0,
+        "elapsed_sec": 44.27
+      },
+      {
+        "question": "Who led Richard's troops when Cyprus was conquered?",
+        "answer": "Guy de Lusignan",
+        "steps": 2,
+        "tokens": 101232,
+        "replan": 0,
+        "elapsed_sec": 109.48
+      },
+      {
+        "question": "What continent are the Canarian Islands off the coast of?",
+        "answer": "Africa",
+        "steps": 2,
+        "tokens": 100670,
+        "replan": 0,
+        "elapsed_sec": 151.31
+      },
+      {
+        "question": "Who became the King of the Canary Islands?",
+        "answer": "No relevant information is found in the provided documents.",
+        "steps": 2,
+        "tokens": 103907,
+        "replan": 0,
+        "elapsed_sec": 125.78
+      },
+      {
+        "question": "Who bought the rights?",
+        "answer": "BSkyB, BBC, Setanta Sports, and Sky UK Limited (formerly BSkyB) bought the Premier League broadcast rights.",
+        "steps": 2,
+        "tokens": 102987,
+        "replan": 0,
+        "elapsed_sec": 79.96
+      },
+      {
+        "question": "Who sold the rights?",
+        "answer": "The Premier League.",
+        "steps": 2,
+        "tokens": 101837,
+        "replan": 0,
+        "elapsed_sec": 111.42
+      },
+      {
+        "question": "Where are Jersey and Guernsey",
+        "answer": "No relevant information available in the provided documents.",
+        "steps": 7,
+        "tokens": 613482,
+        "replan": 2,
+        "elapsed_sec": 427.65
+      },
+      {
+        "question": "How many customaries does Norman customary law have?",
+        "answer": "Two. The Norman customary law was transcribed in two customaries: the Très ancien coutumier (Very ancient customary) and the Grand coutumier de Normandie (Great customary of Normandy).\n\n（注：根据提供的证据，诺曼习惯法有两部习惯法汇编，分别是《非常古老的习惯法》和《诺曼底大习惯法》，因此数量为2。）",
+        "steps": 2,
+        "tokens": 99806,
+        "replan": 0,
+        "elapsed_sec": 51.92
+      },
+      {
+        "question": "What is the Norman architecture idiom?",
+        "answer": "The Norman architecture idiom is a unique Romanesque idiom characterized by rounded arches (particularly over windows and doorways), massive proportions, and the encastellation of regions with keeps in their north French style. They spread this idiom to England and Italy, fundamentally altering the military landscape of these regions.",
+        "steps": 2,
+        "tokens": 103328,
+        "replan": 0,
+        "elapsed_sec": 97.25
+      },
+      {
+        "question": "What kind of arches does Norman architecture have?",
+        "answer": "Rounded arches.",
+        "steps": 4,
+        "tokens": 303879,
+        "replan": 1,
+        "elapsed_sec": 126.83
+      },
+      {
+        "question": "What architecture type came after Norman in England?",
+        "answer": "Gothic architecture",
+        "steps": 2,
+        "tokens": 103589,
+        "replan": 0,
+        "elapsed_sec": 87.34
+      },
+      {
+        "question": "What architecture type came before Norman in England?",
+        "answer": "Anglo-Saxon architecture",
+        "steps": 4,
+        "tokens": 304972,
+        "replan": 1,
+        "elapsed_sec": 206.59
+      },
+      {
+        "question": "What place had the Norman Arab architectural style?",
+        "answer": "The Kingdom of Sicily (in southern Italy)",
+        "steps": 2,
+        "tokens": 104441,
+        "replan": 0,
+        "elapsed_sec": 55.53
+      },
+      {
+        "question": "When did the church reform begin?",
+        "answer": "The early 11th century.",
+        "steps": 2,
+        "tokens": 105891,
+        "replan": 0,
+        "elapsed_sec": 100.43
+      },
+      {
+        "question": "Who used the church to unify themselves?",
+        "answer": "Huguenots.",
+        "steps": 2,
+        "tokens": 100633,
+        "replan": 0,
+        "elapsed_sec": 78.39
+      },
+      {
+        "question": "When were the French wars of religion?",
+        "answer": "The 16th century.",
+        "steps": 2,
+        "tokens": 103630,
+        "replan": 0,
+        "elapsed_sec": 107.4
+      },
+      {
+        "question": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+        "answer": "Embroidery.",
+        "steps": 2,
+        "tokens": 101115,
+        "replan": 0,
+        "elapsed_sec": 51.95
+      },
+      {
+        "question": "What is Norman art's most well known piece?",
+        "answer": "Not mentioned in the provided evidence.",
+        "steps": 4,
+        "tokens": 304732,
+        "replan": 2,
+        "elapsed_sec": 138.88
+      },
+      {
+        "question": "Who commissioned the Tapestry?",
+        "answer": "Odo, the Bishop of Bayeux and first Earl of Kent.",
+        "steps": 2,
+        "tokens": 99720,
+        "replan": 0,
+        "elapsed_sec": 59.43
+      },
+      {
+        "question": "What is the most important type of Norman art preserved in churches?",
+        "answer": "Romanesque architecture",
+        "steps": 2,
+        "tokens": 102214,
+        "replan": 0,
+        "elapsed_sec": 91.75
+      },
+      {
+        "question": "In what century did important classical music developments occur in Normandy?",
+        "answer": "11th century",
+        "steps": 2,
+        "tokens": 101658,
+        "replan": 0,
+        "elapsed_sec": 42.2
+      },
+      {
+        "question": "Who were the two abbots at Fécamp Abbey?",
+        "answer": "William of Volpiano and John of Ravenna.",
+        "steps": 2,
+        "tokens": 101368,
+        "replan": 0,
+        "elapsed_sec": 105.23
+      },
+      {
+        "question": "Where did the monks flee to?",
+        "answer": "No information available.",
+        "steps": 3,
+        "tokens": 202852,
+        "replan": 1,
+        "elapsed_sec": 222.37
+      },
+      {
+        "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+        "answer": "Sant'Eufemia",
+        "steps": 2,
+        "tokens": 103093,
+        "replan": 0,
+        "elapsed_sec": 264.83
+      },
+      {
+        "question": "Who patronized the monks in Italy?",
+        "answer": "French Crusaders traveling to the Holy Land who brought with them French artefacts to gift the churches at which they stopped in southern Italy.",
+        "steps": 7,
+        "tokens": 582722,
+        "replan": 2,
+        "elapsed_sec": 384.61
+      },
+      {
+        "question": "What tradition were the Saint-Evroul monks known for?",
+        "answer": "Saint-Evroul Abbey was a centre of musical production and education.",
+        "steps": 2,
+        "tokens": 100020,
+        "replan": 0,
+        "elapsed_sec": 91.66
+      },
+      {
+        "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+        "answer": "Computational complexity theory",
+        "steps": 2,
+        "tokens": 100911,
+        "replan": 0,
+        "elapsed_sec": 85.29
+      },
+      {
+        "question": "By what main attribute are computational problems classified utilizing computational complexity theory?",
+        "answer": "Inherent difficulty, often measured by the amount of computational resources (such as time or space) required to solve them.",
+        "steps": 2,
+        "tokens": 99638,
+        "replan": 0,
+        "elapsed_sec": 154.77
+      },
+      {
+        "question": "What is the term for a task that generally lends itself to being solved by a computer?",
+        "answer": "computational problem",
+        "steps": 2,
+        "tokens": 103776,
+        "replan": 0,
+        "elapsed_sec": 216.21
+      },
+      {
+        "question": "What measure of a computational problem broadly defines the inherent difficulty of the solution?",
+        "answer": "Computational complexity",
+        "steps": 2,
+        "tokens": 102623,
+        "replan": 0,
+        "elapsed_sec": 76.97
+      }
+    ]
+  }
+}

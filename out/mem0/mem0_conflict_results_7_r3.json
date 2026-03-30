@@ -1,0 +1,781 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0",
+  "instance_idx": 7,
+  "results": {
+    "R3": [
+      {
+        "question": "Which university was Adam Putnam educated at?",
+        "answer": "No information about the university Adam Putnam was educated at is available in the knowledge pool.",
+        "steps": 4,
+        "tokens": 16469,
+        "latency_s": 181.13,
+        "replan": 2
+      },
+      {
+        "question": "What type of music does Tito Nieves play?",
+        "answer": "No information available",
+        "steps": 4,
+        "tokens": 13508,
+        "latency_s": 96.15,
+        "replan": 2
+      },
+      {
+        "question": "Which country was Sigur Rós created in?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 2,
+        "tokens": 7087,
+        "latency_s": 77.86,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of AppleWorks?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13862,
+        "latency_s": 111.31,
+        "replan": 2
+      },
+      {
+        "question": "What language does Jasper Fforde speak?",
+        "answer": "There is no relevant information about the language Jasper Fforde speaks in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13012,
+        "latency_s": 87.27,
+        "replan": 2
+      },
+      {
+        "question": "Which religion is Benedict XIII affiliated with?",
+        "error": "Server disconnected without sending a response."
+      },
+      {
+        "question": "What language does Shane Meadows speak?",
+        "error": "[Errno 54] Connection reset by peer"
+      },
+      {
+        "question": "What position does Lou Gehrig play?",
+        "error": "[Errno 54] Connection reset by peer"
+      },
+      {
+        "question": "Who founded Shingon Buddhism?",
+        "error": "[Errno 54] Connection reset by peer"
+      },
+      {
+        "question": "Who is the developer of Extensible Markup Language?",
+        "error": "[Errno 54] Connection reset by peer"
+      },
+      {
+        "question": "What is the country of citizenship of Cy Young?",
+        "error": "[Errno 54] Connection reset by peer"
+      },
+      {
+        "question": "What is the country of citizenship of Davina McCall?",
+        "error": "[Errno 54] Connection reset by peer"
+      },
+      {
+        "question": "Which country was Witches of East End created in?",
+        "answer": "没有相关信息",
+        "steps": 4,
+        "tokens": 13574,
+        "latency_s": 91.57,
+        "replan": 2
+      },
+      {
+        "question": "Who is the chief executive officer of Oculus VR, LLC?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13274,
+        "latency_s": 86.24,
+        "replan": 2
+      },
+      {
+        "question": "Who was Bart Simpson created by?",
+        "answer": "No relevant information provided in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14498,
+        "latency_s": 125.15,
+        "replan": 2
+      },
+      {
+        "question": "Which religion is Albert of Saxony affiliated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13806,
+        "latency_s": 90.55,
+        "replan": 2
+      },
+      {
+        "question": "Who was The IT Crowd created by?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 20991,
+        "latency_s": 201.09,
+        "replan": 2
+      },
+      {
+        "question": "What language does Queen Victoria I speak?",
+        "answer": "Unknown",
+        "steps": 5,
+        "tokens": 20905,
+        "latency_s": 206.18,
+        "replan": 2
+      },
+      {
+        "question": "Which company is Windows Vista produced by?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15667,
+        "latency_s": 151.93,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Indiana Mr. Basketball associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 18303,
+        "latency_s": 109.14,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Laura Bush?",
+        "answer": "No relevant information about Laura Bush's country of citizenship is provided in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13820,
+        "latency_s": 98.42,
+        "replan": 2
+      },
+      {
+        "question": "Who is the employer of Helen Vendler?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 15174,
+        "latency_s": 154.07,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of C. S. Forester?",
+        "answer": "No information available.",
+        "steps": 4,
+        "tokens": 13256,
+        "latency_s": 83.63,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Tom Simpson?",
+        "answer": "No relevant information about Tom Simpson's citizenship exists in the provided knowledge pool.",
+        "steps": 2,
+        "tokens": 8892,
+        "latency_s": 124.63,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Diego Simeone associated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14196,
+        "latency_s": 109.34,
+        "replan": 2
+      },
+      {
+        "question": "Which country was go-go created in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14459,
+        "latency_s": 120.06,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Arthur Miller?",
+        "answer": "No relevant information about Arthur Miller's country of citizenship is found in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 14031,
+        "latency_s": 102.74,
+        "replan": 2
+      },
+      {
+        "question": "Who is the Prime Minister of Albania?",
+        "answer": "未找到关于阿尔巴尼亚总理的相关信息。",
+        "steps": 4,
+        "tokens": 14449,
+        "latency_s": 111.47,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Liz Lochhead?",
+        "answer": "No information available about the country of citizenship of Liz Lochhead in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13189,
+        "latency_s": 84.96,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Texas Collegiate League associated with?",
+        "answer": "No information available",
+        "steps": 4,
+        "tokens": 12909,
+        "latency_s": 72.55,
+        "replan": 2
+      },
+      {
+        "question": "Who performed Vogue?",
+        "answer": "No information in the knowledge pool about who performed Vogue.",
+        "steps": 4,
+        "tokens": 15681,
+        "latency_s": 177.33,
+        "replan": 2
+      },
+      {
+        "question": "Who is Wilma Flintstone's child?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 24771,
+        "latency_s": 194.82,
+        "replan": 2
+      },
+      {
+        "question": "Which city did Abraham Ortelius work in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 18515,
+        "latency_s": 136.79,
+        "replan": 2
+      },
+      {
+        "question": "Who founded Armani?",
+        "answer": "Giorgio Armani",
+        "steps": 2,
+        "tokens": 6226,
+        "latency_s": 54.05,
+        "replan": 0
+      },
+      {
+        "question": "What position does Mathieu Flamini play?",
+        "answer": "No information available about Mathieu Flamini's position in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13225,
+        "latency_s": 103.23,
+        "replan": 2
+      },
+      {
+        "question": "Who is the original broadcaster of The Wonder Years?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15234,
+        "latency_s": 135.68,
+        "replan": 2
+      },
+      {
+        "question": "Which company is M1895 Colt-Browning machine gun produced by?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 22086,
+        "latency_s": 218.22,
+        "replan": 2
+      },
+      {
+        "question": "Which religion is Pius IX affiliated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14041,
+        "latency_s": 101.13,
+        "replan": 2
+      },
+      {
+        "question": "Who is the original broadcaster of Morning Joe?",
+        "answer": "No relevant information about the original broadcaster of Morning Joe exists in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 15887,
+        "latency_s": 168.88,
+        "replan": 2
+      },
+      {
+        "question": "Who is Herodias's child?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 15728,
+        "latency_s": 149.49,
+        "replan": 2
+      },
+      {
+        "question": "Who was The Dark Knight created by?",
+        "answer": "Unknown",
+        "steps": 4,
+        "tokens": 15025,
+        "latency_s": 136.72,
+        "replan": 2
+      },
+      {
+        "question": "Which country was Jeune Afrique created in?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13963,
+        "latency_s": 109.36,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Anna Ancher?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 14474,
+        "latency_s": 122.27,
+        "replan": 2
+      },
+      {
+        "question": "What type of music does Andy Griffith play?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13705,
+        "latency_s": 113.05,
+        "replan": 2
+      },
+      {
+        "question": "Which city did Jerry Lee Lewis work in?",
+        "answer": "No relevant information available.",
+        "steps": 4,
+        "tokens": 13880,
+        "latency_s": 102.3,
+        "replan": 2
+      },
+      {
+        "question": "What language does William Shakespeare speak?",
+        "answer": "No relevant information",
+        "steps": 4,
+        "tokens": 14236,
+        "latency_s": 131.22,
+        "replan": 2
+      },
+      {
+        "question": "Which religion is Joseph Lyons affiliated with?",
+        "answer": "No relevant information about Joseph Lyons' religion is present in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13808,
+        "latency_s": 108.88,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is 2014 CollegeInsider.com Postseason Tournament associated with?",
+        "answer": "There is no information about the 2014 CollegeInsider.com Postseason Tournament in the provided knowledge pool.\nAnswer: No relevant information available.",
+        "steps": 4,
+        "tokens": 15150,
+        "latency_s": 137.1,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Harry Judd?",
+        "answer": "France",
+        "steps": 3,
+        "tokens": 10168,
+        "latency_s": 91.97,
+        "replan": 0
+      },
+      {
+        "question": "Which city did H. P. Lovecraft work in?",
+        "answer": "No information available in the knowledge pool about which city H.P. Lovecraft worked in.",
+        "steps": 4,
+        "tokens": 15633,
+        "latency_s": 155.96,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Grêmio Barueri Futebol associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 14809,
+        "latency_s": 134.73,
+        "replan": 2
+      },
+      {
+        "question": "Which religion is Pius VI affiliated with?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14466,
+        "latency_s": 122.61,
+        "replan": 2
+      },
+      {
+        "question": "Which university was Frank Norris educated at?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13947,
+        "latency_s": 103.21,
+        "replan": 2
+      },
+      {
+        "question": "What language does Theodor Herzl speak?",
+        "answer": "No relevant information available.",
+        "steps": 4,
+        "tokens": 14943,
+        "latency_s": 154.99,
+        "replan": 1
+      },
+      {
+        "question": "What is the official language of Spain?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13531,
+        "latency_s": 110.72,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Glenn L. Martin?",
+        "answer": "No information available about Glenn L. Martin's country of citizenship in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 19057,
+        "latency_s": 147.42,
+        "replan": 2
+      },
+      {
+        "question": "Which continent is Kingdom of Italy located in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15454,
+        "latency_s": 157.94,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is squeeze play associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 18577,
+        "latency_s": 126.59,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Worksop Town F.C. associated with?",
+        "answer": "No information available about Worksop Town F.C. in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13590,
+        "latency_s": 90.05,
+        "replan": 2
+      },
+      {
+        "question": "What is the original language of Gunsmoke?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15125,
+        "latency_s": 148.04,
+        "replan": 2
+      },
+      {
+        "question": "What is Helen Fielding famous for?",
+        "answer": "No relevant information about Helen Fielding's fame is available in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 23969,
+        "latency_s": 179.24,
+        "replan": 2
+      },
+      {
+        "question": "Who is the employer of Milan Stojadinović?",
+        "answer": "No information available",
+        "steps": 4,
+        "tokens": 14169,
+        "latency_s": 120.23,
+        "replan": 2
+      },
+      {
+        "question": "Which continent is Cuba located in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14313,
+        "latency_s": 141.31,
+        "replan": 2
+      },
+      {
+        "question": "Which language was 9/11 Commission Report written in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 22217,
+        "latency_s": 245.35,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Gianni Morbidelli?",
+        "answer": "Not mentioned",
+        "steps": 4,
+        "tokens": 15324,
+        "latency_s": 152.0,
+        "replan": 2
+      },
+      {
+        "question": "What is the name of the current head of the Nova Scotia government?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 19337,
+        "latency_s": 156.98,
+        "replan": 2
+      },
+      {
+        "question": "Which city did Lucan die in?",
+        "answer": "No relevant information about Lucan's death city is provided in the knowledge pool.",
+        "steps": 4,
+        "tokens": 16666,
+        "latency_s": 200.31,
+        "replan": 1
+      },
+      {
+        "question": "Who is the developer of Windows XP?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13671,
+        "latency_s": 117.14,
+        "replan": 2
+      },
+      {
+        "question": "Who is the employer of Aldrich Ames?",
+        "answer": "No relevant information available.",
+        "steps": 4,
+        "tokens": 13917,
+        "latency_s": 113.2,
+        "replan": 2
+      },
+      {
+        "question": "Which country was The Unit created in?",
+        "answer": "No information available about The Unit in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15432,
+        "latency_s": 152.04,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Jason Motte?",
+        "answer": "No relevant information about Jason Motte's country of citizenship is found in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 15555,
+        "latency_s": 168.96,
+        "replan": 2
+      },
+      {
+        "question": "What is the official language of Nokia?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15411,
+        "latency_s": 165.91,
+        "replan": 1
+      },
+      {
+        "question": "Who is the original broadcaster of Fantasy Island?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14920,
+        "latency_s": 147.56,
+        "replan": 2
+      },
+      {
+        "question": "What kind of work does N. Chandrababu Naidu do?",
+        "answer": "politician",
+        "steps": 2,
+        "tokens": 6937,
+        "latency_s": 78.15,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of George R. R. Martin?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 15037,
+        "latency_s": 143.32,
+        "replan": 2
+      },
+      {
+        "question": "What position does Shay Given play?",
+        "answer": "Not mentioned",
+        "steps": 4,
+        "tokens": 13964,
+        "latency_s": 118.56,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Glenn Miller?",
+        "answer": "No information available.",
+        "steps": 4,
+        "tokens": 13374,
+        "latency_s": 92.58,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Florentino Pérez associated with?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13945,
+        "latency_s": 105.5,
+        "replan": 2
+      },
+      {
+        "question": "Which city is the headquarter of University of Washington located in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13840,
+        "latency_s": 81.49,
+        "replan": 2
+      },
+      {
+        "question": "What position does Jerzy Dudek play?",
+        "answer": "No relevant information about Jerzy Dudek's position is found in the provided knowledge pool.",
+        "steps": 7,
+        "tokens": 32141,
+        "latency_s": 286.7,
+        "replan": 2
+      },
+      {
+        "question": "Which city did Ibn Saud work in?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 18061,
+        "latency_s": 129.42,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Lonnie Mack?",
+        "answer": "No information available",
+        "steps": 2,
+        "tokens": 8104,
+        "latency_s": 119.26,
+        "replan": 0
+      },
+      {
+        "question": "What language does Néstor Kirchner speak?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 5,
+        "tokens": 19292,
+        "latency_s": 164.04,
+        "replan": 2
+      },
+      {
+        "question": "Which sport is Larry Bird associated with?",
+        "answer": "No information about Larry Bird is present in the provided knowledge pool.\n\nWait, but let's check again: the task says to give a very concise answer. Maybe just \"No information\" is better? Let me adjust:\n\nNo information.\n\nYes, that's concise and follows the instructions since there are no relevant facts about Larry Bird in the evidence.</think_never_used_51bce0c785ca2f68081bfa7d91973934>No information.",
+        "steps": 5,
+        "tokens": 18440,
+        "latency_s": 122.84,
+        "replan": 2
+      },
+      {
+        "question": "Who performed Jessica Jones?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 3,
+        "tokens": 12077,
+        "latency_s": 148.85,
+        "replan": 1
+      },
+      {
+        "question": "Which city did Gordon Jackson die in?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 5,
+        "tokens": 17707,
+        "latency_s": 114.7,
+        "replan": 2
+      },
+      {
+        "question": "What is Alexander Hamilton famous for?",
+        "answer": "No relevant information about Alexander Hamilton is present in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 27943,
+        "latency_s": 278.37,
+        "replan": 1
+      },
+      {
+        "question": "Which university was Pablo Neruda educated at?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13300,
+        "latency_s": 80.62,
+        "replan": 2
+      },
+      {
+        "question": "Who is the Minister for Home Affairs?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 16146,
+        "latency_s": 165.08,
+        "replan": 2
+      },
+      {
+        "question": "Who is the developer of Purification Rundown?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13227,
+        "latency_s": 96.65,
+        "replan": 2
+      },
+      {
+        "question": "Which city is the headquarter of Canadian Broadcasting Corporation located in?",
+        "answer": "No relevant information in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 17643,
+        "latency_s": 192.42,
+        "replan": 2
+      },
+      {
+        "question": "Who is Chiang Kai-shek's child?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13908,
+        "latency_s": 100.16,
+        "replan": 2
+      },
+      {
+        "question": "Which company is Big Mac produced by?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 14234,
+        "latency_s": 122.34,
+        "replan": 2
+      },
+      {
+        "question": "Who is the author of Micrographia?",
+        "answer": "Not mentioned in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 13877,
+        "latency_s": 111.37,
+        "replan": 2
+      },
+      {
+        "question": "Who is the head coach of San Francisco Giants?",
+        "answer": "No relevant information in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13668,
+        "latency_s": 95.92,
+        "replan": 2
+      },
+      {
+        "question": "What is the country of citizenship of Lorenzo Lamas?",
+        "answer": "United States of America",
+        "steps": 2,
+        "tokens": 6371,
+        "latency_s": 56.43,
+        "replan": 0
+      },
+      {
+        "question": "What is Charaka famous for?",
+        "answer": "No relevant information about Charaka in the provided knowledge pool.",
+        "steps": 4,
+        "tokens": 16399,
+        "latency_s": 177.36,
+        "replan": 1
+      },
+      {
+        "question": "Which religion is Jadranka Kosor affiliated with?",
+        "answer": "No information available in the provided knowledge pool.",
+        "steps": 2,
+        "tokens": 7758,
+        "latency_s": 95.57,
+        "replan": 0
+      },
+      {
+        "question": "What position does Sam Cassell play?",
+        "answer": "No information about Sam Cassell's position is present in the provided knowledge pool.",
+        "steps": 6,
+        "tokens": 25293,
+        "latency_s": 212.18,
+        "replan": 2
+      },
+      {
+        "question": "What is the official language of Tampere?",
+        "answer": "No relevant information about the official language of Tampere is found in the knowledge pool.",
+        "steps": 4,
+        "tokens": 13878,
+        "latency_s": 113.29,
+        "replan": 2
+      }
+    ]
+  }
+}

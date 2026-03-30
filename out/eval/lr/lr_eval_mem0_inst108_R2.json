@@ -1,0 +1,65 @@
+{
+  "system": "mem0",
+  "instance_idx": 108,
+  "adaptor": "R2",
+  "accuracy": 0.1111111111111111,
+  "correct": 1,
+  "total": 9,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与问题无关。问题询问的是Lichem Rocchi的死亡方式，而Agent预测的答案是关于Hakamura对Uzuki的情感（Adore），与标准答案（A. Murder）和问题本身完全不符，属于严重偏离。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法根据提供的信息作答'，与标准答案的核心内容完全不符，属于信息不足的回答。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无相关信息'，未包含标准答案中的任何核心内容，属于信息不足的回答。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测的答案与标准答案完全一致，核心内容准确无误。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法确定'，而标准答案为具体人物，核心内容缺失且回答方向错误。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent的回答与标准答案完全不符。标准答案为具体选项，而Agent以'信息不足'为由拒绝作答，属于严重偏离。"
+    },
+    {
+      "q_idx": 6,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法确定'，未包含标准答案中的任何核心信息，属于信息不足的回答。"
+    },
+    {
+      "q_idx": 7,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心内容（被Sagara丢弃）与标准答案（被送到邮局并拆解丢弃）在关键处置方式和地点上存在本质差异，属于核心情节错误。"
+    },
+    {
+      "q_idx": 8,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent回答为'无法作答'，与标准答案的核心内容完全不符，属于严重偏离。"
+    }
+  ]
+}

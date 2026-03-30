@@ -1,0 +1,17 @@
+{
+  "system": "simpleMem",
+  "instance_idx": 1,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案。标准答案明确描述《到灯塔去》的情节（拉姆齐一家、灯塔之旅、一战影响等）和人物（拉姆齐夫妇、詹姆斯等），而Agent预测包含完全无关的人物名（如Ashanti Horatio, Peyton Orson）和情节，属于核心情节和人物完全错误。"
+    }
+  ]
+}

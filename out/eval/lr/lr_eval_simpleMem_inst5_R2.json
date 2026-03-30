@@ -1,0 +1,17 @@
+{
+  "system": "simpleMem",
+  "instance_idx": 5,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测的摘要严重偏离标准答案的核心情节。标准答案聚焦于故事开端的社交事件和人物介绍（如Mehtab Adrian租住庄园、Lila一家的反应、舞会等），而Agent预测的摘要内容是关于故事中后期发生的具体冲突（如Deanne的品行揭露、私奔事件等），两者描述的是完全不同的情节阶段和人物互动，核心内容缺失且错误。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "system": "simpleMem",
+  "instance_idx": 30,
+  "adaptor": "R2",
+  "accuracy": 0.0,
+  "correct": 0,
+  "total": 1,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "Write a summary of about 1000 to 1200 words. Only write about the plot and characters of the story. ",
+      "score": 0,
+      "reason": "Agent预测严重偏离标准答案。标准答案以Kelly Horatio为核心人物，描述其成长、婚姻和与Richie的关系开端；而Agent预测以Richie（Madame Horatio）为核心，并引入了大量标准答案中未出现的人物（如Brantley Sage、Lawrence、Brantley Lormeaux等）和情节（如牌局、读书会等），核心人物和情节均错误。"
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "dataset": "Conflict_Resolution",
+  "backend": "mem0",
+  "instance_idx": 4,
+  "results": {
+    "R1": [
+      {
+        "question": "Which sport is goaltender associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 616,
+        "latency_s": 5.54,
+        "replan": 0
+      },
+      {
+        "question": "What is Nobuhiro Watsuki famous for?",
+        "answer": "Rurouni Kenshin",
+        "steps": 1,
+        "tokens": 533,
+        "latency_s": 2.98,
+        "replan": 0
+      },
+      {
+        "question": "Which country was rugby union created in?",
+        "answer": "England",
+        "steps": 1,
+        "tokens": 566,
+        "latency_s": 5.82,
+        "replan": 0
+      },
+      {
+        "question": "What is Ferdowsi famous for?",
+        "answer": "Shahnameh",
+        "steps": 1,
+        "tokens": 529,
+        "latency_s": 3.53,
+        "replan": 0
+      },
+      {
+        "question": "Which university was Joan Didion educated at?",
+        "answer": "University of California, Berkeley",
+        "steps": 1,
+        "tokens": 572,
+        "latency_s": 4.04,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of The Marriage of Figaro?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 515,
+        "latency_s": 4.48,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Tunisia national football team associated with?",
+        "answer": "The information about the sport associated with Tunisia national football team is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 562,
+        "latency_s": 3.81,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is quarterback associated with?",
+        "answer": "Muay Thai",
+        "steps": 1,
+        "tokens": 681,
+        "latency_s": 7.73,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of Japan?",
+        "answer": "Swedish",
+        "steps": 1,
+        "tokens": 592,
+        "latency_s": 4.55,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Tucson government?",
+        "answer": "Jonathan Rothschild",
+        "steps": 1,
+        "tokens": 619,
+        "latency_s": 4.42,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Italy government?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 688,
+        "latency_s": 6.79,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Meredith Grey?",
+        "answer": "Ellen Pompeo",
+        "steps": 1,
+        "tokens": 531,
+        "latency_s": 4.27,
+        "replan": 0
+      },
+      {
+        "question": "What position does Robert Parish play?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 512,
+        "latency_s": 4.32,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Cédric Klapisch?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 2.31,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Sidereus Nuncius?",
+        "answer": "Galileo Galilei",
+        "steps": 1,
+        "tokens": 540,
+        "latency_s": 2.78,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Germany located in?",
+        "answer": "Europe",
+        "steps": 1,
+        "tokens": 565,
+        "latency_s": 5.07,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Kingdom of Ireland affiliated with?",
+        "answer": "Catholic Church",
+        "steps": 1,
+        "tokens": 560,
+        "latency_s": 2.99,
+        "replan": 0
+      },
+      {
+        "question": "Which country was association football created in?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 613,
+        "latency_s": 5.28,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of Windows Phone?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 694,
+        "latency_s": 6.32,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Microsoft?",
+        "answer": "Satya Nadella",
+        "steps": 1,
+        "tokens": 556,
+        "latency_s": 3.62,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chairperson of Harvard University?",
+        "answer": "Lawrence S. Bacow",
+        "steps": 1,
+        "tokens": 592,
+        "latency_s": 4.51,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Church of Scotland?",
+        "answer": "John Knox",
+        "steps": 1,
+        "tokens": 511,
+        "latency_s": 3.11,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Galwegians RFC associated with?",
+        "answer": "rugby union",
+        "steps": 1,
+        "tokens": 560,
+        "latency_s": 4.67,
+        "replan": 0
+      },
+      {
+        "question": "Who is the director of American Broadcasting Company?",
+        "answer": "Bob Iger",
+        "steps": 1,
+        "tokens": 562,
+        "latency_s": 3.43,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Gennady Rozhdestvensky die in?",
+        "answer": "United States of America",
+        "steps": 1,
+        "tokens": 617,
+        "latency_s": 6.01,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Tang Empire?",
+        "answer": "Chang'an",
+        "steps": 1,
+        "tokens": 535,
+        "latency_s": 3.96,
+        "replan": 0
+      },
+      {
+        "question": "Who is the director of British Broadcasting Corporation?",
+        "answer": "Narendra Modi",
+        "steps": 1,
+        "tokens": 576,
+        "latency_s": 4.61,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Benjamin Mazar?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 496,
+        "latency_s": 2.27,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Michael Mantler play?",
+        "answer": "The provided knowledge pool does not contain information about the type of music Michael Mantler plays.\n\nAnswer: Information insufficient.",
+        "steps": 1,
+        "tokens": 691,
+        "latency_s": 8.2,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Oscar Wilde die in?",
+        "answer": "Paris",
+        "steps": 1,
+        "tokens": 511,
+        "latency_s": 2.23,
+        "replan": 0
+      },
+      {
+        "question": "Which country was baseball created in?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 560,
+        "latency_s": 4.84,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Ernst Heinkel?",
+        "answer": "上下文信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 567,
+        "latency_s": 4.86,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of The University of the Arts located in?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 679,
+        "latency_s": 5.76,
+        "replan": 0
+      },
+      {
+        "question": "Which country was rap rock created in?",
+        "answer": "Information insufficient",
+        "steps": 1,
+        "tokens": 593,
+        "latency_s": 5.27,
+        "replan": 0
+      },
+      {
+        "question": "Where was Christianity founded?",
+        "answer": "Taipei",
+        "steps": 1,
+        "tokens": 567,
+        "latency_s": 5.35,
+        "replan": 0
+      },
+      {
+        "question": "What is the official language of United States of America?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 556,
+        "latency_s": 4.78,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Past Masters?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 577,
+        "latency_s": 4.23,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Japan?",
+        "answer": "Tokyo",
+        "steps": 1,
+        "tokens": 557,
+        "latency_s": 3.67,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of France?",
+        "answer": "The information about the capital of France is not provided in the given knowledge pool.",
+        "steps": 1,
+        "tokens": 677,
+        "latency_s": 8.03,
+        "replan": 0
+      },
+      {
+        "question": "Who is the developer of SteamOS?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 537,
+        "latency_s": 3.66,
+        "replan": 0
+      },
+      {
+        "question": "Which city is the headquarter of University of Bucharest located in?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 649,
+        "latency_s": 5.62,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is wide receiver associated with?",
+        "answer": "American football",
+        "steps": 1,
+        "tokens": 564,
+        "latency_s": 4.46,
+        "replan": 0
+      },
+      {
+        "question": "What position does Hines Ward play?",
+        "answer": "cornerback",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 4.32,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Australia?",
+        "answer": "The information about the capital of Australia is not provided in the knowledge pool.",
+        "steps": 1,
+        "tokens": 621,
+        "latency_s": 5.27,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Malaysia located in?",
+        "answer": "Antarctica",
+        "steps": 1,
+        "tokens": 571,
+        "latency_s": 3.9,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of A Wizard of Earthsea?",
+        "answer": "Ursula K. Le Guin",
+        "steps": 1,
+        "tokens": 573,
+        "latency_s": 3.63,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Free as a Bird?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 576,
+        "latency_s": 5.22,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Our Mutual Friend?",
+        "answer": "Charles Dickens",
+        "steps": 1,
+        "tokens": 540,
+        "latency_s": 3.49,
+        "replan": 0
+      },
+      {
+        "question": "Which country was basketball created in?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 548,
+        "latency_s": 4.19,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Hal Needham?",
+        "answer": "United States of America.",
+        "steps": 1,
+        "tokens": 503,
+        "latency_s": 2.96,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is Bengaluru located in?",
+        "answer": "Asia",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 4.53,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Slovakia national football team associated with?",
+        "answer": "association football",
+        "steps": 1,
+        "tokens": 542,
+        "latency_s": 3.81,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in United States of America?",
+        "answer": "Connachta",
+        "steps": 1,
+        "tokens": 598,
+        "latency_s": 4.01,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Imelda Marcos affiliated with?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 646,
+        "latency_s": 7.55,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does Dana International play?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 704,
+        "latency_s": 7.41,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Sable?",
+        "answer": "上下文信息不足，无法确定Sable的国籍。",
+        "steps": 1,
+        "tokens": 571,
+        "latency_s": 4.71,
+        "replan": 0
+      },
+      {
+        "question": "Which country was Charlie Hebdo created in?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 598,
+        "latency_s": 7.78,
+        "replan": 0
+      },
+      {
+        "question": "Who is Elvis Presley married to?",
+        "answer": "Charles the Bold",
+        "steps": 1,
+        "tokens": 582,
+        "latency_s": 5.59,
+        "replan": 0
+      },
+      {
+        "question": "Who performed Hermione Granger?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 534,
+        "latency_s": 3.54,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Bo Ryan associated with?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 545,
+        "latency_s": 3.23,
+        "replan": 0
+      },
+      {
+        "question": "What type of music does John McVie play?",
+        "answer": "rock music",
+        "steps": 1,
+        "tokens": 531,
+        "latency_s": 4.07,
+        "replan": 0
+      },
+      {
+        "question": "What position does Rogério Ceni play?",
+        "answer": "flanker",
+        "steps": 1,
+        "tokens": 537,
+        "latency_s": 3.5,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chief executive officer of Twitter?",
+        "answer": "Jack Dorsey",
+        "steps": 1,
+        "tokens": 563,
+        "latency_s": 3.9,
+        "replan": 0
+      },
+      {
+        "question": "What language does Kylie Minogue speak?",
+        "answer": "English",
+        "steps": 1,
+        "tokens": 505,
+        "latency_s": 4.72,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Darryl Strawberry associated with?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 527,
+        "latency_s": 4.38,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is placekicker associated with?",
+        "answer": "American football",
+        "steps": 1,
+        "tokens": 532,
+        "latency_s": 3.83,
+        "replan": 0
+      },
+      {
+        "question": "What kind of work does Stephen McNeil do?",
+        "answer": "Chairperson of Congolese Party of Labour.",
+        "steps": 1,
+        "tokens": 544,
+        "latency_s": 3.8,
+        "replan": 0
+      },
+      {
+        "question": "Who is the employer of Dave Filoni?",
+        "answer": "Lucasfilm",
+        "steps": 1,
+        "tokens": 554,
+        "latency_s": 3.94,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is San Francisco located in?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 504,
+        "latency_s": 3.19,
+        "replan": 0
+      },
+      {
+        "question": "Where was Canadair founded?",
+        "answer": "Information not available in the knowledge pool.",
+        "steps": 1,
+        "tokens": 577,
+        "latency_s": 5.4,
+        "replan": 0
+      },
+      {
+        "question": "Which company is AP1000 produced by?",
+        "answer": "信息不足，记忆上下文中未提及AP1000的生产公司。",
+        "steps": 1,
+        "tokens": 539,
+        "latency_s": 2.98,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Ayumi Hamasaki?",
+        "answer": "The information about the country of citizenship of Ayumi Hamasaki is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 630,
+        "latency_s": 6.62,
+        "replan": 0
+      },
+      {
+        "question": "What position does Blair Walsh play?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 515,
+        "latency_s": 4.6,
+        "replan": 0
+      },
+      {
+        "question": "Who is Tony Blair married to?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 488,
+        "latency_s": 2.96,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Endymion?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 521,
+        "latency_s": 2.97,
+        "replan": 0
+      },
+      {
+        "question": "Who is the author of Lady Windermere's Fan?",
+        "answer": "上下文信息不足。",
+        "steps": 1,
+        "tokens": 592,
+        "latency_s": 5.12,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of the Japan government?",
+        "answer": "信息不足，无法回答。",
+        "steps": 1,
+        "tokens": 585,
+        "latency_s": 5.53,
+        "replan": 0
+      },
+      {
+        "question": "Who is the chairperson of Congolese Party of Labour?",
+        "answer": "Stephen McNeil",
+        "steps": 1,
+        "tokens": 603,
+        "latency_s": 4.43,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is flanker associated with?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 523,
+        "latency_s": 2.88,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Czech Republic?",
+        "answer": "The information about the capital of Czech Republic is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 668,
+        "latency_s": 7.59,
+        "replan": 0
+      },
+      {
+        "question": "What position does Lisa Leslie play?",
+        "answer": "center",
+        "steps": 1,
+        "tokens": 556,
+        "latency_s": 3.82,
+        "replan": 0
+      },
+      {
+        "question": "What is the name of the current head of state in Soviet Union?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 549,
+        "latency_s": 3.94,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Ferdinand von Richthofen?",
+        "answer": "Germany",
+        "steps": 1,
+        "tokens": 502,
+        "latency_s": 4.44,
+        "replan": 0
+      },
+      {
+        "question": "Which religion is Karen Armstrong affiliated with?",
+        "answer": "The information is insufficient.",
+        "steps": 1,
+        "tokens": 542,
+        "latency_s": 3.34,
+        "replan": 0
+      },
+      {
+        "question": "Who was Vito Corleone created by?",
+        "answer": "信息不足",
+        "steps": 1,
+        "tokens": 564,
+        "latency_s": 3.92,
+        "replan": 0
+      },
+      {
+        "question": "What is the capital of Romania?",
+        "answer": "Rajanpur",
+        "steps": 1,
+        "tokens": 553,
+        "latency_s": 4.1,
+        "replan": 0
+      },
+      {
+        "question": "Which continent is India located in?",
+        "answer": "上下文信息不足",
+        "steps": 1,
+        "tokens": 490,
+        "latency_s": 4.55,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Olga of Kiev die in?",
+        "answer": "Kyiv",
+        "steps": 1,
+        "tokens": 513,
+        "latency_s": 2.85,
+        "replan": 0
+      },
+      {
+        "question": "Who founded Sasanian Empire?",
+        "answer": "The context information is insufficient to answer the question.",
+        "steps": 1,
+        "tokens": 607,
+        "latency_s": 5.4,
+        "replan": 0
+      },
+      {
+        "question": "Which city did Pedro Pierluisi work in?",
+        "answer": "Washington, D.C.",
+        "steps": 1,
+        "tokens": 560,
+        "latency_s": 3.68,
+        "replan": 0
+      },
+      {
+        "question": "Which sport is Surrey Senior Cup associated with?",
+        "answer": "The information about which sport Surrey Senior Cup is associated with is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 638,
+        "latency_s": 6.22,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Narendra Modi?",
+        "answer": "The context information is insufficient.",
+        "steps": 1,
+        "tokens": 565,
+        "latency_s": 4.19,
+        "replan": 0
+      },
+      {
+        "question": "Who is Victoria Beckham married to?",
+        "answer": "David Beckham",
+        "steps": 1,
+        "tokens": 535,
+        "latency_s": 4.39,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Charles Messier?",
+        "answer": "信息不足。",
+        "steps": 1,
+        "tokens": 501,
+        "latency_s": 2.63,
+        "replan": 0
+      },
+      {
+        "question": "Who was Rand al'Thor created by?",
+        "answer": "Robert Jordan",
+        "steps": 1,
+        "tokens": 530,
+        "latency_s": 3.13,
+        "replan": 0
+      },
+      {
+        "question": "What position does Mike D'Antoni play?",
+        "answer": "point guard",
+        "steps": 1,
+        "tokens": 554,
+        "latency_s": 3.6,
+        "replan": 0
+      },
+      {
+        "question": "What is the country of citizenship of Colin Irwin?",
+        "answer": "United Kingdom",
+        "steps": 1,
+        "tokens": 539,
+        "latency_s": 4.05,
+        "replan": 0
+      },
+      {
+        "question": "Who is Walter Chrysler's child?",
+        "answer": "Walter Percy Chrysler Jr.",
+        "steps": 1,
+        "tokens": 550,
+        "latency_s": 4.42,
+        "replan": 0
+      },
+      {
+        "question": "Who is Charles Darwin married to?",
+        "answer": "上下文信息不足，无法回答该问题。",
+        "steps": 1,
+        "tokens": 539,
+        "latency_s": 4.23,
+        "replan": 0
+      },
+      {
+        "question": "What position does Irving Fryar play?",
+        "answer": "The information about Irving Fryar's position is not available in the provided knowledge pool.",
+        "steps": 1,
+        "tokens": 638,
+        "latency_s": 5.83,
+        "replan": 0
+      }
+    ]
+  }
+}

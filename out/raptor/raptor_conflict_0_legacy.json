@@ -1,0 +1,38 @@
+{
+  "dataset": "Conflict_Resolution",
+  "instance_idx": 0,
+  "results": {
+    "R1": [
+      {
+        "question": "What is the country of citizenship of the spouse of the author of Our Mutual Friend?",
+        "answer": "United Kingdom\n\nFirst, we identify the author of *Our Mutual Friend*: context [3] states it is Charles Dickens. Then, context [4] mentions Catherine Dickens (Charles Dickens' spouse) is a citizen of the United Kingdom. Thus, the country of citizenship of the spouse is the United Kingdom.\n\n\nNote: Context [2] incorrectly lists Charles Darwin as the author, but context [3] provides the correct author (Charles Dickens), and context [4] gives the spouse's citizenship. We rely on the consistent and relevant information here.\n\n\nAnswer: United Kingdom",
+        "ground_truth": [
+          "Belgium"
+        ],
+        "steps": 1,
+        "tokens": 1697,
+        "replan": 0
+      },
+      {
+        "question": "In which location did the spouse of Igor of Kiev pass away?",
+        "answer": "There are conflicting reports in the context about the death place of Igor of Kiev's spouse (Olga of Kiev). Some sources state she died in Kyiv, while others mention Rodez.\n\n**Answer:** Conflicting information indicates Olga of Kiev (spouse of Igor of Kiev) died either in Kyiv or Rodez.",
+        "ground_truth": [
+          "Rodez"
+        ],
+        "steps": 1,
+        "tokens": 1690,
+        "replan": 0
+      },
+      {
+        "question": "Which country is the birthplace of the sport associated with Steve Sax?",
+        "answer": "The sport associated with Steve Sax is baseball, and there are conflicting claims about its birthplace in the context: the United States of America (stated in [2] entry 160) and Japan (stated in [4] section \"Sports & Teams\").",
+        "ground_truth": [
+          "Italy"
+        ],
+        "steps": 1,
+        "tokens": 1595,
+        "replan": 0
+      }
+    ]
+  }
+}

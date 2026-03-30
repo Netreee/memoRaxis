@@ -1,0 +1,47 @@
+{
+  "system": "mem0",
+  "instance_idx": 101,
+  "adaptor": "R3",
+  "accuracy": 0.16666666666666666,
+  "correct": 1,
+  "total": 6,
+  "completed": true,
+  "details": [
+    {
+      "q_idx": 0,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心情节（Rudy Schlesinger开枪后自杀）与标准答案（被情妇Blacklock杀死）在关键人物关系和死因上完全矛盾，属于严重偏离。"
+    },
+    {
+      "q_idx": 1,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案与标准答案完全不符，核心内容错误。标准答案为'D. Her sister Charlotte Blacklock'，而Agent预测为'A. That is herself'，属于主要人物关系判断错误。"
+    },
+    {
+      "q_idx": 2,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心情节（Dora服用过量麻醉剂）与标准答案（情妇将安眠药替换为毒药）在关键人物、手段和因果关系上完全不符，属于严重偏离。"
+    },
+    {
+      "q_idx": 3,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的答案选项（C）与标准答案（D）完全不符，且其推理内容与问题所问的‘Charlotte为什么假扮Letitia’的核心情节和动机（继承遗产、渴望新生活）严重偏离。"
+    },
+    {
+      "q_idx": 4,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 0,
+      "reason": "Agent预测的核心情节（Philippa知道部分真相并收受封口费）与标准答案（女主人因知道Philippa是富人侄女而给予部分遗产以安抚）在关键动机和事实上严重不符，属于核心情节错误。"
+    },
+    {
+      "q_idx": 5,
+      "question": "\n            For example:\n            [story text] \n            \n            Question: Lichem Rocchi",
+      "score": 1,
+      "reason": "Agent预测准确复现了标准答案的核心内容：凶手制造短路导致黑暗，且灯泡被烧毁。"
+    }
+  ]
+}
